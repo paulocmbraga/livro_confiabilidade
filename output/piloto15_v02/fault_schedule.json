@@ -1,0 +1,173 @@
+{
+  "protocol": "L15-1.0",
+  "clock": "logical seconds, initial 100; retention 50; deadline 150",
+  "unit": "isolated scenario with its own databases; not a traffic sample",
+  "admitted": 18,
+  "cases": [
+    {
+      "id": "S01",
+      "fault": "normal",
+      "expected_effects": 1,
+      "expected_stock": 8,
+      "expected_states": [
+        "confirmed"
+      ]
+    },
+    {
+      "id": "S02",
+      "fault": "drop_reply",
+      "expected_effects": 1,
+      "expected_stock": 8,
+      "expected_states": [
+        "confirmed"
+      ]
+    },
+    {
+      "id": "S03",
+      "fault": "baseline",
+      "expected_effects": 2,
+      "expected_stock": 6,
+      "expected_states": [
+        "confirmed"
+      ]
+    },
+    {
+      "id": "S04",
+      "fault": "before_commit",
+      "expected_effects": 1,
+      "expected_stock": 8,
+      "expected_states": [
+        "confirmed"
+      ]
+    },
+    {
+      "id": "S05",
+      "fault": "after_commit",
+      "expected_effects": 1,
+      "expected_stock": 8,
+      "expected_states": [
+        "confirmed"
+      ]
+    },
+    {
+      "id": "S06",
+      "fault": "before_send",
+      "expected_effects": 1,
+      "expected_stock": 8,
+      "expected_states": [
+        "confirmed"
+      ]
+    },
+    {
+      "id": "S07",
+      "fault": "after_receive",
+      "expected_effects": 1,
+      "expected_stock": 8,
+      "expected_states": [
+        "confirmed"
+      ]
+    },
+    {
+      "id": "S08",
+      "fault": "same_key",
+      "expected_effects": 1,
+      "expected_stock": 8,
+      "expected_states": [
+        "confirmed"
+      ]
+    },
+    {
+      "id": "S09",
+      "fault": "stale_version",
+      "expected_effects": 1,
+      "expected_stock": 8,
+      "expected_states": [
+        "confirmed",
+        "rejected"
+      ]
+    },
+    {
+      "id": "S10",
+      "fault": "payload_mismatch",
+      "expected_effects": 1,
+      "expected_stock": 8,
+      "expected_states": [
+        "confirmed"
+      ]
+    },
+    {
+      "id": "S11",
+      "fault": "expired_retention",
+      "expected_effects": 1,
+      "expected_stock": 8,
+      "expected_states": [
+        "unknown"
+      ]
+    },
+    {
+      "id": "S12",
+      "fault": "no_lookup",
+      "expected_effects": 1,
+      "expected_stock": 8,
+      "expected_states": [
+        "unknown"
+      ]
+    },
+    {
+      "id": "S13",
+      "fault": "unavailable_lookup",
+      "expected_effects": 1,
+      "expected_stock": 8,
+      "expected_states": [
+        "unknown"
+      ]
+    },
+    {
+      "id": "S14",
+      "fault": "compensate",
+      "expected_effects": 2,
+      "expected_stock": 10,
+      "expected_states": [
+        "confirmed",
+        "confirmed"
+      ]
+    },
+    {
+      "id": "S15",
+      "fault": "irreversible",
+      "expected_effects": 1,
+      "expected_stock": 8,
+      "expected_states": [
+        "confirmed",
+        "rejected"
+      ]
+    },
+    {
+      "id": "S16",
+      "fault": "revoked_approval",
+      "expected_effects": 0,
+      "expected_stock": 10,
+      "expected_states": [
+        "rejected"
+      ]
+    },
+    {
+      "id": "S17",
+      "fault": "insufficient_stock",
+      "expected_effects": 0,
+      "expected_stock": 10,
+      "expected_states": [
+        "rejected"
+      ]
+    },
+    {
+      "id": "S18",
+      "fault": "expired_approval",
+      "expected_effects": 0,
+      "expected_stock": 10,
+      "expected_states": [
+        "rejected"
+      ]
+    }
+  ]
+}

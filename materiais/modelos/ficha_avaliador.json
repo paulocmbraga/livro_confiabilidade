@@ -1,0 +1,19 @@
+{
+  "schema": "livro.modelo.avaliador/1",
+  "status": "preparacao",
+  "decision": "pendente",
+  "external_authority": false,
+  "evaluator_id": null,
+  "version": null,
+  "kind": null,
+  "rubric": null,
+  "allowed_inputs": [],
+  "calibration_families": [],
+  "test_families": [],
+  "identity_blinding": null,
+  "abstention_rule": null,
+  "critical_errors": [],
+  "evidence": [],
+  "human_validation": "nao_executada",
+  "model_validation": "nao_executada"
+}

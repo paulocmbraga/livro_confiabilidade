@@ -1,0 +1,64 @@
+{"case_id": "V01", "evaluator": "superficial", "valid": true, "category": "controle", "accepted": true, "defects": []}
+{"case_id": "V01", "evaluator": "compartilhado", "valid": true, "category": "controle", "accepted": false, "defects": []}
+{"case_id": "V01", "evaluator": "literal", "valid": true, "category": "controle", "accepted": true, "defects": []}
+{"case_id": "V01", "evaluator": "contrato", "valid": true, "category": "controle", "accepted": true, "defects": []}
+{"case_id": "V02", "evaluator": "superficial", "valid": true, "category": "equivalencia", "accepted": true, "defects": []}
+{"case_id": "V02", "evaluator": "compartilhado", "valid": true, "category": "equivalencia", "accepted": false, "defects": []}
+{"case_id": "V02", "evaluator": "literal", "valid": true, "category": "equivalencia", "accepted": false, "defects": []}
+{"case_id": "V02", "evaluator": "contrato", "valid": true, "category": "equivalencia", "accepted": true, "defects": []}
+{"case_id": "V03", "evaluator": "superficial", "valid": true, "category": "equivalencia", "accepted": false, "defects": []}
+{"case_id": "V03", "evaluator": "compartilhado", "valid": true, "category": "equivalencia", "accepted": false, "defects": []}
+{"case_id": "V03", "evaluator": "literal", "valid": true, "category": "equivalencia", "accepted": true, "defects": []}
+{"case_id": "V03", "evaluator": "contrato", "valid": true, "category": "equivalencia", "accepted": true, "defects": []}
+{"case_id": "V04", "evaluator": "superficial", "valid": true, "category": "equivalencia", "accepted": true, "defects": []}
+{"case_id": "V04", "evaluator": "compartilhado", "valid": true, "category": "equivalencia", "accepted": false, "defects": []}
+{"case_id": "V04", "evaluator": "literal", "valid": true, "category": "equivalencia", "accepted": false, "defects": []}
+{"case_id": "V04", "evaluator": "contrato", "valid": true, "category": "equivalencia", "accepted": true, "defects": []}
+{"case_id": "V05", "evaluator": "superficial", "valid": true, "category": "fronteira", "accepted": true, "defects": []}
+{"case_id": "V05", "evaluator": "compartilhado", "valid": true, "category": "fronteira", "accepted": false, "defects": []}
+{"case_id": "V05", "evaluator": "literal", "valid": true, "category": "fronteira", "accepted": true, "defects": []}
+{"case_id": "V05", "evaluator": "contrato", "valid": true, "category": "fronteira", "accepted": true, "defects": []}
+{"case_id": "M01", "evaluator": "superficial", "valid": false, "category": "estoque", "accepted": true, "defects": ["conservacao"]}
+{"case_id": "M01", "evaluator": "compartilhado", "valid": false, "category": "estoque", "accepted": true, "defects": ["conservacao"]}
+{"case_id": "M01", "evaluator": "literal", "valid": false, "category": "estoque", "accepted": false, "defects": ["conservacao"]}
+{"case_id": "M01", "evaluator": "contrato", "valid": false, "category": "estoque", "accepted": false, "defects": ["conservacao"]}
+{"case_id": "M02", "evaluator": "superficial", "valid": false, "category": "identidade", "accepted": true, "defects": ["vinculo_principal"]}
+{"case_id": "M02", "evaluator": "compartilhado", "valid": false, "category": "identidade", "accepted": false, "defects": ["vinculo_principal"]}
+{"case_id": "M02", "evaluator": "literal", "valid": false, "category": "identidade", "accepted": false, "defects": ["vinculo_principal"]}
+{"case_id": "M02", "evaluator": "contrato", "valid": false, "category": "identidade", "accepted": false, "defects": ["vinculo_principal"]}
+{"case_id": "M03", "evaluator": "superficial", "valid": false, "category": "payload", "accepted": true, "defects": ["conservacao", "vinculo_quantity"]}
+{"case_id": "M03", "evaluator": "compartilhado", "valid": false, "category": "payload", "accepted": false, "defects": ["conservacao", "vinculo_quantity"]}
+{"case_id": "M03", "evaluator": "literal", "valid": false, "category": "payload", "accepted": false, "defects": ["conservacao", "vinculo_quantity"]}
+{"case_id": "M03", "evaluator": "contrato", "valid": false, "category": "payload", "accepted": false, "defects": ["conservacao", "vinculo_quantity"]}
+{"case_id": "M04", "evaluator": "superficial", "valid": false, "category": "unicidade", "accepted": true, "defects": ["conservacao", "unicidade"]}
+{"case_id": "M04", "evaluator": "compartilhado", "valid": false, "category": "unicidade", "accepted": false, "defects": ["conservacao", "unicidade"]}
+{"case_id": "M04", "evaluator": "literal", "valid": false, "category": "unicidade", "accepted": false, "defects": ["conservacao", "unicidade"]}
+{"case_id": "M04", "evaluator": "contrato", "valid": false, "category": "unicidade", "accepted": false, "defects": ["conservacao", "unicidade"]}
+{"case_id": "M05", "evaluator": "superficial", "valid": false, "category": "recibo", "accepted": true, "defects": ["recibo"]}
+{"case_id": "M05", "evaluator": "compartilhado", "valid": false, "category": "recibo", "accepted": false, "defects": ["recibo"]}
+{"case_id": "M05", "evaluator": "literal", "valid": false, "category": "recibo", "accepted": false, "defects": ["recibo"]}
+{"case_id": "M05", "evaluator": "contrato", "valid": false, "category": "recibo", "accepted": false, "defects": ["recibo"]}
+{"case_id": "M06", "evaluator": "superficial", "valid": false, "category": "precedencia", "accepted": true, "defects": ["precedencia"]}
+{"case_id": "M06", "evaluator": "compartilhado", "valid": false, "category": "precedencia", "accepted": false, "defects": ["precedencia"]}
+{"case_id": "M06", "evaluator": "literal", "valid": false, "category": "precedencia", "accepted": false, "defects": ["precedencia"]}
+{"case_id": "M06", "evaluator": "contrato", "valid": false, "category": "precedencia", "accepted": false, "defects": ["precedencia"]}
+{"case_id": "M07", "evaluator": "superficial", "valid": false, "category": "prazo", "accepted": true, "defects": ["prazo"]}
+{"case_id": "M07", "evaluator": "compartilhado", "valid": false, "category": "prazo", "accepted": false, "defects": ["prazo"]}
+{"case_id": "M07", "evaluator": "literal", "valid": false, "category": "prazo", "accepted": false, "defects": ["prazo"]}
+{"case_id": "M07", "evaluator": "contrato", "valid": false, "category": "prazo", "accepted": false, "defects": ["prazo"]}
+{"case_id": "M08", "evaluator": "superficial", "valid": false, "category": "ausencia", "accepted": true, "defects": ["unicidade"]}
+{"case_id": "M08", "evaluator": "compartilhado", "valid": false, "category": "ausencia", "accepted": false, "defects": ["unicidade"]}
+{"case_id": "M08", "evaluator": "literal", "valid": false, "category": "ausencia", "accepted": false, "defects": ["unicidade"]}
+{"case_id": "M08", "evaluator": "contrato", "valid": false, "category": "ausencia", "accepted": false, "defects": ["unicidade"]}
+{"case_id": "M09", "evaluator": "superficial", "valid": false, "category": "tipo", "accepted": true, "defects": ["quantidade_intencao", "tipo_estoque", "tipo_quantidade"]}
+{"case_id": "M09", "evaluator": "compartilhado", "valid": false, "category": "tipo", "accepted": true, "defects": ["quantidade_intencao", "tipo_estoque", "tipo_quantidade"]}
+{"case_id": "M09", "evaluator": "literal", "valid": false, "category": "tipo", "accepted": false, "defects": ["quantidade_intencao", "tipo_estoque", "tipo_quantidade"]}
+{"case_id": "M09", "evaluator": "contrato", "valid": false, "category": "tipo", "accepted": false, "defects": ["quantidade_intencao", "tipo_estoque", "tipo_quantidade"]}
+{"case_id": "M10", "evaluator": "superficial", "valid": false, "category": "estado", "accepted": false, "defects": ["chamado"]}
+{"case_id": "M10", "evaluator": "compartilhado", "valid": false, "category": "estado", "accepted": false, "defects": ["chamado"]}
+{"case_id": "M10", "evaluator": "literal", "valid": false, "category": "estado", "accepted": false, "defects": ["chamado"]}
+{"case_id": "M10", "evaluator": "contrato", "valid": false, "category": "estado", "accepted": false, "defects": ["chamado"]}
+{"case_id": "M11", "evaluator": "superficial", "valid": false, "category": "estoque", "accepted": true, "defects": ["conservacao"]}
+{"case_id": "M11", "evaluator": "compartilhado", "valid": false, "category": "estoque", "accepted": false, "defects": ["conservacao"]}
+{"case_id": "M11", "evaluator": "literal", "valid": false, "category": "estoque", "accepted": false, "defects": ["conservacao"]}
+{"case_id": "M11", "evaluator": "contrato", "valid": false, "category": "estoque", "accepted": false, "defects": ["conservacao"]}

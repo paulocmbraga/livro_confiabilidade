@@ -1,0 +1,318 @@
+{
+  "L17": {
+    "sucessos": {
+      "admitted": 12,
+      "sampled": 11,
+      "complete": 8,
+      "coverage": 0.6666666666666666,
+      "sampled_coverage": 0.7272727272727273,
+      "identity_errors": 0,
+      "orphans": 0,
+      "secret_exposed": true
+    },
+    "falhas": {
+      "admitted": 12,
+      "sampled": 11,
+      "complete": 9,
+      "coverage": 0.75,
+      "sampled_coverage": 0.8181818181818182,
+      "identity_errors": 1,
+      "orphans": 1,
+      "secret_exposed": true
+    },
+    "controlado": {
+      "admitted": 12,
+      "sampled": 11,
+      "complete": 11,
+      "coverage": 0.9166666666666666,
+      "sampled_coverage": 1.0,
+      "identity_errors": 0,
+      "orphans": 0,
+      "secret_exposed": false
+    }
+  },
+  "L18": {
+    "tasks": 200,
+    "assigned": 130,
+    "cohorts": [
+      {
+        "cohort": 0,
+        "tasks": 50,
+        "votes": 25,
+        "feedback_quality": 0.8,
+        "fixture_quality": 0.88,
+        "weighted_audit_quality": 0.92
+      },
+      {
+        "cohort": 1,
+        "tasks": 50,
+        "votes": 25,
+        "feedback_quality": 0.8,
+        "fixture_quality": 0.86,
+        "weighted_audit_quality": 0.83
+      },
+      {
+        "cohort": 2,
+        "tasks": 50,
+        "votes": 38,
+        "feedback_quality": 1.0,
+        "fixture_quality": 0.76,
+        "weighted_audit_quality": 0.76
+      },
+      {
+        "cohort": 3,
+        "tasks": 50,
+        "votes": 38,
+        "feedback_quality": 1.0,
+        "fixture_quality": 0.76,
+        "weighted_audit_quality": 0.8
+      }
+    ],
+    "alerts": [
+      {
+        "day": 1,
+        "cohort": 1,
+        "kind": "mudanca_entrada",
+        "hypothesis": "mudança de mistura; qualidade ainda desconhecida",
+        "owner": "dados",
+        "action": "auditar coorte",
+        "next_check": 4
+      },
+      {
+        "day": 5,
+        "cohort": 2,
+        "kind": "qualidade",
+        "hypothesis": "erro do segmento difícil acima do limiar didático",
+        "owner": "qualidade",
+        "action": "conter segmento e revisar casos",
+        "next_check": 6
+      },
+      {
+        "day": 6,
+        "cohort": 3,
+        "kind": "qualidade",
+        "hypothesis": "erro do segmento difícil acima do limiar didático",
+        "owner": "qualidade",
+        "action": "conter segmento e revisar casos",
+        "next_check": 7
+      }
+    ]
+  },
+  "L19": [
+    {
+      "offered": 33,
+      "useful": 11,
+      "statuses": {
+        "sucesso": 11,
+        "falha": 22
+      },
+      "attempts": 99,
+      "amplification": 3.0,
+      "p95_useful_ms": 127.43249996565281,
+      "p95_terminal_ms": 125.39890000084414,
+      "useful_throughput": 8.949868774668463,
+      "cancelled_calls": 0,
+      "late_calls": 0,
+      "recovery_success": 6,
+      "recovery_offered": 6,
+      "peak_active": 2,
+      "peak_queue": 1,
+      "drained_at": 1.2291446999879554,
+      "remaining": 0,
+      "policy": "baseline",
+      "repetition": 0
+    },
+    {
+      "offered": 33,
+      "useful": 12,
+      "statuses": {
+        "sucesso": 11,
+        "rejeitado": 18,
+        "fallback": 1,
+        "expirado": 3
+      },
+      "attempts": 14,
+      "amplification": 0.42424242424242425,
+      "p95_useful_ms": 122.71609998214988,
+      "p95_terminal_ms": 141.99599996767935,
+      "useful_throughput": 9.78462012656037,
+      "cancelled_calls": 3,
+      "late_calls": 3,
+      "recovery_success": 6,
+      "recovery_offered": 6,
+      "peak_active": 2,
+      "peak_queue": 4,
+      "drained_at": 1.22645229997579,
+      "remaining": 0,
+      "policy": "limitado",
+      "repetition": 0
+    },
+    {
+      "offered": 33,
+      "useful": 10,
+      "statuses": {
+        "sucesso": 10,
+        "rejeitado": 18,
+        "expirado": 5
+      },
+      "attempts": 14,
+      "amplification": 0.42424242424242425,
+      "p95_useful_ms": 126.71740002883597,
+      "p95_terminal_ms": 152.23710002377626,
+      "useful_throughput": 8.132082586471636,
+      "cancelled_calls": 4,
+      "late_calls": 3,
+      "recovery_success": 6,
+      "recovery_offered": 6,
+      "peak_active": 2,
+      "peak_queue": 4,
+      "drained_at": 1.2297542000305839,
+      "remaining": 0,
+      "policy": "limitado",
+      "repetition": 1
+    },
+    {
+      "offered": 33,
+      "useful": 11,
+      "statuses": {
+        "sucesso": 11,
+        "falha": 22
+      },
+      "attempts": 99,
+      "amplification": 3.0,
+      "p95_useful_ms": 95.77710002195089,
+      "p95_terminal_ms": 93.76380003709345,
+      "useful_throughput": 8.947466415088307,
+      "cancelled_calls": 0,
+      "late_calls": 0,
+      "recovery_success": 6,
+      "recovery_offered": 6,
+      "peak_active": 2,
+      "peak_queue": 1,
+      "drained_at": 1.229529200005345,
+      "remaining": 0,
+      "policy": "baseline",
+      "repetition": 1
+    },
+    {
+      "offered": 33,
+      "useful": 11,
+      "statuses": {
+        "sucesso": 11,
+        "falha": 22
+      },
+      "attempts": 99,
+      "amplification": 3.0,
+      "p95_useful_ms": 113.26429999899118,
+      "p95_terminal_ms": 111.30879998859017,
+      "useful_throughput": 8.951448482948983,
+      "cancelled_calls": 0,
+      "late_calls": 0,
+      "recovery_success": 6,
+      "recovery_offered": 6,
+      "peak_active": 2,
+      "peak_queue": 1,
+      "drained_at": 1.2289134999737144,
+      "remaining": 0,
+      "policy": "baseline",
+      "repetition": 2
+    },
+    {
+      "offered": 33,
+      "useful": 10,
+      "statuses": {
+        "sucesso": 9,
+        "rejeitado": 18,
+        "expirado": 5,
+        "fallback": 1
+      },
+      "attempts": 13,
+      "amplification": 0.3939393939393939,
+      "p95_useful_ms": 128.28669996606183,
+      "p95_terminal_ms": 155.78049995983017,
+      "useful_throughput": 8.153636028431137,
+      "cancelled_calls": 4,
+      "late_calls": 2,
+      "recovery_success": 6,
+      "recovery_offered": 6,
+      "peak_active": 2,
+      "peak_queue": 4,
+      "drained_at": 1.2264767999877222,
+      "remaining": 0,
+      "policy": "limitado",
+      "repetition": 2
+    }
+  ],
+  "L20": {
+    "policies": {
+      "grande": {
+        "tasks": 20,
+        "correct": 20,
+        "quality": 1.0,
+        "known_mBRL": 2000,
+        "unknown_receipts": 0,
+        "cost_per_correct_mBRL": 100.0,
+        "review": 0,
+        "mean_logical_latency": 2.0,
+        "segments": {
+          "simples": 1.0,
+          "dificil": 1.0
+        }
+      },
+      "barato": {
+        "tasks": 20,
+        "correct": 18,
+        "quality": 0.9,
+        "known_mBRL": 2180,
+        "unknown_receipts": 0,
+        "cost_per_correct_mBRL": 121.11111111111111,
+        "review": 6,
+        "mean_logical_latency": 2.8,
+        "segments": {
+          "simples": 1.0,
+          "dificil": 0.6666666666666666
+        }
+      },
+      "roteado": {
+        "tasks": 20,
+        "correct": 20,
+        "quality": 1.0,
+        "known_mBRL": 1160,
+        "unknown_receipts": 0,
+        "cost_per_correct_mBRL": 58.0,
+        "review": 0,
+        "mean_logical_latency": 1.3,
+        "segments": {
+          "simples": 1.0,
+          "dificil": 1.0
+        }
+      }
+    },
+    "decision": "roteado",
+    "probes": {
+      "unknown": {
+        "tasks": 20,
+        "correct": 20,
+        "quality": 1.0,
+        "known_mBRL": 1150,
+        "unknown_receipts": 1,
+        "cost_per_correct_mBRL": null,
+        "review": 0,
+        "mean_logical_latency": 1.3,
+        "segments": {
+          "simples": 1.0,
+          "dificil": 1.0
+        }
+      },
+      "budget": {
+        "blocked_while_pending": true,
+        "admitted_after_settlement": true,
+        "settled": 80,
+        "pending": {
+          "B": 90
+        }
+      },
+      "expired_price_accepted": false
+    }
+  }
+}

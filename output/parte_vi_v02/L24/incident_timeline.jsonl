@@ -1,0 +1,21 @@
+{"case": "S02", "seq": 1, "intent": "pedido-1", "state": "unknown", "detail": "before_network"}
+{"case": "S02", "seq": 2, "intent": "pedido-1", "state": "unknown", "detail": "RemoteDisconnected: Remote end closed connection without response"}
+{"case": "S02", "seq": 3, "intent": "pedido-1", "state": "unknown", "detail": "before_network"}
+{"case": "S02", "seq": 4, "intent": "pedido-1", "state": "confirmed", "detail": "lookup_verified"}
+{"case": "S05", "seq": 1, "intent": "pedido-1", "state": "unknown", "detail": "before_network"}
+{"case": "S05", "seq": 2, "intent": "pedido-1", "state": "unknown", "detail": "ConnectionResetError: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto"}
+{"case": "S05", "seq": 3, "intent": "pedido-1", "state": "unknown", "detail": "before_network"}
+{"case": "S05", "seq": 4, "intent": "pedido-1", "state": "confirmed", "detail": "lookup_verified"}
+{"case": "S07", "seq": 1, "intent": "pedido-1", "state": "unknown", "detail": "before_network"}
+{"case": "S07", "seq": 2, "intent": "pedido-1", "state": "unknown", "detail": "before_network"}
+{"case": "S07", "seq": 3, "intent": "pedido-1", "state": "confirmed", "detail": "lookup_verified"}
+{"case": "S08", "seq": 1, "intent": "pedido-1", "state": "unknown", "detail": "before_network"}
+{"case": "S08", "seq": 2, "intent": "pedido-1", "state": "unknown", "detail": "before_network"}
+{"case": "S08", "seq": 3, "intent": "pedido-1", "state": "confirmed", "detail": "reply_verified"}
+{"case": "S08", "seq": 4, "intent": "pedido-1", "state": "confirmed", "detail": "lookup_verified"}
+{"case": "S12", "seq": 1, "intent": "pedido-1", "state": "unknown", "detail": "before_network"}
+{"case": "S12", "seq": 2, "intent": "pedido-1", "state": "unknown", "detail": "RemoteDisconnected: Remote end closed connection without response"}
+{"case": "S12", "seq": 3, "intent": "pedido-1", "state": "unknown", "detail": "before_network"}
+{"case": "S12", "seq": 4, "intent": "pedido-1", "state": "unknown", "detail": "lookup_501"}
+{"case": "S16", "seq": 1, "intent": "pedido-1", "state": "unknown", "detail": "before_network"}
+{"case": "S16", "seq": 2, "intent": "pedido-1", "state": "rejected", "detail": "approval_denied"}

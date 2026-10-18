@@ -1,0 +1,208 @@
+{
+  "cases": [
+    {
+      "task": "N0",
+      "arrival": 0.0,
+      "phase": "normal",
+      "kind": "simples"
+    },
+    {
+      "task": "N1",
+      "arrival": 0.05,
+      "phase": "normal",
+      "kind": "simples"
+    },
+    {
+      "task": "N2",
+      "arrival": 0.1,
+      "phase": "normal",
+      "kind": "simples"
+    },
+    {
+      "task": "B00",
+      "arrival": 0.2,
+      "phase": "sobrecarga",
+      "kind": "dificil"
+    },
+    {
+      "task": "B01",
+      "arrival": 0.202,
+      "phase": "sobrecarga",
+      "kind": "simples"
+    },
+    {
+      "task": "B02",
+      "arrival": 0.20400000000000001,
+      "phase": "sobrecarga",
+      "kind": "simples"
+    },
+    {
+      "task": "B03",
+      "arrival": 0.20600000000000002,
+      "phase": "sobrecarga",
+      "kind": "dificil"
+    },
+    {
+      "task": "B04",
+      "arrival": 0.20800000000000002,
+      "phase": "sobrecarga",
+      "kind": "simples"
+    },
+    {
+      "task": "B05",
+      "arrival": 0.21000000000000002,
+      "phase": "sobrecarga",
+      "kind": "simples"
+    },
+    {
+      "task": "B06",
+      "arrival": 0.21200000000000002,
+      "phase": "sobrecarga",
+      "kind": "dificil"
+    },
+    {
+      "task": "B07",
+      "arrival": 0.21400000000000002,
+      "phase": "sobrecarga",
+      "kind": "simples"
+    },
+    {
+      "task": "B08",
+      "arrival": 0.21600000000000003,
+      "phase": "sobrecarga",
+      "kind": "simples"
+    },
+    {
+      "task": "B09",
+      "arrival": 0.21800000000000003,
+      "phase": "sobrecarga",
+      "kind": "dificil"
+    },
+    {
+      "task": "B10",
+      "arrival": 0.22,
+      "phase": "sobrecarga",
+      "kind": "simples"
+    },
+    {
+      "task": "B11",
+      "arrival": 0.222,
+      "phase": "sobrecarga",
+      "kind": "simples"
+    },
+    {
+      "task": "B12",
+      "arrival": 0.224,
+      "phase": "sobrecarga",
+      "kind": "dificil"
+    },
+    {
+      "task": "B13",
+      "arrival": 0.226,
+      "phase": "sobrecarga",
+      "kind": "simples"
+    },
+    {
+      "task": "B14",
+      "arrival": 0.228,
+      "phase": "sobrecarga",
+      "kind": "simples"
+    },
+    {
+      "task": "B15",
+      "arrival": 0.23,
+      "phase": "sobrecarga",
+      "kind": "dificil"
+    },
+    {
+      "task": "B16",
+      "arrival": 0.232,
+      "phase": "sobrecarga",
+      "kind": "simples"
+    },
+    {
+      "task": "B17",
+      "arrival": 0.234,
+      "phase": "sobrecarga",
+      "kind": "simples"
+    },
+    {
+      "task": "B18",
+      "arrival": 0.23600000000000002,
+      "phase": "sobrecarga",
+      "kind": "dificil"
+    },
+    {
+      "task": "B19",
+      "arrival": 0.23800000000000002,
+      "phase": "sobrecarga",
+      "kind": "simples"
+    },
+    {
+      "task": "B20",
+      "arrival": 0.24000000000000002,
+      "phase": "sobrecarga",
+      "kind": "simples"
+    },
+    {
+      "task": "B21",
+      "arrival": 0.24200000000000002,
+      "phase": "sobrecarga",
+      "kind": "dificil"
+    },
+    {
+      "task": "B22",
+      "arrival": 0.244,
+      "phase": "sobrecarga",
+      "kind": "simples"
+    },
+    {
+      "task": "B23",
+      "arrival": 0.246,
+      "phase": "sobrecarga",
+      "kind": "simples"
+    },
+    {
+      "task": "R0",
+      "arrival": 0.9,
+      "phase": "recuperacao",
+      "kind": "simples"
+    },
+    {
+      "task": "R1",
+      "arrival": 0.96,
+      "phase": "recuperacao",
+      "kind": "simples"
+    },
+    {
+      "task": "R2",
+      "arrival": 1.02,
+      "phase": "recuperacao",
+      "kind": "simples"
+    },
+    {
+      "task": "R3",
+      "arrival": 1.08,
+      "phase": "recuperacao",
+      "kind": "simples"
+    },
+    {
+      "task": "R4",
+      "arrival": 1.1400000000000001,
+      "phase": "recuperacao",
+      "kind": "simples"
+    },
+    {
+      "task": "R5",
+      "arrival": 1.2,
+      "phase": "recuperacao",
+      "kind": "simples"
+    }
+  ],
+  "repetitions": 3,
+  "clock": "time.perf_counter; segundos reais",
+  "host": "Windows-11-10.0.26300-SP0",
+  "dependency": "corrotina local; limite 2; atraso real; sem HTTP ou LLM",
+  "quality": "resposta determinística preparada; fallback apenas simples",
+  "observation": "drenagem e seis sondas; não é estabilidade de longo prazo"
+}

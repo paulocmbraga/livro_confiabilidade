@@ -1,0 +1,1 @@
+1. Reconciliar o ledger com rótulos maduros. 2. Quarentenar a revisão da fonte. 3. Preservar tarefas afetadas e novas demandas retidas. 4. Reparar fonte e executar casos de retorno. 5. Confirmar efeitos pendentes e maturidade das referências. 6. Exigir reconhecimento do papel de operação. Os campos de confirmação deste exercício são preparados, não aprovações humanas reais.

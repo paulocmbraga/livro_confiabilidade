@@ -1,0 +1,21 @@
+{
+  "selected": "workflow",
+  "selection_digest": "12bba1bdded4e26b7d6d5e9f72585d10a1d4d122863372d9946d2d3c41b9827e",
+  "global_budget_per_task": 8,
+  "reserved_cases": [
+    "S02",
+    "S05",
+    "S07",
+    "S08",
+    "S12",
+    "S16"
+  ],
+  "protocol": "L15-1.0",
+  "sources": {
+    "operacoes24.py": "512bd84e5239daa03154cc89f7a573acd4e3979022fa785b292b307dcec7bdec",
+    "coordenacao16.py": "c946d6d0b0802600aa2a4700d181bf2d58b58d143bf70fb2d07b79682502e8c0",
+    "piloto15.py": "979ab37517369dd53452275c2abd3e97a5b50e311cfcc317e2cfe4e54a4467ca",
+    "efeitos15.py": "f7346670903c2f8d89e9e5f4462bb59daa8173688c9f640078e6545c7f4373ee"
+  },
+  "limit": "Arquiteturas são programas por regras. Campanha operacional seguinte testa somente o protocolo do workflow escolhido."
+}

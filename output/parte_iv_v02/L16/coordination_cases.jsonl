@@ -1,0 +1,8 @@
+{"case_id": "C01", "fault": "normal", "quantity": 2, "stock": 5, "policy_current": true, "expected_allow": true, "deadline": 6, "policy_finish": 2}
+{"case_id": "C02", "fault": "estoque_insuficiente", "quantity": 2, "stock": 1, "policy_current": true, "expected_allow": false, "deadline": 6, "policy_finish": 2}
+{"case_id": "C03", "fault": "fonte_vencida", "quantity": 2, "stock": 5, "policy_current": false, "expected_allow": false, "deadline": 6, "policy_finish": 2}
+{"case_id": "C04", "fault": "mensagem_repetida", "quantity": 2, "stock": 5, "policy_current": true, "expected_allow": true, "deadline": 6, "policy_finish": 2}
+{"case_id": "C05", "fault": "atraso", "quantity": 2, "stock": 5, "policy_current": true, "expected_allow": false, "deadline": 6, "policy_finish": 8}
+{"case_id": "C06", "fault": "ciclo", "quantity": 2, "stock": 5, "policy_current": true, "expected_allow": false, "deadline": 6, "policy_finish": 2}
+{"case_id": "C07", "fault": "autoridade_trocada", "quantity": 2, "stock": 5, "policy_current": true, "expected_allow": false, "deadline": 6, "policy_finish": 2}
+{"case_id": "C08", "fault": "retry", "quantity": 2, "stock": 5, "policy_current": true, "expected_allow": true, "deadline": 6, "policy_finish": 2}

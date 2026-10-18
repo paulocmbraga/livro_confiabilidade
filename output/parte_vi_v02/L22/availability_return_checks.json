@@ -1,0 +1,29 @@
+[
+  {
+    "tick": 8,
+    "evidence": {
+      "source_fixed": true,
+      "labels_mature": false,
+      "quality_pass": true,
+      "effects_reconciled": false,
+      "owner_ack": true
+    },
+    "allowed": false,
+    "missing": [
+      "labels_mature",
+      "effects_reconciled"
+    ]
+  },
+  {
+    "tick": 9,
+    "evidence": {
+      "source_fixed": true,
+      "labels_mature": true,
+      "quality_pass": true,
+      "effects_reconciled": true,
+      "owner_ack": true
+    },
+    "allowed": true,
+    "missing": []
+  }
+]

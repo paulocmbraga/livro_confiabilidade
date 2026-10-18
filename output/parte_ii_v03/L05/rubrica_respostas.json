@@ -1,0 +1,13 @@
+{
+  "version": "L05-1.0",
+  "evaluator": "regras sobre átomos anotados pelo autor",
+  "dimensions": [
+    "suporte na citação permitida e vigente",
+    "completude",
+    "relevância",
+    "decisão de responder"
+  ],
+  "pass_rule": "Responder exige todas as dimensões; abster exige não respondibilidade anotada.",
+  "unknown": "Átomo não anotado não recebe suporte; encaminhar a julgamento na extensão M.",
+  "limitation": "Não extrai claims do texto nem julga paráfrases automaticamente; anotações são públicas."
+}

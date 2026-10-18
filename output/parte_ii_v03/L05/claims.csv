@@ -1,0 +1,27 @@
+task_id,threshold,key,value,citation,citation_exists,permitted,support,relevant
+Q01,0.0,troca_comum,30 dias,D01,True,True,True,True
+Q02,0.0,troca_comum,60 dias,D01,True,True,False,False
+Q03,0.0,reembolso_prazo,5 dias úteis,D03,True,True,True,True
+Q04,0.0,frete_prazo,7 dias úteis,D04,True,True,True,True
+Q05,0.0,troca_personalizado,não admitida por preferência,D02,True,True,True,True
+Q06,0.0,troca_comum,30 dias,D01,True,True,True,False
+Q07,0.0,chat_horario,9 às 18 horas em dias úteis,D08,True,True,True,True
+Q08,0.0,rastreio_requisito,código de envio,D09,True,True,True,True
+Q09,0.0,troca_usado,30 dias,D01,True,True,False,False
+Q10,0.0,avaria,60 dias,D06,True,False,False,False
+Q11,0.0,desconto_ouro,15%,D05,True,False,False,False
+Q12,0.0,credito,20 reais,D12,True,True,True,False
+Q01,0.6,troca_comum,30 dias,D01,True,True,True,True
+Q02,0.6,troca_comum,60 dias,D01,True,True,False,False
+Q03,0.6,reembolso_prazo,5 dias úteis,D03,True,True,True,True
+Q04,0.6,frete_prazo,7 dias úteis,D04,True,True,True,True
+Q05,0.6,troca_personalizado,não admitida por preferência,D02,True,True,True,True
+Q06,0.6,troca_comum,30 dias,D01,True,True,True,False
+Q07,0.6,chat_horario,9 às 18 horas em dias úteis,D08,True,True,True,True
+Q08,0.6,rastreio_requisito,código de envio,D09,True,True,True,True
+Q09,0.6,troca_usado,30 dias,D01,True,True,False,False
+Q01,0.8,troca_comum,30 dias,D01,True,True,True,True
+Q02,0.8,troca_comum,60 dias,D01,True,True,False,False
+Q03,0.8,reembolso_prazo,5 dias úteis,D03,True,True,True,True
+Q04,0.8,frete_prazo,7 dias úteis,D04,True,True,True,True
+Q09,0.8,troca_usado,30 dias,D01,True,True,False,False

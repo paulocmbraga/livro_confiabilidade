@@ -1,0 +1,51 @@
+{
+  "case_id": "P02",
+  "transport": "a2a",
+  "pid": 10988,
+  "client_pid": 3528,
+  "calls": 2,
+  "expected_effects": 1,
+  "effects": 1,
+  "client": "confirmed",
+  "reason": "repeticao",
+  "results": [
+    {
+      "observed": {
+        "allowed": true,
+        "reason": "aplicado",
+        "receipt": {
+          "intent": "I14",
+          "principal": "ana",
+          "resource": "T1",
+          "action": "close",
+          "version": 0,
+          "quantity": 1,
+          "deadline": 150,
+          "hash": "cbedef23039dcaf334654a618a338a2686f2dcc1f9988c2a5c6d2883dca3a33a",
+          "effect": "applied",
+          "new_version": 1
+        }
+      },
+      "client": "confirmed"
+    },
+    {
+      "observed": {
+        "allowed": true,
+        "reason": "repeticao",
+        "receipt": {
+          "intent": "I14",
+          "principal": "ana",
+          "resource": "T1",
+          "action": "close",
+          "version": 0,
+          "quantity": 1,
+          "deadline": 150,
+          "hash": "cbedef23039dcaf334654a618a338a2686f2dcc1f9988c2a5c6d2883dca3a33a",
+          "effect": "applied",
+          "new_version": 1
+        }
+      },
+      "client": "confirmed"
+    }
+  ]
+}

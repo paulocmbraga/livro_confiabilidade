@@ -1,0 +1,183 @@
+{
+  "version": "L02-1.0",
+  "seed_baseline": 2026,
+  "admitidas": 21,
+  "excluidas": [
+    {
+      "task_id": "F11-2",
+      "motivos": [
+        "origem_ausente"
+      ]
+    },
+    {
+      "task_id": "F12-1",
+      "motivos": [
+        "fonte_futura"
+      ]
+    },
+    {
+      "task_id": "F12-2",
+      "motivos": [
+        "fonte_futura"
+      ]
+    }
+  ],
+  "relacoes": [
+    "familia",
+    "entidade"
+  ],
+  "particoes": {
+    "calibracao": 7,
+    "teste": 6,
+    "desenvolvimento": 8
+  },
+  "estratos": {
+    "calibracao": {
+      "rotina": 2,
+      "restrito": 4,
+      "limite": 1
+    },
+    "desenvolvimento": {
+      "rotina": 4,
+      "restrito": 2,
+      "limite": 2
+    },
+    "teste": {
+      "rotina": 2,
+      "restrito": 2,
+      "limite": 2
+    }
+  },
+  "baseline_vazamentos": [
+    {
+      "tipo": "familia",
+      "grupo": "F01",
+      "particoes": [
+        "desenvolvimento",
+        "teste"
+      ]
+    },
+    {
+      "tipo": "familia",
+      "grupo": "F02",
+      "particoes": [
+        "desenvolvimento",
+        "teste"
+      ]
+    },
+    {
+      "tipo": "familia",
+      "grupo": "F04",
+      "particoes": [
+        "desenvolvimento",
+        "teste"
+      ]
+    },
+    {
+      "tipo": "familia",
+      "grupo": "F05",
+      "particoes": [
+        "calibracao",
+        "desenvolvimento"
+      ]
+    },
+    {
+      "tipo": "familia",
+      "grupo": "F07",
+      "particoes": [
+        "calibracao",
+        "teste"
+      ]
+    },
+    {
+      "tipo": "familia",
+      "grupo": "F08",
+      "particoes": [
+        "calibracao",
+        "desenvolvimento"
+      ]
+    },
+    {
+      "tipo": "familia",
+      "grupo": "F09",
+      "particoes": [
+        "desenvolvimento",
+        "teste"
+      ]
+    },
+    {
+      "tipo": "familia",
+      "grupo": "F10",
+      "particoes": [
+        "calibracao",
+        "teste"
+      ]
+    },
+    {
+      "tipo": "entidade",
+      "grupo": "D01",
+      "particoes": [
+        "desenvolvimento",
+        "teste"
+      ]
+    },
+    {
+      "tipo": "entidade",
+      "grupo": "D02",
+      "particoes": [
+        "desenvolvimento",
+        "teste"
+      ]
+    },
+    {
+      "tipo": "entidade",
+      "grupo": "D03",
+      "particoes": [
+        "desenvolvimento",
+        "teste"
+      ]
+    },
+    {
+      "tipo": "entidade",
+      "grupo": "D05",
+      "particoes": [
+        "calibracao",
+        "desenvolvimento"
+      ]
+    },
+    {
+      "tipo": "entidade",
+      "grupo": "D07",
+      "particoes": [
+        "calibracao",
+        "teste"
+      ]
+    },
+    {
+      "tipo": "entidade",
+      "grupo": "D08",
+      "particoes": [
+        "calibracao",
+        "desenvolvimento"
+      ]
+    },
+    {
+      "tipo": "entidade",
+      "grupo": "D09",
+      "particoes": [
+        "desenvolvimento",
+        "teste"
+      ]
+    },
+    {
+      "tipo": "entidade",
+      "grupo": "D10",
+      "particoes": [
+        "calibracao",
+        "teste"
+      ]
+    }
+  ],
+  "corrected_vazamentos": [],
+  "exposicao": "Todos os dados são públicos e didáticos"
+}

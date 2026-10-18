@@ -1,0 +1,6 @@
+{"adequado_fixture":true,"attempt_id":"T01:1","reserved":3,"result":"{\"estado\":\"respondida\",\"task_id\":\"T01\",\"texto\":\"Resposta preparada: T01\",\"trilha\":\"D\",\"uso\":1}","state":"completed","task_id":"T01","used":1}
+{"adequado_fixture":true,"attempt_id":"T02:1","reserved":3,"result":"{\"estado\":\"respondida\",\"task_id\":\"T02\",\"texto\":\"Resposta preparada: T02\",\"trilha\":\"D\",\"uso\":1}","state":"completed","task_id":"T02","used":1}
+{"adequado_fixture":false,"attempt_id":"T03:1","reserved":3,"result":null,"state":"unknown","task_id":"T03","used":null}
+{"adequado_fixture":false,"attempt_id":"T04:1","reserved":3,"result":null,"state":"unknown","task_id":"T04","used":null}
+{"adequado_fixture":true,"attempt_id":"T05:1","reserved":3,"result":"{\"estado\":\"respondida\",\"task_id\":\"T05\",\"texto\":\"Resposta preparada: T05\",\"trilha\":\"D\",\"uso\":2}","state":"completed","task_id":"T05","used":2}
+{"adequado_fixture":false,"attempt_id":"T06:1","reserved":3,"result":"{\"estado\":\"rejeitada_antes_inferencia\",\"task_id\":\"T06\",\"texto\":\"\",\"trilha\":\"D\",\"uso\":0}","state":"failed","task_id":"T06","used":0}

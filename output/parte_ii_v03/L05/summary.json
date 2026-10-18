@@ -1,0 +1,110 @@
+{
+  "curve": [
+    {
+      "threshold": 0.0,
+      "admitted": 12,
+      "answered": 12,
+      "correct_answers": 5,
+      "errors": 7,
+      "coverage": 1.0,
+      "error_given_answer": 0.5833333333333334,
+      "adequate": 5,
+      "answerable": 8,
+      "correct_abstentions": 0,
+      "unnecessary_abstentions": 0,
+      "supported_claims": 8,
+      "emitted_claims": 12,
+      "support_rate": 0.6666666666666666
+    },
+    {
+      "threshold": 0.6,
+      "admitted": 12,
+      "answered": 9,
+      "correct_answers": 5,
+      "errors": 4,
+      "coverage": 0.75,
+      "error_given_answer": 0.4444444444444444,
+      "adequate": 8,
+      "answerable": 8,
+      "correct_abstentions": 3,
+      "unnecessary_abstentions": 0,
+      "supported_claims": 7,
+      "emitted_claims": 9,
+      "support_rate": 0.7777777777777778
+    },
+    {
+      "threshold": 0.8,
+      "admitted": 12,
+      "answered": 5,
+      "correct_answers": 2,
+      "errors": 3,
+      "coverage": 0.4166666666666667,
+      "error_given_answer": 0.6,
+      "adequate": 5,
+      "answerable": 8,
+      "correct_abstentions": 3,
+      "unnecessary_abstentions": 4,
+      "supported_claims": 3,
+      "emitted_claims": 5,
+      "support_rate": 0.6
+    },
+    {
+      "threshold": 1.0,
+      "admitted": 12,
+      "answered": 0,
+      "correct_answers": 0,
+      "errors": 0,
+      "coverage": 0.0,
+      "error_given_answer": null,
+      "adequate": 4,
+      "answerable": 8,
+      "correct_abstentions": 4,
+      "unnecessary_abstentions": 8,
+      "supported_claims": 0,
+      "emitted_claims": 0,
+      "support_rate": null
+    }
+  ],
+  "segments": {
+    "formal": {
+      "admitted": 10,
+      "answered": 10,
+      "correct_answers": 3,
+      "errors": 7,
+      "coverage": 1.0,
+      "error_given_answer": 0.7,
+      "adequate": 3,
+      "answerable": 6,
+      "correct_abstentions": 0,
+      "unnecessary_abstentions": 0,
+      "supported_claims": 6,
+      "emitted_claims": 10,
+      "support_rate": 0.6
+    },
+    "coloquial": {
+      "admitted": 2,
+      "answered": 2,
+      "correct_answers": 2,
+      "errors": 0,
+      "coverage": 1.0,
+      "error_given_answer": 0.0,
+      "adequate": 2,
+      "answerable": 2,
+      "correct_abstentions": 0,
+      "unnecessary_abstentions": 0,
+      "supported_claims": 2,
+      "emitted_claims": 2,
+      "support_rate": 1.0
+    }
+  },
+  "ambiguity": {
+    "task_id": "Q12",
+    "initial_judgments": [
+      "preferir B",
+      "pedir esclarecimento"
+    ],
+    "adjudication": "conflito não resolvido: abster e solicitar autoridade",
+    "author_annotation": true,
+    "human_study": false
+  }
+}

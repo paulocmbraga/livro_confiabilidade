@@ -1,0 +1,16 @@
+{
+  "version": "L01-1.0",
+  "invariantes": {
+    "acesso": "Dados e efeitos respeitam a permissão da tarefa.",
+    "suporte": "Resposta factual possui suporte na referência autorizada.",
+    "vigencia": "Fonte estava disponível e vigente no instante da tarefa.",
+    "citacao": "Identificador citado aponta para a fonte de suporte.",
+    "recibo": "Recibo corresponde à intenção, ao recurso e ao payload.",
+    "efeito": "Conclusão operacional requer evidência do destino."
+  },
+  "meta": {
+    "latencia_ms": 1000,
+    "unidade": "caso preparado; não p95 de produção"
+  },
+  "populacao": "16 casos didáticos, sem representatividade externa"
+}

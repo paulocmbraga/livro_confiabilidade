@@ -1,0 +1,60 @@
+{"task": "T00", "segment": "simples", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T00:infrastructure:1", "grande:T00:large:1"]}
+{"task": "T01", "segment": "simples", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T01:infrastructure:1", "grande:T01:large:1"]}
+{"task": "T02", "segment": "simples", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T02:infrastructure:1", "grande:T02:large:1"]}
+{"task": "T03", "segment": "simples", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T03:infrastructure:1", "grande:T03:large:1"]}
+{"task": "T04", "segment": "simples", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T04:infrastructure:1", "grande:T04:large:1"]}
+{"task": "T05", "segment": "simples", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T05:infrastructure:1", "grande:T05:large:1"]}
+{"task": "T06", "segment": "simples", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T06:infrastructure:1", "grande:T06:large:1"]}
+{"task": "T07", "segment": "simples", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T07:infrastructure:1", "grande:T07:large:1"]}
+{"task": "T08", "segment": "simples", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T08:infrastructure:1", "grande:T08:large:1"]}
+{"task": "T09", "segment": "simples", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T09:infrastructure:1", "grande:T09:large:1"]}
+{"task": "T10", "segment": "simples", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T10:infrastructure:1", "grande:T10:large:1"]}
+{"task": "T11", "segment": "simples", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T11:infrastructure:1", "grande:T11:large:1"]}
+{"task": "T12", "segment": "simples", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T12:infrastructure:1", "grande:T12:large:1"]}
+{"task": "T13", "segment": "simples", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T13:infrastructure:1", "grande:T13:large:1"]}
+{"task": "T14", "segment": "dificil", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T14:infrastructure:1", "grande:T14:large:1"]}
+{"task": "T15", "segment": "dificil", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T15:infrastructure:1", "grande:T15:large:1"]}
+{"task": "T16", "segment": "dificil", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T16:infrastructure:1", "grande:T16:large:1"]}
+{"task": "T17", "segment": "dificil", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T17:infrastructure:1", "grande:T17:large:1"]}
+{"task": "T18", "segment": "dificil", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T18:infrastructure:1", "grande:T18:large:1"]}
+{"task": "T19", "segment": "dificil", "policy": "grande", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["grande:T19:infrastructure:1", "grande:T19:large:1"]}
+{"task": "T00", "segment": "simples", "policy": "barato", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["barato:T00:infrastructure:1", "barato:T00:small:1"]}
+{"task": "T01", "segment": "simples", "policy": "barato", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["barato:T01:infrastructure:1", "barato:T01:small:1"]}
+{"task": "T02", "segment": "simples", "policy": "barato", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["barato:T02:infrastructure:1", "barato:T02:small:1"]}
+{"task": "T03", "segment": "simples", "policy": "barato", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["barato:T03:infrastructure:1", "barato:T03:small:1"]}
+{"task": "T04", "segment": "simples", "policy": "barato", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["barato:T04:infrastructure:1", "barato:T04:small:1"]}
+{"task": "T05", "segment": "simples", "policy": "barato", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["barato:T05:infrastructure:1", "barato:T05:small:1"]}
+{"task": "T06", "segment": "simples", "policy": "barato", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["barato:T06:infrastructure:1", "barato:T06:small:1"]}
+{"task": "T07", "segment": "simples", "policy": "barato", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["barato:T07:infrastructure:1", "barato:T07:small:1"]}
+{"task": "T08", "segment": "simples", "policy": "barato", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["barato:T08:infrastructure:1", "barato:T08:small:1"]}
+{"task": "T09", "segment": "simples", "policy": "barato", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["barato:T09:infrastructure:1", "barato:T09:small:1"]}
+{"task": "T10", "segment": "simples", "policy": "barato", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["barato:T10:infrastructure:1", "barato:T10:small:1"]}
+{"task": "T11", "segment": "simples", "policy": "barato", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["barato:T11:infrastructure:1", "barato:T11:small:1"]}
+{"task": "T12", "segment": "simples", "policy": "barato", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["barato:T12:infrastructure:1", "barato:T12:small:1"]}
+{"task": "T13", "segment": "simples", "policy": "barato", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["barato:T13:infrastructure:1", "barato:T13:small:1"]}
+{"task": "T14", "segment": "dificil", "policy": "barato", "correct": true, "review": true, "logical_latency": 7, "expected_receipts": ["barato:T14:infrastructure:1", "barato:T14:small:1", "barato:T14:small:2", "barato:T14:review:1"]}
+{"task": "T15", "segment": "dificil", "policy": "barato", "correct": false, "review": true, "logical_latency": 7, "expected_receipts": ["barato:T15:infrastructure:1", "barato:T15:small:1", "barato:T15:small:2", "barato:T15:review:1"]}
+{"task": "T16", "segment": "dificil", "policy": "barato", "correct": true, "review": true, "logical_latency": 7, "expected_receipts": ["barato:T16:infrastructure:1", "barato:T16:small:1", "barato:T16:small:2", "barato:T16:review:1"]}
+{"task": "T17", "segment": "dificil", "policy": "barato", "correct": true, "review": true, "logical_latency": 7, "expected_receipts": ["barato:T17:infrastructure:1", "barato:T17:small:1", "barato:T17:small:2", "barato:T17:review:1"]}
+{"task": "T18", "segment": "dificil", "policy": "barato", "correct": false, "review": true, "logical_latency": 7, "expected_receipts": ["barato:T18:infrastructure:1", "barato:T18:small:1", "barato:T18:small:2", "barato:T18:review:1"]}
+{"task": "T19", "segment": "dificil", "policy": "barato", "correct": true, "review": true, "logical_latency": 7, "expected_receipts": ["barato:T19:infrastructure:1", "barato:T19:small:1", "barato:T19:small:2", "barato:T19:review:1"]}
+{"task": "T00", "segment": "simples", "policy": "roteado", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["roteado:T00:infrastructure:1", "roteado:T00:small:1"]}
+{"task": "T01", "segment": "simples", "policy": "roteado", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["roteado:T01:infrastructure:1", "roteado:T01:small:1"]}
+{"task": "T02", "segment": "simples", "policy": "roteado", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["roteado:T02:infrastructure:1", "roteado:T02:small:1"]}
+{"task": "T03", "segment": "simples", "policy": "roteado", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["roteado:T03:infrastructure:1", "roteado:T03:small:1"]}
+{"task": "T04", "segment": "simples", "policy": "roteado", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["roteado:T04:infrastructure:1", "roteado:T04:small:1"]}
+{"task": "T05", "segment": "simples", "policy": "roteado", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["roteado:T05:infrastructure:1", "roteado:T05:small:1"]}
+{"task": "T06", "segment": "simples", "policy": "roteado", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["roteado:T06:infrastructure:1", "roteado:T06:small:1"]}
+{"task": "T07", "segment": "simples", "policy": "roteado", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["roteado:T07:infrastructure:1", "roteado:T07:small:1"]}
+{"task": "T08", "segment": "simples", "policy": "roteado", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["roteado:T08:infrastructure:1", "roteado:T08:small:1"]}
+{"task": "T09", "segment": "simples", "policy": "roteado", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["roteado:T09:infrastructure:1", "roteado:T09:small:1"]}
+{"task": "T10", "segment": "simples", "policy": "roteado", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["roteado:T10:infrastructure:1", "roteado:T10:small:1"]}
+{"task": "T11", "segment": "simples", "policy": "roteado", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["roteado:T11:infrastructure:1", "roteado:T11:small:1"]}
+{"task": "T12", "segment": "simples", "policy": "roteado", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["roteado:T12:infrastructure:1", "roteado:T12:small:1"]}
+{"task": "T13", "segment": "simples", "policy": "roteado", "correct": true, "review": false, "logical_latency": 1, "expected_receipts": ["roteado:T13:infrastructure:1", "roteado:T13:small:1"]}
+{"task": "T14", "segment": "dificil", "policy": "roteado", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["roteado:T14:infrastructure:1", "roteado:T14:large:1"]}
+{"task": "T15", "segment": "dificil", "policy": "roteado", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["roteado:T15:infrastructure:1", "roteado:T15:large:1"]}
+{"task": "T16", "segment": "dificil", "policy": "roteado", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["roteado:T16:infrastructure:1", "roteado:T16:large:1"]}
+{"task": "T17", "segment": "dificil", "policy": "roteado", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["roteado:T17:infrastructure:1", "roteado:T17:large:1"]}
+{"task": "T18", "segment": "dificil", "policy": "roteado", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["roteado:T18:infrastructure:1", "roteado:T18:large:1"]}
+{"task": "T19", "segment": "dificil", "policy": "roteado", "correct": true, "review": false, "logical_latency": 2, "expected_receipts": ["roteado:T19:infrastructure:1", "roteado:T19:large:1"]}

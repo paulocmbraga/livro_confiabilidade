@@ -1,0 +1,75 @@
+{
+  "schema": "livro.evidence/1",
+  "claims": [
+    {
+      "claim": "selecao",
+      "files": [
+        {
+          "path": "development_runs.jsonl",
+          "sha256": "b5d4821900de07d48382d0234409a90adbfa8ec4916ae5058e5c30ea51c75751"
+        },
+        {
+          "path": "candidate_frozen.json",
+          "sha256": "69982088fa1cb79aac381074ea0c04610f8dea51e3ef2e53ecb8cd5365f853fb"
+        }
+      ]
+    },
+    {
+      "claim": "avaliacao_reservada",
+      "files": [
+        {
+          "path": "reserved_queries.jsonl",
+          "sha256": "63313a57c2e6d105db100f06fb7f9905fe258c9ffc0964aae7e641a6d2b8ca18"
+        },
+        {
+          "path": "reserved_runs.jsonl",
+          "sha256": "38c5bb9d6e1ab73495400a6eea5476384683aed5321a47f287e67dc74c9552a9"
+        }
+      ]
+    },
+    {
+      "claim": "atualizacao",
+      "files": [
+        {
+          "path": "corpus_v2.json",
+          "sha256": "765bdb27c579caf2a105b0a0fe910d2610afae686aea8084bf0945385ade5fa3"
+        },
+        {
+          "path": "updated_queries.jsonl",
+          "sha256": "b650879bc6e42c052c87dbdf831d9a4fc066e376d9e02f7afd7f01f38f3a81db"
+        },
+        {
+          "path": "update_runs.jsonl",
+          "sha256": "41f95f47037ba6533f30c6df0e337abe438a62f4a83168a7eac07a59b01f7027"
+        }
+      ]
+    },
+    {
+      "claim": "incidente",
+      "files": [
+        {
+          "path": "incident_runs.jsonl",
+          "sha256": "34a188201fe57d315e05a4bd0112c8474839e6cd5e1bed040666289820b3be38"
+        },
+        {
+          "path": "repaired_runs.jsonl",
+          "sha256": "ad39455f9e752966e4f96374c76074f85beb2503db4c3e33dbd35c3199556549"
+        }
+      ]
+    },
+    {
+      "claim": "decisao",
+      "files": [
+        {
+          "path": "decision_A.json",
+          "sha256": "c1c803dce169a2a4c448b620d9a83a46f50007b11fe6d394899709fb5ece7801"
+        },
+        {
+          "path": "summary.json",
+          "sha256": "802279658be2c966969b660c2f2acbc2a070d084549a88d5aac508d1cb6320af"
+        }
+      ]
+    }
+  ],
+  "limit": "Hashes ligam arquivos a alegações; não validam automaticamente a interpretação ou a origem."
+}

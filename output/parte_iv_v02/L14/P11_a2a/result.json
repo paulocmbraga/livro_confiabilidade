@@ -1,0 +1,21 @@
+{
+  "case_id": "P11",
+  "transport": "a2a",
+  "pid": 4584,
+  "client_pid": 3528,
+  "calls": 1,
+  "expected_effects": 0,
+  "effects": 0,
+  "client": "rejected",
+  "reason": "tipo",
+  "results": [
+    {
+      "observed": {
+        "allowed": false,
+        "reason": "tipo",
+        "receipt": null
+      },
+      "client": "rejected"
+    }
+  ]
+}

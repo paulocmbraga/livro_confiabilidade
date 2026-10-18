@@ -1,0 +1,234 @@
+[
+  {
+    "case_id": "C01",
+    "variant": "equipe",
+    "budget": 0,
+    "cost": 0,
+    "charges": [],
+    "logical_time": 0,
+    "wasted": 0,
+    "decision": null,
+    "reason": "orcamento",
+    "outcome": "pendente",
+    "effects": [],
+    "violation": false,
+    "adequate": false,
+    "trace": [
+      {
+        "event": "stopped",
+        "reason": "orcamento"
+      }
+    ]
+  },
+  {
+    "case_id": "C01",
+    "variant": "equipe",
+    "budget": 3,
+    "cost": 3,
+    "charges": [
+      "delegate_stock",
+      "read_stock",
+      "delegate_policy"
+    ],
+    "logical_time": 1,
+    "wasted": 0,
+    "decision": null,
+    "reason": "orcamento",
+    "outcome": "pendente",
+    "effects": [],
+    "violation": false,
+    "adequate": false,
+    "trace": [
+      {
+        "event": "delegated",
+        "role": "stock",
+        "ancestors": [
+          "coordinator",
+          "stock"
+        ]
+      },
+      {
+        "event": "artifact",
+        "role": "stock",
+        "result": "aceito"
+      },
+      {
+        "event": "delegated",
+        "role": "policy",
+        "ancestors": [
+          "coordinator",
+          "policy"
+        ]
+      },
+      {
+        "event": "stopped",
+        "reason": "orcamento"
+      }
+    ]
+  },
+  {
+    "case_id": "C01",
+    "variant": "equipe",
+    "budget": 5,
+    "cost": 5,
+    "charges": [
+      "delegate_stock",
+      "read_stock",
+      "delegate_policy",
+      "read_policy",
+      "review"
+    ],
+    "logical_time": 2,
+    "wasted": 0,
+    "decision": null,
+    "reason": "orcamento",
+    "outcome": "pendente",
+    "effects": [],
+    "violation": false,
+    "adequate": false,
+    "trace": [
+      {
+        "event": "delegated",
+        "role": "stock",
+        "ancestors": [
+          "coordinator",
+          "stock"
+        ]
+      },
+      {
+        "event": "artifact",
+        "role": "stock",
+        "result": "aceito"
+      },
+      {
+        "event": "delegated",
+        "role": "policy",
+        "ancestors": [
+          "coordinator",
+          "policy"
+        ]
+      },
+      {
+        "event": "artifact",
+        "role": "policy",
+        "result": "aceito"
+      },
+      {
+        "event": "stopped",
+        "reason": "orcamento"
+      }
+    ]
+  },
+  {
+    "case_id": "C01",
+    "variant": "equipe",
+    "budget": 6,
+    "cost": 6,
+    "charges": [
+      "delegate_stock",
+      "read_stock",
+      "delegate_policy",
+      "read_policy",
+      "review",
+      "join"
+    ],
+    "logical_time": 2,
+    "wasted": 0,
+    "decision": true,
+    "reason": "decisao",
+    "outcome": "aplicado",
+    "effects": [
+      {
+        "intent": "C01",
+        "principal": "ana",
+        "quantity": 2
+      }
+    ],
+    "violation": false,
+    "adequate": true,
+    "trace": [
+      {
+        "event": "delegated",
+        "role": "stock",
+        "ancestors": [
+          "coordinator",
+          "stock"
+        ]
+      },
+      {
+        "event": "artifact",
+        "role": "stock",
+        "result": "aceito"
+      },
+      {
+        "event": "delegated",
+        "role": "policy",
+        "ancestors": [
+          "coordinator",
+          "policy"
+        ]
+      },
+      {
+        "event": "artifact",
+        "role": "policy",
+        "result": "aceito"
+      }
+    ]
+  },
+  {
+    "case_id": "C01",
+    "variant": "equipe",
+    "budget": 8,
+    "cost": 6,
+    "charges": [
+      "delegate_stock",
+      "read_stock",
+      "delegate_policy",
+      "read_policy",
+      "review",
+      "join"
+    ],
+    "logical_time": 2,
+    "wasted": 0,
+    "decision": true,
+    "reason": "decisao",
+    "outcome": "aplicado",
+    "effects": [
+      {
+        "intent": "C01",
+        "principal": "ana",
+        "quantity": 2
+      }
+    ],
+    "violation": false,
+    "adequate": true,
+    "trace": [
+      {
+        "event": "delegated",
+        "role": "stock",
+        "ancestors": [
+          "coordinator",
+          "stock"
+        ]
+      },
+      {
+        "event": "artifact",
+        "role": "stock",
+        "result": "aceito"
+      },
+      {
+        "event": "delegated",
+        "role": "policy",
+        "ancestors": [
+          "coordinator",
+          "policy"
+        ]
+      },
+      {
+        "event": "artifact",
+        "role": "policy",
+        "result": "aceito"
+      }
+    ]
+  }
+]

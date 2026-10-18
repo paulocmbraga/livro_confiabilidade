@@ -1,0 +1,236 @@
+{
+  "L05": [
+    {
+      "threshold": 0.0,
+      "admitted": 12,
+      "answered": 12,
+      "correct_answers": 5,
+      "errors": 7,
+      "coverage": 1.0,
+      "error_given_answer": 0.5833333333333334,
+      "adequate": 5,
+      "answerable": 8,
+      "correct_abstentions": 0,
+      "unnecessary_abstentions": 0,
+      "supported_claims": 8,
+      "emitted_claims": 12,
+      "support_rate": 0.6666666666666666
+    },
+    {
+      "threshold": 0.6,
+      "admitted": 12,
+      "answered": 9,
+      "correct_answers": 5,
+      "errors": 4,
+      "coverage": 0.75,
+      "error_given_answer": 0.4444444444444444,
+      "adequate": 8,
+      "answerable": 8,
+      "correct_abstentions": 3,
+      "unnecessary_abstentions": 0,
+      "supported_claims": 7,
+      "emitted_claims": 9,
+      "support_rate": 0.7777777777777778
+    },
+    {
+      "threshold": 0.8,
+      "admitted": 12,
+      "answered": 5,
+      "correct_answers": 2,
+      "errors": 3,
+      "coverage": 0.4166666666666667,
+      "error_given_answer": 0.6,
+      "adequate": 5,
+      "answerable": 8,
+      "correct_abstentions": 3,
+      "unnecessary_abstentions": 4,
+      "supported_claims": 3,
+      "emitted_claims": 5,
+      "support_rate": 0.6
+    },
+    {
+      "threshold": 1.0,
+      "admitted": 12,
+      "answered": 0,
+      "correct_answers": 0,
+      "errors": 0,
+      "coverage": 0.0,
+      "error_given_answer": null,
+      "adequate": 4,
+      "answerable": 8,
+      "correct_abstentions": 4,
+      "unnecessary_abstentions": 8,
+      "supported_claims": 0,
+      "emitted_claims": 0,
+      "support_rate": null
+    }
+  ],
+  "L06": [
+    {
+      "method": "lexical",
+      "generator": "primeiro",
+      "tasks": 8,
+      "correct": 4,
+      "reference_correct": 5,
+      "recall_mean": 0.8571428571428571,
+      "ndcg_mean": 0.8571428571428571,
+      "ranking_denominator": 7,
+      "leaks": 0
+    },
+    {
+      "method": "lexical",
+      "generator": "compor",
+      "tasks": 8,
+      "correct": 7,
+      "reference_correct": 8,
+      "recall_mean": 0.8571428571428571,
+      "ndcg_mean": 0.8571428571428571,
+      "ranking_denominator": 7,
+      "leaks": 0
+    },
+    {
+      "method": "vetor_manual",
+      "generator": "primeiro",
+      "tasks": 8,
+      "correct": 5,
+      "reference_correct": 5,
+      "recall_mean": 1.0,
+      "ndcg_mean": 0.9585442487709808,
+      "ranking_denominator": 7,
+      "leaks": 0
+    },
+    {
+      "method": "vetor_manual",
+      "generator": "compor",
+      "tasks": 8,
+      "correct": 8,
+      "reference_correct": 8,
+      "recall_mean": 1.0,
+      "ndcg_mean": 0.9585442487709808,
+      "ranking_denominator": 7,
+      "leaks": 0
+    },
+    {
+      "method": "hibrida",
+      "generator": "primeiro",
+      "tasks": 8,
+      "correct": 5,
+      "reference_correct": 5,
+      "recall_mean": 1.0,
+      "ndcg_mean": 0.9585442487709808,
+      "ranking_denominator": 7,
+      "leaks": 0
+    },
+    {
+      "method": "hibrida",
+      "generator": "compor",
+      "tasks": 8,
+      "correct": 8,
+      "reference_correct": 8,
+      "recall_mean": 1.0,
+      "ndcg_mean": 0.9585442487709808,
+      "ranking_denominator": 7,
+      "leaks": 0
+    },
+    {
+      "method": "rerank",
+      "generator": "primeiro",
+      "tasks": 8,
+      "correct": 5,
+      "reference_correct": 5,
+      "recall_mean": 1.0,
+      "ndcg_mean": 1.0,
+      "ranking_denominator": 7,
+      "leaks": 0
+    },
+    {
+      "method": "rerank",
+      "generator": "compor",
+      "tasks": 8,
+      "correct": 8,
+      "reference_correct": 8,
+      "recall_mean": 1.0,
+      "ndcg_mean": 1.0,
+      "ranking_denominator": 7,
+      "leaks": 0
+    }
+  ],
+  "L07": [
+    {
+      "policy": "historico",
+      "episodes": 7,
+      "correct_episodes": 1,
+      "questions": 10,
+      "correct_questions": 4,
+      "expired": 1,
+      "exposures": 1,
+      "hostile_uses": 1,
+      "context_words": 203
+    },
+    {
+      "policy": "ultimos_dois",
+      "episodes": 7,
+      "correct_episodes": 2,
+      "questions": 10,
+      "correct_questions": 5,
+      "expired": 1,
+      "exposures": 1,
+      "hostile_uses": 1,
+      "context_words": 187
+    },
+    {
+      "policy": "resumo",
+      "episodes": 7,
+      "correct_episodes": 5,
+      "questions": 10,
+      "correct_questions": 8,
+      "expired": 0,
+      "exposures": 0,
+      "hostile_uses": 0,
+      "context_words": 98
+    },
+    {
+      "policy": "selecionada",
+      "episodes": 7,
+      "correct_episodes": 7,
+      "questions": 10,
+      "correct_questions": 10,
+      "expired": 0,
+      "exposures": 0,
+      "hostile_uses": 0,
+      "context_words": 82
+    }
+  ],
+  "L08": [
+    {
+      "variant": "workflow",
+      "tasks": 8,
+      "attempts": 24,
+      "completed": 6,
+      "adequate": 12,
+      "any_adequate": 4,
+      "all_adequate": 4,
+      "unauthorized_attempts": 3,
+      "uncertain": 3,
+      "steps": 78,
+      "cost_units": 102,
+      "narrative_success": 6,
+      "false_narrative_success": 0
+    },
+    {
+      "variant": "agente_d",
+      "tasks": 8,
+      "attempts": 24,
+      "completed": 4,
+      "adequate": 10,
+      "any_adequate": 4,
+      "all_adequate": 3,
+      "unauthorized_attempts": 3,
+      "uncertain": 3,
+      "steps": 81,
+      "cost_units": 105,
+      "narrative_success": 9,
+      "false_narrative_success": 5
+    }
+  ]
+}

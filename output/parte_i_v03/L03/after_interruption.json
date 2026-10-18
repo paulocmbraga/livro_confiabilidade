@@ -1,0 +1,53 @@
+{
+  "exit_code": 83,
+  "attempts": [
+    {
+      "task_id": "T01",
+      "attempt_id": "T01:1",
+      "state": "completed",
+      "reserved": 3,
+      "used": 1,
+      "result": "{\"estado\":\"respondida\",\"task_id\":\"T01\",\"texto\":\"Resposta preparada: T01\",\"trilha\":\"D\",\"uso\":1}"
+    },
+    {
+      "task_id": "T02",
+      "attempt_id": "T02:1",
+      "state": "running",
+      "reserved": 3,
+      "used": null,
+      "result": null
+    },
+    {
+      "task_id": "T03",
+      "attempt_id": "T03:1",
+      "state": "pending",
+      "reserved": 0,
+      "used": null,
+      "result": null
+    },
+    {
+      "task_id": "T04",
+      "attempt_id": "T04:1",
+      "state": "pending",
+      "reserved": 0,
+      "used": null,
+      "result": null
+    },
+    {
+      "task_id": "T05",
+      "attempt_id": "T05:1",
+      "state": "pending",
+      "reserved": 0,
+      "used": null,
+      "result": null
+    },
+    {
+      "task_id": "T06",
+      "attempt_id": "T06:1",
+      "state": "pending",
+      "reserved": 0,
+      "used": null,
+      "result": null
+    }
+  ]
+}

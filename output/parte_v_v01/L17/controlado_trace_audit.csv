@@ -1,0 +1,13 @@
+task,sampled,ledger_status,observed,identity_errors,complete,state
+T01,True,ok,2,0,True,completo
+T02,True,ok,2,0,True,completo
+T03,True,ok,2,0,True,completo
+T04,True,erro_preparado,2,0,True,completo
+T05,True,ok,2,0,True,completo
+T06,True,ok,2,0,True,completo
+T07,True,ok,2,0,True,completo
+T08,True,erro_preparado,2,0,True,completo
+T09,False,ok,0,0,False,nao_amostrado
+T10,True,ok,2,0,True,completo
+T11,True,ok,2,0,True,completo
+T12,True,erro_preparado,2,0,True,completo

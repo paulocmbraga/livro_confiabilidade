@@ -1,0 +1,8 @@
+{
+  "mcp": "2025-11-25",
+  "a2a": "1.0.0",
+  "transport": "HTTP loopback em subprocessos",
+  "scope": "Subconjuntos didáticos de envelopes; sem conformidade integral, SDK, OAuth, streaming ou cancelamento A2A.",
+  "identity": "Cabeçalho de bancada escolhe identidade preparada; não autentica usuário real.",
+  "mutations": "A última perturbação troca o artefato observado após a resposta, sem alterar o wire original."
+}

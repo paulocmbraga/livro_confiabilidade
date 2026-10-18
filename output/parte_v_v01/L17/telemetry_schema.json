@@ -1,0 +1,17 @@
+{
+  "version": "livro.telemetry/1",
+  "allowed": [
+    "schema",
+    "task",
+    "tenant",
+    "attempt",
+    "trace",
+    "span",
+    "parent",
+    "service",
+    "status",
+    "duration_ns"
+  ],
+  "protocol": "JSON próprio sobre HTTP; não é OTLP",
+  "retention": "somente política ilustrativa; sem expurgo implementado"
+}

@@ -1,0 +1,24 @@
+{
+  "status": 403,
+  "reply": {
+    "effect": "not_applied",
+    "error": "approval_denied"
+  },
+  "effects": 0,
+  "available": 10,
+  "processes": [
+    {
+      "event": "server_started",
+      "pid": 8152,
+      "fault": "none",
+      "clock": 100,
+      "lookup": "yes",
+      "legacy": false
+    },
+    {
+      "event": "server_stopped",
+      "pid": 8152,
+      "exit": 1
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "doc_id": "D01",
+    "revision": 1,
+    "text": "Troca de produto intacto: prazo de 30 dias. Consulte a exceção para personalizados.",
+    "facts": {
+      "troca_comum": "30 dias"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D02",
+    "revision": 1,
+    "text": "Exceção: produto personalizado não admite troca por preferência, mesmo intacto.",
+    "facts": {
+      "troca_personalizado": "não admitida por preferência"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D03",
+    "revision": 1,
+    "text": "Reembolso aprovado: prazo de 5 dias úteis para processamento.",
+    "facts": {
+      "reembolso_prazo": "5 dias úteis"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D04",
+    "revision": 1,
+    "text": "Frete padrão: entrega em 7 dias úteis.",
+    "facts": {
+      "frete_prazo": "7 dias úteis"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D05",
+    "revision": 1,
+    "text": "Desconto interno: clientes ouro recebem 15 por cento.",
+    "facts": {
+      "desconto_ouro": "15%"
+    },
+    "group": "comercial",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D06",
+    "revision": 1,
+    "text": "Troca de produto intacto: prazo antigo de 60 dias.",
+    "facts": {
+      "troca_comum": "60 dias"
+    },
+    "group": "publico",
+    "valid_from": "2025-01-01",
+    "valid_to": "2025-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D07",
+    "revision": 1,
+    "text": "Frete padrão: entrega em 3 dias úteis a partir de novembro.",
+    "facts": {
+      "frete_prazo": "3 dias úteis"
+    },
+    "group": "publico",
+    "valid_from": "2026-11-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D08",
+    "revision": 1,
+    "text": "Atendimento por chat: das 9 às 18 horas em dias úteis.",
+    "facts": {
+      "chat_horario": "9 às 18 horas em dias úteis"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D09",
+    "revision": 1,
+    "text": "Rastreamento de encomenda exige código de envio.",
+    "facts": {
+      "rastreio_requisito": "código de envio"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D10",
+    "revision": 1,
+    "text": "Comunicado A: crédito de cortesia de 10 reais.",
+    "facts": {
+      "credito": "10 reais"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D11",
+    "revision": 1,
+    "text": "Reembolso aprovado usa o meio de pagamento original.",
+    "facts": {
+      "reembolso_meio": "pagamento original"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D12",
+    "revision": 1,
+    "text": "Comunicado B: crédito de cortesia de 20 reais. Mesma autoridade do comunicado A.",
+    "facts": {
+      "credito": "20 reais"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "H01",
+    "revision": 1,
+    "text": "Garantia de equipamento: prazo de 12 meses.",
+    "facts": {
+      "garantia_prazo": "12 meses"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "H02",
+    "revision": 1,
+    "text": "Garantia de equipamento antiga: prazo de 6 meses.",
+    "facts": {
+      "garantia_prazo": "6 meses"
+    },
+    "group": "publico",
+    "valid_from": "2025-01-01",
+    "valid_to": "2025-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "H03",
+    "revision": 1,
+    "text": "Retirada de mercadoria: prazo de 2 dias úteis.",
+    "facts": {
+      "retirada_prazo": "2 dias úteis"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "H04",
+    "revision": 1,
+    "text": "Fatura interna: conta restrita 0042.",
+    "facts": {
+      "fatura_conta": "0042"
+    },
+    "group": "financeiro",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "H05",
+    "revision": 1,
+    "text": "Cancelamento comunicado A: prazo de 24 horas.",
+    "facts": {
+      "cancelamento_prazo": "24 horas"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "H06",
+    "revision": 1,
+    "text": "Cancelamento comunicado B: prazo de 72 horas.",
+    "facts": {
+      "cancelamento_prazo": "72 horas"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "H07",
+    "revision": 1,
+    "text": "Instalação de equipamento: agendamento obrigatório.",
+    "facts": {
+      "instalacao_regra": "agendamento obrigatório"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "H08",
+    "revision": 1,
+    "text": "Senha do portal: redefinição por link.",
+    "facts": {
+      "senha_regra": "redefinição por link"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "H09",
+    "revision": 1,
+    "text": "Manutenção: atendimento nas segundas-feiras.",
+    "facts": {
+      "manutencao_dia": "segunda-feira"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  }
+]

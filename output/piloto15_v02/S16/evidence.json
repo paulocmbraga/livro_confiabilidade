@@ -1,0 +1,68 @@
+{
+  "report": {
+    "case": "S16",
+    "scenario": "revoked_approval",
+    "operations": 1,
+    "effects": 0,
+    "duplicates": 0,
+    "unknown": 0,
+    "blocked": 1,
+    "available": 10,
+    "reconciliation_ms": null,
+    "passed": true
+  },
+  "observations": [
+    {
+      "phase": "after_first_attempt",
+      "states": [
+        {
+          "intent": "pedido-1",
+          "request": "{\"action\":\"reserve\",\"deadline\":150,\"expected_version\":0,\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"quantity\":2,\"resource\":\"peca-A\"}",
+          "state": "rejected",
+          "receipt": null
+        }
+      ]
+    }
+  ],
+  "final_oracle": {
+    "stock": [
+      {
+        "resource": "peca-A",
+        "available": 10,
+        "version": 0
+      }
+    ],
+    "reservations": [],
+    "effects": [],
+    "receipts": []
+  },
+  "final_client": [
+    {
+      "intent": "pedido-1",
+      "request": "{\"action\":\"reserve\",\"deadline\":150,\"expected_version\":0,\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"quantity\":2,\"resource\":\"peca-A\"}",
+      "state": "rejected",
+      "receipt": null
+    }
+  ],
+  "processes": [
+    {
+      "event": "server_started",
+      "pid": 18828,
+      "fault": "none",
+      "clock": 100,
+      "lookup": "yes",
+      "legacy": false
+    },
+    {
+      "event": "worker_finished",
+      "pid": 11452,
+      "fault": "none",
+      "exit": 0
+    },
+    {
+      "event": "server_stopped",
+      "pid": 18828,
+      "exit": 1
+    }
+  ]
+}

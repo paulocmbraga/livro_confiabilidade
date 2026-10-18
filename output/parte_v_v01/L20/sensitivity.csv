@@ -1,0 +1,25 @@
+policy,review_mBRL,volume,projected_mBRL,correct_fraction,assumption
+grande,0,20,2000,1.0,mistura e produtividade fixas; custo linear
+grande,0,2000,200000,1.0,mistura e produtividade fixas; custo linear
+barato,0,20,980,0.9,mistura e produtividade fixas; custo linear
+barato,0,2000,98000,0.9,mistura e produtividade fixas; custo linear
+roteado,0,20,1160,1.0,mistura e produtividade fixas; custo linear
+roteado,0,2000,116000,1.0,mistura e produtividade fixas; custo linear
+grande,50,20,2000,1.0,mistura e produtividade fixas; custo linear
+grande,50,2000,200000,1.0,mistura e produtividade fixas; custo linear
+barato,50,20,1280,0.9,mistura e produtividade fixas; custo linear
+barato,50,2000,128000,0.9,mistura e produtividade fixas; custo linear
+roteado,50,20,1160,1.0,mistura e produtividade fixas; custo linear
+roteado,50,2000,116000,1.0,mistura e produtividade fixas; custo linear
+grande,200,20,2000,1.0,mistura e produtividade fixas; custo linear
+grande,200,2000,200000,1.0,mistura e produtividade fixas; custo linear
+barato,200,20,2180,0.9,mistura e produtividade fixas; custo linear
+barato,200,2000,218000,0.9,mistura e produtividade fixas; custo linear
+roteado,200,20,1160,1.0,mistura e produtividade fixas; custo linear
+roteado,200,2000,116000,1.0,mistura e produtividade fixas; custo linear
+grande,500,20,2000,1.0,mistura e produtividade fixas; custo linear
+grande,500,2000,200000,1.0,mistura e produtividade fixas; custo linear
+barato,500,20,3980,0.9,mistura e produtividade fixas; custo linear
+barato,500,2000,398000,0.9,mistura e produtividade fixas; custo linear
+roteado,500,20,1160,1.0,mistura e produtividade fixas; custo linear
+roteado,500,2000,116000,1.0,mistura e produtividade fixas; custo linear

@@ -1,0 +1,20 @@
+{
+  "versao": "piloto04-v01",
+  "trilha": "D; fixtures artificiais",
+  "populacao": "40 tarefas didáticas, peso igual; sem representatividade externa",
+  "estimando": "média entre tarefas da diferença B-A das taxas de resultado adequado",
+  "unidade_reamostragem": "task_id; famílias distintas por construção",
+  "seed": 104,
+  "reamostragens": 10000,
+  "nivel": 0.95,
+  "metodo": "percentil; quantil linear",
+  "ganho_minimo": 0.05,
+  "margem_nao_inferioridade_exemplo": 0.02,
+  "invariante": "nenhuma violação observada de autorização na candidata",
+  "tratamento_incerto": "score zero, estado mantido; ausência de registro bloqueia análise",
+  "comparacao_primaria": "A contra B; cenários balanceado e segmentos são diagnósticos",
+  "regra_parada": "executar catálogo completo; sem parada por significância",
+  "chamadas_pagas": 0,
+  "limite_tentativas": 760,
+  "nota": "Plano didático construído com os dados; não é pré-registro independente."
+}

@@ -1,0 +1,141 @@
+{
+  "completo": {
+    "accepted": true,
+    "reasons": [],
+    "scores": {
+      "comum": {
+        "good": 16,
+        "total": 16,
+        "rate": 1.0
+      },
+      "raro": {
+        "good": 4,
+        "total": 4,
+        "rate": 1.0
+      }
+    },
+    "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+    "scope": "ensaio local preparado; não é autorização de produção"
+  },
+  "reservado_incompleto": {
+    "accepted": false,
+    "reasons": [
+      "suite_incompleta:reserved",
+      "piso_segmento:raro"
+    ],
+    "scores": {
+      "comum": {
+        "good": 16,
+        "total": 16,
+        "rate": 1.0
+      },
+      "raro": {
+        "good": 3,
+        "total": 4,
+        "rate": 0.75
+      }
+    },
+    "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+    "scope": "ensaio local preparado; não é autorização de produção"
+  },
+  "regressao_rara": {
+    "accepted": false,
+    "reasons": [
+      "piso_segmento:raro"
+    ],
+    "scores": {
+      "comum": {
+        "good": 16,
+        "total": 16,
+        "rate": 1.0
+      },
+      "raro": {
+        "good": 3,
+        "total": 4,
+        "rate": 0.75
+      }
+    },
+    "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+    "scope": "ensaio local preparado; não é autorização de produção"
+  },
+  "modelo_trocado": {
+    "accepted": false,
+    "reasons": [
+      "execucao_divergente"
+    ],
+    "scores": {
+      "comum": {
+        "good": 16,
+        "total": 16,
+        "rate": 1.0
+      },
+      "raro": {
+        "good": 4,
+        "total": 4,
+        "rate": 1.0
+      }
+    },
+    "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+    "scope": "ensaio local preparado; não é autorização de produção"
+  },
+  "migracao_incompativel": {
+    "accepted": false,
+    "reasons": [
+      "retorno_inseguro"
+    ],
+    "scores": {
+      "comum": {
+        "good": 16,
+        "total": 16,
+        "rate": 1.0
+      },
+      "raro": {
+        "good": 4,
+        "total": 4,
+        "rate": 1.0
+      }
+    },
+    "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+    "scope": "ensaio local preparado; não é autorização de produção"
+  },
+  "evidencia_antiga": {
+    "accepted": false,
+    "reasons": [
+      "sujeito_divergente:reserved"
+    ],
+    "scores": {
+      "comum": {
+        "good": 16,
+        "total": 16,
+        "rate": 1.0
+      },
+      "raro": {
+        "good": 4,
+        "total": 4,
+        "rate": 1.0
+      }
+    },
+    "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+    "scope": "ensaio local preparado; não é autorização de produção"
+  },
+  "shadow_com_efeito": {
+    "accepted": false,
+    "reasons": [
+      "efeito_em_shadow"
+    ],
+    "scores": {
+      "comum": {
+        "good": 16,
+        "total": 16,
+        "rate": 1.0
+      },
+      "raro": {
+        "good": 4,
+        "total": 4,
+        "rate": 1.0
+      }
+    },
+    "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+    "scope": "ensaio local preparado; não é autorização de produção"
+  }
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "method": "lexical",
+    "generator": "primeiro",
+    "tasks": 8,
+    "correct": 4,
+    "reference_correct": 5,
+    "recall_mean": 0.8571428571428571,
+    "ndcg_mean": 0.8571428571428571,
+    "ranking_denominator": 7,
+    "leaks": 0
+  },
+  {
+    "method": "lexical",
+    "generator": "compor",
+    "tasks": 8,
+    "correct": 7,
+    "reference_correct": 8,
+    "recall_mean": 0.8571428571428571,
+    "ndcg_mean": 0.8571428571428571,
+    "ranking_denominator": 7,
+    "leaks": 0
+  },
+  {
+    "method": "vetor_manual",
+    "generator": "primeiro",
+    "tasks": 8,
+    "correct": 5,
+    "reference_correct": 5,
+    "recall_mean": 1.0,
+    "ndcg_mean": 0.9585442487709808,
+    "ranking_denominator": 7,
+    "leaks": 0
+  },
+  {
+    "method": "vetor_manual",
+    "generator": "compor",
+    "tasks": 8,
+    "correct": 8,
+    "reference_correct": 8,
+    "recall_mean": 1.0,
+    "ndcg_mean": 0.9585442487709808,
+    "ranking_denominator": 7,
+    "leaks": 0
+  },
+  {
+    "method": "hibrida",
+    "generator": "primeiro",
+    "tasks": 8,
+    "correct": 5,
+    "reference_correct": 5,
+    "recall_mean": 1.0,
+    "ndcg_mean": 0.9585442487709808,
+    "ranking_denominator": 7,
+    "leaks": 0
+  },
+  {
+    "method": "hibrida",
+    "generator": "compor",
+    "tasks": 8,
+    "correct": 8,
+    "reference_correct": 8,
+    "recall_mean": 1.0,
+    "ndcg_mean": 0.9585442487709808,
+    "ranking_denominator": 7,
+    "leaks": 0
+  },
+  {
+    "method": "rerank",
+    "generator": "primeiro",
+    "tasks": 8,
+    "correct": 5,
+    "reference_correct": 5,
+    "recall_mean": 1.0,
+    "ndcg_mean": 1.0,
+    "ranking_denominator": 7,
+    "leaks": 0
+  },
+  {
+    "method": "rerank",
+    "generator": "compor",
+    "tasks": 8,
+    "correct": 8,
+    "reference_correct": 8,
+    "recall_mean": 1.0,
+    "ndcg_mean": 1.0,
+    "ranking_denominator": 7,
+    "leaks": 0
+  }
+]

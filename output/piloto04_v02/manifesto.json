@@ -1,0 +1,25 @@
+{
+  "data_utc": "2026-10-18T04:00:24.580041+00:00",
+  "python": "3.12.0",
+  "plataforma": "Windows-11-10.0.26300-SP0",
+  "duracao_segundos": 1.5963750000228174,
+  "tarefas": 40,
+  "tentativas": 760,
+  "trilha": "D",
+  "inferencias_reais": 0,
+  "efeitos_externos": 0,
+  "fontes": {
+    "laboratorios/__init__.py": "4e85c892e98d79a927563fe036060eb194e852815ac809e7c09050e8353e0841",
+    "laboratorios/estatistica.py": "f7ab297a8761b0b229e89fc86f87dc213f6448e8772d63875e91880992f0b13c",
+    "laboratorios/piloto04.py": "5428e2cb8f139bf514773bd521e5917d928ca97171de542cbd4de0857bb71a50"
+  },
+  "artefatos": {
+    "analysis_plan.json": "165026357f2d5147daf5ed289a99965e158ffa904abccaa0da76cff6c23c1961",
+    "decision.txt": "c1e9108ee2776a6179e3cd312455dff9c52299468edb094fb609c2b02ba5775d",
+    "diagnostico_balanceado.json": "121491cbdb47a6f82ee96c66988b65be0535da7f51182bd6dc5d8f1d8bd9cd9a",
+    "outcomes.jsonl": "e75219e724fce621c5a340dad0073a67719bcfea6e45f60a09d1e0d3e215ba54",
+    "paired_results.csv": "beb053c0bfa28b0d1a655d85e68ad2206e59baeb745a13298cb84bb08b40ce90",
+    "resultados.json": "4ff4e040ff8b1dc81e7313fd9264a41c4785bd0319ac321a7f73fc0c0a2d6f92",
+    "tarefas.json": "788266ce3d697b884f7cf6b0fd2b160cfbfbe20e3405422ba75cceb1ace9c181"
+  }
+}

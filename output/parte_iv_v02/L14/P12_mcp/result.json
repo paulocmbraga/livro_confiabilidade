@@ -1,0 +1,21 @@
+{
+  "case_id": "P12",
+  "transport": "mcp",
+  "pid": 9188,
+  "client_pid": 3528,
+  "calls": 4,
+  "expected_effects": 0,
+  "effects": 0,
+  "client": "rejected",
+  "reason": "schema",
+  "results": [
+    {
+      "observed": {
+        "allowed": false,
+        "reason": "schema",
+        "receipt": null
+      },
+      "client": "rejected"
+    }
+  ]
+}

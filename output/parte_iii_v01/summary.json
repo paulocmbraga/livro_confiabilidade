@@ -1,0 +1,341 @@
+{
+  "L09": [
+    {
+      "evaluator": "superficial",
+      "cases": 16,
+      "invalid": 11,
+      "valid": 5,
+      "detected": 1,
+      "escaped": 10,
+      "false_rejections": 1
+    },
+    {
+      "evaluator": "compartilhado",
+      "cases": 16,
+      "invalid": 11,
+      "valid": 5,
+      "detected": 9,
+      "escaped": 2,
+      "false_rejections": 5
+    },
+    {
+      "evaluator": "literal",
+      "cases": 16,
+      "invalid": 11,
+      "valid": 5,
+      "detected": 11,
+      "escaped": 0,
+      "false_rejections": 2
+    },
+    {
+      "evaluator": "contrato",
+      "cases": 16,
+      "invalid": 11,
+      "valid": 5,
+      "detected": 11,
+      "escaped": 0,
+      "false_rejections": 0
+    }
+  ],
+  "L10": [
+    {
+      "rubric": "r1",
+      "partition": "calibracao",
+      "dimension": "suporte",
+      "admitted": 6,
+      "complete": 5,
+      "missing": 1,
+      "observed": 0.8,
+      "expected": 0.8,
+      "kappa": 0.0,
+      "synthetic_seconds": 324
+    },
+    {
+      "rubric": "r1",
+      "partition": "calibracao",
+      "dimension": "completude",
+      "admitted": 6,
+      "complete": 5,
+      "missing": 1,
+      "observed": 0.6,
+      "expected": 0.6,
+      "kappa": 0.0,
+      "synthetic_seconds": 324
+    },
+    {
+      "rubric": "r1",
+      "partition": "calibracao",
+      "dimension": "clareza",
+      "admitted": 6,
+      "complete": 6,
+      "missing": 0,
+      "observed": 0.8333333333333334,
+      "expected": 0.8333333333333334,
+      "kappa": 0.0,
+      "synthetic_seconds": 324
+    },
+    {
+      "rubric": "r1",
+      "partition": "teste_publico",
+      "dimension": "suporte",
+      "admitted": 6,
+      "complete": 5,
+      "missing": 1,
+      "observed": 0.8,
+      "expected": 0.8,
+      "kappa": 0.0,
+      "synthetic_seconds": 468
+    },
+    {
+      "rubric": "r1",
+      "partition": "teste_publico",
+      "dimension": "completude",
+      "admitted": 6,
+      "complete": 5,
+      "missing": 1,
+      "observed": 0.6,
+      "expected": 0.6,
+      "kappa": 0.0,
+      "synthetic_seconds": 468
+    },
+    {
+      "rubric": "r1",
+      "partition": "teste_publico",
+      "dimension": "clareza",
+      "admitted": 6,
+      "complete": 6,
+      "missing": 0,
+      "observed": 0.8333333333333334,
+      "expected": 0.8333333333333334,
+      "kappa": 0.0,
+      "synthetic_seconds": 468
+    },
+    {
+      "rubric": "r2",
+      "partition": "calibracao",
+      "dimension": "suporte",
+      "admitted": 6,
+      "complete": 5,
+      "missing": 1,
+      "observed": 1.0,
+      "expected": 0.68,
+      "kappa": 1.0,
+      "synthetic_seconds": 384
+    },
+    {
+      "rubric": "r2",
+      "partition": "calibracao",
+      "dimension": "completude",
+      "admitted": 6,
+      "complete": 5,
+      "missing": 1,
+      "observed": 1.0,
+      "expected": 0.44,
+      "kappa": 1.0,
+      "synthetic_seconds": 384
+    },
+    {
+      "rubric": "r2",
+      "partition": "calibracao",
+      "dimension": "clareza",
+      "admitted": 6,
+      "complete": 6,
+      "missing": 0,
+      "observed": 1.0,
+      "expected": 1.0,
+      "kappa": null,
+      "synthetic_seconds": 384
+    },
+    {
+      "rubric": "r2",
+      "partition": "teste_publico",
+      "dimension": "suporte",
+      "admitted": 6,
+      "complete": 5,
+      "missing": 1,
+      "observed": 1.0,
+      "expected": 0.68,
+      "kappa": 1.0,
+      "synthetic_seconds": 528
+    },
+    {
+      "rubric": "r2",
+      "partition": "teste_publico",
+      "dimension": "completude",
+      "admitted": 6,
+      "complete": 5,
+      "missing": 1,
+      "observed": 0.8,
+      "expected": 0.52,
+      "kappa": 0.5833333333333334,
+      "synthetic_seconds": 528
+    },
+    {
+      "rubric": "r2",
+      "partition": "teste_publico",
+      "dimension": "clareza",
+      "admitted": 6,
+      "complete": 6,
+      "missing": 0,
+      "observed": 0.8333333333333334,
+      "expected": 0.8333333333333334,
+      "kappa": 0.0,
+      "synthetic_seconds": 528
+    }
+  ],
+  "L11": [
+    {
+      "judge": "vulneravel",
+      "partition": "calibracao",
+      "raw_trials": 48,
+      "invalid": 1,
+      "direct_decisions": 39,
+      "direct_errors": 25,
+      "position_disagreements": 5,
+      "input_chars": 18412,
+      "output_chars": 5050,
+      "threshold": null,
+      "admitted": 24,
+      "automatic": 0,
+      "review": 24,
+      "errors": 0,
+      "coverage": 0,
+      "error_given_automatic": null
+    },
+    {
+      "judge": "vulneravel",
+      "partition": "teste_publico",
+      "raw_trials": 48,
+      "invalid": 1,
+      "direct_decisions": 39,
+      "direct_errors": 25,
+      "position_disagreements": 5,
+      "input_chars": 18412,
+      "output_chars": 5050,
+      "threshold": null,
+      "admitted": 24,
+      "automatic": 0,
+      "review": 24,
+      "errors": 0,
+      "coverage": 0,
+      "error_given_automatic": null
+    },
+    {
+      "judge": "regra",
+      "partition": "calibracao",
+      "raw_trials": 48,
+      "invalid": 1,
+      "direct_decisions": 39,
+      "direct_errors": 0,
+      "position_disagreements": 0,
+      "input_chars": 18412,
+      "output_chars": 4842,
+      "threshold": 0.5,
+      "admitted": 24,
+      "automatic": 15,
+      "review": 9,
+      "errors": 0,
+      "coverage": 0.625,
+      "error_given_automatic": 0.0
+    },
+    {
+      "judge": "regra",
+      "partition": "teste_publico",
+      "raw_trials": 48,
+      "invalid": 1,
+      "direct_decisions": 39,
+      "direct_errors": 0,
+      "position_disagreements": 0,
+      "input_chars": 18412,
+      "output_chars": 4842,
+      "threshold": 0.5,
+      "admitted": 24,
+      "automatic": 15,
+      "review": 9,
+      "errors": 0,
+      "coverage": 0.625,
+      "error_given_automatic": 0.0
+    }
+  ],
+  "L12": {
+    "observations": 256,
+    "tasks": 8,
+    "effects": {
+      "cell_means": [
+        {
+          "k": 1,
+          "generator": "primeiro",
+          "quality": 0.625
+        },
+        {
+          "k": 1,
+          "generator": "compor",
+          "quality": 0.625
+        },
+        {
+          "k": 2,
+          "generator": "primeiro",
+          "quality": 0.625
+        },
+        {
+          "k": 2,
+          "generator": "compor",
+          "quality": 1.0
+        }
+      ],
+      "context_given_first": 0.0,
+      "context_given_compose": 0.375,
+      "generator_given_one": 0.0,
+      "generator_given_two": 0.375,
+      "interaction": 0.375,
+      "context_main": 0.1875,
+      "generator_main": 0.1875,
+      "combined": 0.375
+    },
+    "naive": [
+      {
+        "variant": "anterior",
+        "admitted": 4,
+        "correct": 1,
+        "measured_calls": 8,
+        "including_warmup": 8
+      },
+      {
+        "variant": "nova",
+        "admitted": 4,
+        "correct": 4,
+        "measured_calls": 4,
+        "including_warmup": 8
+      }
+    ],
+    "retrieval_calls": 128,
+    "warmup_calls": 128,
+    "generation_calls": 256,
+    "online_simulation": [
+      {
+        "variant": "A",
+        "assigned": 24,
+        "exposed": 18,
+        "completed": 12,
+        "task_completion": 0.5,
+        "selected_completion": 0.6666666666666666
+      },
+      {
+        "variant": "B",
+        "assigned": 24,
+        "exposed": 18,
+        "completed": 18,
+        "task_completion": 0.75,
+        "selected_completion": 1.0
+      }
+    ],
+    "mixed_teams_alternating": 12,
+    "mixed_teams_cluster": 0,
+    "sequential": {
+      "runs": 1000,
+      "fixed": 37,
+      "peek": 105,
+      "bonferroni": 15
+    }
+  }
+}

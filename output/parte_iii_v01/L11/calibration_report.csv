@@ -1,0 +1,5 @@
+judge,partition,raw_trials,invalid,direct_decisions,direct_errors,position_disagreements,input_chars,output_chars,threshold,admitted,automatic,review,errors,coverage,error_given_automatic
+vulneravel,calibracao,48,1,39,25,5,18412,5050,,24,0,24,0,0,
+vulneravel,teste_publico,48,1,39,25,5,18412,5050,,24,0,24,0,0,
+regra,calibracao,48,1,39,0,0,18412,4842,0.5,24,15,9,0,0.625,0.0
+regra,teste_publico,48,1,39,0,0,18412,4842,0.5,24,15,9,0,0.625,0.0

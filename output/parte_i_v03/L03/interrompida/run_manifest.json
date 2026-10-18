@@ -1,0 +1,26 @@
+{
+  "version": "L03-1.0",
+  "adapter": "fixture",
+  "command": null,
+  "limit": 12,
+  "reserve_per_call": 3,
+  "timeout_s": 3,
+  "admitted": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06"
+  ],
+  "public_fields": [
+    "task_id",
+    "pergunta"
+  ],
+  "model": "nenhum",
+  "unit": "unidades didáticas",
+  "source": {
+    "campanhas.py": "1a68aaf8f8108196454913becabaa3dc355307675b2d13025e6c94938d0ea57f",
+    "worker03.py": "0e282bf78c3b1dce5e514259e5e9cca300ad6688ba5f64dd6045c7fa2fbbb7cc"
+  }
+}

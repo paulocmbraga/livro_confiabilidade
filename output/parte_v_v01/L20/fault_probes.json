@@ -1,0 +1,25 @@
+{
+  "unknown": {
+    "tasks": 20,
+    "correct": 20,
+    "quality": 1.0,
+    "known_mBRL": 1150,
+    "unknown_receipts": 1,
+    "cost_per_correct_mBRL": null,
+    "review": 0,
+    "mean_logical_latency": 1.3,
+    "segments": {
+      "simples": 1.0,
+      "dificil": 1.0
+    }
+  },
+  "budget": {
+    "blocked_while_pending": true,
+    "admitted_after_settlement": true,
+    "settled": 80,
+    "pending": {
+      "B": 90
+    }
+  },
+  "expired_price_accepted": false
+}

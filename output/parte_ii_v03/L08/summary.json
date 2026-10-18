@@ -1,0 +1,32 @@
+[
+  {
+    "variant": "workflow",
+    "tasks": 8,
+    "attempts": 24,
+    "completed": 6,
+    "adequate": 12,
+    "any_adequate": 4,
+    "all_adequate": 4,
+    "unauthorized_attempts": 3,
+    "uncertain": 3,
+    "steps": 78,
+    "cost_units": 102,
+    "narrative_success": 6,
+    "false_narrative_success": 0
+  },
+  {
+    "variant": "agente_d",
+    "tasks": 8,
+    "attempts": 24,
+    "completed": 4,
+    "adequate": 10,
+    "any_adequate": 4,
+    "all_adequate": 3,
+    "unauthorized_attempts": 3,
+    "uncertain": 3,
+    "steps": 81,
+    "cost_units": 105,
+    "narrative_success": 9,
+    "false_narrative_success": 5
+  }
+]

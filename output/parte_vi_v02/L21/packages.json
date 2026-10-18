@@ -1,0 +1,1300 @@
+{
+  "completo": {
+    "manifest": {
+      "schema": "livro.release/1",
+      "components": {
+        "code": "aefadb9ec14e76a6e5a406cc5b73684cc65aa3d2f9f4f4f8328fcaa650e3d411",
+        "model": "3a36e8af4f3cbbc46d799f50b291a97a965817eaf74922b224fe5c5c7e7dcab3",
+        "prompt": "7f262cf3f4f178317f95d65d6a6816e98ea8f9c1a4ed0d4ffe610792e82ad665",
+        "corpus": "f8fd01aca6d6eb2b3e46ec40dbc437644d78316549262ce5a38c41d04825fb09",
+        "policy": "3ad57b4088b9facd869f8e326c0e435d14aa6e106115b7ae235c282ead982c2f",
+        "evaluator": "7a786217e7d7ffabd1ae4efd00f5e543a03b306a536fb4089149fc9603aeb70c",
+        "config": "8c3c889f72572f0c9e0621abf4841493c6602a47ca0ff6f3ab805f715925abf3"
+      },
+      "release_id": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "changed": [
+        "code",
+        "prompt"
+      ],
+      "state_schema": 2
+    },
+    "suites": {
+      "unit": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "U1",
+          "U2"
+        ],
+        "rows": [
+          {
+            "id": "U1",
+            "passed": true
+          },
+          {
+            "id": "U2",
+            "passed": true
+          }
+        ]
+      },
+      "regression": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "G1",
+          "G2"
+        ],
+        "rows": [
+          {
+            "id": "G1",
+            "passed": true
+          },
+          {
+            "id": "G2",
+            "passed": true
+          }
+        ]
+      },
+      "reserved": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "T00",
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05",
+          "T06",
+          "T07",
+          "T08",
+          "T09",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "T14",
+          "T15",
+          "T16",
+          "T17",
+          "T18",
+          "T19"
+        ],
+        "rows": [
+          {
+            "id": "T00",
+            "passed": true
+          },
+          {
+            "id": "T01",
+            "passed": true
+          },
+          {
+            "id": "T02",
+            "passed": true
+          },
+          {
+            "id": "T03",
+            "passed": true
+          },
+          {
+            "id": "T04",
+            "passed": true
+          },
+          {
+            "id": "T05",
+            "passed": true
+          },
+          {
+            "id": "T06",
+            "passed": true
+          },
+          {
+            "id": "T07",
+            "passed": true
+          },
+          {
+            "id": "T08",
+            "passed": true
+          },
+          {
+            "id": "T09",
+            "passed": true
+          },
+          {
+            "id": "T10",
+            "passed": true
+          },
+          {
+            "id": "T11",
+            "passed": true
+          },
+          {
+            "id": "T12",
+            "passed": true
+          },
+          {
+            "id": "T13",
+            "passed": true
+          },
+          {
+            "id": "T14",
+            "passed": true
+          },
+          {
+            "id": "T15",
+            "passed": true
+          },
+          {
+            "id": "T16",
+            "passed": true
+          },
+          {
+            "id": "T17",
+            "passed": true
+          },
+          {
+            "id": "T18",
+            "passed": true
+          },
+          {
+            "id": "T19",
+            "passed": true
+          }
+        ]
+      }
+    },
+    "observed_components": {
+      "code": "aefadb9ec14e76a6e5a406cc5b73684cc65aa3d2f9f4f4f8328fcaa650e3d411",
+      "model": "3a36e8af4f3cbbc46d799f50b291a97a965817eaf74922b224fe5c5c7e7dcab3",
+      "prompt": "7f262cf3f4f178317f95d65d6a6816e98ea8f9c1a4ed0d4ffe610792e82ad665",
+      "corpus": "f8fd01aca6d6eb2b3e46ec40dbc437644d78316549262ce5a38c41d04825fb09",
+      "policy": "3ad57b4088b9facd869f8e326c0e435d14aa6e106115b7ae235c282ead982c2f",
+      "evaluator": "7a786217e7d7ffabd1ae4efd00f5e543a03b306a536fb4089149fc9603aeb70c",
+      "config": "8c3c889f72572f0c9e0621abf4841493c6602a47ca0ff6f3ab805f715925abf3"
+    },
+    "migration": {
+      "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "old_reader_v2": false,
+      "pending_pinned_v1": true,
+      "identity_preserved": true,
+      "readers_agree": true
+    },
+    "rollout": {
+      "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "shadow_effects": 0,
+      "canary_denominator": 10,
+      "candidate_tasks": 2,
+      "return_drill": true
+    }
+  },
+  "reservado_incompleto": {
+    "manifest": {
+      "schema": "livro.release/1",
+      "components": {
+        "code": "aefadb9ec14e76a6e5a406cc5b73684cc65aa3d2f9f4f4f8328fcaa650e3d411",
+        "model": "3a36e8af4f3cbbc46d799f50b291a97a965817eaf74922b224fe5c5c7e7dcab3",
+        "prompt": "7f262cf3f4f178317f95d65d6a6816e98ea8f9c1a4ed0d4ffe610792e82ad665",
+        "corpus": "f8fd01aca6d6eb2b3e46ec40dbc437644d78316549262ce5a38c41d04825fb09",
+        "policy": "3ad57b4088b9facd869f8e326c0e435d14aa6e106115b7ae235c282ead982c2f",
+        "evaluator": "7a786217e7d7ffabd1ae4efd00f5e543a03b306a536fb4089149fc9603aeb70c",
+        "config": "8c3c889f72572f0c9e0621abf4841493c6602a47ca0ff6f3ab805f715925abf3"
+      },
+      "release_id": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "changed": [
+        "code",
+        "prompt"
+      ],
+      "state_schema": 2
+    },
+    "suites": {
+      "unit": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "U1",
+          "U2"
+        ],
+        "rows": [
+          {
+            "id": "U1",
+            "passed": true
+          },
+          {
+            "id": "U2",
+            "passed": true
+          }
+        ]
+      },
+      "regression": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "G1",
+          "G2"
+        ],
+        "rows": [
+          {
+            "id": "G1",
+            "passed": true
+          },
+          {
+            "id": "G2",
+            "passed": true
+          }
+        ]
+      },
+      "reserved": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "T00",
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05",
+          "T06",
+          "T07",
+          "T08",
+          "T09",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "T14",
+          "T15",
+          "T16",
+          "T17",
+          "T18",
+          "T19"
+        ],
+        "rows": [
+          {
+            "id": "T00",
+            "passed": true
+          },
+          {
+            "id": "T01",
+            "passed": true
+          },
+          {
+            "id": "T02",
+            "passed": true
+          },
+          {
+            "id": "T03",
+            "passed": true
+          },
+          {
+            "id": "T04",
+            "passed": true
+          },
+          {
+            "id": "T05",
+            "passed": true
+          },
+          {
+            "id": "T06",
+            "passed": true
+          },
+          {
+            "id": "T07",
+            "passed": true
+          },
+          {
+            "id": "T08",
+            "passed": true
+          },
+          {
+            "id": "T09",
+            "passed": true
+          },
+          {
+            "id": "T10",
+            "passed": true
+          },
+          {
+            "id": "T11",
+            "passed": true
+          },
+          {
+            "id": "T12",
+            "passed": true
+          },
+          {
+            "id": "T13",
+            "passed": true
+          },
+          {
+            "id": "T14",
+            "passed": true
+          },
+          {
+            "id": "T15",
+            "passed": true
+          },
+          {
+            "id": "T16",
+            "passed": true
+          },
+          {
+            "id": "T17",
+            "passed": true
+          },
+          {
+            "id": "T18",
+            "passed": true
+          }
+        ]
+      }
+    },
+    "observed_components": {
+      "code": "aefadb9ec14e76a6e5a406cc5b73684cc65aa3d2f9f4f4f8328fcaa650e3d411",
+      "model": "3a36e8af4f3cbbc46d799f50b291a97a965817eaf74922b224fe5c5c7e7dcab3",
+      "prompt": "7f262cf3f4f178317f95d65d6a6816e98ea8f9c1a4ed0d4ffe610792e82ad665",
+      "corpus": "f8fd01aca6d6eb2b3e46ec40dbc437644d78316549262ce5a38c41d04825fb09",
+      "policy": "3ad57b4088b9facd869f8e326c0e435d14aa6e106115b7ae235c282ead982c2f",
+      "evaluator": "7a786217e7d7ffabd1ae4efd00f5e543a03b306a536fb4089149fc9603aeb70c",
+      "config": "8c3c889f72572f0c9e0621abf4841493c6602a47ca0ff6f3ab805f715925abf3"
+    },
+    "migration": {
+      "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "old_reader_v2": false,
+      "pending_pinned_v1": true,
+      "identity_preserved": true,
+      "readers_agree": true
+    },
+    "rollout": {
+      "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "shadow_effects": 0,
+      "canary_denominator": 10,
+      "candidate_tasks": 2,
+      "return_drill": true
+    }
+  },
+  "regressao_rara": {
+    "manifest": {
+      "schema": "livro.release/1",
+      "components": {
+        "code": "aefadb9ec14e76a6e5a406cc5b73684cc65aa3d2f9f4f4f8328fcaa650e3d411",
+        "model": "3a36e8af4f3cbbc46d799f50b291a97a965817eaf74922b224fe5c5c7e7dcab3",
+        "prompt": "7f262cf3f4f178317f95d65d6a6816e98ea8f9c1a4ed0d4ffe610792e82ad665",
+        "corpus": "f8fd01aca6d6eb2b3e46ec40dbc437644d78316549262ce5a38c41d04825fb09",
+        "policy": "3ad57b4088b9facd869f8e326c0e435d14aa6e106115b7ae235c282ead982c2f",
+        "evaluator": "7a786217e7d7ffabd1ae4efd00f5e543a03b306a536fb4089149fc9603aeb70c",
+        "config": "8c3c889f72572f0c9e0621abf4841493c6602a47ca0ff6f3ab805f715925abf3"
+      },
+      "release_id": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "changed": [
+        "code",
+        "prompt"
+      ],
+      "state_schema": 2
+    },
+    "suites": {
+      "unit": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "U1",
+          "U2"
+        ],
+        "rows": [
+          {
+            "id": "U1",
+            "passed": true
+          },
+          {
+            "id": "U2",
+            "passed": true
+          }
+        ]
+      },
+      "regression": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "G1",
+          "G2"
+        ],
+        "rows": [
+          {
+            "id": "G1",
+            "passed": true
+          },
+          {
+            "id": "G2",
+            "passed": true
+          }
+        ]
+      },
+      "reserved": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "T00",
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05",
+          "T06",
+          "T07",
+          "T08",
+          "T09",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "T14",
+          "T15",
+          "T16",
+          "T17",
+          "T18",
+          "T19"
+        ],
+        "rows": [
+          {
+            "id": "T00",
+            "passed": true
+          },
+          {
+            "id": "T01",
+            "passed": true
+          },
+          {
+            "id": "T02",
+            "passed": true
+          },
+          {
+            "id": "T03",
+            "passed": true
+          },
+          {
+            "id": "T04",
+            "passed": true
+          },
+          {
+            "id": "T05",
+            "passed": true
+          },
+          {
+            "id": "T06",
+            "passed": true
+          },
+          {
+            "id": "T07",
+            "passed": true
+          },
+          {
+            "id": "T08",
+            "passed": true
+          },
+          {
+            "id": "T09",
+            "passed": true
+          },
+          {
+            "id": "T10",
+            "passed": true
+          },
+          {
+            "id": "T11",
+            "passed": true
+          },
+          {
+            "id": "T12",
+            "passed": true
+          },
+          {
+            "id": "T13",
+            "passed": true
+          },
+          {
+            "id": "T14",
+            "passed": true
+          },
+          {
+            "id": "T15",
+            "passed": true
+          },
+          {
+            "id": "T16",
+            "passed": true
+          },
+          {
+            "id": "T17",
+            "passed": true
+          },
+          {
+            "id": "T18",
+            "passed": true
+          },
+          {
+            "id": "T19",
+            "passed": false
+          }
+        ]
+      }
+    },
+    "observed_components": {
+      "code": "aefadb9ec14e76a6e5a406cc5b73684cc65aa3d2f9f4f4f8328fcaa650e3d411",
+      "model": "3a36e8af4f3cbbc46d799f50b291a97a965817eaf74922b224fe5c5c7e7dcab3",
+      "prompt": "7f262cf3f4f178317f95d65d6a6816e98ea8f9c1a4ed0d4ffe610792e82ad665",
+      "corpus": "f8fd01aca6d6eb2b3e46ec40dbc437644d78316549262ce5a38c41d04825fb09",
+      "policy": "3ad57b4088b9facd869f8e326c0e435d14aa6e106115b7ae235c282ead982c2f",
+      "evaluator": "7a786217e7d7ffabd1ae4efd00f5e543a03b306a536fb4089149fc9603aeb70c",
+      "config": "8c3c889f72572f0c9e0621abf4841493c6602a47ca0ff6f3ab805f715925abf3"
+    },
+    "migration": {
+      "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "old_reader_v2": false,
+      "pending_pinned_v1": true,
+      "identity_preserved": true,
+      "readers_agree": true
+    },
+    "rollout": {
+      "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "shadow_effects": 0,
+      "canary_denominator": 10,
+      "candidate_tasks": 2,
+      "return_drill": true
+    }
+  },
+  "modelo_trocado": {
+    "manifest": {
+      "schema": "livro.release/1",
+      "components": {
+        "code": "aefadb9ec14e76a6e5a406cc5b73684cc65aa3d2f9f4f4f8328fcaa650e3d411",
+        "model": "3a36e8af4f3cbbc46d799f50b291a97a965817eaf74922b224fe5c5c7e7dcab3",
+        "prompt": "7f262cf3f4f178317f95d65d6a6816e98ea8f9c1a4ed0d4ffe610792e82ad665",
+        "corpus": "f8fd01aca6d6eb2b3e46ec40dbc437644d78316549262ce5a38c41d04825fb09",
+        "policy": "3ad57b4088b9facd869f8e326c0e435d14aa6e106115b7ae235c282ead982c2f",
+        "evaluator": "7a786217e7d7ffabd1ae4efd00f5e543a03b306a536fb4089149fc9603aeb70c",
+        "config": "8c3c889f72572f0c9e0621abf4841493c6602a47ca0ff6f3ab805f715925abf3"
+      },
+      "release_id": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "changed": [
+        "code",
+        "prompt"
+      ],
+      "state_schema": 2
+    },
+    "suites": {
+      "unit": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "U1",
+          "U2"
+        ],
+        "rows": [
+          {
+            "id": "U1",
+            "passed": true
+          },
+          {
+            "id": "U2",
+            "passed": true
+          }
+        ]
+      },
+      "regression": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "G1",
+          "G2"
+        ],
+        "rows": [
+          {
+            "id": "G1",
+            "passed": true
+          },
+          {
+            "id": "G2",
+            "passed": true
+          }
+        ]
+      },
+      "reserved": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "T00",
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05",
+          "T06",
+          "T07",
+          "T08",
+          "T09",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "T14",
+          "T15",
+          "T16",
+          "T17",
+          "T18",
+          "T19"
+        ],
+        "rows": [
+          {
+            "id": "T00",
+            "passed": true
+          },
+          {
+            "id": "T01",
+            "passed": true
+          },
+          {
+            "id": "T02",
+            "passed": true
+          },
+          {
+            "id": "T03",
+            "passed": true
+          },
+          {
+            "id": "T04",
+            "passed": true
+          },
+          {
+            "id": "T05",
+            "passed": true
+          },
+          {
+            "id": "T06",
+            "passed": true
+          },
+          {
+            "id": "T07",
+            "passed": true
+          },
+          {
+            "id": "T08",
+            "passed": true
+          },
+          {
+            "id": "T09",
+            "passed": true
+          },
+          {
+            "id": "T10",
+            "passed": true
+          },
+          {
+            "id": "T11",
+            "passed": true
+          },
+          {
+            "id": "T12",
+            "passed": true
+          },
+          {
+            "id": "T13",
+            "passed": true
+          },
+          {
+            "id": "T14",
+            "passed": true
+          },
+          {
+            "id": "T15",
+            "passed": true
+          },
+          {
+            "id": "T16",
+            "passed": true
+          },
+          {
+            "id": "T17",
+            "passed": true
+          },
+          {
+            "id": "T18",
+            "passed": true
+          },
+          {
+            "id": "T19",
+            "passed": true
+          }
+        ]
+      }
+    },
+    "observed_components": {
+      "code": "aefadb9ec14e76a6e5a406cc5b73684cc65aa3d2f9f4f4f8328fcaa650e3d411",
+      "model": "837c66b52d48b6041bf453c628d47844d55ba63a066b91827737f1b35a53f412",
+      "prompt": "7f262cf3f4f178317f95d65d6a6816e98ea8f9c1a4ed0d4ffe610792e82ad665",
+      "corpus": "f8fd01aca6d6eb2b3e46ec40dbc437644d78316549262ce5a38c41d04825fb09",
+      "policy": "3ad57b4088b9facd869f8e326c0e435d14aa6e106115b7ae235c282ead982c2f",
+      "evaluator": "7a786217e7d7ffabd1ae4efd00f5e543a03b306a536fb4089149fc9603aeb70c",
+      "config": "8c3c889f72572f0c9e0621abf4841493c6602a47ca0ff6f3ab805f715925abf3"
+    },
+    "migration": {
+      "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "old_reader_v2": false,
+      "pending_pinned_v1": true,
+      "identity_preserved": true,
+      "readers_agree": true
+    },
+    "rollout": {
+      "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "shadow_effects": 0,
+      "canary_denominator": 10,
+      "candidate_tasks": 2,
+      "return_drill": true
+    }
+  },
+  "migracao_incompativel": {
+    "manifest": {
+      "schema": "livro.release/1",
+      "components": {
+        "code": "aefadb9ec14e76a6e5a406cc5b73684cc65aa3d2f9f4f4f8328fcaa650e3d411",
+        "model": "3a36e8af4f3cbbc46d799f50b291a97a965817eaf74922b224fe5c5c7e7dcab3",
+        "prompt": "7f262cf3f4f178317f95d65d6a6816e98ea8f9c1a4ed0d4ffe610792e82ad665",
+        "corpus": "f8fd01aca6d6eb2b3e46ec40dbc437644d78316549262ce5a38c41d04825fb09",
+        "policy": "3ad57b4088b9facd869f8e326c0e435d14aa6e106115b7ae235c282ead982c2f",
+        "evaluator": "7a786217e7d7ffabd1ae4efd00f5e543a03b306a536fb4089149fc9603aeb70c",
+        "config": "8c3c889f72572f0c9e0621abf4841493c6602a47ca0ff6f3ab805f715925abf3"
+      },
+      "release_id": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "changed": [
+        "code",
+        "prompt"
+      ],
+      "state_schema": 2
+    },
+    "suites": {
+      "unit": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "U1",
+          "U2"
+        ],
+        "rows": [
+          {
+            "id": "U1",
+            "passed": true
+          },
+          {
+            "id": "U2",
+            "passed": true
+          }
+        ]
+      },
+      "regression": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "G1",
+          "G2"
+        ],
+        "rows": [
+          {
+            "id": "G1",
+            "passed": true
+          },
+          {
+            "id": "G2",
+            "passed": true
+          }
+        ]
+      },
+      "reserved": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "T00",
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05",
+          "T06",
+          "T07",
+          "T08",
+          "T09",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "T14",
+          "T15",
+          "T16",
+          "T17",
+          "T18",
+          "T19"
+        ],
+        "rows": [
+          {
+            "id": "T00",
+            "passed": true
+          },
+          {
+            "id": "T01",
+            "passed": true
+          },
+          {
+            "id": "T02",
+            "passed": true
+          },
+          {
+            "id": "T03",
+            "passed": true
+          },
+          {
+            "id": "T04",
+            "passed": true
+          },
+          {
+            "id": "T05",
+            "passed": true
+          },
+          {
+            "id": "T06",
+            "passed": true
+          },
+          {
+            "id": "T07",
+            "passed": true
+          },
+          {
+            "id": "T08",
+            "passed": true
+          },
+          {
+            "id": "T09",
+            "passed": true
+          },
+          {
+            "id": "T10",
+            "passed": true
+          },
+          {
+            "id": "T11",
+            "passed": true
+          },
+          {
+            "id": "T12",
+            "passed": true
+          },
+          {
+            "id": "T13",
+            "passed": true
+          },
+          {
+            "id": "T14",
+            "passed": true
+          },
+          {
+            "id": "T15",
+            "passed": true
+          },
+          {
+            "id": "T16",
+            "passed": true
+          },
+          {
+            "id": "T17",
+            "passed": true
+          },
+          {
+            "id": "T18",
+            "passed": true
+          },
+          {
+            "id": "T19",
+            "passed": true
+          }
+        ]
+      }
+    },
+    "observed_components": {
+      "code": "aefadb9ec14e76a6e5a406cc5b73684cc65aa3d2f9f4f4f8328fcaa650e3d411",
+      "model": "3a36e8af4f3cbbc46d799f50b291a97a965817eaf74922b224fe5c5c7e7dcab3",
+      "prompt": "7f262cf3f4f178317f95d65d6a6816e98ea8f9c1a4ed0d4ffe610792e82ad665",
+      "corpus": "f8fd01aca6d6eb2b3e46ec40dbc437644d78316549262ce5a38c41d04825fb09",
+      "policy": "3ad57b4088b9facd869f8e326c0e435d14aa6e106115b7ae235c282ead982c2f",
+      "evaluator": "7a786217e7d7ffabd1ae4efd00f5e543a03b306a536fb4089149fc9603aeb70c",
+      "config": "8c3c889f72572f0c9e0621abf4841493c6602a47ca0ff6f3ab805f715925abf3"
+    },
+    "migration": {
+      "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "old_reader_v2": false,
+      "pending_pinned_v1": true,
+      "identity_preserved": false,
+      "readers_agree": true
+    },
+    "rollout": {
+      "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "shadow_effects": 0,
+      "canary_denominator": 10,
+      "candidate_tasks": 2,
+      "return_drill": true
+    }
+  },
+  "evidencia_antiga": {
+    "manifest": {
+      "schema": "livro.release/1",
+      "components": {
+        "code": "aefadb9ec14e76a6e5a406cc5b73684cc65aa3d2f9f4f4f8328fcaa650e3d411",
+        "model": "3a36e8af4f3cbbc46d799f50b291a97a965817eaf74922b224fe5c5c7e7dcab3",
+        "prompt": "7f262cf3f4f178317f95d65d6a6816e98ea8f9c1a4ed0d4ffe610792e82ad665",
+        "corpus": "f8fd01aca6d6eb2b3e46ec40dbc437644d78316549262ce5a38c41d04825fb09",
+        "policy": "3ad57b4088b9facd869f8e326c0e435d14aa6e106115b7ae235c282ead982c2f",
+        "evaluator": "7a786217e7d7ffabd1ae4efd00f5e543a03b306a536fb4089149fc9603aeb70c",
+        "config": "8c3c889f72572f0c9e0621abf4841493c6602a47ca0ff6f3ab805f715925abf3"
+      },
+      "release_id": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "changed": [
+        "code",
+        "prompt"
+      ],
+      "state_schema": 2
+    },
+    "suites": {
+      "unit": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "U1",
+          "U2"
+        ],
+        "rows": [
+          {
+            "id": "U1",
+            "passed": true
+          },
+          {
+            "id": "U2",
+            "passed": true
+          }
+        ]
+      },
+      "regression": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "G1",
+          "G2"
+        ],
+        "rows": [
+          {
+            "id": "G1",
+            "passed": true
+          },
+          {
+            "id": "G2",
+            "passed": true
+          }
+        ]
+      },
+      "reserved": {
+        "subject": "outra-versao",
+        "expected": [
+          "T00",
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05",
+          "T06",
+          "T07",
+          "T08",
+          "T09",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "T14",
+          "T15",
+          "T16",
+          "T17",
+          "T18",
+          "T19"
+        ],
+        "rows": [
+          {
+            "id": "T00",
+            "passed": true
+          },
+          {
+            "id": "T01",
+            "passed": true
+          },
+          {
+            "id": "T02",
+            "passed": true
+          },
+          {
+            "id": "T03",
+            "passed": true
+          },
+          {
+            "id": "T04",
+            "passed": true
+          },
+          {
+            "id": "T05",
+            "passed": true
+          },
+          {
+            "id": "T06",
+            "passed": true
+          },
+          {
+            "id": "T07",
+            "passed": true
+          },
+          {
+            "id": "T08",
+            "passed": true
+          },
+          {
+            "id": "T09",
+            "passed": true
+          },
+          {
+            "id": "T10",
+            "passed": true
+          },
+          {
+            "id": "T11",
+            "passed": true
+          },
+          {
+            "id": "T12",
+            "passed": true
+          },
+          {
+            "id": "T13",
+            "passed": true
+          },
+          {
+            "id": "T14",
+            "passed": true
+          },
+          {
+            "id": "T15",
+            "passed": true
+          },
+          {
+            "id": "T16",
+            "passed": true
+          },
+          {
+            "id": "T17",
+            "passed": true
+          },
+          {
+            "id": "T18",
+            "passed": true
+          },
+          {
+            "id": "T19",
+            "passed": true
+          }
+        ]
+      }
+    },
+    "observed_components": {
+      "code": "aefadb9ec14e76a6e5a406cc5b73684cc65aa3d2f9f4f4f8328fcaa650e3d411",
+      "model": "3a36e8af4f3cbbc46d799f50b291a97a965817eaf74922b224fe5c5c7e7dcab3",
+      "prompt": "7f262cf3f4f178317f95d65d6a6816e98ea8f9c1a4ed0d4ffe610792e82ad665",
+      "corpus": "f8fd01aca6d6eb2b3e46ec40dbc437644d78316549262ce5a38c41d04825fb09",
+      "policy": "3ad57b4088b9facd869f8e326c0e435d14aa6e106115b7ae235c282ead982c2f",
+      "evaluator": "7a786217e7d7ffabd1ae4efd00f5e543a03b306a536fb4089149fc9603aeb70c",
+      "config": "8c3c889f72572f0c9e0621abf4841493c6602a47ca0ff6f3ab805f715925abf3"
+    },
+    "migration": {
+      "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "old_reader_v2": false,
+      "pending_pinned_v1": true,
+      "identity_preserved": true,
+      "readers_agree": true
+    },
+    "rollout": {
+      "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "shadow_effects": 0,
+      "canary_denominator": 10,
+      "candidate_tasks": 2,
+      "return_drill": true
+    }
+  },
+  "shadow_com_efeito": {
+    "manifest": {
+      "schema": "livro.release/1",
+      "components": {
+        "code": "aefadb9ec14e76a6e5a406cc5b73684cc65aa3d2f9f4f4f8328fcaa650e3d411",
+        "model": "3a36e8af4f3cbbc46d799f50b291a97a965817eaf74922b224fe5c5c7e7dcab3",
+        "prompt": "7f262cf3f4f178317f95d65d6a6816e98ea8f9c1a4ed0d4ffe610792e82ad665",
+        "corpus": "f8fd01aca6d6eb2b3e46ec40dbc437644d78316549262ce5a38c41d04825fb09",
+        "policy": "3ad57b4088b9facd869f8e326c0e435d14aa6e106115b7ae235c282ead982c2f",
+        "evaluator": "7a786217e7d7ffabd1ae4efd00f5e543a03b306a536fb4089149fc9603aeb70c",
+        "config": "8c3c889f72572f0c9e0621abf4841493c6602a47ca0ff6f3ab805f715925abf3"
+      },
+      "release_id": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "changed": [
+        "code",
+        "prompt"
+      ],
+      "state_schema": 2
+    },
+    "suites": {
+      "unit": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "U1",
+          "U2"
+        ],
+        "rows": [
+          {
+            "id": "U1",
+            "passed": true
+          },
+          {
+            "id": "U2",
+            "passed": true
+          }
+        ]
+      },
+      "regression": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "G1",
+          "G2"
+        ],
+        "rows": [
+          {
+            "id": "G1",
+            "passed": true
+          },
+          {
+            "id": "G2",
+            "passed": true
+          }
+        ]
+      },
+      "reserved": {
+        "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+        "expected": [
+          "T00",
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05",
+          "T06",
+          "T07",
+          "T08",
+          "T09",
+          "T10",
+          "T11",
+          "T12",
+          "T13",
+          "T14",
+          "T15",
+          "T16",
+          "T17",
+          "T18",
+          "T19"
+        ],
+        "rows": [
+          {
+            "id": "T00",
+            "passed": true
+          },
+          {
+            "id": "T01",
+            "passed": true
+          },
+          {
+            "id": "T02",
+            "passed": true
+          },
+          {
+            "id": "T03",
+            "passed": true
+          },
+          {
+            "id": "T04",
+            "passed": true
+          },
+          {
+            "id": "T05",
+            "passed": true
+          },
+          {
+            "id": "T06",
+            "passed": true
+          },
+          {
+            "id": "T07",
+            "passed": true
+          },
+          {
+            "id": "T08",
+            "passed": true
+          },
+          {
+            "id": "T09",
+            "passed": true
+          },
+          {
+            "id": "T10",
+            "passed": true
+          },
+          {
+            "id": "T11",
+            "passed": true
+          },
+          {
+            "id": "T12",
+            "passed": true
+          },
+          {
+            "id": "T13",
+            "passed": true
+          },
+          {
+            "id": "T14",
+            "passed": true
+          },
+          {
+            "id": "T15",
+            "passed": true
+          },
+          {
+            "id": "T16",
+            "passed": true
+          },
+          {
+            "id": "T17",
+            "passed": true
+          },
+          {
+            "id": "T18",
+            "passed": true
+          },
+          {
+            "id": "T19",
+            "passed": true
+          }
+        ]
+      }
+    },
+    "observed_components": {
+      "code": "aefadb9ec14e76a6e5a406cc5b73684cc65aa3d2f9f4f4f8328fcaa650e3d411",
+      "model": "3a36e8af4f3cbbc46d799f50b291a97a965817eaf74922b224fe5c5c7e7dcab3",
+      "prompt": "7f262cf3f4f178317f95d65d6a6816e98ea8f9c1a4ed0d4ffe610792e82ad665",
+      "corpus": "f8fd01aca6d6eb2b3e46ec40dbc437644d78316549262ce5a38c41d04825fb09",
+      "policy": "3ad57b4088b9facd869f8e326c0e435d14aa6e106115b7ae235c282ead982c2f",
+      "evaluator": "7a786217e7d7ffabd1ae4efd00f5e543a03b306a536fb4089149fc9603aeb70c",
+      "config": "8c3c889f72572f0c9e0621abf4841493c6602a47ca0ff6f3ab805f715925abf3"
+    },
+    "migration": {
+      "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "old_reader_v2": false,
+      "pending_pinned_v1": true,
+      "identity_preserved": true,
+      "readers_agree": true
+    },
+    "rollout": {
+      "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+      "shadow_effects": 10,
+      "canary_denominator": 10,
+      "candidate_tasks": 2,
+      "return_drill": true
+    }
+  }
+}

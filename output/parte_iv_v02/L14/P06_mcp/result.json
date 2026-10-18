@@ -1,0 +1,21 @@
+{
+  "case_id": "P06",
+  "transport": "mcp",
+  "pid": 10060,
+  "client_pid": 3528,
+  "calls": 4,
+  "expected_effects": 0,
+  "effects": 0,
+  "client": "rejected",
+  "reason": "prazo",
+  "results": [
+    {
+      "observed": {
+        "allowed": false,
+        "reason": "prazo",
+        "receipt": null
+      },
+      "client": "rejected"
+    }
+  ]
+}

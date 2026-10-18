@@ -1,0 +1,138 @@
+{
+  "report": {
+    "case": "S14",
+    "scenario": "compensate",
+    "operations": 2,
+    "effects": 2,
+    "duplicates": 0,
+    "unknown": 0,
+    "blocked": 0,
+    "available": 10,
+    "reconciliation_ms": 1721.564,
+    "passed": true
+  },
+  "observations": [
+    {
+      "phase": "after_first_attempt",
+      "states": [
+        {
+          "intent": "pedido-1",
+          "request": "{\"action\":\"reserve\",\"deadline\":150,\"expected_version\":0,\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"quantity\":2,\"resource\":\"peca-A\"}",
+          "state": "confirmed",
+          "receipt": "{\"action\":\"reserve\",\"committed_at\":100,\"effect\":\"applied\",\"hash\":\"53693951f007b2e613632e5add917c80d724b18274a8198cc335dafd434a7567\",\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"reservation\":\"cad3ac14-5a10-400b-8c7f-5da004a88243\"}"
+        }
+      ]
+    }
+  ],
+  "final_oracle": {
+    "stock": [
+      {
+        "resource": "peca-A",
+        "available": 10,
+        "version": 2
+      }
+    ],
+    "reservations": [
+      {
+        "id": "cad3ac14-5a10-400b-8c7f-5da004a88243",
+        "intent": "pedido-1",
+        "resource": "peca-A",
+        "quantity": 2,
+        "state": "released",
+        "version": 1
+      }
+    ],
+    "effects": [
+      {
+        "seq": 1,
+        "intent": "pedido-1",
+        "action": "reserve",
+        "reservation": "cad3ac14-5a10-400b-8c7f-5da004a88243",
+        "quantity": 2
+      },
+      {
+        "seq": 2,
+        "intent": "reparacao-1",
+        "action": "release",
+        "reservation": "cad3ac14-5a10-400b-8c7f-5da004a88243",
+        "quantity": 2
+      }
+    ],
+    "receipts": [
+      {
+        "principal": "operador-horizonte",
+        "key": "chave-1",
+        "hash": "53693951f007b2e613632e5add917c80d724b18274a8198cc335dafd434a7567",
+        "expires": 150,
+        "body": "{\"action\":\"reserve\",\"committed_at\":100,\"effect\":\"applied\",\"hash\":\"53693951f007b2e613632e5add917c80d724b18274a8198cc335dafd434a7567\",\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"reservation\":\"cad3ac14-5a10-400b-8c7f-5da004a88243\"}"
+      },
+      {
+        "principal": "operador-horizonte",
+        "key": "chave-comp",
+        "hash": "40720238c725ef01e28fba6b3aa6a7bcdc38a23e44e80143c1603ff5ff17b706",
+        "expires": 150,
+        "body": "{\"action\":\"release\",\"committed_at\":100,\"effect\":\"applied\",\"hash\":\"40720238c725ef01e28fba6b3aa6a7bcdc38a23e44e80143c1603ff5ff17b706\",\"intent\":\"reparacao-1\",\"key\":\"chave-comp\",\"principal\":\"operador-horizonte\",\"reservation\":\"cad3ac14-5a10-400b-8c7f-5da004a88243\"}"
+      }
+    ]
+  },
+  "final_client": [
+    {
+      "intent": "pedido-1",
+      "request": "{\"action\":\"reserve\",\"deadline\":150,\"expected_version\":0,\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"quantity\":2,\"resource\":\"peca-A\"}",
+      "state": "confirmed",
+      "receipt": "{\"action\":\"reserve\",\"committed_at\":100,\"effect\":\"applied\",\"hash\":\"53693951f007b2e613632e5add917c80d724b18274a8198cc335dafd434a7567\",\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"reservation\":\"cad3ac14-5a10-400b-8c7f-5da004a88243\"}"
+    },
+    {
+      "intent": "reparacao-1",
+      "request": "{\"action\":\"release\",\"deadline\":150,\"expected_version\":0,\"intent\":\"reparacao-1\",\"key\":\"chave-comp\",\"principal\":\"operador-horizonte\",\"quantity\":2,\"reservation\":\"cad3ac14-5a10-400b-8c7f-5da004a88243\",\"resource\":\"peca-A\"}",
+      "state": "confirmed",
+      "receipt": "{\"action\":\"release\",\"committed_at\":100,\"effect\":\"applied\",\"hash\":\"40720238c725ef01e28fba6b3aa6a7bcdc38a23e44e80143c1603ff5ff17b706\",\"intent\":\"reparacao-1\",\"key\":\"chave-comp\",\"principal\":\"operador-horizonte\",\"reservation\":\"cad3ac14-5a10-400b-8c7f-5da004a88243\"}"
+    }
+  ],
+  "processes": [
+    {
+      "event": "server_started",
+      "pid": 3148,
+      "fault": "none",
+      "clock": 100,
+      "lookup": "yes",
+      "legacy": false
+    },
+    {
+      "event": "worker_finished",
+      "pid": 18952,
+      "fault": "none",
+      "exit": 0
+    },
+    {
+      "event": "server_stopped",
+      "pid": 3148,
+      "exit": 1
+    },
+    {
+      "event": "server_started",
+      "pid": 21380,
+      "fault": "drop_reply",
+      "clock": 100,
+      "lookup": "yes",
+      "legacy": false
+    },
+    {
+      "event": "worker_finished",
+      "pid": 12316,
+      "fault": "none",
+      "exit": 0
+    },
+    {
+      "event": "worker_finished",
+      "pid": 19832,
+      "fault": "none",
+      "exit": 0
+    },
+    {
+      "event": "server_stopped",
+      "pid": 21380,
+      "exit": 1
+    }
+  ]
+}

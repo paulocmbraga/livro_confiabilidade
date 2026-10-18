@@ -1,0 +1,26 @@
+{
+  "before": {
+    "schema": 1,
+    "intent": "I-21",
+    "key": "K-21",
+    "status": "unknown",
+    "quantity": 2
+  },
+  "after": {
+    "schema": 2,
+    "intent": "I-21",
+    "key": "K-21",
+    "status": "unknown",
+    "payload": {
+      "quantity": 2
+    },
+    "origin_schema": 1
+  },
+  "report": {
+    "subject": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+    "old_reader_v2": false,
+    "pending_pinned_v1": true,
+    "identity_preserved": true,
+    "readers_agree": true
+  }
+}

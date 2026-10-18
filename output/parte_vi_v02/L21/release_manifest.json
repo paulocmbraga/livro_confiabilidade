@@ -1,0 +1,18 @@
+{
+  "schema": "livro.release/1",
+  "components": {
+    "code": "aefadb9ec14e76a6e5a406cc5b73684cc65aa3d2f9f4f4f8328fcaa650e3d411",
+    "model": "3a36e8af4f3cbbc46d799f50b291a97a965817eaf74922b224fe5c5c7e7dcab3",
+    "prompt": "7f262cf3f4f178317f95d65d6a6816e98ea8f9c1a4ed0d4ffe610792e82ad665",
+    "corpus": "f8fd01aca6d6eb2b3e46ec40dbc437644d78316549262ce5a38c41d04825fb09",
+    "policy": "3ad57b4088b9facd869f8e326c0e435d14aa6e106115b7ae235c282ead982c2f",
+    "evaluator": "7a786217e7d7ffabd1ae4efd00f5e543a03b306a536fb4089149fc9603aeb70c",
+    "config": "8c3c889f72572f0c9e0621abf4841493c6602a47ca0ff6f3ab805f715925abf3"
+  },
+  "release_id": "826cb59381a846e8d7f69f5e6beb2bbec593bb287ee2f5c48619de455b6d11b2",
+  "changed": [
+    "code",
+    "prompt"
+  ],
+  "state_schema": 2
+}

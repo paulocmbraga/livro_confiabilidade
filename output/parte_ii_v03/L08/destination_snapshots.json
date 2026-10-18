@@ -1,0 +1,1946 @@
+{
+  "normal_workflow_1": {
+    "available": true,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 1
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 4,
+        "operation": "receipt",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 5,
+        "operation": "close",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "normal_workflow_2": {
+    "available": true,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 1
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 4,
+        "operation": "receipt",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 5,
+        "operation": "close",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "normal_workflow_3": {
+    "available": true,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 1
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 4,
+        "operation": "receipt",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 5,
+        "operation": "close",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "normal_agente_d_1": {
+    "available": true,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 1
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 4,
+        "operation": "close",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "normal_agente_d_2": {
+    "available": true,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 1
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 4,
+        "operation": "close",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "normal_agente_d_3": {
+    "available": true,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 1
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 4,
+        "operation": "close",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "identidade_trocada_workflow_1": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "bruno",
+        "status": "denied"
+      }
+    ]
+  },
+  "identidade_trocada_workflow_2": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "bruno",
+        "status": "denied"
+      }
+    ]
+  },
+  "identidade_trocada_workflow_3": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "bruno",
+        "status": "denied"
+      }
+    ]
+  },
+  "identidade_trocada_agente_d_1": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "bruno",
+        "status": "denied"
+      }
+    ]
+  },
+  "identidade_trocada_agente_d_2": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "bruno",
+        "status": "denied"
+      }
+    ]
+  },
+  "identidade_trocada_agente_d_3": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "bruno",
+        "status": "denied"
+      }
+    ]
+  },
+  "sem_estoque_workflow_1": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 0
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "sem_estoque_workflow_2": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 0
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "sem_estoque_workflow_3": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 0
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "sem_estoque_agente_d_1": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 0
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "sem_estoque_agente_d_2": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 0
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "sem_estoque_agente_d_3": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 0
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "negada_workflow_1": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "denied"
+      }
+    ]
+  },
+  "negada_workflow_2": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "denied"
+      }
+    ]
+  },
+  "negada_workflow_3": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "denied"
+      }
+    ]
+  },
+  "negada_agente_d_1": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "denied"
+      }
+    ]
+  },
+  "negada_agente_d_2": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "denied"
+      }
+    ]
+  },
+  "negada_agente_d_3": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "denied"
+      }
+    ]
+  },
+  "sucesso_falso_workflow_1": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 4,
+        "operation": "receipt",
+        "principal": "ana",
+        "status": "absent"
+      }
+    ]
+  },
+  "sucesso_falso_workflow_2": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 4,
+        "operation": "receipt",
+        "principal": "ana",
+        "status": "absent"
+      }
+    ]
+  },
+  "sucesso_falso_workflow_3": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 4,
+        "operation": "receipt",
+        "principal": "ana",
+        "status": "absent"
+      }
+    ]
+  },
+  "sucesso_falso_agente_d_1": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 4,
+        "operation": "close",
+        "principal": "ana",
+        "status": "blocked"
+      }
+    ]
+  },
+  "sucesso_falso_agente_d_2": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 4,
+        "operation": "close",
+        "principal": "ana",
+        "status": "blocked"
+      }
+    ]
+  },
+  "sucesso_falso_agente_d_3": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 4,
+        "operation": "close",
+        "principal": "ana",
+        "status": "blocked"
+      }
+    ]
+  },
+  "resposta_perdida_workflow_1": {
+    "available": true,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 1
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "unknown"
+      },
+      {
+        "id": 4,
+        "operation": "receipt",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 5,
+        "operation": "close",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "resposta_perdida_workflow_2": {
+    "available": true,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 1
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "unknown"
+      },
+      {
+        "id": 4,
+        "operation": "receipt",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 5,
+        "operation": "close",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "resposta_perdida_workflow_3": {
+    "available": true,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 1
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "unknown"
+      },
+      {
+        "id": 4,
+        "operation": "receipt",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 5,
+        "operation": "close",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "resposta_perdida_agente_d_1": {
+    "available": true,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "unknown"
+      }
+    ]
+  },
+  "resposta_perdida_agente_d_2": {
+    "available": true,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 1
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "unknown"
+      },
+      {
+        "id": 4,
+        "operation": "receipt",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 5,
+        "operation": "close",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "resposta_perdida_agente_d_3": {
+    "available": true,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "unknown"
+      }
+    ]
+  },
+  "sem_observacao_workflow_1": {
+    "available": false,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "unknown"
+      },
+      {
+        "id": 4,
+        "operation": "receipt",
+        "principal": "ana",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "sem_observacao_workflow_2": {
+    "available": false,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "unknown"
+      },
+      {
+        "id": 4,
+        "operation": "receipt",
+        "principal": "ana",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "sem_observacao_workflow_3": {
+    "available": false,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "unknown"
+      },
+      {
+        "id": 4,
+        "operation": "receipt",
+        "principal": "ana",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "sem_observacao_agente_d_1": {
+    "available": false,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "unknown"
+      }
+    ]
+  },
+  "sem_observacao_agente_d_2": {
+    "available": false,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "unknown"
+      },
+      {
+        "id": 4,
+        "operation": "receipt",
+        "principal": "ana",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "sem_observacao_agente_d_3": {
+    "available": false,
+    "reservations": [
+      {
+        "intent": "I1",
+        "principal": "ana",
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 1
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "reserve",
+        "principal": "ana",
+        "status": "unknown"
+      }
+    ]
+  },
+  "ciclo_workflow_1": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "ciclo_workflow_2": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "ciclo_workflow_3": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      }
+    ]
+  },
+  "ciclo_agente_d_1": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      },
+      {
+        "id": 4,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      },
+      {
+        "id": 5,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      },
+      {
+        "id": 6,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      }
+    ]
+  },
+  "ciclo_agente_d_2": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 2,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      },
+      {
+        "id": 3,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      },
+      {
+        "id": 4,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      },
+      {
+        "id": 5,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      },
+      {
+        "id": 6,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      }
+    ]
+  },
+  "ciclo_agente_d_3": {
+    "available": true,
+    "reservations": [],
+    "tickets": [
+      {
+        "id": "C1",
+        "closed": 0
+      }
+    ],
+    "stock": [
+      {
+        "sku": "P1",
+        "quantity": 2
+      }
+    ],
+    "events": [
+      {
+        "id": 1,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      },
+      {
+        "id": 2,
+        "operation": "approval",
+        "principal": "ana",
+        "status": "ok"
+      },
+      {
+        "id": 3,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      },
+      {
+        "id": 4,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      },
+      {
+        "id": 5,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      },
+      {
+        "id": 6,
+        "operation": "stock",
+        "principal": "ana",
+        "status": "retry"
+      }
+    ]
+  }
+}

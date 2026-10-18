@@ -1,0 +1,16 @@
+{
+  "status": "bloquear_ampliacao",
+  "architecture": "workflow",
+  "unknown": 1,
+  "violations": 0,
+  "review_backlog": 0,
+  "external_authority": false,
+  "owner": "papel:responsavel_operacional_a_designar",
+  "allowed_scope": "Leitura e propostas locais; efeitos somente com aprovação vinculada e recibo.",
+  "withdrawal": [
+    "aprovação revogada",
+    "efeito incerto",
+    "violação de autoridade",
+    "fila de revisão acima da capacidade"
+  ]
+}

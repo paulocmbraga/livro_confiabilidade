@@ -1,0 +1,28 @@
+{
+  "interrompida": {
+    "admitted": 6,
+    "accounted": 6,
+    "completed": 1,
+    "unknown": 3,
+    "not_started": 2,
+    "failed": 0,
+    "known_usage": 1,
+    "uncertain_reserved": 9,
+    "dispatches": 4,
+    "conclusion": "Campanha contabilizada; estados desconhecidos não resolvidos"
+  },
+  "controle": {
+    "admitted": 6,
+    "accounted": 6,
+    "completed": 3,
+    "unknown": 2,
+    "not_started": 0,
+    "failed": 1,
+    "known_usage": 4,
+    "uncertain_reserved": 6,
+    "dispatches": 6,
+    "conclusion": "Campanha contabilizada; estados desconhecidos não resolvidos"
+  },
+  "baseline": "Contar apenas completed omite tentativas desconhecidas e não iniciadas",
+  "limites": "Fixtures D, não inferência; unidades de orçamento não são reais"
+}

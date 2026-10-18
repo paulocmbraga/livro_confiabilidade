@@ -1,0 +1,29 @@
+{
+  "name": "Horizonte L14",
+  "description": "Perfil local parcial",
+  "version": "1.0",
+  "supportedInterfaces": [
+    {
+      "url": "http://127.0.0.1:56367/a2a",
+      "protocolBinding": "JSONRPC",
+      "protocolVersion": "1.0.0"
+    }
+  ],
+  "capabilities": {},
+  "defaultInputModes": [
+    "application/json"
+  ],
+  "defaultOutputModes": [
+    "application/json"
+  ],
+  "skills": [
+    {
+      "id": "close",
+      "name": "Encerrar chamado",
+      "description": "Exige autorização vinculada",
+      "tags": [
+        "tickets"
+      ]
+    }
+  ]
+}

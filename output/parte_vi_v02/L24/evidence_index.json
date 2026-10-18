@@ -1,0 +1,87 @@
+{
+  "schema": "livro.evidence/1",
+  "claims": [
+    {
+      "claim": "arquitetura",
+      "files": [
+        {
+          "path": "architecture_runs.jsonl",
+          "sha256": "fbcf9b8fb834ca8bc12a3d7229501087cd08747edeaae6f431a25901c135f635"
+        },
+        {
+          "path": "candidate_frozen.json",
+          "sha256": "9660946e206162480c49c257b6f31215c2caf67fe7b364009cd352939775cee6"
+        }
+      ]
+    },
+    {
+      "claim": "falhas",
+      "files": [
+        {
+          "path": "fault_reports.json",
+          "sha256": "f178cc1a7bdbe82a8373dc7269ac9a2fdd0e6f8e259393cd13aaab9576b03345"
+        },
+        {
+          "path": "incident_timeline.jsonl",
+          "sha256": "8bf636017a88d6ee0454d2cfc25bab35ed5cf18a7e7ad5dd0105ee2d65bfb2e9"
+        },
+        {
+          "path": "S02/evidence.json",
+          "sha256": "3184a0bd4ce0ad80fc9b25f2db0c6df1293ec405a349105dd58b544c717c40cc"
+        },
+        {
+          "path": "S05/evidence.json",
+          "sha256": "ac15bab1074bff760112a3796f33c2ef4315abf20e03a67fc4ec6dfc611d4959"
+        },
+        {
+          "path": "S07/evidence.json",
+          "sha256": "00003aba1022c9ff407c0fba77f2820e03479f3d52c76565891bec2de203987b"
+        },
+        {
+          "path": "S08/evidence.json",
+          "sha256": "dfcb54c0b1f76bc7d7b03f719ea75cec61d39db858c4c05834e41c2763e0c55e"
+        },
+        {
+          "path": "S12/evidence.json",
+          "sha256": "9cb72a7fe5417a86ea5a17aeb437178f3c0915ad7145474196e1cf0332312096"
+        },
+        {
+          "path": "S16/evidence.json",
+          "sha256": "cb4749a9715a8012600db2e3216adfcb16d85c72cdbddc09812c74ebd009f313"
+        }
+      ]
+    },
+    {
+      "claim": "autoridade",
+      "files": [
+        {
+          "path": "delegation/evidence.json",
+          "sha256": "32acf9a177d05f3eda0a9bbede85a983b5af75e7adfb3273f56e044107cde3b0"
+        }
+      ]
+    },
+    {
+      "claim": "supervisao",
+      "files": [
+        {
+          "path": "review_capacity.json",
+          "sha256": "81ed582166d017b7630bac9a2cb1a9f5c27105175d011977ead86540cae1c621"
+        }
+      ]
+    },
+    {
+      "claim": "autonomia",
+      "files": [
+        {
+          "path": "autonomy_matrix.csv",
+          "sha256": "c3583c07785aa358c97408dfc65ec3f3ab484dbda95e57dd0a50fb773f3f9921"
+        },
+        {
+          "path": "decision_B.json",
+          "sha256": "fa589868ea69b35720279081a00657a9f10c5549295050bb959dd31bc61adebf"
+        }
+      ]
+    }
+  ],
+  "limit": "Hashes ligam arquivos a alegações; não validam automaticamente a interpretação ou a origem."
+}

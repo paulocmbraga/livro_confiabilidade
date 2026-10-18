@@ -1,0 +1,18 @@
+[
+  {
+    "id": "A1",
+    "owner": "papel:operacao",
+    "due": 12,
+    "revision": "v3",
+    "verification": "alert_reconciliation",
+    "closed": true
+  },
+  {
+    "id": "A2",
+    "owner": "papel:dados",
+    "due": 12,
+    "revision": "v3",
+    "verification": "corpus_revision",
+    "closed": false
+  }
+]

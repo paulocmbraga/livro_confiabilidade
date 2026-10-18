@@ -1,0 +1,374 @@
+{
+  "schema": "livro.fichas/1",
+  "preparation": "L00 em output/parte_i_v03/L00",
+  "labs": [
+    {
+      "lab": "L01",
+      "chapter": 1,
+      "title": "Confiabilidade como contrato de comportamento",
+      "capture": "output/parte_i_v03",
+      "manifest_sha256": "a729d263cc1cc3d26f172f681cf20d3045ba7118ace22ee4c1b04c960a769608",
+      "chapter_source": "manuscritos/parte_i/capitulo_01.md",
+      "planned_tracks": [
+        "D"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L02",
+      "chapter": 2,
+      "title": "Tarefas, conjuntos de avaliação e representatividade",
+      "capture": "output/parte_i_v03",
+      "manifest_sha256": "a729d263cc1cc3d26f172f681cf20d3045ba7118ace22ee4c1b04c960a769608",
+      "chapter_source": "manuscritos/parte_i/capitulo_02.md",
+      "planned_tracks": [
+        "D"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L03",
+      "chapter": 3,
+      "title": "Execução de campanhas e rastreabilidade",
+      "capture": "output/parte_i_v03",
+      "manifest_sha256": "a729d263cc1cc3d26f172f681cf20d3045ba7118ace22ee4c1b04c960a769608",
+      "chapter_source": "manuscritos/parte_i/capitulo_03.md",
+      "planned_tracks": [
+        "D",
+        "M"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L04",
+      "chapter": 4,
+      "title": "Comparações, variabilidade e decisões com incerteza",
+      "capture": "output/piloto04_v02",
+      "manifest_sha256": "37132d92b451483f7d16de856955d46ace1c88cc163fc984bc463bde591b0c6a",
+      "chapter_source": "manuscritos/parte_i/capitulo_04.md",
+      "planned_tracks": [
+        "D",
+        "M"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L05",
+      "chapter": 5,
+      "title": "Respostas, fundamentação e abstenção",
+      "capture": "output/parte_ii_v03",
+      "manifest_sha256": "554a83a0fae3a12fed0963bf9a03684bb8b44c7697b22c65c9c14dd88e906b73",
+      "chapter_source": "manuscritos/parte_ii/capitulo_05.md",
+      "planned_tracks": [
+        "D",
+        "M"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L06",
+      "chapter": 6,
+      "title": "Recuperação de conhecimento e diagnóstico de RAG",
+      "capture": "output/parte_ii_v03",
+      "manifest_sha256": "554a83a0fae3a12fed0963bf9a03684bb8b44c7697b22c65c9c14dd88e906b73",
+      "chapter_source": "manuscritos/parte_ii/capitulo_06.md",
+      "planned_tracks": [
+        "D",
+        "M"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L07",
+      "chapter": 7,
+      "title": "Contexto, memória e qualidade ao longo da conversa",
+      "capture": "output/parte_ii_v03",
+      "manifest_sha256": "554a83a0fae3a12fed0963bf9a03684bb8b44c7697b22c65c9c14dd88e906b73",
+      "chapter_source": "manuscritos/parte_ii/capitulo_07.md",
+      "planned_tracks": [
+        "D",
+        "M"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L08",
+      "chapter": 8,
+      "title": "Agentes, trajetórias e verificação dos efeitos",
+      "capture": "output/parte_ii_v03",
+      "manifest_sha256": "554a83a0fae3a12fed0963bf9a03684bb8b44c7697b22c65c9c14dd88e906b73",
+      "chapter_source": "manuscritos/parte_ii/capitulo_08.md",
+      "planned_tracks": [
+        "D",
+        "M"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L09",
+      "chapter": 9,
+      "title": "Oráculos, propriedades e testes da própria avaliação",
+      "capture": "output/parte_iii_v01",
+      "manifest_sha256": "44aac3bb77c4850eb010c8d5d558e4c1493da42033b5948d1ac26625d2bb2786",
+      "chapter_source": "manuscritos/parte_iii/capitulo_09.md",
+      "planned_tracks": [
+        "D"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L10",
+      "chapter": 10,
+      "title": "Rubricas, anotação e julgamento humano",
+      "capture": "output/parte_iii_v01",
+      "manifest_sha256": "44aac3bb77c4850eb010c8d5d558e4c1493da42033b5948d1ac26625d2bb2786",
+      "chapter_source": "manuscritos/parte_iii/capitulo_10.md",
+      "planned_tracks": [
+        "D",
+        "H"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L11",
+      "chapter": 11,
+      "title": "Modelos como avaliadores e calibração",
+      "capture": "output/parte_iii_v01",
+      "manifest_sha256": "44aac3bb77c4850eb010c8d5d558e4c1493da42033b5948d1ac26625d2bb2786",
+      "chapter_source": "manuscritos/parte_iii/capitulo_11.md",
+      "planned_tracks": [
+        "D",
+        "M",
+        "H"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L12",
+      "chapter": 12,
+      "title": "Experimentos, ablações e atribuição de resultados",
+      "capture": "output/parte_iii_v01",
+      "manifest_sha256": "44aac3bb77c4850eb010c8d5d558e4c1493da42033b5948d1ac26625d2bb2786",
+      "chapter_source": "manuscritos/parte_iii/capitulo_12.md",
+      "planned_tracks": [
+        "D",
+        "M",
+        "H"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L13",
+      "chapter": 13,
+      "title": "Guardrails e avaliação adversarial",
+      "capture": "output/parte_iv_v02",
+      "manifest_sha256": "4b6343223dacb96908db45afe07d9b86d1caf72d883515dd62ef9d4f3c37ac04",
+      "chapter_source": "manuscritos/parte_iv/capitulo_13.md",
+      "planned_tracks": [
+        "D",
+        "M"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L14",
+      "chapter": 14,
+      "title": "Autoridade, ferramentas e contratos MCP e A2A",
+      "capture": "output/parte_iv_v02",
+      "manifest_sha256": "4b6343223dacb96908db45afe07d9b86d1caf72d883515dd62ef9d4f3c37ac04",
+      "chapter_source": "manuscritos/parte_iv/capitulo_14.md",
+      "planned_tracks": [
+        "D",
+        "O"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L15",
+      "chapter": 15,
+      "title": "Efeitos, concorrência e recuperação",
+      "capture": "output/piloto15_v02",
+      "manifest_sha256": "03412bbffb6a3592ff185aa1cd45a9e8a5f99a4a2214398d0d07b9a92d39ea96",
+      "chapter_source": "manuscritos/parte_iv/capitulo_15.md",
+      "planned_tracks": [
+        "D",
+        "O"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L16",
+      "chapter": 16,
+      "title": "Coordenação multiagente e falhas correlacionadas",
+      "capture": "output/parte_iv_v02",
+      "manifest_sha256": "4b6343223dacb96908db45afe07d9b86d1caf72d883515dd62ef9d4f3c37ac04",
+      "chapter_source": "manuscritos/parte_iv/capitulo_16.md",
+      "planned_tracks": [
+        "D",
+        "M",
+        "O"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L17",
+      "chapter": 17,
+      "title": "Observabilidade como instrumento de medição",
+      "capture": "output/parte_v_v01",
+      "manifest_sha256": "c5a70e17be741fed7f51d99288e155c79ba2b8e0fd6cb551129824b3abcd107a",
+      "chapter_source": "manuscritos/parte_v/capitulo_17.md",
+      "planned_tracks": [
+        "D",
+        "O"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L18",
+      "chapter": 18,
+      "title": "Monitoramento de qualidade, mudanças e feedback",
+      "capture": "output/parte_v_v01",
+      "manifest_sha256": "c5a70e17be741fed7f51d99288e155c79ba2b8e0fd6cb551129824b3abcd107a",
+      "chapter_source": "manuscritos/parte_v/capitulo_18.md",
+      "planned_tracks": [
+        "D",
+        "M",
+        "O"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L19",
+      "chapter": 19,
+      "title": "Latência, capacidade e degradação controlada",
+      "capture": "output/parte_v_v01",
+      "manifest_sha256": "c5a70e17be741fed7f51d99288e155c79ba2b8e0fd6cb551129824b3abcd107a",
+      "chapter_source": "manuscritos/parte_v/capitulo_19.md",
+      "planned_tracks": [
+        "D",
+        "M",
+        "O"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L20",
+      "chapter": 20,
+      "title": "Custos, roteamento e eficiência por tarefa",
+      "capture": "output/parte_v_v01",
+      "manifest_sha256": "c5a70e17be741fed7f51d99288e155c79ba2b8e0fd6cb551129824b3abcd107a",
+      "chapter_source": "manuscritos/parte_v/capitulo_20.md",
+      "planned_tracks": [
+        "D",
+        "M"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L21",
+      "chapter": 21,
+      "title": "Versionamento e critérios de liberação",
+      "capture": "output/parte_vi_v02",
+      "manifest_sha256": "16d5f03627335a8aa59a25e321c46096dc4ef9e95c155240e590f825772d222e",
+      "chapter_source": "manuscritos/parte_vi/capitulo_21.md",
+      "planned_tracks": [
+        "D",
+        "M",
+        "O"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L22",
+      "chapter": 22,
+      "title": "Objetivos de serviço, incidentes e recuperação operacional",
+      "capture": "output/parte_vi_v02",
+      "manifest_sha256": "16d5f03627335a8aa59a25e321c46096dc4ef9e95c155240e590f825772d222e",
+      "chapter_source": "manuscritos/parte_vi/capitulo_22.md",
+      "planned_tracks": [
+        "D",
+        "O",
+        "H"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L23",
+      "chapter": 23,
+      "title": "Caso completo do assistente de conhecimento",
+      "capture": "output/parte_vi_v02",
+      "manifest_sha256": "16d5f03627335a8aa59a25e321c46096dc4ef9e95c155240e590f825772d222e",
+      "chapter_source": "manuscritos/parte_vi/capitulo_23.md",
+      "planned_tracks": [
+        "D",
+        "M",
+        "H",
+        "O"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    },
+    {
+      "lab": "L24",
+      "chapter": 24,
+      "title": "Caso completo do agente de operações",
+      "capture": "output/parte_vi_v02",
+      "manifest_sha256": "16d5f03627335a8aa59a25e321c46096dc4ef9e95c155240e590f825772d222e",
+      "chapter_source": "manuscritos/parte_vi/capitulo_24.md",
+      "planned_tracks": [
+        "D",
+        "M",
+        "H",
+        "O"
+      ],
+      "model_calls_editorial": 0,
+      "human_participants_editorial": 0,
+      "note": "Trilhas planejadas não equivalem a trilhas executadas. Consulte o limite no capítulo."
+    }
+  ]
+}

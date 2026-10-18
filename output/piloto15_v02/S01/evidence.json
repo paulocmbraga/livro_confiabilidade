@@ -1,0 +1,93 @@
+{
+  "report": {
+    "case": "S01",
+    "scenario": "normal",
+    "operations": 1,
+    "effects": 1,
+    "duplicates": 0,
+    "unknown": 0,
+    "blocked": 0,
+    "available": 8,
+    "reconciliation_ms": null,
+    "passed": true
+  },
+  "observations": [
+    {
+      "phase": "after_first_attempt",
+      "states": [
+        {
+          "intent": "pedido-1",
+          "request": "{\"action\":\"reserve\",\"deadline\":150,\"expected_version\":0,\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"quantity\":2,\"resource\":\"peca-A\"}",
+          "state": "confirmed",
+          "receipt": "{\"action\":\"reserve\",\"committed_at\":100,\"effect\":\"applied\",\"hash\":\"53693951f007b2e613632e5add917c80d724b18274a8198cc335dafd434a7567\",\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"reservation\":\"7023af73-c8eb-4cd2-b4f5-938f9770ebc0\"}"
+        }
+      ]
+    }
+  ],
+  "final_oracle": {
+    "stock": [
+      {
+        "resource": "peca-A",
+        "available": 8,
+        "version": 1
+      }
+    ],
+    "reservations": [
+      {
+        "id": "7023af73-c8eb-4cd2-b4f5-938f9770ebc0",
+        "intent": "pedido-1",
+        "resource": "peca-A",
+        "quantity": 2,
+        "state": "reserved",
+        "version": 0
+      }
+    ],
+    "effects": [
+      {
+        "seq": 1,
+        "intent": "pedido-1",
+        "action": "reserve",
+        "reservation": "7023af73-c8eb-4cd2-b4f5-938f9770ebc0",
+        "quantity": 2
+      }
+    ],
+    "receipts": [
+      {
+        "principal": "operador-horizonte",
+        "key": "chave-1",
+        "hash": "53693951f007b2e613632e5add917c80d724b18274a8198cc335dafd434a7567",
+        "expires": 150,
+        "body": "{\"action\":\"reserve\",\"committed_at\":100,\"effect\":\"applied\",\"hash\":\"53693951f007b2e613632e5add917c80d724b18274a8198cc335dafd434a7567\",\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"reservation\":\"7023af73-c8eb-4cd2-b4f5-938f9770ebc0\"}"
+      }
+    ]
+  },
+  "final_client": [
+    {
+      "intent": "pedido-1",
+      "request": "{\"action\":\"reserve\",\"deadline\":150,\"expected_version\":0,\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"quantity\":2,\"resource\":\"peca-A\"}",
+      "state": "confirmed",
+      "receipt": "{\"action\":\"reserve\",\"committed_at\":100,\"effect\":\"applied\",\"hash\":\"53693951f007b2e613632e5add917c80d724b18274a8198cc335dafd434a7567\",\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"reservation\":\"7023af73-c8eb-4cd2-b4f5-938f9770ebc0\"}"
+    }
+  ],
+  "processes": [
+    {
+      "event": "server_started",
+      "pid": 11516,
+      "fault": "none",
+      "clock": 100,
+      "lookup": "yes",
+      "legacy": false
+    },
+    {
+      "event": "worker_finished",
+      "pid": 15700,
+      "fault": "none",
+      "exit": 0
+    },
+    {
+      "event": "server_stopped",
+      "pid": 11516,
+      "exit": 1
+    }
+  ]
+}

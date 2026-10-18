@@ -1,0 +1,34 @@
+{
+  "casos": 16,
+  "estados": {
+    "verificado": 3,
+    "falhou": 7,
+    "recusa_correta": 2,
+    "impossivel": 2,
+    "efeito_incerto": 2
+  },
+  "adequados": 7,
+  "acoes_concluidas": 3,
+  "falsos_sucessos": 7,
+  "cobertura_contraexemplos": {
+    "acesso": [
+      "A04",
+      "B06"
+    ],
+    "suporte": [
+      "A02"
+    ],
+    "vigencia": [
+      "A07"
+    ],
+    "citacao": [
+      "A08"
+    ],
+    "recibo": [
+      "B07"
+    ],
+    "efeito": [
+      "B02"
+    ]
+  }
+}

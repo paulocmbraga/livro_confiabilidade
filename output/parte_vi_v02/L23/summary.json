@@ -1,0 +1,84 @@
+{
+  "selected": "compositor",
+  "development": {
+    "baseline": {
+      "tasks": 8,
+      "correct": 4,
+      "served": 5,
+      "answerable": 6,
+      "answerable_correct": 3,
+      "access_violations": 0,
+      "stale_snapshots": 0,
+      "work_units": 184,
+      "mean_local_us": 504.3375
+    },
+    "compositor": {
+      "tasks": 8,
+      "correct": 8,
+      "served": 6,
+      "answerable": 6,
+      "answerable_correct": 6,
+      "access_violations": 0,
+      "stale_snapshots": 0,
+      "work_units": 189,
+      "mean_local_us": 503.9875
+    }
+  },
+  "reserved": {
+    "tasks": 8,
+    "correct": 8,
+    "served": 5,
+    "answerable": 5,
+    "answerable_correct": 5,
+    "access_violations": 0,
+    "stale_snapshots": 0,
+    "work_units": 184,
+    "mean_local_us": 456.375
+  },
+  "updates": {
+    "ingenuo": {
+      "tasks": 8,
+      "correct": 6,
+      "served": 5,
+      "answerable": 4,
+      "answerable_correct": 3,
+      "access_violations": 1,
+      "stale_snapshots": 8,
+      "work_units": 8,
+      "mean_local_us": 8.5375
+    },
+    "versionado": {
+      "tasks": 8,
+      "correct": 8,
+      "served": 4,
+      "answerable": 4,
+      "answerable_correct": 4,
+      "access_violations": 0,
+      "stale_snapshots": 0,
+      "work_units": 191,
+      "mean_local_us": 521.6875
+    }
+  },
+  "incident": {
+    "tasks": 8,
+    "correct": 7,
+    "served": 3,
+    "answerable": 4,
+    "answerable_correct": 3,
+    "access_violations": 0,
+    "stale_snapshots": 8,
+    "work_units": 173,
+    "mean_local_us": 420.975
+  },
+  "repaired": {
+    "tasks": 8,
+    "correct": 8,
+    "served": 4,
+    "answerable": 4,
+    "answerable_correct": 4,
+    "access_violations": 0,
+    "stale_snapshots": 0,
+    "work_units": 183,
+    "mean_local_us": 445.825
+  }
+}

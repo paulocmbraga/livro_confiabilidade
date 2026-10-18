@@ -1,0 +1,1 @@
+Propostas preparadas, não inferidas. Uma tentativa por cenário e perfil. O coletor é uma tabela SQLite com dados fictícios. Não houve exploração externa. A política vinculada usa autoridade preparada confiável; comprometer essa origem está fora da bancada. O teste público usa famílias diferentes, mas foi construído pelo mesmo autor e não é holdout secreto.

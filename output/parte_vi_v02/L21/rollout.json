@@ -1,0 +1,260 @@
+{
+  "safe": {
+    "offered": 10,
+    "candidate_tasks": 2,
+    "shadow_effects": 0,
+    "effects": 10,
+    "duplicate_tasks": 0,
+    "events": [
+      {
+        "task": "C00",
+        "channel": "live_local",
+        "version": "candidate",
+        "key": "C00"
+      },
+      {
+        "task": "C00",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C00"
+      },
+      {
+        "task": "C01",
+        "channel": "live_local",
+        "version": "baseline",
+        "key": "C01"
+      },
+      {
+        "task": "C01",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C01"
+      },
+      {
+        "task": "C02",
+        "channel": "live_local",
+        "version": "baseline",
+        "key": "C02"
+      },
+      {
+        "task": "C02",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C02"
+      },
+      {
+        "task": "C03",
+        "channel": "live_local",
+        "version": "baseline",
+        "key": "C03"
+      },
+      {
+        "task": "C03",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C03"
+      },
+      {
+        "task": "C04",
+        "channel": "live_local",
+        "version": "baseline",
+        "key": "C04"
+      },
+      {
+        "task": "C04",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C04"
+      },
+      {
+        "task": "C05",
+        "channel": "live_local",
+        "version": "candidate",
+        "key": "C05"
+      },
+      {
+        "task": "C05",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C05"
+      },
+      {
+        "task": "C06",
+        "channel": "live_local",
+        "version": "baseline",
+        "key": "C06"
+      },
+      {
+        "task": "C06",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C06"
+      },
+      {
+        "task": "C07",
+        "channel": "live_local",
+        "version": "baseline",
+        "key": "C07"
+      },
+      {
+        "task": "C07",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C07"
+      },
+      {
+        "task": "C08",
+        "channel": "live_local",
+        "version": "baseline",
+        "key": "C08"
+      },
+      {
+        "task": "C08",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C08"
+      },
+      {
+        "task": "C09",
+        "channel": "live_local",
+        "version": "baseline",
+        "key": "C09"
+      },
+      {
+        "task": "C09",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C09"
+      }
+    ]
+  },
+  "unsafe": {
+    "offered": 10,
+    "candidate_tasks": 2,
+    "shadow_effects": 10,
+    "effects": 20,
+    "duplicate_tasks": 10,
+    "events": [
+      {
+        "task": "C00",
+        "channel": "live_local",
+        "version": "candidate",
+        "key": "C00"
+      },
+      {
+        "task": "C00",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C00"
+      },
+      {
+        "task": "C01",
+        "channel": "live_local",
+        "version": "baseline",
+        "key": "C01"
+      },
+      {
+        "task": "C01",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C01"
+      },
+      {
+        "task": "C02",
+        "channel": "live_local",
+        "version": "baseline",
+        "key": "C02"
+      },
+      {
+        "task": "C02",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C02"
+      },
+      {
+        "task": "C03",
+        "channel": "live_local",
+        "version": "baseline",
+        "key": "C03"
+      },
+      {
+        "task": "C03",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C03"
+      },
+      {
+        "task": "C04",
+        "channel": "live_local",
+        "version": "baseline",
+        "key": "C04"
+      },
+      {
+        "task": "C04",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C04"
+      },
+      {
+        "task": "C05",
+        "channel": "live_local",
+        "version": "candidate",
+        "key": "C05"
+      },
+      {
+        "task": "C05",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C05"
+      },
+      {
+        "task": "C06",
+        "channel": "live_local",
+        "version": "baseline",
+        "key": "C06"
+      },
+      {
+        "task": "C06",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C06"
+      },
+      {
+        "task": "C07",
+        "channel": "live_local",
+        "version": "baseline",
+        "key": "C07"
+      },
+      {
+        "task": "C07",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C07"
+      },
+      {
+        "task": "C08",
+        "channel": "live_local",
+        "version": "baseline",
+        "key": "C08"
+      },
+      {
+        "task": "C08",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C08"
+      },
+      {
+        "task": "C09",
+        "channel": "live_local",
+        "version": "baseline",
+        "key": "C09"
+      },
+      {
+        "task": "C09",
+        "channel": "shadow",
+        "version": "candidate",
+        "key": "C09"
+      }
+    ]
+  }
+}

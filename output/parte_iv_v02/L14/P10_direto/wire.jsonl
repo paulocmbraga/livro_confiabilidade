@@ -1,0 +1,1 @@
+{"request": {"jsonrpc": "2.0", "id": 1, "method": "execute", "params": {"intent": "I14", "principal": "ana", "resource": "T1", "action": "close", "version": 0, "quantity": 1, "deadline": 150, "admin": true}}, "response": {"jsonrpc": "2.0", "id": 1, "result": {"allowed": false, "reason": "schema", "receipt": null}}}

@@ -1,0 +1,88 @@
+{
+  "arrivals": [
+    [],
+    [
+      "incerto-S12",
+      "revogacao-S16",
+      "delegacao-negada"
+    ],
+    [],
+    []
+  ],
+  "capacity_1": [
+    {
+      "tick": 0,
+      "arrivals": 0,
+      "processed": [],
+      "pending": []
+    },
+    {
+      "tick": 1,
+      "arrivals": 3,
+      "processed": [
+        "incerto-S12"
+      ],
+      "pending": [
+        "revogacao-S16",
+        "delegacao-negada"
+      ]
+    },
+    {
+      "tick": 2,
+      "arrivals": 0,
+      "processed": [
+        "revogacao-S16"
+      ],
+      "pending": [
+        "delegacao-negada"
+      ]
+    },
+    {
+      "tick": 3,
+      "arrivals": 0,
+      "processed": [
+        "delegacao-negada"
+      ],
+      "pending": []
+    }
+  ],
+  "capacity_0": [
+    {
+      "tick": 0,
+      "arrivals": 0,
+      "processed": [],
+      "pending": []
+    },
+    {
+      "tick": 1,
+      "arrivals": 3,
+      "processed": [],
+      "pending": [
+        "incerto-S12",
+        "revogacao-S16",
+        "delegacao-negada"
+      ]
+    },
+    {
+      "tick": 2,
+      "arrivals": 0,
+      "processed": [],
+      "pending": [
+        "incerto-S12",
+        "revogacao-S16",
+        "delegacao-negada"
+      ]
+    },
+    {
+      "tick": 3,
+      "arrivals": 0,
+      "processed": [],
+      "pending": [
+        "incerto-S12",
+        "revogacao-S16",
+        "delegacao-negada"
+      ]
+    }
+  ],
+  "limit": "Itens e capacidade por tick preparados; não há medição de trabalho humano."
+}

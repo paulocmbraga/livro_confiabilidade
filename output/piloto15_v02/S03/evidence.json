@@ -1,0 +1,94 @@
+{
+  "report": {
+    "case": "S03",
+    "scenario": "baseline",
+    "operations": 1,
+    "effects": 2,
+    "duplicates": 1,
+    "unknown": 0,
+    "blocked": 0,
+    "available": 6,
+    "reconciliation_ms": null,
+    "passed": true
+  },
+  "observations": [
+    {
+      "phase": "lost_response",
+      "states": [
+        {
+          "intent": "pedido-1",
+          "request": "{\"action\":\"reserve\",\"deadline\":150,\"expected_version\":0,\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"quantity\":2,\"resource\":\"peca-A\"}",
+          "state": "unknown",
+          "receipt": null
+        }
+      ]
+    }
+  ],
+  "final_oracle": {
+    "stock": [
+      {
+        "resource": "peca-A",
+        "available": 6,
+        "version": 2
+      }
+    ],
+    "reservations": [
+      {
+        "id": "7bbb3783-df0a-4b50-a848-0ea5121989a3",
+        "intent": "pedido-1",
+        "resource": "peca-A",
+        "quantity": 2,
+        "state": "reserved",
+        "version": 0
+      },
+      {
+        "id": "54dc32c6-d649-4bf4-8889-7c513b363a18",
+        "intent": "pedido-1",
+        "resource": "peca-A",
+        "quantity": 2,
+        "state": "reserved",
+        "version": 0
+      }
+    ],
+    "effects": [
+      {
+        "seq": 1,
+        "intent": "pedido-1",
+        "action": "reserve",
+        "reservation": "7bbb3783-df0a-4b50-a848-0ea5121989a3",
+        "quantity": 2
+      },
+      {
+        "seq": 2,
+        "intent": "pedido-1",
+        "action": "reserve",
+        "reservation": "54dc32c6-d649-4bf4-8889-7c513b363a18",
+        "quantity": 2
+      }
+    ],
+    "receipts": []
+  },
+  "final_client": [
+    {
+      "intent": "pedido-1",
+      "request": "{\"action\":\"reserve\",\"deadline\":150,\"expected_version\":0,\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"quantity\":2,\"resource\":\"peca-A\"}",
+      "state": "confirmed",
+      "receipt": "{\"action\":\"reserve\",\"committed_at\":100,\"effect\":\"applied\",\"hash\":\"53693951f007b2e613632e5add917c80d724b18274a8198cc335dafd434a7567\",\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"reservation\":\"54dc32c6-d649-4bf4-8889-7c513b363a18\"}"
+    }
+  ],
+  "processes": [
+    {
+      "event": "server_started",
+      "pid": 2148,
+      "fault": "drop_reply",
+      "clock": 100,
+      "lookup": "yes",
+      "legacy": true
+    },
+    {
+      "event": "server_stopped",
+      "pid": 2148,
+      "exit": 1
+    }
+  ]
+}

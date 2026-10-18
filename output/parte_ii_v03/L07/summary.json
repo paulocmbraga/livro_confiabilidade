@@ -1,0 +1,46 @@
+[
+  {
+    "policy": "historico",
+    "episodes": 7,
+    "correct_episodes": 1,
+    "questions": 10,
+    "correct_questions": 4,
+    "expired": 1,
+    "exposures": 1,
+    "hostile_uses": 1,
+    "context_words": 203
+  },
+  {
+    "policy": "ultimos_dois",
+    "episodes": 7,
+    "correct_episodes": 2,
+    "questions": 10,
+    "correct_questions": 5,
+    "expired": 1,
+    "exposures": 1,
+    "hostile_uses": 1,
+    "context_words": 187
+  },
+  {
+    "policy": "resumo",
+    "episodes": 7,
+    "correct_episodes": 5,
+    "questions": 10,
+    "correct_questions": 8,
+    "expired": 0,
+    "exposures": 0,
+    "hostile_uses": 0,
+    "context_words": 98
+  },
+  {
+    "policy": "selecionada",
+    "episodes": 7,
+    "correct_episodes": 7,
+    "questions": 10,
+    "correct_questions": 10,
+    "expired": 0,
+    "exposures": 0,
+    "hostile_uses": 0,
+    "context_words": 82
+  }
+]

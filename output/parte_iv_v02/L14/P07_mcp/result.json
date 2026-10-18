@@ -1,0 +1,21 @@
+{
+  "case_id": "P07",
+  "transport": "mcp",
+  "pid": 11704,
+  "client_pid": 3528,
+  "calls": 4,
+  "expected_effects": 0,
+  "effects": 0,
+  "client": "rejected",
+  "reason": "aprovacao",
+  "results": [
+    {
+      "observed": {
+        "allowed": false,
+        "reason": "aprovacao",
+        "receipt": null
+      },
+      "client": "rejected"
+    }
+  ]
+}

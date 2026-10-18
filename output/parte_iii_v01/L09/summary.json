@@ -1,0 +1,38 @@
+[
+  {
+    "evaluator": "superficial",
+    "cases": 16,
+    "invalid": 11,
+    "valid": 5,
+    "detected": 1,
+    "escaped": 10,
+    "false_rejections": 1
+  },
+  {
+    "evaluator": "compartilhado",
+    "cases": 16,
+    "invalid": 11,
+    "valid": 5,
+    "detected": 9,
+    "escaped": 2,
+    "false_rejections": 5
+  },
+  {
+    "evaluator": "literal",
+    "cases": 16,
+    "invalid": 11,
+    "valid": 5,
+    "detected": 11,
+    "escaped": 0,
+    "false_rejections": 2
+  },
+  {
+    "evaluator": "contrato",
+    "cases": 16,
+    "invalid": 11,
+    "valid": 5,
+    "detected": 11,
+    "escaped": 0,
+    "false_rejections": 0
+  }
+]

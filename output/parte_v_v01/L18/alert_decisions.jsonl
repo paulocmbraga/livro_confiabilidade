@@ -1,0 +1,3 @@
+{"day": 1, "cohort": 1, "kind": "mudanca_entrada", "hypothesis": "mudança de mistura; qualidade ainda desconhecida", "owner": "dados", "action": "auditar coorte", "next_check": 4}
+{"day": 5, "cohort": 2, "kind": "qualidade", "hypothesis": "erro do segmento difícil acima do limiar didático", "owner": "qualidade", "action": "conter segmento e revisar casos", "next_check": 6}
+{"day": 6, "cohort": 3, "kind": "qualidade", "hypothesis": "erro do segmento difícil acima do limiar didático", "owner": "qualidade", "action": "conter segmento e revisar casos", "next_check": 7}

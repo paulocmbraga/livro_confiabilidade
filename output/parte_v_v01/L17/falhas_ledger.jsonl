@@ -1,0 +1,12 @@
+{"task": "T01", "tenant": "A", "fail": false, "sampled": true, "trace": "trace-T01", "status": "ok"}
+{"task": "T02", "tenant": "B", "fail": false, "sampled": true, "trace": "trace-T02", "status": "ok"}
+{"task": "T03", "tenant": "A", "fail": false, "sampled": true, "trace": "trace-T03", "status": "ok"}
+{"task": "T04", "tenant": "B", "fail": true, "sampled": true, "trace": "trace-T04", "status": "erro_preparado"}
+{"task": "T05", "tenant": "A", "fail": false, "sampled": true, "trace": "trace-T05", "status": "ok"}
+{"task": "T06", "tenant": "B", "fail": false, "sampled": true, "trace": "trace-T06", "status": "ok"}
+{"task": "T07", "tenant": "A", "fail": false, "sampled": true, "trace": "trace-T07", "status": "ok"}
+{"task": "T08", "tenant": "B", "fail": true, "sampled": true, "trace": "trace-T08", "status": "erro_preparado"}
+{"task": "T09", "tenant": "A", "fail": false, "sampled": false, "trace": "trace-T09", "status": "ok"}
+{"task": "T10", "tenant": "B", "fail": false, "sampled": true, "trace": "trace-T10", "status": "ok"}
+{"task": "T11", "tenant": "A", "fail": false, "sampled": true, "trace": "trace-T11", "status": "ok"}
+{"task": "T12", "tenant": "B", "fail": true, "sampled": true, "trace": "trace-T12", "status": "erro_preparado"}

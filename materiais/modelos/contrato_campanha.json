@@ -1,0 +1,24 @@
+{
+  "schema": "livro.modelo.campanha/1",
+  "status": "preparacao",
+  "decision": "pendente",
+  "external_authority": false,
+  "campaign_id": null,
+  "population": null,
+  "independent_unit": null,
+  "expected_catalog": null,
+  "candidate_components": {},
+  "observed_components": {},
+  "evaluator_version": null,
+  "missing_policy": null,
+  "effect_policy": null,
+  "budget": {
+    "unit": null,
+    "reserved": null,
+    "confirmed": null,
+    "uncertain": null
+  },
+  "owner": null,
+  "evidence_index": null,
+  "limitations": []
+}

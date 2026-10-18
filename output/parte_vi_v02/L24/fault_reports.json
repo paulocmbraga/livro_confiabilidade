@@ -1,0 +1,74 @@
+[
+  {
+    "case": "S02",
+    "scenario": "drop_reply",
+    "operations": 1,
+    "effects": 1,
+    "duplicates": 0,
+    "unknown": 0,
+    "blocked": 0,
+    "available": 8,
+    "reconciliation_ms": 308.131,
+    "passed": true
+  },
+  {
+    "case": "S05",
+    "scenario": "after_commit",
+    "operations": 1,
+    "effects": 1,
+    "duplicates": 0,
+    "unknown": 0,
+    "blocked": 0,
+    "available": 8,
+    "reconciliation_ms": 269.608,
+    "passed": true
+  },
+  {
+    "case": "S07",
+    "scenario": "after_receive",
+    "operations": 1,
+    "effects": 1,
+    "duplicates": 0,
+    "unknown": 0,
+    "blocked": 0,
+    "available": 8,
+    "reconciliation_ms": 303.815,
+    "passed": true
+  },
+  {
+    "case": "S08",
+    "scenario": "same_key",
+    "operations": 1,
+    "effects": 1,
+    "duplicates": 0,
+    "unknown": 0,
+    "blocked": 0,
+    "available": 8,
+    "reconciliation_ms": null,
+    "passed": true
+  },
+  {
+    "case": "S12",
+    "scenario": "no_lookup",
+    "operations": 1,
+    "effects": 1,
+    "duplicates": 0,
+    "unknown": 1,
+    "blocked": 0,
+    "available": 8,
+    "reconciliation_ms": 326.644,
+    "passed": true
+  },
+  {
+    "case": "S16",
+    "scenario": "revoked_approval",
+    "operations": 1,
+    "effects": 0,
+    "duplicates": 0,
+    "unknown": 0,
+    "blocked": 1,
+    "available": 10,
+    "reconciliation_ms": null,
+    "passed": true
+  }
+]

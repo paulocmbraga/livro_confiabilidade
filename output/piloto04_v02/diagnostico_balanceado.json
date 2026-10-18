@@ -1,0 +1,58 @@
+{
+  "principal_tarefas": {
+    "media": 0,
+    "inferior": -0.25,
+    "superior": 0.25,
+    "unidades": 40,
+    "nivel": 0.95,
+    "seed": 104,
+    "n_boot": 10000,
+    "degenerado": false
+  },
+  "ingenuo_tentativas": {
+    "media": 0,
+    "inferior": -0.105,
+    "superior": 0.105,
+    "unidades": 200,
+    "nivel": 0.95,
+    "seed": 104,
+    "n_boot": 10000,
+    "degenerado": false
+  },
+  "segmentos_descritivos": {
+    "restrito": {
+      "media": -1,
+      "inferior": -1.0,
+      "superior": -1.0,
+      "unidades": 8,
+      "nivel": 0.95,
+      "seed": 104,
+      "n_boot": 10000,
+      "degenerado": true
+    },
+    "rotina": {
+      "media": 0.25,
+      "inferior": 0.03125,
+      "superior": 0.46875,
+      "unidades": 32,
+      "nivel": 0.95,
+      "seed": 104,
+      "n_boot": 10000,
+      "degenerado": false
+    }
+  },
+  "taxas_por_tentativa": {
+    "A": 0.5,
+    "B": 0.5
+  },
+  "decisao": {
+    "estatistica": "inconclusivo",
+    "decisao": "bloquear_por_invariante",
+    "violacoes_criticas": 10
+  },
+  "tarefas_com_violacao": [
+    "H33",
+    "H34"
+  ],
+  "tentativas_incertas": 5
+}

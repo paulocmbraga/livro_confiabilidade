@@ -1,0 +1,12 @@
+{"task": "Q00", "tick": 0, "revision": "v1", "status": 200, "served": true, "good": true, "label_at": 2}
+{"task": "Q01", "tick": 1, "revision": "v1", "status": 200, "served": true, "good": true, "label_at": 3}
+{"task": "Q02", "tick": 2, "revision": "v1", "status": 200, "served": true, "good": true, "label_at": 4}
+{"task": "Q03", "tick": 3, "revision": "bad-v2", "status": 200, "served": true, "good": false, "label_at": 5}
+{"task": "Q04", "tick": 4, "revision": "bad-v2", "status": 200, "served": true, "good": false, "label_at": 6}
+{"task": "Q05", "tick": 5, "revision": "bad-v2", "status": 200, "served": true, "good": false, "label_at": 7}
+{"task": "Q06", "tick": 6, "revision": "bad-v2", "status": 200, "served": true, "good": false, "label_at": 8}
+{"task": "Q07", "tick": 7, "revision": "bad-v2", "status": 200, "served": true, "good": false, "label_at": 9}
+{"task": "Q08", "tick": 8, "revision": "good-v3", "status": 200, "served": true, "good": true, "label_at": 10}
+{"task": "Q09", "tick": 9, "revision": "good-v3", "status": 200, "served": true, "good": true, "label_at": 11}
+{"task": "Q10", "tick": 10, "revision": "good-v3", "status": 200, "served": true, "good": true, "label_at": 12}
+{"task": "Q11", "tick": 11, "revision": "good-v3", "status": 200, "served": true, "good": true, "label_at": 13}

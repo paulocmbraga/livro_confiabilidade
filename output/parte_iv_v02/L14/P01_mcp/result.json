@@ -1,0 +1,32 @@
+{
+  "case_id": "P01",
+  "transport": "mcp",
+  "pid": 11056,
+  "client_pid": 3528,
+  "calls": 4,
+  "expected_effects": 1,
+  "effects": 1,
+  "client": "confirmed",
+  "reason": "aplicado",
+  "results": [
+    {
+      "observed": {
+        "allowed": true,
+        "reason": "aplicado",
+        "receipt": {
+          "intent": "I14",
+          "principal": "ana",
+          "resource": "T1",
+          "action": "close",
+          "version": 0,
+          "quantity": 1,
+          "deadline": 150,
+          "hash": "cbedef23039dcaf334654a618a338a2686f2dcc1f9988c2a5c6d2883dca3a33a",
+          "effect": "applied",
+          "new_version": 1
+        }
+      },
+      "client": "confirmed"
+    }
+  ]
+}

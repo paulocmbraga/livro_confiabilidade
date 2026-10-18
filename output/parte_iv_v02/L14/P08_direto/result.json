@@ -1,0 +1,21 @@
+{
+  "case_id": "P08",
+  "transport": "direto",
+  "pid": 6084,
+  "client_pid": 3528,
+  "calls": 1,
+  "expected_effects": 0,
+  "effects": 0,
+  "client": "rejected",
+  "reason": "escopo",
+  "results": [
+    {
+      "observed": {
+        "allowed": false,
+        "reason": "escopo",
+        "receipt": null
+      },
+      "client": "rejected"
+    }
+  ]
+}

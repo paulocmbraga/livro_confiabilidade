@@ -1,0 +1,60 @@
+{"case":"S01","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S01","detail":"reply_verified","intent":"pedido-1","seq":2,"state":"confirmed"}
+{"case":"S02","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S02","detail":"RemoteDisconnected: Remote end closed connection without response","intent":"pedido-1","seq":2,"state":"unknown"}
+{"case":"S02","detail":"before_network","intent":"pedido-1","seq":3,"state":"unknown"}
+{"case":"S02","detail":"lookup_verified","intent":"pedido-1","seq":4,"state":"confirmed"}
+{"case":"S03","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S03","detail":"naive_retry","intent":"pedido-1","seq":2,"state":"confirmed"}
+{"case":"S04","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S04","detail":"ConnectionResetError: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto","intent":"pedido-1","seq":2,"state":"unknown"}
+{"case":"S04","detail":"before_network","intent":"pedido-1","seq":3,"state":"unknown"}
+{"case":"S04","detail":"reply_verified","intent":"pedido-1","seq":4,"state":"confirmed"}
+{"case":"S05","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S05","detail":"ConnectionResetError: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto","intent":"pedido-1","seq":2,"state":"unknown"}
+{"case":"S05","detail":"before_network","intent":"pedido-1","seq":3,"state":"unknown"}
+{"case":"S05","detail":"lookup_verified","intent":"pedido-1","seq":4,"state":"confirmed"}
+{"case":"S06","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S06","detail":"before_network","intent":"pedido-1","seq":2,"state":"unknown"}
+{"case":"S06","detail":"reply_verified","intent":"pedido-1","seq":3,"state":"confirmed"}
+{"case":"S07","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S07","detail":"before_network","intent":"pedido-1","seq":2,"state":"unknown"}
+{"case":"S07","detail":"lookup_verified","intent":"pedido-1","seq":3,"state":"confirmed"}
+{"case":"S08","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S08","detail":"before_network","intent":"pedido-1","seq":2,"state":"unknown"}
+{"case":"S08","detail":"reply_verified","intent":"pedido-1","seq":3,"state":"confirmed"}
+{"case":"S08","detail":"lookup_verified","intent":"pedido-1","seq":4,"state":"confirmed"}
+{"case":"S09","detail":"before_network","intent":"pedido-2","seq":1,"state":"unknown"}
+{"case":"S09","detail":"before_network","intent":"pedido-1","seq":2,"state":"unknown"}
+{"case":"S09","detail":"reply_verified","intent":"pedido-2","seq":3,"state":"confirmed"}
+{"case":"S09","detail":"version_conflict","intent":"pedido-1","seq":4,"state":"rejected"}
+{"case":"S10","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S10","detail":"reply_verified","intent":"pedido-1","seq":2,"state":"confirmed"}
+{"case":"S11","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S11","detail":"RemoteDisconnected: Remote end closed connection without response","intent":"pedido-1","seq":2,"state":"unknown"}
+{"case":"S11","detail":"before_network","intent":"pedido-1","seq":3,"state":"unknown"}
+{"case":"S11","detail":"lookup_410","intent":"pedido-1","seq":4,"state":"unknown"}
+{"case":"S12","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S12","detail":"RemoteDisconnected: Remote end closed connection without response","intent":"pedido-1","seq":2,"state":"unknown"}
+{"case":"S12","detail":"before_network","intent":"pedido-1","seq":3,"state":"unknown"}
+{"case":"S12","detail":"lookup_501","intent":"pedido-1","seq":4,"state":"unknown"}
+{"case":"S13","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S13","detail":"RemoteDisconnected: Remote end closed connection without response","intent":"pedido-1","seq":2,"state":"unknown"}
+{"case":"S13","detail":"before_network","intent":"pedido-1","seq":3,"state":"unknown"}
+{"case":"S13","detail":"lookup_503","intent":"pedido-1","seq":4,"state":"unknown"}
+{"case":"S14","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S14","detail":"reply_verified","intent":"pedido-1","seq":2,"state":"confirmed"}
+{"case":"S14","detail":"before_network","intent":"reparacao-1","seq":3,"state":"unknown"}
+{"case":"S14","detail":"RemoteDisconnected: Remote end closed connection without response","intent":"reparacao-1","seq":4,"state":"unknown"}
+{"case":"S14","detail":"before_network","intent":"reparacao-1","seq":5,"state":"unknown"}
+{"case":"S14","detail":"lookup_verified","intent":"reparacao-1","seq":6,"state":"confirmed"}
+{"case":"S15","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S15","detail":"reply_verified","intent":"pedido-1","seq":2,"state":"confirmed"}
+{"case":"S15","detail":"before_network","intent":"reparacao-1","seq":3,"state":"unknown"}
+{"case":"S15","detail":"compensation_forbidden","intent":"reparacao-1","seq":4,"state":"rejected"}
+{"case":"S16","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S16","detail":"approval_denied","intent":"pedido-1","seq":2,"state":"rejected"}
+{"case":"S17","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S17","detail":"insufficient_stock","intent":"pedido-1","seq":2,"state":"rejected"}
+{"case":"S18","detail":"before_network","intent":"pedido-1","seq":1,"state":"unknown"}
+{"case":"S18","detail":"approval_denied","intent":"pedido-1","seq":2,"state":"rejected"}

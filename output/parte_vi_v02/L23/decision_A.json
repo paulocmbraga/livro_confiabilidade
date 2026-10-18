@@ -1,0 +1,18 @@
+{
+  "status": "liberar_ensaio_local_delimitado",
+  "variant": "compositor",
+  "corpus": "9a35e74c259b9f2b670e7718b4eff395ebcdc0c954b8f239b83af0a28b529cd7",
+  "scope": "Oito famílias preparadas; respostas por regras; leitura apenas.",
+  "operational_conditions": [
+    "cache versionado",
+    "checagem de acesso antes de servir",
+    "teste de reindexação"
+  ],
+  "external_deployment": false,
+  "pending": [
+    "avaliação de modelo",
+    "referência humana",
+    "carga sustentada",
+    "ameaças da integração real"
+  ]
+}

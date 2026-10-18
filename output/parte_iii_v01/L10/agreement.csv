@@ -1,0 +1,13 @@
+rubric,partition,dimension,admitted,complete,missing,observed,expected,kappa,synthetic_seconds
+r1,calibracao,suporte,6,5,1,0.8,0.8,0.0,324
+r1,calibracao,completude,6,5,1,0.6,0.6,0.0,324
+r1,calibracao,clareza,6,6,0,0.8333333333333334,0.8333333333333334,0.0,324
+r1,teste_publico,suporte,6,5,1,0.8,0.8,0.0,468
+r1,teste_publico,completude,6,5,1,0.6,0.6,0.0,468
+r1,teste_publico,clareza,6,6,0,0.8333333333333334,0.8333333333333334,0.0,468
+r2,calibracao,suporte,6,5,1,1.0,0.68,1.0,384
+r2,calibracao,completude,6,5,1,1.0,0.44,1.0,384
+r2,calibracao,clareza,6,6,0,1.0,1.0,,384
+r2,teste_publico,suporte,6,5,1,1.0,0.68,1.0,528
+r2,teste_publico,completude,6,5,1,0.8,0.52,0.5833333333333334,528
+r2,teste_publico,clareza,6,6,0,0.8333333333333334,0.8333333333333334,0.0,528

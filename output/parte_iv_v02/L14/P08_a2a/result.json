@@ -1,0 +1,21 @@
+{
+  "case_id": "P08",
+  "transport": "a2a",
+  "pid": 3756,
+  "client_pid": 3528,
+  "calls": 1,
+  "expected_effects": 0,
+  "effects": 0,
+  "client": "rejected",
+  "reason": "escopo",
+  "results": [
+    {
+      "observed": {
+        "allowed": false,
+        "reason": "escopo",
+        "receipt": null
+      },
+      "client": "rejected"
+    }
+  ]
+}

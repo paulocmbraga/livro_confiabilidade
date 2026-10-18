@@ -1,0 +1,12 @@
+{
+  "tasks": 200,
+  "seed": 18,
+  "logical_days": 7,
+  "labels": "preparados; sem participantes humanos",
+  "audit": "estratificada sem reposição",
+  "threshold": "erro difícil > 0.3; mínimo 8 rótulos; coorte completa",
+  "change_day": 2,
+  "first_quality_alert": 5,
+  "detection_delay": 3,
+  "quality_false_alarms_before_change": 0
+}

@@ -1,0 +1,10 @@
+{"detail":"{\"pergunta\":\"Pergunta didática 1\",\"task_id\":\"T01\"}","event":"dispatch","seq":1,"task_id":"T01"}
+{"detail":"{\"elapsed_ms\":293.495,\"reason\":\"response_validated\"}","event":"completed","seq":2,"task_id":"T01"}
+{"detail":"{\"pergunta\":\"Pergunta didática 2\",\"task_id\":\"T02\"}","event":"dispatch","seq":3,"task_id":"T02"}
+{"detail":"Não reenviar automaticamente","event":"reconciled_unknown","seq":4,"task_id":"T02"}
+{"detail":"{\"pergunta\":\"Pergunta didática 3\",\"task_id\":\"T03\"}","event":"dispatch","seq":5,"task_id":"T03"}
+{"detail":"{\"elapsed_ms\":3034.77,\"reason\":\"local_timeout\"}","event":"unknown","seq":6,"task_id":"T03"}
+{"detail":"{\"pergunta\":\"Pergunta didática 4\",\"task_id\":\"T04\"}","event":"dispatch","seq":7,"task_id":"T04"}
+{"detail":"{\"elapsed_ms\":322.994,\"reason\":\"invalid_or_missing_response\"}","event":"unknown","seq":8,"task_id":"T04"}
+{"detail":"","event":"not_started_budget","seq":9,"task_id":"T05"}
+{"detail":"","event":"not_started_budget","seq":10,"task_id":"T06"}

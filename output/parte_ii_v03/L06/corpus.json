@@ -1,0 +1,146 @@
+[
+  {
+    "doc_id": "D01",
+    "revision": 1,
+    "text": "Troca de produto intacto: prazo de 30 dias. Consulte a exceção para personalizados.",
+    "facts": {
+      "troca_comum": "30 dias"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D02",
+    "revision": 1,
+    "text": "Exceção: produto personalizado não admite troca por preferência, mesmo intacto.",
+    "facts": {
+      "troca_personalizado": "não admitida por preferência"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D03",
+    "revision": 1,
+    "text": "Reembolso aprovado: prazo de 5 dias úteis para processamento.",
+    "facts": {
+      "reembolso_prazo": "5 dias úteis"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D04",
+    "revision": 1,
+    "text": "Frete padrão: entrega em 7 dias úteis.",
+    "facts": {
+      "frete_prazo": "7 dias úteis"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D05",
+    "revision": 1,
+    "text": "Desconto interno: clientes ouro recebem 15 por cento.",
+    "facts": {
+      "desconto_ouro": "15%"
+    },
+    "group": "comercial",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D06",
+    "revision": 1,
+    "text": "Troca de produto intacto: prazo antigo de 60 dias.",
+    "facts": {
+      "troca_comum": "60 dias"
+    },
+    "group": "publico",
+    "valid_from": "2025-01-01",
+    "valid_to": "2025-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D07",
+    "revision": 1,
+    "text": "Frete padrão: entrega em 3 dias úteis a partir de novembro.",
+    "facts": {
+      "frete_prazo": "3 dias úteis"
+    },
+    "group": "publico",
+    "valid_from": "2026-11-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D08",
+    "revision": 1,
+    "text": "Atendimento por chat: das 9 às 18 horas em dias úteis.",
+    "facts": {
+      "chat_horario": "9 às 18 horas em dias úteis"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D09",
+    "revision": 1,
+    "text": "Rastreamento de encomenda exige código de envio.",
+    "facts": {
+      "rastreio_requisito": "código de envio"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D10",
+    "revision": 1,
+    "text": "Comunicado A: crédito de cortesia de 10 reais.",
+    "facts": {
+      "credito": "10 reais"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D11",
+    "revision": 1,
+    "text": "Reembolso aprovado usa o meio de pagamento original.",
+    "facts": {
+      "reembolso_meio": "pagamento original"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  },
+  {
+    "doc_id": "D12",
+    "revision": 1,
+    "text": "Comunicado B: crédito de cortesia de 20 reais. Mesma autoridade do comunicado A.",
+    "facts": {
+      "credito": "20 reais"
+    },
+    "group": "publico",
+    "valid_from": "2026-01-01",
+    "valid_to": "2026-12-31",
+    "origin": "Horizonte: corpus didático autoral"
+  }
+]

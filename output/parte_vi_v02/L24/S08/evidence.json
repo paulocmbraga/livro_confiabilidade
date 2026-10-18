@@ -1,0 +1,87 @@
+{
+  "report": {
+    "case": "S08",
+    "scenario": "same_key",
+    "operations": 1,
+    "effects": 1,
+    "duplicates": 0,
+    "unknown": 0,
+    "blocked": 0,
+    "available": 8,
+    "reconciliation_ms": null,
+    "passed": true
+  },
+  "observations": [],
+  "final_oracle": {
+    "stock": [
+      {
+        "resource": "peca-A",
+        "available": 8,
+        "version": 1
+      }
+    ],
+    "reservations": [
+      {
+        "id": "6617c4f3-a033-4a72-90e6-52ce34476cac",
+        "intent": "pedido-1",
+        "resource": "peca-A",
+        "quantity": 2,
+        "state": "reserved",
+        "version": 0
+      }
+    ],
+    "effects": [
+      {
+        "seq": 1,
+        "intent": "pedido-1",
+        "action": "reserve",
+        "reservation": "6617c4f3-a033-4a72-90e6-52ce34476cac",
+        "quantity": 2
+      }
+    ],
+    "receipts": [
+      {
+        "principal": "operador-horizonte",
+        "key": "chave-1",
+        "hash": "53693951f007b2e613632e5add917c80d724b18274a8198cc335dafd434a7567",
+        "expires": 150,
+        "body": "{\"action\":\"reserve\",\"committed_at\":100,\"effect\":\"applied\",\"hash\":\"53693951f007b2e613632e5add917c80d724b18274a8198cc335dafd434a7567\",\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"reservation\":\"6617c4f3-a033-4a72-90e6-52ce34476cac\"}"
+      }
+    ]
+  },
+  "final_client": [
+    {
+      "intent": "pedido-1",
+      "request": "{\"action\":\"reserve\",\"deadline\":150,\"expected_version\":0,\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"quantity\":2,\"resource\":\"peca-A\"}",
+      "state": "confirmed",
+      "receipt": "{\"action\":\"reserve\",\"committed_at\":100,\"effect\":\"applied\",\"hash\":\"53693951f007b2e613632e5add917c80d724b18274a8198cc335dafd434a7567\",\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"reservation\":\"6617c4f3-a033-4a72-90e6-52ce34476cac\"}"
+    }
+  ],
+  "processes": [
+    {
+      "event": "server_started",
+      "pid": 448,
+      "fault": "none",
+      "clock": 100,
+      "lookup": "yes",
+      "legacy": false
+    },
+    {
+      "event": "worker_finished",
+      "pid": 11000,
+      "fault": "none",
+      "exit": 0
+    },
+    {
+      "event": "worker_finished",
+      "pid": 21488,
+      "fault": "none",
+      "exit": 0
+    },
+    {
+      "event": "server_stopped",
+      "pid": 448,
+      "exit": 1
+    }
+  ]
+}

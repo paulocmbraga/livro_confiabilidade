@@ -1,0 +1,81 @@
+{
+  "observations": 256,
+  "tasks": 8,
+  "effects": {
+    "cell_means": [
+      {
+        "k": 1,
+        "generator": "primeiro",
+        "quality": 0.625
+      },
+      {
+        "k": 1,
+        "generator": "compor",
+        "quality": 0.625
+      },
+      {
+        "k": 2,
+        "generator": "primeiro",
+        "quality": 0.625
+      },
+      {
+        "k": 2,
+        "generator": "compor",
+        "quality": 1.0
+      }
+    ],
+    "context_given_first": 0.0,
+    "context_given_compose": 0.375,
+    "generator_given_one": 0.0,
+    "generator_given_two": 0.375,
+    "interaction": 0.375,
+    "context_main": 0.1875,
+    "generator_main": 0.1875,
+    "combined": 0.375
+  },
+  "naive": [
+    {
+      "variant": "anterior",
+      "admitted": 4,
+      "correct": 1,
+      "measured_calls": 8,
+      "including_warmup": 8
+    },
+    {
+      "variant": "nova",
+      "admitted": 4,
+      "correct": 4,
+      "measured_calls": 4,
+      "including_warmup": 8
+    }
+  ],
+  "retrieval_calls": 128,
+  "warmup_calls": 128,
+  "generation_calls": 256,
+  "online_simulation": [
+    {
+      "variant": "A",
+      "assigned": 24,
+      "exposed": 18,
+      "completed": 12,
+      "task_completion": 0.5,
+      "selected_completion": 0.6666666666666666
+    },
+    {
+      "variant": "B",
+      "assigned": 24,
+      "exposed": 18,
+      "completed": 18,
+      "task_completion": 0.75,
+      "selected_completion": 1.0
+    }
+  ],
+  "mixed_teams_alternating": 12,
+  "mixed_teams_cluster": 0,
+  "sequential": {
+    "runs": 1000,
+    "fixed": 37,
+    "peek": 105,
+    "bonferroni": 15
+  }
+}

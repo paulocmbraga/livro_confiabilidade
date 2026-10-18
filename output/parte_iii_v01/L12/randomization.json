@@ -1,0 +1,2310 @@
+{
+  "seed_tasks": 1201,
+  "allocation": [
+    {
+      "run_id": "R06:0:frio:1:primeiro",
+      "query_id": "R06",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 1,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R06:0:frio:1:compor",
+      "query_id": "R06",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 2,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R06:0:frio:2:primeiro",
+      "query_id": "R06",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 3,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R06:0:frio:2:compor",
+      "query_id": "R06",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 4,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R06:0:quente:1:primeiro",
+      "query_id": "R06",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 1,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R06:0:quente:1:compor",
+      "query_id": "R06",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 2,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R06:0:quente:2:primeiro",
+      "query_id": "R06",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 3,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R06:0:quente:2:compor",
+      "query_id": "R06",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 4,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R06:1:quente:1:compor",
+      "query_id": "R06",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 1,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R06:1:quente:2:primeiro",
+      "query_id": "R06",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 2,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R06:1:quente:2:compor",
+      "query_id": "R06",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 3,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R06:1:quente:1:primeiro",
+      "query_id": "R06",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 4,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R06:1:frio:1:compor",
+      "query_id": "R06",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 1,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R06:1:frio:2:primeiro",
+      "query_id": "R06",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 2,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R06:1:frio:2:compor",
+      "query_id": "R06",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 3,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R06:1:frio:1:primeiro",
+      "query_id": "R06",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 4,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R06:2:frio:2:primeiro",
+      "query_id": "R06",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 1,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R06:2:frio:2:compor",
+      "query_id": "R06",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 2,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R06:2:frio:1:primeiro",
+      "query_id": "R06",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 3,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R06:2:frio:1:compor",
+      "query_id": "R06",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 4,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R06:2:quente:2:primeiro",
+      "query_id": "R06",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 1,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R06:2:quente:2:compor",
+      "query_id": "R06",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 2,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R06:2:quente:1:primeiro",
+      "query_id": "R06",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 3,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R06:2:quente:1:compor",
+      "query_id": "R06",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 4,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R06:3:quente:2:compor",
+      "query_id": "R06",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 1,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R06:3:quente:1:primeiro",
+      "query_id": "R06",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 2,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R06:3:quente:1:compor",
+      "query_id": "R06",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 3,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R06:3:quente:2:primeiro",
+      "query_id": "R06",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 4,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R06:3:frio:2:compor",
+      "query_id": "R06",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 1,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R06:3:frio:1:primeiro",
+      "query_id": "R06",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 2,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R06:3:frio:1:compor",
+      "query_id": "R06",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 3,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R06:3:frio:2:primeiro",
+      "query_id": "R06",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 4,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R01:0:quente:1:primeiro",
+      "query_id": "R01",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 1,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R01:0:quente:1:compor",
+      "query_id": "R01",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 2,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R01:0:quente:2:primeiro",
+      "query_id": "R01",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 3,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R01:0:quente:2:compor",
+      "query_id": "R01",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 4,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R01:0:frio:1:primeiro",
+      "query_id": "R01",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 1,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R01:0:frio:1:compor",
+      "query_id": "R01",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 2,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R01:0:frio:2:primeiro",
+      "query_id": "R01",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 3,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R01:0:frio:2:compor",
+      "query_id": "R01",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 4,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R01:1:frio:1:compor",
+      "query_id": "R01",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 1,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R01:1:frio:2:primeiro",
+      "query_id": "R01",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 2,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R01:1:frio:2:compor",
+      "query_id": "R01",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 3,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R01:1:frio:1:primeiro",
+      "query_id": "R01",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 4,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R01:1:quente:1:compor",
+      "query_id": "R01",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 1,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R01:1:quente:2:primeiro",
+      "query_id": "R01",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 2,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R01:1:quente:2:compor",
+      "query_id": "R01",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 3,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R01:1:quente:1:primeiro",
+      "query_id": "R01",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 4,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R01:2:quente:2:primeiro",
+      "query_id": "R01",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 1,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R01:2:quente:2:compor",
+      "query_id": "R01",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 2,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R01:2:quente:1:primeiro",
+      "query_id": "R01",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 3,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R01:2:quente:1:compor",
+      "query_id": "R01",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 4,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R01:2:frio:2:primeiro",
+      "query_id": "R01",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 1,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R01:2:frio:2:compor",
+      "query_id": "R01",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 2,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R01:2:frio:1:primeiro",
+      "query_id": "R01",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 3,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R01:2:frio:1:compor",
+      "query_id": "R01",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 4,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R01:3:frio:2:compor",
+      "query_id": "R01",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 1,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R01:3:frio:1:primeiro",
+      "query_id": "R01",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 2,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R01:3:frio:1:compor",
+      "query_id": "R01",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 3,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R01:3:frio:2:primeiro",
+      "query_id": "R01",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 4,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R01:3:quente:2:compor",
+      "query_id": "R01",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 1,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R01:3:quente:1:primeiro",
+      "query_id": "R01",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 2,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R01:3:quente:1:compor",
+      "query_id": "R01",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 3,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R01:3:quente:2:primeiro",
+      "query_id": "R01",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 4,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R05:0:frio:1:primeiro",
+      "query_id": "R05",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 1,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R05:0:frio:1:compor",
+      "query_id": "R05",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 2,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R05:0:frio:2:primeiro",
+      "query_id": "R05",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 3,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R05:0:frio:2:compor",
+      "query_id": "R05",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 4,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R05:0:quente:1:primeiro",
+      "query_id": "R05",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 1,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R05:0:quente:1:compor",
+      "query_id": "R05",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 2,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R05:0:quente:2:primeiro",
+      "query_id": "R05",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 3,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R05:0:quente:2:compor",
+      "query_id": "R05",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 4,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R05:1:quente:1:compor",
+      "query_id": "R05",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 1,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R05:1:quente:2:primeiro",
+      "query_id": "R05",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 2,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R05:1:quente:2:compor",
+      "query_id": "R05",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 3,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R05:1:quente:1:primeiro",
+      "query_id": "R05",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 4,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R05:1:frio:1:compor",
+      "query_id": "R05",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 1,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R05:1:frio:2:primeiro",
+      "query_id": "R05",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 2,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R05:1:frio:2:compor",
+      "query_id": "R05",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 3,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R05:1:frio:1:primeiro",
+      "query_id": "R05",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 4,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R05:2:frio:2:primeiro",
+      "query_id": "R05",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 1,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R05:2:frio:2:compor",
+      "query_id": "R05",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 2,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R05:2:frio:1:primeiro",
+      "query_id": "R05",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 3,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R05:2:frio:1:compor",
+      "query_id": "R05",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 4,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R05:2:quente:2:primeiro",
+      "query_id": "R05",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 1,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R05:2:quente:2:compor",
+      "query_id": "R05",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 2,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R05:2:quente:1:primeiro",
+      "query_id": "R05",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 3,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R05:2:quente:1:compor",
+      "query_id": "R05",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 4,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R05:3:quente:2:compor",
+      "query_id": "R05",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 1,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R05:3:quente:1:primeiro",
+      "query_id": "R05",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 2,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R05:3:quente:1:compor",
+      "query_id": "R05",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 3,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R05:3:quente:2:primeiro",
+      "query_id": "R05",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 4,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R05:3:frio:2:compor",
+      "query_id": "R05",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 1,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R05:3:frio:1:primeiro",
+      "query_id": "R05",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 2,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R05:3:frio:1:compor",
+      "query_id": "R05",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 3,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R05:3:frio:2:primeiro",
+      "query_id": "R05",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 4,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R08:0:quente:1:primeiro",
+      "query_id": "R08",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 1,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R08:0:quente:1:compor",
+      "query_id": "R08",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 2,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R08:0:quente:2:primeiro",
+      "query_id": "R08",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 3,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R08:0:quente:2:compor",
+      "query_id": "R08",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 4,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R08:0:frio:1:primeiro",
+      "query_id": "R08",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 1,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R08:0:frio:1:compor",
+      "query_id": "R08",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 2,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R08:0:frio:2:primeiro",
+      "query_id": "R08",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 3,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R08:0:frio:2:compor",
+      "query_id": "R08",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 4,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R08:1:frio:1:compor",
+      "query_id": "R08",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 1,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R08:1:frio:2:primeiro",
+      "query_id": "R08",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 2,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R08:1:frio:2:compor",
+      "query_id": "R08",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 3,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R08:1:frio:1:primeiro",
+      "query_id": "R08",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 4,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R08:1:quente:1:compor",
+      "query_id": "R08",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 1,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R08:1:quente:2:primeiro",
+      "query_id": "R08",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 2,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R08:1:quente:2:compor",
+      "query_id": "R08",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 3,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R08:1:quente:1:primeiro",
+      "query_id": "R08",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 4,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R08:2:quente:2:primeiro",
+      "query_id": "R08",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 1,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R08:2:quente:2:compor",
+      "query_id": "R08",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 2,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R08:2:quente:1:primeiro",
+      "query_id": "R08",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 3,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R08:2:quente:1:compor",
+      "query_id": "R08",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 4,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R08:2:frio:2:primeiro",
+      "query_id": "R08",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 1,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R08:2:frio:2:compor",
+      "query_id": "R08",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 2,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R08:2:frio:1:primeiro",
+      "query_id": "R08",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 3,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R08:2:frio:1:compor",
+      "query_id": "R08",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 4,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R08:3:frio:2:compor",
+      "query_id": "R08",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 1,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R08:3:frio:1:primeiro",
+      "query_id": "R08",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 2,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R08:3:frio:1:compor",
+      "query_id": "R08",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 3,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R08:3:frio:2:primeiro",
+      "query_id": "R08",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 4,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R08:3:quente:2:compor",
+      "query_id": "R08",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 1,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R08:3:quente:1:primeiro",
+      "query_id": "R08",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 2,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R08:3:quente:1:compor",
+      "query_id": "R08",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 3,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R08:3:quente:2:primeiro",
+      "query_id": "R08",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 4,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R07:0:frio:1:primeiro",
+      "query_id": "R07",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 1,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R07:0:frio:1:compor",
+      "query_id": "R07",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 2,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R07:0:frio:2:primeiro",
+      "query_id": "R07",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 3,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R07:0:frio:2:compor",
+      "query_id": "R07",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 4,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R07:0:quente:1:primeiro",
+      "query_id": "R07",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 1,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R07:0:quente:1:compor",
+      "query_id": "R07",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 2,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R07:0:quente:2:primeiro",
+      "query_id": "R07",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 3,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R07:0:quente:2:compor",
+      "query_id": "R07",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 4,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R07:1:quente:1:compor",
+      "query_id": "R07",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 1,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R07:1:quente:2:primeiro",
+      "query_id": "R07",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 2,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R07:1:quente:2:compor",
+      "query_id": "R07",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 3,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R07:1:quente:1:primeiro",
+      "query_id": "R07",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 4,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R07:1:frio:1:compor",
+      "query_id": "R07",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 1,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R07:1:frio:2:primeiro",
+      "query_id": "R07",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 2,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R07:1:frio:2:compor",
+      "query_id": "R07",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 3,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R07:1:frio:1:primeiro",
+      "query_id": "R07",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 4,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R07:2:frio:2:primeiro",
+      "query_id": "R07",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 1,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R07:2:frio:2:compor",
+      "query_id": "R07",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 2,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R07:2:frio:1:primeiro",
+      "query_id": "R07",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 3,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R07:2:frio:1:compor",
+      "query_id": "R07",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 4,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R07:2:quente:2:primeiro",
+      "query_id": "R07",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 1,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R07:2:quente:2:compor",
+      "query_id": "R07",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 2,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R07:2:quente:1:primeiro",
+      "query_id": "R07",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 3,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R07:2:quente:1:compor",
+      "query_id": "R07",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 4,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R07:3:quente:2:compor",
+      "query_id": "R07",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 1,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R07:3:quente:1:primeiro",
+      "query_id": "R07",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 2,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R07:3:quente:1:compor",
+      "query_id": "R07",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 3,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R07:3:quente:2:primeiro",
+      "query_id": "R07",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 4,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R07:3:frio:2:compor",
+      "query_id": "R07",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 1,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R07:3:frio:1:primeiro",
+      "query_id": "R07",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 2,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R07:3:frio:1:compor",
+      "query_id": "R07",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 3,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R07:3:frio:2:primeiro",
+      "query_id": "R07",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 4,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R03:0:quente:1:primeiro",
+      "query_id": "R03",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 1,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R03:0:quente:1:compor",
+      "query_id": "R03",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 2,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R03:0:quente:2:primeiro",
+      "query_id": "R03",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 3,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R03:0:quente:2:compor",
+      "query_id": "R03",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 4,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R03:0:frio:1:primeiro",
+      "query_id": "R03",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 1,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R03:0:frio:1:compor",
+      "query_id": "R03",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 2,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R03:0:frio:2:primeiro",
+      "query_id": "R03",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 3,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R03:0:frio:2:compor",
+      "query_id": "R03",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 4,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R03:1:frio:1:compor",
+      "query_id": "R03",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 1,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R03:1:frio:2:primeiro",
+      "query_id": "R03",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 2,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R03:1:frio:2:compor",
+      "query_id": "R03",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 3,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R03:1:frio:1:primeiro",
+      "query_id": "R03",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 4,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R03:1:quente:1:compor",
+      "query_id": "R03",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 1,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R03:1:quente:2:primeiro",
+      "query_id": "R03",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 2,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R03:1:quente:2:compor",
+      "query_id": "R03",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 3,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R03:1:quente:1:primeiro",
+      "query_id": "R03",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 4,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R03:2:quente:2:primeiro",
+      "query_id": "R03",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 1,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R03:2:quente:2:compor",
+      "query_id": "R03",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 2,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R03:2:quente:1:primeiro",
+      "query_id": "R03",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 3,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R03:2:quente:1:compor",
+      "query_id": "R03",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 4,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R03:2:frio:2:primeiro",
+      "query_id": "R03",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 1,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R03:2:frio:2:compor",
+      "query_id": "R03",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 2,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R03:2:frio:1:primeiro",
+      "query_id": "R03",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 3,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R03:2:frio:1:compor",
+      "query_id": "R03",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 4,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R03:3:frio:2:compor",
+      "query_id": "R03",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 1,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R03:3:frio:1:primeiro",
+      "query_id": "R03",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 2,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R03:3:frio:1:compor",
+      "query_id": "R03",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 3,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R03:3:frio:2:primeiro",
+      "query_id": "R03",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 4,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R03:3:quente:2:compor",
+      "query_id": "R03",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 1,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R03:3:quente:1:primeiro",
+      "query_id": "R03",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 2,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R03:3:quente:1:compor",
+      "query_id": "R03",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 3,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R03:3:quente:2:primeiro",
+      "query_id": "R03",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 4,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R02:0:frio:1:primeiro",
+      "query_id": "R02",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 1,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R02:0:frio:1:compor",
+      "query_id": "R02",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 2,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R02:0:frio:2:primeiro",
+      "query_id": "R02",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 3,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R02:0:frio:2:compor",
+      "query_id": "R02",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 4,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R02:0:quente:1:primeiro",
+      "query_id": "R02",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 1,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R02:0:quente:1:compor",
+      "query_id": "R02",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 2,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R02:0:quente:2:primeiro",
+      "query_id": "R02",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 3,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R02:0:quente:2:compor",
+      "query_id": "R02",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 4,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R02:1:quente:1:compor",
+      "query_id": "R02",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 1,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R02:1:quente:2:primeiro",
+      "query_id": "R02",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 2,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R02:1:quente:2:compor",
+      "query_id": "R02",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 3,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R02:1:quente:1:primeiro",
+      "query_id": "R02",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 4,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R02:1:frio:1:compor",
+      "query_id": "R02",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 1,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R02:1:frio:2:primeiro",
+      "query_id": "R02",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 2,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R02:1:frio:2:compor",
+      "query_id": "R02",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 3,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R02:1:frio:1:primeiro",
+      "query_id": "R02",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 4,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R02:2:frio:2:primeiro",
+      "query_id": "R02",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 1,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R02:2:frio:2:compor",
+      "query_id": "R02",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 2,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R02:2:frio:1:primeiro",
+      "query_id": "R02",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 3,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R02:2:frio:1:compor",
+      "query_id": "R02",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 4,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R02:2:quente:2:primeiro",
+      "query_id": "R02",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 1,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R02:2:quente:2:compor",
+      "query_id": "R02",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 2,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R02:2:quente:1:primeiro",
+      "query_id": "R02",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 3,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R02:2:quente:1:compor",
+      "query_id": "R02",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 4,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R02:3:quente:2:compor",
+      "query_id": "R02",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 1,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R02:3:quente:1:primeiro",
+      "query_id": "R02",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 2,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R02:3:quente:1:compor",
+      "query_id": "R02",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 3,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R02:3:quente:2:primeiro",
+      "query_id": "R02",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 4,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R02:3:frio:2:compor",
+      "query_id": "R02",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 1,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R02:3:frio:1:primeiro",
+      "query_id": "R02",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 2,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R02:3:frio:1:compor",
+      "query_id": "R02",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 3,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R02:3:frio:2:primeiro",
+      "query_id": "R02",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 4,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R04:0:quente:1:primeiro",
+      "query_id": "R04",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 1,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R04:0:quente:1:compor",
+      "query_id": "R04",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 2,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R04:0:quente:2:primeiro",
+      "query_id": "R04",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 3,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R04:0:quente:2:compor",
+      "query_id": "R04",
+      "repeat": 0,
+      "cache": "quente",
+      "position": 4,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R04:0:frio:1:primeiro",
+      "query_id": "R04",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 1,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R04:0:frio:1:compor",
+      "query_id": "R04",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 2,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R04:0:frio:2:primeiro",
+      "query_id": "R04",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 3,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R04:0:frio:2:compor",
+      "query_id": "R04",
+      "repeat": 0,
+      "cache": "frio",
+      "position": 4,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R04:1:frio:1:compor",
+      "query_id": "R04",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 1,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R04:1:frio:2:primeiro",
+      "query_id": "R04",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 2,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R04:1:frio:2:compor",
+      "query_id": "R04",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 3,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R04:1:frio:1:primeiro",
+      "query_id": "R04",
+      "repeat": 1,
+      "cache": "frio",
+      "position": 4,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R04:1:quente:1:compor",
+      "query_id": "R04",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 1,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R04:1:quente:2:primeiro",
+      "query_id": "R04",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 2,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R04:1:quente:2:compor",
+      "query_id": "R04",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 3,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R04:1:quente:1:primeiro",
+      "query_id": "R04",
+      "repeat": 1,
+      "cache": "quente",
+      "position": 4,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R04:2:quente:2:primeiro",
+      "query_id": "R04",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 1,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R04:2:quente:2:compor",
+      "query_id": "R04",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 2,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R04:2:quente:1:primeiro",
+      "query_id": "R04",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 3,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R04:2:quente:1:compor",
+      "query_id": "R04",
+      "repeat": 2,
+      "cache": "quente",
+      "position": 4,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R04:2:frio:2:primeiro",
+      "query_id": "R04",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 1,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R04:2:frio:2:compor",
+      "query_id": "R04",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 2,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R04:2:frio:1:primeiro",
+      "query_id": "R04",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 3,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R04:2:frio:1:compor",
+      "query_id": "R04",
+      "repeat": 2,
+      "cache": "frio",
+      "position": 4,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R04:3:frio:2:compor",
+      "query_id": "R04",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 1,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R04:3:frio:1:primeiro",
+      "query_id": "R04",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 2,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R04:3:frio:1:compor",
+      "query_id": "R04",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 3,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R04:3:frio:2:primeiro",
+      "query_id": "R04",
+      "repeat": 3,
+      "cache": "frio",
+      "position": 4,
+      "k": 2,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R04:3:quente:2:compor",
+      "query_id": "R04",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 1,
+      "k": 2,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R04:3:quente:1:primeiro",
+      "query_id": "R04",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 2,
+      "k": 1,
+      "generator": "primeiro"
+    },
+    {
+      "run_id": "R04:3:quente:1:compor",
+      "query_id": "R04",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 3,
+      "k": 1,
+      "generator": "compor"
+    },
+    {
+      "run_id": "R04:3:quente:2:primeiro",
+      "query_id": "R04",
+      "repeat": 3,
+      "cache": "quente",
+      "position": 4,
+      "k": 2,
+      "generator": "primeiro"
+    }
+  ],
+  "scheme": "quatro rotações cíclicas por tarefa e cache"
+}

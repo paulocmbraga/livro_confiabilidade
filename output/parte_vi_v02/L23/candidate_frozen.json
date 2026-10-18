@@ -1,0 +1,37 @@
+{
+  "variant": "compositor",
+  "components": {
+    "corpus": "9a35e74c259b9f2b670e7718b4eff395ebcdc0c954b8f239b83af0a28b529cd7",
+    "variant": "compositor",
+    "model": "gerador_por_regras_sem_LLM",
+    "policy": "allowed-v1",
+    "config": "top-k-2",
+    "sources": {
+      "assistente23.py": "b263995db3004b7a8de5d5636e0e2071dc47d776da0342823a5d8c26890851dd",
+      "recuperacao06.py": "6fd8c0e298a124f56358858a5b1f77d960cdd9531257b2fcf05e7c6574a5d998",
+      "dados_ii.py": "48006116d799ff77df8e855c4c9976ba2775c9b4ad95fc0239c66471a25e1163"
+    }
+  },
+  "release_id": "e8a7fb6538667750fa994ee07a8e6eff61afadbf46650079e811b1656d70c537",
+  "dev_ids": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08"
+  ],
+  "reserved_ids": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08"
+  ],
+  "reservation": "Partição lógica publicada; não é teste secreto após a distribuição."
+}

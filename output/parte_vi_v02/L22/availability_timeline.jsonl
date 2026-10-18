@@ -1,0 +1,16 @@
+{"tick": 0, "event": "task_terminal", "task": "Q00", "status": 200}
+{"tick": 1, "event": "task_terminal", "task": "Q01", "status": 200}
+{"tick": 2, "event": "task_terminal", "task": "Q02", "status": 200}
+{"tick": 3, "event": "source_invalid", "revision": "bad-v2"}
+{"tick": 3, "event": "task_terminal", "task": "Q03", "status": 200}
+{"tick": 4, "event": "task_terminal", "task": "Q04", "status": 200}
+{"tick": 5, "event": "quality_alert_dropped", "case": "Q03"}
+{"tick": 5, "event": "task_terminal", "task": "Q05", "status": 200}
+{"tick": 6, "event": "task_terminal", "task": "Q06", "status": 200}
+{"tick": 7, "event": "task_terminal", "task": "Q07", "status": 200}
+{"tick": 8, "event": "source_repaired", "revision": "good-v3"}
+{"tick": 8, "event": "return_denied", "reason": "labels_and_effects"}
+{"tick": 8, "event": "task_terminal", "task": "Q08", "status": 200}
+{"tick": 9, "event": "task_terminal", "task": "Q09", "status": 200}
+{"tick": 10, "event": "task_terminal", "task": "Q10", "status": 200}
+{"tick": 11, "event": "task_terminal", "task": "Q11", "status": 200}

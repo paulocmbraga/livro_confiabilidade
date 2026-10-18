@@ -1,0 +1,152 @@
+{
+  "report": {
+    "case": "S13",
+    "scenario": "unavailable_lookup",
+    "operations": 1,
+    "effects": 1,
+    "duplicates": 0,
+    "unknown": 1,
+    "blocked": 0,
+    "available": 8,
+    "reconciliation_ms": 1028.47,
+    "passed": true
+  },
+  "observations": [
+    {
+      "phase": "after_first_attempt",
+      "states": [
+        {
+          "intent": "pedido-1",
+          "request": "{\"action\":\"reserve\",\"deadline\":150,\"expected_version\":0,\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"quantity\":2,\"resource\":\"peca-A\"}",
+          "state": "unknown",
+          "receipt": null
+        }
+      ]
+    },
+    {
+      "phase": "before_recovery",
+      "oracle": {
+        "stock": [
+          {
+            "resource": "peca-A",
+            "available": 8,
+            "version": 1
+          }
+        ],
+        "reservations": [
+          {
+            "id": "7c281265-48ac-437e-a853-c6ffe5f5288f",
+            "intent": "pedido-1",
+            "resource": "peca-A",
+            "quantity": 2,
+            "state": "reserved",
+            "version": 0
+          }
+        ],
+        "effects": [
+          {
+            "seq": 1,
+            "intent": "pedido-1",
+            "action": "reserve",
+            "reservation": "7c281265-48ac-437e-a853-c6ffe5f5288f",
+            "quantity": 2
+          }
+        ],
+        "receipts": [
+          {
+            "principal": "operador-horizonte",
+            "key": "chave-1",
+            "hash": "53693951f007b2e613632e5add917c80d724b18274a8198cc335dafd434a7567",
+            "expires": 150,
+            "body": "{\"action\":\"reserve\",\"committed_at\":100,\"effect\":\"applied\",\"hash\":\"53693951f007b2e613632e5add917c80d724b18274a8198cc335dafd434a7567\",\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"reservation\":\"7c281265-48ac-437e-a853-c6ffe5f5288f\"}"
+          }
+        ]
+      }
+    }
+  ],
+  "final_oracle": {
+    "stock": [
+      {
+        "resource": "peca-A",
+        "available": 8,
+        "version": 1
+      }
+    ],
+    "reservations": [
+      {
+        "id": "7c281265-48ac-437e-a853-c6ffe5f5288f",
+        "intent": "pedido-1",
+        "resource": "peca-A",
+        "quantity": 2,
+        "state": "reserved",
+        "version": 0
+      }
+    ],
+    "effects": [
+      {
+        "seq": 1,
+        "intent": "pedido-1",
+        "action": "reserve",
+        "reservation": "7c281265-48ac-437e-a853-c6ffe5f5288f",
+        "quantity": 2
+      }
+    ],
+    "receipts": [
+      {
+        "principal": "operador-horizonte",
+        "key": "chave-1",
+        "hash": "53693951f007b2e613632e5add917c80d724b18274a8198cc335dafd434a7567",
+        "expires": 150,
+        "body": "{\"action\":\"reserve\",\"committed_at\":100,\"effect\":\"applied\",\"hash\":\"53693951f007b2e613632e5add917c80d724b18274a8198cc335dafd434a7567\",\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"reservation\":\"7c281265-48ac-437e-a853-c6ffe5f5288f\"}"
+      }
+    ]
+  },
+  "final_client": [
+    {
+      "intent": "pedido-1",
+      "request": "{\"action\":\"reserve\",\"deadline\":150,\"expected_version\":0,\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"quantity\":2,\"resource\":\"peca-A\"}",
+      "state": "unknown",
+      "receipt": null
+    }
+  ],
+  "processes": [
+    {
+      "event": "server_started",
+      "pid": 16984,
+      "fault": "drop_reply",
+      "clock": 100,
+      "lookup": "yes",
+      "legacy": false
+    },
+    {
+      "event": "worker_finished",
+      "pid": 16960,
+      "fault": "none",
+      "exit": 0
+    },
+    {
+      "event": "server_stopped",
+      "pid": 16984,
+      "exit": 1
+    },
+    {
+      "event": "server_started",
+      "pid": 16292,
+      "fault": "none",
+      "clock": 100,
+      "lookup": "unavailable",
+      "legacy": false
+    },
+    {
+      "event": "worker_finished",
+      "pid": 10976,
+      "fault": "none",
+      "exit": 0
+    },
+    {
+      "event": "server_stopped",
+      "pid": 16292,
+      "exit": 1
+    }
+  ]
+}

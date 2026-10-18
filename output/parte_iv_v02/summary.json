@@ -1,0 +1,175 @@
+{
+  "L13": [
+    {
+      "profile": "sem",
+      "partition": "desenvolvimento",
+      "hostile": 3,
+      "violations": 3,
+      "benign": 3,
+      "false_blocks": 0,
+      "effect_calls": 6
+    },
+    {
+      "profile": "sem",
+      "partition": "teste_familias",
+      "hostile": 3,
+      "violations": 3,
+      "benign": 3,
+      "false_blocks": 0,
+      "effect_calls": 6
+    },
+    {
+      "profile": "lexico",
+      "partition": "desenvolvimento",
+      "hostile": 3,
+      "violations": 2,
+      "benign": 3,
+      "false_blocks": 1,
+      "effect_calls": 4
+    },
+    {
+      "profile": "lexico",
+      "partition": "teste_familias",
+      "hostile": 3,
+      "violations": 3,
+      "benign": 3,
+      "false_blocks": 1,
+      "effect_calls": 5
+    },
+    {
+      "profile": "ferramenta",
+      "partition": "desenvolvimento",
+      "hostile": 3,
+      "violations": 1,
+      "benign": 3,
+      "false_blocks": 0,
+      "effect_calls": 4
+    },
+    {
+      "profile": "ferramenta",
+      "partition": "teste_familias",
+      "hostile": 3,
+      "violations": 3,
+      "benign": 3,
+      "false_blocks": 0,
+      "effect_calls": 6
+    },
+    {
+      "profile": "vinculado",
+      "partition": "desenvolvimento",
+      "hostile": 3,
+      "violations": 0,
+      "benign": 3,
+      "false_blocks": 0,
+      "effect_calls": 3
+    },
+    {
+      "profile": "vinculado",
+      "partition": "teste_familias",
+      "hostile": 3,
+      "violations": 0,
+      "benign": 3,
+      "false_blocks": 0,
+      "effect_calls": 3
+    },
+    {
+      "profile": "lexico_vinculado",
+      "partition": "desenvolvimento",
+      "hostile": 3,
+      "violations": 0,
+      "benign": 3,
+      "false_blocks": 1,
+      "effect_calls": 2
+    },
+    {
+      "profile": "lexico_vinculado",
+      "partition": "teste_familias",
+      "hostile": 3,
+      "violations": 0,
+      "benign": 3,
+      "false_blocks": 1,
+      "effect_calls": 2
+    }
+  ],
+  "L14": [
+    {
+      "transport": "direto",
+      "cases": 13,
+      "effects": 3,
+      "confirmed": 2,
+      "unknown": 1,
+      "rejected": 10,
+      "post_requests": 14
+    },
+    {
+      "transport": "mcp",
+      "cases": 13,
+      "effects": 3,
+      "confirmed": 2,
+      "unknown": 1,
+      "rejected": 10,
+      "post_requests": 53
+    },
+    {
+      "transport": "a2a",
+      "cases": 13,
+      "effects": 3,
+      "confirmed": 2,
+      "unknown": 1,
+      "rejected": 10,
+      "post_requests": 14
+    }
+  ],
+  "L16": [
+    {
+      "variant": "simples",
+      "tasks": 8,
+      "adequate": 8,
+      "applied": 3,
+      "pending": 4,
+      "violations": 0,
+      "cost": 26,
+      "wasted": 1,
+      "logical_time": 25
+    },
+    {
+      "variant": "equipe",
+      "tasks": 8,
+      "adequate": 8,
+      "applied": 3,
+      "pending": 4,
+      "violations": 0,
+      "cost": 42,
+      "wasted": 1,
+      "logical_time": 19
+    },
+    {
+      "variant": "sem_revisor",
+      "tasks": 8,
+      "adequate": 7,
+      "applied": 4,
+      "pending": 3,
+      "violations": 1,
+      "cost": 37,
+      "wasted": 1,
+      "logical_time": 19
+    },
+    {
+      "variant": "consenso",
+      "tasks": 8,
+      "adequate": 7,
+      "applied": 4,
+      "pending": 3,
+      "violations": 1,
+      "cost": 49,
+      "wasted": 1,
+      "logical_time": 19
+    }
+  ],
+  "L15": {
+    "verified": 18,
+    "artifacts": 92,
+    "mode": "saved evidence; no new HTTP execution",
+    "manifest_sha256": "03412bbffb6a3592ff185aa1cd45a9e8a5f99a4a2214398d0d07b9a92d39ea96"
+  }
+}

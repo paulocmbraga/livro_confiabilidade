@@ -1,0 +1,3 @@
+# L12-1.0
+
+Oito tarefas públicas, contexto k=1/2, geradores primeiro/compor, cache frio/quente e quatro rotações. Cache novo em cada observação; aquecimento contabilizado. 256 observações; quatro repetições de execução não criam novas tarefas. Qualidade é calculada contra os átomos do corpus; tempo local observado não é benchmark remoto. As simulações online e sequencial são dados distintos, sem pessoas ou exposição real. A simulação de moeda usa 1.000 sequências nulas, cinco análises fixadas e semente 1203. Bonferroni divide 0,05 por cinco; o exemplo não implementa inferência sequencial arbitrária.

@@ -1,0 +1,93 @@
+{
+  "report": {
+    "case": "S09",
+    "scenario": "stale_version",
+    "operations": 2,
+    "effects": 1,
+    "duplicates": 0,
+    "unknown": 0,
+    "blocked": 1,
+    "available": 8,
+    "reconciliation_ms": null,
+    "passed": true
+  },
+  "observations": [],
+  "final_oracle": {
+    "stock": [
+      {
+        "resource": "peca-A",
+        "available": 8,
+        "version": 1
+      }
+    ],
+    "reservations": [
+      {
+        "id": "986777f1-e20b-4175-9b50-6b5f54cdd366",
+        "intent": "pedido-2",
+        "resource": "peca-A",
+        "quantity": 2,
+        "state": "reserved",
+        "version": 0
+      }
+    ],
+    "effects": [
+      {
+        "seq": 1,
+        "intent": "pedido-2",
+        "action": "reserve",
+        "reservation": "986777f1-e20b-4175-9b50-6b5f54cdd366",
+        "quantity": 2
+      }
+    ],
+    "receipts": [
+      {
+        "principal": "operador-horizonte",
+        "key": "chave-2",
+        "hash": "3b0b76c9dbd1251aac4ec7bc92d9a34d27c1386d3b426726086fbc957ef734e3",
+        "expires": 150,
+        "body": "{\"action\":\"reserve\",\"committed_at\":100,\"effect\":\"applied\",\"hash\":\"3b0b76c9dbd1251aac4ec7bc92d9a34d27c1386d3b426726086fbc957ef734e3\",\"intent\":\"pedido-2\",\"key\":\"chave-2\",\"principal\":\"operador-horizonte\",\"reservation\":\"986777f1-e20b-4175-9b50-6b5f54cdd366\"}"
+      }
+    ]
+  },
+  "final_client": [
+    {
+      "intent": "pedido-1",
+      "request": "{\"action\":\"reserve\",\"deadline\":150,\"expected_version\":0,\"intent\":\"pedido-1\",\"key\":\"chave-1\",\"principal\":\"operador-horizonte\",\"quantity\":2,\"resource\":\"peca-A\"}",
+      "state": "rejected",
+      "receipt": null
+    },
+    {
+      "intent": "pedido-2",
+      "request": "{\"action\":\"reserve\",\"deadline\":150,\"expected_version\":0,\"intent\":\"pedido-2\",\"key\":\"chave-2\",\"principal\":\"operador-horizonte\",\"quantity\":2,\"resource\":\"peca-A\"}",
+      "state": "confirmed",
+      "receipt": "{\"action\":\"reserve\",\"committed_at\":100,\"effect\":\"applied\",\"hash\":\"3b0b76c9dbd1251aac4ec7bc92d9a34d27c1386d3b426726086fbc957ef734e3\",\"intent\":\"pedido-2\",\"key\":\"chave-2\",\"principal\":\"operador-horizonte\",\"reservation\":\"986777f1-e20b-4175-9b50-6b5f54cdd366\"}"
+    }
+  ],
+  "processes": [
+    {
+      "event": "server_started",
+      "pid": 12704,
+      "fault": "none",
+      "clock": 100,
+      "lookup": "yes",
+      "legacy": false
+    },
+    {
+      "event": "worker_finished",
+      "pid": 20692,
+      "fault": "none",
+      "exit": 0
+    },
+    {
+      "event": "worker_finished",
+      "pid": 6104,
+      "fault": "none",
+      "exit": 0
+    },
+    {
+      "event": "server_stopped",
+      "pid": 12704,
+      "exit": 1
+    }
+  ]
+}

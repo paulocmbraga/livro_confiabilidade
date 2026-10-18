@@ -1,0 +1,43 @@
+{
+  "cenario": "Separado da divisão por tamanho",
+  "corte_desenvolvimento": "2026-07-31",
+  "corte_calibracao": "2026-08-31",
+  "particoes": {
+    "desenvolvimento": 8,
+    "calibracao": 8,
+    "teste": 5
+  },
+  "excluidas": [
+    {
+      "task_id": "F11-2",
+      "motivos": [
+        "origem_ausente"
+      ]
+    },
+    {
+      "task_id": "F12-1",
+      "motivos": [
+        "fonte_futura"
+      ]
+    },
+    {
+      "task_id": "F12-2",
+      "motivos": [
+        "fonte_futura"
+      ]
+    }
+  ],
+  "estratos": {
+    "calibracao": {
+      "restrito": 8
+    },
+    "desenvolvimento": {
+      "rotina": 8
+    },
+    "teste": {
+      "limite": 5
+    }
+  },
+  "origem_ausente_proporcao": 0.041666666666666664,
+  "limite": "Meses e segmentos foram construídos juntos; não há generalização demonstrada."
+}
