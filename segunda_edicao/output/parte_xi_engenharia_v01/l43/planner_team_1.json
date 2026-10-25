@@ -1,0 +1,81 @@
+{
+  "request": {
+    "model": "qwen",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reserve somente authorized=true e quantity=1. Caso contrario hold. Pedido: {\"quantity\": 2, \"authorized\": true, \"intent\": \"team-1\", \"contract\": \"v1\"}"
+      }
+    ],
+    "temperature": 0,
+    "seed": 441,
+    "max_tokens": 100,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "result",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "enum": [
+                "reserve",
+                "hold"
+              ]
+            },
+            "quantity": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "action",
+            "quantity"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "cache_prompt": false
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"action\": \"reserve\",\n  \"quantity\": 2\n}"
+        }
+      }
+    ],
+    "created": 1792949862,
+    "model": "qwen",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 73,
+      "total_tokens": 96,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-lyPIWXi7SBLC0uZVVX8oHyAgKWQGUQop",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 73,
+      "prompt_ms": 354.19,
+      "prompt_per_token_ms": 4.851917808219178,
+      "prompt_per_second": 206.1040684378441,
+      "predicted_n": 23,
+      "predicted_ms": 461.437,
+      "predicted_per_token_ms": 20.97440909090909,
+      "predicted_per_second": 47.677147692967836
+    }
+  },
+  "seconds": 0.8290260001085699,
+  "text": "{\n  \"action\": \"reserve\",\n  \"quantity\": 2\n}",
+  "finish": "stop"
+}

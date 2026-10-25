@@ -1,0 +1,404 @@
+{
+  "development": [
+    {
+      "id": "development-0",
+      "split": "development",
+      "active": false,
+      "blocked": true,
+      "limit": 50,
+      "value": 60,
+      "complexity": 1,
+      "prompt": "Pedido development-0: conta inativa; valor 60; limite 50; bloqueio sim. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "development-1",
+      "split": "development",
+      "active": true,
+      "blocked": false,
+      "limit": 50,
+      "value": 40,
+      "complexity": 1,
+      "prompt": "Pedido development-1: conta ativa; valor 40; limite 50; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "development-2",
+      "split": "development",
+      "active": true,
+      "blocked": false,
+      "limit": 50,
+      "value": 40,
+      "complexity": 1,
+      "prompt": "Pedido development-2: conta ativa; valor 40; limite 50; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "development-3",
+      "split": "development",
+      "active": true,
+      "blocked": false,
+      "limit": 50,
+      "value": 60,
+      "complexity": 1,
+      "prompt": "Pedido development-3: conta ativa; valor 60; limite 50; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "development-4",
+      "split": "development",
+      "active": false,
+      "blocked": false,
+      "limit": 50,
+      "value": 40,
+      "complexity": 1,
+      "prompt": "Pedido development-4: conta inativa; valor 40; limite 50; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "development-5",
+      "split": "development",
+      "active": true,
+      "blocked": true,
+      "limit": 50,
+      "value": 40,
+      "complexity": 1,
+      "prompt": "Pedido development-5: conta ativa; valor 40; limite 50; bloqueio sim. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "development-6",
+      "split": "development",
+      "active": true,
+      "blocked": false,
+      "limit": 50,
+      "value": 60,
+      "complexity": 0,
+      "prompt": "Pedido development-6. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=60, limite=50, bloqueada=false. JSON: decisao=aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "development-7",
+      "split": "development",
+      "active": true,
+      "blocked": false,
+      "limit": 50,
+      "value": 40,
+      "complexity": 0,
+      "prompt": "Pedido development-7. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=40, limite=50, bloqueada=false. JSON: decisao=aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "development-8",
+      "split": "development",
+      "active": false,
+      "blocked": false,
+      "limit": 50,
+      "value": 40,
+      "complexity": 0,
+      "prompt": "Pedido development-8. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=false, valor=40, limite=50, bloqueada=false. JSON: decisao=aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "development-9",
+      "split": "development",
+      "active": true,
+      "blocked": false,
+      "limit": 50,
+      "value": 60,
+      "complexity": 0,
+      "prompt": "Pedido development-9. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=60, limite=50, bloqueada=false. JSON: decisao=aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "development-10",
+      "split": "development",
+      "active": true,
+      "blocked": true,
+      "limit": 50,
+      "value": 40,
+      "complexity": 0,
+      "prompt": "Pedido development-10. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=40, limite=50, bloqueada=true. JSON: decisao=aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "development-11",
+      "split": "development",
+      "active": true,
+      "blocked": false,
+      "limit": 50,
+      "value": 40,
+      "complexity": 0,
+      "prompt": "Pedido development-11. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=40, limite=50, bloqueada=false. JSON: decisao=aprovar ou revisar.",
+      "tenant": "horizonte"
+    }
+  ],
+  "reserve": [
+    {
+      "id": "reserve-0",
+      "split": "reserve",
+      "active": false,
+      "blocked": true,
+      "limit": 150,
+      "value": 160,
+      "complexity": 1,
+      "prompt": "Pedido reserve-0: conta inativa; valor 160; limite 150; bloqueio sim. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "reserve-1",
+      "split": "reserve",
+      "active": true,
+      "blocked": false,
+      "limit": 150,
+      "value": 140,
+      "complexity": 1,
+      "prompt": "Pedido reserve-1: conta ativa; valor 140; limite 150; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "reserve-2",
+      "split": "reserve",
+      "active": true,
+      "blocked": false,
+      "limit": 150,
+      "value": 140,
+      "complexity": 1,
+      "prompt": "Pedido reserve-2: conta ativa; valor 140; limite 150; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "reserve-3",
+      "split": "reserve",
+      "active": true,
+      "blocked": false,
+      "limit": 150,
+      "value": 160,
+      "complexity": 1,
+      "prompt": "Pedido reserve-3: conta ativa; valor 160; limite 150; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "reserve-4",
+      "split": "reserve",
+      "active": false,
+      "blocked": false,
+      "limit": 150,
+      "value": 140,
+      "complexity": 1,
+      "prompt": "Pedido reserve-4: conta inativa; valor 140; limite 150; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "reserve-5",
+      "split": "reserve",
+      "active": true,
+      "blocked": true,
+      "limit": 150,
+      "value": 140,
+      "complexity": 1,
+      "prompt": "Pedido reserve-5: conta ativa; valor 140; limite 150; bloqueio sim. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "reserve-6",
+      "split": "reserve",
+      "active": true,
+      "blocked": false,
+      "limit": 150,
+      "value": 160,
+      "complexity": 0,
+      "prompt": "Pedido reserve-6. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=160, limite=150, bloqueada=false. JSON: decisao=aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "reserve-7",
+      "split": "reserve",
+      "active": true,
+      "blocked": false,
+      "limit": 150,
+      "value": 140,
+      "complexity": 0,
+      "prompt": "Pedido reserve-7. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=140, limite=150, bloqueada=false. JSON: decisao=aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "reserve-8",
+      "split": "reserve",
+      "active": false,
+      "blocked": false,
+      "limit": 150,
+      "value": 140,
+      "complexity": 0,
+      "prompt": "Pedido reserve-8. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=false, valor=140, limite=150, bloqueada=false. JSON: decisao=aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "reserve-9",
+      "split": "reserve",
+      "active": true,
+      "blocked": false,
+      "limit": 150,
+      "value": 160,
+      "complexity": 0,
+      "prompt": "Pedido reserve-9. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=160, limite=150, bloqueada=false. JSON: decisao=aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "reserve-10",
+      "split": "reserve",
+      "active": true,
+      "blocked": true,
+      "limit": 150,
+      "value": 140,
+      "complexity": 0,
+      "prompt": "Pedido reserve-10. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=140, limite=150, bloqueada=true. JSON: decisao=aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "reserve-11",
+      "split": "reserve",
+      "active": true,
+      "blocked": false,
+      "limit": 150,
+      "value": 140,
+      "complexity": 0,
+      "prompt": "Pedido reserve-11. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=140, limite=150, bloqueada=false. JSON: decisao=aprovar ou revisar.",
+      "tenant": "horizonte"
+    }
+  ],
+  "shift": [
+    {
+      "id": "shift-0",
+      "split": "shift",
+      "active": false,
+      "blocked": true,
+      "limit": 250,
+      "value": 260,
+      "complexity": 1,
+      "prompt": "Pedido shift-0: conta inativa; valor 260; limite 250; bloqueio sim. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "shift-1",
+      "split": "shift",
+      "active": true,
+      "blocked": false,
+      "limit": 250,
+      "value": 240,
+      "complexity": 1,
+      "prompt": "Pedido shift-1: conta ativa; valor 240; limite 250; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "shift-2",
+      "split": "shift",
+      "active": true,
+      "blocked": false,
+      "limit": 250,
+      "value": 240,
+      "complexity": 1,
+      "prompt": "Pedido shift-2: conta ativa; valor 240; limite 250; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "shift-3",
+      "split": "shift",
+      "active": true,
+      "blocked": false,
+      "limit": 250,
+      "value": 260,
+      "complexity": 1,
+      "prompt": "Pedido shift-3: conta ativa; valor 260; limite 250; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "shift-4",
+      "split": "shift",
+      "active": false,
+      "blocked": false,
+      "limit": 250,
+      "value": 240,
+      "complexity": 1,
+      "prompt": "Pedido shift-4: conta inativa; valor 240; limite 250; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "shift-5",
+      "split": "shift",
+      "active": true,
+      "blocked": true,
+      "limit": 250,
+      "value": 240,
+      "complexity": 1,
+      "prompt": "Pedido shift-5: conta ativa; valor 240; limite 250; bloqueio sim. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "shift-6",
+      "split": "shift",
+      "active": true,
+      "blocked": false,
+      "limit": 250,
+      "value": 260,
+      "complexity": 1,
+      "prompt": "Pedido shift-6: conta ativa; valor 260; limite 250; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "shift-7",
+      "split": "shift",
+      "active": true,
+      "blocked": false,
+      "limit": 250,
+      "value": 240,
+      "complexity": 1,
+      "prompt": "Pedido shift-7: conta ativa; valor 240; limite 250; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "shift-8",
+      "split": "shift",
+      "active": false,
+      "blocked": false,
+      "limit": 250,
+      "value": 240,
+      "complexity": 1,
+      "prompt": "Pedido shift-8: conta inativa; valor 240; limite 250; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "shift-9",
+      "split": "shift",
+      "active": true,
+      "blocked": false,
+      "limit": 250,
+      "value": 260,
+      "complexity": 1,
+      "prompt": "Pedido shift-9: conta ativa; valor 260; limite 250; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "shift-10",
+      "split": "shift",
+      "active": true,
+      "blocked": true,
+      "limit": 250,
+      "value": 240,
+      "complexity": 0,
+      "prompt": "Pedido shift-10. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=240, limite=250, bloqueada=true. JSON: decisao=aprovar ou revisar.",
+      "tenant": "horizonte"
+    },
+    {
+      "id": "shift-11",
+      "split": "shift",
+      "active": true,
+      "blocked": false,
+      "limit": 250,
+      "value": 240,
+      "complexity": 0,
+      "prompt": "Pedido shift-11. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=240, limite=250, bloqueada=false. JSON: decisao=aprovar ou revisar.",
+      "tenant": "horizonte"
+    }
+  ]
+}

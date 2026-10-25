@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{ \"steps\": [ \"Verifique se o plano é necessário e se o teto está disponível.\", \"Verifique se a quantidade permitida está disponível.\", \"Reserva o plano se necessário.\", \"Reserva o plano se não.\" ] }"
+      }
+    }
+  ],
+  "created": 1792881799,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 73,
+    "total_tokens": 125,
+    "prompt_tokens_details": {
+      "cached_tokens": 46
+    }
+  },
+  "id": "chatcmpl-2FtYiFxyGHpkNbaHY9U9sMLwniUQ4sXc",
+  "timings": {
+    "cache_n": 46,
+    "prompt_n": 27,
+    "prompt_ms": 258.215,
+    "prompt_per_token_ms": 9.563518518518517,
+    "prompt_per_second": 104.56402610227912,
+    "predicted_n": 52,
+    "predicted_ms": 922.649,
+    "predicted_per_token_ms": 18.0911568627451,
+    "predicted_per_second": 55.275624858423946
+  }
+}

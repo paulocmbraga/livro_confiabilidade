@@ -1,0 +1,77 @@
+{
+  "version": "PARTE-VI-1.0",
+  "date": "2026-10-24",
+  "baseline_commit": "7d41d1804711e8aa12c7364793b9f52039634aa0",
+  "ingestion": {
+    "documents": 5,
+    "strategies": [
+      "body_only",
+      "independent",
+      "linked"
+    ],
+    "as_of": "2026-10-24"
+  },
+  "retrieval": {
+    "queries": 48,
+    "documents": 30,
+    "clusters": 8,
+    "nprobe": [
+      1,
+      3,
+      8
+    ],
+    "k": 3,
+    "candidates": 8,
+    "seed": 621,
+    "threads": 4
+  },
+  "generation": {
+    "families": 12,
+    "queries": "first query of each existing family",
+    "retrievers": [
+      "bm25",
+      "hybrid_rerank"
+    ],
+    "diagnostics": [
+      "reference",
+      "empty"
+    ],
+    "models": [
+      "qwen",
+      "smol"
+    ],
+    "seeds": [
+      23,
+      41
+    ],
+    "total_calls": 192,
+    "max_tokens": 128,
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "threads": 4,
+    "context": 2048,
+    "document_budget": 640,
+    "order_seed": 623,
+    "max_seconds": 3600,
+    "timeout_seconds": 90,
+    "prompt": "pilot with explicit bare citation ID convention; separate campaign, no replacement"
+  },
+  "update": {
+    "versions": [
+      "v1",
+      "v2"
+    ],
+    "crashes": [
+      "before_commit",
+      "after_commit"
+    ],
+    "reader_barrier_timeout": 20,
+    "generator": "extractive-v1; returns actual retrieved text, not a new LLM call"
+  },
+  "decision": "No semantic release; human review pending. Known authorial cases, no independent holdout.",
+  "planned_human_extension": 24,
+  "preserved_pilot": {
+    "l23_principal_v01": "95b5a7592912d006c1f8103b68c1b0ccc477539b701b8b35a96018c539c028b2",
+    "l23_citacoes_v01": "aea0fab82c51176253f2436efc3171140cf048f52b6c15e6abd1d0025b264545"
+  }
+}

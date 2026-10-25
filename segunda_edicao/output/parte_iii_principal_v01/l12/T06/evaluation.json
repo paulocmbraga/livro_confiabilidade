@@ -1,0 +1,15 @@
+{
+  "request": {
+    "case": "T06",
+    "judge": "exact-v1",
+    "text": "{\"prazo\":5}"
+  },
+  "response": {
+    "valid": true,
+    "correct": true,
+    "reason": "match",
+    "judge": "exact-v1",
+    "case": "T06",
+    "input_sha256": "dcfb4c863086550e34728a3a42ad9b0c5ea4a79531881b34a5c589f2de708157"
+  }
+}

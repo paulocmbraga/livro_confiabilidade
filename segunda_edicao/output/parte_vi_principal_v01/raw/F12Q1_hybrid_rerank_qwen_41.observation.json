@@ -1,0 +1,43 @@
+{
+  "id": "F12Q1_hybrid_rerank_qwen_41",
+  "query_id": "F12Q1",
+  "family": "F12",
+  "model": "qwen",
+  "seed": 41,
+  "variant": "hybrid_rerank",
+  "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+  "context": {
+    "text": "[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200. A última linha da tabela está ausente.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+    "ids": [
+      "BAG-T",
+      "HOT-E",
+      "NET-NEW"
+    ],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 175
+  },
+  "seconds": 2.779463400016539,
+  "parsed": {
+    "resposta": "A taxa de juros do financiamento de carro oferecido pela Horizonte é de 100% para viagens nacionais e 200% para internacionais. A última linha da tabela de bagagem está ausente.",
+    "citacoes": [
+      "BAG-T",
+      "HOT-E",
+      "NET-NEW"
+    ],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": null,
+    "source_loss_known": null,
+    "reference_evidence_available": null,
+    "abstention_matches_reference": true,
+    "answer_lexical_signal": false,
+    "citations_present": true,
+    "citation_ids_valid": true,
+    "citations_cover_required": false,
+    "automatic_contract_signal": true
+  }
+}

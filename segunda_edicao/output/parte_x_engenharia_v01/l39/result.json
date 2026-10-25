@@ -1,0 +1,21 @@
+{
+  "worker_exit": 23,
+  "unknown_receipt_count": 1,
+  "review_admitted": 3,
+  "review_rejected": 5,
+  "priority_first": "review2",
+  "early_return": 409,
+  "cancel_existing_receipt": 409,
+  "return_without_retest": 409,
+  "hold_persisted": true,
+  "final_effects": 2,
+  "detection_wall_seconds": 0.054111800040118396,
+  "containment_wall_seconds": 0.06487370003014803,
+  "automated_return_wall_seconds": 0.9867009000154212,
+  "human": {
+    "status": "pending",
+    "participants": 0,
+    "return_time_seconds": null
+  },
+  "limit": "Retorno automatizado da bancada; participantes e tempos humanos pendentes; sem perda do host."
+}

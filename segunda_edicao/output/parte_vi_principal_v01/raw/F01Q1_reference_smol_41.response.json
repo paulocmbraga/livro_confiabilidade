@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Porque a regra geral exige pedido com 30 dias de antecedência para férias, a regra geral exige pedido com 10 dias de antecedência para férias. Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência.\",\n  \"citacoes\": [\n    \"FER-G\",\n    \"verso 2026"
+      }
+    }
+  ],
+  "created": 1792879541,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 347,
+    "total_tokens": 475,
+    "prompt_tokens_details": {
+      "cached_tokens": 346
+    }
+  },
+  "id": "chatcmpl-m2QXZDuol26kMvreE0UArV8tK2Eak8Rb",
+  "timings": {
+    "cache_n": 346,
+    "prompt_n": 1,
+    "prompt_ms": 45.698,
+    "prompt_per_token_ms": 45.698,
+    "prompt_per_second": 21.882795745984506,
+    "predicted_n": 128,
+    "predicted_ms": 2595.23,
+    "predicted_per_token_ms": 20.43488188976378,
+    "predicted_per_second": 48.93593246070676
+  }
+}

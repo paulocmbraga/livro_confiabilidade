@@ -1,0 +1,83 @@
+{
+  "phase": "exploratory_post_primary",
+  "primary_manifest": "f7df1f6cf77d324ffba1c660e87c9ccf49cee2310d5325b0ebbf0afffa69db1e",
+  "reason": "Primeira posição domina os julgamentos principais. Distinguir contribuição do enum e formato.",
+  "selection": "F01Q1, primeiro par do desenho; mesmos textos e seed, sem seleção por acerto.",
+  "design": [
+    {
+      "id": "qwen_reverse_enum_AB",
+      "judge": "qwen",
+      "pair": "F01Q1",
+      "mode": "reverse_enum",
+      "order": "AB",
+      "repeat": 0,
+      "seed": 1101
+    },
+    {
+      "id": "qwen_reverse_enum_BA",
+      "judge": "qwen",
+      "pair": "F01Q1",
+      "mode": "reverse_enum",
+      "order": "BA",
+      "repeat": 0,
+      "seed": 1101
+    },
+    {
+      "id": "qwen_free_json_AB",
+      "judge": "qwen",
+      "pair": "F01Q1",
+      "mode": "free_json",
+      "order": "AB",
+      "repeat": 0,
+      "seed": 1101
+    },
+    {
+      "id": "qwen_free_json_BA",
+      "judge": "qwen",
+      "pair": "F01Q1",
+      "mode": "free_json",
+      "order": "BA",
+      "repeat": 0,
+      "seed": 1101
+    },
+    {
+      "id": "smol_reverse_enum_AB",
+      "judge": "smol",
+      "pair": "F01Q1",
+      "mode": "reverse_enum",
+      "order": "AB",
+      "repeat": 0,
+      "seed": 1101
+    },
+    {
+      "id": "smol_reverse_enum_BA",
+      "judge": "smol",
+      "pair": "F01Q1",
+      "mode": "reverse_enum",
+      "order": "BA",
+      "repeat": 0,
+      "seed": 1101
+    },
+    {
+      "id": "smol_free_json_AB",
+      "judge": "smol",
+      "pair": "F01Q1",
+      "mode": "free_json",
+      "order": "AB",
+      "repeat": 0,
+      "seed": 1101
+    },
+    {
+      "id": "smol_free_json_BA",
+      "judge": "smol",
+      "pair": "F01Q1",
+      "mode": "free_json",
+      "order": "BA",
+      "repeat": 0,
+      "seed": 1101
+    }
+  ],
+  "expected_calls": 8,
+  "not_independent_holdout": true,
+  "limits": "Um par. Enum e gramática não isolam todos os fatores; sem referência humana."
+}

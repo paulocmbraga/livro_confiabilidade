@@ -1,0 +1,33 @@
+{
+  "id": "F10Q1_reference_smol_41",
+  "query_id": "F10Q1",
+  "family": "F10",
+  "model": "smol",
+  "seed": 41,
+  "variant": "reference",
+  "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+  "context": {
+    "text": "[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200; deslocamento para trabalho de campo nacional com equipamento autorizado R$ 160.",
+    "ids": [
+      "BAG-T"
+    ],
+    "skipped": [],
+    "source_restored": true,
+    "tokens": 75
+  },
+  "seconds": 3.0126955000450835,
+  "parsed": null,
+  "error": "finish_reason não é stop",
+  "observed": {
+    "valid": false,
+    "all_required_delivered": true,
+    "source_loss_known": false,
+    "reference_evidence_available": true,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

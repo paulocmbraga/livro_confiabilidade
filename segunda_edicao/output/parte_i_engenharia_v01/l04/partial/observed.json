@@ -1,0 +1,162 @@
+{
+  "observer_pid": 11412,
+  "observed": 1792816590.2146204,
+  "data": {
+    "cases": [
+      {
+        "id": "C01",
+        "payload": "{\"id\": \"C01\", \"x\": 1}"
+      },
+      {
+        "id": "C02",
+        "payload": "{\"id\": \"C02\", \"x\": 2}"
+      },
+      {
+        "id": "C03",
+        "payload": "{\"id\": \"C03\", \"x\": 3}"
+      },
+      {
+        "id": "C04",
+        "payload": "{\"id\": \"C04\", \"x\": 4}"
+      },
+      {
+        "id": "C05",
+        "payload": "{\"id\": \"C05\", \"x\": \"invalid\"}"
+      },
+      {
+        "id": "C06",
+        "payload": "{\"id\": \"C06\", \"x\": 6}"
+      }
+    ],
+    "attempts": [
+      {
+        "id": "C01-a1",
+        "case_id": "C01",
+        "number": 1,
+        "admitted": 1792816589.656779
+      },
+      {
+        "id": "C02-a1",
+        "case_id": "C02",
+        "number": 1,
+        "admitted": 1792816589.666916
+      },
+      {
+        "id": "C03-a1",
+        "case_id": "C03",
+        "number": 1,
+        "admitted": 1792816589.6927273
+      },
+      {
+        "id": "C04-a1",
+        "case_id": "C04",
+        "number": 1,
+        "admitted": 1792816589.7176583
+      },
+      {
+        "id": "C05-a1",
+        "case_id": "C05",
+        "number": 1,
+        "admitted": 1792816589.7488725
+      },
+      {
+        "id": "C06-a1",
+        "case_id": "C06",
+        "number": 1,
+        "admitted": 1792816589.7683234
+      }
+    ],
+    "results": [
+      {
+        "attempt_id": "C01-a1",
+        "state": "success",
+        "raw": "attempts/C01-a1/raw.json",
+        "sha256": "76b987e02a873c092eacd8837fccf325705ad360402782f71498c26f21b470b4",
+        "ended": 1792816589.9854434
+      },
+      {
+        "attempt_id": "C04-a1",
+        "state": "success",
+        "raw": "attempts/C04-a1/raw.json",
+        "sha256": "596f0e84a3bd21939fac65fc2075e9749defc61c26b413e132f563a15fd61364",
+        "ended": 1792816589.9926355
+      },
+      {
+        "attempt_id": "C05-a1",
+        "state": "failed",
+        "raw": "attempts/C05-a1/raw.json",
+        "sha256": "69560d66f645c363c8afc8695db8fcd5e96d37ad02b90788d268069cec370bc9",
+        "ended": 1792816589.9975176
+      },
+      {
+        "attempt_id": "C06-a1",
+        "state": "success",
+        "raw": "attempts/C06-a1/raw.json",
+        "sha256": "445cbd6ab9ab438cc42fc570e784d975edf9a8df6abad676ec4318cca4657623",
+        "ended": 1792816589.9946358
+      }
+    ],
+    "events": [
+      {
+        "seq": 1,
+        "kind": "admit",
+        "attempt_id": "C01-a1",
+        "at": 1792816589.656779
+      },
+      {
+        "seq": 2,
+        "kind": "admit",
+        "attempt_id": "C02-a1",
+        "at": 1792816589.666916
+      },
+      {
+        "seq": 3,
+        "kind": "admit",
+        "attempt_id": "C03-a1",
+        "at": 1792816589.6927273
+      },
+      {
+        "seq": 4,
+        "kind": "admit",
+        "attempt_id": "C04-a1",
+        "at": 1792816589.7176583
+      },
+      {
+        "seq": 5,
+        "kind": "admit",
+        "attempt_id": "C05-a1",
+        "at": 1792816589.7488725
+      },
+      {
+        "seq": 6,
+        "kind": "admit",
+        "attempt_id": "C06-a1",
+        "at": 1792816589.7683234
+      },
+      {
+        "seq": 7,
+        "kind": "end",
+        "attempt_id": "C01-a1",
+        "at": 1792816589.9876084
+      },
+      {
+        "seq": 8,
+        "kind": "end",
+        "attempt_id": "C04-a1",
+        "at": 1792816589.9936345
+      },
+      {
+        "seq": 9,
+        "kind": "end",
+        "attempt_id": "C05-a1",
+        "at": 1792816589.9975176
+      },
+      {
+        "seq": 10,
+        "kind": "end",
+        "attempt_id": "C06-a1",
+        "at": 1792816590.01424
+      }
+    ]
+  }
+}

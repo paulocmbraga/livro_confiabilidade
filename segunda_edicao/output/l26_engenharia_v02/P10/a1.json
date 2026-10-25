@@ -1,0 +1,21 @@
+{
+  "job": "job1",
+  "attempt": "a1",
+  "mode": "execute",
+  "token": 1,
+  "pid": 8356,
+  "status": 200,
+  "reply": {
+    "action": "reserve",
+    "effect": "applied",
+    "effect_id": 1,
+    "hash": "ffbc597f9ca8ffc2eefed85aeb78f5610d2040f42d519aac5127f15a1533fb35",
+    "intent": "pedido-1",
+    "key": "chave-1",
+    "tenant": "horizonte"
+  },
+  "outcome": "confirmed",
+  "ledger_updated": true,
+  "seconds": 0.2677960000000894,
+  "error": null
+}

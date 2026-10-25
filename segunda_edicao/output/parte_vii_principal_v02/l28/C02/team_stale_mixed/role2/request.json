@@ -1,0 +1,44 @@
+{
+  "model": "l11-smol",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Você é auditor. Decida usando exclusivamente a política fornecida: aprovar se valor menor ou igual ao limite. Retorne approve booleano, limit inteiro e source idênticos à fonte. Não há exceções."
+    },
+    {
+      "role": "user",
+      "content": "{\"source\": \"stale-v1\", \"limit\": 200, \"amount\": 100}"
+    }
+  ],
+  "temperature": 0.2,
+  "top_p": 0.9,
+  "seed": 55,
+  "max_tokens": 96,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "decision",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "approve",
+          "limit",
+          "source"
+        ],
+        "properties": {
+          "approve": {
+            "type": "boolean"
+          },
+          "limit": {
+            "type": "integer"
+          },
+          "source": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

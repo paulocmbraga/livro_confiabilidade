@@ -1,0 +1,124 @@
+{
+  "id": "l20_doc2_clean_oracle",
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Extract the final total amount, in reais, from this representation. Return JSON {\"value\": number}. Do not sum subtotal and total. Representation: INVOICE 002 Subtotal 70.00 Tax 9.50 Total 79.50"
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "stream": true,
+    "cache_prompt": false,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "answer",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "value"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "configuration": {
+    "model": "l11-qwen",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "schema": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "value"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "config_sha256": "63e8d097bb7a9868169976dc240600e8c6f080407dffee5cba66ad386c9c631d",
+  "events": [
+    {
+      "seconds": 0.4449360000435263,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792871003,\"id\":\"chatcmpl-YTSVOgVbRFvDxNmYyMWIvuvxqcWr0HPe\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4450088000157848,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"{\\\"\"}}],\"created\":1792871003,\"id\":\"chatcmpl-YTSVOgVbRFvDxNmYyMWIvuvxqcWr0HPe\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4650731000583619,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"value\"}}],\"created\":1792871003,\"id\":\"chatcmpl-YTSVOgVbRFvDxNmYyMWIvuvxqcWr0HPe\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.48351620009634644,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"\\\":\"}}],\"created\":1792871003,\"id\":\"chatcmpl-YTSVOgVbRFvDxNmYyMWIvuvxqcWr0HPe\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5028834000695497,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" \"}}],\"created\":1792871003,\"id\":\"chatcmpl-YTSVOgVbRFvDxNmYyMWIvuvxqcWr0HPe\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5211204000515863,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"8\"}}],\"created\":1792871003,\"id\":\"chatcmpl-YTSVOgVbRFvDxNmYyMWIvuvxqcWr0HPe\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5366620999993756,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"9\"}}],\"created\":1792871003,\"id\":\"chatcmpl-YTSVOgVbRFvDxNmYyMWIvuvxqcWr0HPe\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5518622000236064,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\".\"}}],\"created\":1792871003,\"id\":\"chatcmpl-YTSVOgVbRFvDxNmYyMWIvuvxqcWr0HPe\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5673382000532001,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"5\"}}],\"created\":1792871003,\"id\":\"chatcmpl-YTSVOgVbRFvDxNmYyMWIvuvxqcWr0HPe\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5844985001021996,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"0\"}}],\"created\":1792871003,\"id\":\"chatcmpl-YTSVOgVbRFvDxNmYyMWIvuvxqcWr0HPe\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5994601000566036,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"}\"}}],\"created\":1792871003,\"id\":\"chatcmpl-YTSVOgVbRFvDxNmYyMWIvuvxqcWr0HPe\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.6140572000294924,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792871003,\"id\":\"chatcmpl-YTSVOgVbRFvDxNmYyMWIvuvxqcWr0HPe\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":84,\"prompt_ms\":441.64,\"prompt_per_token_ms\":5.257619047619047,\"prompt_per_second\":190.2001630287112,\"predicted_n\":11,\"predicted_ms\":169.222,\"predicted_per_token_ms\":16.9222,\"predicted_per_second\":59.0939712330548}}"
+    },
+    {
+      "seconds": 0.6141507000429556,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "{\"value\": 89.50}",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 10,
+  "ttft_seconds": 0.4450303000630811,
+  "seconds": 0.6143389000790194,
+  "injected_cut_after_content_events": null
+}

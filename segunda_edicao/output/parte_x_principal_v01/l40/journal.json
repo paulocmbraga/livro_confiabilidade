@@ -1,0 +1,199 @@
+[
+  {
+    "path": "/admit",
+    "data": {
+      "id": "committed",
+      "amount": 300
+    },
+    "status": 201,
+    "body": {
+      "id": "committed",
+      "state": "pending"
+    },
+    "started": 0.2586804999737069,
+    "ended": 0.2719410000136122
+  },
+  {
+    "path": "/admit",
+    "data": {
+      "id": "unsent",
+      "amount": 400
+    },
+    "status": 201,
+    "body": {
+      "id": "unsent",
+      "state": "pending"
+    },
+    "started": 0.2719444000395015,
+    "ended": 0.2896477000322193
+  },
+  {
+    "path": "/effect",
+    "data": {
+      "id": "committed",
+      "capability": "active"
+    },
+    "status": 201,
+    "body": {
+      "id": "committed",
+      "amount": 300
+    },
+    "started": 0.2896514000603929,
+    "ended": 0.3046104999957606
+  },
+  {
+    "path": "/drain",
+    "data": null,
+    "status": 200,
+    "body": {
+      "stage": "draining"
+    },
+    "started": 0.3046135000186041,
+    "ended": 0.30984370002988726
+  },
+  {
+    "path": "/admit",
+    "data": {
+      "id": "late",
+      "amount": 500
+    },
+    "status": 503,
+    "body": {
+      "reason": "draining_or_archived"
+    },
+    "started": 0.309847200056538,
+    "ended": 0.31501320004463196
+  },
+  {
+    "path": "/archive",
+    "data": {
+      "dependencies_closed": true
+    },
+    "status": 409,
+    "body": {
+      "reason": "obligations_open"
+    },
+    "started": 0.31501689995639026,
+    "ended": 0.32105270004831254
+  },
+  {
+    "path": "/resolve",
+    "data": {
+      "id": "committed"
+    },
+    "status": 200,
+    "body": {
+      "state": "done",
+      "evidence": "destination_receipt"
+    },
+    "started": 0.3210560999577865,
+    "ended": 0.3266813999507576
+  },
+  {
+    "path": "/resolve",
+    "data": {
+      "id": "unsent",
+      "decision": "cancel"
+    },
+    "status": 200,
+    "body": {
+      "state": "cancelled",
+      "evidence": "explicit_cancellation"
+    },
+    "started": 0.3266841999720782,
+    "ended": 0.3323864999692887
+  },
+  {
+    "path": "/archive",
+    "data": {
+      "dependencies_closed": false
+    },
+    "status": 409,
+    "body": {
+      "reason": "obligations_open"
+    },
+    "started": 0.33238979999441653,
+    "ended": 0.3388095999835059
+  },
+  {
+    "path": "/archive",
+    "data": {
+      "dependencies_closed": true
+    },
+    "status": 200,
+    "body": {
+      "stage": "archived",
+      "receipts": "readable"
+    },
+    "started": 0.3388138000154868,
+    "ended": 0.34465159999672323
+  },
+  {
+    "path": "/effect",
+    "data": {
+      "id": "committed",
+      "capability": "active"
+    },
+    "status": 423,
+    "body": {
+      "reason": "autonomy_disabled"
+    },
+    "started": 0.3446552000241354,
+    "ended": 0.34988270001485944
+  },
+  {
+    "path": "/read",
+    "data": {
+      "id": "committed",
+      "supported": [
+        1
+      ]
+    },
+    "status": 200,
+    "body": {
+      "id": "committed",
+      "amount": 300,
+      "schema": 1,
+      "state": "done",
+      "priority": 0
+    },
+    "started": 0.34988640004303306,
+    "ended": 0.3724237000569701
+  },
+  {
+    "path": "/state",
+    "data": null,
+    "status": 200,
+    "body": {
+      "config": {
+        "mode": "hold",
+        "stage": "archived",
+        "retest": "no"
+      },
+      "tasks": [
+        {
+          "id": "committed",
+          "amount": 300,
+          "schema": 1,
+          "state": "done",
+          "priority": 0
+        },
+        {
+          "id": "unsent",
+          "amount": 400,
+          "schema": 1,
+          "state": "cancelled",
+          "priority": 0
+        }
+      ],
+      "effects": [
+        {
+          "id": "committed",
+          "amount": 300
+        }
+      ]
+    },
+    "started": 0.3724268999649212,
+    "ended": 0.38999289995990694
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-24",
+  "mcp_protocol": "2026-07-28",
+  "a2a_protocol": "1.0",
+  "packages": {
+    "mcp": "2.3.0",
+    "a2a-sdk": "1.2.3",
+    "uvicorn": "0.54.0",
+    "starlette": "1.10.0",
+    "httpx": "0.28.1",
+    "httpx2": "2.16.0"
+  },
+  "scenarios": [
+    "MCP schema before/after",
+    "MCP SSE lost after effect",
+    "MCP reconciliation",
+    "wrong audience",
+    "A2A disconnect while working",
+    "A2A GetTask after completion",
+    "A2A frozen contract",
+    "HTTP callback duplicate/binding/order"
+  ],
+  "scope": "Loopback; static fixture credentials; no OAuth, TLS, native push, legacy session or production interoperability claim"
+}

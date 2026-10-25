@@ -1,0 +1,109 @@
+{
+  "l37": {
+    "tasks": 2400,
+    "trained_models": 2,
+    "first_quality_alarm": 53,
+    "quality_delay_cohorts": 13,
+    "quality_false_alarms_before_change": 0,
+    "sentinel_mismatch_cohorts": [
+      75,
+      80,
+      85
+    ],
+    "covariate_first": 20,
+    "covariate_shift_without_loss": {
+      "n": 400,
+      "bad": 0,
+      "error": 0.0
+    },
+    "population": {
+      "n": 500,
+      "bad": 163,
+      "error": 0.326
+    },
+    "selected_feedback": {
+      "n": 21,
+      "bad": 0,
+      "error": 0.0
+    },
+    "random_audit": {
+      "n": 129,
+      "bad": 48,
+      "error": 0.37209302325581395
+    },
+    "raw": {
+      "n": 2400,
+      "bad": 340,
+      "error": 0.14166666666666666
+    },
+    "exposed": {
+      "n": 1860,
+      "bad": 90,
+      "error": 0.04838709677419355
+    },
+    "errors_before_quality_containment": 87,
+    "reserve_error": 0.01,
+    "paired_improvements": 33,
+    "paired_regressions": 0,
+    "elapsed_wall_seconds": 0.1395584000274539,
+    "logical_cohorts": 120,
+    "limit": "Dados sintéticos; regra de alarme heurística, sem garantia sequencial; nenhum humano ou LLM."
+  },
+  "l38": {
+    "shadow_attempts": 20,
+    "shadow_denied": 20,
+    "shadow_effects": 0,
+    "paired_gate": {
+      "pass": false,
+      "bad": 1,
+      "critical_bad": 1,
+      "n": 20
+    },
+    "canary_exposed": 3,
+    "critical_errors": 1,
+    "candidate_after_stop": 0,
+    "synthetic_effects": 20,
+    "open_migration_status": 409,
+    "unsafe_copy_reader_status": 409,
+    "binary_rollback_status": 409,
+    "compatible_reader_status": 200,
+    "preserved_amount_cents": 100,
+    "wall_seconds": 4.265099799958989,
+    "limit": "Canário negativo após gate reprovado apenas para medir contenção no sandbox."
+  },
+  "l39": {
+    "worker_exit": 23,
+    "unknown_receipt_count": 1,
+    "review_admitted": 3,
+    "review_rejected": 5,
+    "priority_first": "review2",
+    "early_return": 409,
+    "cancel_existing_receipt": 409,
+    "return_without_retest": 409,
+    "hold_persisted": true,
+    "final_effects": 2,
+    "detection_wall_seconds": 0.07999650004785508,
+    "containment_wall_seconds": 0.10180850001052022,
+    "automated_return_wall_seconds": 0.9662338000489399,
+    "human": {
+      "status": "pending",
+      "participants": 0,
+      "return_time_seconds": null
+    },
+    "limit": "Retorno automatizado da bancada; participantes e tempos humanos pendentes; sem perda do host."
+  },
+  "l40": {
+    "evidence_cases": 12,
+    "supported": 1,
+    "rejected": 11,
+    "premature_archive": 409,
+    "unresolved_dependency": 409,
+    "late_admission": 503,
+    "archived_write": 423,
+    "receipt_readable": 200,
+    "final_effects": 1,
+    "open_tasks": 0,
+    "wall_seconds": 0.4323611999861896,
+    "limit": "Dependencies_closed é declaração do controlador; sem assinatura, auditor independente ou custódia externa."
+  }
+}

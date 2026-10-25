@@ -1,0 +1,35 @@
+{
+  "id": "F06Q1_empty_qwen_41",
+  "query_id": "F06Q1",
+  "family": "F06",
+  "model": "qwen",
+  "seed": 41,
+  "variant": "empty",
+  "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 0.9776894000824541,
+  "parsed": {
+    "resposta": "Não há informações sobre circulares A e B que possam fornecer dados sobre dias de trabalho remoto autorizados.",
+    "citacoes": [],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": false,
+    "source_loss_known": false,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": true,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": true,
+    "citations_cover_required": false,
+    "automatic_contract_signal": true
+  }
+}

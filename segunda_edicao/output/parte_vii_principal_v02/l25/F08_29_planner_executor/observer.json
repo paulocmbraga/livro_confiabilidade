@@ -1,0 +1,58 @@
+{
+  "version": 0,
+  "stock": {
+    "A": 5,
+    "B": 5
+  },
+  "prices": {
+    "A": 25,
+    "B": 8
+  },
+  "reads": 1,
+  "effects": [],
+  "audit": [
+    {
+      "proposal": {
+        "action": "inspect",
+        "item": "A",
+        "quantity": 1,
+        "version": -1
+      },
+      "response": {
+        "version": 0,
+        "stock": {
+          "A": 5,
+          "B": 5
+        },
+        "prices": {
+          "A": 25,
+          "B": 8
+        }
+      }
+    },
+    {
+      "proposal": {
+        "action": "reserve",
+        "item": "A",
+        "quantity": 1,
+        "version": 0
+      },
+      "response": {
+        "error": "ceiling",
+        "version": 0
+      }
+    },
+    {
+      "proposal": {
+        "action": "reserve",
+        "item": "A",
+        "quantity": 1,
+        "version": 0
+      },
+      "response": {
+        "error": "ceiling",
+        "version": 0
+      }
+    }
+  ]
+}

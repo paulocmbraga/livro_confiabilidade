@@ -1,0 +1,184 @@
+{
+  "destination": {
+    "stock": [
+      {
+        "id": "peca-A",
+        "available": 10,
+        "version": 2
+      }
+    ],
+    "effects": [
+      {
+        "id": 1,
+        "tenant": "horizonte",
+        "intent": "pedido-1",
+        "action": "reserve",
+        "quantity": 2,
+        "original": null,
+        "reversible": true,
+        "created": "2026-10-24 03:16:03.024130+00:00"
+      },
+      {
+        "id": 2,
+        "tenant": "horizonte",
+        "intent": "compensacao-1",
+        "action": "release",
+        "quantity": 2,
+        "original": 1,
+        "reversible": true,
+        "created": "2026-10-24 03:16:04.552474+00:00"
+      }
+    ],
+    "receipts": [
+      {
+        "tenant": "horizonte",
+        "key": "chave-1",
+        "hash": "585ad8a88290add7ca9b6def0f1643a4c7c3d198bb848942ba015d20778929d8",
+        "expires": "2026-10-24 03:21:03.018686+00:00",
+        "body": {
+          "key": "chave-1",
+          "hash": "585ad8a88290add7ca9b6def0f1643a4c7c3d198bb848942ba015d20778929d8",
+          "action": "reserve",
+          "effect": "applied",
+          "intent": "pedido-1",
+          "tenant": "horizonte",
+          "effect_id": 1
+        }
+      },
+      {
+        "tenant": "horizonte",
+        "key": "chave-comp",
+        "hash": "86c2b1fda796af62f662ab544f417e0d1356cf531b83ecb23c722ebb2c7f190f",
+        "expires": "2026-10-24 03:21:04.537517+00:00",
+        "body": {
+          "key": "chave-comp",
+          "hash": "86c2b1fda796af62f662ab544f417e0d1356cf531b83ecb23c722ebb2c7f190f",
+          "action": "release",
+          "effect": "applied",
+          "intent": "compensacao-1",
+          "tenant": "horizonte",
+          "effect_id": 2
+        }
+      }
+    ],
+    "fences": [
+      {
+        "tenant": "horizonte",
+        "intent": "pedido-1",
+        "token": 1
+      },
+      {
+        "tenant": "horizonte",
+        "intent": "compensacao-1",
+        "token": 1
+      }
+    ],
+    "approvals": [
+      {
+        "hash": "585ad8a88290add7ca9b6def0f1643a4c7c3d198bb848942ba015d20778929d8",
+        "enabled": true,
+        "expires": "2026-10-24 03:21:01.753739+00:00"
+      },
+      {
+        "hash": "86c2b1fda796af62f662ab544f417e0d1356cf531b83ecb23c722ebb2c7f190f",
+        "enabled": true,
+        "expires": "2026-10-24 03:21:03.231617+00:00"
+      }
+    ]
+  },
+  "client": {
+    "jobs": [
+      {
+        "id": "job1",
+        "request": {
+          "key": "chave-1",
+          "action": "reserve",
+          "intent": "pedido-1",
+          "tenant": "horizonte",
+          "original": null,
+          "quantity": 2,
+          "resource": "peca-A",
+          "expires_at": 1792812061.753739,
+          "expected_version": 0
+        },
+        "state": "confirmed",
+        "receipt": {
+          "key": "chave-1",
+          "hash": "585ad8a88290add7ca9b6def0f1643a4c7c3d198bb848942ba015d20778929d8",
+          "action": "reserve",
+          "effect": "applied",
+          "intent": "pedido-1",
+          "tenant": "horizonte",
+          "effect_id": 1
+        },
+        "token": 1,
+        "lease_until": null,
+        "updated": "2026-10-24 03:16:03.079570+00:00"
+      },
+      {
+        "id": "job2",
+        "request": {
+          "key": "chave-comp",
+          "action": "release",
+          "intent": "compensacao-1",
+          "tenant": "horizonte",
+          "original": 1,
+          "quantity": 2,
+          "resource": "peca-A",
+          "expires_at": 1792812063.231617,
+          "expected_version": 0
+        },
+        "state": "unknown",
+        "receipt": null,
+        "token": 2,
+        "lease_until": null,
+        "updated": "2026-10-24 03:16:05.708024+00:00"
+      }
+    ],
+    "outbox": [
+      {
+        "id": "job1",
+        "pending": false
+      },
+      {
+        "id": "job2",
+        "pending": true
+      }
+    ],
+    "attempts": [
+      {
+        "id": "a1",
+        "job": "job1",
+        "mode": "execute",
+        "token": 1,
+        "started": "2026-10-24 03:16:02.909569+00:00",
+        "ended": "2026-10-24 03:16:03.082426+00:00",
+        "outcome": "confirmed"
+      },
+      {
+        "id": "a2",
+        "job": "job2",
+        "mode": "execute",
+        "token": 1,
+        "started": "2026-10-24 03:16:04.400357+00:00",
+        "ended": "2026-10-24 03:16:04.629234+00:00",
+        "outcome": "unknown"
+      },
+      {
+        "id": "a3",
+        "job": "job2",
+        "mode": "lookup",
+        "token": 2,
+        "started": "2026-10-24 03:16:05.601944+00:00",
+        "ended": "2026-10-24 03:16:05.709161+00:00",
+        "outcome": "unknown"
+      }
+    ],
+    "control": [
+      {
+        "id": 1,
+        "admission": true
+      }
+    ]
+  }
+}

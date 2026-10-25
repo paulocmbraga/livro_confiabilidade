@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{ \"resposta\": \"Não há necessidade de aprovar. Você pode aproveitar as horas extras para um dia de descanso.\", \"citacoes\": [], \"abster\": true }"
+      }
+    }
+  ],
+  "created": 1792879145,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 173,
+    "total_tokens": 217,
+    "prompt_tokens_details": {
+      "cached_tokens": 162
+    }
+  },
+  "id": "chatcmpl-m9GpFuOR6pjB5I7T3V37aN7jSrzTMHNj",
+  "timings": {
+    "cache_n": 162,
+    "prompt_n": 11,
+    "prompt_ms": 140.898,
+    "prompt_per_token_ms": 12.80890909090909,
+    "prompt_per_second": 78.07066104557907,
+    "predicted_n": 44,
+    "predicted_ms": 864.586,
+    "predicted_per_token_ms": 20.106651162790698,
+    "predicted_per_second": 49.73478636017701
+  }
+}

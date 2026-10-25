@@ -1,0 +1,237 @@
+{
+  "schema": 1,
+  "date": "2026-10-24",
+  "threads": 4,
+  "context": 4096,
+  "tasks25": [
+    {
+      "allowed": [
+        "A"
+      ],
+      "quantity": 2,
+      "ceiling": 30,
+      "stock": {
+        "A": 5,
+        "B": 5
+      },
+      "prices": {
+        "A": 10,
+        "B": 8
+      },
+      "id": "F01"
+    },
+    {
+      "allowed": [
+        "A",
+        "B"
+      ],
+      "quantity": 2,
+      "ceiling": 30,
+      "stock": {
+        "A": 0,
+        "B": 3
+      },
+      "prices": {
+        "A": 10,
+        "B": 8
+      },
+      "id": "F02"
+    },
+    {
+      "allowed": [
+        "A"
+      ],
+      "quantity": 2,
+      "ceiling": 15,
+      "stock": {
+        "A": 5,
+        "B": 5
+      },
+      "prices": {
+        "A": 10,
+        "B": 8
+      },
+      "id": "F03"
+    },
+    {
+      "allowed": [
+        "A",
+        "B"
+      ],
+      "quantity": 3,
+      "ceiling": 30,
+      "stock": {
+        "A": 1,
+        "B": 1
+      },
+      "prices": {
+        "A": 10,
+        "B": 8
+      },
+      "id": "F04"
+    },
+    {
+      "allowed": [
+        "A",
+        "B"
+      ],
+      "quantity": 2,
+      "ceiling": 30,
+      "stock": {
+        "A": 5,
+        "B": 5
+      },
+      "prices": {
+        "A": 10,
+        "B": 8
+      },
+      "change_after_read": true,
+      "id": "F05"
+    },
+    {
+      "allowed": [
+        "A"
+      ],
+      "quantity": 2,
+      "ceiling": 30,
+      "stock": {
+        "A": 0,
+        "B": 5
+      },
+      "prices": {
+        "A": 10,
+        "B": 8
+      },
+      "id": "F06"
+    },
+    {
+      "allowed": [
+        "A"
+      ],
+      "quantity": 2,
+      "ceiling": 30,
+      "stock": {
+        "A": 5,
+        "B": 5
+      },
+      "prices": {
+        "A": 10,
+        "B": 8
+      },
+      "already": true,
+      "id": "F07"
+    },
+    {
+      "allowed": [
+        "A",
+        "B"
+      ],
+      "quantity": 1,
+      "ceiling": 10,
+      "stock": {
+        "A": 5,
+        "B": 5
+      },
+      "prices": {
+        "A": 25,
+        "B": 8
+      },
+      "id": "F08"
+    }
+  ],
+  "seeds25": [
+    17,
+    29
+  ],
+  "architectures25": [
+    "workflow",
+    "single",
+    "planner_executor"
+  ],
+  "cases28": [
+    {
+      "id": "C01",
+      "amount": 70,
+      "current": 100,
+      "stale": 200,
+      "split": "development",
+      "expected": true
+    },
+    {
+      "id": "C02",
+      "amount": 100,
+      "current": 100,
+      "stale": 200,
+      "split": "development",
+      "expected": true
+    },
+    {
+      "id": "C03",
+      "amount": 101,
+      "current": 100,
+      "stale": 200,
+      "split": "development",
+      "expected": false
+    },
+    {
+      "id": "C04",
+      "amount": 180,
+      "current": 100,
+      "stale": 200,
+      "split": "development",
+      "expected": false
+    },
+    {
+      "id": "C05",
+      "amount": 30,
+      "current": 50,
+      "stale": 100,
+      "split": "development",
+      "expected": true
+    },
+    {
+      "id": "C06",
+      "amount": 90,
+      "current": 50,
+      "stale": 100,
+      "split": "development",
+      "expected": false
+    },
+    {
+      "id": "C07",
+      "amount": 61,
+      "current": 60,
+      "stale": 120,
+      "split": "reserve",
+      "expected": false
+    },
+    {
+      "id": "C08",
+      "amount": 120,
+      "current": 120,
+      "stale": 60,
+      "split": "reserve",
+      "expected": true
+    }
+  ],
+  "seed28": 53,
+  "conditions28": [
+    "single_current",
+    "team_current",
+    "single_stale",
+    "team_stale_same",
+    "team_stale_mixed",
+    "team_sources_mixed"
+  ],
+  "output_budget25": 512,
+  "output_budget28": 288,
+  "criteria": "success uses destination; L28 correct boolean against separate current policy",
+  "reservations": "Cases C07/C08 are reserved from prompt adjustment, not a blinded independent evaluation",
+  "limits": [
+    "small synthetic fixture set",
+    "two small quantized models",
+    "no human semantic assessment",
+    "no production throughput",
+    "no monetary effects"
+  ]
+}

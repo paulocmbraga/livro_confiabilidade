@@ -1,0 +1,75 @@
+[
+  {
+    "name": "spawn",
+    "time_ns": 1792811722675407200,
+    "role": "server",
+    "pid": 388,
+    "options": {
+      "fault": "hold_commit"
+    }
+  },
+  {
+    "name": "spawn",
+    "time_ns": 1792811723191029200,
+    "role": "worker",
+    "pid": 5776,
+    "options": {
+      "attempt": "a1",
+      "job": "job1",
+      "port": 64434,
+      "mode": "execute",
+      "fault": "none",
+      "bypass": true
+    }
+  },
+  {
+    "name": "spawn",
+    "time_ns": 1792811723727765400,
+    "role": "worker",
+    "pid": 7176,
+    "options": {
+      "attempt": "a2",
+      "job": "job1",
+      "port": 64434,
+      "mode": "execute",
+      "fault": "none",
+      "bypass": true
+    }
+  },
+  {
+    "name": "database_block_observed",
+    "time_ns": 1792811724314840700,
+    "pids": [
+      5776,
+      7176
+    ],
+    "rows": [
+      {
+        "pid": 433,
+        "application_name": "l26-dest-chave-1",
+        "state": "active",
+        "wait_event_type": "Lock",
+        "blockers": [
+          422
+        ]
+      }
+    ]
+  },
+  {
+    "name": "worker_exit",
+    "time_ns": 1792811724487394300,
+    "pid": 5776,
+    "code": 0
+  },
+  {
+    "name": "worker_exit",
+    "time_ns": 1792811724525456600,
+    "pid": 7176,
+    "code": 0
+  },
+  {
+    "name": "episode_complete",
+    "time_ns": 1792811724605922100,
+    "seconds": 2.180383300059475
+  }
+]

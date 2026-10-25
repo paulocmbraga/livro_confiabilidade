@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Porque você quer ajudar a crescer e a seguir em seu futuro, você pode fazer isso com a cadeia de férias. Para que você pode ajudar a crescer, você deve fazer a cadeia de férias. Para que você pode seguir em seu futuro, você deve fazer a cadeia de férias. Você pode ajudar a crescer e a se"
+      }
+    }
+  ],
+  "created": 1792879521,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 226,
+    "total_tokens": 354,
+    "prompt_tokens_details": {
+      "cached_tokens": 209
+    }
+  },
+  "id": "chatcmpl-lusxAs3blRnduK9vuJaFDiizizHmt8aH",
+  "timings": {
+    "cache_n": 209,
+    "prompt_n": 17,
+    "prompt_ms": 140.0,
+    "prompt_per_token_ms": 8.235294117647058,
+    "prompt_per_second": 121.42857142857143,
+    "predicted_n": 128,
+    "predicted_ms": 2261.94,
+    "predicted_per_token_ms": 17.810551181102362,
+    "predicted_per_second": 56.14649371778208
+  }
+}

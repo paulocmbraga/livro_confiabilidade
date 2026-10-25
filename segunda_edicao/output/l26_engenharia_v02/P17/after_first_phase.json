@@ -1,0 +1,95 @@
+{
+  "destination": {
+    "stock": [
+      {
+        "id": "peca-A",
+        "available": 10,
+        "version": 0
+      }
+    ],
+    "effects": [],
+    "receipts": [
+      {
+        "tenant": "horizonte",
+        "key": "chave-1",
+        "hash": "9740c25a1621d0044556624238a3d89bd2a1f7349438626da052655984967498",
+        "expires": "2026-10-24 03:18:13.461121+00:00",
+        "body": {
+          "key": "chave-1",
+          "hash": "9740c25a1621d0044556624238a3d89bd2a1f7349438626da052655984967498",
+          "effect": "not_applied",
+          "intent": "pedido-1",
+          "reason": "insufficient_stock",
+          "tenant": "horizonte"
+        }
+      }
+    ],
+    "fences": [
+      {
+        "tenant": "horizonte",
+        "intent": "pedido-1",
+        "token": 1
+      }
+    ],
+    "approvals": [
+      {
+        "hash": "9740c25a1621d0044556624238a3d89bd2a1f7349438626da052655984967498",
+        "enabled": true,
+        "expires": "2026-10-24 03:18:12.082816+00:00"
+      }
+    ]
+  },
+  "client": {
+    "jobs": [
+      {
+        "id": "job1",
+        "request": {
+          "key": "chave-1",
+          "action": "reserve",
+          "intent": "pedido-1",
+          "tenant": "horizonte",
+          "original": null,
+          "quantity": 20,
+          "resource": "peca-A",
+          "expires_at": 1792811892.082816,
+          "expected_version": 0
+        },
+        "state": "rejected",
+        "receipt": {
+          "key": "chave-1",
+          "hash": "9740c25a1621d0044556624238a3d89bd2a1f7349438626da052655984967498",
+          "effect": "not_applied",
+          "intent": "pedido-1",
+          "reason": "insufficient_stock",
+          "tenant": "horizonte"
+        },
+        "token": 1,
+        "lease_until": null,
+        "updated": "2026-10-24 03:13:13.533223+00:00"
+      }
+    ],
+    "outbox": [
+      {
+        "id": "job1",
+        "pending": false
+      }
+    ],
+    "attempts": [
+      {
+        "id": "a1",
+        "job": "job1",
+        "mode": "execute",
+        "token": 1,
+        "started": "2026-10-24 03:13:13.289025+00:00",
+        "ended": "2026-10-24 03:13:13.535512+00:00",
+        "outcome": "rejected"
+      }
+    ],
+    "control": [
+      {
+        "id": 1,
+        "admission": true
+      }
+    ]
+  }
+}

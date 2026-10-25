@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Porque a regra geral exige pedido com 30 dias de antecedência, a partir de outubro de 2026, a prestação de contas de passagens podem ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.\",\"citacoes\": [\n  ],\"abster\": true}"
+      }
+    }
+  ],
+  "created": 1792879499,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 417,
+    "total_tokens": 519,
+    "prompt_tokens_details": {
+      "cached_tokens": 344
+    }
+  },
+  "id": "chatcmpl-jAw4nuvotG509JyK20W7BxrSwbNGiZPY",
+  "timings": {
+    "cache_n": 344,
+    "prompt_n": 73,
+    "prompt_ms": 489.49,
+    "prompt_per_token_ms": 6.705342465753425,
+    "prompt_per_second": 149.13481378577703,
+    "predicted_n": 102,
+    "predicted_ms": 1991.821,
+    "predicted_per_token_ms": 19.721,
+    "predicted_per_second": 50.70736778053852
+  }
+}

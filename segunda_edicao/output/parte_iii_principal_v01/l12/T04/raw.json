@@ -1,0 +1,78 @@
+{
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extraia o prazo do documento. Responda somente JSON com a chave prazo e um inteiro. Não invente valores."
+      },
+      {
+        "role": "user",
+        "content": "Documento D04. O prazo desta tarefa é 15 dias.\nQual é o prazo em dias?"
+      }
+    ],
+    "temperature": 0,
+    "seed": 1204,
+    "max_tokens": 48,
+    "stream": false,
+    "cache_prompt": false,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "deadline",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "prazo": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "prazo"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"prazo\": 15}"
+        }
+      }
+    ],
+    "created": 1792822981,
+    "model": "l11-qwen",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 9,
+      "prompt_tokens": 67,
+      "total_tokens": 76,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-kHIUfoerrWHeyuLMwFvX8BOoTi1xUqka",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 67,
+      "prompt_ms": 428.077,
+      "prompt_per_token_ms": 6.38920895522388,
+      "prompt_per_second": 156.51389820055738,
+      "predicted_n": 9,
+      "predicted_ms": 120.275,
+      "predicted_per_token_ms": 15.034375,
+      "predicted_per_second": 66.51423820411557
+    }
+  },
+  "error": null,
+  "seconds": 0.5860496000386775,
+  "pid": 17368
+}

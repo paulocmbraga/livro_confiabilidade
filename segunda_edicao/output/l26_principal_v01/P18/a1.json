@@ -1,0 +1,20 @@
+{
+  "job": "job1",
+  "attempt": "a1",
+  "mode": "execute",
+  "token": 1,
+  "pid": 14376,
+  "status": 409,
+  "reply": {
+    "effect": "not_applied",
+    "hash": "f137efa22057933e782756bdf32357f2a19cd45520bf51d6f4b6eab2b9b51955",
+    "intent": "pedido-1",
+    "key": "chave-1",
+    "reason": "approval_denied",
+    "tenant": "horizonte"
+  },
+  "outcome": "rejected",
+  "ledger_updated": true,
+  "seconds": 0.2565269999904558,
+  "error": null
+}

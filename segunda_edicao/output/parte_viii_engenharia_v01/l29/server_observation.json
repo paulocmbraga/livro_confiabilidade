@@ -1,0 +1,517 @@
+{
+  "layered_always503": {
+    "calls": 27,
+    "effects": [],
+    "events": [
+      {
+        "n": 1,
+        "at": 870868.843,
+        "fault": "always503"
+      },
+      {
+        "n": 2,
+        "at": 870868.843,
+        "fault": "always503"
+      },
+      {
+        "n": 3,
+        "at": 870868.859,
+        "fault": "always503"
+      },
+      {
+        "n": 4,
+        "at": 870868.875,
+        "fault": "always503"
+      },
+      {
+        "n": 5,
+        "at": 870868.875,
+        "fault": "always503"
+      },
+      {
+        "n": 6,
+        "at": 870868.875,
+        "fault": "always503"
+      },
+      {
+        "n": 7,
+        "at": 870868.875,
+        "fault": "always503"
+      },
+      {
+        "n": 8,
+        "at": 870868.89,
+        "fault": "always503"
+      },
+      {
+        "n": 9,
+        "at": 870868.906,
+        "fault": "always503"
+      },
+      {
+        "n": 10,
+        "at": 870868.906,
+        "fault": "always503"
+      },
+      {
+        "n": 11,
+        "at": 870868.906,
+        "fault": "always503"
+      },
+      {
+        "n": 12,
+        "at": 870868.906,
+        "fault": "always503"
+      },
+      {
+        "n": 13,
+        "at": 870868.906,
+        "fault": "always503"
+      },
+      {
+        "n": 14,
+        "at": 870868.906,
+        "fault": "always503"
+      },
+      {
+        "n": 15,
+        "at": 870868.906,
+        "fault": "always503"
+      },
+      {
+        "n": 16,
+        "at": 870868.937,
+        "fault": "always503"
+      },
+      {
+        "n": 17,
+        "at": 870868.953,
+        "fault": "always503"
+      },
+      {
+        "n": 18,
+        "at": 870868.953,
+        "fault": "always503"
+      },
+      {
+        "n": 19,
+        "at": 870868.953,
+        "fault": "always503"
+      },
+      {
+        "n": 20,
+        "at": 870868.953,
+        "fault": "always503"
+      },
+      {
+        "n": 21,
+        "at": 870868.953,
+        "fault": "always503"
+      },
+      {
+        "n": 22,
+        "at": 870868.968,
+        "fault": "always503"
+      },
+      {
+        "n": 23,
+        "at": 870868.968,
+        "fault": "always503"
+      },
+      {
+        "n": 24,
+        "at": 870868.968,
+        "fault": "always503"
+      },
+      {
+        "n": 25,
+        "at": 870868.984,
+        "fault": "always503"
+      },
+      {
+        "n": 26,
+        "at": 870868.984,
+        "fault": "always503"
+      },
+      {
+        "n": 27,
+        "at": 870869.0,
+        "fault": "always503"
+      }
+    ]
+  },
+  "layered_transient503": {
+    "calls": 3,
+    "effects": [
+      "layered_transient503"
+    ],
+    "events": [
+      {
+        "n": 1,
+        "at": 870869.0,
+        "fault": "transient503"
+      },
+      {
+        "n": 2,
+        "at": 870869.0,
+        "fault": "transient503"
+      },
+      {
+        "n": 3,
+        "at": 870869.0,
+        "fault": "transient503"
+      }
+    ]
+  },
+  "layered_rate": {
+    "calls": 3,
+    "effects": [
+      "layered_rate"
+    ],
+    "events": [
+      {
+        "n": 1,
+        "at": 870869.015,
+        "fault": "rate"
+      },
+      {
+        "n": 2,
+        "at": 870869.015,
+        "fault": "rate"
+      },
+      {
+        "n": 3,
+        "at": 870869.015,
+        "fault": "rate"
+      }
+    ]
+  },
+  "layered_reject": {
+    "calls": 27,
+    "effects": [],
+    "events": [
+      {
+        "n": 1,
+        "at": 870869.015,
+        "fault": "reject"
+      },
+      {
+        "n": 2,
+        "at": 870869.015,
+        "fault": "reject"
+      },
+      {
+        "n": 3,
+        "at": 870869.015,
+        "fault": "reject"
+      },
+      {
+        "n": 4,
+        "at": 870869.031,
+        "fault": "reject"
+      },
+      {
+        "n": 5,
+        "at": 870869.046,
+        "fault": "reject"
+      },
+      {
+        "n": 6,
+        "at": 870869.046,
+        "fault": "reject"
+      },
+      {
+        "n": 7,
+        "at": 870869.046,
+        "fault": "reject"
+      },
+      {
+        "n": 8,
+        "at": 870869.062,
+        "fault": "reject"
+      },
+      {
+        "n": 9,
+        "at": 870869.078,
+        "fault": "reject"
+      },
+      {
+        "n": 10,
+        "at": 870869.093,
+        "fault": "reject"
+      },
+      {
+        "n": 11,
+        "at": 870869.109,
+        "fault": "reject"
+      },
+      {
+        "n": 12,
+        "at": 870869.109,
+        "fault": "reject"
+      },
+      {
+        "n": 13,
+        "at": 870869.109,
+        "fault": "reject"
+      },
+      {
+        "n": 14,
+        "at": 870869.109,
+        "fault": "reject"
+      },
+      {
+        "n": 15,
+        "at": 870869.109,
+        "fault": "reject"
+      },
+      {
+        "n": 16,
+        "at": 870869.109,
+        "fault": "reject"
+      },
+      {
+        "n": 17,
+        "at": 870869.109,
+        "fault": "reject"
+      },
+      {
+        "n": 18,
+        "at": 870869.109,
+        "fault": "reject"
+      },
+      {
+        "n": 19,
+        "at": 870869.109,
+        "fault": "reject"
+      },
+      {
+        "n": 20,
+        "at": 870869.109,
+        "fault": "reject"
+      },
+      {
+        "n": 21,
+        "at": 870869.109,
+        "fault": "reject"
+      },
+      {
+        "n": 22,
+        "at": 870869.109,
+        "fault": "reject"
+      },
+      {
+        "n": 23,
+        "at": 870869.109,
+        "fault": "reject"
+      },
+      {
+        "n": 24,
+        "at": 870869.109,
+        "fault": "reject"
+      },
+      {
+        "n": 25,
+        "at": 870869.14,
+        "fault": "reject"
+      },
+      {
+        "n": 26,
+        "at": 870869.14,
+        "fault": "reject"
+      },
+      {
+        "n": 27,
+        "at": 870869.14,
+        "fault": "reject"
+      }
+    ]
+  },
+  "layered_drop_after": {
+    "calls": 2,
+    "effects": [
+      "layered_drop_after"
+    ],
+    "events": [
+      {
+        "n": 1,
+        "at": 870869.14,
+        "fault": "drop_after"
+      },
+      {
+        "n": 2,
+        "at": 870869.156,
+        "fault": "drop_after"
+      }
+    ]
+  },
+  "layered_delay_after": {
+    "calls": 2,
+    "effects": [
+      "layered_delay_after"
+    ],
+    "events": [
+      {
+        "n": 1,
+        "at": 870869.171,
+        "fault": "delay_after"
+      },
+      {
+        "n": 2,
+        "at": 870869.25,
+        "fault": "delay_after"
+      }
+    ]
+  },
+  "budget_always503": {
+    "calls": 3,
+    "effects": [],
+    "events": [
+      {
+        "n": 1,
+        "at": 870869.281,
+        "fault": "always503"
+      },
+      {
+        "n": 2,
+        "at": 870869.296,
+        "fault": "always503"
+      },
+      {
+        "n": 3,
+        "at": 870869.328,
+        "fault": "always503"
+      }
+    ]
+  },
+  "budget_transient503": {
+    "calls": 3,
+    "effects": [
+      "budget_transient503"
+    ],
+    "events": [
+      {
+        "n": 1,
+        "at": 870869.343,
+        "fault": "transient503"
+      },
+      {
+        "n": 2,
+        "at": 870869.375,
+        "fault": "transient503"
+      },
+      {
+        "n": 3,
+        "at": 870869.406,
+        "fault": "transient503"
+      }
+    ]
+  },
+  "budget_rate": {
+    "calls": 3,
+    "effects": [
+      "budget_rate"
+    ],
+    "events": [
+      {
+        "n": 1,
+        "at": 870869.421,
+        "fault": "rate"
+      },
+      {
+        "n": 2,
+        "at": 870869.484,
+        "fault": "rate"
+      },
+      {
+        "n": 3,
+        "at": 870869.531,
+        "fault": "rate"
+      }
+    ]
+  },
+  "budget_reject": {
+    "calls": 1,
+    "effects": [],
+    "events": [
+      {
+        "n": 1,
+        "at": 870869.531,
+        "fault": "reject"
+      }
+    ]
+  },
+  "budget_drop_after": {
+    "calls": 2,
+    "effects": [
+      "budget_drop_after"
+    ],
+    "events": [
+      {
+        "n": 1,
+        "at": 870869.531,
+        "fault": "drop_after"
+      },
+      {
+        "n": 2,
+        "at": 870869.531,
+        "fault": "drop_after"
+      }
+    ]
+  },
+  "budget_delay_after": {
+    "calls": 2,
+    "effects": [
+      "budget_delay_after"
+    ],
+    "events": [
+      {
+        "n": 1,
+        "at": 870869.546,
+        "fault": "delay_after"
+      },
+      {
+        "n": 2,
+        "at": 870869.64,
+        "fault": "delay_after"
+      }
+    ]
+  },
+  "hedge": {
+    "calls": 2,
+    "effects": [],
+    "events": [
+      {
+        "n": 1,
+        "at": 870869.671,
+        "fault": "read"
+      },
+      {
+        "n": 2,
+        "at": 870869.687,
+        "fault": "read"
+      }
+    ]
+  },
+  "breaker": {
+    "calls": 3,
+    "effects": [],
+    "events": [
+      {
+        "n": 1,
+        "at": 870869.796,
+        "fault": "always503"
+      },
+      {
+        "n": 2,
+        "at": 870869.812,
+        "fault": "always503"
+      },
+      {
+        "n": 3,
+        "at": 870869.875,
+        "fault": "read"
+      }
+    ]
+  }
+}

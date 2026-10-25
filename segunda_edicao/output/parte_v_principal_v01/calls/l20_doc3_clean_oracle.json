@@ -1,0 +1,128 @@
+{
+  "id": "l20_doc3_clean_oracle",
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Extract the final total amount, in reais, from this representation. Return JSON {\"value\": number}. Do not sum subtotal and total. Representation: INVOICE 003 Subtotal 300.00 Tax 15.25 Total 315.25"
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "stream": true,
+    "cache_prompt": false,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "answer",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "value"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "configuration": {
+    "model": "l11-qwen",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "schema": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "value"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "config_sha256": "63e8d097bb7a9868169976dc240600e8c6f080407dffee5cba66ad386c9c631d",
+  "events": [
+    {
+      "seconds": 0.4427299000089988,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870747,\"id\":\"chatcmpl-X1NBn5z362TGNlpzYtX0pKptM7Ga3fT2\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.44279360002838075,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"{\\\"\"}}],\"created\":1792870747,\"id\":\"chatcmpl-X1NBn5z362TGNlpzYtX0pKptM7Ga3fT2\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4588368000695482,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"value\"}}],\"created\":1792870747,\"id\":\"chatcmpl-X1NBn5z362TGNlpzYtX0pKptM7Ga3fT2\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4742697000037879,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"\\\":\"}}],\"created\":1792870747,\"id\":\"chatcmpl-X1NBn5z362TGNlpzYtX0pKptM7Ga3fT2\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4892890000483021,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" \"}}],\"created\":1792870747,\"id\":\"chatcmpl-X1NBn5z362TGNlpzYtX0pKptM7Ga3fT2\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.504212100058794,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"3\"}}],\"created\":1792870747,\"id\":\"chatcmpl-X1NBn5z362TGNlpzYtX0pKptM7Ga3fT2\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5191680999705568,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"1\"}}],\"created\":1792870747,\"id\":\"chatcmpl-X1NBn5z362TGNlpzYtX0pKptM7Ga3fT2\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5341997999930754,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"5\"}}],\"created\":1792870747,\"id\":\"chatcmpl-X1NBn5z362TGNlpzYtX0pKptM7Ga3fT2\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.549401400028728,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\".\"}}],\"created\":1792870747,\"id\":\"chatcmpl-X1NBn5z362TGNlpzYtX0pKptM7Ga3fT2\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.564621499972418,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"2\"}}],\"created\":1792870747,\"id\":\"chatcmpl-X1NBn5z362TGNlpzYtX0pKptM7Ga3fT2\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5796056999824941,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"5\"}}],\"created\":1792870747,\"id\":\"chatcmpl-X1NBn5z362TGNlpzYtX0pKptM7Ga3fT2\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5949145000195131,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"}\"}}],\"created\":1792870747,\"id\":\"chatcmpl-X1NBn5z362TGNlpzYtX0pKptM7Ga3fT2\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.6111453999765217,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870747,\"id\":\"chatcmpl-X1NBn5z362TGNlpzYtX0pKptM7Ga3fT2\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":87,\"prompt_ms\":430.28,\"prompt_per_token_ms\":4.945747126436781,\"prompt_per_second\":202.1939202379846,\"predicted_n\":12,\"predicted_ms\":168.379,\"predicted_per_token_ms\":15.307181818181817,\"predicted_per_second\":65.32881178769324}}"
+    },
+    {
+      "seconds": 0.6112580000190064,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "{\"value\": 315.25}",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 11,
+  "ttft_seconds": 0.44281110004521906,
+  "seconds": 0.6115105000790209,
+  "injected_cut_after_content_events": null
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"O prazo atual para prestar contas de passagens depois da viagem é determinado pela legislação vigente e pode variar dependendo do país e do estado em que você está se movendo.\",\"citacoes\":[],\"abster\":true}"
+      }
+    }
+  ],
+  "created": 1792879207,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 168,
+    "total_tokens": 230,
+    "prompt_tokens_details": {
+      "cached_tokens": 137
+    }
+  },
+  "id": "chatcmpl-tRyZQwbKTmncmWYLiGYVD6bDdezoMju7",
+  "timings": {
+    "cache_n": 137,
+    "prompt_n": 31,
+    "prompt_ms": 262.879,
+    "prompt_per_token_ms": 8.479967741935484,
+    "prompt_per_second": 117.92497689050855,
+    "predicted_n": 62,
+    "predicted_ms": 1207.393,
+    "predicted_per_token_ms": 19.793327868852458,
+    "predicted_per_second": 50.52207524807581
+  }
+}

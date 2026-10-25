@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Para plantar noturno autorizado, o teto de jantar durante o escritório é R$ 480 por diária, incluindo o hospedagem nacional. O teto de hospedagem nacional é R$ 480 por diária, incluindo o hospedagem nacional. O teto de hospedagem nacional é R$ 480 por diária, incluindo o hospedagem nacional. O"
+      }
+    }
+  ],
+  "created": 1792879336,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 392,
+    "total_tokens": 520,
+    "prompt_tokens_details": {
+      "cached_tokens": 391
+    }
+  },
+  "id": "chatcmpl-yv9uzmkwOOl11U7LmyIjRF36P2xchgfa",
+  "timings": {
+    "cache_n": 391,
+    "prompt_n": 1,
+    "prompt_ms": 45.384,
+    "prompt_per_token_ms": 45.384,
+    "prompt_per_second": 22.03419707385863,
+    "predicted_n": 128,
+    "predicted_ms": 2311.406,
+    "predicted_per_token_ms": 18.20004724409449,
+    "predicted_per_second": 54.944912317437954
+  }
+}

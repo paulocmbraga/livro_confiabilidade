@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"Não posso fornecer informações sobre auxílios ou benefícios de saúde para cachorros. Consulte um veterinário local para obter informações mais precisas.\",\"citacoes\":[],\"abster\":true}"
+      }
+    }
+  ],
+  "created": 1792879098,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 164,
+    "total_tokens": 218,
+    "prompt_tokens_details": {
+      "cached_tokens": 138
+    }
+  },
+  "id": "chatcmpl-o7GKeN2YAS6MKKTCJnflNZFoQ62NRjCF",
+  "timings": {
+    "cache_n": 138,
+    "prompt_n": 26,
+    "prompt_ms": 228.29,
+    "prompt_per_token_ms": 8.780384615384616,
+    "prompt_per_second": 113.89022734241536,
+    "predicted_n": 54,
+    "predicted_ms": 1084.947,
+    "predicted_per_token_ms": 20.470698113207543,
+    "predicted_per_second": 48.850312503744426
+  }
+}

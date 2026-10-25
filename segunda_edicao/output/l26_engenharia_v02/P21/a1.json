@@ -1,0 +1,13 @@
+{
+  "job": "job1",
+  "attempt": "a1",
+  "mode": "execute",
+  "token": 1,
+  "pid": 22800,
+  "status": null,
+  "reply": {},
+  "outcome": "unknown",
+  "ledger_updated": true,
+  "seconds": 0.2586262000259012,
+  "error": "RemoteDisconnected: Remote end closed connection without response"
+}

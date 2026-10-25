@@ -1,0 +1,6722 @@
+[
+  {
+    "id": "F03Q1_hybrid_rerank_top1_2",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F04Q1_bm25_top3_1",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q1_hybrid_rerank_top1_1",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q4_hybrid_rerank_top1_0",
+    "query_id": "F01Q4",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q2_hybrid_rerank_top3_0",
+    "query_id": "F11Q2",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q2_hybrid_rerank_top1_2",
+    "query_id": "F04Q2",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F02Q4_hybrid_rerank_top1_0",
+    "query_id": "F02Q4",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q2_hybrid_rerank_top3_1",
+    "query_id": "F05Q2",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F12Q4_bm25_top1_0",
+    "query_id": "F12Q4",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q3_bm25_top3_0",
+    "query_id": "F08Q3",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q3_bm25_top3_2",
+    "query_id": "F02Q3",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q4_hybrid_rerank_top1_1",
+    "query_id": "F12Q4",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q2_bm25_top1_1",
+    "query_id": "F03Q2",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q3_bm25_top1_1",
+    "query_id": "F07Q3",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q4_bm25_top3_1",
+    "query_id": "F07Q4",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q4_bm25_top3_2",
+    "query_id": "F01Q4",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F06Q1_hybrid_rerank_top1_2",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F06Q4_hybrid_rerank_top1_1",
+    "query_id": "F06Q4",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q2_diagnostic_empty_0",
+    "query_id": "F08Q2",
+    "family": "F08",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q3_bm25_top3_2",
+    "query_id": "F09Q3",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F10Q3_hybrid_rerank_top1_0",
+    "query_id": "F10Q3",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q3_bm25_top1_2",
+    "query_id": "F10Q3",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q4_diagnostic_empty_0",
+    "query_id": "F11Q4",
+    "family": "F11",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q2_hybrid_rerank_top1_0",
+    "query_id": "F11Q2",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q3_hybrid_rerank_top1_2",
+    "query_id": "F10Q3",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F02Q1_hybrid_rerank_top3_1",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q1_hybrid_rerank_top1_0",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q4_bm25_top1_0",
+    "query_id": "F11Q4",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q3_hybrid_rerank_top1_2",
+    "query_id": "F02Q3",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F01Q1_hybrid_rerank_top1_0",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q1_bm25_top3_1",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q3_bm25_top3_1",
+    "query_id": "F06Q3",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q2_bm25_top1_0",
+    "query_id": "F09Q2",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q1_hybrid_rerank_top1_1",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q1_bm25_top3_2",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q2_bm25_top1_2",
+    "query_id": "F12Q2",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F02Q3_hybrid_rerank_top1_0",
+    "query_id": "F02Q3",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q2_hybrid_rerank_top1_2",
+    "query_id": "F08Q2",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q3_bm25_top3_2",
+    "query_id": "F07Q3",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F03Q3_bm25_top3_0",
+    "query_id": "F03Q3",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q1_bm25_top1_1",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F04Q3_hybrid_rerank_top3_0",
+    "query_id": "F04Q3",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q3_hybrid_rerank_top3_0",
+    "query_id": "F06Q3",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q3_hybrid_rerank_top1_0",
+    "query_id": "F01Q3",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q4_diagnostic_reference_0",
+    "query_id": "F05Q4",
+    "family": "F05",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q4_bm25_top3_2",
+    "query_id": "F02Q4",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F05Q2_hybrid_rerank_top1_1",
+    "query_id": "F05Q2",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q3_bm25_top3_0",
+    "query_id": "F07Q3",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q4_hybrid_rerank_top3_2",
+    "query_id": "F10Q4",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F09Q1_bm25_top3_0",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F07Q3_hybrid_rerank_top3_0",
+    "query_id": "F07Q3",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q3_bm25_top3_1",
+    "query_id": "F10Q3",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q3_bm25_top1_0",
+    "query_id": "F07Q3",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q1_hybrid_rerank_top3_2",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q2_diagnostic_empty_0",
+    "query_id": "F11Q2",
+    "family": "F11",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q3_hybrid_rerank_top3_1",
+    "query_id": "F10Q3",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q3_hybrid_rerank_top3_1",
+    "query_id": "F08Q3",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F10Q2_bm25_top1_2",
+    "query_id": "F10Q2",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F04Q3_hybrid_rerank_top3_1",
+    "query_id": "F04Q3",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F04Q3_bm25_top3_0",
+    "query_id": "F04Q3",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q2_bm25_top1_0",
+    "query_id": "F06Q2",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q4_diagnostic_empty_0",
+    "query_id": "F06Q4",
+    "family": "F06",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q4_bm25_top3_1",
+    "query_id": "F11Q4",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F11Q2_bm25_top1_2",
+    "query_id": "F11Q2",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F09Q3_bm25_top3_1",
+    "query_id": "F09Q3",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q2_diagnostic_empty_0",
+    "query_id": "F01Q2",
+    "family": "F01",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q1_hybrid_rerank_top3_1",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F12Q1_diagnostic_empty_0",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q3_bm25_top3_2",
+    "query_id": "F10Q3",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F08Q1_diagnostic_empty_0",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q1_diagnostic_reference_0",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q2_bm25_top3_2",
+    "query_id": "F05Q2",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F02Q3_bm25_top1_2",
+    "query_id": "F02Q3",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F05Q4_bm25_top1_2",
+    "query_id": "F05Q4",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F03Q4_hybrid_rerank_top3_2",
+    "query_id": "F03Q4",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F02Q4_bm25_top1_0",
+    "query_id": "F02Q4",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q3_diagnostic_empty_0",
+    "query_id": "F02Q3",
+    "family": "F02",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q2_bm25_top3_0",
+    "query_id": "F08Q2",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q2_bm25_top1_0",
+    "query_id": "F11Q2",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q2_bm25_top1_0",
+    "query_id": "F12Q2",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q4_hybrid_rerank_top3_1",
+    "query_id": "F09Q4",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q3_bm25_top1_2",
+    "query_id": "F08Q3",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q1_hybrid_rerank_top1_0",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q2_hybrid_rerank_top3_0",
+    "query_id": "F09Q2",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q1_bm25_top3_1",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q4_hybrid_rerank_top1_1",
+    "query_id": "F01Q4",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F05Q3_hybrid_rerank_top3_1",
+    "query_id": "F05Q3",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F11Q1_diagnostic_reference_0",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q4_bm25_top3_1",
+    "query_id": "F03Q4",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F11Q4_hybrid_rerank_top3_1",
+    "query_id": "F11Q4",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F02Q3_hybrid_rerank_top3_2",
+    "query_id": "F02Q3",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F10Q4_bm25_top1_2",
+    "query_id": "F10Q4",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F01Q1_hybrid_rerank_top3_1",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F05Q2_hybrid_rerank_top1_2",
+    "query_id": "F05Q2",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F06Q1_bm25_top3_1",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q2_hybrid_rerank_top3_0",
+    "query_id": "F08Q2",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q2_hybrid_rerank_top3_2",
+    "query_id": "F03Q2",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F10Q3_hybrid_rerank_top3_0",
+    "query_id": "F10Q3",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q1_bm25_top1_2",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F01Q3_hybrid_rerank_top3_1",
+    "query_id": "F01Q3",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F11Q3_bm25_top3_2",
+    "query_id": "F11Q3",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F05Q3_hybrid_rerank_top3_0",
+    "query_id": "F05Q3",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q3_hybrid_rerank_top3_2",
+    "query_id": "F05Q3",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F09Q3_bm25_top1_0",
+    "query_id": "F09Q3",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q4_hybrid_rerank_top1_2",
+    "query_id": "F06Q4",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F01Q1_hybrid_rerank_top3_2",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F06Q2_bm25_top1_2",
+    "query_id": "F06Q2",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q3_hybrid_rerank_top1_1",
+    "query_id": "F07Q3",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F02Q4_hybrid_rerank_top3_0",
+    "query_id": "F02Q4",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q3_bm25_top1_1",
+    "query_id": "F11Q3",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q4_bm25_top1_1",
+    "query_id": "F01Q4",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F10Q2_bm25_top3_0",
+    "query_id": "F10Q2",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q3_bm25_top1_2",
+    "query_id": "F01Q3",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F09Q2_hybrid_rerank_top3_1",
+    "query_id": "F09Q2",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q3_diagnostic_empty_0",
+    "query_id": "F07Q3",
+    "family": "F07",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q2_hybrid_rerank_top3_2",
+    "query_id": "F05Q2",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q2_bm25_top3_0",
+    "query_id": "F07Q2",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q2_bm25_top1_1",
+    "query_id": "F09Q2",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q3_bm25_top3_1",
+    "query_id": "F07Q3",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q1_hybrid_rerank_top1_2",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q4_hybrid_rerank_top3_1",
+    "query_id": "F12Q4",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q1_bm25_top1_0",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F07Q1_bm25_top3_0",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q2_hybrid_rerank_top1_1",
+    "query_id": "F11Q2",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F02Q1_diagnostic_reference_0",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q4_diagnostic_reference_0",
+    "query_id": "F02Q4",
+    "family": "F02",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q4_hybrid_rerank_top3_2",
+    "query_id": "F08Q4",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q3_hybrid_rerank_top1_1",
+    "query_id": "F11Q3",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q4_hybrid_rerank_top3_2",
+    "query_id": "F01Q4",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q3_bm25_top1_1",
+    "query_id": "F12Q3",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q1_bm25_top1_2",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F02Q1_bm25_top3_2",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q1_bm25_top1_2",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F05Q4_bm25_top3_2",
+    "query_id": "F05Q4",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F06Q4_hybrid_rerank_top1_0",
+    "query_id": "F06Q4",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F07Q2_diagnostic_empty_0",
+    "query_id": "F07Q2",
+    "family": "F07",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q2_bm25_top3_0",
+    "query_id": "F12Q2",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q4_hybrid_rerank_top1_2",
+    "query_id": "F02Q4",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q2_bm25_top1_1",
+    "query_id": "F11Q2",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q4_bm25_top1_1",
+    "query_id": "F06Q4",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F12Q2_hybrid_rerank_top3_0",
+    "query_id": "F12Q2",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q2_diagnostic_reference_0",
+    "query_id": "F06Q2",
+    "family": "F06",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q3_hybrid_rerank_top3_0",
+    "query_id": "F02Q3",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q2_hybrid_rerank_top3_1",
+    "query_id": "F08Q2",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q4_hybrid_rerank_top3_0",
+    "query_id": "F06Q4",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q4_diagnostic_empty_0",
+    "query_id": "F09Q4",
+    "family": "F09",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q2_hybrid_rerank_top1_1",
+    "query_id": "F06Q2",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F04Q2_bm25_top1_1",
+    "query_id": "F04Q2",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q1_bm25_top3_1",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q2_hybrid_rerank_top1_0",
+    "query_id": "F01Q2",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F07Q4_hybrid_rerank_top1_0",
+    "query_id": "F07Q4",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q4_bm25_top3_2",
+    "query_id": "F10Q4",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F10Q3_hybrid_rerank_top1_1",
+    "query_id": "F10Q3",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F12Q4_bm25_top1_2",
+    "query_id": "F12Q4",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F01Q3_diagnostic_empty_0",
+    "query_id": "F01Q3",
+    "family": "F01",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q1_diagnostic_reference_0",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q4_bm25_top3_0",
+    "query_id": "F06Q4",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q1_bm25_top3_0",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q2_hybrid_rerank_top3_2",
+    "query_id": "F04Q2",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F10Q2_bm25_top3_2",
+    "query_id": "F10Q2",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q4_hybrid_rerank_top3_2",
+    "query_id": "F07Q4",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q1_bm25_top1_2",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F09Q1_hybrid_rerank_top1_1",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q1_hybrid_rerank_top3_0",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q1_hybrid_rerank_top1_0",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F07Q4_bm25_top1_2",
+    "query_id": "F07Q4",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F09Q2_bm25_top1_2",
+    "query_id": "F09Q2",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q2_bm25_top3_2",
+    "query_id": "F11Q2",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F03Q1_hybrid_rerank_top1_0",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q1_hybrid_rerank_top3_0",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q2_diagnostic_empty_0",
+    "query_id": "F05Q2",
+    "family": "F05",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q2_hybrid_rerank_top3_2",
+    "query_id": "F01Q2",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q2_hybrid_rerank_top3_1",
+    "query_id": "F11Q2",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q3_bm25_top1_2",
+    "query_id": "F09Q3",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F10Q4_hybrid_rerank_top3_1",
+    "query_id": "F10Q4",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F05Q1_bm25_top1_0",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q2_bm25_top3_0",
+    "query_id": "F01Q2",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q3_hybrid_rerank_top1_1",
+    "query_id": "F03Q3",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q2_diagnostic_reference_0",
+    "query_id": "F01Q2",
+    "family": "F01",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q4_bm25_top3_0",
+    "query_id": "F02Q4",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q1_bm25_top3_0",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q4_hybrid_rerank_top1_1",
+    "query_id": "F04Q4",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q1_hybrid_rerank_top3_0",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q3_hybrid_rerank_top1_2",
+    "query_id": "F12Q3",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F04Q3_hybrid_rerank_top3_2",
+    "query_id": "F04Q3",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F05Q4_hybrid_rerank_top1_2",
+    "query_id": "F05Q4",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q4_diagnostic_empty_0",
+    "query_id": "F07Q4",
+    "family": "F07",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q1_diagnostic_reference_0",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q4_hybrid_rerank_top3_1",
+    "query_id": "F01Q4",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q1_hybrid_rerank_top1_1",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q1_diagnostic_reference_0",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q1_bm25_top3_0",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q2_hybrid_rerank_top3_0",
+    "query_id": "F06Q2",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q1_diagnostic_reference_0",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q1_hybrid_rerank_top1_1",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q1_bm25_top1_2",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F02Q1_bm25_top1_0",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q3_hybrid_rerank_top1_2",
+    "query_id": "F11Q3",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F05Q4_hybrid_rerank_top3_1",
+    "query_id": "F05Q4",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F12Q2_hybrid_rerank_top1_1",
+    "query_id": "F12Q2",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F12Q2_hybrid_rerank_top1_2",
+    "query_id": "F12Q2",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F10Q1_hybrid_rerank_top3_1",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q3_bm25_top1_2",
+    "query_id": "F06Q3",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q4_bm25_top1_2",
+    "query_id": "F11Q4",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F01Q1_diagnostic_reference_0",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q1_bm25_top1_0",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q4_hybrid_rerank_top3_0",
+    "query_id": "F03Q4",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q1_diagnostic_reference_0",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q1_diagnostic_empty_0",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q4_hybrid_rerank_top1_0",
+    "query_id": "F03Q4",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q4_hybrid_rerank_top1_0",
+    "query_id": "F04Q4",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F07Q2_hybrid_rerank_top3_1",
+    "query_id": "F07Q2",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q1_bm25_top1_1",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F05Q4_bm25_top1_1",
+    "query_id": "F05Q4",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q4_hybrid_rerank_top1_0",
+    "query_id": "F09Q4",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F07Q1_hybrid_rerank_top3_1",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F04Q2_hybrid_rerank_top1_0",
+    "query_id": "F04Q2",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q4_hybrid_rerank_top3_2",
+    "query_id": "F02Q4",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F08Q1_hybrid_rerank_top1_0",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q3_bm25_top3_0",
+    "query_id": "F06Q3",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q4_bm25_top1_2",
+    "query_id": "F04Q4",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F08Q2_diagnostic_reference_0",
+    "query_id": "F08Q2",
+    "family": "F08",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q1_bm25_top1_2",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q2_bm25_top1_2",
+    "query_id": "F07Q2",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q4_hybrid_rerank_top1_0",
+    "query_id": "F11Q4",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q1_hybrid_rerank_top1_2",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F02Q2_diagnostic_empty_0",
+    "query_id": "F02Q2",
+    "family": "F02",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q1_hybrid_rerank_top1_0",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q2_diagnostic_empty_0",
+    "query_id": "F10Q2",
+    "family": "F10",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q1_bm25_top1_1",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q2_diagnostic_empty_0",
+    "query_id": "F09Q2",
+    "family": "F09",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q4_hybrid_rerank_top3_0",
+    "query_id": "F05Q4",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q4_bm25_top3_0",
+    "query_id": "F08Q4",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q1_hybrid_rerank_top1_2",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q2_hybrid_rerank_top1_2",
+    "query_id": "F07Q2",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q3_bm25_top1_2",
+    "query_id": "F07Q3",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q3_bm25_top3_2",
+    "query_id": "F12Q3",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F05Q3_bm25_top3_0",
+    "query_id": "F05Q3",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q3_hybrid_rerank_top1_0",
+    "query_id": "F06Q3",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q4_diagnostic_reference_0",
+    "query_id": "F12Q4",
+    "family": "F12",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q1_hybrid_rerank_top1_1",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q1_hybrid_rerank_top3_1",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F04Q2_hybrid_rerank_top3_1",
+    "query_id": "F04Q2",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q2_hybrid_rerank_top1_2",
+    "query_id": "F03Q2",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q1_hybrid_rerank_top1_1",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F02Q2_diagnostic_reference_0",
+    "query_id": "F02Q2",
+    "family": "F02",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q2_bm25_top1_2",
+    "query_id": "F02Q2",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F06Q2_diagnostic_empty_0",
+    "query_id": "F06Q2",
+    "family": "F06",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q2_bm25_top1_0",
+    "query_id": "F10Q2",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q2_diagnostic_empty_0",
+    "query_id": "F12Q2",
+    "family": "F12",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q1_bm25_top1_2",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F08Q4_hybrid_rerank_top1_0",
+    "query_id": "F08Q4",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q4_diagnostic_empty_0",
+    "query_id": "F08Q4",
+    "family": "F08",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q4_hybrid_rerank_top1_0",
+    "query_id": "F12Q4",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q3_bm25_top1_1",
+    "query_id": "F05Q3",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q2_hybrid_rerank_top3_2",
+    "query_id": "F08Q2",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q3_bm25_top3_1",
+    "query_id": "F12Q3",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F02Q1_diagnostic_empty_0",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q3_hybrid_rerank_top1_1",
+    "query_id": "F09Q3",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q3_hybrid_rerank_top3_2",
+    "query_id": "F07Q3",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q2_hybrid_rerank_top1_2",
+    "query_id": "F11Q2",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F10Q4_bm25_top1_0",
+    "query_id": "F10Q4",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q1_hybrid_rerank_top1_1",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q3_hybrid_rerank_top1_2",
+    "query_id": "F07Q3",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F03Q4_diagnostic_reference_0",
+    "query_id": "F03Q4",
+    "family": "F03",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q4_diagnostic_empty_0",
+    "query_id": "F02Q4",
+    "family": "F02",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q3_hybrid_rerank_top3_2",
+    "query_id": "F10Q3",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F03Q4_bm25_top3_2",
+    "query_id": "F03Q4",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F03Q2_diagnostic_empty_0",
+    "query_id": "F03Q2",
+    "family": "F03",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q2_hybrid_rerank_top1_0",
+    "query_id": "F03Q2",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q1_hybrid_rerank_top1_2",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q1_bm25_top3_2",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F08Q1_bm25_top1_2",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F09Q2_hybrid_rerank_top1_1",
+    "query_id": "F09Q2",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q2_bm25_top3_1",
+    "query_id": "F01Q2",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q1_bm25_top1_1",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q2_hybrid_rerank_top3_2",
+    "query_id": "F07Q2",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F06Q4_bm25_top3_1",
+    "query_id": "F06Q4",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F04Q2_bm25_top3_2",
+    "query_id": "F04Q2",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F04Q3_bm25_top3_2",
+    "query_id": "F04Q3",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F09Q1_hybrid_rerank_top3_1",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F10Q1_diagnostic_reference_0",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q3_diagnostic_reference_0",
+    "query_id": "F04Q3",
+    "family": "F04",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q2_diagnostic_empty_0",
+    "query_id": "F04Q2",
+    "family": "F04",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q4_hybrid_rerank_top3_2",
+    "query_id": "F12Q4",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q2_diagnostic_reference_0",
+    "query_id": "F12Q2",
+    "family": "F12",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q1_bm25_top3_2",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F05Q4_hybrid_rerank_top1_0",
+    "query_id": "F05Q4",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q2_hybrid_rerank_top3_2",
+    "query_id": "F02Q2",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F01Q3_hybrid_rerank_top1_2",
+    "query_id": "F01Q3",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F06Q3_hybrid_rerank_top1_1",
+    "query_id": "F06Q3",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q3_hybrid_rerank_top1_2",
+    "query_id": "F09Q3",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F08Q3_hybrid_rerank_top1_1",
+    "query_id": "F08Q3",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q1_bm25_top3_1",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F04Q3_hybrid_rerank_top1_0",
+    "query_id": "F04Q3",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q3_hybrid_rerank_top3_1",
+    "query_id": "F12Q3",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q1_bm25_top1_0",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q3_hybrid_rerank_top1_1",
+    "query_id": "F05Q3",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F10Q3_bm25_top1_0",
+    "query_id": "F10Q3",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q1_hybrid_rerank_top1_1",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F12Q1_hybrid_rerank_top3_1",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q4_bm25_top1_0",
+    "query_id": "F01Q4",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q2_bm25_top3_1",
+    "query_id": "F08Q2",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q2_bm25_top3_2",
+    "query_id": "F03Q2",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q1_bm25_top3_1",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F12Q2_bm25_top1_1",
+    "query_id": "F12Q2",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F05Q4_diagnostic_empty_0",
+    "query_id": "F05Q4",
+    "family": "F05",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q3_bm25_top1_1",
+    "query_id": "F01Q3",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q4_bm25_top3_2",
+    "query_id": "F06Q4",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F05Q4_bm25_top3_0",
+    "query_id": "F05Q4",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q4_hybrid_rerank_top3_1",
+    "query_id": "F03Q4",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F02Q2_hybrid_rerank_top1_2",
+    "query_id": "F02Q2",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F08Q3_hybrid_rerank_top3_2",
+    "query_id": "F08Q3",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q4_bm25_top3_0",
+    "query_id": "F12Q4",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q3_hybrid_rerank_top3_0",
+    "query_id": "F01Q3",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q1_bm25_top3_2",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q4_bm25_top1_1",
+    "query_id": "F12Q4",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F05Q2_bm25_top1_1",
+    "query_id": "F05Q2",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F11Q1_hybrid_rerank_top3_1",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F05Q2_bm25_top1_0",
+    "query_id": "F05Q2",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q1_bm25_top1_2",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q2_hybrid_rerank_top1_1",
+    "query_id": "F07Q2",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q1_hybrid_rerank_top3_2",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F06Q1_hybrid_rerank_top3_2",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F01Q4_hybrid_rerank_top1_2",
+    "query_id": "F01Q4",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F06Q3_diagnostic_reference_0",
+    "query_id": "F06Q3",
+    "family": "F06",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q1_diagnostic_empty_0",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q4_hybrid_rerank_top3_0",
+    "query_id": "F12Q4",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q3_hybrid_rerank_top3_1",
+    "query_id": "F03Q3",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F05Q3_hybrid_rerank_top1_2",
+    "query_id": "F05Q3",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F10Q1_bm25_top1_1",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q2_bm25_top1_1",
+    "query_id": "F01Q2",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q1_hybrid_rerank_top3_2",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F04Q1_bm25_top3_2",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F05Q1_hybrid_rerank_top1_2",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F05Q1_bm25_top3_0",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q4_hybrid_rerank_top1_1",
+    "query_id": "F11Q4",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F05Q3_bm25_top1_0",
+    "query_id": "F05Q3",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q1_bm25_top1_2",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F08Q2_hybrid_rerank_top1_0",
+    "query_id": "F08Q2",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q1_bm25_top3_0",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q2_bm25_top3_1",
+    "query_id": "F04Q2",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F04Q4_hybrid_rerank_top3_1",
+    "query_id": "F04Q4",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q3_hybrid_rerank_top3_2",
+    "query_id": "F03Q3",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F10Q2_hybrid_rerank_top3_2",
+    "query_id": "F10Q2",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q3_bm25_top3_0",
+    "query_id": "F12Q3",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q1_hybrid_rerank_top1_0",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q4_diagnostic_empty_0",
+    "query_id": "F01Q4",
+    "family": "F01",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q1_hybrid_rerank_top3_2",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q1_bm25_top1_1",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F02Q3_hybrid_rerank_top1_1",
+    "query_id": "F02Q3",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q1_hybrid_rerank_top3_1",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F02Q3_bm25_top3_0",
+    "query_id": "F02Q3",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q2_hybrid_rerank_top1_0",
+    "query_id": "F09Q2",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q2_bm25_top3_0",
+    "query_id": "F11Q2",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q4_hybrid_rerank_top3_2",
+    "query_id": "F11Q4",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F09Q3_hybrid_rerank_top1_0",
+    "query_id": "F09Q3",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q1_hybrid_rerank_top3_0",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F07Q3_hybrid_rerank_top1_0",
+    "query_id": "F07Q3",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q4_hybrid_rerank_top1_2",
+    "query_id": "F11Q4",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q1_hybrid_rerank_top1_0",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q2_hybrid_rerank_top3_2",
+    "query_id": "F06Q2",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q4_bm25_top1_1",
+    "query_id": "F07Q4",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F02Q2_bm25_top3_2",
+    "query_id": "F02Q2",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q3_bm25_top1_2",
+    "query_id": "F12Q3",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F02Q2_hybrid_rerank_top1_0",
+    "query_id": "F02Q2",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q4_diagnostic_reference_0",
+    "query_id": "F11Q4",
+    "family": "F11",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q3_hybrid_rerank_top1_0",
+    "query_id": "F11Q3",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q4_hybrid_rerank_top3_0",
+    "query_id": "F09Q4",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q2_bm25_top3_0",
+    "query_id": "F05Q2",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q2_diagnostic_reference_0",
+    "query_id": "F11Q2",
+    "family": "F11",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q2_bm25_top1_2",
+    "query_id": "F01Q2",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F06Q2_bm25_top3_1",
+    "query_id": "F06Q2",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q4_bm25_top3_1",
+    "query_id": "F09Q4",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q3_hybrid_rerank_top3_0",
+    "query_id": "F03Q3",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q2_bm25_top3_1",
+    "query_id": "F10Q2",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q1_bm25_top1_0",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q1_bm25_top3_1",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q3_bm25_top3_2",
+    "query_id": "F08Q3",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F09Q2_diagnostic_reference_0",
+    "query_id": "F09Q2",
+    "family": "F09",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q1_bm25_top1_1",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q4_hybrid_rerank_top1_2",
+    "query_id": "F03Q4",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F03Q1_hybrid_rerank_top3_0",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q2_bm25_top3_1",
+    "query_id": "F05Q2",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q2_hybrid_rerank_top3_0",
+    "query_id": "F03Q2",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q4_bm25_top1_0",
+    "query_id": "F06Q4",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q4_hybrid_rerank_top3_0",
+    "query_id": "F01Q4",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q3_hybrid_rerank_top1_2",
+    "query_id": "F03Q3",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F05Q3_diagnostic_reference_0",
+    "query_id": "F05Q3",
+    "family": "F05",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q1_hybrid_rerank_top3_0",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q3_hybrid_rerank_top3_1",
+    "query_id": "F06Q3",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q3_diagnostic_reference_0",
+    "query_id": "F03Q3",
+    "family": "F03",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q3_hybrid_rerank_top1_0",
+    "query_id": "F03Q3",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q3_bm25_top1_0",
+    "query_id": "F11Q3",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q3_hybrid_rerank_top1_1",
+    "query_id": "F04Q3",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q4_bm25_top1_0",
+    "query_id": "F08Q4",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q1_bm25_top1_2",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F04Q1_hybrid_rerank_top1_2",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F01Q2_hybrid_rerank_top3_0",
+    "query_id": "F01Q2",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F07Q2_bm25_top3_2",
+    "query_id": "F07Q2",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F04Q4_bm25_top3_1",
+    "query_id": "F04Q4",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q4_hybrid_rerank_top3_1",
+    "query_id": "F06Q4",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q3_bm25_top3_0",
+    "query_id": "F01Q3",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q3_hybrid_rerank_top3_1",
+    "query_id": "F11Q3",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q3_diagnostic_reference_0",
+    "query_id": "F07Q3",
+    "family": "F07",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q4_hybrid_rerank_top3_2",
+    "query_id": "F05Q4",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F08Q3_bm25_top1_0",
+    "query_id": "F08Q3",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q3_diagnostic_reference_0",
+    "query_id": "F02Q3",
+    "family": "F02",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q4_hybrid_rerank_top1_1",
+    "query_id": "F02Q4",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q4_bm25_top3_0",
+    "query_id": "F01Q4",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q3_bm25_top1_1",
+    "query_id": "F10Q3",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q2_bm25_top3_0",
+    "query_id": "F03Q2",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q2_hybrid_rerank_top1_2",
+    "query_id": "F10Q2",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F06Q1_hybrid_rerank_top1_0",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q1_bm25_top3_1",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F04Q4_bm25_top3_2",
+    "query_id": "F04Q4",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q1_bm25_top3_2",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q2_hybrid_rerank_top3_2",
+    "query_id": "F12Q2",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F06Q4_hybrid_rerank_top3_2",
+    "query_id": "F06Q4",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q3_bm25_top3_0",
+    "query_id": "F11Q3",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q1_bm25_top1_0",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q3_hybrid_rerank_top3_2",
+    "query_id": "F12Q3",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q1_diagnostic_empty_0",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q4_hybrid_rerank_top3_2",
+    "query_id": "F04Q4",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F02Q4_bm25_top3_1",
+    "query_id": "F02Q4",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q1_bm25_top1_0",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q1_bm25_top3_2",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F01Q2_hybrid_rerank_top1_1",
+    "query_id": "F01Q2",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F05Q1_diagnostic_reference_0",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F07Q3_hybrid_rerank_top3_1",
+    "query_id": "F07Q3",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q4_bm25_top3_2",
+    "query_id": "F08Q4",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q4_hybrid_rerank_top1_1",
+    "query_id": "F07Q4",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F12Q1_hybrid_rerank_top3_2",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F10Q2_hybrid_rerank_top1_1",
+    "query_id": "F10Q2",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F04Q2_bm25_top1_2",
+    "query_id": "F04Q2",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q4_bm25_top3_2",
+    "query_id": "F11Q4",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q4_diagnostic_empty_0",
+    "query_id": "F12Q4",
+    "family": "F12",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q4_diagnostic_reference_0",
+    "query_id": "F08Q4",
+    "family": "F08",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q4_hybrid_rerank_top1_1",
+    "query_id": "F08Q4",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q1_hybrid_rerank_top1_2",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F03Q4_bm25_top3_0",
+    "query_id": "F03Q4",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q1_bm25_top1_0",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q4_bm25_top3_1",
+    "query_id": "F05Q4",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q3_diagnostic_reference_0",
+    "query_id": "F09Q3",
+    "family": "F09",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q4_bm25_top1_1",
+    "query_id": "F02Q4",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q2_bm25_top3_2",
+    "query_id": "F08Q2",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F03Q4_bm25_top1_1",
+    "query_id": "F03Q4",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q2_bm25_top1_1",
+    "query_id": "F07Q2",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F02Q2_bm25_top1_1",
+    "query_id": "F02Q2",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q4_hybrid_rerank_top3_1",
+    "query_id": "F08Q4",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q2_bm25_top3_0",
+    "query_id": "F06Q2",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q1_bm25_top1_1",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q1_bm25_top3_0",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q4_bm25_top3_2",
+    "query_id": "F09Q4",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F08Q2_hybrid_rerank_top1_1",
+    "query_id": "F08Q2",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q1_bm25_top3_2",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F04Q4_hybrid_rerank_top3_0",
+    "query_id": "F04Q4",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q3_hybrid_rerank_top3_0",
+    "query_id": "F11Q3",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q3_hybrid_rerank_top1_0",
+    "query_id": "F05Q3",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q3_hybrid_rerank_top1_2",
+    "query_id": "F08Q3",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q3_hybrid_rerank_top3_0",
+    "query_id": "F12Q3",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q1_bm25_top3_1",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F11Q3_bm25_top3_1",
+    "query_id": "F11Q3",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q4_bm25_top1_2",
+    "query_id": "F03Q4",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F06Q3_bm25_top3_2",
+    "query_id": "F06Q3",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q3_diagnostic_empty_0",
+    "query_id": "F12Q3",
+    "family": "F12",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q1_hybrid_rerank_top3_2",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F09Q3_bm25_top1_1",
+    "query_id": "F09Q3",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F10Q4_hybrid_rerank_top1_1",
+    "query_id": "F10Q4",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q2_hybrid_rerank_top3_0",
+    "query_id": "F07Q2",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F07Q4_bm25_top3_0",
+    "query_id": "F07Q4",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q2_hybrid_rerank_top1_1",
+    "query_id": "F04Q2",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F12Q3_hybrid_rerank_top1_1",
+    "query_id": "F12Q3",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q4_bm25_top1_1",
+    "query_id": "F09Q4",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F10Q3_bm25_top3_0",
+    "query_id": "F10Q3",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q1_hybrid_rerank_top3_1",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q2_bm25_top1_1",
+    "query_id": "F06Q2",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q3_bm25_top3_2",
+    "query_id": "F01Q3",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q2_bm25_top3_2",
+    "query_id": "F12Q2",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q4_hybrid_rerank_top3_0",
+    "query_id": "F11Q4",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q1_hybrid_rerank_top1_0",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q3_bm25_top1_0",
+    "query_id": "F01Q3",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q4_hybrid_rerank_top3_0",
+    "query_id": "F08Q4",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q3_bm25_top3_1",
+    "query_id": "F03Q3",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q3_hybrid_rerank_top3_2",
+    "query_id": "F09Q3",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q1_hybrid_rerank_top1_2",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F03Q3_bm25_top3_2",
+    "query_id": "F03Q3",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F01Q2_hybrid_rerank_top3_1",
+    "query_id": "F01Q2",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q3_bm25_top3_1",
+    "query_id": "F08Q3",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q4_hybrid_rerank_top3_0",
+    "query_id": "F07Q4",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q2_bm25_top3_0",
+    "query_id": "F04Q2",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q1_hybrid_rerank_top3_0",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F07Q1_bm25_top1_0",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q1_bm25_top3_0",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q1_bm25_top3_2",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F05Q3_bm25_top3_1",
+    "query_id": "F05Q3",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q4_bm25_top1_2",
+    "query_id": "F09Q4",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F08Q4_bm25_top3_1",
+    "query_id": "F08Q4",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F12Q1_bm25_top3_2",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F01Q2_bm25_top1_0",
+    "query_id": "F01Q2",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q4_diagnostic_reference_0",
+    "query_id": "F10Q4",
+    "family": "F10",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q1_bm25_top3_2",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q1_hybrid_rerank_top3_2",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F09Q2_bm25_top3_1",
+    "query_id": "F09Q2",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F05Q1_hybrid_rerank_top3_0",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q3_bm25_top1_2",
+    "query_id": "F04Q3",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F02Q4_hybrid_rerank_top3_1",
+    "query_id": "F02Q4",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F02Q2_bm25_top3_1",
+    "query_id": "F02Q2",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q4_diagnostic_empty_0",
+    "query_id": "F03Q4",
+    "family": "F03",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q1_bm25_top1_1",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q4_hybrid_rerank_top1_2",
+    "query_id": "F07Q4",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F08Q2_bm25_top1_1",
+    "query_id": "F08Q2",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F05Q1_hybrid_rerank_top3_2",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q2_bm25_top3_1",
+    "query_id": "F07Q2",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F04Q4_bm25_top3_0",
+    "query_id": "F04Q4",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q2_hybrid_rerank_top1_1",
+    "query_id": "F03Q2",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q4_bm25_top1_0",
+    "query_id": "F09Q4",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F07Q1_hybrid_rerank_top1_2",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q4_bm25_top3_1",
+    "query_id": "F12Q4",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q4_bm25_top1_2",
+    "query_id": "F01Q4",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q1_hybrid_rerank_top1_0",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q3_diagnostic_empty_0",
+    "query_id": "F06Q3",
+    "family": "F06",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q3_bm25_top1_1",
+    "query_id": "F02Q3",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q4_diagnostic_reference_0",
+    "query_id": "F01Q4",
+    "family": "F01",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q3_diagnostic_empty_0",
+    "query_id": "F05Q3",
+    "family": "F05",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q4_hybrid_rerank_top3_2",
+    "query_id": "F09Q4",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F09Q2_bm25_top3_0",
+    "query_id": "F09Q2",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F11Q4_bm25_top1_1",
+    "query_id": "F11Q4",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F10Q1_hybrid_rerank_top1_2",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F01Q1_bm25_top3_0",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q2_hybrid_rerank_top1_2",
+    "query_id": "F09Q2",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F08Q2_bm25_top1_2",
+    "query_id": "F08Q2",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F03Q4_bm25_top1_0",
+    "query_id": "F03Q4",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q2_hybrid_rerank_top3_0",
+    "query_id": "F10Q2",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q3_bm25_top1_1",
+    "query_id": "F08Q3",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q1_hybrid_rerank_top3_2",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F09Q4_diagnostic_reference_0",
+    "query_id": "F09Q4",
+    "family": "F09",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q3_bm25_top3_1",
+    "query_id": "F01Q3",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q3_bm25_top1_1",
+    "query_id": "F06Q3",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F11Q3_bm25_top1_2",
+    "query_id": "F11Q3",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F05Q2_diagnostic_reference_0",
+    "query_id": "F05Q2",
+    "family": "F05",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q1_bm25_top1_0",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q1_hybrid_rerank_top3_0",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q1_hybrid_rerank_top1_1",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F10Q4_bm25_top1_1",
+    "query_id": "F10Q4",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F04Q4_bm25_top1_0",
+    "query_id": "F04Q4",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q3_diagnostic_empty_0",
+    "query_id": "F04Q3",
+    "family": "F04",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q2_hybrid_rerank_top3_0",
+    "query_id": "F04Q2",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q1_bm25_top1_1",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F11Q2_hybrid_rerank_top3_2",
+    "query_id": "F11Q2",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F08Q3_hybrid_rerank_top1_0",
+    "query_id": "F08Q3",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q3_hybrid_rerank_top3_1",
+    "query_id": "F02Q3",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F11Q3_diagnostic_empty_0",
+    "query_id": "F11Q3",
+    "family": "F11",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q2_hybrid_rerank_top3_1",
+    "query_id": "F12Q2",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q4_hybrid_rerank_top1_1",
+    "query_id": "F03Q4",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q1_diagnostic_empty_0",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q2_bm25_top1_1",
+    "query_id": "F10Q2",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q3_diagnostic_empty_0",
+    "query_id": "F09Q3",
+    "family": "F09",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q2_hybrid_rerank_top3_0",
+    "query_id": "F05Q2",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q3_bm25_top1_1",
+    "query_id": "F04Q3",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F02Q2_hybrid_rerank_top3_0",
+    "query_id": "F02Q2",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q3_bm25_top1_2",
+    "query_id": "F03Q3",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F08Q2_bm25_top1_0",
+    "query_id": "F08Q2",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q3_diagnostic_reference_0",
+    "query_id": "F01Q3",
+    "family": "F01",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q4_hybrid_rerank_top1_1",
+    "query_id": "F09Q4",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F02Q2_hybrid_rerank_top3_1",
+    "query_id": "F02Q2",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F04Q2_bm25_top1_0",
+    "query_id": "F04Q2",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q3_bm25_top1_1",
+    "query_id": "F03Q3",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q2_hybrid_rerank_top1_2",
+    "query_id": "F01Q2",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q3_diagnostic_reference_0",
+    "query_id": "F11Q3",
+    "family": "F11",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q2_diagnostic_reference_0",
+    "query_id": "F04Q2",
+    "family": "F04",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q1_hybrid_rerank_top3_0",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q3_bm25_top3_1",
+    "query_id": "F02Q3",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F10Q4_bm25_top3_1",
+    "query_id": "F10Q4",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F10Q2_diagnostic_reference_0",
+    "query_id": "F10Q2",
+    "family": "F10",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F07Q2_diagnostic_reference_0",
+    "query_id": "F07Q2",
+    "family": "F07",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q3_diagnostic_empty_0",
+    "query_id": "F03Q3",
+    "family": "F03",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q1_bm25_top1_0",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q2_hybrid_rerank_top3_2",
+    "query_id": "F09Q2",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F10Q1_bm25_top1_2",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F10Q4_hybrid_rerank_top3_0",
+    "query_id": "F10Q4",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q3_hybrid_rerank_top1_1",
+    "query_id": "F01Q3",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F02Q1_bm25_top3_0",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q3_bm25_top1_0",
+    "query_id": "F02Q3",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q4_diagnostic_empty_0",
+    "query_id": "F10Q4",
+    "family": "F10",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q2_hybrid_rerank_top1_0",
+    "query_id": "F10Q2",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q2_hybrid_rerank_top1_1",
+    "query_id": "F02Q2",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q3_bm25_top3_0",
+    "query_id": "F09Q3",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q4_bm25_top3_0",
+    "query_id": "F09Q4",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q1_diagnostic_reference_0",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q3_hybrid_rerank_top3_2",
+    "query_id": "F06Q3",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F06Q3_hybrid_rerank_top1_2",
+    "query_id": "F06Q3",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F02Q4_bm25_top1_2",
+    "query_id": "F02Q4",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q2_hybrid_rerank_top1_0",
+    "query_id": "F07Q2",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q2_hybrid_rerank_top1_0",
+    "query_id": "F05Q2",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q1_bm25_top3_1",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q3_hybrid_rerank_top3_2",
+    "query_id": "F01Q3",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F03Q2_hybrid_rerank_top3_1",
+    "query_id": "F03Q2",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F10Q3_diagnostic_reference_0",
+    "query_id": "F10Q3",
+    "family": "F10",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q1_diagnostic_empty_0",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q3_bm25_top1_2",
+    "query_id": "F05Q3",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q4_hybrid_rerank_top3_1",
+    "query_id": "F07Q4",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q4_bm25_top1_1",
+    "query_id": "F08Q4",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F11Q1_diagnostic_empty_0",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q4_bm25_top1_0",
+    "query_id": "F05Q4",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q2_hybrid_rerank_top1_0",
+    "query_id": "F12Q2",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q4_hybrid_rerank_top1_2",
+    "query_id": "F09Q4",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F04Q4_diagnostic_reference_0",
+    "query_id": "F04Q4",
+    "family": "F04",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F07Q4_diagnostic_reference_0",
+    "query_id": "F07Q4",
+    "family": "F07",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q4_hybrid_rerank_top1_2",
+    "query_id": "F10Q4",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q4_bm25_top3_2",
+    "query_id": "F12Q4",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F04Q4_hybrid_rerank_top1_2",
+    "query_id": "F04Q4",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F03Q2_bm25_top1_0",
+    "query_id": "F03Q2",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q4_hybrid_rerank_top1_2",
+    "query_id": "F12Q4",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F01Q1_diagnostic_empty_0",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q2_bm25_top3_2",
+    "query_id": "F09Q2",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q3_hybrid_rerank_top3_2",
+    "query_id": "F11Q3",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F12Q3_bm25_top1_0",
+    "query_id": "F12Q3",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q2_bm25_top3_2",
+    "query_id": "F06Q2",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F07Q2_bm25_top1_0",
+    "query_id": "F07Q2",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F02Q2_bm25_top1_0",
+    "query_id": "F02Q2",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q2_bm25_top3_1",
+    "query_id": "F12Q2",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q3_diagnostic_reference_0",
+    "query_id": "F08Q3",
+    "family": "F08",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q3_hybrid_rerank_top3_0",
+    "query_id": "F09Q3",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q1_bm25_top1_1",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F08Q3_hybrid_rerank_top3_0",
+    "query_id": "F08Q3",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q1_diagnostic_empty_0",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q4_bm25_top1_2",
+    "query_id": "F08Q4",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F04Q4_diagnostic_empty_0",
+    "query_id": "F04Q4",
+    "family": "F04",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q3_bm25_top3_2",
+    "query_id": "F05Q3",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q1_hybrid_rerank_top3_0",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q1_hybrid_rerank_top3_2",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F04Q3_bm25_top3_1",
+    "query_id": "F04Q3",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F11Q2_bm25_top3_1",
+    "query_id": "F11Q2",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q3_bm25_top1_0",
+    "query_id": "F03Q3",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F12Q3_diagnostic_reference_0",
+    "query_id": "F12Q3",
+    "family": "F12",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F03Q2_bm25_top3_1",
+    "query_id": "F03Q2",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q4_bm25_top1_2",
+    "query_id": "F06Q4",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F06Q1_hybrid_rerank_top1_1",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q2_diagnostic_reference_0",
+    "query_id": "F03Q2",
+    "family": "F03",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q4_hybrid_rerank_top1_2",
+    "query_id": "F08Q4",
+    "family": "F08",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F05Q2_bm25_top1_2",
+    "query_id": "F05Q2",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F11Q4_bm25_top3_0",
+    "query_id": "F11Q4",
+    "family": "F11",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q2_hybrid_rerank_top1_2",
+    "query_id": "F06Q2",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F05Q4_hybrid_rerank_top1_1",
+    "query_id": "F05Q4",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F02Q2_bm25_top3_0",
+    "query_id": "F02Q2",
+    "family": "F02",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F07Q4_bm25_top3_2",
+    "query_id": "F07Q4",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F04Q3_bm25_top1_0",
+    "query_id": "F04Q3",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q2_hybrid_rerank_top3_1",
+    "query_id": "F06Q2",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q2_bm25_top3_2",
+    "query_id": "F01Q2",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F03Q2_bm25_top1_2",
+    "query_id": "F03Q2",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F10Q4_hybrid_rerank_top1_0",
+    "query_id": "F10Q4",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q3_diagnostic_empty_0",
+    "query_id": "F10Q3",
+    "family": "F10",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F06Q4_diagnostic_reference_0",
+    "query_id": "F06Q4",
+    "family": "F06",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q1_hybrid_rerank_top1_1",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F07Q4_bm25_top1_0",
+    "query_id": "F07Q4",
+    "family": "F07",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F09Q3_hybrid_rerank_top3_1",
+    "query_id": "F09Q3",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F01Q1_bm25_top3_1",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F05Q1_hybrid_rerank_top3_1",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q2_hybrid_rerank_top1_0",
+    "query_id": "F06Q2",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q4_bm25_top3_0",
+    "query_id": "F10Q4",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F01Q4_bm25_top3_1",
+    "query_id": "F01Q4",
+    "family": "F01",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F03Q1_bm25_top3_0",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q2_hybrid_rerank_top3_1",
+    "query_id": "F10Q2",
+    "family": "F10",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F12Q3_hybrid_rerank_top1_0",
+    "query_id": "F12Q3",
+    "family": "F12",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F08Q3_diagnostic_empty_0",
+    "query_id": "F08Q3",
+    "family": "F08",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F10Q1_diagnostic_empty_0",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F04Q3_hybrid_rerank_top1_2",
+    "query_id": "F04Q3",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 2,
+    "seed": 67
+  },
+  {
+    "id": "F04Q4_bm25_top1_1",
+    "query_id": "F04Q4",
+    "family": "F04",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F09Q1_hybrid_rerank_top3_0",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "F05Q1_bm25_top1_1",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 1,
+    "seed": 41
+  },
+  {
+    "id": "F06Q3_bm25_top1_0",
+    "query_id": "F06Q3",
+    "family": "F06",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  }
+]

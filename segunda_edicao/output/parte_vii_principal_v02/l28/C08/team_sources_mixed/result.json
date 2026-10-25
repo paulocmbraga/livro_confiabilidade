@@ -1,0 +1,21 @@
+{
+  "case": "C08",
+  "condition": "team_sources_mixed",
+  "split": "reserve",
+  "expected": true,
+  "decision": true,
+  "correct": true,
+  "abstained": false,
+  "completion_tokens": 103,
+  "prompt_tokens": 260,
+  "inference_seconds": 3.471097799949348,
+  "calls": 3,
+  "unanimous": false,
+  "errors": [
+    false,
+    false,
+    true
+  ],
+  "pairs": 3,
+  "both_wrong": 0
+}

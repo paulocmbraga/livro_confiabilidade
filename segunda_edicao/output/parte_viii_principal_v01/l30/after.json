@@ -1,0 +1,50 @@
+{
+  "length": 0,
+  "pending": {
+    "pending": 0,
+    "min": null,
+    "max": null,
+    "consumers": []
+  },
+  "dead": [
+    [
+      "1792884491997-0",
+      {
+        "intent": "P",
+        "reason": "poison"
+      }
+    ]
+  ],
+  "destination": {
+    "effects": [
+      {
+        "id": "A1",
+        "value": "accepted"
+      },
+      {
+        "id": "A2",
+        "value": "accepted"
+      },
+      {
+        "id": "A3",
+        "value": "accepted"
+      },
+      {
+        "id": "B1",
+        "value": "accepted"
+      },
+      {
+        "id": "B2",
+        "value": "accepted"
+      }
+    ],
+    "inbox": [],
+    "resource": [
+      {
+        "id": "r",
+        "token": 0,
+        "value": "initial"
+      }
+    ]
+  }
+}

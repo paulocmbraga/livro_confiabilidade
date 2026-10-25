@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Para meu cartão de entrada, você pode fazer uma conta de pagamento e entregar os bloquear. Para contar, você deve entregar 10000.00 reais. Para contar, você deve entregar 10000.00 reais. Para contar, você deve entregar 10000.00 reais. Para contar, você deve entregar 1"
+      }
+    }
+  ],
+  "created": 1792879448,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 372,
+    "total_tokens": 500,
+    "prompt_tokens_details": {
+      "cached_tokens": 204
+    }
+  },
+  "id": "chatcmpl-VMCuA3gX9qLsHIjq3Dw0iQWZX1mYNASS",
+  "timings": {
+    "cache_n": 204,
+    "prompt_n": 168,
+    "prompt_ms": 884.489,
+    "prompt_per_token_ms": 5.264815476190476,
+    "prompt_per_second": 189.94018014921608,
+    "predicted_n": 128,
+    "predicted_ms": 2305.569,
+    "predicted_per_token_ms": 18.154086614173227,
+    "predicted_per_second": 55.0840161365806
+  }
+}

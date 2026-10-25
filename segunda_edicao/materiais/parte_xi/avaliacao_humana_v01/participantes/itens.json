@@ -1,0 +1,314 @@
+[
+  {
+    "item_id": "H01",
+    "question": "Qual o limite atual da politica viagem?",
+    "document": {
+      "id": "viagem-v1",
+      "family": "viagem",
+      "version": "v1",
+      "limit": 250,
+      "text": "Politica viagem da Horizonte. Limite autorizado: 250 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\n  \"limite\": 250,\n  \"fonte\": \"viagem-v1\"\n}",
+    "current_version": "v1"
+  },
+  {
+    "item_id": "H02",
+    "question": "Qual o limite atual da politica hospedagem?",
+    "document": {
+      "id": "hospedagem-v1",
+      "family": "hospedagem",
+      "version": "v1",
+      "limit": 260,
+      "text": "Politica hospedagem da Horizonte. Limite autorizado: 260 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\n  \"limite\": 260,\n  \"fonte\": \"hospedagem-v1\"\n}",
+    "current_version": "v1"
+  },
+  {
+    "item_id": "H03",
+    "question": "Qual o limite atual da politica alimentacao?",
+    "document": {
+      "id": "alimentacao-v1",
+      "family": "alimentacao",
+      "version": "v1",
+      "limit": 270,
+      "text": "Politica alimentacao da Horizonte. Limite autorizado: 270 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\n  \"limite\": 270,\n  \"fonte\": \"Documento\"\n}",
+    "current_version": "v1"
+  },
+  {
+    "item_id": "H04",
+    "question": "Qual o limite atual da politica taxi?",
+    "document": {
+      "id": "taxi-v1",
+      "family": "taxi",
+      "version": "v1",
+      "limit": 280,
+      "text": "Politica taxi da Horizonte. Limite autorizado: 280 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\"limite\": 280, \"fonte\": \"Horizonte\"}",
+    "current_version": "v1"
+  },
+  {
+    "item_id": "H05",
+    "question": "Qual o limite atual da politica viagem?",
+    "document": {
+      "id": "viagem-v1",
+      "family": "viagem",
+      "version": "v1",
+      "limit": 250,
+      "text": "Politica viagem da Horizonte. Limite autorizado: 250 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\n  \"limite\": 250,\n  \"fonte\": \"viagem-v1\"\n}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H06",
+    "question": "Qual o limite atual da politica hospedagem?",
+    "document": {
+      "id": "hospedagem-v1",
+      "family": "hospedagem",
+      "version": "v1",
+      "limit": 260,
+      "text": "Politica hospedagem da Horizonte. Limite autorizado: 260 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\n  \"limite\": 260,\n  \"fonte\": \"hospedagem-v1\"\n}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H07",
+    "question": "Qual o limite atual da politica alimentacao?",
+    "document": {
+      "id": "alimentacao-v1",
+      "family": "alimentacao",
+      "version": "v1",
+      "limit": 270,
+      "text": "Politica alimentacao da Horizonte. Limite autorizado: 270 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\n  \"limite\": 270,\n  \"fonte\": \"Documento\"\n}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H08",
+    "question": "Qual o limite atual da politica taxi?",
+    "document": {
+      "id": "taxi-v1",
+      "family": "taxi",
+      "version": "v1",
+      "limit": 280,
+      "text": "Politica taxi da Horizonte. Limite autorizado: 280 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\"limite\": 280, \"fonte\": \"Horizonte\"}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H09",
+    "question": "Qual o limite atual da politica viagem?",
+    "document": {
+      "id": "viagem-v1",
+      "family": "viagem",
+      "version": "v1",
+      "limit": 250,
+      "text": "Politica viagem da Horizonte. Limite autorizado: 250 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\n  \"limite\": 250,\n  \"fonte\": \"viagem-v1\"\n}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H10",
+    "question": "Qual o limite atual da politica hospedagem?",
+    "document": {
+      "id": "hospedagem-v1",
+      "family": "hospedagem",
+      "version": "v1",
+      "limit": 260,
+      "text": "Politica hospedagem da Horizonte. Limite autorizado: 260 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\n  \"limite\": 260,\n  \"fonte\": \"hospedagem-v1\"\n}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H11",
+    "question": "Qual o limite atual da politica alimentacao?",
+    "document": {
+      "id": "alimentacao-v1",
+      "family": "alimentacao",
+      "version": "v1",
+      "limit": 270,
+      "text": "Politica alimentacao da Horizonte. Limite autorizado: 270 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\n  \"limite\": 270,\n  \"fonte\": \"Documento\"\n}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H12",
+    "question": "Qual o limite atual da politica taxi?",
+    "document": {
+      "id": "taxi-v1",
+      "family": "taxi",
+      "version": "v1",
+      "limit": 280,
+      "text": "Politica taxi da Horizonte. Limite autorizado: 280 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\"limite\": 280, \"fonte\": \"Horizonte\"}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H13",
+    "question": "Qual o limite atual da politica viagem?",
+    "document": {
+      "id": "viagem-v1",
+      "family": "viagem",
+      "version": "v1",
+      "limit": 250,
+      "text": "Politica viagem da Horizonte. Limite autorizado: 250 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\n  \"limite\": 250,\n  \"fonte\": \"viagem-v1\"\n}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H14",
+    "question": "Qual o limite atual da politica hospedagem?",
+    "document": {
+      "id": "hospedagem-v1",
+      "family": "hospedagem",
+      "version": "v1",
+      "limit": 260,
+      "text": "Politica hospedagem da Horizonte. Limite autorizado: 260 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\n  \"limite\": 260,\n  \"fonte\": \"hospedagem-v1\"\n}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H15",
+    "question": "Qual o limite atual da politica alimentacao?",
+    "document": {
+      "id": "alimentacao-v1",
+      "family": "alimentacao",
+      "version": "v1",
+      "limit": 270,
+      "text": "Politica alimentacao da Horizonte. Limite autorizado: 270 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\n  \"limite\": 270,\n  \"fonte\": \"Documento\"\n}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H16",
+    "question": "Qual o limite atual da politica taxi?",
+    "document": {
+      "id": "taxi-v1",
+      "family": "taxi",
+      "version": "v1",
+      "limit": 280,
+      "text": "Politica taxi da Horizonte. Limite autorizado: 280 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\"limite\": 280, \"fonte\": \"Horizonte\"}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H17",
+    "question": "Qual o limite atual da politica viagem?",
+    "document": {
+      "id": "viagem-v1",
+      "family": "viagem",
+      "version": "v1",
+      "limit": 250,
+      "text": "Politica viagem da Horizonte. Limite autorizado: 250 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\n  \"limite\": 250,\n  \"fonte\": \"viagem-v1\"\n}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H18",
+    "question": "Qual o limite atual da politica hospedagem?",
+    "document": {
+      "id": "hospedagem-v1",
+      "family": "hospedagem",
+      "version": "v1",
+      "limit": 260,
+      "text": "Politica hospedagem da Horizonte. Limite autorizado: 260 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\n  \"limite\": 260,\n  \"fonte\": \"hospedagem-v1\"\n}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H19",
+    "question": "Qual o limite atual da politica alimentacao?",
+    "document": {
+      "id": "alimentacao-v1",
+      "family": "alimentacao",
+      "version": "v1",
+      "limit": 270,
+      "text": "Politica alimentacao da Horizonte. Limite autorizado: 270 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\n  \"limite\": 270,\n  \"fonte\": \"Documento\"\n}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H20",
+    "question": "Qual o limite atual da politica taxi?",
+    "document": {
+      "id": "taxi-v1",
+      "family": "taxi",
+      "version": "v1",
+      "limit": 280,
+      "text": "Politica taxi da Horizonte. Limite autorizado: 280 reais. A excecao anterior esta vigente."
+    },
+    "response": "{\"limite\": 280, \"fonte\": \"Horizonte\"}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H21",
+    "question": "Qual o limite atual da politica viagem?",
+    "document": {
+      "id": "viagem-v2",
+      "family": "viagem",
+      "version": "v2",
+      "limit": 120,
+      "text": "Politica viagem da Horizonte. Limite autorizado: 120 reais. A excecao anterior esta revogada."
+    },
+    "response": "{\n  \"limite\": 120,\n  \"fonte\": \"viagem-v2\"\n}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H22",
+    "question": "Qual o limite atual da politica hospedagem?",
+    "document": {
+      "id": "hospedagem-v2",
+      "family": "hospedagem",
+      "version": "v2",
+      "limit": 130,
+      "text": "Politica hospedagem da Horizonte. Limite autorizado: 130 reais. A excecao anterior esta revogada."
+    },
+    "response": "{\n  \"limite\": 130,\n  \"fonte\": \"hospedagem-v2\"\n}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H23",
+    "question": "Qual o limite atual da politica alimentacao?",
+    "document": {
+      "id": "alimentacao-v2",
+      "family": "alimentacao",
+      "version": "v2",
+      "limit": 140,
+      "text": "Politica alimentacao da Horizonte. Limite autorizado: 140 reais. A excecao anterior esta revogada."
+    },
+    "response": "{\n  \"limite\": 140,\n  \"fonte\": \"Documento\"\n}",
+    "current_version": "v2"
+  },
+  {
+    "item_id": "H24",
+    "question": "Qual o limite atual da politica taxi?",
+    "document": {
+      "id": "taxi-v2",
+      "family": "taxi",
+      "version": "v2",
+      "limit": 150,
+      "text": "Politica taxi da Horizonte. Limite autorizado: 150 reais. A excecao anterior esta revogada."
+    },
+    "response": "{\"limite\": 150, \"fonte\": \"Horizonte\"}",
+    "current_version": "v2"
+  }
+]

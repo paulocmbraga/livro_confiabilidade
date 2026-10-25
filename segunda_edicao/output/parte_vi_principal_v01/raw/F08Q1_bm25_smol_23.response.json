@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"O que precisamos de uma descanso para o banco de horas?\",\n  \"citacoes\": [\n    \"DOCUMENTOS: [DIS-08] versão 2026-10: O banco de horas não altera a política de férias nem o limite de hospedagem.\",\n    \"DOCUMENTOS: [DESCANSO] versão 2026-10: Banco de horas: saldo positivo a"
+      }
+    }
+  ],
+  "created": 1792879333,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 389,
+    "total_tokens": 517,
+    "prompt_tokens_details": {
+      "cached_tokens": 173
+    }
+  },
+  "id": "chatcmpl-hHSGObLgEEVLFbGRsVgwBz1o49FtCLFA",
+  "timings": {
+    "cache_n": 173,
+    "prompt_n": 216,
+    "prompt_ms": 1069.958,
+    "prompt_per_token_ms": 4.95350925925926,
+    "prompt_per_second": 201.87708302568882,
+    "predicted_n": 128,
+    "predicted_ms": 2507.065,
+    "predicted_per_token_ms": 19.740669291338584,
+    "predicted_per_second": 50.656843759535555
+  }
+}

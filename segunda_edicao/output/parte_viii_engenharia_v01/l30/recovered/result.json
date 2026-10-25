@@ -1,0 +1,82 @@
+[
+  {
+    "intent": "A1",
+    "message_id": "1792884393030-0",
+    "source": "claim",
+    "deliveries": 2,
+    "outcome": "receipt",
+    "age_ms": 2769.2222595214844
+  },
+  {
+    "intent": "A2",
+    "message_id": "1792884393159-0",
+    "source": "new",
+    "deliveries": 1,
+    "outcome": "applied",
+    "age_ms": 2948.758125305176
+  },
+  {
+    "intent": "A3",
+    "message_id": "1792884393436-0",
+    "source": "new",
+    "deliveries": 1,
+    "outcome": "applied",
+    "age_ms": 3040.3058528900146
+  },
+  {
+    "intent": "B1",
+    "message_id": "1792884393534-0",
+    "source": "new",
+    "deliveries": 1,
+    "outcome": "applied",
+    "age_ms": 3244.8062896728516
+  },
+  {
+    "intent": "B2",
+    "message_id": "1792884393643-0",
+    "source": "new",
+    "deliveries": 1,
+    "outcome": "applied",
+    "age_ms": 3464.9152755737305
+  },
+  {
+    "intent": "P",
+    "message_id": "1792884393777-0",
+    "source": "new",
+    "deliveries": 1,
+    "outcome": "retry_pending",
+    "age_ms": 3546.5681552886963
+  },
+  {
+    "intent": "P",
+    "message_id": "1792884393777-0",
+    "source": "claim",
+    "deliveries": 2,
+    "outcome": "retry_pending",
+    "age_ms": 3647.987127304077
+  },
+  {
+    "intent": "C",
+    "message_id": "1792884393886-0",
+    "source": "new",
+    "deliveries": 1,
+    "outcome": "cancelled",
+    "age_ms": 3953.784704208374
+  },
+  {
+    "intent": "P",
+    "message_id": "1792884393777-0",
+    "source": "claim",
+    "deliveries": 3,
+    "outcome": "dead_letter",
+    "age_ms": 4374.920129776001
+  },
+  {
+    "intent": "A1",
+    "message_id": "1792884393996-0",
+    "source": "new",
+    "deliveries": 1,
+    "outcome": "receipt",
+    "age_ms": 4397.038459777832
+  }
+]

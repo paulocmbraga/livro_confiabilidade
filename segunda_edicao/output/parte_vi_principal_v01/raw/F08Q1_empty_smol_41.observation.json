@@ -1,0 +1,31 @@
+{
+  "id": "F08Q1_empty_smol_41",
+  "query_id": "F08Q1",
+  "family": "F08",
+  "model": "smol",
+  "seed": 41,
+  "variant": "empty",
+  "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 2.3760004999348894,
+  "parsed": null,
+  "error": "finish_reason não é stop",
+  "observed": {
+    "valid": false,
+    "all_required_delivered": false,
+    "source_loss_known": false,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

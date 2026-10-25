@@ -1,0 +1,586 @@
+[
+  {
+    "id": "prime_viagem",
+    "mode": "prime",
+    "text": "{\n  \"limite\": 250,\n  \"fonte\": \"viagem-v1\"\n}",
+    "doc": {
+      "id": "viagem-v1",
+      "family": "viagem",
+      "version": "v1",
+      "limit": 250,
+      "text": "Politica viagem da Horizonte. Limite autorizado: 250 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    },
+    "current": "v1",
+    "delivered": true,
+    "structural": true
+  },
+  {
+    "id": "prime_hospedagem",
+    "mode": "prime",
+    "text": "{\n  \"limite\": 260,\n  \"fonte\": \"hospedagem-v1\"\n}",
+    "doc": {
+      "id": "hospedagem-v1",
+      "family": "hospedagem",
+      "version": "v1",
+      "limit": 260,
+      "text": "Politica hospedagem da Horizonte. Limite autorizado: 260 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    },
+    "current": "v1",
+    "delivered": true,
+    "structural": true
+  },
+  {
+    "id": "prime_alimentacao",
+    "mode": "prime",
+    "text": "{\n  \"limite\": 270,\n  \"fonte\": \"Documento\"\n}",
+    "doc": {
+      "id": "alimentacao-v1",
+      "family": "alimentacao",
+      "version": "v1",
+      "limit": 270,
+      "text": "Politica alimentacao da Horizonte. Limite autorizado: 270 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    },
+    "current": "v1",
+    "delivered": true,
+    "structural": false
+  },
+  {
+    "id": "prime_taxi",
+    "mode": "prime",
+    "text": "{\"limite\": 280, \"fonte\": \"Horizonte\"}",
+    "doc": {
+      "id": "taxi-v1",
+      "family": "taxi",
+      "version": "v1",
+      "limit": 280,
+      "text": "Politica taxi da Horizonte. Limite autorizado: 280 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    },
+    "current": "v1",
+    "delivered": true,
+    "structural": false
+  },
+  {
+    "id": "stale_cache_viagem",
+    "mode": "stale_cache",
+    "text": "{\n  \"limite\": 250,\n  \"fonte\": \"viagem-v1\"\n}",
+    "doc": {
+      "id": "viagem-v1",
+      "family": "viagem",
+      "version": "v1",
+      "limit": 250,
+      "text": "Politica viagem da Horizonte. Limite autorizado: 250 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v2",
+      "index": "v2",
+      "cache": "v1",
+      "prompt": "v2"
+    },
+    "current": "v2",
+    "delivered": true,
+    "version_valid": false,
+    "structural": true,
+    "timing": {}
+  },
+  {
+    "id": "stale_cache_hospedagem",
+    "mode": "stale_cache",
+    "text": "{\n  \"limite\": 260,\n  \"fonte\": \"hospedagem-v1\"\n}",
+    "doc": {
+      "id": "hospedagem-v1",
+      "family": "hospedagem",
+      "version": "v1",
+      "limit": 260,
+      "text": "Politica hospedagem da Horizonte. Limite autorizado: 260 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v2",
+      "index": "v2",
+      "cache": "v1",
+      "prompt": "v2"
+    },
+    "current": "v2",
+    "delivered": true,
+    "version_valid": false,
+    "structural": true,
+    "timing": {}
+  },
+  {
+    "id": "stale_cache_alimentacao",
+    "mode": "stale_cache",
+    "text": "{\n  \"limite\": 270,\n  \"fonte\": \"Documento\"\n}",
+    "doc": {
+      "id": "alimentacao-v1",
+      "family": "alimentacao",
+      "version": "v1",
+      "limit": 270,
+      "text": "Politica alimentacao da Horizonte. Limite autorizado: 270 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v2",
+      "index": "v2",
+      "cache": "v1",
+      "prompt": "v2"
+    },
+    "current": "v2",
+    "delivered": true,
+    "version_valid": false,
+    "structural": false,
+    "timing": {}
+  },
+  {
+    "id": "stale_cache_taxi",
+    "mode": "stale_cache",
+    "text": "{\"limite\": 280, \"fonte\": \"Horizonte\"}",
+    "doc": {
+      "id": "taxi-v1",
+      "family": "taxi",
+      "version": "v1",
+      "limit": 280,
+      "text": "Politica taxi da Horizonte. Limite autorizado: 280 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v2",
+      "index": "v2",
+      "cache": "v1",
+      "prompt": "v2"
+    },
+    "current": "v2",
+    "delivered": true,
+    "version_valid": false,
+    "structural": false,
+    "timing": {}
+  },
+  {
+    "id": "mixed_index_viagem",
+    "mode": "mixed_index",
+    "text": "{\n  \"limite\": 250,\n  \"fonte\": \"viagem-v1\"\n}",
+    "doc": {
+      "id": "viagem-v1",
+      "family": "viagem",
+      "version": "v1",
+      "limit": 250,
+      "text": "Politica viagem da Horizonte. Limite autorizado: 250 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v2",
+      "index": "v1",
+      "cache": "v2",
+      "prompt": "v2"
+    },
+    "current": "v2",
+    "delivered": true,
+    "version_valid": false,
+    "structural": true,
+    "timing": {}
+  },
+  {
+    "id": "mixed_index_hospedagem",
+    "mode": "mixed_index",
+    "text": "{\n  \"limite\": 260,\n  \"fonte\": \"hospedagem-v1\"\n}",
+    "doc": {
+      "id": "hospedagem-v1",
+      "family": "hospedagem",
+      "version": "v1",
+      "limit": 260,
+      "text": "Politica hospedagem da Horizonte. Limite autorizado: 260 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v2",
+      "index": "v1",
+      "cache": "v2",
+      "prompt": "v2"
+    },
+    "current": "v2",
+    "delivered": true,
+    "version_valid": false,
+    "structural": true,
+    "timing": {}
+  },
+  {
+    "id": "mixed_index_alimentacao",
+    "mode": "mixed_index",
+    "text": "{\n  \"limite\": 270,\n  \"fonte\": \"Documento\"\n}",
+    "doc": {
+      "id": "alimentacao-v1",
+      "family": "alimentacao",
+      "version": "v1",
+      "limit": 270,
+      "text": "Politica alimentacao da Horizonte. Limite autorizado: 270 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v2",
+      "index": "v1",
+      "cache": "v2",
+      "prompt": "v2"
+    },
+    "current": "v2",
+    "delivered": true,
+    "version_valid": false,
+    "structural": false,
+    "timing": {}
+  },
+  {
+    "id": "mixed_index_taxi",
+    "mode": "mixed_index",
+    "text": "{\"limite\": 280, \"fonte\": \"Horizonte\"}",
+    "doc": {
+      "id": "taxi-v1",
+      "family": "taxi",
+      "version": "v1",
+      "limit": 280,
+      "text": "Politica taxi da Horizonte. Limite autorizado: 280 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v2",
+      "index": "v1",
+      "cache": "v2",
+      "prompt": "v2"
+    },
+    "current": "v2",
+    "delivered": true,
+    "version_valid": false,
+    "structural": false,
+    "timing": {}
+  },
+  {
+    "id": "race_unprotected_viagem",
+    "mode": "race_unprotected",
+    "text": "{\n  \"limite\": 250,\n  \"fonte\": \"viagem-v1\"\n}",
+    "doc": {
+      "id": "viagem-v1",
+      "family": "viagem",
+      "version": "v1",
+      "limit": 250,
+      "text": "Politica viagem da Horizonte. Limite autorizado: 250 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    },
+    "current": "v2",
+    "delivered": true,
+    "version_valid": false,
+    "structural": true,
+    "timing": {
+      "begin": 936503.8427269,
+      "updated": 936503.8935148,
+      "end": 936504.9096287,
+      "update_during_flight": true
+    }
+  },
+  {
+    "id": "race_unprotected_hospedagem",
+    "mode": "race_unprotected",
+    "text": "{\n  \"limite\": 260,\n  \"fonte\": \"hospedagem-v1\"\n}",
+    "doc": {
+      "id": "hospedagem-v1",
+      "family": "hospedagem",
+      "version": "v1",
+      "limit": 260,
+      "text": "Politica hospedagem da Horizonte. Limite autorizado: 260 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    },
+    "current": "v2",
+    "delivered": true,
+    "version_valid": false,
+    "structural": true,
+    "timing": {
+      "begin": 936504.9099418,
+      "updated": 936504.9609627,
+      "end": 936506.0707771,
+      "update_during_flight": true
+    }
+  },
+  {
+    "id": "race_unprotected_alimentacao",
+    "mode": "race_unprotected",
+    "text": "{\n  \"limite\": 270,\n  \"fonte\": \"Documento\"\n}",
+    "doc": {
+      "id": "alimentacao-v1",
+      "family": "alimentacao",
+      "version": "v1",
+      "limit": 270,
+      "text": "Politica alimentacao da Horizonte. Limite autorizado: 270 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    },
+    "current": "v2",
+    "delivered": true,
+    "version_valid": false,
+    "structural": false,
+    "timing": {
+      "begin": 936506.0711498,
+      "updated": 936506.1221593,
+      "end": 936507.1621497,
+      "update_during_flight": true
+    }
+  },
+  {
+    "id": "race_unprotected_taxi",
+    "mode": "race_unprotected",
+    "text": "{\"limite\": 280, \"fonte\": \"Horizonte\"}",
+    "doc": {
+      "id": "taxi-v1",
+      "family": "taxi",
+      "version": "v1",
+      "limit": 280,
+      "text": "Politica taxi da Horizonte. Limite autorizado: 280 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    },
+    "current": "v2",
+    "delivered": true,
+    "version_valid": false,
+    "structural": false,
+    "timing": {
+      "begin": 936507.1625306,
+      "updated": 936507.2134641,
+      "end": 936508.1311408,
+      "update_during_flight": true
+    }
+  },
+  {
+    "id": "race_protected_viagem",
+    "mode": "race_protected",
+    "text": "{\n  \"limite\": 250,\n  \"fonte\": \"viagem-v1\"\n}",
+    "doc": {
+      "id": "viagem-v1",
+      "family": "viagem",
+      "version": "v1",
+      "limit": 250,
+      "text": "Politica viagem da Horizonte. Limite autorizado: 250 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    },
+    "current": "v2",
+    "delivered": false,
+    "version_valid": false,
+    "structural": true,
+    "timing": {
+      "begin": 936508.1315502,
+      "updated": 936508.1823967,
+      "end": 936509.1735003,
+      "update_during_flight": true
+    }
+  },
+  {
+    "id": "race_protected_hospedagem",
+    "mode": "race_protected",
+    "text": "{\n  \"limite\": 260,\n  \"fonte\": \"hospedagem-v1\"\n}",
+    "doc": {
+      "id": "hospedagem-v1",
+      "family": "hospedagem",
+      "version": "v1",
+      "limit": 260,
+      "text": "Politica hospedagem da Horizonte. Limite autorizado: 260 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    },
+    "current": "v2",
+    "delivered": false,
+    "version_valid": false,
+    "structural": true,
+    "timing": {
+      "begin": 936509.1738653,
+      "updated": 936509.224541,
+      "end": 936510.436779,
+      "update_during_flight": true
+    }
+  },
+  {
+    "id": "race_protected_alimentacao",
+    "mode": "race_protected",
+    "text": "{\n  \"limite\": 270,\n  \"fonte\": \"Documento\"\n}",
+    "doc": {
+      "id": "alimentacao-v1",
+      "family": "alimentacao",
+      "version": "v1",
+      "limit": 270,
+      "text": "Politica alimentacao da Horizonte. Limite autorizado: 270 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    },
+    "current": "v2",
+    "delivered": false,
+    "version_valid": false,
+    "structural": false,
+    "timing": {
+      "begin": 936510.4371136,
+      "updated": 936510.4879504,
+      "end": 936511.5291127,
+      "update_during_flight": true
+    }
+  },
+  {
+    "id": "race_protected_taxi",
+    "mode": "race_protected",
+    "text": "{\"limite\": 280, \"fonte\": \"Horizonte\"}",
+    "doc": {
+      "id": "taxi-v1",
+      "family": "taxi",
+      "version": "v1",
+      "limit": 280,
+      "text": "Politica taxi da Horizonte. Limite autorizado: 280 reais. A excecao anterior esta vigente."
+    },
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    },
+    "current": "v2",
+    "delivered": false,
+    "version_valid": false,
+    "structural": false,
+    "timing": {
+      "begin": 936511.5295102,
+      "updated": 936511.5804039,
+      "end": 936512.4861366,
+      "update_during_flight": true
+    }
+  },
+  {
+    "id": "fresh_viagem",
+    "mode": "fresh",
+    "text": "{\n  \"limite\": 120,\n  \"fonte\": \"viagem-v2\"\n}",
+    "doc": {
+      "id": "viagem-v2",
+      "family": "viagem",
+      "version": "v2",
+      "limit": 120,
+      "text": "Politica viagem da Horizonte. Limite autorizado: 120 reais. A excecao anterior esta revogada."
+    },
+    "bundle": {
+      "corpus": "v2",
+      "index": "v2",
+      "cache": "v2",
+      "prompt": "v2"
+    },
+    "current": "v2",
+    "delivered": true,
+    "version_valid": true,
+    "structural": true,
+    "timing": {}
+  },
+  {
+    "id": "fresh_hospedagem",
+    "mode": "fresh",
+    "text": "{\n  \"limite\": 130,\n  \"fonte\": \"hospedagem-v2\"\n}",
+    "doc": {
+      "id": "hospedagem-v2",
+      "family": "hospedagem",
+      "version": "v2",
+      "limit": 130,
+      "text": "Politica hospedagem da Horizonte. Limite autorizado: 130 reais. A excecao anterior esta revogada."
+    },
+    "bundle": {
+      "corpus": "v2",
+      "index": "v2",
+      "cache": "v2",
+      "prompt": "v2"
+    },
+    "current": "v2",
+    "delivered": true,
+    "version_valid": true,
+    "structural": true,
+    "timing": {}
+  },
+  {
+    "id": "fresh_alimentacao",
+    "mode": "fresh",
+    "text": "{\n  \"limite\": 140,\n  \"fonte\": \"Documento\"\n}",
+    "doc": {
+      "id": "alimentacao-v2",
+      "family": "alimentacao",
+      "version": "v2",
+      "limit": 140,
+      "text": "Politica alimentacao da Horizonte. Limite autorizado: 140 reais. A excecao anterior esta revogada."
+    },
+    "bundle": {
+      "corpus": "v2",
+      "index": "v2",
+      "cache": "v2",
+      "prompt": "v2"
+    },
+    "current": "v2",
+    "delivered": true,
+    "version_valid": true,
+    "structural": false,
+    "timing": {}
+  },
+  {
+    "id": "fresh_taxi",
+    "mode": "fresh",
+    "text": "{\"limite\": 150, \"fonte\": \"Horizonte\"}",
+    "doc": {
+      "id": "taxi-v2",
+      "family": "taxi",
+      "version": "v2",
+      "limit": 150,
+      "text": "Politica taxi da Horizonte. Limite autorizado: 150 reais. A excecao anterior esta revogada."
+    },
+    "bundle": {
+      "corpus": "v2",
+      "index": "v2",
+      "cache": "v2",
+      "prompt": "v2"
+    },
+    "current": "v2",
+    "delivered": true,
+    "version_valid": true,
+    "structural": false,
+    "timing": {}
+  }
+]

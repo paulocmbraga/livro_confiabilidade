@@ -1,0 +1,120 @@
+{
+  "id": "l20_audio2_noise_16k_oracle",
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Extract the final total amount, in reais, from this representation. Return JSON {\"value\": number}. Do not sum subtotal and total. Representation: O valor total é de setenta e nove reais e cinquenta centavos."
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "stream": true,
+    "cache_prompt": false,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "answer",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "value"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "configuration": {
+    "model": "l11-qwen",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "schema": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "value"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "config_sha256": "63e8d097bb7a9868169976dc240600e8c6f080407dffee5cba66ad386c9c631d",
+  "events": [
+    {
+      "seconds": 0.4323318999959156,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792871015,\"id\":\"chatcmpl-l2rXrWyZiaxoDQYJ5ZtIA4bbou217goK\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4323992000427097,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"{\\\"\"}}],\"created\":1792871015,\"id\":\"chatcmpl-l2rXrWyZiaxoDQYJ5ZtIA4bbou217goK\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.44855870003812015,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"value\"}}],\"created\":1792871015,\"id\":\"chatcmpl-l2rXrWyZiaxoDQYJ5ZtIA4bbou217goK\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.46629070001654327,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"\\\":\"}}],\"created\":1792871015,\"id\":\"chatcmpl-l2rXrWyZiaxoDQYJ5ZtIA4bbou217goK\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.48451270000077784,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" \"}}],\"created\":1792871015,\"id\":\"chatcmpl-l2rXrWyZiaxoDQYJ5ZtIA4bbou217goK\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.49985410005319864,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"7\"}}],\"created\":1792871015,\"id\":\"chatcmpl-l2rXrWyZiaxoDQYJ5ZtIA4bbou217goK\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5152561999857426,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"5\"}}],\"created\":1792871015,\"id\":\"chatcmpl-l2rXrWyZiaxoDQYJ5ZtIA4bbou217goK\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5308114000363275,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\".\"}}],\"created\":1792871015,\"id\":\"chatcmpl-l2rXrWyZiaxoDQYJ5ZtIA4bbou217goK\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5471011000918224,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"0\"}}],\"created\":1792871015,\"id\":\"chatcmpl-l2rXrWyZiaxoDQYJ5ZtIA4bbou217goK\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5632048000115901,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"}\"}}],\"created\":1792871015,\"id\":\"chatcmpl-l2rXrWyZiaxoDQYJ5ZtIA4bbou217goK\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5780418000649661,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792871015,\"id\":\"chatcmpl-l2rXrWyZiaxoDQYJ5ZtIA4bbou217goK\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":77,\"prompt_ms\":428.641,\"prompt_per_token_ms\":5.566766233766234,\"prompt_per_second\":179.63750551160527,\"predicted_n\":10,\"predicted_ms\":145.741,\"predicted_per_token_ms\":16.193444444444445,\"predicted_per_second\":61.75338442854103}}"
+    },
+    {
+      "seconds": 0.5781371000921354,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "{\"value\": 75.0}",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 9,
+  "ttft_seconds": 0.4324165000580251,
+  "seconds": 0.5783231999957934,
+  "injected_cut_after_content_events": null
+}

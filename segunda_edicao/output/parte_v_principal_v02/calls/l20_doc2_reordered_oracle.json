@@ -1,0 +1,124 @@
+{
+  "id": "l20_doc2_reordered_oracle",
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Extract the final total amount, in reais, from this representation. Return JSON {\"value\": number}. Do not sum subtotal and total. Representation: INVOICE 002 Total 79.50 Tax 9.50 Subtotal 70.00"
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "stream": true,
+    "cache_prompt": false,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "answer",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "value"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "configuration": {
+    "model": "l11-qwen",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "schema": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "value"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "config_sha256": "63e8d097bb7a9868169976dc240600e8c6f080407dffee5cba66ad386c9c631d",
+  "events": [
+    {
+      "seconds": 0.48477939993608743,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792871006,\"id\":\"chatcmpl-2oQuynHO912bI7cXkZSk5MsG9qviklos\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.48483819991815835,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"{\\\"\"}}],\"created\":1792871006,\"id\":\"chatcmpl-2oQuynHO912bI7cXkZSk5MsG9qviklos\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5011885999701917,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"value\"}}],\"created\":1792871006,\"id\":\"chatcmpl-2oQuynHO912bI7cXkZSk5MsG9qviklos\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5171435999218374,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"\\\":\"}}],\"created\":1792871006,\"id\":\"chatcmpl-2oQuynHO912bI7cXkZSk5MsG9qviklos\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5324622999178246,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" \"}}],\"created\":1792871006,\"id\":\"chatcmpl-2oQuynHO912bI7cXkZSk5MsG9qviklos\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5476130999159068,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"8\"}}],\"created\":1792871006,\"id\":\"chatcmpl-2oQuynHO912bI7cXkZSk5MsG9qviklos\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5634387999307364,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"8\"}}],\"created\":1792871006,\"id\":\"chatcmpl-2oQuynHO912bI7cXkZSk5MsG9qviklos\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5799187999218702,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\".\"}}],\"created\":1792871006,\"id\":\"chatcmpl-2oQuynHO912bI7cXkZSk5MsG9qviklos\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5954154999926686,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"0\"}}],\"created\":1792871006,\"id\":\"chatcmpl-2oQuynHO912bI7cXkZSk5MsG9qviklos\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.6109114999417216,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"0\"}}],\"created\":1792871006,\"id\":\"chatcmpl-2oQuynHO912bI7cXkZSk5MsG9qviklos\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.6269787999335676,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"}\"}}],\"created\":1792871006,\"id\":\"chatcmpl-2oQuynHO912bI7cXkZSk5MsG9qviklos\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.6438652999931946,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792871006,\"id\":\"chatcmpl-2oQuynHO912bI7cXkZSk5MsG9qviklos\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":84,\"prompt_ms\":481.769,\"prompt_per_token_ms\":5.735345238095238,\"prompt_per_second\":174.3574202574263,\"predicted_n\":11,\"predicted_ms\":159.045,\"predicted_per_token_ms\":15.904499999999999,\"predicted_per_second\":62.87528686849634}}"
+    },
+    {
+      "seconds": 0.6439647999359295,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "{\"value\": 88.00}",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 10,
+  "ttft_seconds": 0.48485489992890507,
+  "seconds": 0.6441625999286771,
+  "injected_cut_after_content_events": null
+}

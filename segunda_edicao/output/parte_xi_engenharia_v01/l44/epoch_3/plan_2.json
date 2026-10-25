@@ -1,0 +1,81 @@
+{
+  "request": {
+    "model": "smol",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reserve somente authorized=true e quantity=1. Caso contrario hold. Pedido: {\"quantity\": 1, \"authorized\": false}"
+      }
+    ],
+    "temperature": 0,
+    "seed": 441,
+    "max_tokens": 100,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "result",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "enum": [
+                "reserve",
+                "hold"
+              ]
+            },
+            "quantity": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "action",
+            "quantity"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "cache_prompt": false
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"action\": \"reserve\", \"quantity\": 1}"
+        }
+      }
+    ],
+    "created": 1792949910,
+    "model": "smol",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 62,
+      "total_tokens": 76,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-PRro5kTv8LsK3LZCj5dMjKmIBhthWfLb",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 62,
+      "prompt_ms": 286.421,
+      "prompt_per_token_ms": 4.6196935483870964,
+      "prompt_per_second": 216.46457487404905,
+      "predicted_n": 14,
+      "predicted_ms": 230.215,
+      "predicted_per_token_ms": 17.708846153846153,
+      "predicted_per_second": 56.46895293529961
+    }
+  },
+  "seconds": 0.5238443999551237,
+  "text": "{\"action\": \"reserve\", \"quantity\": 1}",
+  "finish": "stop"
+}

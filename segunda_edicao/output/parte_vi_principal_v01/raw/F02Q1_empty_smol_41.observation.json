@@ -1,0 +1,31 @@
+{
+  "id": "F02Q1_empty_smol_41",
+  "query_id": "F02Q1",
+  "family": "F02",
+  "model": "smol",
+  "seed": 41,
+  "variant": "empty",
+  "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 2.5511559000005946,
+  "parsed": null,
+  "error": "finish_reason não é stop",
+  "observed": {
+    "valid": false,
+    "all_required_delivered": false,
+    "source_loss_known": false,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

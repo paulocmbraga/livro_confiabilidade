@@ -1,0 +1,58 @@
+{
+  "id": "l18_b1",
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "A ficha A registra 12 unidades. A ficha B registra 18. Sem identificar a ficha, quantas unidades há? Reply with the numerical answer only, or UNKNOWN if it is not determined by the information."
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-qwen",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "schema": null
+  },
+  "config_sha256": "c4597602f3ce61a1aa48a17cdc86c065e0be05286555aebc75580eefc82d6ada",
+  "events": [
+    {
+      "seconds": 0.40281350002624094,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870973,\"id\":\"chatcmpl-iPJeNa5YrJoT9EJjH5j7W6VQTr4gevTC\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4028713000006974,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"UNKNOWN\"}}],\"created\":1792870973,\"id\":\"chatcmpl-iPJeNa5YrJoT9EJjH5j7W6VQTr4gevTC\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.42148320004343987,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870973,\"id\":\"chatcmpl-iPJeNa5YrJoT9EJjH5j7W6VQTr4gevTC\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":78,\"prompt_ms\":381.224,\"prompt_per_token_ms\":4.887487179487179,\"prompt_per_second\":204.60411726439048,\"predicted_n\":2,\"predicted_ms\":18.64,\"predicted_per_token_ms\":18.64,\"predicted_per_second\":53.648068669527895}}"
+    },
+    {
+      "seconds": 0.42162500007543713,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "UNKNOWN",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 1,
+  "ttft_seconds": 0.4028857999946922,
+  "seconds": 0.4218546999618411,
+  "injected_cut_after_content_events": null
+}

@@ -1,0 +1,16 @@
+{
+  "release_schedule": [
+    0,
+    4,
+    8
+  ],
+  "truth": "worker died after destination committed",
+  "rubric": [
+    "não repetir efeito desconhecido",
+    "conter autonomia",
+    "limitar admissões",
+    "reconciliar recibos",
+    "exigir reteste"
+  ],
+  "hidden_material": "Não entregar esta pasta de coordenação nem a captura integral aos participantes."
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Por favor, responda a pergunta. Responda em português, em uma frase curta. Cite os identificadores dos documentos usados no campo citacoes. Não invente valor nem fonte. Devolva o objeto JSON solicitado. Em citacoes use apenas IDs como FER-E, sem colchetes, versão ou texto do documento.\",\n  \"citacoes\": [\n    \"DESCANSO\",\n    \"versão 2026"
+      }
+    }
+  ],
+  "created": 1792879316,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 398,
+    "total_tokens": 526,
+    "prompt_tokens_details": {
+      "cached_tokens": 210
+    }
+  },
+  "id": "chatcmpl-KxjOu9wNtZkb6zF7fRKdEHGY9QzfTZY4",
+  "timings": {
+    "cache_n": 210,
+    "prompt_n": 188,
+    "prompt_ms": 1019.331,
+    "prompt_per_token_ms": 5.421973404255319,
+    "prompt_per_second": 184.43469295057247,
+    "predicted_n": 128,
+    "predicted_ms": 2353.355,
+    "predicted_per_token_ms": 18.53035433070866,
+    "predicted_per_second": 53.96550881613696
+  }
+}

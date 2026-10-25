@@ -1,0 +1,43 @@
+{
+  "groups": {
+    "prime": {
+      "n": 4,
+      "delivered": 4,
+      "stale_exposed": 0,
+      "structural": 2
+    },
+    "stale_cache": {
+      "n": 4,
+      "delivered": 4,
+      "stale_exposed": 4,
+      "structural": 2
+    },
+    "mixed_index": {
+      "n": 4,
+      "delivered": 4,
+      "stale_exposed": 4,
+      "structural": 2
+    },
+    "race_unprotected": {
+      "n": 4,
+      "delivered": 4,
+      "stale_exposed": 4,
+      "structural": 2
+    },
+    "race_protected": {
+      "n": 4,
+      "delivered": 0,
+      "stale_exposed": 0,
+      "structural": 2
+    },
+    "fresh": {
+      "n": 4,
+      "delivered": 4,
+      "stale_exposed": 0,
+      "structural": 2
+    }
+  },
+  "seconds": 20.930146500002593,
+  "human_support": "pending",
+  "load_profile": "closed loop, 1 inference in flight; update concurrent"
+}

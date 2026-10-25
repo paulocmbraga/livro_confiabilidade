@@ -1,0 +1,77 @@
+{
+  "request": {
+    "model": "smol",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Responda somente JSON com limite inteiro em reais e fonte (ID exato). Use o documento, sem conhecimento externo. Documento: {\"id\": \"viagem-v2\", \"family\": \"viagem\", \"version\": \"v2\", \"limit\": 120, \"text\": \"Politica viagem da Horizonte. Limite autorizado: 120 reais. A excecao anterior esta revogada.\"}"
+      }
+    ],
+    "temperature": 0,
+    "seed": 441,
+    "max_tokens": 100,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "result",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "limite": {
+              "type": "integer"
+            },
+            "fonte": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "limite",
+            "fonte"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "cache_prompt": false
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"limite\": 120, \"fonte\": \"id=viagem-v2&version=v2&limit=120&text=Politica viagem da Horizonte. Limite autorizado: 120 reais. A excecao anterior esta revogada.\"}"
+        }
+      }
+    ],
+    "created": 1792950045,
+    "model": "smol",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 75,
+      "prompt_tokens": 146,
+      "total_tokens": 221,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-MXWqOPJ8SQDeiFwzpSY4PsKR8E04aY9c",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 146,
+      "prompt_ms": 533.661,
+      "prompt_per_token_ms": 3.655212328767123,
+      "prompt_per_second": 273.58191810906175,
+      "predicted_n": 75,
+      "predicted_ms": 1156.976,
+      "predicted_per_token_ms": 15.634810810810812,
+      "predicted_per_second": 63.959840134972545
+    }
+  },
+  "seconds": 1.7079633000539616,
+  "text": "{\"limite\": 120, \"fonte\": \"id=viagem-v2&version=v2&limit=120&text=Politica viagem da Horizonte. Limite autorizado: 120 reais. A excecao anterior esta revogada.\"}",
+  "finish": "stop"
+}

@@ -1,0 +1,131 @@
+{
+  "blocked": {
+    "ok": false,
+    "reason": "open_obligations"
+  },
+  "receipt": {
+    "ok": true,
+    "receipt": {
+      "id": "fault-43",
+      "quantity": 1,
+      "contract": "v1"
+    },
+    "current": "v1"
+  },
+  "ack": {
+    "ok": true,
+    "receipt": {
+      "id": "fault-43",
+      "quantity": 1,
+      "contract": "v1"
+    }
+  },
+  "migrated": {
+    "ok": true,
+    "current": "v2"
+  },
+  "old_contract": {
+    "_meta": {
+      "io.modelcontextprotocol/serverInfo": {
+        "name": "L43 reservas persistentes",
+        "version": "1.0"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"ok\": false,\n  \"reason\": \"current_contract\"\n}",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false,
+    "resultType": "complete"
+  },
+  "final": {
+    "current": "v2",
+    "intents": [
+      {
+        "id": "agent-0",
+        "quantity": 1,
+        "contract": "v1",
+        "status": "done"
+      },
+      {
+        "id": "agent-3",
+        "quantity": 1,
+        "contract": "v1",
+        "status": "done"
+      },
+      {
+        "id": "agent-4",
+        "quantity": 1,
+        "contract": "v1",
+        "status": "done"
+      },
+      {
+        "id": "fault-43",
+        "quantity": 1,
+        "contract": "v1",
+        "status": "done"
+      },
+      {
+        "id": "workflow-0",
+        "quantity": 1,
+        "contract": "v1",
+        "status": "done"
+      },
+      {
+        "id": "workflow-3",
+        "quantity": 1,
+        "contract": "v1",
+        "status": "done"
+      },
+      {
+        "id": "workflow-4",
+        "quantity": 1,
+        "contract": "v1",
+        "status": "done"
+      }
+    ],
+    "receipts": [
+      {
+        "id": "agent-0",
+        "quantity": 1,
+        "contract": "v1"
+      },
+      {
+        "id": "agent-3",
+        "quantity": 1,
+        "contract": "v1"
+      },
+      {
+        "id": "agent-4",
+        "quantity": 1,
+        "contract": "v1"
+      },
+      {
+        "id": "fault-43",
+        "quantity": 1,
+        "contract": "v1"
+      },
+      {
+        "id": "workflow-0",
+        "quantity": 1,
+        "contract": "v1"
+      },
+      {
+        "id": "workflow-3",
+        "quantity": 1,
+        "contract": "v1"
+      },
+      {
+        "id": "workflow-4",
+        "quantity": 1,
+        "contract": "v1"
+      }
+    ]
+  },
+  "seconds": 1.219389499980025
+}

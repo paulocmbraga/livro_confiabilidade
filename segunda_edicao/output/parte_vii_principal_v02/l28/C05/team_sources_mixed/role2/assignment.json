@@ -1,0 +1,11 @@
+{
+  "case_id": "C05",
+  "condition": "team_sources_mixed",
+  "role": "auditor",
+  "model": "qwen",
+  "packet": {
+    "source": "stale-v1",
+    "limit": 100,
+    "amount": 30
+  }
+}

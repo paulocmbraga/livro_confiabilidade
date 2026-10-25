@@ -1,0 +1,16 @@
+{
+  "job": "job1",
+  "attempt": "a2",
+  "mode": "lookup",
+  "token": 2,
+  "pid": 10000,
+  "status": 404,
+  "reply": {
+    "effect": "unknown",
+    "reason": "not_observed"
+  },
+  "outcome": "unknown",
+  "ledger_updated": true,
+  "seconds": 0.20519790006801486,
+  "error": null
+}

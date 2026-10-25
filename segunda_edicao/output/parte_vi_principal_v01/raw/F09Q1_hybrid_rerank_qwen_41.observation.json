@@ -1,0 +1,42 @@
+{
+  "id": "F09Q1_hybrid_rerank_qwen_41",
+  "query_id": "F09Q1",
+  "family": "F09",
+  "model": "qwen",
+  "seed": 41,
+  "variant": "hybrid_rerank",
+  "question": "Qual teto de jantar durante plantão noturno autorizado?",
+  "context": {
+    "text": "[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.\n\n[REF-T] versão 2026-10: Tabela de refeição em viagem: almoço R$ 45; jantar R$ 55. A nota de rodapé não foi extraída.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+    "ids": [
+      "DIS-09",
+      "REF-T",
+      "FER-G"
+    ],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 140
+  },
+  "seconds": 1.917314299964346,
+  "parsed": {
+    "resposta": "Não há autorização para teto de jantar durante plantão noturno, conforme a legislação mencionada.",
+    "citacoes": [
+      "[DIS-09]",
+      "FER-G"
+    ],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": true,
+    "source_loss_known": true,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": true,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

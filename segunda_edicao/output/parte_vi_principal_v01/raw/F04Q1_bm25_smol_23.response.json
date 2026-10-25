@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Prazer para a viagem!\\nPrazer para a viagem!\\nPrazer para a viagem!\\nPrazer para a viagem!\\nPrazer para a viagem!\\nPrazer para a viagem!\\nPrazer para a viagem!\\nPrazer para a viagem!\\nPrazer para a viagem!\\nPrazer para a viagem!\\nPrazer para a viagem!"
+      }
+    }
+  ],
+  "created": 1792879363,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 395,
+    "total_tokens": 523,
+    "prompt_tokens_details": {
+      "cached_tokens": 275
+    }
+  },
+  "id": "chatcmpl-qAVONhuEs4TwuYJ0MXha2d3HART5f4fx",
+  "timings": {
+    "cache_n": 275,
+    "prompt_n": 120,
+    "prompt_ms": 660.127,
+    "prompt_per_token_ms": 5.501058333333333,
+    "prompt_per_second": 181.78320232318933,
+    "predicted_n": 128,
+    "predicted_ms": 2356.268,
+    "predicted_per_token_ms": 18.553291338582678,
+    "predicted_per_second": 53.898792497288085
+  }
+}

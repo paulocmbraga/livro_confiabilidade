@@ -1,0 +1,11 @@
+{
+  "case_id": "C05",
+  "condition": "single_stale",
+  "role": "analista",
+  "model": "qwen",
+  "packet": {
+    "source": "stale-v1",
+    "limit": 100,
+    "amount": 30
+  }
+}

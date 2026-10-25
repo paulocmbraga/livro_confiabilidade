@@ -1,0 +1,22 @@
+{
+  "event": {
+    "metadata": {
+      "task_id": "1295845d-a190-4178-a7cb-36f74aaa28da",
+      "context_id": "a81e6001-41d4-4fd8-96dd-6cbd17f88082",
+      "intent": "intent-A27",
+      "contract": "v1",
+      "audience": "review-consumer"
+    },
+    "event_id": "regression",
+    "sequence": 2,
+    "status": "working"
+  },
+  "result": "terminal_regression",
+  "state": {
+    "seen": [
+      "event1"
+    ],
+    "sequence": 1,
+    "status": "completed"
+  }
+}

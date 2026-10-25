@@ -1,0 +1,62 @@
+{
+  "id": "l18_judge_b1",
+  "request": {
+    "model": "l11-smol",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Is the proposed answer supported and correct? Reply PASS or FAIL only. Task: A ficha A registra 12 unidades. A ficha B registra 18. Sem identificar a ficha, quantas unidades há? Proposed answer: UNKNOWN"
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-smol",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "schema": null
+  },
+  "config_sha256": "2abc44e9c620f81ef7716e1339e79a4d2a174906d8badac1bd47f1bbb74d4674",
+  "events": [
+    {
+      "seconds": 0.38944709999486804,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870761,\"id\":\"chatcmpl-4qRe1NpYJx33ZXtVawNASt8ONUUbZbv1\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3895125000271946,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"P\"}}],\"created\":1792870761,\"id\":\"chatcmpl-4qRe1NpYJx33ZXtVawNASt8ONUUbZbv1\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4040310999844223,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"ASS\"}}],\"created\":1792870761,\"id\":\"chatcmpl-4qRe1NpYJx33ZXtVawNASt8ONUUbZbv1\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.41761730005964637,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870761,\"id\":\"chatcmpl-4qRe1NpYJx33ZXtVawNASt8ONUUbZbv1\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":95,\"prompt_ms\":367.318,\"prompt_per_token_ms\":3.8665052631578947,\"prompt_per_second\":258.63148552480413,\"predicted_n\":3,\"predicted_ms\":28.177,\"predicted_per_token_ms\":14.0885,\"predicted_per_second\":70.97987720481244}}"
+    },
+    {
+      "seconds": 0.4177255000686273,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "PASS",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 2,
+  "ttft_seconds": 0.3895287000341341,
+  "seconds": 0.417943499982357,
+  "injected_cut_after_content_events": null
+}

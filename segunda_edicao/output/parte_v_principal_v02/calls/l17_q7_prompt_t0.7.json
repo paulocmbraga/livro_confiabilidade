@@ -1,0 +1,106 @@
+{
+  "id": "l17_q7_prompt_t0.7",
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Extract exactly the signed integer quantity from this order: quantity=7. Return only JSON with key quantity."
+      }
+    ],
+    "temperature": 0.7,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 80,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-qwen",
+    "temperature": 0.7,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 80,
+    "schema": null
+  },
+  "config_sha256": "3613577a39cd0124c3d023ed3b96f72a4167c39093130eb9510e1b3762ec0793",
+  "events": [
+    {
+      "seconds": 0.2844100999645889,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870965,\"id\":\"chatcmpl-cShs9S7ZRwDAy8bMrQiPwdwJfghgnAQZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.28446799993980676,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"```\"}}],\"created\":1792870965,\"id\":\"chatcmpl-cShs9S7ZRwDAy8bMrQiPwdwJfghgnAQZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.2998142000287771,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"json\"}}],\"created\":1792870965,\"id\":\"chatcmpl-cShs9S7ZRwDAy8bMrQiPwdwJfghgnAQZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3144386999774724,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"\\n\"}}],\"created\":1792870965,\"id\":\"chatcmpl-cShs9S7ZRwDAy8bMrQiPwdwJfghgnAQZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3288310000207275,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"{\\n\"}}],\"created\":1792870965,\"id\":\"chatcmpl-cShs9S7ZRwDAy8bMrQiPwdwJfghgnAQZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3432304000016302,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" \"}}],\"created\":1792870965,\"id\":\"chatcmpl-cShs9S7ZRwDAy8bMrQiPwdwJfghgnAQZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.357837799936533,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" \\\"\"}}],\"created\":1792870965,\"id\":\"chatcmpl-cShs9S7ZRwDAy8bMrQiPwdwJfghgnAQZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.37248010002076626,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"quantity\"}}],\"created\":1792870965,\"id\":\"chatcmpl-cShs9S7ZRwDAy8bMrQiPwdwJfghgnAQZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.38721960003022105,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"\\\":\"}}],\"created\":1792870965,\"id\":\"chatcmpl-cShs9S7ZRwDAy8bMrQiPwdwJfghgnAQZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.40393699996639043,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" \"}}],\"created\":1792870965,\"id\":\"chatcmpl-cShs9S7ZRwDAy8bMrQiPwdwJfghgnAQZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.42076599993743,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"7\"}}],\"created\":1792870965,\"id\":\"chatcmpl-cShs9S7ZRwDAy8bMrQiPwdwJfghgnAQZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4360140999779105,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"\\n\"}}],\"created\":1792870965,\"id\":\"chatcmpl-cShs9S7ZRwDAy8bMrQiPwdwJfghgnAQZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.45088909997139126,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"}\\n\"}}],\"created\":1792870965,\"id\":\"chatcmpl-cShs9S7ZRwDAy8bMrQiPwdwJfghgnAQZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.46576579997781664,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"```\"}}],\"created\":1792870965,\"id\":\"chatcmpl-cShs9S7ZRwDAy8bMrQiPwdwJfghgnAQZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4805857000174001,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870965,\"id\":\"chatcmpl-cShs9S7ZRwDAy8bMrQiPwdwJfghgnAQZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":48,\"prompt_ms\":266.883,\"prompt_per_token_ms\":5.5600625,\"prompt_per_second\":179.85409336675625,\"predicted_n\":14,\"predicted_ms\":196.1,\"predicted_per_token_ms\":15.084615384615384,\"predicted_per_second\":66.29270780214176}}"
+    },
+    {
+      "seconds": 0.480657699983567,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "```json\n{\n  \"quantity\": 7\n}\n```",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 13,
+  "ttft_seconds": 0.28448219993151724,
+  "seconds": 0.48092719994019717,
+  "injected_cut_after_content_events": null
+}

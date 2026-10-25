@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"O teto de bagagem em trabalho de campo nacional com equipamento autorizado é R$ 480 por diária, inclusive em Recife.\",\"citacoes\": [\"[DIS-10]\",\"[HOT-E]\",\"[BAG-T]\"],\"abster\": true}"
+      }
+    }
+  ],
+  "created": 1792879264,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 318,
+    "total_tokens": 387,
+    "prompt_tokens_details": {
+      "cached_tokens": 136
+    }
+  },
+  "id": "chatcmpl-F7WM46cS4bf9y3BXBduJLXjy02gFZ5vj",
+  "timings": {
+    "cache_n": 136,
+    "prompt_n": 182,
+    "prompt_ms": 1246.611,
+    "prompt_per_token_ms": 6.84951098901099,
+    "prompt_per_second": 145.9958238776972,
+    "predicted_n": 69,
+    "predicted_ms": 1488.72,
+    "predicted_per_token_ms": 21.89294117647059,
+    "predicted_per_second": 45.67682304261379
+  }
+}

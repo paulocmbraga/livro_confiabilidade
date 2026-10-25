@@ -1,0 +1,58 @@
+{
+  "id": "l18_c3",
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Uma entrega está prevista para amanhã. Sem outros dados, quantas unidades chegarão? Reply with the numerical answer only, or UNKNOWN if it is not determined by the information."
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-qwen",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "schema": null
+  },
+  "config_sha256": "c4597602f3ce61a1aa48a17cdc86c065e0be05286555aebc75580eefc82d6ada",
+  "events": [
+    {
+      "seconds": 0.36894860002212226,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870717,\"id\":\"chatcmpl-H1sheA8gFhBKmGjTbbzWNtA9e8s2pfRt\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3690091000171378,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"UNKNOWN\"}}],\"created\":1792870717,\"id\":\"chatcmpl-H1sheA8gFhBKmGjTbbzWNtA9e8s2pfRt\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.38424389995634556,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870717,\"id\":\"chatcmpl-H1sheA8gFhBKmGjTbbzWNtA9e8s2pfRt\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":67,\"prompt_ms\":366.051,\"prompt_per_token_ms\":5.46344776119403,\"prompt_per_second\":183.03460446768347,\"predicted_n\":2,\"predicted_ms\":15.332,\"predicted_per_token_ms\":15.332,\"predicted_per_second\":65.22306287503261}}"
+    },
+    {
+      "seconds": 0.3843345999484882,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "UNKNOWN",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 1,
+  "ttft_seconds": 0.369023900013417,
+  "seconds": 0.3845279000233859,
+  "injected_cut_after_content_events": null
+}

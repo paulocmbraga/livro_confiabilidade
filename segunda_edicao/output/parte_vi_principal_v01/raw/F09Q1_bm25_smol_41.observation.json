@@ -1,0 +1,35 @@
+{
+  "id": "F09Q1_bm25_smol_41",
+  "query_id": "F09Q1",
+  "family": "F09",
+  "model": "smol",
+  "seed": 41,
+  "variant": "bm25",
+  "question": "Qual teto de jantar durante plantão noturno autorizado?",
+  "context": {
+    "text": "[DIS-02] versão 2026-10: Refeições no escritório são servidas entre 12h e 14h. A escala de plantão é publicada pela operação.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+    "ids": [
+      "DIS-02",
+      "DIS-09",
+      "HOT-E"
+    ],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 185
+  },
+  "seconds": 2.387128100031987,
+  "parsed": null,
+  "error": "finish_reason não é stop",
+  "observed": {
+    "valid": false,
+    "all_required_delivered": false,
+    "source_loss_known": true,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

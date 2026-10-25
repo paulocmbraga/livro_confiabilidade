@@ -1,0 +1,37 @@
+{
+  "id": "F12Q1_empty_smol_23",
+  "query_id": "F12Q1",
+  "family": "F12",
+  "model": "smol",
+  "seed": 23,
+  "variant": "empty",
+  "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 2.290029100026004,
+  "parsed": {
+    "resposta": "Para obter informações sobre a taxa de juros do financiamento de carro, você deve usar o documento: https://www.horizonte.gov.br/finance/transport/car-prices.html",
+    "citacoes": [
+      "https://www.horizonte.gov.br/finance/transport/car-prices.html"
+    ],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": null,
+    "source_loss_known": null,
+    "reference_evidence_available": null,
+    "abstention_matches_reference": true,
+    "answer_lexical_signal": false,
+    "citations_present": true,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

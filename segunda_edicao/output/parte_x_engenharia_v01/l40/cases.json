@@ -1,0 +1,300 @@
+[
+  {
+    "name": "valid",
+    "evidence": {
+      "body": {
+        "candidate": "candidate-v1",
+        "population": "synthetic-reserve",
+        "environment": "loopback-sqlite",
+        "evaluator": "oracle-v1",
+        "contract": "effects-v1",
+        "issued": 10,
+        "expires": 30,
+        "assumption_expires": 25,
+        "observed_claim": "no-open-effects",
+        "outcome": "passed",
+        "unresolved": 0
+      },
+      "digest": "b8abcb307aa6b28db7cd2e46d9d98f076a33047d2de349fd932864a21873af5e"
+    },
+    "decision": {
+      "supported": true,
+      "reasons": []
+    }
+  },
+  {
+    "name": "old",
+    "evidence": {
+      "body": {
+        "candidate": "candidate-v1",
+        "population": "synthetic-reserve",
+        "environment": "loopback-sqlite",
+        "evaluator": "oracle-v1",
+        "contract": "effects-v1",
+        "issued": 10,
+        "expires": 19,
+        "assumption_expires": 25,
+        "observed_claim": "no-open-effects",
+        "outcome": "passed",
+        "unresolved": 0
+      },
+      "digest": "d940accc3971810a9b72b5ea5d2acaafd720f2a43ca30f378b5520f17b485ff5"
+    },
+    "decision": {
+      "supported": false,
+      "reasons": [
+        "validity"
+      ]
+    }
+  },
+  {
+    "name": "wrong_model",
+    "evidence": {
+      "body": {
+        "candidate": "candidate-v2",
+        "population": "synthetic-reserve",
+        "environment": "loopback-sqlite",
+        "evaluator": "oracle-v1",
+        "contract": "effects-v1",
+        "issued": 10,
+        "expires": 30,
+        "assumption_expires": 25,
+        "observed_claim": "no-open-effects",
+        "outcome": "passed",
+        "unresolved": 0
+      },
+      "digest": "9689fa0c24f749842910b27a377fe81ed7db516f295dc7896a6849a9647deab3"
+    },
+    "decision": {
+      "supported": false,
+      "reasons": [
+        "candidate"
+      ]
+    }
+  },
+  {
+    "name": "expired_assumption",
+    "evidence": {
+      "body": {
+        "candidate": "candidate-v1",
+        "population": "synthetic-reserve",
+        "environment": "loopback-sqlite",
+        "evaluator": "oracle-v1",
+        "contract": "effects-v1",
+        "issued": 10,
+        "expires": 30,
+        "assumption_expires": 20,
+        "observed_claim": "no-open-effects",
+        "outcome": "passed",
+        "unresolved": 0
+      },
+      "digest": "52a1238a93e0c90c781bdc41e4ed01eb0ed682871f7564d8efe2d78ea1f75c76"
+    },
+    "decision": {
+      "supported": false,
+      "reasons": [
+        "assumption"
+      ]
+    }
+  },
+  {
+    "name": "wrong_population",
+    "evidence": {
+      "body": {
+        "candidate": "candidate-v1",
+        "population": "development",
+        "environment": "loopback-sqlite",
+        "evaluator": "oracle-v1",
+        "contract": "effects-v1",
+        "issued": 10,
+        "expires": 30,
+        "assumption_expires": 25,
+        "observed_claim": "no-open-effects",
+        "outcome": "passed",
+        "unresolved": 0
+      },
+      "digest": "679ceba1bc659bfbe61cfdebe9150f771f092c9aaa02daa3e6f2bd7f1cbf60da"
+    },
+    "decision": {
+      "supported": false,
+      "reasons": [
+        "population"
+      ]
+    }
+  },
+  {
+    "name": "wrong_evaluator",
+    "evidence": {
+      "body": {
+        "candidate": "candidate-v1",
+        "population": "synthetic-reserve",
+        "environment": "loopback-sqlite",
+        "evaluator": "judge-v9",
+        "contract": "effects-v1",
+        "issued": 10,
+        "expires": 30,
+        "assumption_expires": 25,
+        "observed_claim": "no-open-effects",
+        "outcome": "passed",
+        "unresolved": 0
+      },
+      "digest": "6222926a5263336f4ced64b4f6e5f4f8594f294f8adae2f3b20604ef120f3ff7"
+    },
+    "decision": {
+      "supported": false,
+      "reasons": [
+        "evaluator"
+      ]
+    }
+  },
+  {
+    "name": "failed",
+    "evidence": {
+      "body": {
+        "candidate": "candidate-v1",
+        "population": "synthetic-reserve",
+        "environment": "loopback-sqlite",
+        "evaluator": "oracle-v1",
+        "contract": "effects-v1",
+        "issued": 10,
+        "expires": 30,
+        "assumption_expires": 25,
+        "observed_claim": "no-open-effects",
+        "outcome": "failed",
+        "unresolved": 0
+      },
+      "digest": "dd287340e65ae64ae4dd2d88e1cc710dcf20f51db92e2b83166c09597704e1ad"
+    },
+    "decision": {
+      "supported": false,
+      "reasons": [
+        "result"
+      ]
+    }
+  },
+  {
+    "name": "open",
+    "evidence": {
+      "body": {
+        "candidate": "candidate-v1",
+        "population": "synthetic-reserve",
+        "environment": "loopback-sqlite",
+        "evaluator": "oracle-v1",
+        "contract": "effects-v1",
+        "issued": 10,
+        "expires": 30,
+        "assumption_expires": 25,
+        "observed_claim": "no-open-effects",
+        "outcome": "passed",
+        "unresolved": 1
+      },
+      "digest": "27a495a41cbcda6d5dae630410ff30ca90e430e60b169cb0862c8d017649f51b"
+    },
+    "decision": {
+      "supported": false,
+      "reasons": [
+        "unresolved"
+      ]
+    }
+  },
+  {
+    "name": "wrong_environment",
+    "evidence": {
+      "body": {
+        "candidate": "candidate-v1",
+        "population": "synthetic-reserve",
+        "environment": "production",
+        "evaluator": "oracle-v1",
+        "contract": "effects-v1",
+        "issued": 10,
+        "expires": 30,
+        "assumption_expires": 25,
+        "observed_claim": "no-open-effects",
+        "outcome": "passed",
+        "unresolved": 0
+      },
+      "digest": "9e8dfe043c06528d3dc91133f63d94def00567178c4753df9fe734101bdda631"
+    },
+    "decision": {
+      "supported": false,
+      "reasons": [
+        "environment"
+      ]
+    }
+  },
+  {
+    "name": "future",
+    "evidence": {
+      "body": {
+        "candidate": "candidate-v1",
+        "population": "synthetic-reserve",
+        "environment": "loopback-sqlite",
+        "evaluator": "oracle-v1",
+        "contract": "effects-v1",
+        "issued": 21,
+        "expires": 30,
+        "assumption_expires": 25,
+        "observed_claim": "no-open-effects",
+        "outcome": "passed",
+        "unresolved": 0
+      },
+      "digest": "9a51167491a6a8c34b8c22b201409bf8c456af81069185d9c27547629f9559f6"
+    },
+    "decision": {
+      "supported": false,
+      "reasons": [
+        "validity"
+      ]
+    }
+  },
+  {
+    "name": "wrong_contract",
+    "evidence": {
+      "body": {
+        "candidate": "candidate-v1",
+        "population": "synthetic-reserve",
+        "environment": "loopback-sqlite",
+        "evaluator": "oracle-v1",
+        "contract": "effects-v2",
+        "issued": 10,
+        "expires": 30,
+        "assumption_expires": 25,
+        "observed_claim": "no-open-effects",
+        "outcome": "passed",
+        "unresolved": 0
+      },
+      "digest": "f624758bde4e72308f2f8524c0deccff9f2dfeff849c7d70fb7b0310425165d2"
+    },
+    "decision": {
+      "supported": false,
+      "reasons": [
+        "contract"
+      ]
+    }
+  },
+  {
+    "name": "corrupt",
+    "evidence": {
+      "body": {
+        "candidate": "candidate-v1",
+        "population": "synthetic-reserve",
+        "environment": "loopback-sqlite",
+        "evaluator": "oracle-v1",
+        "contract": "effects-v1",
+        "issued": 10,
+        "expires": 30,
+        "assumption_expires": 25,
+        "observed_claim": "no-open-effects",
+        "outcome": "passed",
+        "unresolved": 0
+      },
+      "digest": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "decision": {
+      "supported": false,
+      "reasons": [
+        "integrity"
+      ]
+    }
+  }
+]

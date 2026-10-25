@@ -1,0 +1,21 @@
+{
+  "job": "job2",
+  "attempt": "a2",
+  "mode": "execute",
+  "token": 1,
+  "pid": 2940,
+  "status": 200,
+  "reply": {
+    "action": "reserve",
+    "effect": "applied",
+    "effect_id": 2,
+    "hash": "b3d8ae20fff5a34f0f13e87da9efeed9911b47b3a04d6cd2ed10dae374814bde",
+    "intent": "pedido-1",
+    "key": "chave-pos-restore",
+    "tenant": "horizonte"
+  },
+  "outcome": "confirmed",
+  "ledger_updated": true,
+  "seconds": 0.2471642999444157,
+  "error": null
+}

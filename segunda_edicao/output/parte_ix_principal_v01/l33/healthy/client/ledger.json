@@ -1,0 +1,230 @@
+[
+  {
+    "task": "healthy-0",
+    "role": "client",
+    "trace_id": "b1fe411f40a18888379ffe0ddad8a17c",
+    "span_id": "6d8d8b6e7e048348",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886700896459700,
+    "response": {
+      "task": "healthy-0",
+      "role": "service",
+      "trace_id": "b1fe411f40a18888379ffe0ddad8a17c",
+      "span_id": "3d74226e858d4402",
+      "parent_id": "6d8d8b6e7e048348",
+      "sampled": true,
+      "recorded_ns": 1792886700948241900,
+      "effect": "receipt-healthy-0"
+    }
+  },
+  {
+    "task": "healthy-1",
+    "role": "client",
+    "trace_id": "c9d9a4ea80fae045f201439cdfc6ebad",
+    "span_id": "04601ecfe70b93a3",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886700980457500,
+    "response": {
+      "task": "healthy-1",
+      "role": "service",
+      "trace_id": "c9d9a4ea80fae045f201439cdfc6ebad",
+      "span_id": "cae0033948be7378",
+      "parent_id": "04601ecfe70b93a3",
+      "sampled": true,
+      "recorded_ns": 1792886700981955800,
+      "effect": "receipt-healthy-1"
+    }
+  },
+  {
+    "task": "healthy-2",
+    "role": "client",
+    "trace_id": "82baa4ad45c67457698348ed2b3d4915",
+    "span_id": "ae393dd4e0296201",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886700988874500,
+    "response": {
+      "task": "healthy-2",
+      "role": "service",
+      "trace_id": "82baa4ad45c67457698348ed2b3d4915",
+      "span_id": "18d0ae3e41d08c47",
+      "parent_id": "ae393dd4e0296201",
+      "sampled": true,
+      "recorded_ns": 1792886701000912300,
+      "effect": "receipt-healthy-2"
+    }
+  },
+  {
+    "task": "healthy-3",
+    "role": "client",
+    "trace_id": "64875ea740a4f054456a02f725cd520e",
+    "span_id": "1fd52957edacafa7",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886701008204100,
+    "response": {
+      "task": "healthy-3",
+      "role": "service",
+      "trace_id": "64875ea740a4f054456a02f725cd520e",
+      "span_id": "15093545322c2d44",
+      "parent_id": "1fd52957edacafa7",
+      "sampled": true,
+      "recorded_ns": 1792886701009263900,
+      "effect": "receipt-healthy-3"
+    }
+  },
+  {
+    "task": "healthy-4",
+    "role": "client",
+    "trace_id": "c4aeffbc42ebf32be4d9cf46a4f6a816",
+    "span_id": "c250a0cf7f97575e",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886701014678400,
+    "response": {
+      "task": "healthy-4",
+      "role": "service",
+      "trace_id": "c4aeffbc42ebf32be4d9cf46a4f6a816",
+      "span_id": "fb07b9b38ce74aba",
+      "parent_id": "c250a0cf7f97575e",
+      "sampled": true,
+      "recorded_ns": 1792886701016267800,
+      "effect": "receipt-healthy-4"
+    }
+  },
+  {
+    "task": "healthy-5",
+    "role": "client",
+    "trace_id": "01c006cc99705a077e0f23ca206b4e6b",
+    "span_id": "1da08152536b0c56",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886701022482400,
+    "response": {
+      "task": "healthy-5",
+      "role": "service",
+      "trace_id": "01c006cc99705a077e0f23ca206b4e6b",
+      "span_id": "bbedca4a321653f3",
+      "parent_id": "1da08152536b0c56",
+      "sampled": true,
+      "recorded_ns": 1792886701047308200,
+      "effect": "receipt-healthy-5"
+    }
+  },
+  {
+    "task": "healthy-6",
+    "role": "client",
+    "trace_id": "2b8a8e9e7215462daa9bea025723389a",
+    "span_id": "0a54c64578781c4c",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886701053311100,
+    "response": {
+      "task": "healthy-6",
+      "role": "service",
+      "trace_id": "2b8a8e9e7215462daa9bea025723389a",
+      "span_id": "50a7ce8d2e657c06",
+      "parent_id": "0a54c64578781c4c",
+      "sampled": true,
+      "recorded_ns": 1792886701065154100,
+      "effect": "receipt-healthy-6"
+    }
+  },
+  {
+    "task": "healthy-7",
+    "role": "client",
+    "trace_id": "78c573228e6142885a5841d8f8cfcf91",
+    "span_id": "8e826e4fbc6aec43",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886701071374500,
+    "response": {
+      "task": "healthy-7",
+      "role": "service",
+      "trace_id": "78c573228e6142885a5841d8f8cfcf91",
+      "span_id": "9cb2d77a9c06dd38",
+      "parent_id": "8e826e4fbc6aec43",
+      "sampled": true,
+      "recorded_ns": 1792886701084789500,
+      "effect": "receipt-healthy-7"
+    }
+  },
+  {
+    "task": "healthy-8",
+    "role": "client",
+    "trace_id": "2596a97b836473028c2c85e15cc8ec2e",
+    "span_id": "a6e40d55ade9fe4d",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886701091826300,
+    "response": {
+      "task": "healthy-8",
+      "role": "service",
+      "trace_id": "2596a97b836473028c2c85e15cc8ec2e",
+      "span_id": "5e72fe1bcbc10491",
+      "parent_id": "a6e40d55ade9fe4d",
+      "sampled": true,
+      "recorded_ns": 1792886701092885500,
+      "effect": "receipt-healthy-8"
+    }
+  },
+  {
+    "task": "healthy-9",
+    "role": "client",
+    "trace_id": "d88ae5d7caeb08d19c7308cb61ae93d1",
+    "span_id": "68d392a1a4dde57d",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886701098607500,
+    "response": {
+      "task": "healthy-9",
+      "role": "service",
+      "trace_id": "d88ae5d7caeb08d19c7308cb61ae93d1",
+      "span_id": "e2f355067cd1175b",
+      "parent_id": "68d392a1a4dde57d",
+      "sampled": true,
+      "recorded_ns": 1792886701114112000,
+      "effect": "receipt-healthy-9"
+    }
+  },
+  {
+    "task": "healthy-10",
+    "role": "client",
+    "trace_id": "2240ccb529439b1fc220be7f26fd2e93",
+    "span_id": "d613ec7ae3f1d292",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886701120280100,
+    "response": {
+      "task": "healthy-10",
+      "role": "service",
+      "trace_id": "2240ccb529439b1fc220be7f26fd2e93",
+      "span_id": "7a3aa742eedd2029",
+      "parent_id": "d613ec7ae3f1d292",
+      "sampled": true,
+      "recorded_ns": 1792886701133164500,
+      "effect": "receipt-healthy-10"
+    }
+  },
+  {
+    "task": "healthy-11",
+    "role": "client",
+    "trace_id": "e9b7ad409bfa7916b06207abbba459a8",
+    "span_id": "11230766f186a049",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886701138294300,
+    "response": {
+      "task": "healthy-11",
+      "role": "service",
+      "trace_id": "e9b7ad409bfa7916b06207abbba459a8",
+      "span_id": "de5ee16eda13d377",
+      "parent_id": "11230766f186a049",
+      "sampled": true,
+      "recorded_ns": 1792886701150639800,
+      "effect": "receipt-healthy-11"
+    }
+  }
+]

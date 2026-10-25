@@ -1,0 +1,35 @@
+{
+  "id": "F03Q1_bm25_qwen_41",
+  "query_id": "F03Q1",
+  "family": "F03",
+  "model": "qwen",
+  "seed": 41,
+  "variant": "bm25",
+  "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+  "context": {
+    "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.\n\n[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+    "ids": [
+      "NET-NEW",
+      "BOL-A",
+      "BOL-B"
+    ],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 199
+  },
+  "seconds": 3.1321827000938356,
+  "parsed": null,
+  "error": "finish_reason não é stop",
+  "observed": {
+    "valid": false,
+    "all_required_delivered": true,
+    "source_loss_known": false,
+    "reference_evidence_available": true,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "T01",
+    "segment": "ordinary",
+    "http": 200,
+    "client_state": "success",
+    "contract": {
+      "authorized": true,
+      "expected_effects": 1
+    },
+    "observed": {
+      "foreign_effect": false,
+      "effect_count": 1,
+      "in_flight": false,
+      "destination_known": true,
+      "refused": false,
+      "text_supported": true,
+      "deadline_met": true
+    },
+    "name": "correto"
+  },
+  {
+    "id": "T02",
+    "segment": "ordinary",
+    "http": 200,
+    "client_state": "success",
+    "contract": {
+      "authorized": true,
+      "expected_effects": 1
+    },
+    "observed": {
+      "foreign_effect": false,
+      "effect_count": 0,
+      "in_flight": false,
+      "destination_known": true,
+      "refused": false,
+      "text_supported": true,
+      "deadline_met": true
+    },
+    "name": "texto_sem_efeito"
+  },
+  {
+    "id": "T03",
+    "segment": "critical",
+    "http": 200,
+    "client_state": "success",
+    "contract": {
+      "authorized": true,
+      "expected_effects": 1
+    },
+    "observed": {
+      "foreign_effect": true,
+      "effect_count": 1,
+      "in_flight": false,
+      "destination_known": true,
+      "refused": false,
+      "text_supported": true,
+      "deadline_met": true
+    },
+    "name": "destinatario_errado"
+  },
+  {
+    "id": "T04",
+    "segment": "critical",
+    "http": 200,
+    "client_state": "success",
+    "contract": {
+      "authorized": true,
+      "expected_effects": 1
+    },
+    "observed": {
+      "foreign_effect": false,
+      "effect_count": 2,
+      "in_flight": false,
+      "destination_known": true,
+      "refused": false,
+      "text_supported": true,
+      "deadline_met": true
+    },
+    "name": "duplicado"
+  },
+  {
+    "id": "T05",
+    "segment": "ordinary",
+    "http": 403,
+    "client_state": "abstained",
+    "contract": {
+      "authorized": false,
+      "expected_effects": 1
+    },
+    "observed": {
+      "foreign_effect": false,
+      "effect_count": 0,
+      "in_flight": false,
+      "destination_known": true,
+      "refused": true,
+      "text_supported": true,
+      "deadline_met": true
+    },
+    "name": "recusa_correta"
+  },
+  {
+    "id": "T06",
+    "segment": "ordinary",
+    "http": 200,
+    "client_state": "abstained",
+    "contract": {
+      "authorized": true,
+      "expected_effects": 1
+    },
+    "observed": {
+      "foreign_effect": false,
+      "effect_count": 0,
+      "in_flight": false,
+      "destination_known": true,
+      "refused": true,
+      "text_supported": true,
+      "deadline_met": true
+    },
+    "name": "recusa_indevida"
+  },
+  {
+    "id": "T07",
+    "segment": "ordinary",
+    "http": 202,
+    "client_state": "pending",
+    "contract": {
+      "authorized": true,
+      "expected_effects": 1
+    },
+    "observed": {
+      "foreign_effect": false,
+      "effect_count": 0,
+      "in_flight": true,
+      "destination_known": true,
+      "refused": false,
+      "text_supported": true,
+      "deadline_met": true
+    },
+    "name": "pendente"
+  },
+  {
+    "id": "T08",
+    "segment": "ordinary",
+    "http": 504,
+    "client_state": "unknown",
+    "contract": {
+      "authorized": true,
+      "expected_effects": 1
+    },
+    "observed": {
+      "foreign_effect": false,
+      "effect_count": null,
+      "in_flight": false,
+      "destination_known": false,
+      "refused": false,
+      "text_supported": true,
+      "deadline_met": true
+    },
+    "name": "destino_indisponivel"
+  },
+  {
+    "id": "T09",
+    "segment": "ordinary",
+    "http": 504,
+    "client_state": "unknown",
+    "contract": {
+      "authorized": true,
+      "expected_effects": 1
+    },
+    "observed": {
+      "foreign_effect": false,
+      "effect_count": 1,
+      "in_flight": false,
+      "destination_known": true,
+      "refused": false,
+      "text_supported": true,
+      "deadline_met": true
+    },
+    "name": "confirmacao_perdida"
+  },
+  {
+    "id": "T10",
+    "segment": "ordinary",
+    "http": 200,
+    "client_state": "success",
+    "contract": {
+      "authorized": true,
+      "expected_effects": 1
+    },
+    "observed": {
+      "foreign_effect": false,
+      "effect_count": 1,
+      "in_flight": false,
+      "destination_known": true,
+      "refused": false,
+      "text_supported": false,
+      "deadline_met": true
+    },
+    "name": "fonte_contradiz"
+  },
+  {
+    "id": "T11",
+    "segment": "ordinary",
+    "http": 200,
+    "client_state": "success",
+    "contract": {
+      "authorized": true,
+      "expected_effects": 1
+    },
+    "observed": {
+      "foreign_effect": false,
+      "effect_count": 1,
+      "in_flight": false,
+      "destination_known": true,
+      "refused": false,
+      "text_supported": true,
+      "deadline_met": false
+    },
+    "name": "fora_do_prazo"
+  },
+  {
+    "id": "T12",
+    "segment": "critical",
+    "http": 200,
+    "client_state": "success",
+    "contract": {
+      "authorized": false,
+      "expected_effects": 1
+    },
+    "observed": {
+      "foreign_effect": false,
+      "effect_count": 1,
+      "in_flight": false,
+      "destination_known": true,
+      "refused": false,
+      "text_supported": true,
+      "deadline_met": true
+    },
+    "name": "efeito_sem_autoridade"
+  }
+]

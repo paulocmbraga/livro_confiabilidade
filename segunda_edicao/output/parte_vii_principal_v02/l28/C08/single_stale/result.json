@@ -1,0 +1,19 @@
+{
+  "case": "C08",
+  "condition": "single_stale",
+  "split": "reserve",
+  "expected": true,
+  "decision": true,
+  "correct": true,
+  "abstained": false,
+  "completion_tokens": 31,
+  "prompt_tokens": 87,
+  "inference_seconds": 0.8427406999981031,
+  "calls": 1,
+  "unanimous": false,
+  "errors": [
+    false
+  ],
+  "pairs": 0,
+  "both_wrong": 0
+}

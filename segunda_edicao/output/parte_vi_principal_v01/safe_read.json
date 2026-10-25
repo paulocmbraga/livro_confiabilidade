@@ -1,0 +1,25 @@
+{
+  "pid": 6756,
+  "seconds": 0.37406830000691116,
+  "delivery": {
+    "status": "superseded",
+    "served": false,
+    "candidate": {
+      "tenant": "alpha",
+      "question": "Qual é o auxílio mensal para internet?",
+      "bundle": "v1",
+      "epoch": 1,
+      "auth_epoch": 0,
+      "bundle_hash": "6f7c6fc7867769ce27858bed045d3bddf6c5721f9a23dee46c491908215d23ab",
+      "embedding": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+      "index_version": "v1",
+      "answer": "O auxílio mensal para internet é R$ 90.",
+      "citations": [
+        "NET"
+      ],
+      "cache_hit": false,
+      "generator": "extractive-v1",
+      "prompt": "return-top1-text-v1"
+    }
+  }
+}

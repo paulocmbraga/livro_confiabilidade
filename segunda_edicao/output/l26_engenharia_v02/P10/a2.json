@@ -1,0 +1,16 @@
+{
+  "job": "job2",
+  "attempt": "a2",
+  "mode": "execute",
+  "token": 1,
+  "pid": 14204,
+  "status": 409,
+  "reply": {
+    "effect": "unknown",
+    "reason": "key_payload_mismatch"
+  },
+  "outcome": "unknown",
+  "ledger_updated": true,
+  "seconds": 0.26706430001650006,
+  "error": null
+}

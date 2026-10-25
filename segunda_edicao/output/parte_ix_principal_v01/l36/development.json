@@ -1,0 +1,1970 @@
+[
+  {
+    "task": "development-0",
+    "model": "smol",
+    "request": {
+      "model": "smol",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-0: conta inativa; valor 60; limite 50; bloqueio sim. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886812,
+      "model": "smol",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 136,
+        "total_tokens": 151,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-2S3OQvkpvzbdc9cV8HiGtBURAvPNetJe",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 136,
+        "prompt_ms": 629.141,
+        "prompt_per_token_ms": 4.626036764705882,
+        "prompt_per_second": 216.16775889665433,
+        "predicted_n": 15,
+        "predicted_ms": 254.063,
+        "predicted_per_token_ms": 18.147357142857143,
+        "predicted_per_second": 55.104442598882954
+      }
+    },
+    "elapsed": 0.8864860999165103,
+    "requested_ns": 1792886811764451400,
+    "value": "aprovar",
+    "reference": "revisar",
+    "acceptable": false,
+    "review_required": true,
+    "token_units": 151
+  },
+  {
+    "task": "development-0",
+    "model": "qwen",
+    "request": {
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-0: conta inativa; valor 60; limite 50; bloqueio sim. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886813,
+      "model": "qwen",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 18,
+        "prompt_tokens": 113,
+        "total_tokens": 131,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-D0ofsTx0FydPjED4LHM82JIXTB2R8TVX",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 113,
+        "prompt_ms": 702.518,
+        "prompt_per_token_ms": 6.2169734513274335,
+        "prompt_per_second": 160.84997110394323,
+        "predicted_n": 18,
+        "predicted_ms": 355.132,
+        "predicted_per_token_ms": 20.890117647058823,
+        "predicted_per_second": 47.86952457114538
+      }
+    },
+    "elapsed": 1.0698703000089154,
+    "requested_ns": 1792886812648095500,
+    "value": "aprovar",
+    "reference": "revisar",
+    "acceptable": false,
+    "review_required": true,
+    "token_units": 393
+  },
+  {
+    "task": "development-1",
+    "model": "smol",
+    "request": {
+      "model": "smol",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-1: conta ativa; valor 40; limite 50; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886814,
+      "model": "smol",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 16,
+        "prompt_tokens": 136,
+        "total_tokens": 152,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-nbOQjlI6hH2CSuiqHUc0PfmZ7bafVhlY",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 136,
+        "prompt_ms": 657.348,
+        "prompt_per_token_ms": 4.833441176470588,
+        "prompt_per_second": 206.89193547405637,
+        "predicted_n": 16,
+        "predicted_ms": 324.729,
+        "predicted_per_token_ms": 21.6486,
+        "predicted_per_second": 46.192363478469744
+      }
+    },
+    "elapsed": 0.9877989999949932,
+    "requested_ns": 1792886813716060200,
+    "value": "aprovar",
+    "reference": "aprovar",
+    "acceptable": true,
+    "review_required": true,
+    "token_units": 152
+  },
+  {
+    "task": "development-1",
+    "model": "qwen",
+    "request": {
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-1: conta ativa; valor 40; limite 50; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886815,
+      "model": "qwen",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 18,
+        "prompt_tokens": 113,
+        "total_tokens": 131,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-4R2h7gU1E3yASZmdCejnVu9z14jibKLN",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 113,
+        "prompt_ms": 716.333,
+        "prompt_per_token_ms": 6.339230088495575,
+        "prompt_per_second": 157.74786307485485,
+        "predicted_n": 18,
+        "predicted_ms": 353.59,
+        "predicted_per_token_ms": 20.79941176470588,
+        "predicted_per_second": 48.0782827568653
+      }
+    },
+    "elapsed": 1.074398799915798,
+    "requested_ns": 1792886814708593100,
+    "value": "aprovar",
+    "reference": "aprovar",
+    "acceptable": true,
+    "review_required": true,
+    "token_units": 393
+  },
+  {
+    "task": "development-2",
+    "model": "smol",
+    "request": {
+      "model": "smol",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-2: conta ativa; valor 40; limite 50; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886816,
+      "model": "smol",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 16,
+        "prompt_tokens": 136,
+        "total_tokens": 152,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-Me1y4XrYcbevpwws37Icvb2bLAwj7xPa",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 136,
+        "prompt_ms": 652.789,
+        "prompt_per_token_ms": 4.799919117647058,
+        "prompt_per_second": 208.33684391127912,
+        "predicted_n": 16,
+        "predicted_ms": 301.167,
+        "predicted_per_token_ms": 20.0778,
+        "predicted_per_second": 49.806253673211216
+      }
+    },
+    "elapsed": 0.9596787999616936,
+    "requested_ns": 1792886815782780800,
+    "value": "aprovar",
+    "reference": "aprovar",
+    "acceptable": true,
+    "review_required": true,
+    "token_units": 152
+  },
+  {
+    "task": "development-2",
+    "model": "qwen",
+    "request": {
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-2: conta ativa; valor 40; limite 50; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886817,
+      "model": "qwen",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 18,
+        "prompt_tokens": 113,
+        "total_tokens": 131,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-PBP2SDEI7CPHcHX2IQkM62Q0mw9gSitF",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 113,
+        "prompt_ms": 777.856,
+        "prompt_per_token_ms": 6.883681415929203,
+        "prompt_per_second": 145.27110416323845,
+        "predicted_n": 18,
+        "predicted_ms": 334.195,
+        "predicted_per_token_ms": 19.658529411764704,
+        "predicted_per_second": 50.86850491479525
+      }
+    },
+    "elapsed": 1.1163859999505803,
+    "requested_ns": 1792886816742848400,
+    "value": "aprovar",
+    "reference": "aprovar",
+    "acceptable": true,
+    "review_required": true,
+    "token_units": 393
+  },
+  {
+    "task": "development-3",
+    "model": "smol",
+    "request": {
+      "model": "smol",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-3: conta ativa; valor 60; limite 50; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886818,
+      "model": "smol",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 16,
+        "prompt_tokens": 136,
+        "total_tokens": 152,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-xZ9ktnbypDB9xikkAX0QLo4cW7mSc2H4",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 136,
+        "prompt_ms": 694.071,
+        "prompt_per_token_ms": 5.103463235294118,
+        "prompt_per_second": 195.9453715830225,
+        "predicted_n": 16,
+        "predicted_ms": 300.5,
+        "predicted_per_token_ms": 20.033333333333335,
+        "predicted_per_second": 49.91680532445924
+      }
+    },
+    "elapsed": 1.0003658999921754,
+    "requested_ns": 1792886817855816700,
+    "value": "aprovar",
+    "reference": "revisar",
+    "acceptable": false,
+    "review_required": true,
+    "token_units": 152
+  },
+  {
+    "task": "development-3",
+    "model": "qwen",
+    "request": {
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-3: conta ativa; valor 60; limite 50; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886820,
+      "model": "qwen",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 18,
+        "prompt_tokens": 113,
+        "total_tokens": 131,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-m3sHCB4EjVzGjFiVqeI0ltpkAIp5s9l5",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 113,
+        "prompt_ms": 839.274,
+        "prompt_per_token_ms": 7.427203539823009,
+        "prompt_per_second": 134.64017710545068,
+        "predicted_n": 18,
+        "predicted_ms": 314.979,
+        "predicted_per_token_ms": 18.528176470588235,
+        "predicted_per_second": 53.97185209172675
+      }
+    },
+    "elapsed": 1.1589847999857739,
+    "requested_ns": 1792886818855499600,
+    "value": "aprovar",
+    "reference": "revisar",
+    "acceptable": false,
+    "review_required": true,
+    "token_units": 393
+  },
+  {
+    "task": "development-4",
+    "model": "smol",
+    "request": {
+      "model": "smol",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-4: conta inativa; valor 40; limite 50; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886821,
+      "model": "smol",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 16,
+        "prompt_tokens": 137,
+        "total_tokens": 153,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-WLOID9PNZhuRWLS9CSgmN6G5b7MITFGn",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 137,
+        "prompt_ms": 723.378,
+        "prompt_per_token_ms": 5.2801313868613144,
+        "prompt_per_second": 189.3892266560498,
+        "predicted_n": 16,
+        "predicted_ms": 289.288,
+        "predicted_per_token_ms": 19.285866666666667,
+        "predicted_per_second": 51.85144216144465
+      }
+    },
+    "elapsed": 1.0191691999789327,
+    "requested_ns": 1792886820018761500,
+    "value": "aprovar",
+    "reference": "revisar",
+    "acceptable": false,
+    "review_required": true,
+    "token_units": 153
+  },
+  {
+    "task": "development-4",
+    "model": "qwen",
+    "request": {
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-4: conta inativa; valor 40; limite 50; bloqueio nao. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886822,
+      "model": "qwen",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 18,
+        "prompt_tokens": 113,
+        "total_tokens": 131,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-YjA70dpqnmIXzpTNC3QbBHQrXSE32pYZ",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 113,
+        "prompt_ms": 818.988,
+        "prompt_per_token_ms": 7.247681415929204,
+        "prompt_per_second": 137.97515958719785,
+        "predicted_n": 18,
+        "predicted_ms": 361.114,
+        "predicted_per_token_ms": 21.241999999999997,
+        "predicted_per_second": 47.07654646455136
+      }
+    },
+    "elapsed": 1.1844446000177413,
+    "requested_ns": 1792886821037434300,
+    "value": "aprovar",
+    "reference": "revisar",
+    "acceptable": false,
+    "review_required": true,
+    "token_units": 393
+  },
+  {
+    "task": "development-5",
+    "model": "smol",
+    "request": {
+      "model": "smol",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-5: conta ativa; valor 40; limite 50; bloqueio sim. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886823,
+      "model": "smol",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 16,
+        "prompt_tokens": 135,
+        "total_tokens": 151,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-YNpNXTts3TcJ91OS8mn8MuHN2K6X5ofB",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 135,
+        "prompt_ms": 744.543,
+        "prompt_per_token_ms": 5.515133333333333,
+        "prompt_per_second": 181.31927907454642,
+        "predicted_n": 16,
+        "predicted_ms": 280.586,
+        "predicted_per_token_ms": 18.705733333333335,
+        "predicted_per_second": 53.459545380026086
+      }
+    },
+    "elapsed": 1.0307485000230372,
+    "requested_ns": 1792886822214144300,
+    "value": "aprovar",
+    "reference": "revisar",
+    "acceptable": false,
+    "review_required": true,
+    "token_units": 151
+  },
+  {
+    "task": "development-5",
+    "model": "qwen",
+    "request": {
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-5: conta ativa; valor 40; limite 50; bloqueio sim. A regra geral aprova valores ate o limite, inclusive. Porem contas inativas devem ir para revisao; bloqueio tem precedencia e exige revisao mesmo com saldo. Caso contrario aprove. Retorne somente JSON com decisao igual a aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886824,
+      "model": "qwen",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 18,
+        "prompt_tokens": 113,
+        "total_tokens": 131,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-1ER02JTSnzp0b26v0kLiBFWf246meYm9",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 113,
+        "prompt_ms": 797.386,
+        "prompt_per_token_ms": 7.056513274336283,
+        "prompt_per_second": 141.71304738232172,
+        "predicted_n": 18,
+        "predicted_ms": 336.681,
+        "predicted_per_token_ms": 19.804764705882352,
+        "predicted_per_second": 50.49289980723593
+      }
+    },
+    "elapsed": 1.138289999915287,
+    "requested_ns": 1792886823245240300,
+    "value": "aprovar",
+    "reference": "revisar",
+    "acceptable": false,
+    "review_required": true,
+    "token_units": 393
+  },
+  {
+    "task": "development-6",
+    "model": "smol",
+    "request": {
+      "model": "smol",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-6. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=60, limite=50, bloqueada=false. JSON: decisao=aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886825,
+      "model": "smol",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 99,
+        "total_tokens": 114,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-Q1BB7iTedVqh295gAcjUcIzUkEXuJTZN",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 99,
+        "prompt_ms": 565.021,
+        "prompt_per_token_ms": 5.707282828282828,
+        "prompt_per_second": 175.2147265322882,
+        "predicted_n": 15,
+        "predicted_ms": 214.029,
+        "predicted_per_token_ms": 15.287785714285715,
+        "predicted_per_second": 65.4116965457952
+      }
+    },
+    "elapsed": 0.7846075999550521,
+    "requested_ns": 1792886824390380600,
+    "value": "aprovar",
+    "reference": "revisar",
+    "acceptable": false,
+    "review_required": false,
+    "token_units": 114
+  },
+  {
+    "task": "development-6",
+    "model": "qwen",
+    "request": {
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-6. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=60, limite=50, bloqueada=false. JSON: decisao=aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886826,
+      "model": "qwen",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 18,
+        "prompt_tokens": 85,
+        "total_tokens": 103,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-g4lswN6NPZg7brATZVdfqL7NL57XQ1zb",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 85,
+        "prompt_ms": 636.956,
+        "prompt_per_token_ms": 7.4936,
+        "prompt_per_second": 133.4472082844027,
+        "predicted_n": 18,
+        "predicted_ms": 336.357,
+        "predicted_per_token_ms": 19.785705882352943,
+        "predicted_per_second": 50.54153771141971
+      }
+    },
+    "elapsed": 0.9777856000000611,
+    "requested_ns": 1792886825175099800,
+    "value": "aprovar",
+    "reference": "revisar",
+    "acceptable": false,
+    "review_required": false,
+    "token_units": 309
+  },
+  {
+    "task": "development-7",
+    "model": "smol",
+    "request": {
+      "model": "smol",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-7. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=40, limite=50, bloqueada=false. JSON: decisao=aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886826,
+      "model": "smol",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 99,
+        "total_tokens": 114,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-0MGXFLa8AcdZVkHzmXbqTkQfD4T3voJF",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 99,
+        "prompt_ms": 496.39,
+        "prompt_per_token_ms": 5.014040404040404,
+        "prompt_per_second": 199.43995648582768,
+        "predicted_n": 15,
+        "predicted_ms": 209.985,
+        "predicted_per_token_ms": 14.998928571428573,
+        "predicted_per_second": 66.67142891158892
+      }
+    },
+    "elapsed": 0.7114017000421882,
+    "requested_ns": 1792886826151997200,
+    "value": "aprovar",
+    "reference": "aprovar",
+    "acceptable": true,
+    "review_required": false,
+    "token_units": 114
+  },
+  {
+    "task": "development-7",
+    "model": "qwen",
+    "request": {
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-7. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=40, limite=50, bloqueada=false. JSON: decisao=aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886827,
+      "model": "qwen",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 18,
+        "prompt_tokens": 85,
+        "total_tokens": 103,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-tubFqWjFxbDP2zcq1ICScfgmgYsA0y9r",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 85,
+        "prompt_ms": 678.26,
+        "prompt_per_token_ms": 7.979529411764706,
+        "prompt_per_second": 125.32067348804294,
+        "predicted_n": 18,
+        "predicted_ms": 325.217,
+        "predicted_per_token_ms": 19.130411764705883,
+        "predicted_per_second": 52.272790167795655
+      }
+    },
+    "elapsed": 1.0178884000051767,
+    "requested_ns": 1792886826865267100,
+    "value": "aprovar",
+    "reference": "aprovar",
+    "acceptable": true,
+    "review_required": false,
+    "token_units": 309
+  },
+  {
+    "task": "development-8",
+    "model": "smol",
+    "request": {
+      "model": "smol",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-8. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=false, valor=40, limite=50, bloqueada=false. JSON: decisao=aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886828,
+      "model": "smol",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 99,
+        "total_tokens": 114,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-3pyTFWGBZWgV3HapkOGkmvLppHidJ8Jh",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 99,
+        "prompt_ms": 631.211,
+        "prompt_per_token_ms": 6.375868686868687,
+        "prompt_per_second": 156.84137316998596,
+        "predicted_n": 15,
+        "predicted_ms": 212.326,
+        "predicted_per_token_ms": 15.166142857142857,
+        "predicted_per_second": 65.93634317040778
+      }
+    },
+    "elapsed": 0.8487062000203878,
+    "requested_ns": 1792886827882798500,
+    "value": "aprovar",
+    "reference": "revisar",
+    "acceptable": false,
+    "review_required": false,
+    "token_units": 114
+  },
+  {
+    "task": "development-8",
+    "model": "qwen",
+    "request": {
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-8. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=false, valor=40, limite=50, bloqueada=false. JSON: decisao=aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886829,
+      "model": "qwen",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 18,
+        "prompt_tokens": 85,
+        "total_tokens": 103,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-YPHpl3IBBbs5U1VJFNd7i1SyNAub45I6",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 85,
+        "prompt_ms": 660.702,
+        "prompt_per_token_ms": 7.7729647058823526,
+        "prompt_per_second": 128.65104086259765,
+        "predicted_n": 18,
+        "predicted_ms": 363.645,
+        "predicted_per_token_ms": 21.390882352941176,
+        "predicted_per_second": 46.7488897138693
+      }
+    },
+    "elapsed": 1.0388571999501437,
+    "requested_ns": 1792886828728315800,
+    "value": "aprovar",
+    "reference": "revisar",
+    "acceptable": false,
+    "review_required": false,
+    "token_units": 309
+  },
+  {
+    "task": "development-9",
+    "model": "smol",
+    "request": {
+      "model": "smol",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-9. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=60, limite=50, bloqueada=false. JSON: decisao=aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886830,
+      "model": "smol",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 99,
+        "total_tokens": 114,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-P1ngaF7ajsk8ILvt6g1eaYEGo05FmS0k",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 99,
+        "prompt_ms": 558.637,
+        "prompt_per_token_ms": 5.6427979797979795,
+        "prompt_per_second": 177.21704792199588,
+        "predicted_n": 15,
+        "predicted_ms": 204.005,
+        "predicted_per_token_ms": 14.571785714285713,
+        "predicted_per_second": 68.62576897625058
+      }
+    },
+    "elapsed": 0.7890701999422163,
+    "requested_ns": 1792886829770630100,
+    "value": "aprovar",
+    "reference": "revisar",
+    "acceptable": false,
+    "review_required": false,
+    "token_units": 114
+  },
+  {
+    "task": "development-9",
+    "model": "qwen",
+    "request": {
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-9. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=60, limite=50, bloqueada=false. JSON: decisao=aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886831,
+      "model": "qwen",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 17,
+        "prompt_tokens": 85,
+        "total_tokens": 102,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-I0tSN6ruU0PSy8NLSRsQGi0T4RoyEUgt",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 85,
+        "prompt_ms": 626.184,
+        "prompt_per_token_ms": 7.366870588235294,
+        "prompt_per_second": 135.74284874733306,
+        "predicted_n": 17,
+        "predicted_ms": 264.544,
+        "predicted_per_token_ms": 16.534,
+        "predicted_per_second": 60.48143220031451
+      }
+    },
+    "elapsed": 0.8953392999246716,
+    "requested_ns": 1792886830560094300,
+    "value": "aprovar",
+    "reference": "revisar",
+    "acceptable": false,
+    "review_required": false,
+    "token_units": 306
+  },
+  {
+    "task": "development-10",
+    "model": "smol",
+    "request": {
+      "model": "smol",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-10. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=40, limite=50, bloqueada=true. JSON: decisao=aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886832,
+      "model": "smol",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 100,
+        "total_tokens": 115,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-Gu8YJQixNd0PKwPQGniy6lxyjskRxcYa",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 100,
+        "prompt_ms": 576.537,
+        "prompt_per_token_ms": 5.765370000000001,
+        "prompt_per_second": 173.44940567561144,
+        "predicted_n": 15,
+        "predicted_ms": 209.514,
+        "predicted_per_token_ms": 14.965285714285715,
+        "predicted_per_second": 66.82131027043539
+      }
+    },
+    "elapsed": 0.7917422000318766,
+    "requested_ns": 1792886831444871100,
+    "value": "aprovar",
+    "reference": "revisar",
+    "acceptable": false,
+    "review_required": false,
+    "token_units": 115
+  },
+  {
+    "task": "development-10",
+    "model": "qwen",
+    "request": {
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-10. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=40, limite=50, bloqueada=true. JSON: decisao=aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886833,
+      "model": "qwen",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 18,
+        "prompt_tokens": 86,
+        "total_tokens": 104,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-mMVYzQGfEUxoM9MavNX6djIKDCfTqIj3",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 86,
+        "prompt_ms": 649.425,
+        "prompt_per_token_ms": 7.5514534883720925,
+        "prompt_per_second": 132.42483735612274,
+        "predicted_n": 18,
+        "predicted_ms": 343.642,
+        "predicted_per_token_ms": 20.214235294117646,
+        "predicted_per_second": 49.47008805675674
+      }
+    },
+    "elapsed": 0.9971206999616697,
+    "requested_ns": 1792886832246942200,
+    "value": "aprovar",
+    "reference": "revisar",
+    "acceptable": false,
+    "review_required": false,
+    "token_units": 312
+  },
+  {
+    "task": "development-11",
+    "model": "smol",
+    "request": {
+      "model": "smol",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-11. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=40, limite=50, bloqueada=false. JSON: decisao=aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886834,
+      "model": "smol",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 100,
+        "total_tokens": 115,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-rhMtQHCgGRSlZJnoCJaGlhlzqz0DkXNE",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 100,
+        "prompt_ms": 558.974,
+        "prompt_per_token_ms": 5.589740000000001,
+        "prompt_per_second": 178.8991974582002,
+        "predicted_n": 15,
+        "predicted_ms": 219.682,
+        "predicted_per_token_ms": 15.691571428571427,
+        "predicted_per_second": 63.72848025782723
+      }
+    },
+    "elapsed": 0.7841479000635445,
+    "requested_ns": 1792886833244454900,
+    "value": "aprovar",
+    "reference": "aprovar",
+    "acceptable": true,
+    "review_required": false,
+    "token_units": 115
+  },
+  {
+    "task": "development-11",
+    "model": "qwen",
+    "request": {
+      "model": "qwen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Pedido development-11. Aprovar se ativa=true E valor<=limite E bloqueada=false; senao revisar. ativa=true, valor=40, limite=50, bloqueada=false. JSON: decisao=aprovar ou revisar."
+        }
+      ],
+      "temperature": 0,
+      "seed": 36,
+      "max_tokens": 64,
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "decision",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "decisao": {
+                "type": "string",
+                "enum": [
+                  "aprovar",
+                  "revisar"
+                ]
+              }
+            },
+            "required": [
+              "decisao"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "response": {
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "{\n  \"decisao\": \"aprovar\"\n}"
+          }
+        }
+      ],
+      "created": 1792886834,
+      "model": "qwen",
+      "system_fingerprint": "b11669-620d2225c",
+      "object": "chat.completion",
+      "usage": {
+        "completion_tokens": 18,
+        "prompt_tokens": 86,
+        "total_tokens": 104,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "id": "chatcmpl-nS8FeVeyclA8KmoD1FJ1YwS20kFDFVUT",
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 86,
+        "prompt_ms": 634.545,
+        "prompt_per_token_ms": 7.378430232558139,
+        "prompt_per_second": 135.53018304454372,
+        "predicted_n": 18,
+        "predicted_ms": 325.517,
+        "predicted_per_token_ms": 19.14805882352941,
+        "predicted_per_second": 52.224614997066205
+      }
+    },
+    "elapsed": 0.963833500049077,
+    "requested_ns": 1792886834028250500,
+    "value": "aprovar",
+    "reference": "aprovar",
+    "acceptable": true,
+    "review_required": false,
+    "token_units": 312
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "minimum_image_width": 500,
+  "fields": [
+    "Subtotal",
+    "Tax",
+    "Total"
+  ],
+  "equation": "Subtotal + Tax = Total",
+  "llm_equals_total": true,
+  "audio": "forward to human",
+  "frozen_before_campaign": false,
+  "reason": "Inspecting the errors motivated this exploratory policy. New held-out cases are required."
+}

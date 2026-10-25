@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"O auxílio mensal de curso de idiomas é o que você quer ajudar para a crescer sua capacidade em idiomas. O que você precisa fazer para ajudar a crescer essa capacidade? Você precisa fazer uma criação de uma lista de idiomas que você quer ajudar para a crescer sua capacidade em idiomas. Você precisa fazer uma criação de uma lista de idiomas que você quer ajud"
+      }
+    }
+  ],
+  "created": 1792879528,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 224,
+    "total_tokens": 352,
+    "prompt_tokens_details": {
+      "cached_tokens": 207
+    }
+  },
+  "id": "chatcmpl-5QyieYv64ZtoEKltTabBrvLn3c3sx86W",
+  "timings": {
+    "cache_n": 207,
+    "prompt_n": 17,
+    "prompt_ms": 120.014,
+    "prompt_per_token_ms": 7.059647058823529,
+    "prompt_per_second": 141.6501408169047,
+    "predicted_n": 128,
+    "predicted_ms": 2204.261,
+    "predicted_per_token_ms": 17.356385826771653,
+    "predicted_per_second": 57.61568162753866
+  }
+}

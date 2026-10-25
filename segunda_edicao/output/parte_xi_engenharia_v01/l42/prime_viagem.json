@@ -1,0 +1,77 @@
+{
+  "request": {
+    "model": "qwen",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Responda somente JSON com limite inteiro em reais e fonte (ID exato). Use o documento, sem conhecimento externo. Documento: {\"id\": \"viagem-v1\", \"family\": \"viagem\", \"version\": \"v1\", \"limit\": 250, \"text\": \"Politica viagem da Horizonte. Limite autorizado: 250 reais. A excecao anterior esta vigente.\"}"
+      }
+    ],
+    "temperature": 0,
+    "seed": 441,
+    "max_tokens": 100,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "result",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "limite": {
+              "type": "integer"
+            },
+            "fonte": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "limite",
+            "fonte"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "cache_prompt": false
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"limite\": 250,\n  \"fonte\": \"viagem-v1\"\n}"
+        }
+      }
+    ],
+    "created": 1792949831,
+    "model": "qwen",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 25,
+      "prompt_tokens": 128,
+      "total_tokens": 153,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-5ydPpwP06d27g4HaLZjrx6jJQb7fqyRH",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 128,
+      "prompt_ms": 608.261,
+      "prompt_per_token_ms": 4.7520390625,
+      "prompt_per_second": 210.43598060700918,
+      "predicted_n": 25,
+      "predicted_ms": 482.528,
+      "predicted_per_token_ms": 20.105333333333334,
+      "predicted_per_second": 49.73804628954175
+    }
+  },
+  "seconds": 1.1465320000424981,
+  "text": "{\n  \"limite\": 250,\n  \"fonte\": \"viagem-v1\"\n}",
+  "finish": "stop"
+}

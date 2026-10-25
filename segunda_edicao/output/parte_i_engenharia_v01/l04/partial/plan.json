@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "id": "C01",
+      "x": 1
+    },
+    {
+      "id": "C02",
+      "x": 2
+    },
+    {
+      "id": "C03",
+      "x": 3
+    },
+    {
+      "id": "C04",
+      "x": 4
+    },
+    {
+      "id": "C05",
+      "x": "invalid"
+    },
+    {
+      "id": "C06",
+      "x": 6
+    }
+  ],
+  "kill_before_raw": "C02",
+  "kill_after_raw": "C03",
+  "resume_attempts": 2
+}

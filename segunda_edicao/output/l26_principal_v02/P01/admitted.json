@@ -1,0 +1,57 @@
+{
+  "destination": {
+    "stock": [
+      {
+        "id": "peca-A",
+        "available": 10,
+        "version": 0
+      }
+    ],
+    "effects": [],
+    "receipts": [],
+    "fences": [],
+    "approvals": [
+      {
+        "hash": "356496ef68963960ae960021fa3f9b7508e2f3bc4ea3d3dd2a2d5c03523628b0",
+        "enabled": true,
+        "expires": "2026-10-24 03:27:31.845307+00:00"
+      }
+    ]
+  },
+  "client": {
+    "jobs": [
+      {
+        "id": "job1",
+        "request": {
+          "key": "chave-1",
+          "action": "reserve",
+          "intent": "pedido-1",
+          "tenant": "horizonte",
+          "original": null,
+          "quantity": 2,
+          "resource": "peca-A",
+          "expires_at": 1792812451.845307,
+          "expected_version": 0
+        },
+        "state": "prepared",
+        "receipt": null,
+        "token": 0,
+        "lease_until": null,
+        "updated": "2026-10-24 03:22:31.861234+00:00"
+      }
+    ],
+    "outbox": [
+      {
+        "id": "job1",
+        "pending": true
+      }
+    ],
+    "attempts": [],
+    "control": [
+      {
+        "id": 1,
+        "admission": true
+      }
+    ]
+  }
+}

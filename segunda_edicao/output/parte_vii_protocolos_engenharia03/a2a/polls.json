@@ -1,0 +1,54 @@
+[
+  {
+    "id": "efdad96f-028c-469b-9133-3e290cc0edb9",
+    "contextId": "3ebaba00-8ad8-490b-81fc-6ee2b3a37739",
+    "status": {
+      "state": "TASK_STATE_WORKING",
+      "timestamp": "2026-10-24T22:39:33.664395Z"
+    },
+    "artifacts": [
+      {
+        "artifactId": "artifact-efdad96f-028c-469b-9133-3e290cc0edb9",
+        "name": "decision",
+        "parts": [
+          {
+            "text": "Parecer da intenção intent-A27"
+          }
+        ],
+        "metadata": {
+          "intent": "intent-A27",
+          "task_id": "efdad96f-028c-469b-9133-3e290cc0edb9",
+          "contract": "v1",
+          "context_id": "3ebaba00-8ad8-490b-81fc-6ee2b3a37739",
+          "audience": "review-consumer"
+        }
+      }
+    ]
+  },
+  {
+    "id": "efdad96f-028c-469b-9133-3e290cc0edb9",
+    "contextId": "3ebaba00-8ad8-490b-81fc-6ee2b3a37739",
+    "status": {
+      "state": "TASK_STATE_COMPLETED",
+      "timestamp": "2026-10-24T22:39:33.714404Z"
+    },
+    "artifacts": [
+      {
+        "artifactId": "artifact-efdad96f-028c-469b-9133-3e290cc0edb9",
+        "name": "decision",
+        "parts": [
+          {
+            "text": "Parecer da intenção intent-A27"
+          }
+        ],
+        "metadata": {
+          "intent": "intent-A27",
+          "task_id": "efdad96f-028c-469b-9133-3e290cc0edb9",
+          "contract": "v1",
+          "context_id": "3ebaba00-8ad8-490b-81fc-6ee2b3a37739",
+          "audience": "review-consumer"
+        }
+      }
+    ]
+  }
+]

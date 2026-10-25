@@ -1,0 +1,35 @@
+{
+  "id": "F07Q1_empty_qwen_41",
+  "query_id": "F07Q1",
+  "family": "F07",
+  "model": "qwen",
+  "seed": 41,
+  "variant": "empty",
+  "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 0.9915694000665098,
+  "parsed": {
+    "resposta": "Peço para bloquear para você, que possa recuperar o cartão de entrada que perdi.",
+    "citacoes": [],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": false,
+    "source_loss_known": false,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": true,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

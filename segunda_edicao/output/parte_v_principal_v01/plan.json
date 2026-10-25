@@ -1,0 +1,148 @@
+{
+  "version": "1.0",
+  "frozen_before_execution": true,
+  "date": "2026-10-24",
+  "threads": 4,
+  "context": 2048,
+  "quantities": [
+    -3,
+    0,
+    7,
+    12,
+    100
+  ],
+  "memory_values": [
+    [
+      14,
+      28
+    ],
+    [
+      30,
+      45
+    ],
+    [
+      60,
+      90
+    ]
+  ],
+  "semantic_cases": [
+    {
+      "id": "a1",
+      "kind": "answerable",
+      "prompt": "O registro informa exatamente 12 unidades. Quantas unidades há?",
+      "allowed": [
+        "12"
+      ]
+    },
+    {
+      "id": "a2",
+      "kind": "answerable",
+      "prompt": "The record states exactly 12 units. How many units are there?",
+      "allowed": [
+        "12"
+      ]
+    },
+    {
+      "id": "a3",
+      "kind": "answerable",
+      "prompt": "O estoque possui 7 caixas; cada caixa contém 2 itens. Quantos itens existem?",
+      "allowed": [
+        "14"
+      ]
+    },
+    {
+      "id": "a4",
+      "kind": "answerable",
+      "prompt": "There are 7 boxes and 2 items in each box. How many items exist?",
+      "allowed": [
+        "14"
+      ]
+    },
+    {
+      "id": "b1",
+      "kind": "ambiguous",
+      "prompt": "A ficha A registra 12 unidades. A ficha B registra 18. Sem identificar a ficha, quantas unidades há?",
+      "allowed": [
+        "UNKNOWN"
+      ]
+    },
+    {
+      "id": "b2",
+      "kind": "ambiguous",
+      "prompt": "Record A says 12 units and record B says 18. The selected record is unspecified. How many units?",
+      "allowed": [
+        "UNKNOWN"
+      ]
+    },
+    {
+      "id": "b3",
+      "kind": "ambiguous",
+      "prompt": "Uma caixa pode conter 2 ou 4 itens. Há 7 caixas de tipo desconhecido. Quantos itens existem?",
+      "allowed": [
+        "UNKNOWN"
+      ]
+    },
+    {
+      "id": "b4",
+      "kind": "ambiguous",
+      "prompt": "A box may contain 2 or 4 items. There are 7 boxes of unspecified type. How many items exist?",
+      "allowed": [
+        "UNKNOWN"
+      ]
+    },
+    {
+      "id": "c1",
+      "kind": "missing",
+      "prompt": "O registro informa somente a cor azul da caixa. Quantos itens ela contém?",
+      "allowed": [
+        "UNKNOWN"
+      ]
+    },
+    {
+      "id": "c2",
+      "kind": "missing",
+      "prompt": "The record only states that the box is blue. How many items does it contain?",
+      "allowed": [
+        "UNKNOWN"
+      ]
+    },
+    {
+      "id": "c3",
+      "kind": "missing",
+      "prompt": "Uma entrega está prevista para amanhã. Sem outros dados, quantas unidades chegarão?",
+      "allowed": [
+        "UNKNOWN"
+      ]
+    },
+    {
+      "id": "c4",
+      "kind": "missing",
+      "prompt": "A delivery is planned for tomorrow. No other data is available. How many units will arrive?",
+      "allowed": [
+        "UNKNOWN"
+      ]
+    }
+  ],
+  "policies": [
+    "all",
+    "evidence",
+    "reject_all"
+  ],
+  "utility": {
+    "correct": 1,
+    "error": -4,
+    "abstention": -0.2
+  },
+  "population_limit": "Synthetic designed cases, not random population samples. PT/EN pairs and episode turns are dependent.",
+  "perception_inputs": "entradas.json; nine images and six audio clips",
+  "human_judge_gate": "Pending two independent reviewers and held-out qualification. Shadow judgments only.",
+  "stopping": "One campaign; no outcome-driven retries. Engineering failures remain saved; fixes require a new output directory.",
+  "prohibited_claims": [
+    "qualified judge",
+    "production readiness",
+    "human speech coverage",
+    "physical erasure",
+    "causal quantization comparison",
+    "load benchmark"
+  ]
+}

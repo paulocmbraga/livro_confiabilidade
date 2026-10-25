@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Para fazer uma plantão noturna, precisamos de alguns dados. O que precisamos?\",\n  \"citacoes\": [\n    \"DIS-09\",\n    \"REF-T\",\n    \"FER-G\"\n  ],\n  \"abster\": true\n}"
+      }
+    }
+  ],
+  "created": 1792879341,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 77,
+    "prompt_tokens": 377,
+    "total_tokens": 454,
+    "prompt_tokens_details": {
+      "cached_tokens": 376
+    }
+  },
+  "id": "chatcmpl-yLfLAuatcEluqE7Paeh4s9X92aqRXfem",
+  "timings": {
+    "cache_n": 376,
+    "prompt_n": 1,
+    "prompt_ms": 48.042,
+    "prompt_per_token_ms": 48.042,
+    "prompt_per_second": 20.815120103242997,
+    "predicted_n": 77,
+    "predicted_ms": 1570.939,
+    "predicted_per_token_ms": 20.67025,
+    "predicted_per_second": 48.37870853037578
+  }
+}

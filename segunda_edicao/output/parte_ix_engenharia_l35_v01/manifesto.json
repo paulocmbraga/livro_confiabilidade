@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "kind": "parte-ix-local-experiments",
+  "complete": true,
+  "files": {
+    "environment.json": "4859a50e7b936344f99256d19239f047d0e2bccf834bcbabe87c4cd86ef2fd38",
+    "inputs.json": "363c3e017c1f5fded8859d3296d16aeee7677a662db8df1017a102b4cc5d348d",
+    "l35/closed_batch/rows.json": "60ddeead754d2d636996c7092551d0d922add28fe08ae415f0eee84c3c3601b2",
+    "l35/closed_batch/runtime/resources.json": "bea2dfc52e530f60ec3bc5f59c74572dfbc36cd46d5e712e85c982eb73f9a144",
+    "l35/closed_batch/runtime/server.log": "71eb7db389d202486c44961ef1c241645abbb87f8f5c9b2ac90823e076bd4113",
+    "l35/closed_batch/summary.json": "c77bd8e6d5024e076457cc41c411c5a18b10f24eedebcf8496484e88655cbe89",
+    "l35/closed_batch/warmup.json": "1947485cb9523d3c095971199616f95004eab6cdda67a1f97d177ed061764b48",
+    "l35/open_admission/rows.json": "da4340df183cfc32b46125310e54da34819387fd02d8f1e534d2992813355f9a",
+    "l35/open_admission/runtime/resources.json": "cf4d3ec44b9dabdb19b81848da709812f76637acb5fc1df5bede1ec0c53c223c",
+    "l35/open_admission/runtime/server.log": "eef5b3da9be76d3031ba44df1133b3d6c0777a531e10e81c86b7920dca8348df",
+    "l35/open_admission/summary.json": "b4319bbfa840cc161fed5062ea88fe3cdbde6270823c6ac5f56e339ba2a42079",
+    "l35/open_admission/warmup.json": "0a96fd925271c560f583df2c4f5da341ae7859513283817cbc5ed3660fd58d85",
+    "l35/open_batch/rows.json": "015ed1d79867c04dc1682f429bbb68df055595f4874fccaf8c16356772d3afc6",
+    "l35/open_batch/runtime/resources.json": "167ceb9c4d69aa84f4b011b5e6711a5c0f468c002791581a0aa9916522e04011",
+    "l35/open_batch/runtime/server.log": "40241b0a516ed3558b3b96e438139b1c190a17639dacc1ee795920ac7ac64233",
+    "l35/open_batch/summary.json": "0236989d2741559d33292ce1778d4cfa7aee666173f35a2fc2e62c5fc2d494fe",
+    "l35/open_batch/warmup.json": "0bd1a3433ee3fe36425d3f20104885f0b13c7e6387b3b7f728b8cbfab2fe6981",
+    "l35/open_no_batch/rows.json": "4e76d46e3304433ef2ccd63037e9588896c15433ced9730e2d25ccfa6358a62f",
+    "l35/open_no_batch/runtime/resources.json": "469421531805212c037919648fad42fce652d34804dba86226754a0c2d35b345",
+    "l35/open_no_batch/runtime/server.log": "0884e94a022c6e220033ec3601de66cb7342f245e770644f78a48fa50881d2f8",
+    "l35/open_no_batch/summary.json": "298e125d90ffcc84961f5a58a50875670ad00b50b98c46a1eb57c4964d3cb20f",
+    "l35/open_no_batch/warmup.json": "4409f6101a1cffbd17fa256adc9ef4472b342c0d9db69d16fde309fd38d6fc20",
+    "l35/result.json": "cf29eb97e22b52231da831452cb7b30d31f206f6e384ee3c04690f2bde2d02d4",
+    "l35/tasks.json": "cdfc62996ab35577f5a4374672c33c5713aad55cd38ac94801386134a4bb8802",
+    "plan.json": "9e551e70450553b0440c8aaddaf6ce515e4f05e08bad2759d2697229107b9adf"
+  }
+}

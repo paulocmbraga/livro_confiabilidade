@@ -1,0 +1,35 @@
+{
+  "id": "F11Q1_empty_qwen_23",
+  "query_id": "F11Q1",
+  "family": "F11",
+  "model": "qwen",
+  "seed": 23,
+  "variant": "empty",
+  "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 0.9519060000311583,
+  "parsed": {
+    "resposta": "Não tenho informações sobre auxílios veterinários para cachorros.",
+    "citacoes": [],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": null,
+    "source_loss_known": null,
+    "reference_evidence_available": null,
+    "abstention_matches_reference": true,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": true,
+    "citations_cover_required": false,
+    "automatic_contract_signal": true
+  }
+}

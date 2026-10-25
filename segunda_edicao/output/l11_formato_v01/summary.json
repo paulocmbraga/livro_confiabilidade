@@ -1,0 +1,142 @@
+[
+  {
+    "trial": {
+      "id": "qwen_reverse_enum_AB",
+      "judge": "qwen",
+      "pair": "F01Q1",
+      "mode": "reverse_enum",
+      "order": "AB",
+      "repeat": 0,
+      "seed": 1101
+    },
+    "parsed": {
+      "valid": true,
+      "winner": "X",
+      "choice": "A",
+      "confidence": 0.99
+    }
+  },
+  {
+    "trial": {
+      "id": "qwen_reverse_enum_BA",
+      "judge": "qwen",
+      "pair": "F01Q1",
+      "mode": "reverse_enum",
+      "order": "BA",
+      "repeat": 0,
+      "seed": 1101
+    },
+    "parsed": {
+      "valid": true,
+      "winner": "Y",
+      "choice": "A",
+      "confidence": 0.95
+    }
+  },
+  {
+    "trial": {
+      "id": "qwen_free_json_AB",
+      "judge": "qwen",
+      "pair": "F01Q1",
+      "mode": "free_json",
+      "order": "AB",
+      "repeat": 0,
+      "seed": 1101
+    },
+    "parsed": {
+      "valid": false,
+      "winner": null,
+      "choice": "invalid",
+      "confidence": null,
+      "problem": "schema_or_finish"
+    }
+  },
+  {
+    "trial": {
+      "id": "qwen_free_json_BA",
+      "judge": "qwen",
+      "pair": "F01Q1",
+      "mode": "free_json",
+      "order": "BA",
+      "repeat": 0,
+      "seed": 1101
+    },
+    "parsed": {
+      "valid": false,
+      "winner": null,
+      "choice": "invalid",
+      "confidence": null,
+      "problem": "schema_or_finish"
+    }
+  },
+  {
+    "trial": {
+      "id": "smol_reverse_enum_AB",
+      "judge": "smol",
+      "pair": "F01Q1",
+      "mode": "reverse_enum",
+      "order": "AB",
+      "repeat": 0,
+      "seed": 1101
+    },
+    "parsed": {
+      "valid": true,
+      "winner": "X",
+      "choice": "A",
+      "confidence": 0.0
+    }
+  },
+  {
+    "trial": {
+      "id": "smol_reverse_enum_BA",
+      "judge": "smol",
+      "pair": "F01Q1",
+      "mode": "reverse_enum",
+      "order": "BA",
+      "repeat": 0,
+      "seed": 1101
+    },
+    "parsed": {
+      "valid": true,
+      "winner": "Y",
+      "choice": "A",
+      "confidence": 0.0
+    }
+  },
+  {
+    "trial": {
+      "id": "smol_free_json_AB",
+      "judge": "smol",
+      "pair": "F01Q1",
+      "mode": "free_json",
+      "order": "AB",
+      "repeat": 0,
+      "seed": 1101
+    },
+    "parsed": {
+      "valid": false,
+      "winner": null,
+      "choice": "invalid",
+      "confidence": null,
+      "problem": "schema_or_finish"
+    }
+  },
+  {
+    "trial": {
+      "id": "smol_free_json_BA",
+      "judge": "smol",
+      "pair": "F01Q1",
+      "mode": "free_json",
+      "order": "BA",
+      "repeat": 0,
+      "seed": 1101
+    },
+    "parsed": {
+      "valid": false,
+      "winner": null,
+      "choice": "invalid",
+      "confidence": null,
+      "problem": "schema_or_finish"
+    }
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"Não tenho informações sobre auxílios veterinários para cachorros.\",\"citacoes\":[],\"abster\":true}"
+      }
+    }
+  ],
+  "created": 1792879257,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 34,
+    "prompt_tokens": 164,
+    "total_tokens": 198,
+    "prompt_tokens_details": {
+      "cached_tokens": 137
+    }
+  },
+  "id": "chatcmpl-T7UvxbFi9QoR75RH2igJLH9b9tvKl1Ul",
+  "timings": {
+    "cache_n": 137,
+    "prompt_n": 27,
+    "prompt_ms": 245.936,
+    "prompt_per_token_ms": 9.10874074074074,
+    "prompt_per_second": 109.78465942358987,
+    "predicted_n": 34,
+    "predicted_ms": 860.823,
+    "predicted_per_token_ms": 26.085545454545453,
+    "predicted_per_second": 38.33540693034456
+  }
+}

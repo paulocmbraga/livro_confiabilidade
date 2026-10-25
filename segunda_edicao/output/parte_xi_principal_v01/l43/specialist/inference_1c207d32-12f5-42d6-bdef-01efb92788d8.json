@@ -1,0 +1,81 @@
+{
+  "request": {
+    "model": "qwen",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Revise a reserva. Autorize somente authorized=true e quantity=1. Retorne action reserve ou hold e quantity. Pedido: {\"intent\": \"fault-43\", \"quantity\": 1, \"authorized\": true, \"contract\": \"v1\", \"pause\": true}"
+      }
+    ],
+    "temperature": 0,
+    "seed": 441,
+    "max_tokens": 100,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "result",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "enum": [
+                "reserve",
+                "hold"
+              ]
+            },
+            "quantity": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "action",
+            "quantity"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "cache_prompt": false
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"action\": \"hold\", \"quantity\": 1}"
+        }
+      }
+    ],
+    "created": 1792950011,
+    "model": "qwen",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 13,
+      "prompt_tokens": 88,
+      "total_tokens": 101,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-lSkDYPyAMIkTklzIjLG5fZVxgwuoBOxM",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 88,
+      "prompt_ms": 396.11,
+      "prompt_per_token_ms": 4.50125,
+      "prompt_per_second": 222.16051096917522,
+      "predicted_n": 13,
+      "predicted_ms": 222.574,
+      "predicted_per_token_ms": 18.547833333333333,
+      "predicted_per_second": 53.91465310413615
+    }
+  },
+  "seconds": 0.621546300011687,
+  "text": "{\"action\": \"hold\", \"quantity\": 1}",
+  "finish": "stop"
+}

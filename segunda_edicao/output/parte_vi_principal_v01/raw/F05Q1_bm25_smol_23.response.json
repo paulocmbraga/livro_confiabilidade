@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"R$ 250\",\n  \"citacoes\": [\n    \"Boletim A de outubro\",\n    \"Boletim B de outubro\"\n  ],\n  \"abster\": true\n}"
+      }
+    }
+  ],
+  "created": 1792879476,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 414,
+    "total_tokens": 473,
+    "prompt_tokens_details": {
+      "cached_tokens": 175
+    }
+  },
+  "id": "chatcmpl-VAzH1xMa8kMZUmVZUGDbSQgCeDw5KFZ9",
+  "timings": {
+    "cache_n": 175,
+    "prompt_n": 239,
+    "prompt_ms": 1365.914,
+    "prompt_per_token_ms": 5.715121338912134,
+    "prompt_per_second": 174.97441273755155,
+    "predicted_n": 59,
+    "predicted_ms": 1219.406,
+    "predicted_per_token_ms": 21.024241379310343,
+    "predicted_per_second": 47.56414188547539
+  }
+}

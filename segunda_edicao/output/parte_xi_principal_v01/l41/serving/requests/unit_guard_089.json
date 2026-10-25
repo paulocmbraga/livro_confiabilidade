@@ -1,0 +1,44 @@
+{
+  "request": {
+    "row": {
+      "id": "reserve-0089",
+      "group": "regular",
+      "at": 15890,
+      "age": 2293.243778134227,
+      "unit": "minute",
+      "channel": "web",
+      "telemetry": 0.36001175527228824,
+      "history": [
+        {
+          "id": "initial",
+          "event": 15870,
+          "available": 15880,
+          "queue": 30
+        },
+        {
+          "id": "late-correction",
+          "event": 15875,
+          "available": 15980,
+          "queue": 20
+        },
+        {
+          "id": "outcome",
+          "event": 16010,
+          "available": 16070,
+          "queue": 40
+        }
+      ],
+      "y": 1,
+      "label_available": 16070
+    },
+    "mode": "unit_guard",
+    "attempt": "unit_guard_089"
+  },
+  "status": 422,
+  "response": {
+    "error": "unit",
+    "id": "reserve-0089",
+    "pid": 17212
+  },
+  "seconds": 2.550007775425911e-05
+}

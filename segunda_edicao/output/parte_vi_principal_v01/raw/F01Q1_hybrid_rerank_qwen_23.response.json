@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"10 dias de antecedência\", \"citacoes\": [\"[FER-E]\", \"[FER-G]\"],\"abster\": true}"
+      }
+    }
+  ],
+  "created": 1792879241,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 35,
+    "prompt_tokens": 330,
+    "total_tokens": 365,
+    "prompt_tokens_details": {
+      "cached_tokens": 136
+    }
+  },
+  "id": "chatcmpl-LYW8UwTtrF6B3s6ePO8Ln3V0TqQqa6U6",
+  "timings": {
+    "cache_n": 136,
+    "prompt_n": 194,
+    "prompt_ms": 1040.745,
+    "prompt_per_token_ms": 5.3646649484536075,
+    "prompt_per_second": 186.40493108302226,
+    "predicted_n": 35,
+    "predicted_ms": 865.58,
+    "predicted_per_token_ms": 25.45823529411765,
+    "predicted_per_second": 39.280020333187
+  }
+}

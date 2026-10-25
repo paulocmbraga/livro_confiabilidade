@@ -1,0 +1,218 @@
+[
+  {
+    "item": "H001",
+    "pair": "F03Q2",
+    "family": "F03",
+    "split": "calibration",
+    "candidate": "Y",
+    "origin": "output\\l23_principal_v01\\raw\\F03Q2_hybrid_rerank_top3_0.json",
+    "sha256": "678bf083a33694a827201288759cbe4eefe619b1495ca6c60c184ad43c306c38"
+  },
+  {
+    "item": "H002",
+    "pair": "F02Q1",
+    "family": "F02",
+    "split": "test",
+    "candidate": "Y",
+    "origin": "output\\l23_principal_v01\\raw\\F02Q1_hybrid_rerank_top3_0.json",
+    "sha256": "7c983ff082f174ae87d5660a19659fe4606daff25ef183212ad2312dbccb9425"
+  },
+  {
+    "item": "H003",
+    "pair": "F04Q2",
+    "family": "F04",
+    "split": "test",
+    "candidate": "Y",
+    "origin": "output\\l23_principal_v01\\raw\\F04Q2_hybrid_rerank_top3_0.json",
+    "sha256": "53ed44fb4dc61724163ec4195f68ce0b2f5da1962f897941e97151112e36aa74"
+  },
+  {
+    "item": "H004",
+    "pair": "F02Q2",
+    "family": "F02",
+    "split": "test",
+    "candidate": "Y",
+    "origin": "output\\l23_principal_v01\\raw\\F02Q2_hybrid_rerank_top3_0.json",
+    "sha256": "5665f7702c9be54da571df0cc8ef0acba216909eefc2f1efdb9b25938e57c686"
+  },
+  {
+    "item": "H005",
+    "pair": "F01Q1",
+    "family": "F01",
+    "split": "calibration",
+    "candidate": "Y",
+    "origin": "output\\l23_principal_v01\\raw\\F01Q1_hybrid_rerank_top3_0.json",
+    "sha256": "307b0ec45d2c947821d62526b9dd699b9723e9dceffc71b8c9f0366287f3f553"
+  },
+  {
+    "item": "H006",
+    "pair": "F05Q1",
+    "family": "F05",
+    "split": "calibration",
+    "candidate": "Y",
+    "origin": "output\\l23_principal_v01\\raw\\F05Q1_hybrid_rerank_top3_0.json",
+    "sha256": "773a4d29b698547d8fe38da8d6ffee6caeca09462d13a71935e4edaa5cb45eb0"
+  },
+  {
+    "item": "H007",
+    "pair": "F01Q1",
+    "family": "F01",
+    "split": "calibration",
+    "candidate": "X",
+    "origin": "output\\l23_principal_v01\\raw\\F01Q1_bm25_top1_0.json",
+    "sha256": "deaf1d79379e50c0ec61bca81f947ff54c595e91cbc22df50a5ba3b8ca704364"
+  },
+  {
+    "item": "H008",
+    "pair": "F01Q2",
+    "family": "F01",
+    "split": "calibration",
+    "candidate": "Y",
+    "origin": "output\\l23_principal_v01\\raw\\F01Q2_hybrid_rerank_top3_0.json",
+    "sha256": "7a1ee054d58e0866412cc101e5b45889fd72baab87d0422f868b5216a47474b9"
+  },
+  {
+    "item": "H009",
+    "pair": "F03Q1",
+    "family": "F03",
+    "split": "calibration",
+    "candidate": "Y",
+    "origin": "output\\l23_principal_v01\\raw\\F03Q1_hybrid_rerank_top3_0.json",
+    "sha256": "25d793570fa999ab45944da7f64134fda5d798b3da03230eaf34d155768c237c"
+  },
+  {
+    "item": "H010",
+    "pair": "F01Q2",
+    "family": "F01",
+    "split": "calibration",
+    "candidate": "X",
+    "origin": "output\\l23_principal_v01\\raw\\F01Q2_bm25_top1_0.json",
+    "sha256": "d5ac355c311e4bc48c5f62797865c89d36f9192dccca7474fbf6f773909fb3c4"
+  },
+  {
+    "item": "H011",
+    "pair": "F04Q2",
+    "family": "F04",
+    "split": "test",
+    "candidate": "X",
+    "origin": "output\\l23_principal_v01\\raw\\F04Q2_bm25_top1_0.json",
+    "sha256": "1fe32a03cdf16d3bf109c4f391f991481518236afe90782cd7274e3372bcfe24"
+  },
+  {
+    "item": "H012",
+    "pair": "F05Q2",
+    "family": "F05",
+    "split": "calibration",
+    "candidate": "Y",
+    "origin": "output\\l23_principal_v01\\raw\\F05Q2_hybrid_rerank_top3_0.json",
+    "sha256": "125050e62966a405f3676fe90c1c048b811c41eee2c0d5bf94c119313e2a4825"
+  },
+  {
+    "item": "H013",
+    "pair": "F06Q2",
+    "family": "F06",
+    "split": "test",
+    "candidate": "Y",
+    "origin": "output\\l23_principal_v01\\raw\\F06Q2_hybrid_rerank_top3_0.json",
+    "sha256": "f9c45e7a2abd1096e53d9209512489c7cc6926f0c31f92ae7b722b515cef9922"
+  },
+  {
+    "item": "H014",
+    "pair": "F06Q2",
+    "family": "F06",
+    "split": "test",
+    "candidate": "X",
+    "origin": "output\\l23_principal_v01\\raw\\F06Q2_bm25_top1_0.json",
+    "sha256": "1adc53da5188a2129f634152c18d1600b6b8f3f81c9d47f3023d90aa627a0c69"
+  },
+  {
+    "item": "H015",
+    "pair": "F05Q2",
+    "family": "F05",
+    "split": "calibration",
+    "candidate": "X",
+    "origin": "output\\l23_principal_v01\\raw\\F05Q2_bm25_top1_0.json",
+    "sha256": "42917ba334052edcd6d63a2cc77157b7ce63e2fe63002f814df8f45ffaaa2da7"
+  },
+  {
+    "item": "H016",
+    "pair": "F02Q1",
+    "family": "F02",
+    "split": "test",
+    "candidate": "X",
+    "origin": "output\\l23_principal_v01\\raw\\F02Q1_bm25_top1_0.json",
+    "sha256": "30ad155d96f6f4a4ad905ed563891e674a7760d204f568fb18bfe881383a1434"
+  },
+  {
+    "item": "H017",
+    "pair": "F05Q1",
+    "family": "F05",
+    "split": "calibration",
+    "candidate": "X",
+    "origin": "output\\l23_principal_v01\\raw\\F05Q1_bm25_top1_0.json",
+    "sha256": "ba4f1a7dd408e371c2729024a3664536690e26988eec290299f8d88a971cddb0"
+  },
+  {
+    "item": "H018",
+    "pair": "F03Q2",
+    "family": "F03",
+    "split": "calibration",
+    "candidate": "X",
+    "origin": "output\\l23_principal_v01\\raw\\F03Q2_bm25_top1_0.json",
+    "sha256": "1bcbfe06740708ab07497f7b29c5148d296d8420641cdcdf8b1466f049e57817"
+  },
+  {
+    "item": "H019",
+    "pair": "F06Q1",
+    "family": "F06",
+    "split": "test",
+    "candidate": "Y",
+    "origin": "output\\l23_principal_v01\\raw\\F06Q1_hybrid_rerank_top3_0.json",
+    "sha256": "3bf4a4dfaef823ee562cf9a1fc80c736b4750c0c3480880ea2f53a66ea979a23"
+  },
+  {
+    "item": "H020",
+    "pair": "F04Q1",
+    "family": "F04",
+    "split": "test",
+    "candidate": "X",
+    "origin": "output\\l23_principal_v01\\raw\\F04Q1_bm25_top1_0.json",
+    "sha256": "64c6a2064f6523155551c77ef0821cd6be0209f06f82b07cfe97965e0302cbc4"
+  },
+  {
+    "item": "H021",
+    "pair": "F06Q1",
+    "family": "F06",
+    "split": "test",
+    "candidate": "X",
+    "origin": "output\\l23_principal_v01\\raw\\F06Q1_bm25_top1_0.json",
+    "sha256": "8ba4ad76fabddfffeb7ec55bb8581f5dc79ffcf648339a12e80c4377d86f1172"
+  },
+  {
+    "item": "H022",
+    "pair": "F02Q2",
+    "family": "F02",
+    "split": "test",
+    "candidate": "X",
+    "origin": "output\\l23_principal_v01\\raw\\F02Q2_bm25_top1_0.json",
+    "sha256": "a189364e755227ab2e5e7bc650372ebce524d195f78eba5049bdd5f71e652f16"
+  },
+  {
+    "item": "H023",
+    "pair": "F04Q1",
+    "family": "F04",
+    "split": "test",
+    "candidate": "Y",
+    "origin": "output\\l23_principal_v01\\raw\\F04Q1_hybrid_rerank_top3_0.json",
+    "sha256": "b501847a7197b5927725ca98f48a87197947e74910da4d4b69067d1aa59541b4"
+  },
+  {
+    "item": "H024",
+    "pair": "F03Q1",
+    "family": "F03",
+    "split": "calibration",
+    "candidate": "X",
+    "origin": "output\\l23_principal_v01\\raw\\F03Q1_bm25_top1_0.json",
+    "sha256": "fb67adb0647e95f7c0f0e493d3116bc6d1bd89779e213def0624e36aef051ec8"
+  }
+]

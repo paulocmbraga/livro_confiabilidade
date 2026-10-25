@@ -1,0 +1,82 @@
+[
+  {
+    "mode": "open_no_batch",
+    "wall_seconds": 14.81187229999341,
+    "offered": 18,
+    "completed": 18,
+    "rejected": 0,
+    "errors": 0,
+    "within_4s": 11,
+    "p50": 3.7402027000207454,
+    "p95": 7.6498944000341,
+    "p99": 7.6498944000341,
+    "ttft_p95": 6.734946200274862,
+    "offered_lag_p95": 0.0014022000832483172,
+    "recovery_p95": 4.396747500053607,
+    "completion_tokens": 576,
+    "tenant_admitted": {
+      "a": 12,
+      "b": 6
+    }
+  },
+  {
+    "mode": "open_batch",
+    "wall_seconds": 15.141046900069341,
+    "offered": 18,
+    "completed": 18,
+    "rejected": 0,
+    "errors": 0,
+    "within_4s": 9,
+    "p50": 3.6981793000595644,
+    "p95": 7.58842809998896,
+    "p99": 7.58842809998896,
+    "ttft_p95": 6.247685100068338,
+    "offered_lag_p95": 0.0015584999928250909,
+    "recovery_p95": 4.982420700020157,
+    "completion_tokens": 576,
+    "tenant_admitted": {
+      "a": 12,
+      "b": 6
+    }
+  },
+  {
+    "mode": "open_admission",
+    "wall_seconds": 11.758060700027272,
+    "offered": 18,
+    "completed": 9,
+    "rejected": 9,
+    "errors": 0,
+    "within_4s": 9,
+    "p50": 1.5767871000571176,
+    "p95": 2.220356300007552,
+    "p99": 2.220356300007552,
+    "ttft_p95": 1.3568662999896333,
+    "offered_lag_p95": 0.0008138000266626477,
+    "recovery_p95": 1.6997622000053525,
+    "completion_tokens": 288,
+    "tenant_admitted": {
+      "a": 7,
+      "b": 2
+    }
+  },
+  {
+    "mode": "closed_batch",
+    "wall_seconds": 18.923065299983136,
+    "offered": 18,
+    "completed": 18,
+    "rejected": 0,
+    "errors": 0,
+    "within_4s": 18,
+    "p50": 0.925401100073941,
+    "p95": 1.5715090000303462,
+    "p99": 1.5715090000303462,
+    "ttft_p95": 1.0091801999369636,
+    "offered_lag_p95": 0.0,
+    "recovery_p95": 0.9569878000766039,
+    "completion_tokens": 576,
+    "tenant_admitted": {
+      "a": 12,
+      "b": 6
+    }
+  }
+]

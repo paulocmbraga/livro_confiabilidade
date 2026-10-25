@@ -1,0 +1,11 @@
+{
+  "case_id": "C04",
+  "condition": "team_stale_mixed",
+  "role": "auditor",
+  "model": "smol",
+  "packet": {
+    "source": "stale-v1",
+    "limit": 200,
+    "amount": 180
+  }
+}

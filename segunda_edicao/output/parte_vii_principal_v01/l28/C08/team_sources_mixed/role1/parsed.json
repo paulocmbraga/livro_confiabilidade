@@ -1,0 +1,18 @@
+{
+  "value": {
+    "approve": true,
+    "limit": 120,
+    "source": "current-v2"
+  },
+  "error": null,
+  "usage": {
+    "completion_tokens": 35,
+    "prompt_tokens": 87,
+    "total_tokens": 122,
+    "prompt_tokens_details": {
+      "cached_tokens": 62
+    }
+  },
+  "charged_output": 35,
+  "seconds": 1.266113999998197
+}

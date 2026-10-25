@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Bagagem de trabalho de campo nacional com equipamento autorizado, vai ao trabalho de trabalho de campo nacional com equipamento autorizado. O bagagem de trabalho de campo nacional com equipamento autorizado pode ser ao trabalho de trabalho de campo nacional com equipamento autorizado. O bagagem de trabalho de campo nacional com equipamento autorizado pode"
+      }
+    }
+  ],
+  "created": 1792879422,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 288,
+    "total_tokens": 416,
+    "prompt_tokens_details": {
+      "cached_tokens": 177
+    }
+  },
+  "id": "chatcmpl-VCrRyNG3HyRhgsWkD4Gc2uCLM7fXqvDN",
+  "timings": {
+    "cache_n": 177,
+    "prompt_n": 111,
+    "prompt_ms": 559.614,
+    "prompt_per_token_ms": 5.041567567567568,
+    "prompt_per_second": 198.35100622929374,
+    "predicted_n": 128,
+    "predicted_ms": 2370.715,
+    "predicted_per_token_ms": 18.66704724409449,
+    "predicted_per_second": 53.570336375312934
+  }
+}

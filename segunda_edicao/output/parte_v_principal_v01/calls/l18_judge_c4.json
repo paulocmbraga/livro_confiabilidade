@@ -1,0 +1,138 @@
+{
+  "id": "l18_judge_c4",
+  "request": {
+    "model": "l11-smol",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Is the proposed answer supported and correct? Reply PASS or FAIL only. Task: A delivery is planned for tomorrow. No other data is available. How many units will arrive? Proposed answer: UNKNOWN"
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-smol",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "schema": null
+  },
+  "config_sha256": "2abc44e9c620f81ef7716e1339e79a4d2a174906d8badac1bd47f1bbb74d4674",
+  "events": [
+    {
+      "seconds": 0.34900839999318123,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3490707000019029,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"No\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.36380429996643215,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\",\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3771057999692857,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" the\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.39025169995147735,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" proposed\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.40345119999255985,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" answer\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4165280999150127,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" is\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4296350999502465,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" not\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4428884999360889,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" supported\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4561393999028951,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" and\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4699180999305099,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" incorrect\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4828977999277413,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\".\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.49597379995975643,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" The\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5094029000028968,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" correct\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5225403999211267,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" answer\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5356106999097392,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" is\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5487329999450594,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" that\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5632809998933226,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" no\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5763908999506384,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" units\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5895060999318957,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" will\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.6035861999262124,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" arrive\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.6167645999230444,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\".\"}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.6299769999459386,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870764,\"id\":\"chatcmpl-OHUteqAvrzhLTkbiVFAC1q62OE8BULWv\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":72,\"prompt_ms\":321.529,\"prompt_per_token_ms\":4.465680555555555,\"prompt_per_second\":223.9300343048372,\"predicted_n\":22,\"predicted_ms\":280.984,\"predicted_per_token_ms\":13.380190476190474,\"predicted_per_second\":74.73735159297327}}"
+    },
+    {
+      "seconds": 0.630092200008221,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "No, the proposed answer is not supported and incorrect. The correct answer is that no units will arrive.",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 21,
+  "ttft_seconds": 0.34908630000427365,
+  "seconds": 0.6303290999494493,
+  "injected_cut_after_content_events": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "F09Q1_empty_qwen_41",
+  "query_id": "F09Q1",
+  "family": "F09",
+  "model": "qwen",
+  "seed": 41,
+  "variant": "empty",
+  "question": "Qual teto de jantar durante plantão noturno autorizado?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 0.965761800063774,
+  "parsed": {
+    "resposta": "Não há teto de jantar autorizado durante plantão noturno.",
+    "citacoes": [],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": false,
+    "source_loss_known": true,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": true,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

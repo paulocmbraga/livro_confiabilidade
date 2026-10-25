@@ -1,0 +1,38 @@
+[
+  {
+    "id": "qwen_F01Q1_base_AB_0",
+    "judge": "qwen",
+    "pair": "F01Q1",
+    "mode": "base",
+    "order": "AB",
+    "repeat": 0,
+    "seed": 1101
+  },
+  {
+    "id": "qwen_F01Q1_base_BA_0",
+    "judge": "qwen",
+    "pair": "F01Q1",
+    "mode": "base",
+    "order": "BA",
+    "repeat": 0,
+    "seed": 1101
+  },
+  {
+    "id": "smol_F01Q1_base_AB_0",
+    "judge": "smol",
+    "pair": "F01Q1",
+    "mode": "base",
+    "order": "AB",
+    "repeat": 0,
+    "seed": 1101
+  },
+  {
+    "id": "smol_F01Q1_base_BA_0",
+    "judge": "smol",
+    "pair": "F01Q1",
+    "mode": "base",
+    "order": "BA",
+    "repeat": 0,
+    "seed": 1101
+  }
+]

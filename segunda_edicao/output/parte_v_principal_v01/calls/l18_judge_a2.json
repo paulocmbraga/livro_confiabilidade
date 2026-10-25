@@ -1,0 +1,122 @@
+{
+  "id": "l18_judge_a2",
+  "request": {
+    "model": "l11-smol",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Is the proposed answer supported and correct? Reply PASS or FAIL only. Task: The record states exactly 12 units. How many units are there? Proposed answer: 12 units"
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-smol",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "schema": null
+  },
+  "config_sha256": "2abc44e9c620f81ef7716e1339e79a4d2a174906d8badac1bd47f1bbb74d4674",
+  "events": [
+    {
+      "seconds": 0.4200611000414938,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.42011639999691397,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"The\"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4343858000356704,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" proposed\"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.44738010002765805,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" answer\"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.46029790001921356,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" is\"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4729887000285089,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" supported\"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.48584860004484653,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" and\"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4990346999838948,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" correct\"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5116980000166222,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\".\"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5246984000550583,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" The\"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5381304000038654,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" record\"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5509946000529453,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" states\"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5637822999851778,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" exactly\"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5769742999691516,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" \"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5901230999734253,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"1\"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.6038561000023037,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"2\"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.6167709999717772,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" units\"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.6300332000246271,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\".\"}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.6433052000356838,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870759,\"id\":\"chatcmpl-PZxJUIXnaG8ov5TXcOT36RQR6c0iSwPz\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":69,\"prompt_ms\":417.001,\"prompt_per_token_ms\":6.043492753623188,\"prompt_per_second\":165.46722909537388,\"predicted_n\":18,\"predicted_ms\":223.276,\"predicted_per_token_ms\":13.133882352941177,\"predicted_per_second\":76.1389491033519}}"
+    },
+    {
+      "seconds": 0.6433805000269786,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "The proposed answer is supported and correct. The record states exactly 12 units.",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 17,
+  "ttft_seconds": 0.42012979998253286,
+  "seconds": 0.6436134000541642,
+  "injected_cut_after_content_events": null
+}

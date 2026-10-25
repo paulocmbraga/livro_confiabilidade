@@ -1,0 +1,59 @@
+{
+  "model": "l11-qwen",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Você controla uma reserva. Cumpra a quantidade e o teto. Nunca substitua por item não permitido. Primeiro inspect; depois reserve com a versão observada. Se for impossível, abstain. finish só após recibo. Cada chamada escolhe uma ação JSON, com item vazio e quantity 0 em inspect/abstain/finish. version deve ser inteiro; use -1 antes de observar. Não invente estoque ou preço."
+    },
+    {
+      "role": "user",
+      "content": "{\"id\": \"F06\", \"allowed\": [\"A\"], \"quantity\": 2, \"ceiling\": 30}"
+    }
+  ],
+  "temperature": 0.2,
+  "top_p": 0.9,
+  "seed": 17,
+  "max_tokens": 128,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "decision",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "action",
+          "item",
+          "quantity",
+          "version"
+        ],
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": [
+              "inspect",
+              "reserve",
+              "finish",
+              "abstain"
+            ]
+          },
+          "item": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B",
+              ""
+            ]
+          },
+          "quantity": {
+            "type": "integer"
+          },
+          "version": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}

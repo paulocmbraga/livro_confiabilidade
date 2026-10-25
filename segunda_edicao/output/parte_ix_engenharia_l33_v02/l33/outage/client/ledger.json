@@ -1,0 +1,230 @@
+[
+  {
+    "task": "outage-0",
+    "role": "client",
+    "trace_id": "bd6cfdf6e67ef44ef11fade2b24dda63",
+    "span_id": "07c912468d0aec62",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886597184090700,
+    "response": {
+      "task": "outage-0",
+      "role": "service",
+      "trace_id": "bd6cfdf6e67ef44ef11fade2b24dda63",
+      "span_id": "81403e3e41781cea",
+      "parent_id": "07c912468d0aec62",
+      "sampled": true,
+      "recorded_ns": 1792886597235197600,
+      "effect": "receipt-outage-0"
+    }
+  },
+  {
+    "task": "outage-1",
+    "role": "client",
+    "trace_id": "07045af60a5d4d2cdab071e96374f50d",
+    "span_id": "1e092239d278875b",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886598895142100,
+    "response": {
+      "task": "outage-1",
+      "role": "service",
+      "trace_id": "07045af60a5d4d2cdab071e96374f50d",
+      "span_id": "e2a545f13b711572",
+      "parent_id": "1e092239d278875b",
+      "sampled": true,
+      "recorded_ns": 1792886598918519700,
+      "effect": "receipt-outage-1"
+    }
+  },
+  {
+    "task": "outage-2",
+    "role": "client",
+    "trace_id": "e382ef62d98d60369aa6d71df9428555",
+    "span_id": "bc350f6fc44f3234",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886600555920100,
+    "response": {
+      "task": "outage-2",
+      "role": "service",
+      "trace_id": "e382ef62d98d60369aa6d71df9428555",
+      "span_id": "d95bb070fb8fca09",
+      "parent_id": "bc350f6fc44f3234",
+      "sampled": true,
+      "recorded_ns": 1792886600559455000,
+      "effect": "receipt-outage-2"
+    }
+  },
+  {
+    "task": "outage-3",
+    "role": "client",
+    "trace_id": "77f12ebec95b2a0f2f6fe4ceaf2ed679",
+    "span_id": "7feffbba31f6fdb7",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886602188075600,
+    "response": {
+      "task": "outage-3",
+      "role": "service",
+      "trace_id": "77f12ebec95b2a0f2f6fe4ceaf2ed679",
+      "span_id": "275672f64636a306",
+      "parent_id": "7feffbba31f6fdb7",
+      "sampled": true,
+      "recorded_ns": 1792886602188075600,
+      "effect": "receipt-outage-3"
+    }
+  },
+  {
+    "task": "outage-4",
+    "role": "client",
+    "trace_id": "56820cc404045f034fe8f01a09d10740",
+    "span_id": "7d9a17659b15a3be",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886603838696800,
+    "response": {
+      "task": "outage-4",
+      "role": "service",
+      "trace_id": "56820cc404045f034fe8f01a09d10740",
+      "span_id": "05332784f64fa830",
+      "parent_id": "7d9a17659b15a3be",
+      "sampled": true,
+      "recorded_ns": 1792886603838696800,
+      "effect": "receipt-outage-4"
+    }
+  },
+  {
+    "task": "outage-5",
+    "role": "client",
+    "trace_id": "e8a39eb1a76947fb1c7e3834a8352385",
+    "span_id": "932dbf730325e886",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886605488070200,
+    "response": {
+      "task": "outage-5",
+      "role": "service",
+      "trace_id": "e8a39eb1a76947fb1c7e3834a8352385",
+      "span_id": "1d79ee2a4ebbca41",
+      "parent_id": "932dbf730325e886",
+      "sampled": true,
+      "recorded_ns": 1792886605517206600,
+      "effect": "receipt-outage-5"
+    }
+  },
+  {
+    "task": "outage-6",
+    "role": "client",
+    "trace_id": "fda45c090a7b1851b38c08eef1f739ef",
+    "span_id": "3ff4fca025a85578",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886607156711300,
+    "response": {
+      "task": "outage-6",
+      "role": "service",
+      "trace_id": "fda45c090a7b1851b38c08eef1f739ef",
+      "span_id": "95185b56ad20d1d9",
+      "parent_id": "3ff4fca025a85578",
+      "sampled": true,
+      "recorded_ns": 1792886607156711300,
+      "effect": "receipt-outage-6"
+    }
+  },
+  {
+    "task": "outage-7",
+    "role": "client",
+    "trace_id": "ac4686243a83b61b14c081992c70974e",
+    "span_id": "07909dc2dee4f51c",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886608818354000,
+    "response": {
+      "task": "outage-7",
+      "role": "service",
+      "trace_id": "ac4686243a83b61b14c081992c70974e",
+      "span_id": "372fe1e73e6ff8f5",
+      "parent_id": "07909dc2dee4f51c",
+      "sampled": true,
+      "recorded_ns": 1792886608823007400,
+      "effect": "receipt-outage-7"
+    }
+  },
+  {
+    "task": "outage-8",
+    "role": "client",
+    "trace_id": "f4f56850324e4522fe98e70228c1421f",
+    "span_id": "ca3af5e21191e012",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886610487016900,
+    "response": {
+      "task": "outage-8",
+      "role": "service",
+      "trace_id": "f4f56850324e4522fe98e70228c1421f",
+      "span_id": "967dd1f0aeb93ed3",
+      "parent_id": "ca3af5e21191e012",
+      "sampled": true,
+      "recorded_ns": 1792886610488025400,
+      "effect": "receipt-outage-8"
+    }
+  },
+  {
+    "task": "outage-9",
+    "role": "client",
+    "trace_id": "563d5040189beeb70d00c20fc20788fe",
+    "span_id": "61f477639beacc8b",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886612139956600,
+    "response": {
+      "task": "outage-9",
+      "role": "service",
+      "trace_id": "563d5040189beeb70d00c20fc20788fe",
+      "span_id": "2ad64a170c83d1f4",
+      "parent_id": "61f477639beacc8b",
+      "sampled": true,
+      "recorded_ns": 1792886612154258500,
+      "effect": "receipt-outage-9"
+    }
+  },
+  {
+    "task": "outage-10",
+    "role": "client",
+    "trace_id": "3f866b6c8c1f099bf3f4fb69ba0880eb",
+    "span_id": "5407d59a4586c07e",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886613805627000,
+    "response": {
+      "task": "outage-10",
+      "role": "service",
+      "trace_id": "3f866b6c8c1f099bf3f4fb69ba0880eb",
+      "span_id": "34b313d0f3a5b7fe",
+      "parent_id": "5407d59a4586c07e",
+      "sampled": true,
+      "recorded_ns": 1792886613807624100,
+      "effect": "receipt-outage-10"
+    }
+  },
+  {
+    "task": "outage-11",
+    "role": "client",
+    "trace_id": "b5d64246f10cd9ad2d7fc7cf5a017853",
+    "span_id": "845c6f1331df3221",
+    "parent_id": null,
+    "sampled": true,
+    "recorded_ns": 1792886615438731800,
+    "response": {
+      "task": "outage-11",
+      "role": "service",
+      "trace_id": "b5d64246f10cd9ad2d7fc7cf5a017853",
+      "span_id": "cef503f0ec5cefd9",
+      "parent_id": "845c6f1331df3221",
+      "sampled": true,
+      "recorded_ns": 1792886615442505100,
+      "effect": "receipt-outage-11"
+    }
+  }
+]

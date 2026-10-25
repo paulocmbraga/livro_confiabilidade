@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{ \"resposta\": \"Para aprovar, a liderança direta deve aprová-lo antes do afastamento.\", \"citacoes\": [\"DESCANSO\"], \"abster\": true }"
+      }
+    }
+  ],
+  "created": 1792879100,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 45,
+    "prompt_tokens": 227,
+    "total_tokens": 272,
+    "prompt_tokens_details": {
+      "cached_tokens": 136
+    }
+  },
+  "id": "chatcmpl-pJl6iDIGgUMaAkLA8jevqY5orog8ZElM",
+  "timings": {
+    "cache_n": 136,
+    "prompt_n": 91,
+    "prompt_ms": 554.436,
+    "prompt_per_token_ms": 6.092703296703297,
+    "prompt_per_second": 164.13075630009592,
+    "predicted_n": 45,
+    "predicted_ms": 1035.273,
+    "predicted_per_token_ms": 23.528931818181817,
+    "predicted_per_second": 42.50086692109232
+  }
+}

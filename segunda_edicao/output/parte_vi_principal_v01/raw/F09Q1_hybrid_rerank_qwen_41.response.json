@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"Não há autorização para teto de jantar durante plantão noturno, conforme a legislação mencionada.\",\"citacoes\": [\"[DIS-09]\", \"FER-G\"],\"abster\": true}"
+      }
+    }
+  ],
+  "created": 1792879170,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 299,
+    "total_tokens": 353,
+    "prompt_tokens_details": {
+      "cached_tokens": 137
+    }
+  },
+  "id": "chatcmpl-ZkOMbypxUZcHnLQ1ozLOCWDAoo3l8v4n",
+  "timings": {
+    "cache_n": 137,
+    "prompt_n": 162,
+    "prompt_ms": 839.069,
+    "prompt_per_token_ms": 5.179438271604938,
+    "prompt_per_second": 193.07113002625528,
+    "predicted_n": 54,
+    "predicted_ms": 1070.244,
+    "predicted_per_token_ms": 20.193283018867923,
+    "predicted_per_second": 49.52141754590542
+  }
+}

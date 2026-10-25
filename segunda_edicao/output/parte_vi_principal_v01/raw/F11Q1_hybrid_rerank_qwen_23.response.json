@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"O auxílio veterinário para o cachorro é R$ 350 mensais.\",\"citacoes\": [\"[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais.\"],\"abster\": true}"
+      }
+    }
+  ],
+  "created": 1792879247,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 353,
+    "total_tokens": 435,
+    "prompt_tokens_details": {
+      "cached_tokens": 137
+    }
+  },
+  "id": "chatcmpl-9xXtcg2hl8e3sDcmwRxqqgo2wUpUB5Ul",
+  "timings": {
+    "cache_n": 137,
+    "prompt_n": 216,
+    "prompt_ms": 1328.988,
+    "prompt_per_token_ms": 6.152722222222223,
+    "prompt_per_second": 162.52968424094124,
+    "predicted_n": 82,
+    "predicted_ms": 1727.481,
+    "predicted_per_token_ms": 21.326925925925927,
+    "predicted_per_second": 46.88908300583335
+  }
+}

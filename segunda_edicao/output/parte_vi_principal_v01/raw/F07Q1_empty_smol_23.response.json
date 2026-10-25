@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Para bloquear meu cartão de entrada, você deve pagar um valor negativo para o cartão de entrada. Para obter o valor negativo, você deve pagar um valor positivo para o cartão de entrada. Você pode usar um valor negativo para bloquear o cartão de entrada, como 0, -100 ou -1000. Para obter o valor negativo, você deve pagar um valor positivo para"
+      }
+    }
+  ],
+  "created": 1792879373,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 220,
+    "total_tokens": 348,
+    "prompt_tokens_details": {
+      "cached_tokens": 219
+    }
+  },
+  "id": "chatcmpl-SKKzlFLdHxbNEbmW8cGqF3ZaJoAnXQFT",
+  "timings": {
+    "cache_n": 219,
+    "prompt_n": 1,
+    "prompt_ms": 39.575,
+    "prompt_per_token_ms": 39.575,
+    "prompt_per_second": 25.26847757422615,
+    "predicted_n": 128,
+    "predicted_ms": 2241.205,
+    "predicted_per_token_ms": 17.64728346456693,
+    "predicted_per_second": 56.66594532851747
+  }
+}

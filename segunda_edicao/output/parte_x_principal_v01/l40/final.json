@@ -1,0 +1,29 @@
+{
+  "config": {
+    "mode": "hold",
+    "stage": "archived",
+    "retest": "no"
+  },
+  "tasks": [
+    {
+      "id": "committed",
+      "amount": 300,
+      "schema": 1,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "unsent",
+      "amount": 400,
+      "schema": 1,
+      "state": "cancelled",
+      "priority": 0
+    }
+  ],
+  "effects": [
+    {
+      "id": "committed",
+      "amount": 300
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "F12Q1_bm25_qwen_23",
+  "query_id": "F12Q1",
+  "family": "F12",
+  "model": "qwen",
+  "seed": 23,
+  "variant": "bm25",
+  "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+  "context": {
+    "text": "[DIS-06] versão 2026-10: A conexão de internet do escritório é mantida pela TI. Reparos residenciais ficam fora desse procedimento.\n\n[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+    "ids": [
+      "DIS-06",
+      "DESCANSO",
+      "HOT-E"
+    ],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 167
+  },
+  "seconds": 2.1630181999644265,
+  "parsed": {
+    "resposta": "A taxa de juros do financiamento de carro oferecido pela Horizonte é de 0%.",
+    "citacoes": [
+      "[DIS-06]",
+      "HOT-E"
+    ],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": null,
+    "source_loss_known": null,
+    "reference_evidence_available": null,
+    "abstention_matches_reference": true,
+    "answer_lexical_signal": false,
+    "citations_present": true,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

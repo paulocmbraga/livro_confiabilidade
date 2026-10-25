@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"O teto de bagagem de trabalho de campo nacional em Horizonte é R$ 480 por diária, inclusive em Recife, que substitui o limite geral de HOT-G.\",\"citacoes\": [\"[DIS-10]\", \"HOT-E\", \"BAG-T\"],\"abster\": true}"
+      }
+    }
+  ],
+  "created": 1792879218,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 318,
+    "total_tokens": 393,
+    "prompt_tokens_details": {
+      "cached_tokens": 137
+    }
+  },
+  "id": "chatcmpl-vBXMK1rBT5HK0mcwuDGy4bWiIevbdTbF",
+  "timings": {
+    "cache_n": 137,
+    "prompt_n": 181,
+    "prompt_ms": 1030.443,
+    "prompt_per_token_ms": 5.693055248618784,
+    "prompt_per_second": 175.65260766485872,
+    "predicted_n": 75,
+    "predicted_ms": 1483.911,
+    "predicted_per_token_ms": 20.052851351351354,
+    "predicted_per_second": 49.868219859546834
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "docker": "29.8.2",
+  "image": "postgres@sha256:1ffbf339f5b8e78c394cfaad3711ef6dbc4e14546bf70428e0bb30cba66e8e4d",
+  "port": 56859,
+  "container": "livro-l26-cc0a60f253",
+  "date_utc": "2026-10-24T03:22:29Z",
+  "postgres": "PostgreSQL 18.6 (Debian 18.6-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit",
+  "host_ram_bytes": 16540794880,
+  "logical_cpus": 12,
+  "image_bytes": 643878870
+}

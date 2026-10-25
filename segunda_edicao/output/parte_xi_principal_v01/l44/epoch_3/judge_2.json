@@ -1,0 +1,73 @@
+{
+  "request": {
+    "model": "smol",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aprove somente se limite e fonte coincidem exatamente com o documento. Documento: {\"id\": \"alimentacao-v2\", \"family\": \"alimentacao\", \"version\": \"v2\", \"limit\": 140, \"text\": \"Politica alimentacao da Horizonte. Limite autorizado: 140 reais. A excecao anterior esta revogada.\"} Resposta: {\"limite\": 140, \"fonte\": \"id=alimentacao-v2&version=v2&limit=140&text=Politica alimentacao da Horizonte. Limite autorizado: 140 reais. A excecao anterior esta revogada.\"}"
+      }
+    ],
+    "temperature": 0,
+    "seed": 441,
+    "max_tokens": 100,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "result",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "approved"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "cache_prompt": false
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"approved\": true}"
+        }
+      }
+    ],
+    "created": 1792950053,
+    "model": "smol",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 9,
+      "prompt_tokens": 210,
+      "total_tokens": 219,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-nl4wSFUFyaV3Jxipx526U469pbGQqWNu",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 210,
+      "prompt_ms": 773.266,
+      "prompt_per_token_ms": 3.6822190476190473,
+      "prompt_per_second": 271.57536992445034,
+      "predicted_n": 9,
+      "predicted_ms": 163.958,
+      "predicted_per_token_ms": 20.49475,
+      "predicted_per_second": 48.79298356896278
+    }
+  },
+  "seconds": 0.940896000014618,
+  "text": "{\"approved\": true}",
+  "finish": "stop"
+}

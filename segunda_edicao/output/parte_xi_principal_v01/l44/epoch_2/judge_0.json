@@ -1,0 +1,73 @@
+{
+  "request": {
+    "model": "qwen",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aprove se existe um numero na resposta. Documento: {\"id\": \"viagem-v2\", \"family\": \"viagem\", \"version\": \"v2\", \"limit\": 120, \"text\": \"Politica viagem da Horizonte. Limite autorizado: 120 reais. A excecao anterior esta revogada.\"} Resposta: {\n  \"limite\": 120,\n  \"fonte\": \"viagem-v2\"\n}"
+      }
+    ],
+    "temperature": 0,
+    "seed": 441,
+    "max_tokens": 100,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "result",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "approved"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "cache_prompt": false
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"approved\": true\n}"
+        }
+      }
+    ],
+    "created": 1792950034,
+    "model": "qwen",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 133,
+      "total_tokens": 151,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-tS9WKixRl9vTznekRqC7nLnaKXHp0zcj",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 133,
+      "prompt_ms": 889.446,
+      "prompt_per_token_ms": 6.687563909774436,
+      "prompt_per_second": 149.53128126946436,
+      "predicted_n": 18,
+      "predicted_ms": 480.969,
+      "predicted_per_token_ms": 28.29229411764706,
+      "predicted_per_second": 35.34531331541118
+    }
+  },
+  "seconds": 1.3749704000074416,
+  "text": "{\n  \"approved\": true\n}",
+  "finish": "stop"
+}

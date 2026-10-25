@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "stock": {
+    "A": 3,
+    "B": 5
+  },
+  "prices": {
+    "A": 10,
+    "B": 8
+  },
+  "reads": 0,
+  "effects": [
+    {
+      "intent": "F07",
+      "item": "A",
+      "quantity": 2,
+      "amount": 20
+    }
+  ],
+  "audit": [
+    {
+      "proposal": {
+        "action": "inspect",
+        "item": "A",
+        "quantity": 2,
+        "version": -1
+      },
+      "response": {
+        "receipt": {
+          "intent": "F07",
+          "item": "A",
+          "quantity": 2,
+          "amount": 20
+        },
+        "version": 1,
+        "cached": true
+      }
+    }
+  ]
+}

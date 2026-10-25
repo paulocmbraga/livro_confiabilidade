@@ -1,0 +1,20 @@
+{
+  "job": "job2",
+  "attempt": "a2",
+  "mode": "execute",
+  "token": 1,
+  "pid": 10868,
+  "status": 409,
+  "reply": {
+    "effect": "not_applied",
+    "hash": "f630f417451d045eb817479677db0f1e53f5986abaf6dc7f87986bfc7c1ffb53",
+    "intent": "compensacao-1",
+    "key": "chave-comp",
+    "reason": "compensation_forbidden",
+    "tenant": "horizonte"
+  },
+  "outcome": "rejected",
+  "ledger_updated": true,
+  "seconds": 0.2756320000626147,
+  "error": null
+}

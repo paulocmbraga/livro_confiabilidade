@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"Não existe um teto diário de hotel em um congresso aprovado em Recife, pois os títulos de congressos são publicamente conhecidos e não podem ser alterados sem a aprovação do Congresso.\",\"citacoes\":[],\"abster\":true}"
+      }
+    }
+  ],
+  "created": 1792879107,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 169,
+    "total_tokens": 235,
+    "prompt_tokens_details": {
+      "cached_tokens": 137
+    }
+  },
+  "id": "chatcmpl-VYGRqESGuRv3PBwYHecb86Vy2NTeiWEE",
+  "timings": {
+    "cache_n": 137,
+    "prompt_n": 32,
+    "prompt_ms": 278.046,
+    "prompt_per_token_ms": 8.6889375,
+    "prompt_per_second": 115.08887018694749,
+    "predicted_n": 66,
+    "predicted_ms": 1286.073,
+    "predicted_per_token_ms": 19.785738461538465,
+    "predicted_per_second": 50.54145448975291
+  }
+}

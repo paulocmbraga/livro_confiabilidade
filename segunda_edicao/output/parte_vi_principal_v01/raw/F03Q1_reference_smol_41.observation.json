@@ -1,0 +1,39 @@
+{
+  "id": "F03Q1_reference_smol_41",
+  "query_id": "F03Q1",
+  "family": "F03",
+  "model": "smol",
+  "seed": 41,
+  "variant": "reference",
+  "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+  "context": {
+    "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+    "ids": [
+      "NET-NEW"
+    ],
+    "skipped": [],
+    "source_restored": true,
+    "tokens": 64
+  },
+  "seconds": 2.4003909999737516,
+  "parsed": {
+    "resposta": "R$ 120",
+    "citacoes": [
+      "http://www.horizonte.com/2026/10/12/internet-residencial-auxilio-mensal-de-internet-residencial-horizonte-2026-10-12/"
+    ],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": true,
+    "source_loss_known": false,
+    "reference_evidence_available": true,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": true,
+    "citations_present": true,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

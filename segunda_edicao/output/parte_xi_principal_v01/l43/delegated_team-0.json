@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "task": {
+        "id": "edf6cf0f-635a-4ab9-914b-d068cd821bec",
+        "contextId": "77bd67bd-a38a-4ccc-909f-d47ba817afad",
+        "status": {
+          "state": "TASK_STATE_SUBMITTED"
+        }
+      }
+    },
+    {
+      "statusUpdate": {
+        "taskId": "edf6cf0f-635a-4ab9-914b-d068cd821bec",
+        "contextId": "77bd67bd-a38a-4ccc-909f-d47ba817afad",
+        "status": {
+          "state": "TASK_STATE_WORKING",
+          "timestamp": "2026-10-25T17:40:02.353414Z"
+        }
+      }
+    }
+  ],
+  "final": {
+    "id": "edf6cf0f-635a-4ab9-914b-d068cd821bec",
+    "contextId": "77bd67bd-a38a-4ccc-909f-d47ba817afad",
+    "status": {
+      "state": "TASK_STATE_COMPLETED",
+      "timestamp": "2026-10-25T17:40:02.984801Z"
+    },
+    "artifacts": [
+      {
+        "artifactId": "review-edf6cf0f-635a-4ab9-914b-d068cd821bec",
+        "name": "bounded_review",
+        "parts": [
+          {
+            "text": "{\"action\": \"hold\", \"quantity\": 1}"
+          }
+        ],
+        "metadata": {
+          "intent": "team-0",
+          "task_id": "edf6cf0f-635a-4ab9-914b-d068cd821bec",
+          "contract": "v1",
+          "context_id": "77bd67bd-a38a-4ccc-909f-d47ba817afad",
+          "audience": "controller"
+        }
+      }
+    ]
+  }
+}

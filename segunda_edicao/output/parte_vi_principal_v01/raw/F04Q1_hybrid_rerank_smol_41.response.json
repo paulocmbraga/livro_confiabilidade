@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Passe o prazo atual para prestar contas de passagens depois da viagem. Se o prazo atual for menor que 7 dias, a regra geral exige pedido com 30 dias de antecedência. Exceção de férias: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceção de férias: Para férias, a regra geral exige pedido com "
+      }
+    }
+  ],
+  "created": 1792879496,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 412,
+    "total_tokens": 540,
+    "prompt_tokens_details": {
+      "cached_tokens": 275
+    }
+  },
+  "id": "chatcmpl-Af3DpD8wJWDXjsOL5kEOMd6enZut639n",
+  "timings": {
+    "cache_n": 275,
+    "prompt_n": 137,
+    "prompt_ms": 791.838,
+    "prompt_per_token_ms": 5.779839416058394,
+    "prompt_per_second": 173.01518744995823,
+    "predicted_n": 128,
+    "predicted_ms": 2362.532,
+    "predicted_per_token_ms": 18.602614173228346,
+    "predicted_per_second": 53.75588563456495
+  }
+}

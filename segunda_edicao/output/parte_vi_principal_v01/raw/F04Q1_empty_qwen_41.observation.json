@@ -1,0 +1,35 @@
+{
+  "id": "F04Q1_empty_qwen_41",
+  "query_id": "F04Q1",
+  "family": "F04",
+  "model": "qwen",
+  "seed": 41,
+  "variant": "empty",
+  "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 1.4866514999885112,
+  "parsed": {
+    "resposta": "O prazo atual para prestar contas de passagens depois da viagem é determinado pela legislação vigente e pode variar dependendo do país e do estado em que você está se movendo.",
+    "citacoes": [],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": false,
+    "source_loss_known": false,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": true,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "seconds": 9.668,
+  "rss_peak_bytes": 619184128,
+  "samples": [
+    {
+      "seconds": 1.022,
+      "rss": 592666624,
+      "cpu_seconds": 1.546875,
+      "ram_available": 3880857600
+    },
+    {
+      "seconds": 2.023,
+      "rss": 618328064,
+      "cpu_seconds": 5.375,
+      "ram_available": 3850387456
+    },
+    {
+      "seconds": 3.024,
+      "rss": 618328064,
+      "cpu_seconds": 9.25,
+      "ram_available": 3845828608
+    },
+    {
+      "seconds": 4.038,
+      "rss": 618328064,
+      "cpu_seconds": 13.171875,
+      "ram_available": 3838353408
+    },
+    {
+      "seconds": 5.039,
+      "rss": 619184128,
+      "cpu_seconds": 17.125,
+      "ram_available": 3832901632
+    },
+    {
+      "seconds": 6.04,
+      "rss": 618659840,
+      "cpu_seconds": 21.09375,
+      "ram_available": 3832221696
+    },
+    {
+      "seconds": 7.046,
+      "rss": 618659840,
+      "cpu_seconds": 25.09375,
+      "ram_available": 3825344512
+    },
+    {
+      "seconds": 8.055,
+      "rss": 618659840,
+      "cpu_seconds": 29.125,
+      "ram_available": 3806994432
+    },
+    {
+      "seconds": 9.071,
+      "rss": 619175936,
+      "cpu_seconds": 33.171875,
+      "ram_available": 3795869696
+    }
+  ],
+  "cpu_seconds": 33.171875,
+  "process_ended": true,
+  "model_sha256": "48ab3034d0dd401fbc721eb1df3217902fee7dab9078992d66431f09b7750201",
+  "runtime_sha256": "6a4635aeb35656153d4bfeeddf761d24ed84aada9c9108d580737cbed465141b",
+  "arguments": [
+    "-m",
+    "C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\.modelos\\l11\\smollm2-360m-instruct-q8_0.gguf",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "62209",
+    "-t",
+    "4",
+    "-tb",
+    "4",
+    "-c",
+    "4096",
+    "-np",
+    "1",
+    "-ngl",
+    "0",
+    "--no-webui",
+    "--alias",
+    "l11-smol"
+  ],
+  "host_ram_bytes": 16540794880,
+  "python": "3.12.14",
+  "psutil": "7.1.0",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

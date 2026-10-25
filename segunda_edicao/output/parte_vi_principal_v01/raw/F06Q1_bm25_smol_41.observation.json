@@ -1,0 +1,35 @@
+{
+  "id": "F06Q1_bm25_smol_41",
+  "query_id": "F06Q1",
+  "family": "F06",
+  "model": "smol",
+  "seed": 41,
+  "variant": "bm25",
+  "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+  "context": {
+    "text": "[REM-B] versão 2026-10: Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.\n\n[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+    "ids": [
+      "REM-B",
+      "REM-A",
+      "FER-G"
+    ],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 160
+  },
+  "seconds": 3.2445565999951214,
+  "parsed": null,
+  "error": "finish_reason não é stop",
+  "observed": {
+    "valid": false,
+    "all_required_delivered": true,
+    "source_loss_known": false,
+    "reference_evidence_available": true,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

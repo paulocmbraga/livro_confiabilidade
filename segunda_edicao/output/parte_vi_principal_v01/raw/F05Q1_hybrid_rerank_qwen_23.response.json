@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"O auxílio mensal para curso de idiomas é R$ 250 mensais e R$ 350 mensais, respectivamente, publicados em 1 de outubro de 2026.\",\n  \"citacoes\": [\n    \"BOL-A\",\n    \"BOL-B\",\n    \"NET-NEW\"\n  ],\n  \"abster\": true\n}"
+      }
+    }
+  ],
+  "created": 1792879155,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 92,
+    "prompt_tokens": 365,
+    "total_tokens": 457,
+    "prompt_tokens_details": {
+      "cached_tokens": 223
+    }
+  },
+  "id": "chatcmpl-YC1J7870jZJonN0OxpwXCzXrBPpT3ihR",
+  "timings": {
+    "cache_n": 223,
+    "prompt_n": 142,
+    "prompt_ms": 777.475,
+    "prompt_per_token_ms": 5.475176056338029,
+    "prompt_per_second": 182.64252869867198,
+    "predicted_n": 92,
+    "predicted_ms": 1769.456,
+    "predicted_per_token_ms": 19.44457142857143,
+    "predicted_per_second": 51.428235570706484
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Por favor, informe o seu nome e ao seu endereço de email.\",\n  \"citacoes\": [\n    \"FER-G\",\n    \"2026-10\",\n    \"Para férias, a regra geral exige pedido com 30 dias de antecedência.\",\n    \"Exceções estão em FER-E.\",\n    \"A partir de outubro de 2026, a prestação de contas de passagens de"
+      }
+    }
+  ],
+  "created": 1792879380,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 406,
+    "total_tokens": 534,
+    "prompt_tokens_details": {
+      "cached_tokens": 203
+    }
+  },
+  "id": "chatcmpl-B19UAwmYTjsgD2nUYfY7tAReIy64RbDr",
+  "timings": {
+    "cache_n": 203,
+    "prompt_n": 203,
+    "prompt_ms": 1123.917,
+    "prompt_per_token_ms": 5.5365369458128075,
+    "prompt_per_second": 180.61831968018993,
+    "predicted_n": 128,
+    "predicted_ms": 2427.531,
+    "predicted_per_token_ms": 19.114417322834644,
+    "predicted_per_second": 52.316530664284
+  }
+}

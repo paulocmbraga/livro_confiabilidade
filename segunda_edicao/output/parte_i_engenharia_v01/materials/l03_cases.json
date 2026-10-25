@@ -1,0 +1,178 @@
+[
+  {
+    "id": "S01",
+    "name": "valid",
+    "proposal": {
+      "tenant": "horizonte-a",
+      "cents": 2500,
+      "revision": 4
+    },
+    "context": {
+      "tenant": "horizonte-a",
+      "limit": 5000,
+      "revision": 4,
+      "authorized": true
+    },
+    "collector_up": true,
+    "audit_required_online": false,
+    "buffer_capacity": 100
+  },
+  {
+    "id": "S02",
+    "name": "invalid_schema",
+    "proposal": "modelo respondeu em prosa",
+    "context": {
+      "tenant": "horizonte-a",
+      "limit": 5000,
+      "revision": 4,
+      "authorized": true
+    },
+    "collector_up": true,
+    "audit_required_online": false,
+    "buffer_capacity": 100
+  },
+  {
+    "id": "S03",
+    "name": "foreign_tenant",
+    "proposal": {
+      "tenant": "horizonte-b",
+      "cents": 2500,
+      "revision": 4
+    },
+    "context": {
+      "tenant": "horizonte-a",
+      "limit": 5000,
+      "revision": 4,
+      "authorized": true
+    },
+    "collector_up": true,
+    "audit_required_online": false,
+    "buffer_capacity": 100
+  },
+  {
+    "id": "S04",
+    "name": "negative_amount",
+    "proposal": {
+      "tenant": "horizonte-a",
+      "cents": -1,
+      "revision": 4
+    },
+    "context": {
+      "tenant": "horizonte-a",
+      "limit": 5000,
+      "revision": 4,
+      "authorized": true
+    },
+    "collector_up": true,
+    "audit_required_online": false,
+    "buffer_capacity": 100
+  },
+  {
+    "id": "S05",
+    "name": "stale_revision",
+    "proposal": {
+      "tenant": "horizonte-a",
+      "cents": 2500,
+      "revision": 3
+    },
+    "context": {
+      "tenant": "horizonte-a",
+      "limit": 5000,
+      "revision": 4,
+      "authorized": true
+    },
+    "collector_up": true,
+    "audit_required_online": false,
+    "buffer_capacity": 100
+  },
+  {
+    "id": "S06",
+    "name": "unauthorized",
+    "proposal": {
+      "tenant": "horizonte-a",
+      "cents": 2500,
+      "revision": 4
+    },
+    "context": {
+      "tenant": "horizonte-a",
+      "limit": 5000,
+      "revision": 4,
+      "authorized": false
+    },
+    "collector_up": true,
+    "audit_required_online": false,
+    "buffer_capacity": 100
+  },
+  {
+    "id": "S07",
+    "name": "optional_down",
+    "proposal": {
+      "tenant": "horizonte-a",
+      "cents": 2500,
+      "revision": 4
+    },
+    "context": {
+      "tenant": "horizonte-a",
+      "limit": 5000,
+      "revision": 4,
+      "authorized": true
+    },
+    "collector_up": false,
+    "audit_required_online": false,
+    "buffer_capacity": 100
+  },
+  {
+    "id": "S08",
+    "name": "required_down",
+    "proposal": {
+      "tenant": "horizonte-a",
+      "cents": 2500,
+      "revision": 4
+    },
+    "context": {
+      "tenant": "horizonte-a",
+      "limit": 5000,
+      "revision": 4,
+      "authorized": true
+    },
+    "collector_up": false,
+    "audit_required_online": true,
+    "buffer_capacity": 100
+  },
+  {
+    "id": "S09",
+    "name": "buffer_full",
+    "proposal": {
+      "tenant": "horizonte-a",
+      "cents": 2500,
+      "revision": 4
+    },
+    "context": {
+      "tenant": "horizonte-a",
+      "limit": 5000,
+      "revision": 4,
+      "authorized": true
+    },
+    "collector_up": true,
+    "audit_required_online": false,
+    "buffer_capacity": 0
+  },
+  {
+    "id": "S10",
+    "name": "boolean_amount",
+    "proposal": {
+      "tenant": "horizonte-a",
+      "cents": true,
+      "revision": 4
+    },
+    "context": {
+      "tenant": "horizonte-a",
+      "limit": 5000,
+      "revision": 4,
+      "authorized": true
+    },
+    "collector_up": true,
+    "audit_required_online": false,
+    "buffer_capacity": 100
+  }
+]

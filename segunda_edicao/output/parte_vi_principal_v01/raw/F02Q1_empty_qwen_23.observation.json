@@ -1,0 +1,35 @@
+{
+  "id": "F02Q1_empty_qwen_23",
+  "query_id": "F02Q1",
+  "family": "F02",
+  "model": "qwen",
+  "seed": 23,
+  "variant": "empty",
+  "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 1.5706531000323594,
+  "parsed": {
+    "resposta": "Não existe um teto diário de hotel em um congresso aprovado em Recife, pois os títulos de congressos são publicamente conhecidos e não podem ser alterados sem a aprovação do Congresso.",
+    "citacoes": [],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": false,
+    "source_loss_known": false,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": true,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

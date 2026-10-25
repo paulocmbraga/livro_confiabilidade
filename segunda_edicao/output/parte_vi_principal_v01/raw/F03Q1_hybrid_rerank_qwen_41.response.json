@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"O auxílio mensal de internet residencial da Horizonte em outubro de 2026 é R$ 120.\",\"citacoes\":[\"[NET-NEW] versão 2026-10: desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.\", \"[BOL-A] versão 2026-10: Boletim A de outubro"
+      }
+    }
+  ],
+  "created": 1792879163,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 366,
+    "total_tokens": 494,
+    "prompt_tokens_details": {
+      "cached_tokens": 222
+    }
+  },
+  "id": "chatcmpl-jcvy8v3ysVa05OzI8PTy0jYDWxIPwrPY",
+  "timings": {
+    "cache_n": 222,
+    "prompt_n": 144,
+    "prompt_ms": 764.536,
+    "prompt_per_token_ms": 5.309277777777777,
+    "prompt_per_second": 188.3495348812875,
+    "predicted_n": 128,
+    "predicted_ms": 2293.917,
+    "predicted_per_token_ms": 18.062338582677164,
+    "predicted_per_second": 55.36381656354611
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Então, o teto de jantar que deve ser autorizado para a plantão noturno autorizada é R$ 70.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.0"
+      }
+    }
+  ],
+  "created": 1792879414,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 280,
+    "total_tokens": 408,
+    "prompt_tokens_details": {
+      "cached_tokens": 279
+    }
+  },
+  "id": "chatcmpl-yEsyoDabA8qKLTRqIGViA8U5lQpg0coo",
+  "timings": {
+    "cache_n": 279,
+    "prompt_n": 1,
+    "prompt_ms": 42.695,
+    "prompt_per_token_ms": 42.695,
+    "prompt_per_second": 23.421946363742826,
+    "predicted_n": 128,
+    "predicted_ms": 2311.342,
+    "predicted_per_token_ms": 18.199543307086614,
+    "predicted_per_second": 54.94643371686232
+  }
+}

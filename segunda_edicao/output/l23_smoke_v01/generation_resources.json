@@ -1,0 +1,104 @@
+{
+  "elapsed_seconds": 11.812,
+  "rss_peak_bytes": 537804800,
+  "samples": [
+    {
+      "seconds": 1.046,
+      "rss": 42192896,
+      "cpu_seconds": 0.234375,
+      "ram_available": 4776173568
+    },
+    {
+      "seconds": 2.062,
+      "rss": 533725184,
+      "cpu_seconds": 2.21875,
+      "ram_available": 4280512512
+    },
+    {
+      "seconds": 3.062,
+      "rss": 537071616,
+      "cpu_seconds": 6.1875,
+      "ram_available": 4269907968
+    },
+    {
+      "seconds": 4.062,
+      "rss": 535736320,
+      "cpu_seconds": 10.109375,
+      "ram_available": 4282753024
+    },
+    {
+      "seconds": 5.078,
+      "rss": 535859200,
+      "cpu_seconds": 14.125,
+      "ram_available": 4323086336
+    },
+    {
+      "seconds": 6.093,
+      "rss": 537358336,
+      "cpu_seconds": 18.1875,
+      "ram_available": 4478570496
+    },
+    {
+      "seconds": 7.093,
+      "rss": 535756800,
+      "cpu_seconds": 22.125,
+      "ram_available": 4435931136
+    },
+    {
+      "seconds": 8.093,
+      "rss": 537067520,
+      "cpu_seconds": 26.09375,
+      "ram_available": 4437622784
+    },
+    {
+      "seconds": 9.093,
+      "rss": 535785472,
+      "cpu_seconds": 30.078125,
+      "ram_available": 4440383488
+    },
+    {
+      "seconds": 10.093,
+      "rss": 537620480,
+      "cpu_seconds": 34.015625,
+      "ram_available": 4471877632
+    },
+    {
+      "seconds": 11.109,
+      "rss": 537804800,
+      "cpu_seconds": 38.078125,
+      "ram_available": 4461121536
+    }
+  ],
+  "process_ended": true,
+  "arguments": [
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "63420",
+    "-t",
+    "4",
+    "-tb",
+    "4",
+    "-c",
+    "2048",
+    "-np",
+    "1",
+    "-ngl",
+    "0",
+    "--no-webui",
+    "--alias",
+    "l23-qwen-q4"
+  ],
+  "model_sha256": "74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db",
+  "runtime_sha256": "6a4635aeb35656153d4bfeeddf761d24ed84aada9c9108d580737cbed465141b",
+  "device": "cpu",
+  "threads": 4,
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.2.6",
+    "torch": "2.8.0+cpu",
+    "transformers": "4.57.1",
+    "sentence-transformers": "5.1.1",
+    "psutil": "7.1.0"
+  }
+}

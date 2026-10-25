@@ -1,0 +1,18 @@
+{
+  "allowed": [
+    "A",
+    "B"
+  ],
+  "quantity": 2,
+  "ceiling": 30,
+  "stock": {
+    "A": 5,
+    "B": 5
+  },
+  "prices": {
+    "A": 10,
+    "B": 8
+  },
+  "change_after_read": true,
+  "id": "F05"
+}

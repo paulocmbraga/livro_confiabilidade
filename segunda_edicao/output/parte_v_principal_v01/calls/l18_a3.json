@@ -1,0 +1,62 @@
+{
+  "id": "l18_a3",
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "O estoque possui 7 caixas; cada caixa contém 2 itens. Quantos itens existem? Reply with the numerical answer only, or UNKNOWN if it is not determined by the information."
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-qwen",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "schema": null
+  },
+  "config_sha256": "c4597602f3ce61a1aa48a17cdc86c065e0be05286555aebc75580eefc82d6ada",
+  "events": [
+    {
+      "seconds": 0.37355050002224743,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870713,\"id\":\"chatcmpl-1TfElYluUfrhcs9DcOUuucnAPIz5l23M\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.37361190002411604,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"7\"}}],\"created\":1792870713,\"id\":\"chatcmpl-1TfElYluUfrhcs9DcOUuucnAPIz5l23M\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.38976280007045716,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" itens\"}}],\"created\":1792870713,\"id\":\"chatcmpl-1TfElYluUfrhcs9DcOUuucnAPIz5l23M\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.40528150007594377,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870713,\"id\":\"chatcmpl-1TfElYluUfrhcs9DcOUuucnAPIz5l23M\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":70,\"prompt_ms\":358.192,\"prompt_per_token_ms\":5.1170285714285715,\"prompt_per_second\":195.42591682672978,\"predicted_n\":3,\"predicted_ms\":31.745,\"predicted_per_token_ms\":15.8725,\"predicted_per_second\":63.00204756654591}}"
+    },
+    {
+      "seconds": 0.4053777999943122,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "7 itens",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 2,
+  "ttft_seconds": 0.3736263000173494,
+  "seconds": 0.4055774000007659,
+  "injected_cut_after_content_events": null
+}

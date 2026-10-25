@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"Não foi possível obter informações sobre a taxa de juros do financiamento de carro oferecido pela Horizonte.\",\"citacoes\":[],\"abster\":true}"
+      }
+    }
+  ],
+  "created": 1792879205,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 169,
+    "total_tokens": 212,
+    "prompt_tokens_details": {
+      "cached_tokens": 158
+    }
+  },
+  "id": "chatcmpl-l88LYU5IHI2i253ESrqWHkWByAunqsbO",
+  "timings": {
+    "cache_n": 158,
+    "prompt_n": 11,
+    "prompt_ms": 81.225,
+    "prompt_per_token_ms": 7.384090909090909,
+    "prompt_per_second": 135.42628501077257,
+    "predicted_n": 43,
+    "predicted_ms": 809.144,
+    "predicted_per_token_ms": 19.265333333333334,
+    "predicted_per_second": 51.90670634645996
+  }
+}

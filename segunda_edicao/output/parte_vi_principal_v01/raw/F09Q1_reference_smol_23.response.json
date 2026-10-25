@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"noturno autorizado, jantar teto de R$ 70\",\"citacoes\": [\n    \"REF-T\",\n    \"2026-10\",\n    \"Tabela de refeição em viagem: almoço R$ 45; jantar R$ 55. Nota: no plantão noturno autorizado, jantar tem teto de R$ 70.\"\n  ],\"abster\": true\n}"
+      }
+    }
+  ],
+  "created": 1792879409,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 280,
+    "total_tokens": 406,
+    "prompt_tokens_details": {
+      "cached_tokens": 202
+    }
+  },
+  "id": "chatcmpl-JjiOSFJJERuDhWWIYtcy15SySCT2QIlV",
+  "timings": {
+    "cache_n": 202,
+    "prompt_n": 78,
+    "prompt_ms": 386.193,
+    "prompt_per_token_ms": 4.951192307692308,
+    "prompt_per_second": 201.97155308356187,
+    "predicted_n": 126,
+    "predicted_ms": 2327.558,
+    "predicted_per_token_ms": 18.620464,
+    "predicted_per_second": 53.70435452091849
+  }
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "task": {
+      "id": "654b2828-dcb0-4463-bfdc-e3a6ca6507bb",
+      "contextId": "69660f90-6f03-453f-a791-ca51d6bb3826",
+      "status": {
+        "state": "TASK_STATE_SUBMITTED"
+      }
+    }
+  },
+  {
+    "statusUpdate": {
+      "taskId": "654b2828-dcb0-4463-bfdc-e3a6ca6507bb",
+      "contextId": "69660f90-6f03-453f-a791-ca51d6bb3826",
+      "status": {
+        "state": "TASK_STATE_WORKING",
+        "timestamp": "2026-10-24T22:40:30.500300Z"
+      }
+    }
+  }
+]

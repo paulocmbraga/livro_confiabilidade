@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-24",
+  "downloads": [
+    {
+      "id": "qwen",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/9217f5db79a29953eb74d5343926648285ec7e67/qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "filename": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+      "sha256": "74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db",
+      "size": 491400032,
+      "model": "Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+      "revision": "9217f5db79a29953eb74d5343926648285ec7e67",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "smol",
+      "model": "HuggingFaceTB/SmolLM2-360M-Instruct-GGUF",
+      "revision": "593b5a2e04c8f3e4ee880263f93e0bd2901ad47f",
+      "license": "Apache-2.0",
+      "filename": "smollm2-360m-instruct-q8_0.gguf",
+      "sha256": "48ab3034d0dd401fbc721eb1df3217902fee7dab9078992d66431f09b7750201",
+      "size": 386404992,
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct-GGUF/resolve/593b5a2e04c8f3e4ee880263f93e0bd2901ad47f/smollm2-360m-instruct-q8_0.gguf"
+    },
+    {
+      "id": "runtime",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11669/llama-b11669-bin-win-cpu-x64.zip",
+      "filename": "llama-b11669-bin-win-cpu-x64.zip",
+      "sha256": "37b3efcf962847ca869745fd4ccf7f5e7e8dacfeff9fa3523b4ca8cdc66d632b",
+      "size": 19537886,
+      "release": "b11669",
+      "license": "MIT"
+    }
+  ],
+  "server_sha256": "6a4635aeb35656153d4bfeeddf761d24ed84aada9c9108d580737cbed465141b",
+  "limitations": [
+    "Modelos pequenos para ensaio de viabilidade em CPU, não juízes qualificados.",
+    "Famílias, tamanhos, idioma de treinamento e quantizações diferentes: comparação não identifica causa isolada.",
+    "SmolLM2 tem model card em inglês; desempenho em português precisa de referência humana."
+  ]
+}

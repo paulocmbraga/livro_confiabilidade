@@ -1,0 +1,6 @@
+{
+  "seconds": 85.93736300000455,
+  "sampled_windows_process_peak_rss_bytes": 179290112,
+  "docker_stats_at_end": "{\"BlockIO\":\"0B / 83.6MB\",\"CPUPerc\":\"0.02%\",\"Container\":\"livro-l26-cc0a60f253\",\"ID\":\"860a5f90b732\",\"MemPerc\":\"0.88%\",\"MemUsage\":\"69.86MiB / 7.757GiB\",\"Name\":\"livro-l26-cc0a60f253\",\"NetIO\":\"984kB / 1.19MB\",\"PIDs\":\"9\"}",
+  "measurement_scope": "Windows runner and descendants sampled every 0.2s; excludes Docker VM. PostgreSQL memory is terminal snapshot, not peak. No SLA or inference"
+}

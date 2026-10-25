@@ -1,0 +1,256 @@
+{
+  "capture_sha256": "6d3ad1829987f31975872ca076b1c4d82ce25c18fe17c6b44c862621a691bdd9",
+  "status": "post hoc diagnostic; no independent holdout",
+  "fallback": [
+    {
+      "id": "doc1_clean",
+      "decision": {
+        "accepted": true,
+        "reason": "candidate",
+        "amount_cents": 12990
+      },
+      "correct": true,
+      "expected": 129.9
+    },
+    {
+      "id": "doc1_low_resolution",
+      "decision": {
+        "accepted": false,
+        "reason": "resolution"
+      },
+      "correct": false,
+      "expected": 129.9
+    },
+    {
+      "id": "doc1_reordered",
+      "decision": {
+        "accepted": true,
+        "reason": "candidate",
+        "amount_cents": 12990
+      },
+      "correct": true,
+      "expected": 129.9
+    },
+    {
+      "id": "doc2_clean",
+      "decision": {
+        "accepted": false,
+        "reason": "disagreement"
+      },
+      "correct": false,
+      "expected": 79.5
+    },
+    {
+      "id": "doc2_low_resolution",
+      "decision": {
+        "accepted": false,
+        "reason": "resolution"
+      },
+      "correct": true,
+      "expected": 79.5
+    },
+    {
+      "id": "doc2_reordered",
+      "decision": {
+        "accepted": false,
+        "reason": "disagreement"
+      },
+      "correct": false,
+      "expected": 79.5
+    },
+    {
+      "id": "doc3_clean",
+      "decision": {
+        "accepted": true,
+        "reason": "candidate",
+        "amount_cents": 31525
+      },
+      "correct": true,
+      "expected": 315.25
+    },
+    {
+      "id": "doc3_low_resolution",
+      "decision": {
+        "accepted": false,
+        "reason": "resolution"
+      },
+      "correct": true,
+      "expected": 315.25
+    },
+    {
+      "id": "doc3_reordered",
+      "decision": {
+        "accepted": false,
+        "reason": "disagreement"
+      },
+      "correct": false,
+      "expected": 315.25
+    },
+    {
+      "id": "audio1_clean_16k",
+      "decision": {
+        "accepted": false,
+        "reason": "unqualified_audio"
+      },
+      "correct": false,
+      "expected": 129.9
+    },
+    {
+      "id": "audio1_noise_16k",
+      "decision": {
+        "accepted": false,
+        "reason": "unqualified_audio"
+      },
+      "correct": false,
+      "expected": 129.9
+    },
+    {
+      "id": "audio2_clean_16k",
+      "decision": {
+        "accepted": false,
+        "reason": "unqualified_audio"
+      },
+      "correct": false,
+      "expected": 79.5
+    },
+    {
+      "id": "audio2_noise_16k",
+      "decision": {
+        "accepted": false,
+        "reason": "unqualified_audio"
+      },
+      "correct": false,
+      "expected": 79.5
+    },
+    {
+      "id": "audio3_clean_16k",
+      "decision": {
+        "accepted": false,
+        "reason": "unqualified_audio"
+      },
+      "correct": false,
+      "expected": 315.25
+    },
+    {
+      "id": "audio3_noise_16k",
+      "decision": {
+        "accepted": false,
+        "reason": "unqualified_audio"
+      },
+      "correct": false,
+      "expected": 315.25
+    }
+  ],
+  "accepted": 3,
+  "accepted_errors": 0,
+  "blocked_correct": 2,
+  "L17_field_fidelity": [
+    {
+      "id": "l17_q-3_prompt_t0",
+      "faithful_json_field": false,
+      "accepted": false
+    },
+    {
+      "id": "l17_q-3_prompt_t0.7",
+      "faithful_json_field": false,
+      "accepted": false
+    },
+    {
+      "id": "l17_q-3_schema_t0",
+      "faithful_json_field": true,
+      "accepted": false
+    },
+    {
+      "id": "l17_q-3_schema_t0.7",
+      "faithful_json_field": true,
+      "accepted": false
+    },
+    {
+      "id": "l17_q0_prompt_t0",
+      "faithful_json_field": false,
+      "accepted": false
+    },
+    {
+      "id": "l17_q0_prompt_t0.7",
+      "faithful_json_field": false,
+      "accepted": false
+    },
+    {
+      "id": "l17_q0_schema_t0",
+      "faithful_json_field": true,
+      "accepted": false
+    },
+    {
+      "id": "l17_q0_schema_t0.7",
+      "faithful_json_field": true,
+      "accepted": false
+    },
+    {
+      "id": "l17_q7_prompt_t0",
+      "faithful_json_field": false,
+      "accepted": false
+    },
+    {
+      "id": "l17_q7_prompt_t0.7",
+      "faithful_json_field": false,
+      "accepted": false
+    },
+    {
+      "id": "l17_q7_schema_t0",
+      "faithful_json_field": true,
+      "accepted": true
+    },
+    {
+      "id": "l17_q7_schema_t0.7",
+      "faithful_json_field": true,
+      "accepted": true
+    },
+    {
+      "id": "l17_q12_prompt_t0",
+      "faithful_json_field": false,
+      "accepted": false
+    },
+    {
+      "id": "l17_q12_prompt_t0.7",
+      "faithful_json_field": false,
+      "accepted": false
+    },
+    {
+      "id": "l17_q12_schema_t0",
+      "faithful_json_field": true,
+      "accepted": true
+    },
+    {
+      "id": "l17_q12_schema_t0.7",
+      "faithful_json_field": true,
+      "accepted": true
+    },
+    {
+      "id": "l17_q100_prompt_t0",
+      "faithful_json_field": false,
+      "accepted": false
+    },
+    {
+      "id": "l17_q100_prompt_t0.7",
+      "faithful_json_field": false,
+      "accepted": false
+    },
+    {
+      "id": "l17_q100_schema_t0",
+      "faithful_json_field": true,
+      "accepted": false
+    },
+    {
+      "id": "l17_q100_schema_t0.7",
+      "faithful_json_field": true,
+      "accepted": false
+    }
+  ],
+  "ttft_median_seconds": 0.3512318000430241,
+  "total_seconds_sum_calls": 55.084274198976345,
+  "calls_complete": 113,
+  "l18_format_vs_semantics": {
+    "a2": "12 units has correct closed numerical fact but violates numeric-only format; not human annotation"
+  },
+  "limits": "A local deterministic filter for this invoice schema. Audio forwarded, no human review performed. No production authorization."
+}

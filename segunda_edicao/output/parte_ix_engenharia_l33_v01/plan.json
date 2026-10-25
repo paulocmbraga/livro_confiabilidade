@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "selection": "l33",
+  "created_utc": "2026-10-25T00:00:57Z",
+  "l33": {
+    "phases": [
+      "healthy",
+      "sampled",
+      "outage",
+      "saturation",
+      "recovery"
+    ],
+    "normal_tasks": 12,
+    "burst": 200,
+    "queue": 8,
+    "gate": "explicit exporter stall; release after 200 spans; separate from collector outage"
+  },
+  "l34": {
+    "target": 0.99,
+    "lag_minutes": 12,
+    "windows": [
+      30,
+      5
+    ],
+    "burn_threshold": 6,
+    "coverage": 0.95
+  },
+  "l35": {
+    "tasks": 18,
+    "parallel": 2,
+    "threads": 4,
+    "tokens": 32,
+    "arrival": "open and closed",
+    "deadline_scoring_seconds": 4,
+    "timeout": "socket 60s; does not prove remote cancellation",
+    "capacity": "bounded experiment on shared CPU host"
+  },
+  "l36": {
+    "development": 12,
+    "reserve": 12,
+    "shift": 12,
+    "repeats_per_split": 2,
+    "seed": 36,
+    "costs": "parameterized; no paid API; no measured human work",
+    "quality_gate": 0.8
+  }
+}

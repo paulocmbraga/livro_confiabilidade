@@ -1,0 +1,50 @@
+{
+  "limit": 8,
+  "events": [
+    {
+      "case": "T01",
+      "result": "reserved",
+      "reserved": 1
+    },
+    {
+      "case": "T02",
+      "result": "reserved",
+      "reserved": 2
+    },
+    {
+      "case": "T03",
+      "result": "reserved",
+      "reserved": 3
+    },
+    {
+      "case": "T04",
+      "result": "reserved",
+      "reserved": 4
+    },
+    {
+      "case": "T05",
+      "result": "reserved",
+      "reserved": 5
+    },
+    {
+      "case": "T06",
+      "result": "reserved",
+      "reserved": 6
+    },
+    {
+      "case": "T07",
+      "result": "reserved",
+      "reserved": 7
+    },
+    {
+      "case": "T08",
+      "result": "reserved",
+      "reserved": 8
+    },
+    {
+      "case": "T09",
+      "result": "quota_rejected",
+      "reserved": 8
+    }
+  ]
+}

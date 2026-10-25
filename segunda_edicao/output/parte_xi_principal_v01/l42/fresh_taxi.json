@@ -1,0 +1,77 @@
+{
+  "request": {
+    "model": "qwen",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Responda somente JSON com limite inteiro em reais e fonte (ID exato). Use o documento, sem conhecimento externo. Documento: {\"id\": \"taxi-v2\", \"family\": \"taxi\", \"version\": \"v2\", \"limit\": 150, \"text\": \"Politica taxi da Horizonte. Limite autorizado: 150 reais. A excecao anterior esta revogada.\"}"
+      }
+    ],
+    "temperature": 0,
+    "seed": 441,
+    "max_tokens": 100,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "result",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "limite": {
+              "type": "integer"
+            },
+            "fonte": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "limite",
+            "fonte"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "cache_prompt": false
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"limite\": 150, \"fonte\": \"Horizonte\"}"
+        }
+      }
+    ],
+    "created": 1792949992,
+    "model": "qwen",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 128,
+      "total_tokens": 148,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-M6KMMQvbERxRycwtdib0sG3bJzTPrrAU",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 128,
+      "prompt_ms": 539.362,
+      "prompt_per_token_ms": 4.213765625,
+      "prompt_per_second": 237.31742317775448,
+      "predicted_n": 20,
+      "predicted_ms": 384.534,
+      "predicted_per_token_ms": 20.238631578947366,
+      "predicted_per_second": 49.410455252331396
+    }
+  },
+  "seconds": 0.928136800066568,
+  "text": "{\"limite\": 150, \"fonte\": \"Horizonte\"}",
+  "finish": "stop"
+}

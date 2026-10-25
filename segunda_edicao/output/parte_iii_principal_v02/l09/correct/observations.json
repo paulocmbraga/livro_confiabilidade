@@ -1,0 +1,562 @@
+[
+  {
+    "request": {
+      "id": "A",
+      "op": "credit",
+      "amount": "1.005"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 101
+    },
+    "state": {
+      "balance": 101
+    }
+  },
+  {
+    "request": {
+      "id": "A",
+      "op": "credit",
+      "amount": "1.005"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 101
+    },
+    "state": {
+      "balance": 101
+    }
+  },
+  {
+    "request": {
+      "id": "B",
+      "op": "debit",
+      "amount": "0.105"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 90
+    },
+    "state": {
+      "balance": 90
+    }
+  },
+  {
+    "request": {
+      "id": "C",
+      "op": "debit",
+      "amount": "20"
+    },
+    "observed": {
+      "status": "insufficient",
+      "balance": 90
+    },
+    "state": {
+      "balance": 90
+    }
+  },
+  {
+    "request": {
+      "id": "A",
+      "op": "credit",
+      "amount": "2"
+    },
+    "observed": {
+      "status": "conflict",
+      "balance": 90
+    },
+    "state": {
+      "balance": 90
+    }
+  },
+  {
+    "request": {
+      "id": "D",
+      "op": "credit",
+      "amount": "-1"
+    },
+    "observed": {
+      "status": "invalid",
+      "balance": 90
+    },
+    "state": {
+      "balance": 90
+    }
+  },
+  {
+    "request": {
+      "id": "E",
+      "op": "credit",
+      "amount": "2.335"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 324
+    },
+    "state": {
+      "balance": 324
+    }
+  },
+  {
+    "request": {
+      "id": "F",
+      "op": "debit",
+      "amount": "1.235"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 200
+    },
+    "state": {
+      "balance": 200
+    }
+  },
+  {
+    "request": {
+      "id": "G0",
+      "op": "credit",
+      "amount": "2.50"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 450
+    },
+    "state": {
+      "balance": 450
+    }
+  },
+  {
+    "request": {
+      "id": "R1",
+      "op": "credit",
+      "amount": "0.015"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 452
+    },
+    "state": {
+      "balance": 452
+    }
+  },
+  {
+    "request": {
+      "id": "R2",
+      "op": "credit",
+      "amount": "9.995"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 1452
+    },
+    "state": {
+      "balance": 1452
+    }
+  },
+  {
+    "request": {
+      "id": "R3",
+      "op": "debit",
+      "amount": "2.50"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 1202
+    },
+    "state": {
+      "balance": 1202
+    }
+  },
+  {
+    "request": {
+      "id": "R4",
+      "op": "debit",
+      "amount": "9.995"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 202
+    },
+    "state": {
+      "balance": 202
+    }
+  },
+  {
+    "request": {
+      "id": "G2",
+      "op": "debit",
+      "amount": "0.015"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 200
+    },
+    "state": {
+      "balance": 200
+    }
+  },
+  {
+    "request": {
+      "id": "R6",
+      "op": "debit",
+      "amount": "9.995"
+    },
+    "observed": {
+      "status": "insufficient",
+      "balance": 200
+    },
+    "state": {
+      "balance": 200
+    }
+  },
+  {
+    "request": {
+      "id": "R7",
+      "op": "debit",
+      "amount": "9.995"
+    },
+    "observed": {
+      "status": "insufficient",
+      "balance": 200
+    },
+    "state": {
+      "balance": 200
+    }
+  },
+  {
+    "request": {
+      "id": "R8",
+      "op": "credit",
+      "amount": "9.995"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 1200
+    },
+    "state": {
+      "balance": 1200
+    }
+  },
+  {
+    "request": {
+      "id": "R9",
+      "op": "debit",
+      "amount": "0.015"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 1198
+    },
+    "state": {
+      "balance": 1198
+    }
+  },
+  {
+    "request": {
+      "id": "G5",
+      "op": "credit",
+      "amount": "0.015"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 1200
+    },
+    "state": {
+      "balance": 1200
+    }
+  },
+  {
+    "request": {
+      "id": "R11",
+      "op": "credit",
+      "amount": "0.005"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 1201
+    },
+    "state": {
+      "balance": 1201
+    }
+  },
+  {
+    "request": {
+      "id": "R12",
+      "op": "credit",
+      "amount": "9.995"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 2201
+    },
+    "state": {
+      "balance": 2201
+    }
+  },
+  {
+    "request": {
+      "id": "R13",
+      "op": "debit",
+      "amount": "0.015"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 2199
+    },
+    "state": {
+      "balance": 2199
+    }
+  },
+  {
+    "request": {
+      "id": "R14",
+      "op": "credit",
+      "amount": "1.005"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 2300
+    },
+    "state": {
+      "balance": 2300
+    }
+  },
+  {
+    "request": {
+      "id": "G7",
+      "op": "credit",
+      "amount": "0.005"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 2301
+    },
+    "state": {
+      "balance": 2301
+    }
+  },
+  {
+    "request": {
+      "id": "R16",
+      "op": "credit",
+      "amount": "0.015"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 2303
+    },
+    "state": {
+      "balance": 2303
+    }
+  },
+  {
+    "request": {
+      "id": "R17",
+      "op": "credit",
+      "amount": "1.005"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 2404
+    },
+    "state": {
+      "balance": 2404
+    }
+  },
+  {
+    "request": {
+      "id": "R18",
+      "op": "debit",
+      "amount": "1.005"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 2303
+    },
+    "state": {
+      "balance": 2303
+    }
+  },
+  {
+    "request": {
+      "id": "R19",
+      "op": "debit",
+      "amount": "0.005"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 2302
+    },
+    "state": {
+      "balance": 2302
+    }
+  },
+  {
+    "request": {
+      "id": "G10",
+      "op": "credit",
+      "amount": "9.995"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 3302
+    },
+    "state": {
+      "balance": 3302
+    }
+  },
+  {
+    "request": {
+      "id": "R21",
+      "op": "credit",
+      "amount": "0.015"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 3304
+    },
+    "state": {
+      "balance": 3304
+    }
+  },
+  {
+    "request": {
+      "id": "R22",
+      "op": "credit",
+      "amount": "0.015"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 3306
+    },
+    "state": {
+      "balance": 3306
+    }
+  },
+  {
+    "request": {
+      "id": "R23",
+      "op": "credit",
+      "amount": "0.005"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 3307
+    },
+    "state": {
+      "balance": 3307
+    }
+  },
+  {
+    "request": {
+      "id": "R24",
+      "op": "debit",
+      "amount": "0.015"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 3305
+    },
+    "state": {
+      "balance": 3305
+    }
+  },
+  {
+    "request": {
+      "id": "G12",
+      "op": "debit",
+      "amount": "2.50"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 3055
+    },
+    "state": {
+      "balance": 3055
+    }
+  },
+  {
+    "request": {
+      "id": "R26",
+      "op": "debit",
+      "amount": "0.005"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 3054
+    },
+    "state": {
+      "balance": 3054
+    }
+  },
+  {
+    "request": {
+      "id": "R27",
+      "op": "debit",
+      "amount": "9.995"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 2054
+    },
+    "state": {
+      "balance": 2054
+    }
+  },
+  {
+    "request": {
+      "id": "R28",
+      "op": "debit",
+      "amount": "2.50"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 1804
+    },
+    "state": {
+      "balance": 1804
+    }
+  },
+  {
+    "request": {
+      "id": "R29",
+      "op": "credit",
+      "amount": "1.005"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 1905
+    },
+    "state": {
+      "balance": 1905
+    }
+  },
+  {
+    "request": {
+      "id": "G15",
+      "op": "debit",
+      "amount": "1.005"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 1804
+    },
+    "state": {
+      "balance": 1804
+    }
+  },
+  {
+    "request": {
+      "id": "R31",
+      "op": "debit",
+      "amount": "9.995"
+    },
+    "observed": {
+      "status": "applied",
+      "balance": 804
+    },
+    "state": {
+      "balance": 804
+    }
+  }
+]

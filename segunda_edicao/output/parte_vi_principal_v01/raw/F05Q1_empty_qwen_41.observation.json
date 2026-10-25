@@ -1,0 +1,35 @@
+{
+  "id": "F05Q1_empty_qwen_41",
+  "query_id": "F05Q1",
+  "family": "F05",
+  "model": "qwen",
+  "seed": 41,
+  "variant": "empty",
+  "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 1.0988608000334352,
+  "parsed": {
+    "resposta": "Não foi possível encontrar informações sobre auxílios de curso de idiomas em outubro.",
+    "citacoes": [],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": false,
+    "source_loss_known": false,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": true,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": true,
+    "citations_cover_required": false,
+    "automatic_contract_signal": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "request": {
+    "row": {
+      "id": "reserve-0061",
+      "group": "vip",
+      "at": 15610,
+      "age": 978.5455928556942,
+      "unit": "minute",
+      "channel": "phone",
+      "telemetry": 0.6548939975911747,
+      "history": [
+        {
+          "id": "initial",
+          "event": 15590,
+          "available": 15600,
+          "queue": 24
+        },
+        {
+          "id": "late-correction",
+          "event": 15595,
+          "available": 15700,
+          "queue": 0
+        },
+        {
+          "id": "outcome",
+          "event": 15730,
+          "available": 15790,
+          "queue": 0
+        }
+      ],
+      "y": 0,
+      "label_available": 15790
+    },
+    "mode": "unit_bad",
+    "attempt": "unit_bad_061"
+  },
+  "status": 200,
+  "response": {
+    "id": "reserve-0061",
+    "group": "vip",
+    "x": [
+      1,
+      40.77273303565392,
+      1.2,
+      1,
+      1,
+      48.927279642784704,
+      0
+    ],
+    "p": 1.0,
+    "prediction": 1,
+    "model": "1dffa6be414e602946896556cd09414dc0ed4e70a4ee4c77a25979b1e1731f6d",
+    "pid": 17212
+  },
+  "seconds": 0.00023669993970543146
+}

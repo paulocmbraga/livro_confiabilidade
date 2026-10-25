@@ -1,5 +1,12 @@
 # Engenharia de Confiabilidade para Sistemas de IA — laboratórios
 
+## Escolha a edição
+
+- **[Segunda edição — revista e ampliada](segunda_edicao/README.md):** materiais dos 44 capítulos e dos apêndices A a H, com guia de ambientes, código, testes e capturas autorais.
+- **Primeira edição:** materiais preservados na raiz deste repositório. As instruções abaixo continuam correspondendo à primeira edição.
+
+Cada edição tem sua própria raiz de trabalho. Para a segunda edição, entre em `segunda_edicao` antes de executar os comandos do seu guia.
+
 Material de apoio ao livro de Paulo Cesar Braga: L00 a L24, código Python, testes, oito capturas canônicas e modelos reutilizáveis.
 
 ## Preparação

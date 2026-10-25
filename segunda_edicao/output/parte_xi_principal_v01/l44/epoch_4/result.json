@@ -1,0 +1,282 @@
+{
+  "epoch": 4,
+  "context": {
+    "data": "v2",
+    "model": "v2",
+    "judge": "J2",
+    "dependency": "D2",
+    "contract": "bounded-v1"
+  },
+  "model_id": "smol",
+  "ml_rows": [
+    {
+      "id": "shift_reserve-0000",
+      "group": "regular",
+      "at": 26000,
+      "age": 6.400088002622926,
+      "unit": "hour",
+      "channel": "web",
+      "telemetry": 0.08441689123977791,
+      "history": [
+        {
+          "id": "initial",
+          "event": 25980,
+          "available": 25990,
+          "queue": 39
+        },
+        {
+          "id": "late-correction",
+          "event": 25985,
+          "available": 26090,
+          "queue": 20
+        },
+        {
+          "id": "outcome",
+          "event": 26120,
+          "available": 26180,
+          "queue": 40
+        }
+      ],
+      "y": 1,
+      "label_available": 26180
+    },
+    {
+      "id": "shift_reserve-0001",
+      "group": "regular",
+      "at": 26010,
+      "age": 38.82135094626274,
+      "unit": "hour",
+      "channel": "web",
+      "telemetry": 0.42641448344689314,
+      "history": [
+        {
+          "id": "initial",
+          "event": 25990,
+          "available": 26000,
+          "queue": 13
+        },
+        {
+          "id": "late-correction",
+          "event": 25995,
+          "available": 26100,
+          "queue": 0
+        },
+        {
+          "id": "outcome",
+          "event": 26130,
+          "available": 26190,
+          "queue": 0
+        }
+      ],
+      "y": 0,
+      "label_available": 26190
+    },
+    {
+      "id": "shift_reserve-0002",
+      "group": "vip",
+      "at": 26020,
+      "age": 47.042456849244076,
+      "unit": "hour",
+      "channel": "phone",
+      "telemetry": 0.032618950252806145,
+      "history": [
+        {
+          "id": "initial",
+          "event": 26000,
+          "available": 26010,
+          "queue": 21
+        },
+        {
+          "id": "late-correction",
+          "event": 26005,
+          "available": 26110,
+          "queue": 0
+        },
+        {
+          "id": "outcome",
+          "event": 26140,
+          "available": 26200,
+          "queue": 0
+        }
+      ],
+      "y": 0,
+      "label_available": 26200
+    }
+  ],
+  "ml_outputs": [
+    {
+      "id": "shift_reserve-0000",
+      "group": "regular",
+      "x": [
+        1,
+        0.2666703334426219,
+        1.95,
+        0,
+        0,
+        0.5200071502131127,
+        0
+      ],
+      "p": 0.8435914826495552,
+      "prediction": 1
+    },
+    {
+      "id": "shift_reserve-0001",
+      "group": "regular",
+      "x": [
+        1,
+        1.617556289427614,
+        0.65,
+        0,
+        0,
+        1.051411588127949,
+        0
+      ],
+      "p": 0.6600586164259002,
+      "prediction": 1
+    },
+    {
+      "id": "shift_reserve-0002",
+      "group": "vip",
+      "x": [
+        1,
+        1.960102368718503,
+        1.05,
+        1,
+        1,
+        2.0581074871544285,
+        0
+      ],
+      "p": 0.4157089819372423,
+      "prediction": 0
+    }
+  ],
+  "ml_metrics": {
+    "n": 3,
+    "errors": 1,
+    "error": 0.3333333333333333,
+    "error_ci": [
+      0.06149194472039621,
+      0.7923403991979522
+    ],
+    "brier": 0.21098498636037885,
+    "log_loss": 0.5954750353403778,
+    "auc": 1.0
+  },
+  "rag": [
+    {
+      "doc": {
+        "id": "viagem-v2",
+        "family": "viagem",
+        "version": "v2",
+        "limit": 120,
+        "text": "Politica viagem da Horizonte. Limite autorizado: 120 reais. A excecao anterior esta revogada."
+      },
+      "text": "{\"limite\": 120, \"fonte\": \"id=viagem-v2&version=v2&limit=120&text=Politica viagem da Horizonte. Limite autorizado: 120 reais. A excecao anterior esta revogada.\"}",
+      "structural": false,
+      "dependency_ok": false,
+      "delivered": false
+    },
+    {
+      "doc": {
+        "id": "hospedagem-v2",
+        "family": "hospedagem",
+        "version": "v2",
+        "limit": 130,
+        "text": "Politica hospedagem da Horizonte. Limite autorizado: 130 reais. A excecao anterior esta revogada."
+      },
+      "text": "{\"limite\": 130, \"fonte\": \"id=hospedagem-v2&version=v2&limit=130&text=Politica hospedagem da Horizonte. Limite autorizado: 130 reais. A excecao anterior esta revogada.\"}",
+      "structural": false,
+      "dependency_ok": false,
+      "delivered": false
+    },
+    {
+      "doc": {
+        "id": "alimentacao-v2",
+        "family": "alimentacao",
+        "version": "v2",
+        "limit": 140,
+        "text": "Politica alimentacao da Horizonte. Limite autorizado: 140 reais. A excecao anterior esta revogada."
+      },
+      "text": "{\"limite\": 140, \"fonte\": \"id=alimentacao-v2&version=v2&limit=140&text=Politica alimentacao da Horizonte. Limite autorizado: 140 reais. A excecao anterior esta revogada.\"}",
+      "structural": false,
+      "dependency_ok": false,
+      "delivered": false
+    }
+  ],
+  "agents": [
+    {
+      "task": {
+        "quantity": 1,
+        "authorized": true
+      },
+      "decision": {
+        "accepted": true,
+        "data": {
+          "action": "reserve",
+          "quantity": 1
+        },
+        "reason": "bounded_proposal"
+      },
+      "text": "{\"action\": \"reserve\", \"quantity\": 1}"
+    },
+    {
+      "task": {
+        "quantity": 2,
+        "authorized": true
+      },
+      "decision": {
+        "accepted": false,
+        "data": {
+          "action": "reserve",
+          "quantity": 1
+        },
+        "reason": "review_required"
+      },
+      "text": "{\"action\": \"reserve\", \"quantity\": 1}"
+    },
+    {
+      "task": {
+        "quantity": 1,
+        "authorized": false
+      },
+      "decision": {
+        "accepted": false,
+        "data": {
+          "action": "reserve",
+          "quantity": 1
+        },
+        "reason": "review_required"
+      },
+      "text": "{\"action\": \"reserve\", \"quantity\": 1}"
+    }
+  ],
+  "judgments": [
+    {
+      "text": "{\"approved\": true}",
+      "parsed": {
+        "approved": true
+      },
+      "reference": false,
+      "rubric": "J2"
+    },
+    {
+      "text": "{\"approved\": true}",
+      "parsed": {
+        "approved": true
+      },
+      "reference": false,
+      "rubric": "J2"
+    },
+    {
+      "text": "{\"approved\": true}",
+      "parsed": {
+        "approved": true
+      },
+      "reference": false,
+      "rubric": "J2"
+    }
+  ],
+  "seconds": 9.557109500048682,
+  "logical_time": "epoch-4",
+  "real_days": false
+}

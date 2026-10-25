@@ -1,0 +1,58 @@
+{
+  "wilson_3_200": [
+    0.00511423779325831,
+    0.04316572879269026
+  ],
+  "zero_failure_n": 299,
+  "bootstrap": {
+    "estimate": 0.25,
+    "low": -0.25,
+    "high": 0.75,
+    "families": 4,
+    "repetitions": 2000,
+    "seed": 729
+  },
+  "bounds": {
+    "n": 100,
+    "lower": 0.8,
+    "upper": 0.9,
+    "coverage": 0.9
+  },
+  "case": {
+    "id": "t-1",
+    "family": "f-1",
+    "event_at": "2026-10-01T10:00:00+00:00",
+    "available_at": "2026-10-01T10:01:00+00:00",
+    "predict_at": "2026-10-01T10:02:00+00:00",
+    "unit": "hour",
+    "value": 2
+  },
+  "receipts": {
+    "same": true,
+    "count": 1,
+    "receipt": "r-4cb44b482b15a0125ca776cb"
+  },
+  "telemetry": {
+    "n": 100,
+    "lower": 0.8,
+    "upper": 0.9,
+    "coverage": 0.9,
+    "good": 80,
+    "bad": 10,
+    "unknown": 10,
+    "duplicates": 5
+  },
+  "burn": 1.9999999999999982,
+  "decision": {
+    "decision": "hold",
+    "reasons": [
+      "semantic_review"
+    ]
+  },
+  "cost": {
+    "total": 90,
+    "useful": 30,
+    "per_useful": 3.0,
+    "status": "defined"
+  }
+}

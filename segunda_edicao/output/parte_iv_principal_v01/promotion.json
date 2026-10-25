@@ -1,0 +1,12 @@
+{
+  "registration": {
+    "registered": true,
+    "identity": "7ed17f60983230aa8261467d494ecf9ece527296568a4a48c49412324a29d9c7",
+    "operational_release": false
+  },
+  "attacks": {
+    "swapped": "artifact_mismatch",
+    "test_access": "test_contamination"
+  },
+  "scope": "local integrity guard; access log is cooperative, not a security boundary"
+}

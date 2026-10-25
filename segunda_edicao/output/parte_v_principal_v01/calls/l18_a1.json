@@ -1,0 +1,62 @@
+{
+  "id": "l18_a1",
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "O registro informa exatamente 12 unidades. Quantas unidades há? Reply with the numerical answer only, or UNKNOWN if it is not determined by the information."
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-qwen",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "schema": null
+  },
+  "config_sha256": "c4597602f3ce61a1aa48a17cdc86c065e0be05286555aebc75580eefc82d6ada",
+  "events": [
+    {
+      "seconds": 0.3220683999825269,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870712,\"id\":\"chatcmpl-nQ1Tw3qHnudyJJSXcyfDDl4V2p6HTrdf\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3221271999645978,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"1\"}}],\"created\":1792870712,\"id\":\"chatcmpl-nQ1Tw3qHnudyJJSXcyfDDl4V2p6HTrdf\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.340797399985604,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"2\"}}],\"created\":1792870712,\"id\":\"chatcmpl-nQ1Tw3qHnudyJJSXcyfDDl4V2p6HTrdf\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.35959140001796186,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870712,\"id\":\"chatcmpl-nQ1Tw3qHnudyJJSXcyfDDl4V2p6HTrdf\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":62,\"prompt_ms\":319.129,\"prompt_per_token_ms\":5.147241935483871,\"prompt_per_second\":194.27880261587006,\"predicted_n\":3,\"predicted_ms\":37.499,\"predicted_per_token_ms\":18.7495,\"predicted_per_second\":53.33475559348249}}"
+    },
+    {
+      "seconds": 0.3596830000169575,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "12",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 2,
+  "ttft_seconds": 0.3221417999593541,
+  "seconds": 0.35986399999819696,
+  "injected_cut_after_content_events": null
+}

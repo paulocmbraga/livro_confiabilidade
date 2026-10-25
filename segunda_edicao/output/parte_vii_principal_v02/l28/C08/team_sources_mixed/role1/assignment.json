@@ -1,0 +1,11 @@
+{
+  "case_id": "C08",
+  "condition": "team_sources_mixed",
+  "role": "conferente",
+  "model": "qwen",
+  "packet": {
+    "source": "current-v2",
+    "limit": 120,
+    "amount": 120
+  }
+}

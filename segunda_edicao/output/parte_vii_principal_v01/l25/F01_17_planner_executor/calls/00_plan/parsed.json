@@ -1,0 +1,21 @@
+{
+  "value": {
+    "steps": [
+      "Verifique a quantidade disponível e o teto",
+      "Reserva o item",
+      "Verifique a quantidade disponível novamente",
+      "Reserva o item novamente"
+    ]
+  },
+  "error": null,
+  "usage": {
+    "completion_tokens": 38,
+    "prompt_tokens": 73,
+    "total_tokens": 111,
+    "prompt_tokens_details": {
+      "cached_tokens": 3
+    }
+  },
+  "charged_output": 38,
+  "seconds": 1.339562900015153
+}

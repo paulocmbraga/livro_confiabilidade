@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{ \"resposta\": \"Se você tem horas extras acumuladas e quiser um dia de descanso, a aprovação geralmente requer a aprovação da liderança direta antes do afastamento.\", \"citacoes\": [ \"DIS-08\", \"DESCANSO\" ], \"abster\": true }"
+      }
+    }
+  ],
+  "created": 1792879212,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 306,
+    "total_tokens": 379,
+    "prompt_tokens_details": {
+      "cached_tokens": 305
+    }
+  },
+  "id": "chatcmpl-1cf4faFwwEeq8E77AKG8IEfoJLS07Bak",
+  "timings": {
+    "cache_n": 305,
+    "prompt_n": 1,
+    "prompt_ms": 78.796,
+    "prompt_per_token_ms": 78.796,
+    "prompt_per_second": 12.690999543124015,
+    "predicted_n": 73,
+    "predicted_ms": 1516.196,
+    "predicted_per_token_ms": 21.058277777777775,
+    "predicted_per_second": 47.48726417956518
+  }
+}

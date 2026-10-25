@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Por sua vez, o auxílio mensal de internet residencial da Horizonte é R$ 120. Substituis o valor anterior para o novo valor. O novo valor é R$ 120.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000.000"
+      }
+    }
+  ],
+  "created": 1792879382,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 432,
+    "total_tokens": 560,
+    "prompt_tokens_details": {
+      "cached_tokens": 431
+    }
+  },
+  "id": "chatcmpl-TYCiu8nKNO8sQ5vTzvrETm07GcTS4Muw",
+  "timings": {
+    "cache_n": 431,
+    "prompt_n": 1,
+    "prompt_ms": 43.399,
+    "prompt_per_token_ms": 43.399,
+    "prompt_per_second": 23.042005576165348,
+    "predicted_n": 128,
+    "predicted_ms": 2519.329,
+    "predicted_per_token_ms": 19.83723622047244,
+    "predicted_per_second": 50.41024812559217
+  }
+}

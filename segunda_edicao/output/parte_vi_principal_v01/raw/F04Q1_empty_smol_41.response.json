@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Para prestar contas de passagens depois da viagem, precisamos de um prazo atual de 30 dias. Para obter este valor, você precisará prestar contas de passagens em 30 dias até o prazo atual. Para obter este valor, você precisará prestar contas de passagens em 30 dias até o prazo atual. Para obter este valor, você precisará prestar contas"
+      }
+    }
+  ],
+  "created": 1792879355,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 221,
+    "total_tokens": 349,
+    "prompt_tokens_details": {
+      "cached_tokens": 173
+    }
+  },
+  "id": "chatcmpl-opt0FrHwuXY2oJ4OUyIwggIFQNKGlJgq",
+  "timings": {
+    "cache_n": 173,
+    "prompt_n": 48,
+    "prompt_ms": 305.071,
+    "prompt_per_token_ms": 6.355645833333334,
+    "prompt_per_second": 157.3404223934756,
+    "predicted_n": 128,
+    "predicted_ms": 2219.708,
+    "predicted_per_token_ms": 17.478015748031495,
+    "predicted_per_second": 57.214732748631796
+  }
+}

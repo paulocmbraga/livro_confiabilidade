@@ -1,0 +1,24 @@
+{
+  "identity": "bea04bc787fe7e93b2c48005a1639fad3826cd8d82b516950c5e931900df9106",
+  "created": 100,
+  "expires": 200,
+  "tasks": {
+    "T01": "evaluated",
+    "T02": "evaluated",
+    "T03": "unknown",
+    "T04": "unknown",
+    "T05": "unknown",
+    "T06": "evaluated",
+    "T07": "evaluated",
+    "T08": "invalid"
+  },
+  "human_semantic_qualification": false,
+  "accepted_correct": 4,
+  "accepted_callbacks": 5,
+  "attempts": 9,
+  "inference_requests": 8,
+  "worker_starts": 10,
+  "unknown_is_not_failure_rate": true,
+  "release_now": "blocked_incomplete",
+  "release_later": "blocked_expired"
+}

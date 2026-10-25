@@ -1,0 +1,801 @@
+[
+  {
+    "case": "layered_always503",
+    "policy": "layered",
+    "fault": "always503",
+    "attempts": [
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.03100000007543713,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.015999999945051968,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.015000000013969839,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.015999999945051968,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.015000000013969839,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.01600000006146729,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.015999999945051968,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.015000000013969839,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.01600000006146729,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.015999999945051968,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.015000000013969839,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.030999999959021807,
+        "retry_after": 0.0
+      }
+    ],
+    "useful": false,
+    "elapsed": 0.21799999999348074,
+    "deadline_seconds": 0.35
+  },
+  {
+    "case": "layered_transient503",
+    "policy": "layered",
+    "fault": "transient503",
+    "attempts": [
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.01600000006146729,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.015999999945051968,
+        "retry_after": 0.0
+      },
+      {
+        "status": 200,
+        "data": {
+          "receipt": "layered_transient503",
+          "at": 870968.218
+        },
+        "elapsed": 0.015000000013969839,
+        "retry_after": 0
+      }
+    ],
+    "useful": true,
+    "elapsed": 0.0470000000204891,
+    "deadline_seconds": 0.35
+  },
+  {
+    "case": "layered_rate",
+    "policy": "layered",
+    "fault": "rate",
+    "attempts": [
+      {
+        "status": 429,
+        "data": {
+          "error": "limited"
+        },
+        "elapsed": 0.01600000006146729,
+        "retry_after": 0.04
+      },
+      {
+        "status": 429,
+        "data": {
+          "error": "limited"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.04
+      },
+      {
+        "status": 200,
+        "data": {
+          "receipt": "layered_rate",
+          "at": 870968.234
+        },
+        "elapsed": 0.0,
+        "retry_after": 0
+      }
+    ],
+    "useful": true,
+    "elapsed": 0.01600000006146729,
+    "deadline_seconds": 0.35
+  },
+  {
+    "case": "layered_reject",
+    "policy": "layered",
+    "fault": "reject",
+    "attempts": [
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.015999999945051968,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.015999999945051968,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.015000000013969839,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.01600000006146729,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.015999999945051968,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.015000000013969839,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      }
+    ],
+    "useful": false,
+    "elapsed": 0.10899999993853271,
+    "deadline_seconds": 0.35
+  },
+  {
+    "case": "layered_drop_after",
+    "policy": "layered",
+    "fault": "drop_after",
+    "attempts": [
+      {
+        "status": 0,
+        "error": "RemoteDisconnected",
+        "elapsed": 0.01600000006146729,
+        "retry_after": 0
+      },
+      {
+        "status": 200,
+        "data": {
+          "receipt": "layered_drop_after",
+          "at": 870968.359
+        },
+        "elapsed": 0.0,
+        "retry_after": 0
+      }
+    ],
+    "useful": true,
+    "elapsed": 0.01600000006146729,
+    "deadline_seconds": 0.35
+  },
+  {
+    "case": "layered_delay_after",
+    "policy": "layered",
+    "fault": "delay_after",
+    "attempts": [
+      {
+        "status": 0,
+        "error": "TimeoutError",
+        "elapsed": 0.06199999991804361,
+        "retry_after": 0
+      },
+      {
+        "status": 200,
+        "data": {
+          "receipt": "layered_delay_after",
+          "at": 870968.453
+        },
+        "elapsed": 0.03200000000651926,
+        "retry_after": 0
+      }
+    ],
+    "useful": true,
+    "elapsed": 0.09399999992456287,
+    "deadline_seconds": 0.35
+  },
+  {
+    "case": "budget_always503",
+    "policy": "budget",
+    "fault": "always503",
+    "attempts": [
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.03100000007543713,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.015000000013969839,
+        "retry_after": 0.0
+      }
+    ],
+    "useful": false,
+    "elapsed": 0.062000000034458935,
+    "deadline_seconds": 0.35
+  },
+  {
+    "case": "budget_transient503",
+    "policy": "budget",
+    "fault": "transient503",
+    "attempts": [
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 200,
+        "data": {
+          "receipt": "budget_transient503",
+          "at": 870968.546
+        },
+        "elapsed": 0.015000000013969839,
+        "retry_after": 0
+      }
+    ],
+    "useful": true,
+    "elapsed": 0.030999999959021807,
+    "deadline_seconds": 0.35
+  },
+  {
+    "case": "budget_rate",
+    "policy": "budget",
+    "fault": "rate",
+    "attempts": [
+      {
+        "status": 429,
+        "data": {
+          "error": "limited"
+        },
+        "elapsed": 0.01600000006146729,
+        "retry_after": 0.04
+      },
+      {
+        "status": 429,
+        "data": {
+          "error": "limited"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.04
+      },
+      {
+        "status": 200,
+        "data": {
+          "receipt": "budget_rate",
+          "at": 870968.656
+        },
+        "elapsed": 0.015999999945051968,
+        "retry_after": 0
+      }
+    ],
+    "useful": true,
+    "elapsed": 0.10999999998603016,
+    "deadline_seconds": 0.35
+  },
+  {
+    "case": "budget_reject",
+    "policy": "budget",
+    "fault": "reject",
+    "attempts": [
+      {
+        "status": 400,
+        "data": {
+          "error": "contract"
+        },
+        "elapsed": 0.015000000013969839,
+        "retry_after": 0.0
+      }
+    ],
+    "useful": false,
+    "elapsed": 0.015000000013969839,
+    "deadline_seconds": 0.35
+  },
+  {
+    "case": "budget_drop_after",
+    "policy": "budget",
+    "fault": "drop_after",
+    "attempts": [
+      {
+        "status": 0,
+        "error": "RemoteDisconnected",
+        "elapsed": 0.0,
+        "retry_after": 0
+      },
+      {
+        "status": 200,
+        "data": {
+          "receipt": "budget_drop_after",
+          "at": 870968.703
+        },
+        "elapsed": 0.03200000000651926,
+        "retry_after": 0
+      }
+    ],
+    "useful": true,
+    "elapsed": 0.03200000000651926,
+    "deadline_seconds": 0.35
+  },
+  {
+    "case": "budget_delay_after",
+    "policy": "budget",
+    "fault": "delay_after",
+    "attempts": [
+      {
+        "status": 0,
+        "error": "TimeoutError",
+        "elapsed": 0.062000000034458935,
+        "retry_after": 0
+      },
+      {
+        "status": 200,
+        "data": {
+          "receipt": "budget_delay_after",
+          "at": 870968.796
+        },
+        "elapsed": 0.030999999959021807,
+        "retry_after": 0
+      }
+    ],
+    "useful": true,
+    "elapsed": 0.09299999999348074,
+    "deadline_seconds": 0.35
+  },
+  {
+    "case": "hedge",
+    "first": {
+      "status": 200,
+      "data": {
+        "receipt": "read",
+        "at": 870968.906
+      },
+      "elapsed": 0.10999999998603016,
+      "retry_after": 0
+    },
+    "second": {
+      "status": 200,
+      "data": {
+        "receipt": "read",
+        "at": 870968.828
+      },
+      "elapsed": 0.015999999945051968,
+      "retry_after": 0
+    },
+    "first_useful_seconds": 0.03200000000651926,
+    "loser_cancelled": false,
+    "total_seconds": 0.10999999998603016
+  },
+  {
+    "case": "breaker",
+    "failures": [
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      },
+      {
+        "status": 503,
+        "data": {
+          "error": "unavailable"
+        },
+        "elapsed": 0.0,
+        "retry_after": 0.0
+      }
+    ],
+    "rejected_open": 5,
+    "probe": {
+      "status": 200,
+      "data": {
+        "receipt": "b",
+        "at": 870968.968
+      },
+      "elapsed": 0.015000000013969839,
+      "retry_after": 0
+    }
+  }
+]

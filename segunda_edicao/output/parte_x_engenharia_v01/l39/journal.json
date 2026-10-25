@@ -1,0 +1,513 @@
+[
+  {
+    "path": "/admit",
+    "data": {
+      "id": "unknown",
+      "amount": 250
+    },
+    "status": 201,
+    "body": {
+      "id": "unknown",
+      "state": "pending"
+    },
+    "started": 0.4876211000373587,
+    "ended": 0.5009594999719411
+  },
+  {
+    "path": "/effect",
+    "data": {
+      "id": "unknown",
+      "crash_after_receipt": true
+    },
+    "status": "transport_unknown",
+    "error": "ConnectionResetError",
+    "started": 0.5009661000221968,
+    "ended": 0.5511999999871477
+  },
+  {
+    "path": "/mode",
+    "data": {
+      "mode": "hold"
+    },
+    "status": 200,
+    "body": {
+      "mode": "hold"
+    },
+    "started": 0.5550816999748349,
+    "ended": 0.5658326999982819
+  },
+  {
+    "path": "/admit",
+    "data": {
+      "id": "review0",
+      "amount": 100,
+      "priority": 0
+    },
+    "status": 201,
+    "body": {
+      "id": "review0",
+      "state": "review"
+    },
+    "started": 0.5659833999816328,
+    "ended": 0.576190400053747
+  },
+  {
+    "path": "/admit",
+    "data": {
+      "id": "review1",
+      "amount": 100,
+      "priority": 0
+    },
+    "status": 201,
+    "body": {
+      "id": "review1",
+      "state": "review"
+    },
+    "started": 0.5761983999982476,
+    "ended": 0.5853863999946043
+  },
+  {
+    "path": "/admit",
+    "data": {
+      "id": "review2",
+      "amount": 100,
+      "priority": 2
+    },
+    "status": 201,
+    "body": {
+      "id": "review2",
+      "state": "review"
+    },
+    "started": 0.5853909000288695,
+    "ended": 0.5960787000367418
+  },
+  {
+    "path": "/admit",
+    "data": {
+      "id": "review3",
+      "amount": 100,
+      "priority": 0
+    },
+    "status": 429,
+    "body": {
+      "reason": "review_capacity"
+    },
+    "started": 0.5960838999599218,
+    "ended": 0.6295829999726266
+  },
+  {
+    "path": "/admit",
+    "data": {
+      "id": "review4",
+      "amount": 100,
+      "priority": 0
+    },
+    "status": 429,
+    "body": {
+      "reason": "review_capacity"
+    },
+    "started": 0.6295950000640005,
+    "ended": 0.6423602000577375
+  },
+  {
+    "path": "/admit",
+    "data": {
+      "id": "review5",
+      "amount": 100,
+      "priority": 0
+    },
+    "status": 429,
+    "body": {
+      "reason": "review_capacity"
+    },
+    "started": 0.6423647999763489,
+    "ended": 0.6606902000494301
+  },
+  {
+    "path": "/admit",
+    "data": {
+      "id": "review6",
+      "amount": 100,
+      "priority": 0
+    },
+    "status": 429,
+    "body": {
+      "reason": "review_capacity"
+    },
+    "started": 0.6606955999741331,
+    "ended": 0.6917968000052497
+  },
+  {
+    "path": "/admit",
+    "data": {
+      "id": "review7",
+      "amount": 100,
+      "priority": 0
+    },
+    "status": 429,
+    "body": {
+      "reason": "review_capacity"
+    },
+    "started": 0.6918007000349462,
+    "ended": 0.7096409000223503
+  },
+  {
+    "path": "/next_review",
+    "data": null,
+    "status": 200,
+    "body": {
+      "id": "review2",
+      "amount": 100,
+      "schema": 1,
+      "state": "review",
+      "priority": 2
+    },
+    "started": 0.7096447000512853,
+    "ended": 0.718637099955231
+  },
+  {
+    "path": "/mode",
+    "data": {
+      "mode": "auto"
+    },
+    "status": 409,
+    "body": {
+      "reason": "return_gate"
+    },
+    "started": 0.7186405999818817,
+    "ended": 0.7433083000360057
+  },
+  {
+    "path": "/resolve",
+    "data": {
+      "id": "unknown",
+      "decision": "cancel"
+    },
+    "status": 409,
+    "body": {
+      "reason": "effect_exists"
+    },
+    "started": 0.7433126999530941,
+    "ended": 0.7627367000095546
+  },
+  {
+    "path": "/resolve",
+    "data": {
+      "id": "unknown"
+    },
+    "status": 200,
+    "body": {
+      "state": "done",
+      "evidence": "destination_receipt"
+    },
+    "started": 0.7627409000415355,
+    "ended": 0.7809089999645948
+  },
+  {
+    "path": "/state",
+    "data": null,
+    "status": 200,
+    "body": {
+      "config": {
+        "mode": "hold",
+        "stage": "live",
+        "retest": "no"
+      },
+      "tasks": [
+        {
+          "id": "review0",
+          "amount": 100,
+          "schema": 1,
+          "state": "review",
+          "priority": 0
+        },
+        {
+          "id": "review1",
+          "amount": 100,
+          "schema": 1,
+          "state": "review",
+          "priority": 0
+        },
+        {
+          "id": "review2",
+          "amount": 100,
+          "schema": 1,
+          "state": "review",
+          "priority": 2
+        },
+        {
+          "id": "unknown",
+          "amount": 250,
+          "schema": 1,
+          "state": "done",
+          "priority": 0
+        }
+      ],
+      "effects": [
+        {
+          "id": "unknown",
+          "amount": 250
+        }
+      ]
+    },
+    "started": 0.7809131999965757,
+    "ended": 0.8097499000141397
+  },
+  {
+    "path": "/state",
+    "data": null,
+    "status": 200,
+    "body": {
+      "config": {
+        "mode": "hold",
+        "stage": "live",
+        "retest": "no"
+      },
+      "tasks": [
+        {
+          "id": "review0",
+          "amount": 100,
+          "schema": 1,
+          "state": "review",
+          "priority": 0
+        },
+        {
+          "id": "review1",
+          "amount": 100,
+          "schema": 1,
+          "state": "review",
+          "priority": 0
+        },
+        {
+          "id": "review2",
+          "amount": 100,
+          "schema": 1,
+          "state": "review",
+          "priority": 2
+        },
+        {
+          "id": "unknown",
+          "amount": 250,
+          "schema": 1,
+          "state": "done",
+          "priority": 0
+        }
+      ],
+      "effects": [
+        {
+          "id": "unknown",
+          "amount": 250
+        }
+      ]
+    },
+    "started": 1.0645800000056624,
+    "ended": 1.0785899000475183
+  },
+  {
+    "path": "/resolve",
+    "data": {
+      "id": "review0",
+      "decision": "cancel",
+      "reason": "automated_fixture_not_human"
+    },
+    "status": 200,
+    "body": {
+      "state": "cancelled",
+      "evidence": "automated_fixture_not_human"
+    },
+    "started": 1.0786021000239998,
+    "ended": 1.0988954999484122
+  },
+  {
+    "path": "/resolve",
+    "data": {
+      "id": "review1",
+      "decision": "cancel",
+      "reason": "automated_fixture_not_human"
+    },
+    "status": 200,
+    "body": {
+      "state": "cancelled",
+      "evidence": "automated_fixture_not_human"
+    },
+    "started": 1.0989011999918148,
+    "ended": 1.107401299988851
+  },
+  {
+    "path": "/resolve",
+    "data": {
+      "id": "review2",
+      "decision": "cancel",
+      "reason": "automated_fixture_not_human"
+    },
+    "status": 200,
+    "body": {
+      "state": "cancelled",
+      "evidence": "automated_fixture_not_human"
+    },
+    "started": 1.1074064000276849,
+    "ended": 1.1175549000035971
+  },
+  {
+    "path": "/mode",
+    "data": {
+      "mode": "auto"
+    },
+    "status": 409,
+    "body": {
+      "reason": "return_gate"
+    },
+    "started": 1.117559100035578,
+    "ended": 1.130846600048244
+  },
+  {
+    "path": "/effect",
+    "data": {
+      "id": "unknown"
+    },
+    "status": 423,
+    "body": {
+      "reason": "autonomy_disabled"
+    },
+    "started": 1.390451299957931,
+    "ended": 1.4372668999712914
+  },
+  {
+    "path": "/predict",
+    "data": {
+      "x": 0.8
+    },
+    "status": 200,
+    "body": {
+      "prediction": 1,
+      "model_sha256": "6083c13d73e172dd468fe47e197020f9127dd4d67a8356ed1a027d824f17e1a0"
+    },
+    "started": 1.4372707000002265,
+    "ended": 1.4519548000534996
+  },
+  {
+    "path": "/retest",
+    "data": {
+      "passed": true
+    },
+    "status": 200,
+    "body": {
+      "accepted": true
+    },
+    "started": 1.451958499965258,
+    "ended": 1.4760557999834418
+  },
+  {
+    "path": "/mode",
+    "data": {
+      "mode": "auto"
+    },
+    "status": 200,
+    "body": {
+      "mode": "auto"
+    },
+    "started": 1.476059400010854,
+    "ended": 1.4876595999812707
+  },
+  {
+    "path": "/admit",
+    "data": {
+      "id": "after",
+      "amount": 50
+    },
+    "status": 201,
+    "body": {
+      "id": "after",
+      "state": "pending"
+    },
+    "started": 1.487666800036095,
+    "ended": 1.5134031999623403
+  },
+  {
+    "path": "/effect",
+    "data": {
+      "id": "after"
+    },
+    "status": 201,
+    "body": {
+      "id": "after",
+      "amount": 50
+    },
+    "started": 1.5134070999920368,
+    "ended": 1.5388403000542894
+  },
+  {
+    "path": "/resolve",
+    "data": {
+      "id": "after"
+    },
+    "status": 200,
+    "body": {
+      "state": "done",
+      "evidence": "destination_receipt"
+    },
+    "started": 1.5388443999690935,
+    "ended": 1.5491683000000194
+  },
+  {
+    "path": "/state",
+    "data": null,
+    "status": 200,
+    "body": {
+      "config": {
+        "mode": "auto",
+        "stage": "live",
+        "retest": "yes"
+      },
+      "tasks": [
+        {
+          "id": "after",
+          "amount": 50,
+          "schema": 1,
+          "state": "done",
+          "priority": 0
+        },
+        {
+          "id": "review0",
+          "amount": 100,
+          "schema": 1,
+          "state": "cancelled",
+          "priority": 0
+        },
+        {
+          "id": "review1",
+          "amount": 100,
+          "schema": 1,
+          "state": "cancelled",
+          "priority": 0
+        },
+        {
+          "id": "review2",
+          "amount": 100,
+          "schema": 1,
+          "state": "cancelled",
+          "priority": 2
+        },
+        {
+          "id": "unknown",
+          "amount": 250,
+          "schema": 1,
+          "state": "done",
+          "priority": 0
+        }
+      ],
+      "effects": [
+        {
+          "id": "after",
+          "amount": 50
+        },
+        {
+          "id": "unknown",
+          "amount": 250
+        }
+      ]
+    },
+    "started": 1.5491723000304773,
+    "ended": 1.558493599994108
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "license": "CC0-1.0 (author-created synthetic task data)",
+  "l01": {
+    "cases": 12,
+    "states": [
+      "success",
+      "failure",
+      "abstained",
+      "pending",
+      "unknown"
+    ]
+  },
+  "l02": {
+    "n": 100000,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "scenarios": [
+      {
+        "q": 0.0,
+        "r": 0.02
+      },
+      {
+        "q": 0.1,
+        "r": 0.02
+      }
+    ]
+  },
+  "l03": {
+    "modes": [
+      "naive",
+      "protected"
+    ],
+    "cases": 10,
+    "transport": "loopback HTTP",
+    "proposal_source": "prepared fixtures; no inference",
+    "collector_failure": "real HTTP 503, controlled by harness",
+    "buffer": "capacity condition over actual audit rows; no disk exhaustion"
+  },
+  "l04": {
+    "cases": [
+      {
+        "id": "C01",
+        "x": 1
+      },
+      {
+        "id": "C02",
+        "x": 2
+      },
+      {
+        "id": "C03",
+        "x": 3
+      },
+      {
+        "id": "C04",
+        "x": 4
+      },
+      {
+        "id": "C05",
+        "x": "invalid"
+      },
+      {
+        "id": "C06",
+        "x": 6
+      }
+    ],
+    "kill_before_raw": "C02",
+    "kill_after_raw": "C03",
+    "resume_attempts": 2
+  },
+  "claims": [
+    "mechanisms under fixtures",
+    "observed local process interruption"
+  ],
+  "excluded": [
+    "semantic model quality",
+    "population success rate",
+    "production SLO",
+    "power loss",
+    "human review"
+  ],
+  "criteria": {
+    "no_discarded_admissions": true,
+    "protected_foreign_effects": 0,
+    "partial_capture_must_fail_as_complete": true,
+    "retain_orphan_raw": true
+  }
+}

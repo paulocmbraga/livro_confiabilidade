@@ -1,0 +1,30 @@
+{
+  "length": 8,
+  "pending": {
+    "pending": 1,
+    "min": "1792884393030-0",
+    "max": "1792884393030-0",
+    "consumers": [
+      {
+        "name": "consumer",
+        "pending": 1
+      }
+    ]
+  },
+  "destination": {
+    "effects": [
+      {
+        "id": "A1",
+        "value": "accepted"
+      }
+    ],
+    "inbox": [],
+    "resource": [
+      {
+        "id": "r",
+        "token": 0,
+        "value": "initial"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "case": "C08",
+  "condition": "team_stale_same",
+  "split": "reserve",
+  "expected": true,
+  "decision": true,
+  "correct": true,
+  "abstained": false,
+  "completion_tokens": 97,
+  "prompt_tokens": 260,
+  "inference_seconds": 3.0378505998523906,
+  "calls": 3,
+  "unanimous": false,
+  "errors": [
+    false,
+    false,
+    true
+  ],
+  "pairs": 3,
+  "both_wrong": 0
+}

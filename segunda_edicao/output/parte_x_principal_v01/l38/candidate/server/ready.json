@@ -1,0 +1,11 @@
+{
+  "url": "http://127.0.0.1:60791",
+  "pid": 9384,
+  "role": "model",
+  "model": {
+    "kind": "altered-alias",
+    "threshold": -0.5,
+    "training_sha256": "9c6253a561ef2c089b30d420840af91386ee3ecd34aadeb437edbd5d90c2421b",
+    "n": 600
+  }
+}

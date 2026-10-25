@@ -1,0 +1,62 @@
+{
+  "id": "l18_judge_a1",
+  "request": {
+    "model": "l11-smol",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Is the proposed answer supported and correct? Reply PASS or FAIL only. Task: O registro informa exatamente 12 unidades. Quantas unidades há? Proposed answer: 12"
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-smol",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "schema": null
+  },
+  "config_sha256": "2abc44e9c620f81ef7716e1339e79a4d2a174906d8badac1bd47f1bbb74d4674",
+  "events": [
+    {
+      "seconds": 0.3070323000429198,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870759,\"id\":\"chatcmpl-2NctZnaJWsfT8whjY2V8cVKl6rZpeRuQ\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3070941000478342,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"P\"}}],\"created\":1792870759,\"id\":\"chatcmpl-2NctZnaJWsfT8whjY2V8cVKl6rZpeRuQ\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.32147920003626496,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"ASS\"}}],\"created\":1792870759,\"id\":\"chatcmpl-2NctZnaJWsfT8whjY2V8cVKl6rZpeRuQ\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.33470900007523596,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870759,\"id\":\"chatcmpl-2NctZnaJWsfT8whjY2V8cVKl6rZpeRuQ\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":77,\"prompt_ms\":304.201,\"prompt_per_token_ms\":3.950662337662338,\"prompt_per_second\":253.12211333953533,\"predicted_n\":3,\"predicted_ms\":27.765,\"predicted_per_token_ms\":13.8825,\"predicted_per_second\":72.03313524221142}}"
+    },
+    {
+      "seconds": 0.33480229997076094,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "PASS",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 2,
+  "ttft_seconds": 0.30710960004944354,
+  "seconds": 0.33502810006029904,
+  "injected_cut_after_content_events": null
+}

@@ -1,0 +1,30 @@
+{
+  "files": {
+    "admissions.json": "1c81b4587b0295d503d05d53c18dc7864b494a2729ebe87b247f7ab10a3848d1",
+    "codigo/__init__.py": "3d9cca5bbcfd47b47fa7d19096aa28ea0bc10587314b766023c24725236f50b8",
+    "codigo/campaign.py": "a64b5a195e93ffed2334cafa39de76f78ad2e9fb35e0c1b16279b81e4e9b41ab",
+    "codigo/core.py": "40fbc182efe5261ed233ca175185da7e67325ffe12b3f94cd519a104b6f4d69e",
+    "codigo/models.py": "cdaaca7bbbcbab06fdf9f0bb1ad319bc5c6a42decc95a2f50b9d0e98e291ec25",
+    "document_vectors.npy": "06cb33f3374bdc0fef86a07d1433ea26bf75aa746f8c15232d867df233bd1fa0",
+    "fontes/consultas.json": "5ba0117651f19cace974d2fbe52524e29c42aefd62631fdd2d9f153fb52048ed",
+    "fontes/corpus.json": "94e392ef35f1a10fca0502ded7a0e2583f6f464a73105838241d922935d4b076",
+    "fontes/modelos.lock.json": "41ccba3822cd8af387ab44dbf5464b0aa1bc5d870cad9005daf657418248609c",
+    "fontes/plano.json": "39a543ac81f9eb8e49be3698fb0024f40e4aa4f6ebc1a7ced6d425b6b157265d",
+    "fontes/referencias.json": "989d3db2d52e1e6721e53e1b694af072f41b853780be0ea3bac4b80a9ad0901e",
+    "generation_resources.json": "7865294b6a1e6fb72b9aaa53a7d9fda6a8e1cecaf25b00e3b51ba088b1954c85",
+    "query_vectors.npy": "dda3ab0ccdaf1c956e5ae76c50c7f6b411350c898442697a6f800df599f6d6e3",
+    "raw/DEVQ_bm25_top1_0.json": "8a86e614a345b934860a3e6493c61e4ebcfb4de122380de0977f628528c88b13",
+    "raw/DEVQ_bm25_top3_0.json": "63084ff85b8d97c0146050f756393b6932e69839c012fa98fd705722f701632c",
+    "raw/DEVQ_diagnostic_empty_0.json": "2f2412db0a6c9a4682425f49d934d14bbee4716e6e420838f307e8a2599dad6e",
+    "raw/DEVQ_diagnostic_reference_0.json": "05d5d22af2f24e895ff10dc216415fe9acae542b2ac22ad67bf66013b535e048",
+    "raw/DEVQ_hybrid_rerank_top1_0.json": "03606d59ace8a1f88ed050736dc1ac238ca9b33b22cb88c25b9e96b9371217a3",
+    "raw/DEVQ_hybrid_rerank_top3_0.json": "b9e095e6cc4c5dc5c60593e2ce556e96d21930ce0fc99c11a283b4bb81c57d03",
+    "results.json": "5e73be7c76eaf94dd371b1ea085a70dcd856a4a86af8bf5927795f098fc78bb9",
+    "retrieval.json": "f4f468fb0d596e3119436298693ce9c8d662092b070c2644084ab56903766882",
+    "retrieval_resources.json": "4b61f7cdb751556bce8f492ffd3ae34c0cbf8a5b4eeea548b26670448b088d2d",
+    "server.log": "b0817ecd2b105745f7f3b539f72bb22dbc228d1c7ee318b3fb98c2733e3bbb5b",
+    "state.json": "c9150e5de4c152076df76b1c5ae82b2b433a037410950580c5df9946c10ef8c3",
+    "token_counts.json": "920c7fa856878ad7a0760359a81d907a08f7ce90e35a8f62c8795bdee41e816b"
+  },
+  "sealed_at": "2026-10-23T23:57:56.206543+00:00"
+}

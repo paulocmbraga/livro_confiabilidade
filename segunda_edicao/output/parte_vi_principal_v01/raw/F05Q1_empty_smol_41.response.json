@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Por favor, informe o auxílio mensal de curso de idiomas segundo os boletins de outubro.\",\n  \"citacoes\": [\n    \"Boletin de autorização para ajudar a identificação de idiomas\",\n    \"Boletin de autorização para ajudar a identificação de idiomas\",\n    \"Boletin de autorização para ajudar a identificação de idiomas\",\n    \"Boletin de autorização para ajud"
+      }
+    }
+  ],
+  "created": 1792879478,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 224,
+    "total_tokens": 352,
+    "prompt_tokens_details": {
+      "cached_tokens": 207
+    }
+  },
+  "id": "chatcmpl-yA99rZjRLBSEkl4pErOCUIamwuXmb2gU",
+  "timings": {
+    "cache_n": 207,
+    "prompt_n": 17,
+    "prompt_ms": 130.423,
+    "prompt_per_token_ms": 7.671941176470589,
+    "prompt_per_second": 130.34510784140835,
+    "predicted_n": 128,
+    "predicted_ms": 2297.639,
+    "predicted_per_token_ms": 18.09164566929134,
+    "predicted_per_second": 55.27413140184337
+  }
+}

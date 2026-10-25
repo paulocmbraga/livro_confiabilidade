@@ -1,0 +1,173 @@
+{
+  "seconds": 23.49,
+  "rss_peak_bytes": 585994240,
+  "samples": [
+    {
+      "seconds": 1.025,
+      "rss": 76414976,
+      "cpu_seconds": 0.9375,
+      "ram_available": 6074040320
+    },
+    {
+      "seconds": 2.028,
+      "rss": 582356992,
+      "cpu_seconds": 3.6875,
+      "ram_available": 5575720960
+    },
+    {
+      "seconds": 3.029,
+      "rss": 582373376,
+      "cpu_seconds": 7.421875,
+      "ram_available": 5574066176
+    },
+    {
+      "seconds": 4.034,
+      "rss": 582373376,
+      "cpu_seconds": 11.234375,
+      "ram_available": 5569925120
+    },
+    {
+      "seconds": 5.048,
+      "rss": 582373376,
+      "cpu_seconds": 15.15625,
+      "ram_available": 5567586304
+    },
+    {
+      "seconds": 6.061,
+      "rss": 585596928,
+      "cpu_seconds": 18.90625,
+      "ram_available": 5561561088
+    },
+    {
+      "seconds": 7.076,
+      "rss": 584024064,
+      "cpu_seconds": 22.765625,
+      "ram_available": 5560369152
+    },
+    {
+      "seconds": 8.076,
+      "rss": 584024064,
+      "cpu_seconds": 26.71875,
+      "ram_available": 5558308864
+    },
+    {
+      "seconds": 9.079,
+      "rss": 584024064,
+      "cpu_seconds": 30.46875,
+      "ram_available": 5534478336
+    },
+    {
+      "seconds": 10.094,
+      "rss": 584024064,
+      "cpu_seconds": 34.25,
+      "ram_available": 5528162304
+    },
+    {
+      "seconds": 11.11,
+      "rss": 585842688,
+      "cpu_seconds": 38.078125,
+      "ram_available": 5528137728
+    },
+    {
+      "seconds": 12.111,
+      "rss": 584085504,
+      "cpu_seconds": 41.3125,
+      "ram_available": 5538697216
+    },
+    {
+      "seconds": 13.113,
+      "rss": 584085504,
+      "cpu_seconds": 45.15625,
+      "ram_available": 5540610048
+    },
+    {
+      "seconds": 14.127,
+      "rss": 584085504,
+      "cpu_seconds": 48.921875,
+      "ram_available": 5543231488
+    },
+    {
+      "seconds": 15.128,
+      "rss": 584085504,
+      "cpu_seconds": 52.796875,
+      "ram_available": 5538271232
+    },
+    {
+      "seconds": 16.143,
+      "rss": 585912320,
+      "cpu_seconds": 56.8125,
+      "ram_available": 5538455552
+    },
+    {
+      "seconds": 17.145,
+      "rss": 585912320,
+      "cpu_seconds": 60.640625,
+      "ram_available": 5561827328
+    },
+    {
+      "seconds": 18.159,
+      "rss": 584167424,
+      "cpu_seconds": 64.65625,
+      "ram_available": 5563752448
+    },
+    {
+      "seconds": 19.161,
+      "rss": 584167424,
+      "cpu_seconds": 68.625,
+      "ram_available": 5542744064
+    },
+    {
+      "seconds": 20.163,
+      "rss": 584167424,
+      "cpu_seconds": 72.546875,
+      "ram_available": 5549543424
+    },
+    {
+      "seconds": 21.177,
+      "rss": 585994240,
+      "cpu_seconds": 76.546875,
+      "ram_available": 5545172992
+    },
+    {
+      "seconds": 22.179,
+      "rss": 585994240,
+      "cpu_seconds": 80.390625,
+      "ram_available": 5524705280
+    },
+    {
+      "seconds": 23.179,
+      "rss": 585994240,
+      "cpu_seconds": 84.3125,
+      "ram_available": 5527334912
+    }
+  ],
+  "cpu_seconds": 84.3125,
+  "process_ended": true,
+  "model_sha256": "74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db",
+  "runtime_sha256": "6a4635aeb35656153d4bfeeddf761d24ed84aada9c9108d580737cbed465141b",
+  "arguments": [
+    "-m",
+    "C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\.modelos\\l11\\qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "50957",
+    "-t",
+    "4",
+    "-tb",
+    "4",
+    "-c",
+    "4096",
+    "-np",
+    "1",
+    "-ngl",
+    "0",
+    "--no-webui",
+    "--alias",
+    "l11-qwen"
+  ],
+  "host_ram_bytes": 16540794880,
+  "python": "3.12.14",
+  "psutil": "7.1.0",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

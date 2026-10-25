@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Para bloquear meu cartão de entrada, você deve pagar um valor menor que o valor que o cartão de entrada está disponível. Para obter o valor menor, você deve usar o valor de um documento disponível no campo citacoes. Para obter o valor menor, você deve usar o valor de um documento disponível no campo citacoes. Para obter o valor menor, você deve usar"
+      }
+    }
+  ],
+  "created": 1792879358,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 220,
+    "total_tokens": 348,
+    "prompt_tokens_details": {
+      "cached_tokens": 203
+    }
+  },
+  "id": "chatcmpl-VYbfw0xxqDsFO9qOraNDKxDbp9jHzJh6",
+  "timings": {
+    "cache_n": 203,
+    "prompt_n": 17,
+    "prompt_ms": 130.646,
+    "prompt_per_token_ms": 7.685058823529411,
+    "prompt_per_second": 130.1226214350229,
+    "predicted_n": 128,
+    "predicted_ms": 2697.696,
+    "predicted_per_token_ms": 21.241700787401573,
+    "predicted_per_second": 47.07720958921984
+  }
+}

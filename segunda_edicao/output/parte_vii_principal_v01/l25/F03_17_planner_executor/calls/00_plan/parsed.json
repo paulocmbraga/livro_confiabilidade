@@ -1,0 +1,21 @@
+{
+  "value": {
+    "steps": [
+      "Verifique se o plano é necessário e se o teto está disponível.",
+      "Verifique se a quantidade de itens permitida está disponível.",
+      "Reserva o plano se necessário.",
+      "Reserva o plano se não houver condições."
+    ]
+  },
+  "error": null,
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 73,
+    "total_tokens": 130,
+    "prompt_tokens_details": {
+      "cached_tokens": 46
+    }
+  },
+  "charged_output": 57,
+  "seconds": 1.3720074000302702
+}

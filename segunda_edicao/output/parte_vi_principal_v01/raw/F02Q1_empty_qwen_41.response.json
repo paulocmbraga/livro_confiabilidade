@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"Não há registros de teto diário de hotel em congressos aprovados em Recife.\",\"citacoes\":[],\"abster\":true}"
+      }
+    }
+  ],
+  "created": 1792879238,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 38,
+    "prompt_tokens": 169,
+    "total_tokens": 207,
+    "prompt_tokens_details": {
+      "cached_tokens": 137
+    }
+  },
+  "id": "chatcmpl-Wg51pPCJWsU2EXupT8gmn9u04WSQ94I1",
+  "timings": {
+    "cache_n": 137,
+    "prompt_n": 32,
+    "prompt_ms": 287.347,
+    "prompt_per_token_ms": 8.97959375,
+    "prompt_per_second": 111.36361263559391,
+    "predicted_n": 38,
+    "predicted_ms": 822.342,
+    "predicted_per_token_ms": 22.225459459459458,
+    "predicted_per_second": 44.99344554941861
+  }
+}

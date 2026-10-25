@@ -1,0 +1,43 @@
+{
+  "id": "F07Q1_hybrid_rerank_qwen_41",
+  "query_id": "F07Q1",
+  "family": "F07",
+  "model": "qwen",
+  "seed": 41,
+  "variant": "hybrid_rerank",
+  "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+  "context": {
+    "text": "[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[ACESSO] versão 2026-10: Extravio ou furto do crachá: solicitar imediatamente a desativação da credencial física ao canal Segurança Patrimonial. O canal correto não é a recepção.\n\n[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+    "ids": [
+      "FER-G",
+      "ACESSO",
+      "PASS-NEW"
+    ],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 165
+  },
+  "seconds": 2.248749800026417,
+  "parsed": {
+    "resposta": "Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+    "citacoes": [
+      "FER-G",
+      "ACESSO",
+      "PASS-NEW"
+    ],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": true,
+    "source_loss_known": false,
+    "reference_evidence_available": true,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": true,
+    "citation_ids_valid": true,
+    "citations_cover_required": true,
+    "automatic_contract_signal": false
+  }
+}

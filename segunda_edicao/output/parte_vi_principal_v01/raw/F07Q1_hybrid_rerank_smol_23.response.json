@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Pedido de conta de passagens deve ser enviado em 7 dias corridos após o retorno.\",\n  \"citacoes\": [\n    \"FER-G\",\n    \"2026-10\",\n    \"Para férias, a regra geral exige pedido com 30 dias de antecedência.\",\n    \"Exceções estão em FER-E.\",\n    \"A partir de outubro de 2026, a prestação de cont"
+      }
+    }
+  ],
+  "created": 1792879471,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 406,
+    "total_tokens": 534,
+    "prompt_tokens_details": {
+      "cached_tokens": 204
+    }
+  },
+  "id": "chatcmpl-Iaht4h0VapHJnsdgi2EPFHl7w4mBYemA",
+  "timings": {
+    "cache_n": 204,
+    "prompt_n": 202,
+    "prompt_ms": 1086.655,
+    "prompt_per_token_ms": 5.3794801980198015,
+    "prompt_per_second": 185.8915663204973,
+    "predicted_n": 128,
+    "predicted_ms": 2514.718,
+    "predicted_per_token_ms": 19.800929133858265,
+    "predicted_per_second": 50.50268061866181
+  }
+}

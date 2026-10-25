@@ -1,0 +1,21 @@
+{
+  "case": "C01",
+  "condition": "team_sources_mixed",
+  "split": "development",
+  "expected": true,
+  "decision": true,
+  "correct": true,
+  "abstained": false,
+  "completion_tokens": 98,
+  "prompt_tokens": 258,
+  "inference_seconds": 3.1909826000919566,
+  "calls": 3,
+  "unanimous": true,
+  "errors": [
+    false,
+    false,
+    false
+  ],
+  "pairs": 3,
+  "both_wrong": 0
+}

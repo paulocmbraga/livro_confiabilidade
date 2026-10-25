@@ -1,0 +1,35 @@
+{
+  "identity": "cec985968e8439da910975ec98710d2084e996daca4a54dfe41e466d910fb5dd",
+  "created": 100,
+  "expires": 200,
+  "tasks": {
+    "T01": "evaluated",
+    "T02": "evaluated",
+    "T03": "unknown",
+    "T04": "unknown",
+    "T05": "unknown",
+    "T06": "evaluated",
+    "T07": "evaluated",
+    "T08": "invalid"
+  },
+  "human_semantic_qualification": false,
+  "accepted_correct": 4,
+  "accepted_callbacks": 5,
+  "attempts": 9,
+  "inference_requests": 8,
+  "worker_starts": 10,
+  "unknown_is_not_failure_rate": true,
+  "attempt_states": {
+    "T01-1": "evaluated",
+    "T02-1": "evaluated",
+    "T03-1": "unknown",
+    "T04-1": "unknown",
+    "T05-1": "unknown",
+    "T06-1": "evaluated",
+    "T07-1": "aborted_before_inference",
+    "T08-1": "invalid",
+    "T07-2": "evaluated"
+  },
+  "release_now": "blocked_incomplete",
+  "release_later": "blocked_expired"
+}

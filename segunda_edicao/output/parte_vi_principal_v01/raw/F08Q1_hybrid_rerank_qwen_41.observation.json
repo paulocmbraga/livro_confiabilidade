@@ -1,0 +1,41 @@
+{
+  "id": "F08Q1_hybrid_rerank_qwen_41",
+  "query_id": "F08Q1",
+  "family": "F08",
+  "model": "qwen",
+  "seed": 41,
+  "variant": "hybrid_rerank",
+  "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+  "context": {
+    "text": "[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.",
+    "ids": [
+      "DESCANSO",
+      "FER-G",
+      "DIS-09"
+    ],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 147
+  },
+  "seconds": 1.3247193000279367,
+  "parsed": {
+    "resposta": "Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+    "citacoes": [
+      "FER-G"
+    ],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": true,
+    "source_loss_known": false,
+    "reference_evidence_available": true,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": true,
+    "citation_ids_valid": true,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

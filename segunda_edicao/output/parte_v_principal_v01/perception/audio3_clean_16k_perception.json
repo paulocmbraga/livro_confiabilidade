@@ -1,0 +1,34 @@
+{
+  "id": "audio3_clean_16k",
+  "kind": "asr",
+  "path": "audio3_clean_16k.wav",
+  "expected": 315.25,
+  "reference": "O valor total é de trezentos e quinze reais e vinte e cinco centavos.",
+  "mode": "clean",
+  "voice": "Microsoft Maria Desktop - Portuguese(Brazil)",
+  "duration_seconds": 6.3063125,
+  "noise_snr_db_before_clipping": null,
+  "text": "O valor total é de 300 e 15 reais e 25 centavos.",
+  "seconds": 0.8866190999979153,
+  "details": {
+    "args": [
+      "C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\.modelos\\parte_v\\whisper-v1.8.7\\Release\\whisper-cli.exe",
+      "-m",
+      "C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\.modelos\\parte_v\\ggml-tiny.bin",
+      "-f",
+      "C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\materiais\\parte_v\\entradas\\audio3_clean_16k.wav",
+      "-l",
+      "pt",
+      "-t",
+      "4",
+      "-ng",
+      "-oj",
+      "-of",
+      "C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\output\\parte_v_principal_v01\\perception\\audio3_clean_16k"
+    ],
+    "raw_file": "audio3_clean_16k.json",
+    "returncode": 0
+  },
+  "word_error_rate": 0.35714285714285715,
+  "input_sha256": "d3604621e93726dbae4949caa1caec30b76b9ca337e8fa35d03b6d1345217d7d"
+}

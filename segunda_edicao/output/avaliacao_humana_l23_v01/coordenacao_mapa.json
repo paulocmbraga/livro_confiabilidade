@@ -1,0 +1,290 @@
+[
+  {
+    "item_id": "H001",
+    "attempt_id": "F12Q1_hybrid_rerank_top1_0",
+    "family": "F12",
+    "variant": "hybrid_rerank/top1"
+  },
+  {
+    "item_id": "H002",
+    "attempt_id": "F03Q1_hybrid_rerank_top3_0",
+    "family": "F03",
+    "variant": "hybrid_rerank/top3"
+  },
+  {
+    "item_id": "H003",
+    "attempt_id": "F12Q1_bm25_top3_0",
+    "family": "F12",
+    "variant": "bm25/top3"
+  },
+  {
+    "item_id": "H004",
+    "attempt_id": "F07Q1_hybrid_rerank_top1_0",
+    "family": "F07",
+    "variant": "hybrid_rerank/top1"
+  },
+  {
+    "item_id": "H005",
+    "attempt_id": "F07Q1_bm25_top3_0",
+    "family": "F07",
+    "variant": "bm25/top3"
+  },
+  {
+    "item_id": "H006",
+    "attempt_id": "F02Q1_hybrid_rerank_top3_0",
+    "family": "F02",
+    "variant": "hybrid_rerank/top3"
+  },
+  {
+    "item_id": "H007",
+    "attempt_id": "F10Q1_bm25_top1_0",
+    "family": "F10",
+    "variant": "bm25/top1"
+  },
+  {
+    "item_id": "H008",
+    "attempt_id": "F08Q1_bm25_top1_0",
+    "family": "F08",
+    "variant": "bm25/top1"
+  },
+  {
+    "item_id": "H009",
+    "attempt_id": "F09Q1_bm25_top1_0",
+    "family": "F09",
+    "variant": "bm25/top1"
+  },
+  {
+    "item_id": "H010",
+    "attempt_id": "F12Q1_hybrid_rerank_top3_0",
+    "family": "F12",
+    "variant": "hybrid_rerank/top3"
+  },
+  {
+    "item_id": "H011",
+    "attempt_id": "F10Q1_bm25_top3_0",
+    "family": "F10",
+    "variant": "bm25/top3"
+  },
+  {
+    "item_id": "H012",
+    "attempt_id": "F04Q1_bm25_top1_0",
+    "family": "F04",
+    "variant": "bm25/top1"
+  },
+  {
+    "item_id": "H013",
+    "attempt_id": "F04Q1_hybrid_rerank_top3_0",
+    "family": "F04",
+    "variant": "hybrid_rerank/top3"
+  },
+  {
+    "item_id": "H014",
+    "attempt_id": "F04Q1_bm25_top3_0",
+    "family": "F04",
+    "variant": "bm25/top3"
+  },
+  {
+    "item_id": "H015",
+    "attempt_id": "F07Q1_hybrid_rerank_top3_0",
+    "family": "F07",
+    "variant": "hybrid_rerank/top3"
+  },
+  {
+    "item_id": "H016",
+    "attempt_id": "F08Q1_hybrid_rerank_top1_0",
+    "family": "F08",
+    "variant": "hybrid_rerank/top1"
+  },
+  {
+    "item_id": "H017",
+    "attempt_id": "F11Q1_bm25_top1_0",
+    "family": "F11",
+    "variant": "bm25/top1"
+  },
+  {
+    "item_id": "H018",
+    "attempt_id": "F05Q1_hybrid_rerank_top3_0",
+    "family": "F05",
+    "variant": "hybrid_rerank/top3"
+  },
+  {
+    "item_id": "H019",
+    "attempt_id": "F10Q1_hybrid_rerank_top1_0",
+    "family": "F10",
+    "variant": "hybrid_rerank/top1"
+  },
+  {
+    "item_id": "H020",
+    "attempt_id": "F11Q1_hybrid_rerank_top3_0",
+    "family": "F11",
+    "variant": "hybrid_rerank/top3"
+  },
+  {
+    "item_id": "H021",
+    "attempt_id": "F12Q1_bm25_top1_0",
+    "family": "F12",
+    "variant": "bm25/top1"
+  },
+  {
+    "item_id": "H022",
+    "attempt_id": "F11Q1_bm25_top3_0",
+    "family": "F11",
+    "variant": "bm25/top3"
+  },
+  {
+    "item_id": "H023",
+    "attempt_id": "F02Q1_bm25_top1_0",
+    "family": "F02",
+    "variant": "bm25/top1"
+  },
+  {
+    "item_id": "H024",
+    "attempt_id": "F01Q1_hybrid_rerank_top3_0",
+    "family": "F01",
+    "variant": "hybrid_rerank/top3"
+  },
+  {
+    "item_id": "H025",
+    "attempt_id": "F03Q1_bm25_top1_0",
+    "family": "F03",
+    "variant": "bm25/top1"
+  },
+  {
+    "item_id": "H026",
+    "attempt_id": "F04Q1_hybrid_rerank_top1_0",
+    "family": "F04",
+    "variant": "hybrid_rerank/top1"
+  },
+  {
+    "item_id": "H027",
+    "attempt_id": "F01Q1_bm25_top3_0",
+    "family": "F01",
+    "variant": "bm25/top3"
+  },
+  {
+    "item_id": "H028",
+    "attempt_id": "F05Q1_hybrid_rerank_top1_0",
+    "family": "F05",
+    "variant": "hybrid_rerank/top1"
+  },
+  {
+    "item_id": "H029",
+    "attempt_id": "F01Q1_bm25_top1_0",
+    "family": "F01",
+    "variant": "bm25/top1"
+  },
+  {
+    "item_id": "H030",
+    "attempt_id": "F09Q1_bm25_top3_0",
+    "family": "F09",
+    "variant": "bm25/top3"
+  },
+  {
+    "item_id": "H031",
+    "attempt_id": "F06Q1_hybrid_rerank_top1_0",
+    "family": "F06",
+    "variant": "hybrid_rerank/top1"
+  },
+  {
+    "item_id": "H032",
+    "attempt_id": "F06Q1_hybrid_rerank_top3_0",
+    "family": "F06",
+    "variant": "hybrid_rerank/top3"
+  },
+  {
+    "item_id": "H033",
+    "attempt_id": "F01Q1_hybrid_rerank_top1_0",
+    "family": "F01",
+    "variant": "hybrid_rerank/top1"
+  },
+  {
+    "item_id": "H034",
+    "attempt_id": "F02Q1_bm25_top3_0",
+    "family": "F02",
+    "variant": "bm25/top3"
+  },
+  {
+    "item_id": "H035",
+    "attempt_id": "F05Q1_bm25_top3_0",
+    "family": "F05",
+    "variant": "bm25/top3"
+  },
+  {
+    "item_id": "H036",
+    "attempt_id": "F11Q1_hybrid_rerank_top1_0",
+    "family": "F11",
+    "variant": "hybrid_rerank/top1"
+  },
+  {
+    "item_id": "H037",
+    "attempt_id": "F08Q1_bm25_top3_0",
+    "family": "F08",
+    "variant": "bm25/top3"
+  },
+  {
+    "item_id": "H038",
+    "attempt_id": "F10Q1_hybrid_rerank_top3_0",
+    "family": "F10",
+    "variant": "hybrid_rerank/top3"
+  },
+  {
+    "item_id": "H039",
+    "attempt_id": "F03Q1_hybrid_rerank_top1_0",
+    "family": "F03",
+    "variant": "hybrid_rerank/top1"
+  },
+  {
+    "item_id": "H040",
+    "attempt_id": "F08Q1_hybrid_rerank_top3_0",
+    "family": "F08",
+    "variant": "hybrid_rerank/top3"
+  },
+  {
+    "item_id": "H041",
+    "attempt_id": "F09Q1_hybrid_rerank_top3_0",
+    "family": "F09",
+    "variant": "hybrid_rerank/top3"
+  },
+  {
+    "item_id": "H042",
+    "attempt_id": "F05Q1_bm25_top1_0",
+    "family": "F05",
+    "variant": "bm25/top1"
+  },
+  {
+    "item_id": "H043",
+    "attempt_id": "F06Q1_bm25_top1_0",
+    "family": "F06",
+    "variant": "bm25/top1"
+  },
+  {
+    "item_id": "H044",
+    "attempt_id": "F09Q1_hybrid_rerank_top1_0",
+    "family": "F09",
+    "variant": "hybrid_rerank/top1"
+  },
+  {
+    "item_id": "H045",
+    "attempt_id": "F06Q1_bm25_top3_0",
+    "family": "F06",
+    "variant": "bm25/top3"
+  },
+  {
+    "item_id": "H046",
+    "attempt_id": "F03Q1_bm25_top3_0",
+    "family": "F03",
+    "variant": "bm25/top3"
+  },
+  {
+    "item_id": "H047",
+    "attempt_id": "F02Q1_hybrid_rerank_top1_0",
+    "family": "F02",
+    "variant": "hybrid_rerank/top1"
+  },
+  {
+    "item_id": "H048",
+    "attempt_id": "F07Q1_bm25_top1_0",
+    "family": "F07",
+    "variant": "bm25/top1"
+  }
+]

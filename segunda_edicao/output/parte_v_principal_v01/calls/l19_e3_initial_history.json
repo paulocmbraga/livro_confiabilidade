@@ -1,0 +1,58 @@
+{
+  "id": "l19_e3_initial_history",
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Turn 1: limit 60. What is the current authorized limit? Answer only the number or UNKNOWN if absent."
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-qwen",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "schema": null
+  },
+  "config_sha256": "a098b5694fc5bfd22e5863464482e5cc7086747dd349ff5ab6ef0c87108f187c",
+  "events": [
+    {
+      "seconds": 0.3129418999888003,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870733,\"id\":\"chatcmpl-cbK7BNzGBhv1q37dGS3NWvAEYyrepJ4d\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3130024999845773,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"UNKNOWN\"}}],\"created\":1792870733,\"id\":\"chatcmpl-cbK7BNzGBhv1q37dGS3NWvAEYyrepJ4d\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3284441999858245,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870733,\"id\":\"chatcmpl-cbK7BNzGBhv1q37dGS3NWvAEYyrepJ4d\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":52,\"prompt_ms\":291.762,\"prompt_per_token_ms\":5.610807692307692,\"prompt_per_second\":178.22745936756672,\"predicted_n\":2,\"predicted_ms\":15.454,\"predicted_per_token_ms\":15.454,\"predicted_per_second\":64.70816617057072}}"
+    },
+    {
+      "seconds": 0.32855540001764894,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "UNKNOWN",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 1,
+  "ttft_seconds": 0.3130173000972718,
+  "seconds": 0.32878129999153316,
+  "injected_cut_after_content_events": null
+}

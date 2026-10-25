@@ -1,0 +1,61 @@
+{
+  "quality_episodes": [
+    [
+      79,
+      106
+    ]
+  ],
+  "observation_episodes": [
+    [
+      123,
+      147
+    ],
+    [
+      154,
+      166
+    ]
+  ],
+  "detection_delay": 19,
+  "quality_false_episodes": 0,
+  "quality_bad_tasks_before_detection": 57,
+  "final": {
+    "n": 1800,
+    "observed": 1600,
+    "known": 1579,
+    "good": 1489,
+    "bad": 90,
+    "unknown": 221,
+    "coverage": 0.8772222222222222,
+    "availability": 1.0,
+    "quality_known": 0.9430018999366688,
+    "quality_lower": 0.8272222222222222,
+    "quality_upper": 0.95
+  },
+  "example_unknown": {
+    "n": 50,
+    "observed": 0,
+    "known": 0,
+    "good": 0,
+    "bad": 0,
+    "unknown": 50,
+    "coverage": 0.0,
+    "availability": 1.0,
+    "quality_known": null,
+    "quality_lower": 0.0,
+    "quality_upper": 1.0
+  },
+  "domain_window": {
+    "n": 300,
+    "observed": 300,
+    "known": 300,
+    "good": 210,
+    "bad": 90,
+    "unknown": 0,
+    "coverage": 1.0,
+    "availability": 1.0,
+    "quality_known": 0.7,
+    "quality_lower": 0.7,
+    "quality_upper": 0.7
+  },
+  "truth_scope": "authorial synthetic reference; no human labels or model judge"
+}

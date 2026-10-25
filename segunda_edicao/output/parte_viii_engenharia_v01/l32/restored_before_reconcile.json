@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "id": "E0",
+      "status": "confirmed",
+      "version": 2
+    },
+    {
+      "id": "E1",
+      "status": "confirmed",
+      "version": 3
+    },
+    {
+      "id": "E2",
+      "status": "confirmed",
+      "version": 1
+    }
+  ],
+  "outbox": [
+    {
+      "id": "E0",
+      "sent": true
+    },
+    {
+      "id": "E1",
+      "sent": true
+    },
+    {
+      "id": "E2",
+      "sent": true
+    }
+  ],
+  "checkpoints": [
+    {
+      "id": "flow",
+      "schema_version": 1,
+      "step": 3
+    }
+  ]
+}

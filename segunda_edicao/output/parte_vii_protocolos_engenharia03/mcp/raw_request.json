@@ -1,0 +1,17 @@
+{
+  "jsonrpc": "2.0",
+  "id": 27,
+  "method": "tools/call",
+  "params": {
+    "name": "reserve",
+    "arguments": {
+      "intent": "I27",
+      "quantity": 1,
+      "contract": "v1"
+    },
+    "_meta": {
+      "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+      "progressToken": "P27"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "case": "C02",
+  "condition": "single_current",
+  "split": "development",
+  "expected": true,
+  "decision": true,
+  "correct": true,
+  "abstained": false,
+  "completion_tokens": 31,
+  "prompt_tokens": 87,
+  "inference_seconds": 0.7924895000178367,
+  "calls": 1,
+  "unanimous": false,
+  "errors": [
+    false
+  ],
+  "pairs": 0,
+  "both_wrong": 0
+}

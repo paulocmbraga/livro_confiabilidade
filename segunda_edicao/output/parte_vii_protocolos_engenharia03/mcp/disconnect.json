@@ -1,0 +1,13 @@
+{
+  "status": 400,
+  "headers": {
+    "date": "Sat, 24 Oct 2026 22:39:30 GMT",
+    "server": "uvicorn",
+    "content-length": "158",
+    "content-type": "application/json"
+  },
+  "lines": [
+    "{\"jsonrpc\":\"2.0\",\"id\":27,\"error\":{\"code\":-32602,\"message\":\"params._meta is missing the required envelope key(s): io.modelcontextprotocol/clientCapabilities\"}}"
+  ],
+  "closed_before_final": true
+}

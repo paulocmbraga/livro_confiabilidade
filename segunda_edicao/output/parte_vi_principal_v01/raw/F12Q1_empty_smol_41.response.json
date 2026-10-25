@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"0.000.000.000\",\"citacoes\": [\n    \"https://www.horizonte.gov.br/finance/finance-in-2021/finance-in-2020/finance-in-2021-000000000000000000000000000000000000000000000000000"
+      }
+    }
+  ],
+  "created": 1792879389,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 223,
+    "total_tokens": 351,
+    "prompt_tokens_details": {
+      "cached_tokens": 174
+    }
+  },
+  "id": "chatcmpl-BVpFVEfPo3jII2DWS4mc3cl55K7muvNv",
+  "timings": {
+    "cache_n": 174,
+    "prompt_n": 49,
+    "prompt_ms": 302.12,
+    "prompt_per_token_ms": 6.1657142857142855,
+    "prompt_per_second": 162.18721037998145,
+    "predicted_n": 128,
+    "predicted_ms": 2264.784,
+    "predicted_per_token_ms": 17.832944881889766,
+    "predicted_per_second": 56.07598782047206
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "case": "C04",
+  "condition": "team_stale_same",
+  "split": "development",
+  "expected": false,
+  "decision": true,
+  "correct": false,
+  "abstained": false,
+  "completion_tokens": 95,
+  "prompt_tokens": 263,
+  "inference_seconds": 3.0714555999729782,
+  "calls": 3,
+  "unanimous": false,
+  "errors": [
+    true,
+    false,
+    true
+  ],
+  "pairs": 3,
+  "both_wrong": 1
+}

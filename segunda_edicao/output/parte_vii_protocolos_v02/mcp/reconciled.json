@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "io.modelcontextprotocol/serverInfo": {
+      "name": "Confiabilidade L27",
+      "version": "1.0"
+    }
+  },
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"receipt\": {\n    \"intent\": \"I27\",\n    \"quantity\": 1,\n    \"contract\": \"v1\"\n  },\n  \"contract\": \"v2\"\n}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false,
+  "resultType": "complete"
+}

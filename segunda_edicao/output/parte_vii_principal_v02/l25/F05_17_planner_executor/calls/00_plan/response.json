@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"steps\": [\"Verifique a lista de itens e a quantidade disponível.\"]}"
+      }
+    }
+  ],
+  "created": 1792881785,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 18,
+    "prompt_tokens": 76,
+    "total_tokens": 94,
+    "prompt_tokens_details": {
+      "cached_tokens": 46
+    }
+  },
+  "id": "chatcmpl-FisjuqJ4mTUQBWoYowOWMzCxpVpGZKP2",
+  "timings": {
+    "cache_n": 46,
+    "prompt_n": 30,
+    "prompt_ms": 262.2,
+    "prompt_per_token_ms": 8.74,
+    "prompt_per_second": 114.41647597254006,
+    "predicted_n": 18,
+    "predicted_ms": 418.308,
+    "predicted_per_token_ms": 24.60635294117647,
+    "predicted_per_second": 40.639911261558474
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "events": [
+    {
+      "step": "first",
+      "result": {
+        "status": "served",
+        "served": true,
+        "response": {
+          "tenant": "alpha",
+          "question": "Qual é o auxílio mensal para internet?",
+          "bundle": "v1",
+          "epoch": 1,
+          "auth_epoch": 0,
+          "bundle_hash": "6f7c6fc7867769ce27858bed045d3bddf6c5721f9a23dee46c491908215d23ab",
+          "embedding": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "index_version": "v1",
+          "answer": "O auxílio mensal para internet é R$ 90.",
+          "citations": [
+            "NET"
+          ],
+          "cache_hit": false,
+          "generator": "extractive-v1",
+          "prompt": "return-top1-text-v1"
+        }
+      }
+    },
+    {
+      "step": "cache_hit",
+      "result": {
+        "status": "served",
+        "served": true,
+        "response": {
+          "tenant": "alpha",
+          "question": "Qual é o auxílio mensal para internet?",
+          "bundle": "v1",
+          "epoch": 1,
+          "auth_epoch": 0,
+          "bundle_hash": "6f7c6fc7867769ce27858bed045d3bddf6c5721f9a23dee46c491908215d23ab",
+          "embedding": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "index_version": "v1",
+          "answer": "O auxílio mensal para internet é R$ 90.",
+          "citations": [
+            "NET"
+          ],
+          "cache_hit": true,
+          "generator": "extractive-v1",
+          "prompt": "return-top1-text-v1"
+        }
+      }
+    },
+    {
+      "step": "crash_before_commit",
+      "process": {
+        "pid": 8400,
+        "exit_code": 86,
+        "stdout": "crash_before.stdout.txt",
+        "stderr": "crash_before.stderr.txt"
+      }
+    },
+    {
+      "step": "after_failed_publish",
+      "result": {
+        "status": "served",
+        "served": true,
+        "response": {
+          "tenant": "alpha",
+          "question": "Qual é o auxílio mensal para internet?",
+          "bundle": "v1",
+          "epoch": 1,
+          "auth_epoch": 0,
+          "bundle_hash": "6f7c6fc7867769ce27858bed045d3bddf6c5721f9a23dee46c491908215d23ab",
+          "embedding": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "index_version": "v1",
+          "answer": "O auxílio mensal para internet é R$ 90.",
+          "citations": [
+            "NET"
+          ],
+          "cache_hit": true,
+          "generator": "extractive-v1",
+          "prompt": "return-top1-text-v1"
+        }
+      }
+    },
+    {
+      "step": "publish_v2",
+      "seconds": 0.007909100037068129,
+      "epoch": 2
+    },
+    {
+      "step": "safe_inflight",
+      "process": {
+        "pid": 9380,
+        "exit_code": 0
+      },
+      "result": {
+        "pid": 6756,
+        "seconds": 0.37406830000691116,
+        "delivery": {
+          "status": "superseded",
+          "served": false,
+          "candidate": {
+            "tenant": "alpha",
+            "question": "Qual é o auxílio mensal para internet?",
+            "bundle": "v1",
+            "epoch": 1,
+            "auth_epoch": 0,
+            "bundle_hash": "6f7c6fc7867769ce27858bed045d3bddf6c5721f9a23dee46c491908215d23ab",
+            "embedding": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+            "index_version": "v1",
+            "answer": "O auxílio mensal para internet é R$ 90.",
+            "citations": [
+              "NET"
+            ],
+            "cache_hit": false,
+            "generator": "extractive-v1",
+            "prompt": "return-top1-text-v1"
+          }
+        }
+      }
+    },
+    {
+      "step": "unsafe_inflight",
+      "process": {
+        "pid": 12080,
+        "exit_code": 0
+      },
+      "result": {
+        "pid": 12444,
+        "seconds": 0.03308309998828918,
+        "delivery": {
+          "status": "served",
+          "served": true,
+          "response": {
+            "tenant": "alpha",
+            "question": "Qual é o auxílio mensal para internet?",
+            "bundle": "v1",
+            "epoch": 1,
+            "auth_epoch": 0,
+            "bundle_hash": "6f7c6fc7867769ce27858bed045d3bddf6c5721f9a23dee46c491908215d23ab",
+            "embedding": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+            "index_version": "v1",
+            "answer": "O auxílio mensal para internet é R$ 90.",
+            "citations": [
+              "NET"
+            ],
+            "cache_hit": false,
+            "generator": "extractive-v1",
+            "prompt": "return-top1-text-v1"
+          }
+        }
+      }
+    },
+    {
+      "step": "current_v2",
+      "result": {
+        "status": "served",
+        "served": true,
+        "response": {
+          "tenant": "alpha",
+          "question": "Qual é o auxílio mensal para internet?",
+          "bundle": "v2",
+          "epoch": 2,
+          "auth_epoch": 0,
+          "bundle_hash": "241f2ed59fa4cfed0e74b54893404c46d83a73a385c860955e0c16dadbeef2da",
+          "embedding": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "index_version": "v2",
+          "answer": "O auxílio mensal para internet é R$ 140.",
+          "citations": [
+            "NET"
+          ],
+          "cache_hit": false,
+          "generator": "extractive-v1",
+          "prompt": "return-top1-text-v1"
+        }
+      }
+    },
+    {
+      "step": "naive_query_only_cache",
+      "response": {
+        "tenant": "alpha",
+        "question": "Qual é o auxílio mensal para internet?",
+        "bundle": "v1",
+        "epoch": 1,
+        "auth_epoch": 0,
+        "bundle_hash": "6f7c6fc7867769ce27858bed045d3bddf6c5721f9a23dee46c491908215d23ab",
+        "embedding": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+        "index_version": "v1",
+        "answer": "O auxílio mensal para internet é R$ 90.",
+        "citations": [
+          "NET"
+        ],
+        "cache_hit": false,
+        "generator": "extractive-v1",
+        "prompt": "return-top1-text-v1"
+      },
+      "current_epoch": 2,
+      "note": "Counterexample: a deliberately query-only dictionary returns saved v1, without calling safe cache"
+    },
+    {
+      "step": "crash_after_commit",
+      "process": {
+        "pid": 12176,
+        "exit_code": 86,
+        "stdout": "crash_after.stdout.txt",
+        "stderr": "crash_after.stderr.txt"
+      }
+    },
+    {
+      "step": "rollback_confirmed",
+      "result": {
+        "status": "served",
+        "served": true,
+        "response": {
+          "tenant": "alpha",
+          "question": "Qual é o auxílio mensal para internet?",
+          "bundle": "v1",
+          "epoch": 3,
+          "auth_epoch": 0,
+          "bundle_hash": "6f7c6fc7867769ce27858bed045d3bddf6c5721f9a23dee46c491908215d23ab",
+          "embedding": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "index_version": "v1",
+          "answer": "O auxílio mensal para internet é R$ 90.",
+          "citations": [
+            "NET"
+          ],
+          "cache_hit": false,
+          "generator": "extractive-v1",
+          "prompt": "return-top1-text-v1"
+        }
+      }
+    },
+    {
+      "step": "revoked_inflight",
+      "result": {
+        "status": "superseded",
+        "served": false,
+        "candidate": {
+          "tenant": "alpha",
+          "question": "Qual é o auxílio mensal para internet?",
+          "bundle": "v1",
+          "epoch": 3,
+          "auth_epoch": 0,
+          "bundle_hash": "6f7c6fc7867769ce27858bed045d3bddf6c5721f9a23dee46c491908215d23ab",
+          "embedding": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "index_version": "v1",
+          "answer": "O auxílio mensal para internet é R$ 90.",
+          "citations": [
+            "NET"
+          ],
+          "cache_hit": false,
+          "generator": "extractive-v1",
+          "prompt": "return-top1-text-v1"
+        }
+      }
+    },
+    {
+      "step": "after_revoke",
+      "result": {
+        "status": "served",
+        "served": true,
+        "response": {
+          "tenant": "alpha",
+          "question": "Qual é o auxílio mensal para internet?",
+          "bundle": "v1",
+          "epoch": 3,
+          "auth_epoch": 1,
+          "bundle_hash": "6f7c6fc7867769ce27858bed045d3bddf6c5721f9a23dee46c491908215d23ab",
+          "embedding": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "index_version": "v1",
+          "answer": "SEM EVIDÊNCIA",
+          "citations": [],
+          "cache_hit": false,
+          "generator": "extractive-v1",
+          "prompt": "return-top1-text-v1"
+        }
+      }
+    },
+    {
+      "step": "revocation_survives_republish",
+      "result": {
+        "status": "served",
+        "served": true,
+        "response": {
+          "tenant": "alpha",
+          "question": "Qual é o auxílio mensal para internet?",
+          "bundle": "v2",
+          "epoch": 4,
+          "auth_epoch": 1,
+          "bundle_hash": "241f2ed59fa4cfed0e74b54893404c46d83a73a385c860955e0c16dadbeef2da",
+          "embedding": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "index_version": "v2",
+          "answer": "SEM EVIDÊNCIA",
+          "citations": [],
+          "cache_hit": false,
+          "generator": "extractive-v1",
+          "prompt": "return-top1-text-v1"
+        }
+      }
+    }
+  ],
+  "history": [
+    [
+      1,
+      "v1",
+      "update"
+    ],
+    [
+      2,
+      "v2",
+      "update"
+    ],
+    [
+      3,
+      "v1",
+      "update"
+    ],
+    [
+      4,
+      "v2",
+      "rollback_or_republish_after_revoke"
+    ]
+  ],
+  "all_child_processes_ended": true,
+  "scope": "Real SQLite/processes and learned vectors; extractive response; scheduled barriers, not a load benchmark"
+}

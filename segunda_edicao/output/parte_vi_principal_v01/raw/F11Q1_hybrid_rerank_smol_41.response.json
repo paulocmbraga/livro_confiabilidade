@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Boletim A de 1 de outubro de 2026\",\n  \"citacoes\": [\n    \"Boletim A de 1 de outubro de 2026\",\n    \"Boletim B de 1 de outubro de 2026\"\n  ],\n  \"abster\": true\n}"
+      }
+    }
+  ],
+  "created": 1792879348,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 428,
+    "total_tokens": 524,
+    "prompt_tokens_details": {
+      "cached_tokens": 173
+    }
+  },
+  "id": "chatcmpl-MDlrvMFVBUG0I6Daiq0GrveW9B3Dk7Rb",
+  "timings": {
+    "cache_n": 173,
+    "prompt_n": 255,
+    "prompt_ms": 1268.107,
+    "prompt_per_token_ms": 4.97296862745098,
+    "prompt_per_second": 201.08713223726392,
+    "predicted_n": 96,
+    "predicted_ms": 1938.927,
+    "predicted_per_token_ms": 20.409757894736842,
+    "predicted_per_second": 48.996171593876404
+  }
+}

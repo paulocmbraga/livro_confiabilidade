@@ -1,0 +1,11 @@
+{
+  "case_id": "C01",
+  "condition": "single_current",
+  "role": "analista",
+  "model": "qwen",
+  "packet": {
+    "source": "current-v2",
+    "limit": 100,
+    "amount": 70
+  }
+}

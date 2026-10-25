@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"Não há dados para a análise da quantidade de dias de trabalho remoto autorizados pelas circulares A e B.\",\"citacoes\":[],\"abster\":true}"
+      }
+    }
+  ],
+  "created": 1792879092,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 42,
+    "prompt_tokens": 168,
+    "total_tokens": 210,
+    "prompt_tokens_details": {
+      "cached_tokens": 136
+    }
+  },
+  "id": "chatcmpl-IQcMso9dBf2P9QxLpzmAy4Scu8Zj2ziM",
+  "timings": {
+    "cache_n": 136,
+    "prompt_n": 32,
+    "prompt_ms": 234.377,
+    "prompt_per_token_ms": 7.32428125,
+    "prompt_per_second": 136.53216825883086,
+    "predicted_n": 42,
+    "predicted_ms": 809.97,
+    "predicted_per_token_ms": 19.75536585365854,
+    "predicted_per_second": 50.61915873427411
+  }
+}

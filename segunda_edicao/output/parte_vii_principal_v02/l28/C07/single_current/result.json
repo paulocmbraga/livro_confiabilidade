@@ -1,0 +1,19 @@
+{
+  "case": "C07",
+  "condition": "single_current",
+  "split": "reserve",
+  "expected": false,
+  "decision": true,
+  "correct": false,
+  "abstained": false,
+  "completion_tokens": 31,
+  "prompt_tokens": 85,
+  "inference_seconds": 1.013380300020799,
+  "calls": 1,
+  "unanimous": false,
+  "errors": [
+    true
+  ],
+  "pairs": 0,
+  "both_wrong": 0
+}

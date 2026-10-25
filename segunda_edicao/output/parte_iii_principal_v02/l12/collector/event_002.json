@@ -1,0 +1,25 @@
+{
+  "path": "/callback",
+  "request": {
+    "attempt": "T04-1",
+    "case": "T04",
+    "candidate": "other-candidate",
+    "judge": "exact-v1",
+    "output_sha256": "ab89a950d88cb6cbf0044477584623cc35f4dea2b63125225c41f14d332b6d59",
+    "valid": true,
+    "correct": true
+  },
+  "response": {
+    "index": 2,
+    "payload": {
+      "attempt": "T04-1",
+      "case": "T04",
+      "candidate": "other-candidate",
+      "judge": "exact-v1",
+      "output_sha256": "ab89a950d88cb6cbf0044477584623cc35f4dea2b63125225c41f14d332b6d59",
+      "valid": true,
+      "correct": true
+    },
+    "status": "identity_mismatch"
+  }
+}

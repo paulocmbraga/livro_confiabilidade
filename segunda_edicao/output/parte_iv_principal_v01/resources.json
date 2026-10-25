@@ -1,0 +1,32 @@
+{
+  "fit_count": 14,
+  "fits": [
+    "l2_0.001_seed_13",
+    "l2_0.001_seed_14",
+    "l2_0.001_seed_15",
+    "l2_0.001_seed_16",
+    "l2_0.001_seed_17",
+    "l2_0.05_seed_13",
+    "l2_0.05_seed_14",
+    "l2_0.05_seed_15",
+    "l2_0.05_seed_16",
+    "l2_0.05_seed_17",
+    "leaky",
+    "adapted",
+    "retrained",
+    "noisy_retrained"
+  ],
+  "fit_seconds": 2.0125065001193434,
+  "seconds": 6.2665422999998555,
+  "parent_cpu_seconds": 3.859375,
+  "parent_rss_peak_sampled": 62226432,
+  "rss_scope": "parent sampled every 20ms; child not included; short peaks may be missed",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "psutil": "7.1.0",
+  "hardware": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+  "cpu_logical": 12,
+  "paid_api_calls": 0,
+  "llm_calls": 0,
+  "human_judgments": 0
+}

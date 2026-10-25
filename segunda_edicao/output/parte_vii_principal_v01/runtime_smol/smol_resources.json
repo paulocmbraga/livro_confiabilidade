@@ -1,0 +1,71 @@
+{
+  "seconds": 6.067,
+  "rss_peak_bytes": 600645632,
+  "samples": [
+    {
+      "seconds": 1.014,
+      "rss": 592662528,
+      "cpu_seconds": 1.515625,
+      "ram_available": 4238401536
+    },
+    {
+      "seconds": 2.015,
+      "rss": 599965696,
+      "cpu_seconds": 5.234375,
+      "ram_available": 4227633152
+    },
+    {
+      "seconds": 3.015,
+      "rss": 600522752,
+      "cpu_seconds": 9.203125,
+      "ram_available": 4228399104
+    },
+    {
+      "seconds": 4.017,
+      "rss": 600104960,
+      "cpu_seconds": 13.125,
+      "ram_available": 4231467008
+    },
+    {
+      "seconds": 5.033,
+      "rss": 600645632,
+      "cpu_seconds": 17.0,
+      "ram_available": 4230500352
+    },
+    {
+      "seconds": 6.047,
+      "rss": 130551808,
+      "cpu_seconds": 20.765625,
+      "ram_available": 4702425088
+    }
+  ],
+  "cpu_seconds": 20.765625,
+  "process_ended": true,
+  "model_sha256": "48ab3034d0dd401fbc721eb1df3217902fee7dab9078992d66431f09b7750201",
+  "runtime_sha256": "6a4635aeb35656153d4bfeeddf761d24ed84aada9c9108d580737cbed465141b",
+  "arguments": [
+    "-m",
+    "C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\.modelos\\l11\\smollm2-360m-instruct-q8_0.gguf",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "64315",
+    "-t",
+    "4",
+    "-tb",
+    "4",
+    "-c",
+    "4096",
+    "-np",
+    "1",
+    "-ngl",
+    "0",
+    "--no-webui",
+    "--alias",
+    "l11-smol"
+  ],
+  "host_ram_bytes": 16540794880,
+  "python": "3.12.14",
+  "psutil": "7.1.0",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

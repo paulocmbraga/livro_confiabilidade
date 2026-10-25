@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"A taxa de juros do financiamento de carro oferecido pela Horizonte é de 100% para viagens nacionais e 200% para internacionais. A última linha da tabela de bagagem está ausente.\",\n  \"citacoes\": [\n    \"BAG-T\",\n    \"HOT-E\",\n    \"NET-NEW\"\n  ],\n  \"abster\": true\n}"
+      }
+    }
+  ],
+  "created": 1792879140,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 338,
+    "total_tokens": 434,
+    "prompt_tokens_details": {
+      "cached_tokens": 158
+    }
+  },
+  "id": "chatcmpl-durhtA43Yr9BGa8gBff3oAjavkHvS2cT",
+  "timings": {
+    "cache_n": 158,
+    "prompt_n": 180,
+    "prompt_ms": 947.727,
+    "prompt_per_token_ms": 5.26515,
+    "prompt_per_second": 189.92811220952868,
+    "predicted_n": 96,
+    "predicted_ms": 1827.147,
+    "predicted_per_token_ms": 19.233126315789473,
+    "predicted_per_second": 51.99362722320646
+  }
+}

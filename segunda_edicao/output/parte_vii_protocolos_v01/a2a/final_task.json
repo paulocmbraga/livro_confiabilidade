@@ -1,0 +1,26 @@
+{
+  "id": "1295845d-a190-4178-a7cb-36f74aaa28da",
+  "contextId": "a81e6001-41d4-4fd8-96dd-6cbd17f88082",
+  "status": {
+    "state": "TASK_STATE_COMPLETED",
+    "timestamp": "2026-10-24T22:39:58.632352Z"
+  },
+  "artifacts": [
+    {
+      "artifactId": "artifact-1295845d-a190-4178-a7cb-36f74aaa28da",
+      "name": "decision",
+      "parts": [
+        {
+          "text": "Parecer da intenção intent-A27"
+        }
+      ],
+      "metadata": {
+        "intent": "intent-A27",
+        "task_id": "1295845d-a190-4178-a7cb-36f74aaa28da",
+        "contract": "v1",
+        "context_id": "a81e6001-41d4-4fd8-96dd-6cbd17f88082",
+        "audience": "review-consumer"
+      }
+    }
+  ]
+}

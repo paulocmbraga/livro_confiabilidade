@@ -1,0 +1,13 @@
+{
+  "status": 400,
+  "headers": {
+    "date": "Sat, 24 Oct 2026 22:39:55 GMT",
+    "server": "uvicorn",
+    "content-length": "120",
+    "content-type": "application/json"
+  },
+  "lines": [
+    "{\"jsonrpc\":\"2.0\",\"id\":27,\"error\":{\"code\":-32020,\"message\":\"mcp-method header does not match the request body's method\"}}"
+  ],
+  "closed_before_final": true
+}

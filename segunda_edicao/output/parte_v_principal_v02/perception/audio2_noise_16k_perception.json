@@ -1,0 +1,34 @@
+{
+  "id": "audio2_noise_16k",
+  "kind": "asr",
+  "path": "audio2_noise_16k.wav",
+  "expected": 79.5,
+  "reference": "O valor total é de setenta e nove reais e cinquenta centavos.",
+  "mode": "noise",
+  "voice": "Microsoft Maria Desktop - Portuguese(Brazil)",
+  "duration_seconds": 5.7855625,
+  "noise_snr_db_before_clipping": 0,
+  "text": "O valor que dá o legi-te com o que nós e reais e que que é tão cansável.",
+  "seconds": 2.3820476999972016,
+  "details": {
+    "args": [
+      "C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\.modelos\\parte_v\\whisper-v1.8.7\\Release\\whisper-cli.exe",
+      "-m",
+      "C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\.modelos\\parte_v\\ggml-tiny.bin",
+      "-f",
+      "C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\materiais\\parte_v\\entradas\\audio2_noise_16k.wav",
+      "-l",
+      "pt",
+      "-t",
+      "4",
+      "-ng",
+      "-oj",
+      "-of",
+      "C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\output\\parte_v_principal_v02\\perception\\audio2_noise_16k"
+    ],
+    "raw_file": "audio2_noise_16k.json",
+    "returncode": 0
+  },
+  "word_error_rate": 1.25,
+  "input_sha256": "b6e61d209f8a11c3f460812d70b82dbe513205038334455eacd7acec206a32b1"
+}

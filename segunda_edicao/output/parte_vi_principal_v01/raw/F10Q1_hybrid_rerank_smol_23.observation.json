@@ -1,0 +1,43 @@
+{
+  "id": "F10Q1_hybrid_rerank_smol_23",
+  "query_id": "F10Q1",
+  "family": "F10",
+  "model": "smol",
+  "seed": 23,
+  "variant": "hybrid_rerank",
+  "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+  "context": {
+    "text": "[DIS-10] versão 2026-10: O manual de trabalho de campo descreve inventário e autorização do equipamento. Consulte a tabela de bagagem.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200. A última linha da tabela está ausente.",
+    "ids": [
+      "DIS-10",
+      "HOT-E",
+      "BAG-T"
+    ],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 194
+  },
+  "seconds": 2.570302400039509,
+  "parsed": {
+    "resposta": "Porque o teto de hospedagem nacional é R$ 480 por diária, incluindo a trabalhos de campo?",
+    "citacoes": [
+      "DIS-10",
+      "HOT-E",
+      "BAG-T"
+    ],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": true,
+    "source_loss_known": true,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": true,
+    "citation_ids_valid": true,
+    "citations_cover_required": true,
+    "automatic_contract_signal": false
+  }
+}

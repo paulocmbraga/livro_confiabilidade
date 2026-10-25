@@ -1,0 +1,18 @@
+{
+  "offered": 18,
+  "completed": 18,
+  "rejected": 0,
+  "errors": 0,
+  "within_4s": 18,
+  "p50": 0.925401100073941,
+  "p95": 1.5715090000303462,
+  "p99": 1.5715090000303462,
+  "ttft_p95": 1.0091801999369636,
+  "offered_lag_p95": 0.0,
+  "recovery_p95": 0.9569878000766039,
+  "completion_tokens": 576,
+  "tenant_admitted": {
+    "a": 12,
+    "b": 6
+  }
+}

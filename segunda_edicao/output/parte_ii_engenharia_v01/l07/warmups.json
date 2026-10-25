@@ -1,0 +1,182 @@
+[
+  {
+    "candidate": "linear",
+    "case": "D000-R0",
+    "raw": {
+      "probability": 0.7858051213450189,
+      "prediction": 1
+    },
+    "seconds": 3.47e-05
+  },
+  {
+    "candidate": "linear",
+    "case": "D000-R1",
+    "raw": {
+      "probability": 0.7755674563642313,
+      "prediction": 1
+    },
+    "seconds": 1.78e-05
+  },
+  {
+    "candidate": "linear",
+    "case": "D000-R2",
+    "raw": {
+      "probability": 0.7882419008370984,
+      "prediction": 1
+    },
+    "seconds": 1.4e-05
+  },
+  {
+    "candidate": "linear",
+    "case": "D000-R3",
+    "raw": {
+      "probability": 0.7716509925389752,
+      "prediction": 1
+    },
+    "seconds": 1.36e-05
+  },
+  {
+    "candidate": "linear",
+    "case": "D001-R0",
+    "raw": {
+      "probability": 0.32059968805024536,
+      "prediction": 0
+    },
+    "seconds": 1.21e-05
+  },
+  {
+    "candidate": "linear",
+    "case": "D001-R1",
+    "raw": {
+      "probability": 0.3229608818739005,
+      "prediction": 0
+    },
+    "seconds": 1.21e-05
+  },
+  {
+    "candidate": "linear",
+    "case": "D001-R2",
+    "raw": {
+      "probability": 0.3099568033450068,
+      "prediction": 0
+    },
+    "seconds": 1.19e-05
+  },
+  {
+    "candidate": "linear",
+    "case": "D001-R3",
+    "raw": {
+      "probability": 0.31629627355939305,
+      "prediction": 0
+    },
+    "seconds": 1.1e-05
+  },
+  {
+    "candidate": "linear",
+    "case": "D002-R0",
+    "raw": {
+      "probability": 0.516656556343387,
+      "prediction": 1
+    },
+    "seconds": 1.22e-05
+  },
+  {
+    "candidate": "linear",
+    "case": "D002-R1",
+    "raw": {
+      "probability": 0.5207361005013557,
+      "prediction": 1
+    },
+    "seconds": 1.27e-05
+  },
+  {
+    "candidate": "interaction",
+    "case": "D000-R0",
+    "raw": {
+      "probability": 0.7674054404000145,
+      "prediction": 1
+    },
+    "seconds": 6.32e-05
+  },
+  {
+    "candidate": "interaction",
+    "case": "D000-R1",
+    "raw": {
+      "probability": 0.7648617039244081,
+      "prediction": 1
+    },
+    "seconds": 1.82e-05
+  },
+  {
+    "candidate": "interaction",
+    "case": "D000-R2",
+    "raw": {
+      "probability": 0.7678135345703788,
+      "prediction": 1
+    },
+    "seconds": 2.48e-05
+  },
+  {
+    "candidate": "interaction",
+    "case": "D000-R3",
+    "raw": {
+      "probability": 0.7587353006486396,
+      "prediction": 1
+    },
+    "seconds": 1.59e-05
+  },
+  {
+    "candidate": "interaction",
+    "case": "D001-R0",
+    "raw": {
+      "probability": 0.3780119997070393,
+      "prediction": 0
+    },
+    "seconds": 1.55e-05
+  },
+  {
+    "candidate": "interaction",
+    "case": "D001-R1",
+    "raw": {
+      "probability": 0.361570287604859,
+      "prediction": 0
+    },
+    "seconds": 1.36e-05
+  },
+  {
+    "candidate": "interaction",
+    "case": "D001-R2",
+    "raw": {
+      "probability": 0.3563105975887503,
+      "prediction": 0
+    },
+    "seconds": 1.22e-05
+  },
+  {
+    "candidate": "interaction",
+    "case": "D001-R3",
+    "raw": {
+      "probability": 0.3688291894041194,
+      "prediction": 0
+    },
+    "seconds": 1.33e-05
+  },
+  {
+    "candidate": "interaction",
+    "case": "D002-R0",
+    "raw": {
+      "probability": 0.44941961688195026,
+      "prediction": 0
+    },
+    "seconds": 1.3e-05
+  },
+  {
+    "candidate": "interaction",
+    "case": "D002-R1",
+    "raw": {
+      "probability": 0.4537625791787645,
+      "prediction": 0
+    },
+    "seconds": 1.17e-05
+  }
+]

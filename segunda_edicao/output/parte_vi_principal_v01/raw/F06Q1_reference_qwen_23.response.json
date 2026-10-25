@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{ \"resposta\": \"2 dias\", \"citacoes\": [ \"REM-A\", \"REM-B\" ], \"abster\": false }"
+      }
+    }
+  ],
+  "created": 1792879118,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 33,
+    "prompt_tokens": 246,
+    "total_tokens": 279,
+    "prompt_tokens_details": {
+      "cached_tokens": 159
+    }
+  },
+  "id": "chatcmpl-5FRiq68x6AhZJ2HE0Dl1Tu4jwkfq9KYB",
+  "timings": {
+    "cache_n": 159,
+    "prompt_n": 87,
+    "prompt_ms": 514.79,
+    "prompt_per_token_ms": 5.917126436781609,
+    "prompt_per_second": 169.00095184444143,
+    "predicted_n": 33,
+    "predicted_ms": 899.286,
+    "predicted_per_token_ms": 28.1026875,
+    "predicted_per_second": 35.58378535860672
+  }
+}

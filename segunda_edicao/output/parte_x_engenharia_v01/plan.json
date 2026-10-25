@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "created_utc": "2026-10-25T00:40:04Z",
+  "l37": {
+    "seed": 3701,
+    "cohorts": 120,
+    "tasks_per_cohort": 20,
+    "maturity": 10,
+    "window": 5,
+    "error_threshold": 0.15,
+    "consecutive": 2,
+    "train_baseline": 600,
+    "train_candidate_cohorts": [
+      40,
+      50
+    ],
+    "reserve_cohorts": [
+      50,
+      55
+    ],
+    "candidate_promotion": 65,
+    "drift_z": 20,
+    "concept_change": 40,
+    "alias_change": [
+      75,
+      90
+    ]
+  },
+  "l38": {
+    "paired": 20,
+    "canary_every": 4,
+    "critical_index": 8,
+    "max_error": 0.1,
+    "critical_tolerance": 0,
+    "negative_control": "Canário intencional apesar de gate reprovado, somente efeitos sintéticos locais."
+  },
+  "l39": {
+    "queue_capacity": 3,
+    "offered": 8,
+    "crash": "worker after commit before response",
+    "human": "pending"
+  },
+  "l40": {
+    "now_logical": 20,
+    "cases": 12,
+    "required_open_tasks": 0
+  },
+  "scope": "Local CPU; modelo stump treinado; nenhum LLM, serviço pago, pessoa simulada ou efeito externo."
+}

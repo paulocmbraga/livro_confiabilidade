@@ -1,0 +1,33 @@
+{
+  "id": "F04Q1_reference_smol_41",
+  "query_id": "F04Q1",
+  "family": "F04",
+  "model": "smol",
+  "seed": 41,
+  "variant": "reference",
+  "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+  "context": {
+    "text": "[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+    "ids": [
+      "PASS-NEW"
+    ],
+    "skipped": [],
+    "source_restored": true,
+    "tokens": 68
+  },
+  "seconds": 2.3352790999924764,
+  "parsed": null,
+  "error": "finish_reason não é stop",
+  "observed": {
+    "valid": false,
+    "all_required_delivered": true,
+    "source_loss_known": false,
+    "reference_evidence_available": true,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

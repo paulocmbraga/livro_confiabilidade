@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E. A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno.\",\"citacoes\": [\"FER-G\", \"ACESSO\", \"PASS-NEW\"],\"abster\": true}"
+      }
+    }
+  ],
+  "created": 1792879177,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 325,
+    "total_tokens": 423,
+    "prompt_tokens_details": {
+      "cached_tokens": 155
+    }
+  },
+  "id": "chatcmpl-fxtzDdw0dLqzegBRFtDRXzEIxuFuKLPy",
+  "timings": {
+    "cache_n": 155,
+    "prompt_n": 170,
+    "prompt_ms": 988.395,
+    "prompt_per_token_ms": 5.8140882352941174,
+    "prompt_per_second": 171.99601373944625,
+    "predicted_n": 98,
+    "predicted_ms": 1870.567,
+    "predicted_per_token_ms": 19.28419587628866,
+    "predicted_per_second": 51.85593459095558
+  }
+}

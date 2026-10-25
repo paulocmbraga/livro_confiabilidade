@@ -1,0 +1,67 @@
+[
+  {
+    "phase": "healthy",
+    "offered": 24,
+    "sampled": 24,
+    "planned_exclusions": 0,
+    "received": 24,
+    "lost": 0,
+    "never_exported": 0,
+    "attempted_not_received": 0,
+    "wrong_bindings": 0,
+    "coverage": 1.0,
+    "ack_delay_p95_ms": 7.1102
+  },
+  {
+    "phase": "sampled",
+    "offered": 24,
+    "sampled": 12,
+    "planned_exclusions": 12,
+    "received": 12,
+    "lost": 0,
+    "never_exported": 0,
+    "attempted_not_received": 0,
+    "wrong_bindings": 0,
+    "coverage": 1.0,
+    "ack_delay_p95_ms": 9.7557
+  },
+  {
+    "phase": "outage",
+    "offered": 24,
+    "sampled": 24,
+    "planned_exclusions": 0,
+    "received": 0,
+    "lost": 24,
+    "never_exported": 24,
+    "attempted_not_received": 0,
+    "wrong_bindings": 0,
+    "coverage": 0.0,
+    "ack_delay_p95_ms": null
+  },
+  {
+    "phase": "saturation",
+    "offered": 200,
+    "sampled": 200,
+    "planned_exclusions": 0,
+    "received": 9,
+    "lost": 191,
+    "never_exported": 191,
+    "attempted_not_received": 0,
+    "wrong_bindings": 0,
+    "coverage": 0.045,
+    "ack_delay_p95_ms": 56.0075
+  },
+  {
+    "phase": "recovery",
+    "offered": 24,
+    "sampled": 24,
+    "planned_exclusions": 0,
+    "received": 24,
+    "lost": 0,
+    "never_exported": 0,
+    "attempted_not_received": 0,
+    "wrong_bindings": 0,
+    "coverage": 1.0,
+    "ack_delay_p95_ms": 9.9322
+  }
+]

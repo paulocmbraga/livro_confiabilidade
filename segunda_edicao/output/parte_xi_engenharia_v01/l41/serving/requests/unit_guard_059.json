@@ -1,0 +1,44 @@
+{
+  "request": {
+    "row": {
+      "id": "reserve-0059",
+      "group": "vip",
+      "at": 15590,
+      "age": 2193.866426033346,
+      "unit": "minute",
+      "channel": "phone",
+      "telemetry": 0.28241170481577893,
+      "history": [
+        {
+          "id": "initial",
+          "event": 15570,
+          "available": 15580,
+          "queue": 10
+        },
+        {
+          "id": "late-correction",
+          "event": 15575,
+          "available": 15680,
+          "queue": 0
+        },
+        {
+          "id": "outcome",
+          "event": 15710,
+          "available": 15770,
+          "queue": 0
+        }
+      ],
+      "y": 0,
+      "label_available": 15770
+    },
+    "mode": "unit_guard",
+    "attempt": "unit_guard_059"
+  },
+  "status": 422,
+  "response": {
+    "error": "unit",
+    "id": "reserve-0059",
+    "pid": 23216
+  },
+  "seconds": 7.529999129474163e-05
+}

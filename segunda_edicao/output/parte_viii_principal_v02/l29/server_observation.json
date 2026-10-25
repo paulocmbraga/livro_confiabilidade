@@ -1,0 +1,517 @@
+{
+  "layered_always503": {
+    "calls": 27,
+    "effects": [],
+    "events": [
+      {
+        "n": 1,
+        "at": 871034.156,
+        "fault": "always503"
+      },
+      {
+        "n": 2,
+        "at": 871034.156,
+        "fault": "always503"
+      },
+      {
+        "n": 3,
+        "at": 871034.156,
+        "fault": "always503"
+      },
+      {
+        "n": 4,
+        "at": 871034.156,
+        "fault": "always503"
+      },
+      {
+        "n": 5,
+        "at": 871034.187,
+        "fault": "always503"
+      },
+      {
+        "n": 6,
+        "at": 871034.187,
+        "fault": "always503"
+      },
+      {
+        "n": 7,
+        "at": 871034.203,
+        "fault": "always503"
+      },
+      {
+        "n": 8,
+        "at": 871034.203,
+        "fault": "always503"
+      },
+      {
+        "n": 9,
+        "at": 871034.203,
+        "fault": "always503"
+      },
+      {
+        "n": 10,
+        "at": 871034.203,
+        "fault": "always503"
+      },
+      {
+        "n": 11,
+        "at": 871034.218,
+        "fault": "always503"
+      },
+      {
+        "n": 12,
+        "at": 871034.234,
+        "fault": "always503"
+      },
+      {
+        "n": 13,
+        "at": 871034.25,
+        "fault": "always503"
+      },
+      {
+        "n": 14,
+        "at": 871034.25,
+        "fault": "always503"
+      },
+      {
+        "n": 15,
+        "at": 871034.25,
+        "fault": "always503"
+      },
+      {
+        "n": 16,
+        "at": 871034.25,
+        "fault": "always503"
+      },
+      {
+        "n": 17,
+        "at": 871034.25,
+        "fault": "always503"
+      },
+      {
+        "n": 18,
+        "at": 871034.265,
+        "fault": "always503"
+      },
+      {
+        "n": 19,
+        "at": 871034.265,
+        "fault": "always503"
+      },
+      {
+        "n": 20,
+        "at": 871034.281,
+        "fault": "always503"
+      },
+      {
+        "n": 21,
+        "at": 871034.296,
+        "fault": "always503"
+      },
+      {
+        "n": 22,
+        "at": 871034.296,
+        "fault": "always503"
+      },
+      {
+        "n": 23,
+        "at": 871034.296,
+        "fault": "always503"
+      },
+      {
+        "n": 24,
+        "at": 871034.296,
+        "fault": "always503"
+      },
+      {
+        "n": 25,
+        "at": 871034.312,
+        "fault": "always503"
+      },
+      {
+        "n": 26,
+        "at": 871034.328,
+        "fault": "always503"
+      },
+      {
+        "n": 27,
+        "at": 871034.343,
+        "fault": "always503"
+      }
+    ]
+  },
+  "layered_transient503": {
+    "calls": 3,
+    "effects": [
+      "layered_transient503"
+    ],
+    "events": [
+      {
+        "n": 1,
+        "at": 871034.359,
+        "fault": "transient503"
+      },
+      {
+        "n": 2,
+        "at": 871034.359,
+        "fault": "transient503"
+      },
+      {
+        "n": 3,
+        "at": 871034.359,
+        "fault": "transient503"
+      }
+    ]
+  },
+  "layered_rate": {
+    "calls": 3,
+    "effects": [
+      "layered_rate"
+    ],
+    "events": [
+      {
+        "n": 1,
+        "at": 871034.359,
+        "fault": "rate"
+      },
+      {
+        "n": 2,
+        "at": 871034.375,
+        "fault": "rate"
+      },
+      {
+        "n": 3,
+        "at": 871034.39,
+        "fault": "rate"
+      }
+    ]
+  },
+  "layered_reject": {
+    "calls": 27,
+    "effects": [],
+    "events": [
+      {
+        "n": 1,
+        "at": 871034.406,
+        "fault": "reject"
+      },
+      {
+        "n": 2,
+        "at": 871034.421,
+        "fault": "reject"
+      },
+      {
+        "n": 3,
+        "at": 871034.437,
+        "fault": "reject"
+      },
+      {
+        "n": 4,
+        "at": 871034.453,
+        "fault": "reject"
+      },
+      {
+        "n": 5,
+        "at": 871034.468,
+        "fault": "reject"
+      },
+      {
+        "n": 6,
+        "at": 871034.484,
+        "fault": "reject"
+      },
+      {
+        "n": 7,
+        "at": 871034.5,
+        "fault": "reject"
+      },
+      {
+        "n": 8,
+        "at": 871034.515,
+        "fault": "reject"
+      },
+      {
+        "n": 9,
+        "at": 871034.531,
+        "fault": "reject"
+      },
+      {
+        "n": 10,
+        "at": 871034.546,
+        "fault": "reject"
+      },
+      {
+        "n": 11,
+        "at": 871034.562,
+        "fault": "reject"
+      },
+      {
+        "n": 12,
+        "at": 871034.562,
+        "fault": "reject"
+      },
+      {
+        "n": 13,
+        "at": 871034.562,
+        "fault": "reject"
+      },
+      {
+        "n": 14,
+        "at": 871034.578,
+        "fault": "reject"
+      },
+      {
+        "n": 15,
+        "at": 871034.593,
+        "fault": "reject"
+      },
+      {
+        "n": 16,
+        "at": 871034.593,
+        "fault": "reject"
+      },
+      {
+        "n": 17,
+        "at": 871034.609,
+        "fault": "reject"
+      },
+      {
+        "n": 18,
+        "at": 871034.625,
+        "fault": "reject"
+      },
+      {
+        "n": 19,
+        "at": 871034.64,
+        "fault": "reject"
+      },
+      {
+        "n": 20,
+        "at": 871034.656,
+        "fault": "reject"
+      },
+      {
+        "n": 21,
+        "at": 871034.656,
+        "fault": "reject"
+      },
+      {
+        "n": 22,
+        "at": 871034.656,
+        "fault": "reject"
+      },
+      {
+        "n": 23,
+        "at": 871034.671,
+        "fault": "reject"
+      },
+      {
+        "n": 24,
+        "at": 871034.703,
+        "fault": "reject"
+      },
+      {
+        "n": 25,
+        "at": 871034.703,
+        "fault": "reject"
+      },
+      {
+        "n": 26,
+        "at": 871034.703,
+        "fault": "reject"
+      },
+      {
+        "n": 27,
+        "at": 871034.718,
+        "fault": "reject"
+      }
+    ]
+  },
+  "layered_drop_after": {
+    "calls": 2,
+    "effects": [
+      "layered_drop_after"
+    ],
+    "events": [
+      {
+        "n": 1,
+        "at": 871034.734,
+        "fault": "drop_after"
+      },
+      {
+        "n": 2,
+        "at": 871034.734,
+        "fault": "drop_after"
+      }
+    ]
+  },
+  "layered_delay_after": {
+    "calls": 2,
+    "effects": [
+      "layered_delay_after"
+    ],
+    "events": [
+      {
+        "n": 1,
+        "at": 871034.75,
+        "fault": "delay_after"
+      },
+      {
+        "n": 2,
+        "at": 871034.828,
+        "fault": "delay_after"
+      }
+    ]
+  },
+  "budget_always503": {
+    "calls": 3,
+    "effects": [],
+    "events": [
+      {
+        "n": 1,
+        "at": 871034.859,
+        "fault": "always503"
+      },
+      {
+        "n": 2,
+        "at": 871034.875,
+        "fault": "always503"
+      },
+      {
+        "n": 3,
+        "at": 871034.906,
+        "fault": "always503"
+      }
+    ]
+  },
+  "budget_transient503": {
+    "calls": 3,
+    "effects": [
+      "budget_transient503"
+    ],
+    "events": [
+      {
+        "n": 1,
+        "at": 871034.921,
+        "fault": "transient503"
+      },
+      {
+        "n": 2,
+        "at": 871034.937,
+        "fault": "transient503"
+      },
+      {
+        "n": 3,
+        "at": 871034.953,
+        "fault": "transient503"
+      }
+    ]
+  },
+  "budget_rate": {
+    "calls": 3,
+    "effects": [
+      "budget_rate"
+    ],
+    "events": [
+      {
+        "n": 1,
+        "at": 871034.953,
+        "fault": "rate"
+      },
+      {
+        "n": 2,
+        "at": 871035.984,
+        "fault": "rate"
+      },
+      {
+        "n": 3,
+        "at": 871037.0,
+        "fault": "rate"
+      }
+    ]
+  },
+  "budget_reject": {
+    "calls": 1,
+    "effects": [],
+    "events": [
+      {
+        "n": 1,
+        "at": 871037.0,
+        "fault": "reject"
+      }
+    ]
+  },
+  "budget_drop_after": {
+    "calls": 2,
+    "effects": [
+      "budget_drop_after"
+    ],
+    "events": [
+      {
+        "n": 1,
+        "at": 871037.0,
+        "fault": "drop_after"
+      },
+      {
+        "n": 2,
+        "at": 871037.0,
+        "fault": "drop_after"
+      }
+    ]
+  },
+  "budget_delay_after": {
+    "calls": 2,
+    "effects": [
+      "budget_delay_after"
+    ],
+    "events": [
+      {
+        "n": 1,
+        "at": 871037.031,
+        "fault": "delay_after"
+      },
+      {
+        "n": 2,
+        "at": 871037.109,
+        "fault": "delay_after"
+      }
+    ]
+  },
+  "hedge": {
+    "calls": 2,
+    "effects": [],
+    "events": [
+      {
+        "n": 1,
+        "at": 871037.14,
+        "fault": "read"
+      },
+      {
+        "n": 2,
+        "at": 871037.156,
+        "fault": "read"
+      }
+    ]
+  },
+  "breaker": {
+    "calls": 3,
+    "effects": [],
+    "events": [
+      {
+        "n": 1,
+        "at": 871037.265,
+        "fault": "always503"
+      },
+      {
+        "n": 2,
+        "at": 871037.281,
+        "fault": "always503"
+      },
+      {
+        "n": 3,
+        "at": 871037.437,
+        "fault": "read"
+      }
+    ]
+  }
+}

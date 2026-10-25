@@ -1,0 +1,77 @@
+{
+  "request": {
+    "model": "smol",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Responda somente JSON com limite inteiro em reais e fonte (ID exato). Use o documento, sem conhecimento externo. Documento: {\"id\": \"hospedagem-v2\", \"family\": \"hospedagem\", \"version\": \"v2\", \"limit\": 130, \"text\": \"Politica hospedagem da Horizonte. Limite autorizado: 130 reais. A excecao anterior esta revogada.\"}"
+      }
+    ],
+    "temperature": 0,
+    "seed": 441,
+    "max_tokens": 100,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "result",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "limite": {
+              "type": "integer"
+            },
+            "fonte": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "limite",
+            "fonte"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "cache_prompt": false
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"limite\": 130, \"fonte\": \"id=hospedagem-v2&version=v2&limit=130&text=Politica hospedagem da Horizonte. Limite autorizado: 130 reais. A excecao anterior esta revogada.\"}"
+        }
+      }
+    ],
+    "created": 1792950048,
+    "model": "smol",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 78,
+      "prompt_tokens": 151,
+      "total_tokens": 229,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-rIo4bkwK0FsPAVQvHTH6LpX7Q0JchcXT",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 151,
+      "prompt_ms": 563.742,
+      "prompt_per_token_ms": 3.733390728476821,
+      "prompt_per_second": 267.853024965321,
+      "predicted_n": 78,
+      "predicted_ms": 1165.026,
+      "predicted_per_token_ms": 15.130207792207793,
+      "predicted_per_second": 66.09294556516335
+    }
+  },
+  "seconds": 1.7459823000244796,
+  "text": "{\"limite\": 130, \"fonte\": \"id=hospedagem-v2&version=v2&limit=130&text=Politica hospedagem da Horizonte. Limite autorizado: 130 reais. A excecao anterior esta revogada.\"}",
+  "finish": "stop"
+}

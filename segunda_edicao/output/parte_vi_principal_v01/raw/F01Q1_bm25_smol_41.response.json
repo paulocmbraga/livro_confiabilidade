@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Porque a política de férias é exigida, você pode usar o mesmo tempo para fazer a seguinte: \",\n  \"citacoes\": [\n    \"https://www.horizonte.org/en/2026/10/26/2026-10-26-exceção-férias-colaboradores-que-retornam-férias-de-licença-parental-pod"
+      }
+    }
+  ],
+  "created": 1792879461,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 396,
+    "total_tokens": 524,
+    "prompt_tokens_details": {
+      "cached_tokens": 395
+    }
+  },
+  "id": "chatcmpl-kQRj49en24Av1HF7RqTvywOhpQ366IVH",
+  "timings": {
+    "cache_n": 395,
+    "prompt_n": 1,
+    "prompt_ms": 51.126,
+    "prompt_per_token_ms": 51.126,
+    "prompt_per_second": 19.559519618198177,
+    "predicted_n": 128,
+    "predicted_ms": 2414.12,
+    "predicted_per_token_ms": 19.008818897637795,
+    "predicted_per_second": 52.60716120159727
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "F10Q1_empty_smol_23",
+  "query_id": "F10Q1",
+  "family": "F10",
+  "model": "smol",
+  "seed": 23,
+  "variant": "empty",
+  "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 1.8970347000285983,
+  "parsed": {
+    "resposta": "Não é possível responder a questão de teto de bagagem em trabalho de campo nacional com equipamento autorizado.",
+    "citacoes": [
+      "Nenhum documento disponível"
+    ],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": false,
+    "source_loss_known": true,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": true,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

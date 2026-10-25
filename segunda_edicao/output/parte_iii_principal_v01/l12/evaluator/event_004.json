@@ -1,0 +1,16 @@
+{
+  "path": "/evaluate",
+  "request": {
+    "case": "T05",
+    "judge": "exact-v2",
+    "text": "{\"prazo\":20}"
+  },
+  "response": {
+    "valid": true,
+    "correct": false,
+    "reason": "mismatch",
+    "judge": "exact-v2",
+    "case": "T05",
+    "input_sha256": "31555fb098f246dd2b2b6054917d32d075e6cccd08a06a3bc357b05cad05c69c"
+  }
+}

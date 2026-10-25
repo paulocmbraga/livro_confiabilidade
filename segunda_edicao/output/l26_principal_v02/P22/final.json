@@ -1,0 +1,108 @@
+{
+  "destination": {
+    "stock": [
+      {
+        "id": "peca-A",
+        "available": 8,
+        "version": 1
+      }
+    ],
+    "effects": [
+      {
+        "id": 1,
+        "tenant": "horizonte",
+        "intent": "pedido-1",
+        "action": "reserve",
+        "quantity": 2,
+        "original": null,
+        "reversible": true,
+        "created": "2026-10-24 03:23:29.724113+00:00"
+      }
+    ],
+    "receipts": [
+      {
+        "tenant": "horizonte",
+        "key": "chave-1",
+        "hash": "07de785369644f1cc588c5cd769ccfadf406fbd3870347fdecd4a33ee3b8dc20",
+        "expires": "2026-10-24 03:28:29.718551+00:00",
+        "body": {
+          "key": "chave-1",
+          "hash": "07de785369644f1cc588c5cd769ccfadf406fbd3870347fdecd4a33ee3b8dc20",
+          "action": "reserve",
+          "effect": "applied",
+          "intent": "pedido-1",
+          "tenant": "horizonte",
+          "effect_id": 1
+        }
+      }
+    ],
+    "fences": [
+      {
+        "tenant": "horizonte",
+        "intent": "pedido-1",
+        "token": 1
+      }
+    ],
+    "approvals": [
+      {
+        "hash": "07de785369644f1cc588c5cd769ccfadf406fbd3870347fdecd4a33ee3b8dc20",
+        "enabled": true,
+        "expires": "2026-10-24 03:28:28.102360+00:00"
+      }
+    ]
+  },
+  "client": {
+    "jobs": [
+      {
+        "id": "job1",
+        "request": {
+          "key": "chave-1",
+          "action": "reserve",
+          "intent": "pedido-1",
+          "tenant": "horizonte",
+          "original": null,
+          "quantity": 2,
+          "resource": "peca-A",
+          "expires_at": 1792812508.10236,
+          "expected_version": 0
+        },
+        "state": "confirmed",
+        "receipt": {
+          "key": "chave-1",
+          "hash": "07de785369644f1cc588c5cd769ccfadf406fbd3870347fdecd4a33ee3b8dc20",
+          "action": "reserve",
+          "effect": "applied",
+          "intent": "pedido-1",
+          "tenant": "horizonte",
+          "effect_id": 1
+        },
+        "token": 1,
+        "lease_until": null,
+        "updated": "2026-10-24 03:23:32.146853+00:00"
+      }
+    ],
+    "outbox": [
+      {
+        "id": "job1",
+        "pending": false
+      }
+    ],
+    "attempts": [
+      {
+        "id": "a2",
+        "job": "job1",
+        "mode": "lookup",
+        "token": 1,
+        "started": "2026-10-24 03:23:32.015310+00:00",
+        "ended": "2026-10-24 03:23:32.149346+00:00",
+        "outcome": "confirmed"
+      }
+    ],
+    "control": [
+      {
+        "id": 1,
+        "admission": false
+      }
+    ]
+  }
+}

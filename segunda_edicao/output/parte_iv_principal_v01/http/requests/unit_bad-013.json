@@ -1,0 +1,54 @@
+{
+  "request": {
+    "attempt": "unit_bad-013",
+    "mode": "unit_bad",
+    "row": {
+      "id": "test-0013",
+      "group": "regular",
+      "at": 40130,
+      "age": 431.8175507398292,
+      "unit": "minute",
+      "channel": "web",
+      "telemetry": 0.6243283723364603,
+      "history": [
+        {
+          "id": "initial",
+          "event": 40110,
+          "available": 40120,
+          "queue": 39
+        },
+        {
+          "id": "late-correction",
+          "event": 40115,
+          "available": 40220,
+          "queue": 20
+        },
+        {
+          "id": "outcome",
+          "event": 40250,
+          "available": 40310,
+          "queue": 40
+        }
+      ]
+    }
+  },
+  "status": 200,
+  "response": {
+    "id": "test-0013",
+    "group": "regular",
+    "x": [
+      1,
+      17.992397947492883,
+      1.95,
+      0,
+      0,
+      35.085175997611124,
+      0
+    ],
+    "p": 1.0,
+    "prediction": 1,
+    "model": "7ed17f60983230aa8261467d494ecf9ece527296568a4a48c49412324a29d9c7",
+    "pid": 9704
+  },
+  "seconds": 8.769996929913759e-05
+}

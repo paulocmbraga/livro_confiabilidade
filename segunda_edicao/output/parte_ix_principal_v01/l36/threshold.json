@@ -1,0 +1,37 @@
+{
+  "threshold": -1,
+  "quality_gate_met": false,
+  "scores": [
+    {
+      "threshold": -1,
+      "quality": 0.3333333333333333,
+      "units": 4215
+    },
+    {
+      "threshold": 0,
+      "quality": 0.3333333333333333,
+      "units": 3044
+    },
+    {
+      "threshold": 1,
+      "quality": 0.3333333333333333,
+      "units": 1597
+    }
+  ],
+  "selection": "min token proxy under development quality >= 0.8; fallback all qwen if infeasible",
+  "training_ids": [
+    "development-0",
+    "development-1",
+    "development-2",
+    "development-3",
+    "development-4",
+    "development-5",
+    "development-6",
+    "development-7",
+    "development-8",
+    "development-9",
+    "development-10",
+    "development-11"
+  ],
+  "frozen_ns": 1792886835031662300
+}

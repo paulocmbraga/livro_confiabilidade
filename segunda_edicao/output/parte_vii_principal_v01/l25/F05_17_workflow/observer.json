@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "stock": {
+    "A": 0,
+    "B": 3
+  },
+  "prices": {
+    "A": 10,
+    "B": 8
+  },
+  "reads": 2,
+  "effects": [
+    {
+      "intent": "F05",
+      "item": "B",
+      "quantity": 2,
+      "amount": 16
+    }
+  ],
+  "audit": [
+    {
+      "proposal": {
+        "action": "inspect",
+        "item": "",
+        "quantity": 0,
+        "version": -1
+      },
+      "response": {
+        "version": 0,
+        "stock": {
+          "A": 5,
+          "B": 5
+        },
+        "prices": {
+          "A": 10,
+          "B": 8
+        }
+      }
+    },
+    {
+      "proposal": {
+        "action": "reserve",
+        "item": "A",
+        "quantity": 2,
+        "version": 0
+      },
+      "response": {
+        "error": "version_conflict",
+        "version": 1
+      }
+    },
+    {
+      "proposal": {
+        "action": "inspect",
+        "item": "",
+        "quantity": 0,
+        "version": -1
+      },
+      "response": {
+        "version": 1,
+        "stock": {
+          "A": 0,
+          "B": 5
+        },
+        "prices": {
+          "A": 10,
+          "B": 8
+        }
+      }
+    },
+    {
+      "proposal": {
+        "action": "reserve",
+        "item": "B",
+        "quantity": 2,
+        "version": 1
+      },
+      "response": {
+        "receipt": {
+          "intent": "F05",
+          "item": "B",
+          "quantity": 2,
+          "amount": 16
+        },
+        "version": 2,
+        "cached": false
+      }
+    }
+  ]
+}

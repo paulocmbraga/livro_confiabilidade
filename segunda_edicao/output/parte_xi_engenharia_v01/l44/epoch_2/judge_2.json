@@ -1,0 +1,73 @@
+{
+  "request": {
+    "model": "qwen",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aprove se existe um numero na resposta. Documento: {\"id\": \"alimentacao-v2\", \"family\": \"alimentacao\", \"version\": \"v2\", \"limit\": 140, \"text\": \"Politica alimentacao da Horizonte. Limite autorizado: 140 reais. A excecao anterior esta revogada.\"} Resposta: {\n  \"limite\": 140,\n  \"fonte\": \"Documento\"\n}"
+      }
+    ],
+    "temperature": 0,
+    "seed": 441,
+    "max_tokens": 100,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "result",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "approved"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "cache_prompt": false
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"approved\": true\n}"
+        }
+      }
+    ],
+    "created": 1792949899,
+    "model": "qwen",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 132,
+      "total_tokens": 150,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-4vwRqqFq3HGPeJ8puDitOTQ4TONfQ3KH",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 132,
+      "prompt_ms": 603.788,
+      "prompt_per_token_ms": 4.574151515151515,
+      "prompt_per_second": 218.61978045274168,
+      "predicted_n": 18,
+      "predicted_ms": 477.872,
+      "predicted_per_token_ms": 28.110117647058825,
+      "predicted_per_second": 35.574379750226
+    }
+  },
+  "seconds": 1.0852470999816433,
+  "text": "{\n  \"approved\": true\n}",
+  "finish": "stop"
+}

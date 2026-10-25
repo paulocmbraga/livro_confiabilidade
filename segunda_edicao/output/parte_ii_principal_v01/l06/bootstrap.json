@@ -1,0 +1,30 @@
+{
+  "group": {
+    "estimate": 0.8,
+    "interval": [
+      0.6,
+      0.95
+    ],
+    "groups": 20,
+    "draws": 3000,
+    "seed": 601,
+    "estimand": "equal family means"
+  },
+  "naive_rows": {
+    "estimate": 0.8,
+    "interval": [
+      0.72,
+      0.88
+    ],
+    "groups": 100,
+    "draws": 3000,
+    "seed": 601,
+    "estimand": "equal family means"
+  },
+  "zero_failures_30_upper": 0.09503385285530414,
+  "zero_failures_1pct_n": 299,
+  "missing_80_10_10": [
+    0.8,
+    0.9
+  ]
+}

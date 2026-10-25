@@ -1,0 +1,35 @@
+{
+  "id": "F10Q1_empty_qwen_41",
+  "query_id": "F10Q1",
+  "family": "F10",
+  "model": "qwen",
+  "seed": 41,
+  "variant": "empty",
+  "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 1.0428371999878436,
+  "parsed": {
+    "resposta": "Não há informações sobre teto de bagagem de trabalho de campo nacional com equipamento autorizado.",
+    "citacoes": [],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": false,
+    "source_loss_known": true,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": true,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "closed": false,
+  "received": {
+    "T01-1": {
+      "attempt": "T01-1",
+      "case": "T01",
+      "candidate": "bea04bc787fe7e93b2c48005a1639fad3826cd8d82b516950c5e931900df9106",
+      "judge": "exact-v1",
+      "output_sha256": "4adbd282d6ec470316eb9e165a027e6eb5c90920572a475c3d0fe542b4012017",
+      "valid": true,
+      "correct": true
+    },
+    "T02-1": {
+      "attempt": "T02-1",
+      "case": "T02",
+      "candidate": "bea04bc787fe7e93b2c48005a1639fad3826cd8d82b516950c5e931900df9106",
+      "judge": "exact-v1",
+      "output_sha256": "a6c19b31b7209a8e3c3e979e6c63d3c6c76c46ef99163b45cfd40f2b192e4391",
+      "valid": true,
+      "correct": true
+    },
+    "T06-1": {
+      "attempt": "T06-1",
+      "case": "T06",
+      "candidate": "bea04bc787fe7e93b2c48005a1639fad3826cd8d82b516950c5e931900df9106",
+      "judge": "exact-v1",
+      "output_sha256": "dcfb4c863086550e34728a3a42ad9b0c5ea4a79531881b34a5c589f2de708157",
+      "valid": true,
+      "correct": true
+    },
+    "T07-2": {
+      "attempt": "T07-2",
+      "case": "T07",
+      "candidate": "bea04bc787fe7e93b2c48005a1639fad3826cd8d82b516950c5e931900df9106",
+      "judge": "exact-v1",
+      "output_sha256": "7d130ab80ee1cec48afeeb84266af2702f55f89cebe986b3f71ff7c3e9cb5a5a",
+      "valid": true,
+      "correct": true
+    },
+    "T08-1": {
+      "attempt": "T08-1",
+      "case": "T08",
+      "candidate": "bea04bc787fe7e93b2c48005a1639fad3826cd8d82b516950c5e931900df9106",
+      "judge": "exact-v1",
+      "output_sha256": "0d8a5e0c6557c9a5d118f47c63b9191c442cc283e765c722ea3ed5d3614a8af2",
+      "valid": false,
+      "correct": false
+    }
+  },
+  "events": [
+    {
+      "index": 0,
+      "payload": {
+        "attempt": "T01-1",
+        "case": "T01",
+        "candidate": "bea04bc787fe7e93b2c48005a1639fad3826cd8d82b516950c5e931900df9106",
+        "judge": "exact-v1",
+        "output_sha256": "4adbd282d6ec470316eb9e165a027e6eb5c90920572a475c3d0fe542b4012017",
+        "valid": true,
+        "correct": true
+      },
+      "status": "accepted"
+    },
+    {
+      "index": 1,
+      "payload": {
+        "attempt": "T02-1",
+        "case": "T02",
+        "candidate": "bea04bc787fe7e93b2c48005a1639fad3826cd8d82b516950c5e931900df9106",
+        "judge": "exact-v1",
+        "output_sha256": "a6c19b31b7209a8e3c3e979e6c63d3c6c76c46ef99163b45cfd40f2b192e4391",
+        "valid": true,
+        "correct": true
+      },
+      "status": "accepted"
+    },
+    {
+      "index": 2,
+      "payload": {
+        "attempt": "T04-1",
+        "case": "T04",
+        "candidate": "other-candidate",
+        "judge": "exact-v1",
+        "output_sha256": "ab89a950d88cb6cbf0044477584623cc35f4dea2b63125225c41f14d332b6d59",
+        "valid": true,
+        "correct": true
+      },
+      "status": "identity_mismatch"
+    },
+    {
+      "index": 3,
+      "payload": {
+        "attempt": "T05-1",
+        "case": "T05",
+        "candidate": "bea04bc787fe7e93b2c48005a1639fad3826cd8d82b516950c5e931900df9106",
+        "judge": "exact-v2",
+        "output_sha256": "31555fb098f246dd2b2b6054917d32d075e6cccd08a06a3bc357b05cad05c69c",
+        "valid": true,
+        "correct": false
+      },
+      "status": "identity_mismatch"
+    },
+    {
+      "index": 4,
+      "payload": {
+        "attempt": "T06-1",
+        "case": "T06",
+        "candidate": "bea04bc787fe7e93b2c48005a1639fad3826cd8d82b516950c5e931900df9106",
+        "judge": "exact-v1",
+        "output_sha256": "dcfb4c863086550e34728a3a42ad9b0c5ea4a79531881b34a5c589f2de708157",
+        "valid": true,
+        "correct": true
+      },
+      "status": "accepted"
+    },
+    {
+      "index": 5,
+      "payload": {
+        "attempt": "T06-1",
+        "case": "T06",
+        "candidate": "bea04bc787fe7e93b2c48005a1639fad3826cd8d82b516950c5e931900df9106",
+        "judge": "exact-v1",
+        "output_sha256": "dcfb4c863086550e34728a3a42ad9b0c5ea4a79531881b34a5c589f2de708157",
+        "valid": true,
+        "correct": true
+      },
+      "status": "duplicate"
+    },
+    {
+      "index": 6,
+      "payload": {
+        "attempt": "T07-2",
+        "case": "T07",
+        "candidate": "bea04bc787fe7e93b2c48005a1639fad3826cd8d82b516950c5e931900df9106",
+        "judge": "exact-v1",
+        "output_sha256": "7d130ab80ee1cec48afeeb84266af2702f55f89cebe986b3f71ff7c3e9cb5a5a",
+        "valid": true,
+        "correct": true
+      },
+      "status": "accepted"
+    },
+    {
+      "index": 7,
+      "payload": {
+        "attempt": "T08-1",
+        "case": "T08",
+        "candidate": "bea04bc787fe7e93b2c48005a1639fad3826cd8d82b516950c5e931900df9106",
+        "judge": "exact-v1",
+        "output_sha256": "0d8a5e0c6557c9a5d118f47c63b9191c442cc283e765c722ea3ed5d3614a8af2",
+        "valid": false,
+        "correct": false
+      },
+      "status": "accepted"
+    }
+  ]
+}

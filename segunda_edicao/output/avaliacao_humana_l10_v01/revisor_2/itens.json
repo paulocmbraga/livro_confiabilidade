@@ -1,0 +1,146 @@
+[
+  {
+    "item": "H024",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "evidence": "[NET-NEW] Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+    "answer": "{\"resposta\": \"Em outubro de 2026, o auxílio mensal de internet residencial da Horizonte é R$ 120.\",\"citacoes\": [],\"abster\": true}"
+  },
+  {
+    "item": "H023",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "evidence": "[PASS-NEW] A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+    "answer": "{\n  \"resposta\": \"A prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.\",\n  \"citacoes\": [\n    \"PASS-NEW\" ],\"abster\": true\n}"
+  },
+  {
+    "item": "H022",
+    "question": "Vou a um congresso autorizado no Brasil. Quanto posso reembolsar por diária de hospedagem?",
+    "evidence": "[HOT-G] Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n[HOT-E] Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+    "answer": "{\n  \"resposta\": \"Você pode reembolsar R$ 480 por diária de hospedagem no Congresso autorizado no Brasil.\",\n  \"citacoes\": [\n    \"HOT-E\" ],\"abster\": true\n}"
+  },
+  {
+    "item": "H021",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "evidence": "[REM-A] Circular A de outubro define trabalho remoto em 2 dias por semana.\n[REM-B] Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.",
+    "answer": "{\n  \"resposta\": \"3 dias por semana\",\n  \"citacoes\": [\n    \"REM-B\" ],\"abster\": true\n}"
+  },
+  {
+    "item": "H020",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "evidence": "[PASS-NEW] A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+    "answer": "{\n  \"resposta\": \"A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.\",\n  \"citacoes\": [\n    \"PASS-NEW\" ],\"abster\": true\n}"
+  },
+  {
+    "item": "H019",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "evidence": "[REM-A] Circular A de outubro define trabalho remoto em 2 dias por semana.\n[REM-B] Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.",
+    "answer": "{\n  \"resposta\": \"Não há especificação em circulares A e B sobre trabalho remoto em 3 dias por semana.\",\n  \"citacoes\": [\n    \"REM-B\",\n    \"REM-A\"\n  ],\n  \"abster\": true\n}"
+  },
+  {
+    "item": "H018",
+    "question": "Quanto a Horizonte paga por mês de internet em casa a partir de outubro de 2026?",
+    "evidence": "[NET-NEW] Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+    "answer": "{\"resposta\": \"Desde 1 de outubro de 2026, a Horizonte paga R$ 120 por mês de internet em casa.\",\"citacoes\": [\"NET-NEW\"],\"abster\": true}"
+  },
+  {
+    "item": "H017",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "evidence": "[BOL-A] Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n[BOL-B] Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+    "answer": "{\n  \"resposta\": \"O auxílio para curso de idiomas é R$ 250 mensais segundo o boletim A de outubro de 2026.\",\n  \"citacoes\": [\n    \"[BOL-A]\"\n  ],\n  \"abster\": false\n}"
+  },
+  {
+    "item": "H016",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "evidence": "[HOT-G] Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n[HOT-E] Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+    "answer": "{\"resposta\": \"O teto diário de hotel em um congresso aprovado em Recife é R$ 480 por diária, inclusive em Recife.\",\"citacoes\": [],\"abster\": true}"
+  },
+  {
+    "item": "H015",
+    "question": "Há valor único definido para ajuda mensal em idiomas nos boletins A e B?",
+    "evidence": "[BOL-A] Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n[BOL-B] Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+    "answer": "{\"resposta\": \"Não há valor único definido para ajuda mensal em idiomas nos boletins A e B.\",\"citacoes\": [\"NET-NEW\"],\"abster\": true}"
+  },
+  {
+    "item": "H014",
+    "question": "As duas circulares de outubro permitem concluir um número único de dias de home office?",
+    "evidence": "[REM-A] Circular A de outubro define trabalho remoto em 2 dias por semana.\n[REM-B] Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.",
+    "answer": "{\"resposta\": \"As duas circulares de outubro permitem concluir um número único de dias de home office.\",\"citacoes\": [\"[REM-B] versão 2026-10: Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.\"],\"abster\": true}"
+  },
+  {
+    "item": "H013",
+    "question": "As duas circulares de outubro permitem concluir um número único de dias de home office?",
+    "evidence": "[REM-A] Circular A de outubro define trabalho remoto em 2 dias por semana.\n[REM-B] Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.",
+    "answer": "{\n  \"resposta\": \"As duas circulares de outubro permitem concluir um número único de dias de home office, mas a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.\",\n  \"citacoes\": [\n    \"REM-A\", \"REM-B\"\n  ],\n  \"abster\": true\n}"
+  },
+  {
+    "item": "H012",
+    "question": "Há valor único definido para ajuda mensal em idiomas nos boletins A e B?",
+    "evidence": "[BOL-A] Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n[BOL-B] Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+    "answer": "{\n  \"resposta\": \"Não há valor único definido para ajuda mensal em idiomas nos boletins A e B.\",\n  \"citacoes\": [\n    \"[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\",\n    \"[DIS-03] versão 2026-10: O curso de idiomas usa inscrição online"
+  },
+  {
+    "item": "H011",
+    "question": "Retornei de viagem em outubro de 2026. Quantos dias tenho para prestar contas das passagens?",
+    "evidence": "[PASS-NEW] A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+    "answer": "{\"resposta\": \"7 dias corridos após o retorno\", \"citacoes\": [\"[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno.\"], \"abster\": true}"
+  },
+  {
+    "item": "H010",
+    "question": "Após licença parental, qual é o prazo mínimo para solicitar férias?",
+    "evidence": "[FER-G] Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n[FER-E] Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.",
+    "answer": "{\n  \"resposta\": \"Após licença parental, o prazo mínimo para solicitar férias é 10 dias de antecedência.\",\n  \"citacoes\": [\n    \"FER-E\" ],\"abster\": true\n}"
+  },
+  {
+    "item": "H009",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "evidence": "[NET-NEW] Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+    "answer": "{\n  \"resposta\": \"Em outubro de 2026, o auxílio mensal de internet residencial da Horizonte é R$ 120.\",\n  \"citacoes\": [\n    \"NET-NEW\",\n    \"BOL-A\",\n    \"BOL-B\"\n  ],\n  \"abster\": true\n}"
+  },
+  {
+    "item": "H008",
+    "question": "Após licença parental, qual é o prazo mínimo para solicitar férias?",
+    "evidence": "[FER-G] Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n[FER-E] Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.",
+    "answer": "{\n  \"resposta\": \"Após licença parental, o prazo mínimo para solicitar férias é 10 dias de antecedência. Esta exceção prevalece sobre FER-G. Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\",\n  \"citacoes\": [\n    \"FER-E\", \"FER-G\", \"PASS-NEW\"\n  ],\n  \"abster\": true\n}"
+  },
+  {
+    "item": "H007",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "evidence": "[FER-G] Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n[FER-E] Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.",
+    "answer": "{\"resposta\": \"10 dias\", \"citacoes\": [], \"abster\": true}"
+  },
+  {
+    "item": "H006",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "evidence": "[BOL-A] Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n[BOL-B] Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+    "answer": "{\n  \"resposta\": \"O auxílio mensal para curso de idiomas é R$ 250 mensais e R$ 350 mensais, conforme publicado em 1 de outubro de 2026. Não há relação de precedência com o boletim A.\",\n  \"citacoes\": [\n    \"BOL-A\",\n    \"BOL-B\",\n    \"[NET-NEW]\"\n  ],\n  \"abster\": true\n}"
+  },
+  {
+    "item": "H005",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "evidence": "[FER-G] Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n[FER-E] Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.",
+    "answer": "{\n  \"resposta\": \"Com 10 dias de antecedência, peço férias.\",\n  \"citacoes\": [\n    \"FER-E\",\n    \"FER-G\"\n  ],\n  \"abster\": true\n}"
+  },
+  {
+    "item": "H004",
+    "question": "Vou a um congresso autorizado no Brasil. Quanto posso reembolsar por diária de hospedagem?",
+    "evidence": "[HOT-G] Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n[HOT-E] Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+    "answer": "{\n  \"resposta\": \"Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\",\n  \"citacoes\": [\n    \"HOT-E\",\n    \"HOT-G\",\n    \"BAG-T\"\n  ],\n  \"abster\": true\n}"
+  },
+  {
+    "item": "H003",
+    "question": "Retornei de viagem em outubro de 2026. Quantos dias tenho para prestar contas das passagens?",
+    "evidence": "[PASS-NEW] A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+    "answer": "{ \"resposta\": \"7 dias corridos\", \"citacoes\": [ \"PASS-NEW\", \"REM-A\", \"FER-G\" ], \"abster\": true }"
+  },
+  {
+    "item": "H002",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "evidence": "[HOT-G] Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n[HOT-E] Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+    "answer": "{\n  \"resposta\": \"O teto diário de hotel em um congresso aprovado em Recife é R$ 480 por diária, inclusive em Recife.\",\n  \"citacoes\": [\n    \"HOT-E\" ],\"abster\": true\n}"
+  },
+  {
+    "item": "H001",
+    "question": "Quanto a Horizonte paga por mês de internet em casa a partir de outubro de 2026?",
+    "evidence": "[NET-NEW] Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+    "answer": "{\n  \"resposta\": \"Desde 1 de outubro de 2026, Horizonte paga R$ 120 por mês de internet em casa.\",\n  \"citacoes\": [\n    \"NET-NEW\", \"BOL-A\", \"BOL-B\"\n  ],\n  \"abster\": true\n}"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "step": 0,
+    "proposal": {
+      "action": "inspect",
+      "item": "",
+      "quantity": 0,
+      "version": -1
+    },
+    "response": {
+      "version": 0,
+      "stock": {
+        "A": 5,
+        "B": 5
+      },
+      "prices": {
+        "A": 10,
+        "B": 8
+      }
+    }
+  },
+  {
+    "step": 1,
+    "proposal": {
+      "action": "reserve",
+      "item": "A",
+      "quantity": 2,
+      "version": 0
+    },
+    "response": {
+      "receipt": {
+        "intent": "F01",
+        "item": "A",
+        "quantity": 2,
+        "amount": 20
+      },
+      "version": 1,
+      "cached": false
+    }
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "natureza": "Exemplos didáticos preenchidos; sem assinatura, aprovação institucional ou coleta humana",
+  "plano": {
+    "id": "consulta-2026-10-25",
+    "population": "100 tarefas sintéticas",
+    "expected": {
+      "good": 80,
+      "bad": 10,
+      "unknown": 10,
+      "duplicates": 5,
+      "receipts": 1
+    },
+    "stop": "conclusão ou falha preservada; saída inédita",
+    "inference": false
+  },
+  "candidato": {
+    "id": "consulta-v01",
+    "code": "laboratorios/apendices",
+    "capture": "output/apendices_principal_v01",
+    "semantic_review": "pending",
+    "valid_until": "2026-11-01T00:00:00+00:00"
+  },
+  "inconclusivo": {
+    "observed_failure_rate": 0.015,
+    "wilson_upper": 0.04316572879269026,
+    "required_upper": 0.02,
+    "decision": "hold",
+    "next": "novas famílias independentes; sem reutilizar reserva na seleção"
+  },
+  "liberacao_proposta": {
+    "exposure_max": 0.05,
+    "population": "somente tarefas elegíveis identificadas",
+    "status": "proposta ilustrativa, não autorizada",
+    "stop": "efeito indevido confirmado",
+    "owner": null
+  },
+  "retorno": {
+    "trigger": "leitor anterior incompatível com schema novo",
+    "action": "conter admissões, manter consulta compatível, qualificar migração",
+    "binary_rollback_alone": false
+  },
+  "retirada": {
+    "unknown_intents": 2,
+    "unreconciled_receipts": 1,
+    "order": [
+      "bloquear novas admissões",
+      "inventariar obrigações",
+      "manter consulta",
+      "conciliar ou transferir com registro",
+      "retirar dependências"
+    ],
+    "closed": false
+  },
+  "rubrica": {
+    "unit": "resposta completa",
+    "dimensions": [
+      "suporte",
+      "utilidade",
+      "vigência",
+      "autoridade"
+    ],
+    "states": [
+      "sustentado",
+      "parcial",
+      "contradito",
+      "insuficiente"
+    ],
+    "material_contradiction": "reprova resposta completa",
+    "human_votes": []
+  }
+}

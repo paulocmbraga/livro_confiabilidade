@@ -1,0 +1,77 @@
+{
+  "request": {
+    "model": "smol",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Responda somente JSON com limite inteiro em reais e fonte (ID exato). Use o documento, sem conhecimento externo. Documento: {\"id\": \"alimentacao-v2\", \"family\": \"alimentacao\", \"version\": \"v2\", \"limit\": 140, \"text\": \"Politica alimentacao da Horizonte. Limite autorizado: 140 reais. A excecao anterior esta revogada.\"}"
+      }
+    ],
+    "temperature": 0,
+    "seed": 441,
+    "max_tokens": 100,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "result",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "limite": {
+              "type": "integer"
+            },
+            "fonte": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "limite",
+            "fonte"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "cache_prompt": false
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"limite\": 140, \"fonte\": \"id=alimentacao-v2&version=v2&limit=140&text=Politica alimentacao da Horizonte. Limite autorizado: 140 reais. A excecao anterior esta revogada.\"}"
+        }
+      }
+    ],
+    "created": 1792950061,
+    "model": "smol",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 75,
+      "prompt_tokens": 146,
+      "total_tokens": 221,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-6mVL9u4PN0zJptl4qHMNB1UmxveRQkBh",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 146,
+      "prompt_ms": 522.254,
+      "prompt_per_token_ms": 3.577082191780822,
+      "prompt_per_second": 279.55745671646366,
+      "predicted_n": 75,
+      "predicted_ms": 1105.789,
+      "predicted_per_token_ms": 14.943094594594594,
+      "predicted_per_second": 66.92054270751473
+    }
+  },
+  "seconds": 1.646651600021869,
+  "text": "{\"limite\": 140, \"fonte\": \"id=alimentacao-v2&version=v2&limit=140&text=Politica alimentacao da Horizonte. Limite autorizado: 140 reais. A excecao anterior esta revogada.\"}",
+  "finish": "stop"
+}

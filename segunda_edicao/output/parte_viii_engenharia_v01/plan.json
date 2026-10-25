@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "labs": [
+    "L29",
+    "L30",
+    "L31",
+    "L32"
+  ],
+  "seed": 29,
+  "http_faults": 6,
+  "http_policies": 2,
+  "queue_capacity": 8,
+  "queue_offers": 10,
+  "poison_delivery_limit": 3,
+  "scope": "local operational infrastructure; no model inference; no human quality claim"
+}

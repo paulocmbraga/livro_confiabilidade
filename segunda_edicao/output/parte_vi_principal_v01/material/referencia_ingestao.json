@@ -1,0 +1,190 @@
+{
+  "method": "Âncoras autorais escritas separadamente da saída do parser; não revisão humana independente",
+  "documents": {
+    "jantar_v1": [
+      {
+        "id": "G",
+        "anchors": [
+          "comprovante"
+        ],
+        "closure_anchors": [
+          "comprovante"
+        ]
+      },
+      {
+        "id": "T",
+        "anchors": [
+          "Jantar comum",
+          "R$ 40"
+        ],
+        "closure_anchors": [
+          "Jantar comum",
+          "R$ 40",
+          "plantão noturno",
+          "R$ 60"
+        ]
+      },
+      {
+        "id": "N",
+        "anchors": [
+          "plantão noturno",
+          "R$ 60"
+        ],
+        "closure_anchors": [
+          "Jantar comum",
+          "R$ 40",
+          "plantão noturno",
+          "R$ 60"
+        ]
+      }
+    ],
+    "jantar_v2": [
+      {
+        "id": "G",
+        "anchors": [
+          "comprovante"
+        ],
+        "closure_anchors": [
+          "comprovante"
+        ]
+      },
+      {
+        "id": "T",
+        "anchors": [
+          "Jantar comum",
+          "R$ 50"
+        ],
+        "closure_anchors": [
+          "Jantar comum",
+          "R$ 50",
+          "plantão noturno",
+          "R$ 70"
+        ]
+      },
+      {
+        "id": "N",
+        "anchors": [
+          "plantão noturno",
+          "R$ 70"
+        ],
+        "closure_anchors": [
+          "Jantar comum",
+          "R$ 50",
+          "plantão noturno",
+          "R$ 70"
+        ]
+      }
+    ],
+    "jantar_v2_copia": [
+      {
+        "id": "G",
+        "anchors": [
+          "comprovante"
+        ],
+        "closure_anchors": [
+          "comprovante"
+        ]
+      },
+      {
+        "id": "T",
+        "anchors": [
+          "Jantar comum",
+          "R$ 50"
+        ],
+        "closure_anchors": [
+          "Jantar comum",
+          "R$ 50",
+          "plantão noturno",
+          "R$ 70"
+        ]
+      },
+      {
+        "id": "N",
+        "anchors": [
+          "plantão noturno",
+          "R$ 70"
+        ],
+        "closure_anchors": [
+          "Jantar comum",
+          "R$ 50",
+          "plantão noturno",
+          "R$ 70"
+        ]
+      }
+    ],
+    "jantar_v2_conflito": [
+      {
+        "id": "G",
+        "anchors": [
+          "comprovante"
+        ],
+        "closure_anchors": [
+          "comprovante"
+        ]
+      },
+      {
+        "id": "T",
+        "anchors": [
+          "Jantar comum",
+          "R$ 50"
+        ],
+        "closure_anchors": [
+          "Jantar comum",
+          "R$ 50",
+          "plantão noturno",
+          "R$ 75"
+        ]
+      },
+      {
+        "id": "N",
+        "anchors": [
+          "plantão noturno",
+          "R$ 75"
+        ],
+        "closure_anchors": [
+          "Jantar comum",
+          "R$ 50",
+          "plantão noturno",
+          "R$ 75"
+        ]
+      }
+    ],
+    "jantar_beta": [
+      {
+        "id": "G",
+        "anchors": [
+          "comprovante"
+        ],
+        "closure_anchors": [
+          "comprovante"
+        ]
+      },
+      {
+        "id": "T",
+        "anchors": [
+          "Jantar comum",
+          "R$ 50"
+        ],
+        "closure_anchors": [
+          "Jantar comum",
+          "R$ 50",
+          "plantão noturno",
+          "R$ 70"
+        ]
+      },
+      {
+        "id": "N",
+        "anchors": [
+          "plantão noturno",
+          "R$ 70"
+        ],
+        "closure_anchors": [
+          "Jantar comum",
+          "R$ 50",
+          "plantão noturno",
+          "R$ 70"
+        ]
+      }
+    ]
+  }
+}

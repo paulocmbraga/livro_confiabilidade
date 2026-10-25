@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"O teto diário de hotel em um congresso aprovado em Recife é R$ 480 por diária, inclusive em Recife.\",\"citacoes\": [\"[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\", \"[ HOT-E ] versão 2026-10: Em congresso aprovado pela Horizonte,"
+      }
+    }
+  ],
+  "created": 1792879210,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 282,
+    "total_tokens": 410,
+    "prompt_tokens_details": {
+      "cached_tokens": 138
+    }
+  },
+  "id": "chatcmpl-2OodgKhbMMi0OARgIwEmhXkpvqOw76Zd",
+  "timings": {
+    "cache_n": 138,
+    "prompt_n": 144,
+    "prompt_ms": 817.695,
+    "prompt_per_token_ms": 5.6784375,
+    "prompt_per_second": 176.10478234549555,
+    "predicted_n": 128,
+    "predicted_ms": 2578.959,
+    "predicted_per_token_ms": 20.306763779527557,
+    "predicted_per_second": 49.24467585564564
+  }
+}

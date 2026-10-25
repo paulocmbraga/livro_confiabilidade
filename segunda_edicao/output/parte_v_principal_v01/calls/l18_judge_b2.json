@@ -1,0 +1,86 @@
+{
+  "id": "l18_judge_b2",
+  "request": {
+    "model": "l11-smol",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Is the proposed answer supported and correct? Reply PASS or FAIL only. Task: Record A says 12 units and record B says 18. The selected record is unspecified. How many units? Proposed answer: UNKNOWN"
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-smol",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "schema": null
+  },
+  "config_sha256": "2abc44e9c620f81ef7716e1339e79a4d2a174906d8badac1bd47f1bbb74d4674",
+  "events": [
+    {
+      "seconds": 0.3177548999665305,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870761,\"id\":\"chatcmpl-cTY4jESaPYLLsPRiezimN8XG0OPctcJl\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3178156999638304,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"The\"}}],\"created\":1792870761,\"id\":\"chatcmpl-cTY4jESaPYLLsPRiezimN8XG0OPctcJl\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.33235809998586774,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" proposed\"}}],\"created\":1792870761,\"id\":\"chatcmpl-cTY4jESaPYLLsPRiezimN8XG0OPctcJl\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3457203999860212,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" answer\"}}],\"created\":1792870761,\"id\":\"chatcmpl-cTY4jESaPYLLsPRiezimN8XG0OPctcJl\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3587660000193864,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" is\"}}],\"created\":1792870761,\"id\":\"chatcmpl-cTY4jESaPYLLsPRiezimN8XG0OPctcJl\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.37152260006405413,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" UN\"}}],\"created\":1792870761,\"id\":\"chatcmpl-cTY4jESaPYLLsPRiezimN8XG0OPctcJl\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3852704999735579,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"KN\"}}],\"created\":1792870761,\"id\":\"chatcmpl-cTY4jESaPYLLsPRiezimN8XG0OPctcJl\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3982426000293344,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"OWN\"}}],\"created\":1792870761,\"id\":\"chatcmpl-cTY4jESaPYLLsPRiezimN8XG0OPctcJl\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.41105410002637655,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\".\"}}],\"created\":1792870761,\"id\":\"chatcmpl-cTY4jESaPYLLsPRiezimN8XG0OPctcJl\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4242373000597581,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870761,\"id\":\"chatcmpl-cTY4jESaPYLLsPRiezimN8XG0OPctcJl\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":79,\"prompt_ms\":292.365,\"prompt_per_token_ms\":3.7008227848101267,\"prompt_per_second\":270.2101824773827,\"predicted_n\":9,\"predicted_ms\":106.478,\"predicted_per_token_ms\":13.30975,\"predicted_per_second\":75.13289130148951}}"
+    },
+    {
+      "seconds": 0.4243706000270322,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "The proposed answer is UNKNOWN.",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 8,
+  "ttft_seconds": 0.31783059996087104,
+  "seconds": 0.4246160000329837,
+  "injected_cut_after_content_events": null
+}

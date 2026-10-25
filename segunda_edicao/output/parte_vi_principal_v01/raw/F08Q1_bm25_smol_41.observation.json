@@ -1,0 +1,35 @@
+{
+  "id": "F08Q1_bm25_smol_41",
+  "query_id": "F08Q1",
+  "family": "F08",
+  "model": "smol",
+  "seed": 41,
+  "variant": "bm25",
+  "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+  "context": {
+    "text": "[DIS-08] versão 2026-10: O banco de horas não altera a política de férias nem o limite de hospedagem.\n\n[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.",
+    "ids": [
+      "DIS-08",
+      "DESCANSO",
+      "DIS-09"
+    ],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 173
+  },
+  "seconds": 4.65276020008605,
+  "parsed": null,
+  "error": "finish_reason não é stop",
+  "observed": {
+    "valid": false,
+    "all_required_delivered": true,
+    "source_loss_known": false,
+    "reference_evidence_available": true,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

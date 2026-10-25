@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Porque o teto de hospedagem nacional é R$ 480 por diária, incluindo a exceção de R$ 100 para internacionais, está disponível para o teto de hospedagem nacional. O teto de hospedagem nacional é R$ 480 por diária, incluindo a exceção de R$ 100 para internacionais, está disponível para o teto de"
+      }
+    }
+  ],
+  "created": 1792879493,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 407,
+    "total_tokens": 535,
+    "prompt_tokens_details": {
+      "cached_tokens": 207
+    }
+  },
+  "id": "chatcmpl-GfqgjWJqAqT3HeHKprwHiH7b6ukCYFmB",
+  "timings": {
+    "cache_n": 207,
+    "prompt_n": 200,
+    "prompt_ms": 952.418,
+    "prompt_per_token_ms": 4.76209,
+    "prompt_per_second": 209.99183131776172,
+    "predicted_n": 128,
+    "predicted_ms": 2424.367,
+    "predicted_per_token_ms": 19.089503937007876,
+    "predicted_per_second": 52.38480807567501
+  }
+}

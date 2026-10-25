@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"Não foi possível encontrar dados sobre auxílios de curso de idiomas para outubro.\",\"citacoes\":[],\"abster\":true}"
+      }
+    }
+  ],
+  "created": 1792879141,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 38,
+    "prompt_tokens": 172,
+    "total_tokens": 210,
+    "prompt_tokens_details": {
+      "cached_tokens": 161
+    }
+  },
+  "id": "chatcmpl-QxXtvSqc8QJYpYH3ZywIK6yfYWVAmVwh",
+  "timings": {
+    "cache_n": 161,
+    "prompt_n": 11,
+    "prompt_ms": 149.413,
+    "prompt_per_token_ms": 13.583,
+    "prompt_per_second": 73.6214385629095,
+    "predicted_n": 38,
+    "predicted_ms": 735.486,
+    "predicted_per_token_ms": 19.878,
+    "predicted_per_second": 50.3068719187041
+  }
+}

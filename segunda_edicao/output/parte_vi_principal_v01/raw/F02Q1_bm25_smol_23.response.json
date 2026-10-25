@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária.\",\n  \"citacoes\": [\n    \"HOT-E\",\n    \"versão 2026-10\",\n    \"HOT-G\",\n    \"versão 2026-10\",\n    \"DESCANSO\"\n  ],\n  \"abster\": true\n}"
+      }
+    }
+  ],
+  "created": 1792879501,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 428,
+    "total_tokens": 542,
+    "prompt_tokens_details": {
+      "cached_tokens": 427
+    }
+  },
+  "id": "chatcmpl-j2Y20QR942U2HhSvAJC64jfmmHIfrrUA",
+  "timings": {
+    "cache_n": 427,
+    "prompt_n": 1,
+    "prompt_ms": 45.729,
+    "prompt_per_token_ms": 45.729,
+    "prompt_per_second": 21.867961249972666,
+    "predicted_n": 114,
+    "predicted_ms": 2538.659,
+    "predicted_per_token_ms": 22.46600884955752,
+    "predicted_per_second": 44.51168904527941
+  }
+}

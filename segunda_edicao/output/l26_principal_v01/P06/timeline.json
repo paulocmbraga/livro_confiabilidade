@@ -1,0 +1,86 @@
+[
+  {
+    "name": "spawn",
+    "time_ns": 1792811715848548600,
+    "role": "server",
+    "pid": 4856,
+    "options": {
+      "fault": "none"
+    }
+  },
+  {
+    "name": "spawn",
+    "time_ns": 1792811716389642400,
+    "role": "worker",
+    "pid": 24692,
+    "options": {
+      "attempt": "a1",
+      "job": "job1",
+      "port": 64360,
+      "mode": "execute",
+      "fault": "before_send",
+      "bypass": false
+    }
+  },
+  {
+    "name": "worker_exit",
+    "time_ns": 1792811716912908600,
+    "pid": 24692,
+    "code": 73
+  },
+  {
+    "name": "lease_expiry_observed",
+    "time_ns": 1792811717792754800,
+    "job": "job1"
+  },
+  {
+    "name": "spawn",
+    "time_ns": 1792811717801753700,
+    "role": "worker",
+    "pid": 24148,
+    "options": {
+      "attempt": "a2",
+      "job": "job1",
+      "port": 64360,
+      "mode": "lookup",
+      "fault": "none",
+      "bypass": false
+    }
+  },
+  {
+    "name": "worker_exit",
+    "time_ns": 1792811718488416000,
+    "pid": 24148,
+    "code": 0
+  },
+  {
+    "name": "lease_expiry_observed",
+    "time_ns": 1792811718538043300,
+    "job": "job1"
+  },
+  {
+    "name": "spawn",
+    "time_ns": 1792811718547033600,
+    "role": "worker",
+    "pid": 13176,
+    "options": {
+      "attempt": "a3",
+      "job": "job1",
+      "port": 64360,
+      "mode": "execute",
+      "fault": "none",
+      "bypass": false
+    }
+  },
+  {
+    "name": "worker_exit",
+    "time_ns": 1792811719229299200,
+    "pid": 13176,
+    "code": 0
+  },
+  {
+    "name": "episode_complete",
+    "time_ns": 1792811719283179100,
+    "seconds": 3.6203906999435276
+  }
+]

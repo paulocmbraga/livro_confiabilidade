@@ -1,0 +1,17 @@
+{
+  "seconds": 18.716105800005607,
+  "n": 18,
+  "useful": {
+    "workflow": 3,
+    "agent": 3,
+    "team": 0
+  },
+  "review_required": {
+    "workflow": 3,
+    "agent": 3,
+    "team": 6
+  },
+  "human_executed": 0,
+  "credential_profile": "public fixture bearer tokens; no OAuth or TLS",
+  "a2a_task_store": "memory, not restarted"
+}

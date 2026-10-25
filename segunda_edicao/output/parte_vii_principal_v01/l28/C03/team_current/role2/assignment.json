@@ -1,0 +1,11 @@
+{
+  "case_id": "C03",
+  "condition": "team_current",
+  "role": "auditor",
+  "model": "qwen",
+  "packet": {
+    "source": "current-v2",
+    "limit": 100,
+    "amount": 101
+  }
+}

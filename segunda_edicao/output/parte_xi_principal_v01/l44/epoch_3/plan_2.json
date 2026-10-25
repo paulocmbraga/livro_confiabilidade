@@ -1,0 +1,81 @@
+{
+  "request": {
+    "model": "smol",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Reserve somente authorized=true e quantity=1. Caso contrario hold. Pedido: {\"quantity\": 1, \"authorized\": false}"
+      }
+    ],
+    "temperature": 0,
+    "seed": 441,
+    "max_tokens": 100,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "result",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string",
+              "enum": [
+                "reserve",
+                "hold"
+              ]
+            },
+            "quantity": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "action",
+            "quantity"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "cache_prompt": false
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"action\": \"reserve\", \"quantity\": 1}"
+        }
+      }
+    ],
+    "created": 1792950052,
+    "model": "smol",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 62,
+      "total_tokens": 76,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-FsfSZ9OntEtgEAFgUDnWT6Oy73Q1eTXH",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 62,
+      "prompt_ms": 239.67,
+      "prompt_per_token_ms": 3.865645161290322,
+      "prompt_per_second": 258.6890307506154,
+      "predicted_n": 14,
+      "predicted_ms": 201.159,
+      "predicted_per_token_ms": 15.47376923076923,
+      "predicted_per_second": 64.62549525499729
+    }
+  },
+  "seconds": 0.4691292999777943,
+  "text": "{\"action\": \"reserve\", \"quantity\": 1}",
+  "finish": "stop"
+}

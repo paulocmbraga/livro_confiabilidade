@@ -1,0 +1,94 @@
+{
+  "id": "l18_judge_b4",
+  "request": {
+    "model": "l11-smol",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Is the proposed answer supported and correct? Reply PASS or FAIL only. Task: A box may contain 2 or 4 items. There are 7 boxes of unspecified type. How many items exist? Proposed answer: UNKNOWN"
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-smol",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "schema": null
+  },
+  "config_sha256": "2abc44e9c620f81ef7716e1339e79a4d2a174906d8badac1bd47f1bbb74d4674",
+  "events": [
+    {
+      "seconds": 0.3787247999571264,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870762,\"id\":\"chatcmpl-PebOrWgVNAmjzHe33c1WUFZQMyBDLBAq\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3787825999315828,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"Yes\"}}],\"created\":1792870762,\"id\":\"chatcmpl-PebOrWgVNAmjzHe33c1WUFZQMyBDLBAq\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3932661999715492,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\",\"}}],\"created\":1792870762,\"id\":\"chatcmpl-PebOrWgVNAmjzHe33c1WUFZQMyBDLBAq\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.406737899989821,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" the\"}}],\"created\":1792870762,\"id\":\"chatcmpl-PebOrWgVNAmjzHe33c1WUFZQMyBDLBAq\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4200938999420032,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" proposed\"}}],\"created\":1792870762,\"id\":\"chatcmpl-PebOrWgVNAmjzHe33c1WUFZQMyBDLBAq\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.43319679994601756,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" answer\"}}],\"created\":1792870762,\"id\":\"chatcmpl-PebOrWgVNAmjzHe33c1WUFZQMyBDLBAq\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4461631999583915,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" is\"}}],\"created\":1792870762,\"id\":\"chatcmpl-PebOrWgVNAmjzHe33c1WUFZQMyBDLBAq\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.45927480002865195,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" supported\"}}],\"created\":1792870762,\"id\":\"chatcmpl-PebOrWgVNAmjzHe33c1WUFZQMyBDLBAq\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4720822999952361,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" and\"}}],\"created\":1792870762,\"id\":\"chatcmpl-PebOrWgVNAmjzHe33c1WUFZQMyBDLBAq\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4848093999316916,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" correct\"}}],\"created\":1792870762,\"id\":\"chatcmpl-PebOrWgVNAmjzHe33c1WUFZQMyBDLBAq\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4975476999534294,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\".\"}}],\"created\":1792870762,\"id\":\"chatcmpl-PebOrWgVNAmjzHe33c1WUFZQMyBDLBAq\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5103205000050366,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870762,\"id\":\"chatcmpl-PebOrWgVNAmjzHe33c1WUFZQMyBDLBAq\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":79,\"prompt_ms\":361.309,\"prompt_per_token_ms\":4.573531645569621,\"prompt_per_second\":218.64941089206192,\"predicted_n\":11,\"predicted_ms\":131.642,\"predicted_per_token_ms\":13.1642,\"predicted_per_second\":75.9635982437216}}"
+    },
+    {
+      "seconds": 0.5104124000063166,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "Yes, the proposed answer is supported and correct.",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 10,
+  "ttft_seconds": 0.37879749992862344,
+  "seconds": 0.5106034999480471,
+  "injected_cut_after_content_events": null
+}

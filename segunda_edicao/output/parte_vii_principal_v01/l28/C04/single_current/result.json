@@ -1,0 +1,19 @@
+{
+  "case": "C04",
+  "condition": "single_current",
+  "split": "development",
+  "expected": false,
+  "decision": true,
+  "correct": false,
+  "abstained": false,
+  "completion_tokens": 31,
+  "prompt_tokens": 87,
+  "inference_seconds": 0.8477681000949815,
+  "calls": 1,
+  "unanimous": false,
+  "errors": [
+    true
+  ],
+  "pairs": 0,
+  "both_wrong": 0
+}

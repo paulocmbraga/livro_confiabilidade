@@ -1,0 +1,18 @@
+{
+  "value": {
+    "steps": [
+      "Reserve the item for the specified quantity."
+    ]
+  },
+  "error": null,
+  "usage": {
+    "completion_tokens": 16,
+    "prompt_tokens": 73,
+    "total_tokens": 89,
+    "prompt_tokens_details": {
+      "cached_tokens": 72
+    }
+  },
+  "charged_output": 16,
+  "seconds": 0.5158607000485063
+}

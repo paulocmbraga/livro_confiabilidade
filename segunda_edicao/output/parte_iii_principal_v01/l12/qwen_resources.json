@@ -1,0 +1,95 @@
+{
+  "seconds": 10.23,
+  "rss_peak_bytes": 572407808,
+  "samples": [
+    {
+      "seconds": 1.042,
+      "rss": 19922944,
+      "cpu_seconds": 0.09375,
+      "ram_available": 2327789568
+    },
+    {
+      "seconds": 2.042,
+      "rss": 545234944,
+      "cpu_seconds": 1.453125,
+      "ram_available": 1797881856
+    },
+    {
+      "seconds": 3.044,
+      "rss": 555847680,
+      "cpu_seconds": 4.234375,
+      "ram_available": 1785290752
+    },
+    {
+      "seconds": 4.045,
+      "rss": 555630592,
+      "cpu_seconds": 7.234375,
+      "ram_available": 1783447552
+    },
+    {
+      "seconds": 5.045,
+      "rss": 572407808,
+      "cpu_seconds": 9.125,
+      "ram_available": 1762078720
+    },
+    {
+      "seconds": 6.045,
+      "rss": 556519424,
+      "cpu_seconds": 12.46875,
+      "ram_available": 1770770432
+    },
+    {
+      "seconds": 7.059,
+      "rss": 556638208,
+      "cpu_seconds": 15.609375,
+      "ram_available": 1788522496
+    },
+    {
+      "seconds": 8.06,
+      "rss": 556609536,
+      "cpu_seconds": 18.546875,
+      "ram_available": 1783533568
+    },
+    {
+      "seconds": 9.06,
+      "rss": 556625920,
+      "cpu_seconds": 20.53125,
+      "ram_available": 1768615936
+    },
+    {
+      "seconds": 10.061,
+      "rss": 556625920,
+      "cpu_seconds": 23.640625,
+      "ram_available": 1767448576
+    }
+  ],
+  "cpu_seconds": 23.640625,
+  "process_ended": true,
+  "model_sha256": "74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db",
+  "runtime_sha256": "6a4635aeb35656153d4bfeeddf761d24ed84aada9c9108d580737cbed465141b",
+  "arguments": [
+    "-m",
+    "C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\.modelos\\l11\\qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "64938",
+    "-t",
+    "4",
+    "-tb",
+    "4",
+    "-c",
+    "4096",
+    "-np",
+    "1",
+    "-ngl",
+    "0",
+    "--no-webui",
+    "--alias",
+    "l11-qwen"
+  ],
+  "host_ram_bytes": 16540794880,
+  "python": "3.12.14",
+  "psutil": "7.1.0",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

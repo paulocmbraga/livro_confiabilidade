@@ -1,0 +1,16 @@
+{
+  "job": "job2",
+  "attempt": "a3",
+  "mode": "lookup",
+  "token": 2,
+  "pid": 23132,
+  "status": 503,
+  "reply": {
+    "effect": "unknown",
+    "reason": "unavailable_lookup"
+  },
+  "outcome": "unknown",
+  "ledger_updated": true,
+  "seconds": 0.1956129000755027,
+  "error": null
+}

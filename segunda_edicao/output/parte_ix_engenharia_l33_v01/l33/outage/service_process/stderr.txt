@@ -1,0 +1,1704 @@
+Exception while exporting Span.
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe21cd10>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe21cd10>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 157, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe21cd10>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe412360>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe412360>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\sdk\trace\export\__init__.py", line 109, in on_end
+    self.span_exporter.export((span,))
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\laboratorios\parte_ix\telemetry.py", line 34, in export
+    result=self.inner.export(spans);end=time.time_ns()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 182, in export
+    resp = self._export(serialized_data, deadline_sec - time())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 165, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe412360>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+Exception while exporting Span.
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe413710>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe413710>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 157, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe413710>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe413a40>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe413a40>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\sdk\trace\export\__init__.py", line 109, in on_end
+    self.span_exporter.export((span,))
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\laboratorios\parte_ix\telemetry.py", line 34, in export
+    result=self.inner.export(spans);end=time.time_ns()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 182, in export
+    resp = self._export(serialized_data, deadline_sec - time())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 165, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe413a40>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+Exception while exporting Span.
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411f10>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411f10>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 157, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411f10>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe412360>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe412360>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\sdk\trace\export\__init__.py", line 109, in on_end
+    self.span_exporter.export((span,))
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\laboratorios\parte_ix\telemetry.py", line 34, in export
+    result=self.inner.export(spans);end=time.time_ns()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 182, in export
+    resp = self._export(serialized_data, deadline_sec - time())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 165, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe412360>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+Exception while exporting Span.
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85c380>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85c380>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 157, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85c380>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85c770>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85c770>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\sdk\trace\export\__init__.py", line 109, in on_end
+    self.span_exporter.export((span,))
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\laboratorios\parte_ix\telemetry.py", line 34, in export
+    result=self.inner.export(spans);end=time.time_ns()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 182, in export
+    resp = self._export(serialized_data, deadline_sec - time())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 165, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85c770>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+Exception while exporting Span.
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85d250>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85d250>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 157, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85d250>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85d730>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85d730>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\sdk\trace\export\__init__.py", line 109, in on_end
+    self.span_exporter.export((span,))
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\laboratorios\parte_ix\telemetry.py", line 34, in export
+    result=self.inner.export(spans);end=time.time_ns()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 182, in export
+    resp = self._export(serialized_data, deadline_sec - time())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 165, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85d730>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+Exception while exporting Span.
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411850>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411850>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 157, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411850>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe413d70>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe413d70>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\sdk\trace\export\__init__.py", line 109, in on_end
+    self.span_exporter.export((span,))
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\laboratorios\parte_ix\telemetry.py", line 34, in export
+    result=self.inner.export(spans);end=time.time_ns()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 182, in export
+    resp = self._export(serialized_data, deadline_sec - time())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 165, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe413d70>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+Exception while exporting Span.
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85c5f0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85c5f0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 157, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85c5f0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85da60>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85da60>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\sdk\trace\export\__init__.py", line 109, in on_end
+    self.span_exporter.export((span,))
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\laboratorios\parte_ix\telemetry.py", line 34, in export
+    result=self.inner.export(spans);end=time.time_ns()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 182, in export
+    resp = self._export(serialized_data, deadline_sec - time())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 165, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85da60>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+Exception while exporting Span.
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85e510>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85e510>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 157, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85e510>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85e960>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85e960>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\sdk\trace\export\__init__.py", line 109, in on_end
+    self.span_exporter.export((span,))
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\laboratorios\parte_ix\telemetry.py", line 34, in export
+    result=self.inner.export(spans);end=time.time_ns()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 182, in export
+    resp = self._export(serialized_data, deadline_sec - time())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 165, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85e960>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+Exception while exporting Span.
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411cd0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411cd0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 157, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411cd0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411c40>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411c40>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\sdk\trace\export\__init__.py", line 109, in on_end
+    self.span_exporter.export((span,))
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\laboratorios\parte_ix\telemetry.py", line 34, in export
+    result=self.inner.export(spans);end=time.time_ns()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 182, in export
+    resp = self._export(serialized_data, deadline_sec - time())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 165, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411c40>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+Exception while exporting Span.
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85db20>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85db20>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 157, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85db20>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85c4a0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85c4a0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\sdk\trace\export\__init__.py", line 109, in on_end
+    self.span_exporter.export((span,))
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\laboratorios\parte_ix\telemetry.py", line 34, in export
+    result=self.inner.export(spans);end=time.time_ns()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 182, in export
+    resp = self._export(serialized_data, deadline_sec - time())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 165, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85c4a0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+Exception while exporting Span.
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85f5f0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85f5f0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 157, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85f5f0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85fa40>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85fa40>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\sdk\trace\export\__init__.py", line 109, in on_end
+    self.span_exporter.export((span,))
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\laboratorios\parte_ix\telemetry.py", line 34, in export
+    result=self.inner.export(spans);end=time.time_ns()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 182, in export
+    resp = self._export(serialized_data, deadline_sec - time())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 165, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe85fa40>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+Exception while exporting Span.
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411eb0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411eb0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 157, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411eb0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 567, in request
+    self.endheaders()
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\paulo\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 398, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411f70>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\urllib3\util\retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411f70>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\sdk\trace\export\__init__.py", line 109, in on_end
+    self.span_exporter.export((span,))
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\laboratorios\parte_ix\telemetry.py", line 34, in export
+    result=self.inner.export(spans);end=time.time_ns()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 182, in export
+    resp = self._export(serialized_data, deadline_sec - time())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\opentelemetry\exporter\otlp\proto\http\trace_exporter\__init__.py", line 165, in _export
+    resp = self._session.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 712, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-ix\Lib\site-packages\requests\adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=58995): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=58995) at 0x22bbe411f70>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))

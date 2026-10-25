@@ -1,0 +1,101 @@
+{
+  "seconds": 12.095,
+  "rss_peak_bytes": 586473472,
+  "samples": [
+    {
+      "seconds": 1.059,
+      "rss": 45105152,
+      "cpu_seconds": 0.359375,
+      "ram_available": 4446068736
+    },
+    {
+      "seconds": 2.06,
+      "rss": 545185792,
+      "cpu_seconds": 1.78125,
+      "ram_available": 3953389568
+    },
+    {
+      "seconds": 3.066,
+      "rss": 583200768,
+      "cpu_seconds": 5.640625,
+      "ram_available": 3906174976
+    },
+    {
+      "seconds": 4.076,
+      "rss": 583200768,
+      "cpu_seconds": 9.015625,
+      "ram_available": 3896832000
+    },
+    {
+      "seconds": 5.076,
+      "rss": 583200768,
+      "cpu_seconds": 12.96875,
+      "ram_available": 3896750080
+    },
+    {
+      "seconds": 6.077,
+      "rss": 586207232,
+      "cpu_seconds": 16.84375,
+      "ram_available": 3884679168
+    },
+    {
+      "seconds": 7.082,
+      "rss": 586207232,
+      "cpu_seconds": 20.359375,
+      "ram_available": 3885187072
+    },
+    {
+      "seconds": 8.086,
+      "rss": 584605696,
+      "cpu_seconds": 24.078125,
+      "ram_available": 3883962368
+    },
+    {
+      "seconds": 9.095,
+      "rss": 584605696,
+      "cpu_seconds": 27.65625,
+      "ram_available": 3883151360
+    },
+    {
+      "seconds": 10.102,
+      "rss": 584605696,
+      "cpu_seconds": 31.359375,
+      "ram_available": 3882684416
+    },
+    {
+      "seconds": 11.11,
+      "rss": 586473472,
+      "cpu_seconds": 35.328125,
+      "ram_available": 3873918976
+    }
+  ],
+  "cpu_seconds": 35.328125,
+  "process_ended": true,
+  "model_sha256": "74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db",
+  "runtime_sha256": "6a4635aeb35656153d4bfeeddf761d24ed84aada9c9108d580737cbed465141b",
+  "arguments": [
+    "-m",
+    "C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\.modelos\\l11\\qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "62134",
+    "-t",
+    "4",
+    "-tb",
+    "4",
+    "-c",
+    "4096",
+    "-np",
+    "1",
+    "-ngl",
+    "0",
+    "--no-webui",
+    "--alias",
+    "l11-qwen"
+  ],
+  "host_ram_bytes": 16540794880,
+  "python": "3.12.14",
+  "psutil": "7.1.0",
+  "platform": "Windows-11-10.0.26300-SP0"
+}

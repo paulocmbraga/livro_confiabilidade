@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"0\",\n  \"citacoes\": [\n    \"https://www.horizonte.gov.br/empresa/empresa-horizonte-empresa-horizonte-empresa-horizonte-empresa-horizonte-empresa-horizonte-empresa-horizonte-empresa-horizonte-empresa-horizonte-empresa-horizonte-empresa-horizonte-empresa-horizonte-empresa-"
+      }
+    }
+  ],
+  "created": 1792879360,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 222,
+    "total_tokens": 350,
+    "prompt_tokens_details": {
+      "cached_tokens": 205
+    }
+  },
+  "id": "chatcmpl-zwiyAcMQj7gpZPsrUwn8tAYFL6x5pw62",
+  "timings": {
+    "cache_n": 205,
+    "prompt_n": 17,
+    "prompt_ms": 139.704,
+    "prompt_per_token_ms": 8.217882352941176,
+    "prompt_per_second": 121.68585008303269,
+    "predicted_n": 128,
+    "predicted_ms": 2273.356,
+    "predicted_per_token_ms": 17.90044094488189,
+    "predicted_per_second": 55.86454563209634
+  }
+}

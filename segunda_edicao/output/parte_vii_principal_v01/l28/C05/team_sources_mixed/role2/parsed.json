@@ -1,0 +1,18 @@
+{
+  "value": {
+    "approve": false,
+    "limit": 100,
+    "source": "stale-v1"
+  },
+  "error": null,
+  "usage": {
+    "completion_tokens": 36,
+    "prompt_tokens": 86,
+    "total_tokens": 122,
+    "prompt_tokens_details": {
+      "cached_tokens": 85
+    }
+  },
+  "charged_output": 36,
+  "seconds": 1.1477241000393406
+}

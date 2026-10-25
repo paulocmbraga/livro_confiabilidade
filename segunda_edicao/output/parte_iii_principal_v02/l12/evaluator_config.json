@@ -1,0 +1,60 @@
+{
+  "cases": [
+    {
+      "id": "T01",
+      "document": "Documento D01. O prazo desta tarefa é 10 dias.",
+      "question": "Qual é o prazo em dias?",
+      "expected": 10,
+      "source": "D01"
+    },
+    {
+      "id": "T02",
+      "document": "Documento D02. O prazo desta tarefa é 30 dias.",
+      "question": "Qual é o prazo em dias?",
+      "expected": 30,
+      "source": "D02"
+    },
+    {
+      "id": "T03",
+      "document": "Documento D03. O prazo desta tarefa é 7 dias.",
+      "question": "Qual é o prazo em dias?",
+      "expected": 7,
+      "source": "D03"
+    },
+    {
+      "id": "T04",
+      "document": "Documento D04. O prazo desta tarefa é 15 dias.",
+      "question": "Qual é o prazo em dias?",
+      "expected": 15,
+      "source": "D04"
+    },
+    {
+      "id": "T05",
+      "document": "Documento D05. O prazo desta tarefa é 20 dias.",
+      "question": "Qual é o prazo em dias?",
+      "expected": 20,
+      "source": "D05"
+    },
+    {
+      "id": "T06",
+      "document": "Documento D06. O prazo desta tarefa é 5 dias.",
+      "question": "Qual é o prazo em dias?",
+      "expected": 5,
+      "source": "D06"
+    },
+    {
+      "id": "T07",
+      "document": "Documento D07. O prazo desta tarefa é 45 dias.",
+      "question": "Qual é o prazo em dias?",
+      "expected": 45,
+      "source": "D07"
+    },
+    {
+      "id": "T08",
+      "document": "Documento D08. O prazo desta tarefa é 12 dias.",
+      "question": "Qual é o prazo em dias?",
+      "expected": 12,
+      "source": "D08"
+    }
+  ]
+}

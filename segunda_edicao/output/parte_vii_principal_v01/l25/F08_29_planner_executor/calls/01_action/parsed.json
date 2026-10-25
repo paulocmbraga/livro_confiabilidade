@@ -1,0 +1,19 @@
+{
+  "value": {
+    "action": "inspect",
+    "item": "A",
+    "quantity": 1,
+    "version": -1
+  },
+  "error": null,
+  "usage": {
+    "completion_tokens": 25,
+    "prompt_tokens": 179,
+    "total_tokens": 204,
+    "prompt_tokens_details": {
+      "cached_tokens": 162
+    }
+  },
+  "charged_output": 25,
+  "seconds": 0.7464572000317276
+}

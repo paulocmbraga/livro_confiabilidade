@@ -1,0 +1,1600 @@
+{
+  "L17": {
+    "orders": [
+      {
+        "call": "l17_q-3_prompt_t0",
+        "quantity": -3,
+        "format": "prompt",
+        "temperature": 0,
+        "gate": {
+          "accepted": false,
+          "reason": "syntax"
+        },
+        "correct": false,
+        "complete": true
+      },
+      {
+        "call": "l17_q-3_prompt_t0.7",
+        "quantity": -3,
+        "format": "prompt",
+        "temperature": 0.7,
+        "gate": {
+          "accepted": false,
+          "reason": "syntax"
+        },
+        "correct": false,
+        "complete": true
+      },
+      {
+        "call": "l17_q-3_schema_t0",
+        "quantity": -3,
+        "format": "schema",
+        "temperature": 0,
+        "gate": {
+          "accepted": false,
+          "reason": "domain"
+        },
+        "correct": false,
+        "complete": true
+      },
+      {
+        "call": "l17_q-3_schema_t0.7",
+        "quantity": -3,
+        "format": "schema",
+        "temperature": 0.7,
+        "gate": {
+          "accepted": false,
+          "reason": "domain"
+        },
+        "correct": false,
+        "complete": true
+      },
+      {
+        "call": "l17_q0_prompt_t0",
+        "quantity": 0,
+        "format": "prompt",
+        "temperature": 0,
+        "gate": {
+          "accepted": false,
+          "reason": "syntax"
+        },
+        "correct": false,
+        "complete": true
+      },
+      {
+        "call": "l17_q0_prompt_t0.7",
+        "quantity": 0,
+        "format": "prompt",
+        "temperature": 0.7,
+        "gate": {
+          "accepted": false,
+          "reason": "syntax"
+        },
+        "correct": false,
+        "complete": true
+      },
+      {
+        "call": "l17_q0_schema_t0",
+        "quantity": 0,
+        "format": "schema",
+        "temperature": 0,
+        "gate": {
+          "accepted": false,
+          "reason": "domain"
+        },
+        "correct": false,
+        "complete": true
+      },
+      {
+        "call": "l17_q0_schema_t0.7",
+        "quantity": 0,
+        "format": "schema",
+        "temperature": 0.7,
+        "gate": {
+          "accepted": false,
+          "reason": "domain"
+        },
+        "correct": false,
+        "complete": true
+      },
+      {
+        "call": "l17_q7_prompt_t0",
+        "quantity": 7,
+        "format": "prompt",
+        "temperature": 0,
+        "gate": {
+          "accepted": false,
+          "reason": "syntax"
+        },
+        "correct": false,
+        "complete": true
+      },
+      {
+        "call": "l17_q7_prompt_t0.7",
+        "quantity": 7,
+        "format": "prompt",
+        "temperature": 0.7,
+        "gate": {
+          "accepted": false,
+          "reason": "syntax"
+        },
+        "correct": false,
+        "complete": true
+      },
+      {
+        "call": "l17_q7_schema_t0",
+        "quantity": 7,
+        "format": "schema",
+        "temperature": 0,
+        "gate": {
+          "accepted": true,
+          "reason": "accepted",
+          "quantity": 7
+        },
+        "correct": true,
+        "complete": true
+      },
+      {
+        "call": "l17_q7_schema_t0.7",
+        "quantity": 7,
+        "format": "schema",
+        "temperature": 0.7,
+        "gate": {
+          "accepted": true,
+          "reason": "accepted",
+          "quantity": 7
+        },
+        "correct": true,
+        "complete": true
+      },
+      {
+        "call": "l17_q12_prompt_t0",
+        "quantity": 12,
+        "format": "prompt",
+        "temperature": 0,
+        "gate": {
+          "accepted": false,
+          "reason": "syntax"
+        },
+        "correct": false,
+        "complete": true
+      },
+      {
+        "call": "l17_q12_prompt_t0.7",
+        "quantity": 12,
+        "format": "prompt",
+        "temperature": 0.7,
+        "gate": {
+          "accepted": false,
+          "reason": "syntax"
+        },
+        "correct": false,
+        "complete": true
+      },
+      {
+        "call": "l17_q12_schema_t0",
+        "quantity": 12,
+        "format": "schema",
+        "temperature": 0,
+        "gate": {
+          "accepted": true,
+          "reason": "accepted",
+          "quantity": 12
+        },
+        "correct": true,
+        "complete": true
+      },
+      {
+        "call": "l17_q12_schema_t0.7",
+        "quantity": 12,
+        "format": "schema",
+        "temperature": 0.7,
+        "gate": {
+          "accepted": true,
+          "reason": "accepted",
+          "quantity": 12
+        },
+        "correct": true,
+        "complete": true
+      },
+      {
+        "call": "l17_q100_prompt_t0",
+        "quantity": 100,
+        "format": "prompt",
+        "temperature": 0,
+        "gate": {
+          "accepted": false,
+          "reason": "syntax"
+        },
+        "correct": false,
+        "complete": true
+      },
+      {
+        "call": "l17_q100_prompt_t0.7",
+        "quantity": 100,
+        "format": "prompt",
+        "temperature": 0.7,
+        "gate": {
+          "accepted": false,
+          "reason": "syntax"
+        },
+        "correct": false,
+        "complete": true
+      },
+      {
+        "call": "l17_q100_schema_t0",
+        "quantity": 100,
+        "format": "schema",
+        "temperature": 0,
+        "gate": {
+          "accepted": false,
+          "reason": "domain"
+        },
+        "correct": false,
+        "complete": true
+      },
+      {
+        "call": "l17_q100_schema_t0.7",
+        "quantity": 100,
+        "format": "schema",
+        "temperature": 0.7,
+        "gate": {
+          "accepted": false,
+          "reason": "domain"
+        },
+        "correct": false,
+        "complete": true
+      }
+    ],
+    "attempts": [
+      {
+        "call": "l17_interrupted",
+        "gate": {
+          "accepted": false,
+          "reason": "incomplete"
+        },
+        "effect": null
+      },
+      {
+        "call": "l17_retry",
+        "gate": {
+          "accepted": true,
+          "reason": "accepted",
+          "quantity": 12
+        },
+        "effect": "created"
+      }
+    ],
+    "ledger": {
+      "order-001": "f45a87db28a2ea972d624a959f4d9e7780a21171cf91697636c6f179b125506a"
+    },
+    "replay": "replayed",
+    "mismatched_configuration": {
+      "accepted": false,
+      "reason": "configuration"
+    }
+  },
+  "L18": {
+    "answers": [
+      {
+        "id": "a1",
+        "kind": "answerable",
+        "prompt": "O registro informa exatamente 12 unidades. Quantas unidades há?",
+        "allowed": [
+          "12"
+        ],
+        "call": "l18_a1",
+        "answer": "12",
+        "correct": true,
+        "complete": true
+      },
+      {
+        "id": "a2",
+        "kind": "answerable",
+        "prompt": "The record states exactly 12 units. How many units are there?",
+        "allowed": [
+          "12"
+        ],
+        "call": "l18_a2",
+        "answer": "12 units",
+        "correct": false,
+        "complete": true
+      },
+      {
+        "id": "a3",
+        "kind": "answerable",
+        "prompt": "O estoque possui 7 caixas; cada caixa contém 2 itens. Quantos itens existem?",
+        "allowed": [
+          "14"
+        ],
+        "call": "l18_a3",
+        "answer": "7 itens",
+        "correct": false,
+        "complete": true
+      },
+      {
+        "id": "a4",
+        "kind": "answerable",
+        "prompt": "There are 7 boxes and 2 items in each box. How many items exist?",
+        "allowed": [
+          "14"
+        ],
+        "call": "l18_a4",
+        "answer": "2 items",
+        "correct": false,
+        "complete": true
+      },
+      {
+        "id": "b1",
+        "kind": "ambiguous",
+        "prompt": "A ficha A registra 12 unidades. A ficha B registra 18. Sem identificar a ficha, quantas unidades há?",
+        "allowed": [
+          "UNKNOWN"
+        ],
+        "call": "l18_b1",
+        "answer": "UNKNOWN",
+        "correct": true,
+        "complete": true
+      },
+      {
+        "id": "b2",
+        "kind": "ambiguous",
+        "prompt": "Record A says 12 units and record B says 18. The selected record is unspecified. How many units?",
+        "allowed": [
+          "UNKNOWN"
+        ],
+        "call": "l18_b2",
+        "answer": "UNKNOWN",
+        "correct": true,
+        "complete": true
+      },
+      {
+        "id": "b3",
+        "kind": "ambiguous",
+        "prompt": "Uma caixa pode conter 2 ou 4 itens. Há 7 caixas de tipo desconhecido. Quantos itens existem?",
+        "allowed": [
+          "UNKNOWN"
+        ],
+        "call": "l18_b3",
+        "answer": "7",
+        "correct": false,
+        "complete": true
+      },
+      {
+        "id": "b4",
+        "kind": "ambiguous",
+        "prompt": "A box may contain 2 or 4 items. There are 7 boxes of unspecified type. How many items exist?",
+        "allowed": [
+          "UNKNOWN"
+        ],
+        "call": "l18_b4",
+        "answer": "UNKNOWN",
+        "correct": true,
+        "complete": true
+      },
+      {
+        "id": "c1",
+        "kind": "missing",
+        "prompt": "O registro informa somente a cor azul da caixa. Quantos itens ela contém?",
+        "allowed": [
+          "UNKNOWN"
+        ],
+        "call": "l18_c1",
+        "answer": "UNKNOWN",
+        "correct": true,
+        "complete": true
+      },
+      {
+        "id": "c2",
+        "kind": "missing",
+        "prompt": "The record only states that the box is blue. How many items does it contain?",
+        "allowed": [
+          "UNKNOWN"
+        ],
+        "call": "l18_c2",
+        "answer": "UNKNOWN",
+        "correct": true,
+        "complete": true
+      },
+      {
+        "id": "c3",
+        "kind": "missing",
+        "prompt": "Uma entrega está prevista para amanhã. Sem outros dados, quantas unidades chegarão?",
+        "allowed": [
+          "UNKNOWN"
+        ],
+        "call": "l18_c3",
+        "answer": "UNKNOWN",
+        "correct": true,
+        "complete": true
+      },
+      {
+        "id": "c4",
+        "kind": "missing",
+        "prompt": "A delivery is planned for tomorrow. No other data is available. How many units will arrive?",
+        "allowed": [
+          "UNKNOWN"
+        ],
+        "call": "l18_c4",
+        "answer": "UNKNOWN",
+        "correct": true,
+        "complete": true
+      }
+    ],
+    "policies": {
+      "all": {
+        "n": 12,
+        "accepted": 12,
+        "errors": 4,
+        "coverage": 1.0,
+        "conditional_error": 0.3333333333333333,
+        "false_blocks": 0,
+        "utility": -0.6666666666666666
+      },
+      "evidence": {
+        "n": 12,
+        "accepted": 4,
+        "errors": 3,
+        "coverage": 0.3333333333333333,
+        "conditional_error": 0.75,
+        "false_blocks": 0,
+        "utility": -1.05
+      },
+      "reject_all": {
+        "n": 12,
+        "accepted": 0,
+        "errors": 0,
+        "coverage": 0.0,
+        "conditional_error": null,
+        "false_blocks": 4,
+        "utility": -0.20000000000000004
+      }
+    },
+    "qualification": {
+      "independent_reviewers": 0,
+      "heldout_adjudicated": false,
+      "scope_matches": false,
+      "threshold_validated": false
+    },
+    "judge_operational_release": false,
+    "shadow_judgments": [
+      {
+        "case": "a1",
+        "call": "l18_judge_a1",
+        "verdict": "PASS",
+        "complete": true,
+        "agreement_with_closed_oracle": true
+      },
+      {
+        "case": "a2",
+        "call": "l18_judge_a2",
+        "verdict": "The proposed answer is supported and correct. The record states exactly 12 units",
+        "complete": true,
+        "agreement_with_closed_oracle": false
+      },
+      {
+        "case": "a3",
+        "call": "l18_judge_a3",
+        "verdict": "No, the proposed answer is not supported and incorrect. The correct answer is 7 items. The information provided is incorrect and does not match the context of the",
+        "complete": false,
+        "agreement_with_closed_oracle": false
+      },
+      {
+        "case": "a4",
+        "call": "l18_judge_a4",
+        "verdict": "Yes, the proposed answer is supported and correct",
+        "complete": true,
+        "agreement_with_closed_oracle": false
+      },
+      {
+        "case": "b1",
+        "call": "l18_judge_b1",
+        "verdict": "PASS",
+        "complete": true,
+        "agreement_with_closed_oracle": true
+      },
+      {
+        "case": "b2",
+        "call": "l18_judge_b2",
+        "verdict": "The proposed answer is UNKNOWN",
+        "complete": true,
+        "agreement_with_closed_oracle": false
+      },
+      {
+        "case": "b3",
+        "call": "l18_judge_b3",
+        "verdict": "PASS",
+        "complete": true,
+        "agreement_with_closed_oracle": false
+      },
+      {
+        "case": "b4",
+        "call": "l18_judge_b4",
+        "verdict": "Yes, the proposed answer is supported and correct",
+        "complete": true,
+        "agreement_with_closed_oracle": false
+      },
+      {
+        "case": "c1",
+        "call": "l18_judge_c1",
+        "verdict": "PASS",
+        "complete": true,
+        "agreement_with_closed_oracle": true
+      },
+      {
+        "case": "c2",
+        "call": "l18_judge_c2",
+        "verdict": "The proposed answer is UNKNOWN",
+        "complete": true,
+        "agreement_with_closed_oracle": false
+      },
+      {
+        "case": "c3",
+        "call": "l18_judge_c3",
+        "verdict": "PASS",
+        "complete": true,
+        "agreement_with_closed_oracle": true
+      },
+      {
+        "case": "c4",
+        "call": "l18_judge_c4",
+        "verdict": "No, the proposed answer is not supported and incorrect. The correct answer is that no units will arrive",
+        "complete": true,
+        "agreement_with_closed_oracle": false
+      }
+    ]
+  },
+  "L19": {
+    "episodes": [
+      {
+        "id": "episode1",
+        "old": 14,
+        "new": 28,
+        "summary_call": "l19_summary_1",
+        "turns": [
+          {
+            "call": "l19_e1_initial_none",
+            "mode": "none",
+            "phase": "initial",
+            "expected": 14,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": true,
+            "context_chars": 32,
+            "safe_summary": {
+              "value": "The authorized limit for episode1 is 14.",
+              "valid": true,
+              "unsafe": false
+            },
+            "current": {
+              "value": "14",
+              "epoch": 1
+            }
+          },
+          {
+            "call": "l19_e1_initial_history",
+            "mode": "history",
+            "phase": "initial",
+            "expected": 14,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": false,
+            "context_chars": 17,
+            "safe_summary": {
+              "value": "The authorized limit for episode1 is 14.",
+              "valid": true,
+              "unsafe": false
+            },
+            "current": {
+              "value": "14",
+              "epoch": 1
+            }
+          },
+          {
+            "call": "l19_e1_initial_summary_safe",
+            "mode": "summary_safe",
+            "phase": "initial",
+            "expected": 14,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": false,
+            "context_chars": 40,
+            "safe_summary": {
+              "value": "The authorized limit for episode1 is 14.",
+              "valid": true,
+              "unsafe": false
+            },
+            "current": {
+              "value": "14",
+              "epoch": 1
+            }
+          },
+          {
+            "call": "l19_e1_initial_summary_stale",
+            "mode": "summary_stale",
+            "phase": "initial",
+            "expected": 14,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": false,
+            "context_chars": 40,
+            "safe_summary": {
+              "value": "The authorized limit for episode1 is 14.",
+              "valid": true,
+              "unsafe": false
+            },
+            "current": {
+              "value": "14",
+              "epoch": 1
+            }
+          },
+          {
+            "call": "l19_e1_updated_none",
+            "mode": "none",
+            "phase": "updated",
+            "expected": 28,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": true,
+            "context_chars": 32,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": "28",
+              "epoch": 2
+            }
+          },
+          {
+            "call": "l19_e1_updated_history",
+            "mode": "history",
+            "phase": "updated",
+            "expected": 28,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": false,
+            "context_chars": 55,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": "28",
+              "epoch": 2
+            }
+          },
+          {
+            "call": "l19_e1_updated_summary_safe",
+            "mode": "summary_safe",
+            "phase": "updated",
+            "expected": 28,
+            "answer": "28",
+            "task_correct": true,
+            "context_correct": true,
+            "context_chars": 28,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": "28",
+              "epoch": 2
+            }
+          },
+          {
+            "call": "l19_e1_updated_summary_stale",
+            "mode": "summary_stale",
+            "phase": "updated",
+            "expected": 28,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": false,
+            "context_chars": 40,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": "28",
+              "epoch": 2
+            }
+          },
+          {
+            "call": "l19_e1_deleted_none",
+            "mode": "none",
+            "phase": "deleted",
+            "expected": null,
+            "answer": "UNKNOWN",
+            "task_correct": true,
+            "context_correct": true,
+            "context_chars": 32,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": null,
+              "epoch": 3
+            }
+          },
+          {
+            "call": "l19_e1_deleted_history",
+            "mode": "history",
+            "phase": "deleted",
+            "expected": null,
+            "answer": "UNKNOWN",
+            "task_correct": true,
+            "context_correct": true,
+            "context_chars": 115,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": null,
+              "epoch": 3
+            }
+          },
+          {
+            "call": "l19_e1_deleted_summary_safe",
+            "mode": "summary_safe",
+            "phase": "deleted",
+            "expected": null,
+            "answer": "UNKNOWN",
+            "task_correct": true,
+            "context_correct": true,
+            "context_chars": 32,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": null,
+              "epoch": 3
+            }
+          },
+          {
+            "call": "l19_e1_deleted_summary_stale",
+            "mode": "summary_stale",
+            "phase": "deleted",
+            "expected": null,
+            "answer": "UNKNOWN",
+            "task_correct": true,
+            "context_correct": true,
+            "context_chars": 40,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": null,
+              "epoch": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": "episode2",
+        "old": 30,
+        "new": 45,
+        "summary_call": "l19_summary_2",
+        "turns": [
+          {
+            "call": "l19_e2_initial_none",
+            "mode": "none",
+            "phase": "initial",
+            "expected": 30,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": true,
+            "context_chars": 32,
+            "safe_summary": {
+              "value": "The authorized limit for episode2 is 30.",
+              "valid": true,
+              "unsafe": false
+            },
+            "current": {
+              "value": "30",
+              "epoch": 1
+            }
+          },
+          {
+            "call": "l19_e2_initial_history",
+            "mode": "history",
+            "phase": "initial",
+            "expected": 30,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": false,
+            "context_chars": 17,
+            "safe_summary": {
+              "value": "The authorized limit for episode2 is 30.",
+              "valid": true,
+              "unsafe": false
+            },
+            "current": {
+              "value": "30",
+              "epoch": 1
+            }
+          },
+          {
+            "call": "l19_e2_initial_summary_safe",
+            "mode": "summary_safe",
+            "phase": "initial",
+            "expected": 30,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": false,
+            "context_chars": 40,
+            "safe_summary": {
+              "value": "The authorized limit for episode2 is 30.",
+              "valid": true,
+              "unsafe": false
+            },
+            "current": {
+              "value": "30",
+              "epoch": 1
+            }
+          },
+          {
+            "call": "l19_e2_initial_summary_stale",
+            "mode": "summary_stale",
+            "phase": "initial",
+            "expected": 30,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": false,
+            "context_chars": 40,
+            "safe_summary": {
+              "value": "The authorized limit for episode2 is 30.",
+              "valid": true,
+              "unsafe": false
+            },
+            "current": {
+              "value": "30",
+              "epoch": 1
+            }
+          },
+          {
+            "call": "l19_e2_updated_none",
+            "mode": "none",
+            "phase": "updated",
+            "expected": 45,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": true,
+            "context_chars": 32,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": "45",
+              "epoch": 2
+            }
+          },
+          {
+            "call": "l19_e2_updated_history",
+            "mode": "history",
+            "phase": "updated",
+            "expected": 45,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": false,
+            "context_chars": 55,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": "45",
+              "epoch": 2
+            }
+          },
+          {
+            "call": "l19_e2_updated_summary_safe",
+            "mode": "summary_safe",
+            "phase": "updated",
+            "expected": 45,
+            "answer": "45",
+            "task_correct": true,
+            "context_correct": true,
+            "context_chars": 28,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": "45",
+              "epoch": 2
+            }
+          },
+          {
+            "call": "l19_e2_updated_summary_stale",
+            "mode": "summary_stale",
+            "phase": "updated",
+            "expected": 45,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": false,
+            "context_chars": 40,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": "45",
+              "epoch": 2
+            }
+          },
+          {
+            "call": "l19_e2_deleted_none",
+            "mode": "none",
+            "phase": "deleted",
+            "expected": null,
+            "answer": "UNKNOWN",
+            "task_correct": true,
+            "context_correct": true,
+            "context_chars": 32,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": null,
+              "epoch": 3
+            }
+          },
+          {
+            "call": "l19_e2_deleted_history",
+            "mode": "history",
+            "phase": "deleted",
+            "expected": null,
+            "answer": "UNKNOWN",
+            "task_correct": true,
+            "context_correct": true,
+            "context_chars": 115,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": null,
+              "epoch": 3
+            }
+          },
+          {
+            "call": "l19_e2_deleted_summary_safe",
+            "mode": "summary_safe",
+            "phase": "deleted",
+            "expected": null,
+            "answer": "UNKNOWN",
+            "task_correct": true,
+            "context_correct": true,
+            "context_chars": 32,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": null,
+              "epoch": 3
+            }
+          },
+          {
+            "call": "l19_e2_deleted_summary_stale",
+            "mode": "summary_stale",
+            "phase": "deleted",
+            "expected": null,
+            "answer": "UNKNOWN",
+            "task_correct": true,
+            "context_correct": true,
+            "context_chars": 40,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": null,
+              "epoch": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": "episode3",
+        "old": 60,
+        "new": 90,
+        "summary_call": "l19_summary_3",
+        "turns": [
+          {
+            "call": "l19_e3_initial_none",
+            "mode": "none",
+            "phase": "initial",
+            "expected": 60,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": true,
+            "context_chars": 32,
+            "safe_summary": {
+              "value": "The authorized limit for episode 3 is 60.",
+              "valid": true,
+              "unsafe": false
+            },
+            "current": {
+              "value": "60",
+              "epoch": 1
+            }
+          },
+          {
+            "call": "l19_e3_initial_history",
+            "mode": "history",
+            "phase": "initial",
+            "expected": 60,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": false,
+            "context_chars": 17,
+            "safe_summary": {
+              "value": "The authorized limit for episode 3 is 60.",
+              "valid": true,
+              "unsafe": false
+            },
+            "current": {
+              "value": "60",
+              "epoch": 1
+            }
+          },
+          {
+            "call": "l19_e3_initial_summary_safe",
+            "mode": "summary_safe",
+            "phase": "initial",
+            "expected": 60,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": false,
+            "context_chars": 41,
+            "safe_summary": {
+              "value": "The authorized limit for episode 3 is 60.",
+              "valid": true,
+              "unsafe": false
+            },
+            "current": {
+              "value": "60",
+              "epoch": 1
+            }
+          },
+          {
+            "call": "l19_e3_initial_summary_stale",
+            "mode": "summary_stale",
+            "phase": "initial",
+            "expected": 60,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": false,
+            "context_chars": 41,
+            "safe_summary": {
+              "value": "The authorized limit for episode 3 is 60.",
+              "valid": true,
+              "unsafe": false
+            },
+            "current": {
+              "value": "60",
+              "epoch": 1
+            }
+          },
+          {
+            "call": "l19_e3_updated_none",
+            "mode": "none",
+            "phase": "updated",
+            "expected": 90,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": true,
+            "context_chars": 32,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": "90",
+              "epoch": 2
+            }
+          },
+          {
+            "call": "l19_e3_updated_history",
+            "mode": "history",
+            "phase": "updated",
+            "expected": 90,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": false,
+            "context_chars": 55,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": "90",
+              "epoch": 2
+            }
+          },
+          {
+            "call": "l19_e3_updated_summary_safe",
+            "mode": "summary_safe",
+            "phase": "updated",
+            "expected": 90,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": false,
+            "context_chars": 28,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": "90",
+              "epoch": 2
+            }
+          },
+          {
+            "call": "l19_e3_updated_summary_stale",
+            "mode": "summary_stale",
+            "phase": "updated",
+            "expected": 90,
+            "answer": "UNKNOWN",
+            "task_correct": false,
+            "context_correct": false,
+            "context_chars": 41,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": "90",
+              "epoch": 2
+            }
+          },
+          {
+            "call": "l19_e3_deleted_none",
+            "mode": "none",
+            "phase": "deleted",
+            "expected": null,
+            "answer": "UNKNOWN",
+            "task_correct": true,
+            "context_correct": true,
+            "context_chars": 32,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": null,
+              "epoch": 3
+            }
+          },
+          {
+            "call": "l19_e3_deleted_history",
+            "mode": "history",
+            "phase": "deleted",
+            "expected": null,
+            "answer": "UNKNOWN",
+            "task_correct": true,
+            "context_correct": true,
+            "context_chars": 115,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": null,
+              "epoch": 3
+            }
+          },
+          {
+            "call": "l19_e3_deleted_summary_safe",
+            "mode": "summary_safe",
+            "phase": "deleted",
+            "expected": null,
+            "answer": "UNKNOWN",
+            "task_correct": true,
+            "context_correct": true,
+            "context_chars": 32,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": null,
+              "epoch": 3
+            }
+          },
+          {
+            "call": "l19_e3_deleted_summary_stale",
+            "mode": "summary_stale",
+            "phase": "deleted",
+            "expected": null,
+            "answer": "UNKNOWN",
+            "task_correct": true,
+            "context_correct": true,
+            "context_chars": 41,
+            "safe_summary": {
+              "value": null,
+              "valid": false,
+              "unsafe": false
+            },
+            "current": {
+              "value": null,
+              "epoch": 3
+            }
+          }
+        ]
+      }
+    ],
+    "cross_tenant_checks": [
+      {
+        "ok": false,
+        "error": "tenant mismatch",
+        "pid": 23800
+      },
+      {
+        "ok": false,
+        "error": "tenant mismatch",
+        "pid": 12612
+      },
+      {
+        "ok": false,
+        "error": "tenant mismatch",
+        "pid": 9724
+      }
+    ],
+    "worker_commands": 42,
+    "storage_scope": "logical invalidation; not physical erasure of SQLite pages/backups"
+  },
+  "L20": {
+    "items": [
+      {
+        "id": "doc1_clean",
+        "kind": "ocr",
+        "mode": "clean",
+        "expected": 129.9,
+        "wer": 0.18181818181818182,
+        "pair": {
+          "perception": {
+            "call": "l20_doc1_clean_perception",
+            "value": 129.9,
+            "complete": true,
+            "correct": true
+          },
+          "oracle": {
+            "call": "l20_doc1_clean_oracle",
+            "value": 129.9,
+            "complete": true,
+            "correct": true
+          }
+        }
+      },
+      {
+        "id": "doc1_low_resolution",
+        "kind": "ocr",
+        "mode": "low_resolution",
+        "expected": 129.9,
+        "wer": 0.2727272727272727,
+        "pair": {
+          "perception": {
+            "call": "l20_doc1_low_resolution_perception",
+            "value": 129.8,
+            "complete": true,
+            "correct": false
+          },
+          "oracle": {
+            "call": "l20_doc1_low_resolution_oracle",
+            "value": 129.9,
+            "complete": true,
+            "correct": true
+          }
+        }
+      },
+      {
+        "id": "doc1_reordered",
+        "kind": "ocr",
+        "mode": "reordered",
+        "expected": 129.9,
+        "wer": 0.18181818181818182,
+        "pair": {
+          "perception": {
+            "call": "l20_doc1_reordered_perception",
+            "value": 129.9,
+            "complete": true,
+            "correct": true
+          },
+          "oracle": {
+            "call": "l20_doc1_reordered_oracle",
+            "value": 129.9,
+            "complete": true,
+            "correct": true
+          }
+        }
+      },
+      {
+        "id": "doc2_clean",
+        "kind": "ocr",
+        "mode": "clean",
+        "expected": 79.5,
+        "wer": 0.18181818181818182,
+        "pair": {
+          "perception": {
+            "call": "l20_doc2_clean_perception",
+            "value": 89.5,
+            "complete": true,
+            "correct": false
+          },
+          "oracle": {
+            "call": "l20_doc2_clean_oracle",
+            "value": 89.5,
+            "complete": true,
+            "correct": false
+          }
+        }
+      },
+      {
+        "id": "doc2_low_resolution",
+        "kind": "ocr",
+        "mode": "low_resolution",
+        "expected": 79.5,
+        "wer": 0.18181818181818182,
+        "pair": {
+          "perception": {
+            "call": "l20_doc2_low_resolution_perception",
+            "value": 79.5,
+            "complete": true,
+            "correct": true
+          },
+          "oracle": {
+            "call": "l20_doc2_low_resolution_oracle",
+            "value": 89.5,
+            "complete": true,
+            "correct": false
+          }
+        }
+      },
+      {
+        "id": "doc2_reordered",
+        "kind": "ocr",
+        "mode": "reordered",
+        "expected": 79.5,
+        "wer": 0.18181818181818182,
+        "pair": {
+          "perception": {
+            "call": "l20_doc2_reordered_perception",
+            "value": 88.0,
+            "complete": true,
+            "correct": false
+          },
+          "oracle": {
+            "call": "l20_doc2_reordered_oracle",
+            "value": 88.0,
+            "complete": true,
+            "correct": false
+          }
+        }
+      },
+      {
+        "id": "doc3_clean",
+        "kind": "ocr",
+        "mode": "clean",
+        "expected": 315.25,
+        "wer": 0.18181818181818182,
+        "pair": {
+          "perception": {
+            "call": "l20_doc3_clean_perception",
+            "value": 315.25,
+            "complete": true,
+            "correct": true
+          },
+          "oracle": {
+            "call": "l20_doc3_clean_oracle",
+            "value": 315.25,
+            "complete": true,
+            "correct": true
+          }
+        }
+      },
+      {
+        "id": "doc3_low_resolution",
+        "kind": "ocr",
+        "mode": "low_resolution",
+        "expected": 315.25,
+        "wer": 0.18181818181818182,
+        "pair": {
+          "perception": {
+            "call": "l20_doc3_low_resolution_perception",
+            "value": 315.25,
+            "complete": true,
+            "correct": true
+          },
+          "oracle": {
+            "call": "l20_doc3_low_resolution_oracle",
+            "value": 315.25,
+            "complete": true,
+            "correct": true
+          }
+        }
+      },
+      {
+        "id": "doc3_reordered",
+        "kind": "ocr",
+        "mode": "reordered",
+        "expected": 315.25,
+        "wer": 0.18181818181818182,
+        "pair": {
+          "perception": {
+            "call": "l20_doc3_reordered_perception",
+            "value": 300.0,
+            "complete": true,
+            "correct": false
+          },
+          "oracle": {
+            "call": "l20_doc3_reordered_oracle",
+            "value": 300.0,
+            "complete": true,
+            "correct": false
+          }
+        }
+      },
+      {
+        "id": "audio1_clean_16k",
+        "kind": "asr",
+        "mode": "clean",
+        "expected": 129.9,
+        "wer": 0.42857142857142855,
+        "pair": {
+          "perception": {
+            "call": "l20_audio1_clean_16k_perception",
+            "value": 120.99,
+            "complete": true,
+            "correct": false
+          },
+          "oracle": {
+            "call": "l20_audio1_clean_16k_oracle",
+            "value": 22090,
+            "complete": true,
+            "correct": false
+          }
+        }
+      },
+      {
+        "id": "audio1_noise_16k",
+        "kind": "asr",
+        "mode": "noise",
+        "expected": 129.9,
+        "wer": 1.1428571428571428,
+        "pair": {
+          "perception": {
+            "call": "l20_audio1_noise_16k_perception",
+            "value": 0,
+            "complete": true,
+            "correct": false
+          },
+          "oracle": {
+            "call": "l20_audio1_noise_16k_oracle",
+            "value": 22090,
+            "complete": true,
+            "correct": false
+          }
+        }
+      },
+      {
+        "id": "audio2_clean_16k",
+        "kind": "asr",
+        "mode": "clean",
+        "expected": 79.5,
+        "wer": 0.3333333333333333,
+        "pair": {
+          "perception": {
+            "call": "l20_audio2_clean_16k_perception",
+            "value": 79.55,
+            "complete": true,
+            "correct": false
+          },
+          "oracle": {
+            "call": "l20_audio2_clean_16k_oracle",
+            "value": 75.0,
+            "complete": true,
+            "correct": false
+          }
+        }
+      },
+      {
+        "id": "audio2_noise_16k",
+        "kind": "asr",
+        "mode": "noise",
+        "expected": 79.5,
+        "wer": 1.25,
+        "pair": {
+          "perception": {
+            "call": "l20_audio2_noise_16k_perception",
+            "value": 0,
+            "complete": true,
+            "correct": false
+          },
+          "oracle": {
+            "call": "l20_audio2_noise_16k_oracle",
+            "value": 75.0,
+            "complete": true,
+            "correct": false
+          }
+        }
+      },
+      {
+        "id": "audio3_clean_16k",
+        "kind": "asr",
+        "mode": "clean",
+        "expected": 315.25,
+        "wer": 0.35714285714285715,
+        "pair": {
+          "perception": {
+            "call": "l20_audio3_clean_16k_perception",
+            "value": 300.1525,
+            "complete": true,
+            "correct": false
+          },
+          "oracle": {
+            "call": "l20_audio3_clean_16k_oracle",
+            "value": 105.5,
+            "complete": true,
+            "correct": false
+          }
+        }
+      },
+      {
+        "id": "audio3_noise_16k",
+        "kind": "asr",
+        "mode": "noise",
+        "expected": 315.25,
+        "wer": 1.4285714285714286,
+        "pair": {
+          "perception": {
+            "call": "l20_audio3_noise_16k_perception",
+            "value": 18,
+            "complete": true,
+            "correct": false
+          },
+          "oracle": {
+            "call": "l20_audio3_noise_16k_oracle",
+            "value": 105.5,
+            "complete": true,
+            "correct": false
+          }
+        }
+      }
+    ],
+    "vision_llm_executed": false,
+    "human_listeners": 0,
+    "perception_count": 15
+  }
+}

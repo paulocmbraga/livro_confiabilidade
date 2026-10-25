@@ -1,0 +1,95 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\laboratorios\parte_vii\protocol_server.py", line 103, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\laboratorios\parte_vii\protocol_server.py", line 100, in main
+    app=mcp_app(a.folder) if a.kind=='mcp' else a2a_app(a.folder,url) if a.kind=='a2a' else callback_app(a.folder)
+        ^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\laboratorios\parte_vii\protocol_server.py", line 37, in mcp_app
+    m.tool(name='reserve')(reserve)
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\mcp\server\mcpserver\server.py", line 725, in decorator
+    self.add_tool(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\mcp\server\mcpserver\server.py", line 647, in add_tool
+    self._tool_manager.add_tool(
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\mcp\server\mcpserver\tools\tool_manager.py", line 51, in add_tool
+    tool = Tool.from_function(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\mcp\server\mcpserver\tools\base.py", line 107, in from_function
+    parameters = func_arg_metadata.arg_model.model_json_schema(by_alias=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\main.py", line 636, in model_json_schema
+    return model_json_schema(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 2766, in model_json_schema
+    return schema_generator_instance.generate(cls.__pydantic_core_schema__, mode=mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 420, in generate
+    json_schema: JsonSchemaValue = self.generate_inner(schema)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 583, in generate_inner
+    json_schema = current_handler(schema)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\_internal\_schema_generation_shared.py", line 38, in __call__
+    return self.handler(core_schema)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 561, in new_handler_func
+    json_schema = js_modify_function(schema_or_field, current_handler)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\main.py", line 931, in __get_pydantic_json_schema__
+    return handler(core_schema)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\_internal\_schema_generation_shared.py", line 38, in __call__
+    return self.handler(core_schema)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 516, in handler_func
+    json_schema = generate_for_schema_type(schema_or_field)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 1763, in model_schema
+    json_schema = self.generate_inner(schema['schema'])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 583, in generate_inner
+    json_schema = current_handler(schema)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\_internal\_schema_generation_shared.py", line 38, in __call__
+    return self.handler(core_schema)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 516, in handler_func
+    json_schema = generate_for_schema_type(schema_or_field)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 1886, in model_fields_schema
+    json_schema = self._named_required_fields_schema(named_required_fields)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 1667, in _named_required_fields_schema
+    field_json_schema = self.generate_inner(field).copy()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 583, in generate_inner
+    json_schema = current_handler(schema)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\_internal\_schema_generation_shared.py", line 38, in __call__
+    return self.handler(core_schema)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 516, in handler_func
+    json_schema = generate_for_schema_type(schema_or_field)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 1735, in model_field_schema
+    return self.generate_inner(schema['schema'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 583, in generate_inner
+    json_schema = current_handler(schema)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\_internal\_schema_generation_shared.py", line 38, in __call__
+    return self.handler(core_schema)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 516, in handler_func
+    json_schema = generate_for_schema_type(schema_or_field)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 1008, in is_instance_schema
+    return self.handle_invalid_for_json_schema(schema, f'core_schema.IsInstanceSchema ({schema["cls"]})')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\paulo\livro2_sync\livros_bots\confiabilidade_ia_2ed\.venv-parte-vii\Lib\site-packages\pydantic\json_schema.py", line 2660, in handle_invalid_for_json_schema
+    raise PydanticInvalidForJsonSchema(f'Cannot generate a JsonSchema for {error_info}')
+pydantic.errors.PydanticInvalidForJsonSchema: Cannot generate a JsonSchema for core_schema.IsInstanceSchema (<class 'mcp.server.context.Context'>)
+
+For further information visit https://errors.pydantic.dev/2.14/u/invalid-for-json-schema

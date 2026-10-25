@@ -1,0 +1,182 @@
+[
+  {
+    "start_ns": 1792886707549310000,
+    "end_ns": 1792886708363181600,
+    "result": "FAILURE",
+    "error": "ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=55801): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=55801) at 0x1db04f02510>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))",
+    "ids": [
+      [
+        "435fa5af4feeaf6a6b711c9d3f2217c3",
+        "b27f71f479346e54"
+      ]
+    ],
+    "ack_delay_ms": [
+      813.8716
+    ]
+  },
+  {
+    "start_ns": 1792886709183595700,
+    "end_ns": 1792886710012087200,
+    "result": "FAILURE",
+    "error": "ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=55801): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=55801) at 0x1db04f02f30>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))",
+    "ids": [
+      [
+        "1c6661e2e431729663960771b47b50fd",
+        "0370d67d40f20c1a"
+      ]
+    ],
+    "ack_delay_ms": [
+      828.4915
+    ]
+  },
+  {
+    "start_ns": 1792886710831111700,
+    "end_ns": 1792886711647050900,
+    "result": "FAILURE",
+    "error": "ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=55801): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=55801) at 0x1db0426cf50>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))",
+    "ids": [
+      [
+        "a7683346bf3caff168b236ea68e904bc",
+        "b1413a3685d79e94"
+      ]
+    ],
+    "ack_delay_ms": [
+      815.9392
+    ]
+  },
+  {
+    "start_ns": 1792886712463106000,
+    "end_ns": 1792886713294454900,
+    "result": "FAILURE",
+    "error": "ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=55801): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=55801) at 0x1db04f019d0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))",
+    "ids": [
+      [
+        "a49f13c632673a4b0955db8c471efec7",
+        "66c4fa5fd255b1f4"
+      ]
+    ],
+    "ack_delay_ms": [
+      831.3489
+    ]
+  },
+  {
+    "start_ns": 1792886714130149900,
+    "end_ns": 1792886714936629800,
+    "result": "FAILURE",
+    "error": "ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=55801): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=55801) at 0x1db052c8050>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))",
+    "ids": [
+      [
+        "c74424226ba96a115100fe94d2df03bd",
+        "e40b806fdd7cd5df"
+      ]
+    ],
+    "ack_delay_ms": [
+      806.4799
+    ]
+  },
+  {
+    "start_ns": 1792886715763682800,
+    "end_ns": 1792886716579714800,
+    "result": "FAILURE",
+    "error": "ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=55801): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=55801) at 0x1db052c8d70>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))",
+    "ids": [
+      [
+        "5562143c368fb135842b512e333a4602",
+        "cbf6b125a7d3e1ad"
+      ]
+    ],
+    "ack_delay_ms": [
+      816.032
+    ]
+  },
+  {
+    "start_ns": 1792886717413991300,
+    "end_ns": 1792886718246155800,
+    "result": "FAILURE",
+    "error": "ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=55801): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=55801) at 0x1db04f03f50>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))",
+    "ids": [
+      [
+        "e746a7c8d743b202192a89811ac7ab75",
+        "b9f45b24981dce37"
+      ]
+    ],
+    "ack_delay_ms": [
+      832.1645
+    ]
+  },
+  {
+    "start_ns": 1792886719080141300,
+    "end_ns": 1792886719911851200,
+    "result": "FAILURE",
+    "error": "ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=55801): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=55801) at 0x1db04f02390>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))",
+    "ids": [
+      [
+        "47e5f67e650f173ac00f1ce0979a6b9c",
+        "f1894cea8453d1e9"
+      ]
+    ],
+    "ack_delay_ms": [
+      831.7099
+    ]
+  },
+  {
+    "start_ns": 1792886720746873600,
+    "end_ns": 1792886721562611900,
+    "result": "FAILURE",
+    "error": "ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=55801): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=55801) at 0x1db052c85c0>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))",
+    "ids": [
+      [
+        "fa82c9162dd1d42b555dc5009da47c74",
+        "5caac5171aead958"
+      ]
+    ],
+    "ack_delay_ms": [
+      815.7383
+    ]
+  },
+  {
+    "start_ns": 1792886722396819000,
+    "end_ns": 1792886723213167500,
+    "result": "FAILURE",
+    "error": "ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=55801): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=55801) at 0x1db052c9d60>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))",
+    "ids": [
+      [
+        "e63916cca034ad9fed489a8e7957baa7",
+        "773a79590ce5d19a"
+      ]
+    ],
+    "ack_delay_ms": [
+      816.3485
+    ]
+  },
+  {
+    "start_ns": 1792886724035998900,
+    "end_ns": 1792886724845227800,
+    "result": "FAILURE",
+    "error": "ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=55801): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=55801) at 0x1db052caa50>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))",
+    "ids": [
+      [
+        "3c51e7b7ed4e9fb17e27d1694684813c",
+        "7d8f5bbb967fd3e5"
+      ]
+    ],
+    "ack_delay_ms": [
+      809.2289
+    ]
+  },
+  {
+    "start_ns": 1792886725696847900,
+    "end_ns": 1792886726511518100,
+    "result": "FAILURE",
+    "error": "ConnectTimeout: HTTPConnectionPool(host='127.0.0.1', port=55801): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=55801) at 0x1db04f03c20>, 'Connection to 127.0.0.1 timed out. (connect timeout=0.40000009536743164)'))",
+    "ids": [
+      [
+        "65f63dae9a1afcdb32969a17196a6ad0",
+        "7efc444e59f484ca"
+      ]
+    ],
+    "ack_delay_ms": [
+      814.6702
+    ]
+  }
+]

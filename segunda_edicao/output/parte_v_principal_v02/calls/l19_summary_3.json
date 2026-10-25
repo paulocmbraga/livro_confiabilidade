@@ -1,0 +1,102 @@
+{
+  "id": "l19_summary_3",
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Summarize in one short sentence: The authorized limit for episode3 is 60. Preserve the exact number."
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-qwen",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "schema": null
+  },
+  "config_sha256": "c4597602f3ce61a1aa48a17cdc86c065e0be05286555aebc75580eefc82d6ada",
+  "events": [
+    {
+      "seconds": 0.27925659995526075,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870991,\"id\":\"chatcmpl-3zgJ3HgEdegfXKfTXfx7ckdiEup0MXLi\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.27930499997455627,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"The\"}}],\"created\":1792870991,\"id\":\"chatcmpl-3zgJ3HgEdegfXKfTXfx7ckdiEup0MXLi\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.29870259994640946,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" authorized\"}}],\"created\":1792870991,\"id\":\"chatcmpl-3zgJ3HgEdegfXKfTXfx7ckdiEup0MXLi\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3163020999636501,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" limit\"}}],\"created\":1792870991,\"id\":\"chatcmpl-3zgJ3HgEdegfXKfTXfx7ckdiEup0MXLi\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3344350999686867,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" for\"}}],\"created\":1792870991,\"id\":\"chatcmpl-3zgJ3HgEdegfXKfTXfx7ckdiEup0MXLi\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.35060439992230386,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" episode\"}}],\"created\":1792870991,\"id\":\"chatcmpl-3zgJ3HgEdegfXKfTXfx7ckdiEup0MXLi\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.36621919996105134,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" \"}}],\"created\":1792870991,\"id\":\"chatcmpl-3zgJ3HgEdegfXKfTXfx7ckdiEup0MXLi\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.38165979995392263,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"3\"}}],\"created\":1792870991,\"id\":\"chatcmpl-3zgJ3HgEdegfXKfTXfx7ckdiEup0MXLi\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.39776920003350824,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" is\"}}],\"created\":1792870991,\"id\":\"chatcmpl-3zgJ3HgEdegfXKfTXfx7ckdiEup0MXLi\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.41282510000746697,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" \"}}],\"created\":1792870991,\"id\":\"chatcmpl-3zgJ3HgEdegfXKfTXfx7ckdiEup0MXLi\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.42933489999268204,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"6\"}}],\"created\":1792870991,\"id\":\"chatcmpl-3zgJ3HgEdegfXKfTXfx7ckdiEup0MXLi\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4449305000016466,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"0\"}}],\"created\":1792870991,\"id\":\"chatcmpl-3zgJ3HgEdegfXKfTXfx7ckdiEup0MXLi\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4621520999353379,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\".\"}}],\"created\":1792870991,\"id\":\"chatcmpl-3zgJ3HgEdegfXKfTXfx7ckdiEup0MXLi\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4800779999932274,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870991,\"id\":\"chatcmpl-3zgJ3HgEdegfXKfTXfx7ckdiEup0MXLi\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":51,\"prompt_ms\":275.776,\"prompt_per_token_ms\":5.407372549019608,\"prompt_per_second\":184.93269900208864,\"predicted_n\":13,\"predicted_ms\":200.848,\"predicted_per_token_ms\":16.737333333333336,\"predicted_per_second\":59.746674101808324}}"
+    },
+    {
+      "seconds": 0.48018089996185154,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "The authorized limit for episode 3 is 60.",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 12,
+  "ttft_seconds": 0.27931619994342327,
+  "seconds": 0.48038540000561625,
+  "injected_cut_after_content_events": null
+}

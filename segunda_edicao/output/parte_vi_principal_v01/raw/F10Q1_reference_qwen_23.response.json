@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"Teto de bagagem em trabalho de campo nacional com equipamento autorizado é R$ 160.\",\"citacoes\":[],\"abster\":true}"
+      }
+    }
+  ],
+  "created": 1792879136,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 41,
+    "prompt_tokens": 224,
+    "total_tokens": 265,
+    "prompt_tokens_details": {
+      "cached_tokens": 223
+    }
+  },
+  "id": "chatcmpl-UGGKMoCeiiQUur8LIK8N4ZPersQfw8bj",
+  "timings": {
+    "cache_n": 223,
+    "prompt_n": 1,
+    "prompt_ms": 16.201,
+    "prompt_per_token_ms": 16.201,
+    "prompt_per_second": 61.724584902166534,
+    "predicted_n": 41,
+    "predicted_ms": 869.936,
+    "predicted_per_token_ms": 21.7484,
+    "predicted_per_second": 45.98039396001545
+  }
+}

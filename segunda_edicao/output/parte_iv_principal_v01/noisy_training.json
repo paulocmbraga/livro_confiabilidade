@@ -1,0 +1,9302 @@
+[
+  {
+    "id": "adapt_train-0000",
+    "group": "regular",
+    "at": 50000,
+    "age": 22.06805658519321,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.061025650479203275,
+    "history": [
+      {
+        "id": "initial",
+        "event": 49980,
+        "available": 49990,
+        "queue": 11
+      },
+      {
+        "id": "late-correction",
+        "event": 49985,
+        "available": 50090,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50120,
+        "available": 50180,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50180
+  },
+  {
+    "id": "adapt_train-0001",
+    "group": "regular",
+    "at": 50010,
+    "age": 35.97420370377291,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.9781127570115701,
+    "history": [
+      {
+        "id": "initial",
+        "event": 49990,
+        "available": 50000,
+        "queue": 10
+      },
+      {
+        "id": "late-correction",
+        "event": 49995,
+        "available": 50100,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50130,
+        "available": 50190,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50190
+  },
+  {
+    "id": "adapt_train-0002",
+    "group": "regular",
+    "at": 50020,
+    "age": 13.552818999735688,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.40647411416021006,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50000,
+        "available": 50010,
+        "queue": 14
+      },
+      {
+        "id": "late-correction",
+        "event": 50005,
+        "available": 50110,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50140,
+        "available": 50200,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50200
+  },
+  {
+    "id": "adapt_train-0003",
+    "group": "vip",
+    "at": 50030,
+    "age": 24.227710521254906,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.49098769104515405,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50010,
+        "available": 50020,
+        "queue": 39
+      },
+      {
+        "id": "late-correction",
+        "event": 50015,
+        "available": 50120,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50150,
+        "available": 50210,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50210
+  },
+  {
+    "id": "adapt_train-0004",
+    "group": "regular",
+    "at": 50040,
+    "age": 8.900694924712772,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.14111760170333987,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50020,
+        "available": 50030,
+        "queue": 12
+      },
+      {
+        "id": "late-correction",
+        "event": 50025,
+        "available": 50130,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50160,
+        "available": 50220,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50220
+  },
+  {
+    "id": "adapt_train-0005",
+    "group": "regular",
+    "at": 50050,
+    "age": 43.0440473961819,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.19145634885103602,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50030,
+        "available": 50040,
+        "queue": 28
+      },
+      {
+        "id": "late-correction",
+        "event": 50035,
+        "available": 50140,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50170,
+        "available": 50230,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50230
+  },
+  {
+    "id": "adapt_train-0006",
+    "group": "regular",
+    "at": 50060,
+    "age": 9.645362995131942,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.2974434756591331,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50040,
+        "available": 50050,
+        "queue": 7
+      },
+      {
+        "id": "late-correction",
+        "event": 50045,
+        "available": 50150,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50180,
+        "available": 50240,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50240
+  },
+  {
+    "id": "adapt_train-0007",
+    "group": "regular",
+    "at": 50070,
+    "age": null,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.40699777525711966,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50050,
+        "available": 50060,
+        "queue": 2
+      },
+      {
+        "id": "late-correction",
+        "event": 50055,
+        "available": 50160,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50190,
+        "available": 50250,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50250
+  },
+  {
+    "id": "adapt_train-0008",
+    "group": "regular",
+    "at": 50080,
+    "age": 32.55498163418288,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.027347404894970007,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50060,
+        "available": 50070,
+        "queue": 29
+      },
+      {
+        "id": "late-correction",
+        "event": 50065,
+        "available": 50170,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50200,
+        "available": 50260,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50260
+  },
+  {
+    "id": "adapt_train-0009",
+    "group": "regular",
+    "at": 50090,
+    "age": 8.100235676595373,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.4488683251710468,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50070,
+        "available": 50080,
+        "queue": 7
+      },
+      {
+        "id": "late-correction",
+        "event": 50075,
+        "available": 50180,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50210,
+        "available": 50270,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50270
+  },
+  {
+    "id": "adapt_train-0010",
+    "group": "regular",
+    "at": 50100,
+    "age": 20.648304821567017,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.33255000459877937,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50080,
+        "available": 50090,
+        "queue": 22
+      },
+      {
+        "id": "late-correction",
+        "event": 50085,
+        "available": 50190,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50220,
+        "available": 50280,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50280
+  },
+  {
+    "id": "adapt_train-0011",
+    "group": "regular",
+    "at": 50110,
+    "age": null,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.2510948635617334,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50090,
+        "available": 50100,
+        "queue": 28
+      },
+      {
+        "id": "late-correction",
+        "event": 50095,
+        "available": 50200,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50230,
+        "available": 50290,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50290
+  },
+  {
+    "id": "adapt_train-0012",
+    "group": "vip",
+    "at": 50120,
+    "age": 47.40288720785607,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.23882230894238554,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50100,
+        "available": 50110,
+        "queue": 5
+      },
+      {
+        "id": "late-correction",
+        "event": 50105,
+        "available": 50210,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50240,
+        "available": 50300,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 50300
+  },
+  {
+    "id": "adapt_train-0013",
+    "group": "vip",
+    "at": 50130,
+    "age": 38.38413201520004,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.5573229680878138,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50110,
+        "available": 50120,
+        "queue": 3
+      },
+      {
+        "id": "late-correction",
+        "event": 50115,
+        "available": 50220,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50250,
+        "available": 50310,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50310
+  },
+  {
+    "id": "adapt_train-0014",
+    "group": "regular",
+    "at": 50140,
+    "age": 26.620892432561444,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.9896771129621602,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50120,
+        "available": 50130,
+        "queue": 27
+      },
+      {
+        "id": "late-correction",
+        "event": 50125,
+        "available": 50230,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50260,
+        "available": 50320,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50320
+  },
+  {
+    "id": "adapt_train-0015",
+    "group": "regular",
+    "at": 50150,
+    "age": 47.82698736148171,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.6810003170441756,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50130,
+        "available": 50140,
+        "queue": 28
+      },
+      {
+        "id": "late-correction",
+        "event": 50135,
+        "available": 50240,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50270,
+        "available": 50330,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50330
+  },
+  {
+    "id": "adapt_train-0016",
+    "group": "regular",
+    "at": 50160,
+    "age": 15.553992069194617,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.7739842603338135,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50140,
+        "available": 50150,
+        "queue": 12
+      },
+      {
+        "id": "late-correction",
+        "event": 50145,
+        "available": 50250,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50280,
+        "available": 50340,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50340
+  },
+  {
+    "id": "adapt_train-0017",
+    "group": "vip",
+    "at": 50170,
+    "age": 28.670163236906085,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.37075368391606156,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50150,
+        "available": 50160,
+        "queue": 0
+      },
+      {
+        "id": "late-correction",
+        "event": 50155,
+        "available": 50260,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50290,
+        "available": 50350,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50350
+  },
+  {
+    "id": "adapt_train-0018",
+    "group": "regular",
+    "at": 50180,
+    "age": 26.18642799932747,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.6013475098433225,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50160,
+        "available": 50170,
+        "queue": 17
+      },
+      {
+        "id": "late-correction",
+        "event": 50165,
+        "available": 50270,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50300,
+        "available": 50360,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50360
+  },
+  {
+    "id": "adapt_train-0019",
+    "group": "regular",
+    "at": 50190,
+    "age": 20.83384749325601,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.8225532095225335,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50170,
+        "available": 50180,
+        "queue": 15
+      },
+      {
+        "id": "late-correction",
+        "event": 50175,
+        "available": 50280,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50310,
+        "available": 50370,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50370
+  },
+  {
+    "id": "adapt_train-0020",
+    "group": "vip",
+    "at": 50200,
+    "age": 41.77274650699386,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.550237486955218,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50180,
+        "available": 50190,
+        "queue": 14
+      },
+      {
+        "id": "late-correction",
+        "event": 50185,
+        "available": 50290,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50320,
+        "available": 50380,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 50380
+  },
+  {
+    "id": "adapt_train-0021",
+    "group": "vip",
+    "at": 50210,
+    "age": 2.877709451583655,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.7819414088460159,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50190,
+        "available": 50200,
+        "queue": 34
+      },
+      {
+        "id": "late-correction",
+        "event": 50195,
+        "available": 50300,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50330,
+        "available": 50390,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50390
+  },
+  {
+    "id": "adapt_train-0022",
+    "group": "regular",
+    "at": 50220,
+    "age": 16.12277326735645,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.15622152026931546,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50200,
+        "available": 50210,
+        "queue": 12
+      },
+      {
+        "id": "late-correction",
+        "event": 50205,
+        "available": 50310,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50340,
+        "available": 50400,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50400
+  },
+  {
+    "id": "adapt_train-0023",
+    "group": "regular",
+    "at": 50230,
+    "age": null,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.6099775291556097,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50210,
+        "available": 50220,
+        "queue": 12
+      },
+      {
+        "id": "late-correction",
+        "event": 50215,
+        "available": 50320,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50350,
+        "available": 50410,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50410
+  },
+  {
+    "id": "adapt_train-0024",
+    "group": "regular",
+    "at": 50240,
+    "age": 40.97297012932688,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.4310373115974502,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50220,
+        "available": 50230,
+        "queue": 4
+      },
+      {
+        "id": "late-correction",
+        "event": 50225,
+        "available": 50330,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50360,
+        "available": 50420,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50420
+  },
+  {
+    "id": "adapt_train-0025",
+    "group": "regular",
+    "at": 50250,
+    "age": 36.62722536815107,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.14379003381643418,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50230,
+        "available": 50240,
+        "queue": 7
+      },
+      {
+        "id": "late-correction",
+        "event": 50235,
+        "available": 50340,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50370,
+        "available": 50430,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50430
+  },
+  {
+    "id": "adapt_train-0026",
+    "group": "vip",
+    "at": 50260,
+    "age": 3.7309704252813667,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.04706577522345523,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50240,
+        "available": 50250,
+        "queue": 12
+      },
+      {
+        "id": "late-correction",
+        "event": 50245,
+        "available": 50350,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50380,
+        "available": 50440,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 50440
+  },
+  {
+    "id": "adapt_train-0027",
+    "group": "regular",
+    "at": 50270,
+    "age": 28.847723890556637,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.03704198659815838,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50250,
+        "available": 50260,
+        "queue": 36
+      },
+      {
+        "id": "late-correction",
+        "event": 50255,
+        "available": 50360,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50390,
+        "available": 50450,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50450
+  },
+  {
+    "id": "adapt_train-0028",
+    "group": "regular",
+    "at": 50280,
+    "age": 22.76097760830777,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.41004301775203766,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50260,
+        "available": 50270,
+        "queue": 2
+      },
+      {
+        "id": "late-correction",
+        "event": 50265,
+        "available": 50370,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50400,
+        "available": 50460,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50460
+  },
+  {
+    "id": "adapt_train-0029",
+    "group": "vip",
+    "at": 50290,
+    "age": 12.271740546069795,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.4893024417796161,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50270,
+        "available": 50280,
+        "queue": 16
+      },
+      {
+        "id": "late-correction",
+        "event": 50275,
+        "available": 50380,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50410,
+        "available": 50470,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50470
+  },
+  {
+    "id": "adapt_train-0030",
+    "group": "regular",
+    "at": 50300,
+    "age": 7.770270997055771,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.092696132870975,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50280,
+        "available": 50290,
+        "queue": 7
+      },
+      {
+        "id": "late-correction",
+        "event": 50285,
+        "available": 50390,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50420,
+        "available": 50480,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50480
+  },
+  {
+    "id": "adapt_train-0031",
+    "group": "regular",
+    "at": 50310,
+    "age": 0.6676464022599475,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.7492587355508195,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50290,
+        "available": 50300,
+        "queue": 17
+      },
+      {
+        "id": "late-correction",
+        "event": 50295,
+        "available": 50400,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50430,
+        "available": 50490,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50490
+  },
+  {
+    "id": "adapt_train-0032",
+    "group": "regular",
+    "at": 50320,
+    "age": 35.68802050798398,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.49766352792256596,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50300,
+        "available": 50310,
+        "queue": 29
+      },
+      {
+        "id": "late-correction",
+        "event": 50305,
+        "available": 50410,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50440,
+        "available": 50500,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50500
+  },
+  {
+    "id": "adapt_train-0033",
+    "group": "regular",
+    "at": 50330,
+    "age": 7.708478516821467,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.38841764001714674,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50310,
+        "available": 50320,
+        "queue": 16
+      },
+      {
+        "id": "late-correction",
+        "event": 50315,
+        "available": 50420,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50450,
+        "available": 50510,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50510
+  },
+  {
+    "id": "adapt_train-0034",
+    "group": "regular",
+    "at": 50340,
+    "age": 41.8831855287683,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.5682118841173176,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50320,
+        "available": 50330,
+        "queue": 38
+      },
+      {
+        "id": "late-correction",
+        "event": 50325,
+        "available": 50430,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50460,
+        "available": 50520,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50520
+  },
+  {
+    "id": "adapt_train-0035",
+    "group": "regular",
+    "at": 50350,
+    "age": 1.503170008874033,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.10656081133802031,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50330,
+        "available": 50340,
+        "queue": 15
+      },
+      {
+        "id": "late-correction",
+        "event": 50335,
+        "available": 50440,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50470,
+        "available": 50530,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50530
+  },
+  {
+    "id": "adapt_train-0036",
+    "group": "vip",
+    "at": 50360,
+    "age": null,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.7853434288473983,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50340,
+        "available": 50350,
+        "queue": 32
+      },
+      {
+        "id": "late-correction",
+        "event": 50345,
+        "available": 50450,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50480,
+        "available": 50540,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 50540
+  },
+  {
+    "id": "adapt_train-0037",
+    "group": "regular",
+    "at": 50370,
+    "age": 0.2825610262287839,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.6314999636578809,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50350,
+        "available": 50360,
+        "queue": 8
+      },
+      {
+        "id": "late-correction",
+        "event": 50355,
+        "available": 50460,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50490,
+        "available": 50550,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50550
+  },
+  {
+    "id": "adapt_train-0038",
+    "group": "regular",
+    "at": 50380,
+    "age": 38.41005262266751,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.7013152040702288,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50360,
+        "available": 50370,
+        "queue": 29
+      },
+      {
+        "id": "late-correction",
+        "event": 50365,
+        "available": 50470,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50500,
+        "available": 50560,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50560
+  },
+  {
+    "id": "adapt_train-0039",
+    "group": "regular",
+    "at": 50390,
+    "age": null,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.9868717138998674,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50370,
+        "available": 50380,
+        "queue": 17
+      },
+      {
+        "id": "late-correction",
+        "event": 50375,
+        "available": 50480,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50510,
+        "available": 50570,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50570
+  },
+  {
+    "id": "adapt_train-0040",
+    "group": "regular",
+    "at": 50400,
+    "age": 19.66042155307113,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.34738254955637626,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50380,
+        "available": 50390,
+        "queue": 2
+      },
+      {
+        "id": "late-correction",
+        "event": 50385,
+        "available": 50490,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50520,
+        "available": 50580,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50580
+  },
+  {
+    "id": "adapt_train-0041",
+    "group": "regular",
+    "at": 50410,
+    "age": 18.71919281259768,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.5041319629413471,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50390,
+        "available": 50400,
+        "queue": 37
+      },
+      {
+        "id": "late-correction",
+        "event": 50395,
+        "available": 50500,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50530,
+        "available": 50590,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50590
+  },
+  {
+    "id": "adapt_train-0042",
+    "group": "vip",
+    "at": 50420,
+    "age": 9.6370483495027,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.18160982768720701,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50400,
+        "available": 50410,
+        "queue": 18
+      },
+      {
+        "id": "late-correction",
+        "event": 50405,
+        "available": 50510,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50540,
+        "available": 50600,
+        "queue": 40
+      }
+    ],
+    "y": 0,
+    "label_available": 50600
+  },
+  {
+    "id": "adapt_train-0043",
+    "group": "regular",
+    "at": 50430,
+    "age": 4.792252643739928,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.933279409760749,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50410,
+        "available": 50420,
+        "queue": 21
+      },
+      {
+        "id": "late-correction",
+        "event": 50415,
+        "available": 50520,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50550,
+        "available": 50610,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50610
+  },
+  {
+    "id": "adapt_train-0044",
+    "group": "regular",
+    "at": 50440,
+    "age": null,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.9195157587098822,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50420,
+        "available": 50430,
+        "queue": 20
+      },
+      {
+        "id": "late-correction",
+        "event": 50425,
+        "available": 50530,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50560,
+        "available": 50620,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50620
+  },
+  {
+    "id": "adapt_train-0045",
+    "group": "regular",
+    "at": 50450,
+    "age": 45.16844701327159,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.12765026693838855,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50430,
+        "available": 50440,
+        "queue": 31
+      },
+      {
+        "id": "late-correction",
+        "event": 50435,
+        "available": 50540,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50570,
+        "available": 50630,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50630
+  },
+  {
+    "id": "adapt_train-0046",
+    "group": "regular",
+    "at": 50460,
+    "age": 44.779379246929864,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8791354031200207,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50440,
+        "available": 50450,
+        "queue": 25
+      },
+      {
+        "id": "late-correction",
+        "event": 50445,
+        "available": 50550,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50580,
+        "available": 50640,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50640
+  },
+  {
+    "id": "adapt_train-0047",
+    "group": "regular",
+    "at": 50470,
+    "age": 20.77147920629412,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.16728484134975163,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50450,
+        "available": 50460,
+        "queue": 26
+      },
+      {
+        "id": "late-correction",
+        "event": 50455,
+        "available": 50560,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50590,
+        "available": 50650,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50650
+  },
+  {
+    "id": "adapt_train-0048",
+    "group": "regular",
+    "at": 50480,
+    "age": 13.113530146006466,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.9049675468499747,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50460,
+        "available": 50470,
+        "queue": 14
+      },
+      {
+        "id": "late-correction",
+        "event": 50465,
+        "available": 50570,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50600,
+        "available": 50660,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50660
+  },
+  {
+    "id": "adapt_train-0049",
+    "group": "vip",
+    "at": 50490,
+    "age": 24.86704382173013,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.6481919637426987,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50470,
+        "available": 50480,
+        "queue": 30
+      },
+      {
+        "id": "late-correction",
+        "event": 50475,
+        "available": 50580,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50610,
+        "available": 50670,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50670
+  },
+  {
+    "id": "adapt_train-0050",
+    "group": "vip",
+    "at": 50500,
+    "age": 31.283293733087653,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.3270269182753769,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50480,
+        "available": 50490,
+        "queue": 18
+      },
+      {
+        "id": "late-correction",
+        "event": 50485,
+        "available": 50590,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50620,
+        "available": 50680,
+        "queue": 40
+      }
+    ],
+    "y": 0,
+    "label_available": 50680
+  },
+  {
+    "id": "adapt_train-0051",
+    "group": "regular",
+    "at": 50510,
+    "age": 11.37437387747156,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.16001607142412821,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50490,
+        "available": 50500,
+        "queue": 35
+      },
+      {
+        "id": "late-correction",
+        "event": 50495,
+        "available": 50600,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50630,
+        "available": 50690,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50690
+  },
+  {
+    "id": "adapt_train-0052",
+    "group": "regular",
+    "at": 50520,
+    "age": 32.60351951752844,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.22642057934207038,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50500,
+        "available": 50510,
+        "queue": 30
+      },
+      {
+        "id": "late-correction",
+        "event": 50505,
+        "available": 50610,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50640,
+        "available": 50700,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50700
+  },
+  {
+    "id": "adapt_train-0053",
+    "group": "regular",
+    "at": 50530,
+    "age": 30.170517239601928,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.5427466183796557,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50510,
+        "available": 50520,
+        "queue": 6
+      },
+      {
+        "id": "late-correction",
+        "event": 50515,
+        "available": 50620,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50650,
+        "available": 50710,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50710
+  },
+  {
+    "id": "adapt_train-0054",
+    "group": "regular",
+    "at": 50540,
+    "age": 25.02971796132468,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8243957688211091,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50520,
+        "available": 50530,
+        "queue": 13
+      },
+      {
+        "id": "late-correction",
+        "event": 50525,
+        "available": 50630,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50660,
+        "available": 50720,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50720
+  },
+  {
+    "id": "adapt_train-0055",
+    "group": "regular",
+    "at": 50550,
+    "age": 21.476585353727707,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.38122806282560806,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50530,
+        "available": 50540,
+        "queue": 16
+      },
+      {
+        "id": "late-correction",
+        "event": 50535,
+        "available": 50640,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50670,
+        "available": 50730,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50730
+  },
+  {
+    "id": "adapt_train-0056",
+    "group": "regular",
+    "at": 50560,
+    "age": 21.573973268734285,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.5595019133507438,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50540,
+        "available": 50550,
+        "queue": 6
+      },
+      {
+        "id": "late-correction",
+        "event": 50545,
+        "available": 50650,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50680,
+        "available": 50740,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50740
+  },
+  {
+    "id": "adapt_train-0057",
+    "group": "vip",
+    "at": 50570,
+    "age": 9.30326325635573,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.07392033049858626,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50550,
+        "available": 50560,
+        "queue": 17
+      },
+      {
+        "id": "late-correction",
+        "event": 50555,
+        "available": 50660,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50690,
+        "available": 50750,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50750
+  },
+  {
+    "id": "adapt_train-0058",
+    "group": "regular",
+    "at": 50580,
+    "age": 6.055391315671763,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.730630657455858,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50560,
+        "available": 50570,
+        "queue": 23
+      },
+      {
+        "id": "late-correction",
+        "event": 50565,
+        "available": 50670,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50700,
+        "available": 50760,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50760
+  },
+  {
+    "id": "adapt_train-0059",
+    "group": "regular",
+    "at": 50590,
+    "age": 45.23322436773553,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.24193510392259965,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50570,
+        "available": 50580,
+        "queue": 24
+      },
+      {
+        "id": "late-correction",
+        "event": 50575,
+        "available": 50680,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50710,
+        "available": 50770,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50770
+  },
+  {
+    "id": "adapt_train-0060",
+    "group": "vip",
+    "at": 50600,
+    "age": 36.091198309438596,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8265304967632633,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50580,
+        "available": 50590,
+        "queue": 8
+      },
+      {
+        "id": "late-correction",
+        "event": 50585,
+        "available": 50690,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50720,
+        "available": 50780,
+        "queue": 40
+      }
+    ],
+    "y": 0,
+    "label_available": 50780
+  },
+  {
+    "id": "adapt_train-0061",
+    "group": "regular",
+    "at": 50610,
+    "age": 28.602253236176633,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.7752844526007373,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50590,
+        "available": 50600,
+        "queue": 28
+      },
+      {
+        "id": "late-correction",
+        "event": 50595,
+        "available": 50700,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50730,
+        "available": 50790,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50790
+  },
+  {
+    "id": "adapt_train-0062",
+    "group": "regular",
+    "at": 50620,
+    "age": 39.65021056587669,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.29764097478804485,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50600,
+        "available": 50610,
+        "queue": 19
+      },
+      {
+        "id": "late-correction",
+        "event": 50605,
+        "available": 50710,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50740,
+        "available": 50800,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50800
+  },
+  {
+    "id": "adapt_train-0063",
+    "group": "regular",
+    "at": 50630,
+    "age": 13.77688872656171,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.652575792406964,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50610,
+        "available": 50620,
+        "queue": 31
+      },
+      {
+        "id": "late-correction",
+        "event": 50615,
+        "available": 50720,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50750,
+        "available": 50810,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50810
+  },
+  {
+    "id": "adapt_train-0064",
+    "group": "regular",
+    "at": 50640,
+    "age": 5.189173694834809,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.4890267660932779,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50620,
+        "available": 50630,
+        "queue": 4
+      },
+      {
+        "id": "late-correction",
+        "event": 50625,
+        "available": 50730,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50760,
+        "available": 50820,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50820
+  },
+  {
+    "id": "adapt_train-0065",
+    "group": "vip",
+    "at": 50650,
+    "age": 40.9229490847291,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.6062648514257607,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50630,
+        "available": 50640,
+        "queue": 24
+      },
+      {
+        "id": "late-correction",
+        "event": 50635,
+        "available": 50740,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50770,
+        "available": 50830,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50830
+  },
+  {
+    "id": "adapt_train-0066",
+    "group": "regular",
+    "at": 50660,
+    "age": 5.474300075268667,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.5157496819537507,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50640,
+        "available": 50650,
+        "queue": 9
+      },
+      {
+        "id": "late-correction",
+        "event": 50645,
+        "available": 50750,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50780,
+        "available": 50840,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50840
+  },
+  {
+    "id": "adapt_train-0067",
+    "group": "vip",
+    "at": 50670,
+    "age": 16.82524634450253,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.11453619400909043,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50650,
+        "available": 50660,
+        "queue": 39
+      },
+      {
+        "id": "late-correction",
+        "event": 50655,
+        "available": 50760,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50790,
+        "available": 50850,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50850
+  },
+  {
+    "id": "adapt_train-0068",
+    "group": "regular",
+    "at": 50680,
+    "age": 26.948923617994865,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8641310450499847,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50660,
+        "available": 50670,
+        "queue": 32
+      },
+      {
+        "id": "late-correction",
+        "event": 50665,
+        "available": 50770,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50800,
+        "available": 50860,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50860
+  },
+  {
+    "id": "adapt_train-0069",
+    "group": "regular",
+    "at": 50690,
+    "age": 1.033275814565613,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.14257451116648823,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50670,
+        "available": 50680,
+        "queue": 33
+      },
+      {
+        "id": "late-correction",
+        "event": 50675,
+        "available": 50780,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50810,
+        "available": 50870,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50870
+  },
+  {
+    "id": "adapt_train-0070",
+    "group": "regular",
+    "at": 50700,
+    "age": 0.9428937801230433,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.5571909303461944,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50680,
+        "available": 50690,
+        "queue": 25
+      },
+      {
+        "id": "late-correction",
+        "event": 50685,
+        "available": 50790,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50820,
+        "available": 50880,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50880
+  },
+  {
+    "id": "adapt_train-0071",
+    "group": "regular",
+    "at": 50710,
+    "age": 12.623645696177421,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.9414126546985794,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50690,
+        "available": 50700,
+        "queue": 28
+      },
+      {
+        "id": "late-correction",
+        "event": 50695,
+        "available": 50800,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50830,
+        "available": 50890,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50890
+  },
+  {
+    "id": "adapt_train-0072",
+    "group": "vip",
+    "at": 50720,
+    "age": 15.03234300781441,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.34983493782807074,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50700,
+        "available": 50710,
+        "queue": 9
+      },
+      {
+        "id": "late-correction",
+        "event": 50705,
+        "available": 50810,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50840,
+        "available": 50900,
+        "queue": 40
+      }
+    ],
+    "y": 0,
+    "label_available": 50900
+  },
+  {
+    "id": "adapt_train-0073",
+    "group": "vip",
+    "at": 50730,
+    "age": 43.824863886077786,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.11962224151923184,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50710,
+        "available": 50720,
+        "queue": 27
+      },
+      {
+        "id": "late-correction",
+        "event": 50715,
+        "available": 50820,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50850,
+        "available": 50910,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50910
+  },
+  {
+    "id": "adapt_train-0074",
+    "group": "regular",
+    "at": 50740,
+    "age": 26.12484260562554,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.042270461177430274,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50720,
+        "available": 50730,
+        "queue": 17
+      },
+      {
+        "id": "late-correction",
+        "event": 50725,
+        "available": 50830,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50860,
+        "available": 50920,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50920
+  },
+  {
+    "id": "adapt_train-0075",
+    "group": "regular",
+    "at": 50750,
+    "age": 40.42296444266286,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.06599173991301821,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50730,
+        "available": 50740,
+        "queue": 34
+      },
+      {
+        "id": "late-correction",
+        "event": 50735,
+        "available": 50840,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50870,
+        "available": 50930,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50930
+  },
+  {
+    "id": "adapt_train-0076",
+    "group": "regular",
+    "at": 50760,
+    "age": 37.95343366504408,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.2748181656318478,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50740,
+        "available": 50750,
+        "queue": 36
+      },
+      {
+        "id": "late-correction",
+        "event": 50745,
+        "available": 50850,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50880,
+        "available": 50940,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50940
+  },
+  {
+    "id": "adapt_train-0077",
+    "group": "regular",
+    "at": 50770,
+    "age": 41.309310370338565,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.17707251952925684,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50750,
+        "available": 50760,
+        "queue": 11
+      },
+      {
+        "id": "late-correction",
+        "event": 50755,
+        "available": 50860,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50890,
+        "available": 50950,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50950
+  },
+  {
+    "id": "adapt_train-0078",
+    "group": "regular",
+    "at": 50780,
+    "age": 29.887401375963464,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.16848967487197253,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50760,
+        "available": 50770,
+        "queue": 16
+      },
+      {
+        "id": "late-correction",
+        "event": 50765,
+        "available": 50870,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50900,
+        "available": 50960,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50960
+  },
+  {
+    "id": "adapt_train-0079",
+    "group": "regular",
+    "at": 50790,
+    "age": 3.3953550539695296,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.9812836515260627,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50770,
+        "available": 50780,
+        "queue": 32
+      },
+      {
+        "id": "late-correction",
+        "event": 50775,
+        "available": 50880,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50910,
+        "available": 50970,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 50970
+  },
+  {
+    "id": "adapt_train-0080",
+    "group": "vip",
+    "at": 50800,
+    "age": 4.878915995134999,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.07510201891171098,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50780,
+        "available": 50790,
+        "queue": 27
+      },
+      {
+        "id": "late-correction",
+        "event": 50785,
+        "available": 50890,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50920,
+        "available": 50980,
+        "queue": 40
+      }
+    ],
+    "y": 0,
+    "label_available": 50980
+  },
+  {
+    "id": "adapt_train-0081",
+    "group": "regular",
+    "at": 50810,
+    "age": 46.402254924033244,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.25207897522527367,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50790,
+        "available": 50800,
+        "queue": 8
+      },
+      {
+        "id": "late-correction",
+        "event": 50795,
+        "available": 50900,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50930,
+        "available": 50990,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 50990
+  },
+  {
+    "id": "adapt_train-0082",
+    "group": "vip",
+    "at": 50820,
+    "age": 24.431058450809942,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.3383174309145286,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50800,
+        "available": 50810,
+        "queue": 28
+      },
+      {
+        "id": "late-correction",
+        "event": 50805,
+        "available": 50910,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50940,
+        "available": 51000,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 51000
+  },
+  {
+    "id": "adapt_train-0083",
+    "group": "regular",
+    "at": 50830,
+    "age": 31.12086391222845,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.18790198530766133,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50810,
+        "available": 50820,
+        "queue": 28
+      },
+      {
+        "id": "late-correction",
+        "event": 50815,
+        "available": 50920,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50950,
+        "available": 51010,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51010
+  },
+  {
+    "id": "adapt_train-0084",
+    "group": "regular",
+    "at": 50840,
+    "age": 1.8820802596308646,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.947399535458353,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50820,
+        "available": 50830,
+        "queue": 34
+      },
+      {
+        "id": "late-correction",
+        "event": 50825,
+        "available": 50930,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50960,
+        "available": 51020,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51020
+  },
+  {
+    "id": "adapt_train-0085",
+    "group": "regular",
+    "at": 50850,
+    "age": 31.618883154910787,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.7668194505709482,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50830,
+        "available": 50840,
+        "queue": 7
+      },
+      {
+        "id": "late-correction",
+        "event": 50835,
+        "available": 50940,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50970,
+        "available": 51030,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51030
+  },
+  {
+    "id": "adapt_train-0086",
+    "group": "regular",
+    "at": 50860,
+    "age": 15.302731282344707,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.2062788142288431,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50840,
+        "available": 50850,
+        "queue": 10
+      },
+      {
+        "id": "late-correction",
+        "event": 50845,
+        "available": 50950,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 50980,
+        "available": 51040,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51040
+  },
+  {
+    "id": "adapt_train-0087",
+    "group": "regular",
+    "at": 50870,
+    "age": 41.538756498962286,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.02824305404289562,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50850,
+        "available": 50860,
+        "queue": 12
+      },
+      {
+        "id": "late-correction",
+        "event": 50855,
+        "available": 50960,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 50990,
+        "available": 51050,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51050
+  },
+  {
+    "id": "adapt_train-0088",
+    "group": "vip",
+    "at": 50880,
+    "age": 17.072872181305456,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.8098753662534646,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50860,
+        "available": 50870,
+        "queue": 8
+      },
+      {
+        "id": "late-correction",
+        "event": 50865,
+        "available": 50970,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51000,
+        "available": 51060,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 51060
+  },
+  {
+    "id": "adapt_train-0089",
+    "group": "regular",
+    "at": 50890,
+    "age": 1.3413191808825378,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.3299714338781221,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50870,
+        "available": 50880,
+        "queue": 29
+      },
+      {
+        "id": "late-correction",
+        "event": 50875,
+        "available": 50980,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51010,
+        "available": 51070,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51070
+  },
+  {
+    "id": "adapt_train-0090",
+    "group": "regular",
+    "at": 50900,
+    "age": 34.58129041784664,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.44293452112654597,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50880,
+        "available": 50890,
+        "queue": 13
+      },
+      {
+        "id": "late-correction",
+        "event": 50885,
+        "available": 50990,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51020,
+        "available": 51080,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51080
+  },
+  {
+    "id": "adapt_train-0091",
+    "group": "regular",
+    "at": 50910,
+    "age": 4.943463666242993,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.018516895302686853,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50890,
+        "available": 50900,
+        "queue": 37
+      },
+      {
+        "id": "late-correction",
+        "event": 50895,
+        "available": 51000,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51030,
+        "available": 51090,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51090
+  },
+  {
+    "id": "adapt_train-0092",
+    "group": "regular",
+    "at": 50920,
+    "age": 17.349148070241334,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.34475101508788975,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50900,
+        "available": 50910,
+        "queue": 21
+      },
+      {
+        "id": "late-correction",
+        "event": 50905,
+        "available": 51010,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51040,
+        "available": 51100,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51100
+  },
+  {
+    "id": "adapt_train-0093",
+    "group": "regular",
+    "at": 50930,
+    "age": 42.30147868245734,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.41116901764202696,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50910,
+        "available": 50920,
+        "queue": 16
+      },
+      {
+        "id": "late-correction",
+        "event": 50915,
+        "available": 51020,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51050,
+        "available": 51110,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51110
+  },
+  {
+    "id": "adapt_train-0094",
+    "group": "vip",
+    "at": 50940,
+    "age": 12.83378562719636,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.9459408536955771,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50920,
+        "available": 50930,
+        "queue": 12
+      },
+      {
+        "id": "late-correction",
+        "event": 50925,
+        "available": 51030,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51060,
+        "available": 51120,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 51120
+  },
+  {
+    "id": "adapt_train-0095",
+    "group": "vip",
+    "at": 50950,
+    "age": 36.45074602200349,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.4883204826024107,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50930,
+        "available": 50940,
+        "queue": 35
+      },
+      {
+        "id": "late-correction",
+        "event": 50935,
+        "available": 51040,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51070,
+        "available": 51130,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51130
+  },
+  {
+    "id": "adapt_train-0096",
+    "group": "regular",
+    "at": 50960,
+    "age": 38.49172605026861,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.6163811972773314,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50940,
+        "available": 50950,
+        "queue": 8
+      },
+      {
+        "id": "late-correction",
+        "event": 50945,
+        "available": 51050,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51080,
+        "available": 51140,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51140
+  },
+  {
+    "id": "adapt_train-0097",
+    "group": "vip",
+    "at": 50970,
+    "age": 7.6292114317527435,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.2826200427695482,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50950,
+        "available": 50960,
+        "queue": 21
+      },
+      {
+        "id": "late-correction",
+        "event": 50955,
+        "available": 51060,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51090,
+        "available": 51150,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51150
+  },
+  {
+    "id": "adapt_train-0098",
+    "group": "regular",
+    "at": 50980,
+    "age": 33.96431663919849,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.590801548231788,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50960,
+        "available": 50970,
+        "queue": 40
+      },
+      {
+        "id": "late-correction",
+        "event": 50965,
+        "available": 51070,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51100,
+        "available": 51160,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51160
+  },
+  {
+    "id": "adapt_train-0099",
+    "group": "vip",
+    "at": 50990,
+    "age": 3.179583509087358,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.05880101417268768,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50970,
+        "available": 50980,
+        "queue": 1
+      },
+      {
+        "id": "late-correction",
+        "event": 50975,
+        "available": 51080,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51110,
+        "available": 51170,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51170
+  },
+  {
+    "id": "adapt_train-0100",
+    "group": "regular",
+    "at": 51000,
+    "age": 3.2053244922965796,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.7428091420628444,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50980,
+        "available": 50990,
+        "queue": 34
+      },
+      {
+        "id": "late-correction",
+        "event": 50985,
+        "available": 51090,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51120,
+        "available": 51180,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51180
+  },
+  {
+    "id": "adapt_train-0101",
+    "group": "vip",
+    "at": 51010,
+    "age": 2.3319281312158324,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.31507970504529703,
+    "history": [
+      {
+        "id": "initial",
+        "event": 50990,
+        "available": 51000,
+        "queue": 39
+      },
+      {
+        "id": "late-correction",
+        "event": 50995,
+        "available": 51100,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51130,
+        "available": 51190,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51190
+  },
+  {
+    "id": "adapt_train-0102",
+    "group": "regular",
+    "at": 51020,
+    "age": 13.018646153078912,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.7086777122730353,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51000,
+        "available": 51010,
+        "queue": 1
+      },
+      {
+        "id": "late-correction",
+        "event": 51005,
+        "available": 51110,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51140,
+        "available": 51200,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51200
+  },
+  {
+    "id": "adapt_train-0103",
+    "group": "regular",
+    "at": 51030,
+    "age": 14.740487747171533,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.7213682815082092,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51010,
+        "available": 51020,
+        "queue": 36
+      },
+      {
+        "id": "late-correction",
+        "event": 51015,
+        "available": 51120,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51150,
+        "available": 51210,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51210
+  },
+  {
+    "id": "adapt_train-0104",
+    "group": "regular",
+    "at": 51040,
+    "age": 27.081321234082075,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.5112346243839053,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51020,
+        "available": 51030,
+        "queue": 3
+      },
+      {
+        "id": "late-correction",
+        "event": 51025,
+        "available": 51130,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51160,
+        "available": 51220,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51220
+  },
+  {
+    "id": "adapt_train-0105",
+    "group": "regular",
+    "at": 51050,
+    "age": 34.12390235544997,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.36401421609031337,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51030,
+        "available": 51040,
+        "queue": 27
+      },
+      {
+        "id": "late-correction",
+        "event": 51035,
+        "available": 51140,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51170,
+        "available": 51230,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51230
+  },
+  {
+    "id": "adapt_train-0106",
+    "group": "regular",
+    "at": 51060,
+    "age": 28.794185644033625,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.21494636287513602,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51040,
+        "available": 51050,
+        "queue": 36
+      },
+      {
+        "id": "late-correction",
+        "event": 51045,
+        "available": 51150,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51180,
+        "available": 51240,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51240
+  },
+  {
+    "id": "adapt_train-0107",
+    "group": "regular",
+    "at": 51070,
+    "age": 14.929327676428741,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.11054074203545894,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51050,
+        "available": 51060,
+        "queue": 7
+      },
+      {
+        "id": "late-correction",
+        "event": 51055,
+        "available": 51160,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51190,
+        "available": 51250,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51250
+  },
+  {
+    "id": "adapt_train-0108",
+    "group": "regular",
+    "at": 51080,
+    "age": 11.160141546386928,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.38423118778210763,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51060,
+        "available": 51070,
+        "queue": 21
+      },
+      {
+        "id": "late-correction",
+        "event": 51065,
+        "available": 51170,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51200,
+        "available": 51260,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51260
+  },
+  {
+    "id": "adapt_train-0109",
+    "group": "regular",
+    "at": 51090,
+    "age": 11.534312983452729,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8281666570270948,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51070,
+        "available": 51080,
+        "queue": 15
+      },
+      {
+        "id": "late-correction",
+        "event": 51075,
+        "available": 51180,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51210,
+        "available": 51270,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51270
+  },
+  {
+    "id": "adapt_train-0110",
+    "group": "regular",
+    "at": 51100,
+    "age": 12.965635684573153,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.5234607337069324,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51080,
+        "available": 51090,
+        "queue": 7
+      },
+      {
+        "id": "late-correction",
+        "event": 51085,
+        "available": 51190,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51220,
+        "available": 51280,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51280
+  },
+  {
+    "id": "adapt_train-0111",
+    "group": "vip",
+    "at": 51110,
+    "age": 13.72112059760614,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.327325399788717,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51090,
+        "available": 51100,
+        "queue": 9
+      },
+      {
+        "id": "late-correction",
+        "event": 51095,
+        "available": 51200,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51230,
+        "available": 51290,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51290
+  },
+  {
+    "id": "adapt_train-0112",
+    "group": "regular",
+    "at": 51120,
+    "age": 39.439665464573345,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.42793163184964067,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51100,
+        "available": 51110,
+        "queue": 9
+      },
+      {
+        "id": "late-correction",
+        "event": 51105,
+        "available": 51210,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51240,
+        "available": 51300,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51300
+  },
+  {
+    "id": "adapt_train-0113",
+    "group": "regular",
+    "at": 51130,
+    "age": 2.2777803898839206,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8272678372894471,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51110,
+        "available": 51120,
+        "queue": 12
+      },
+      {
+        "id": "late-correction",
+        "event": 51115,
+        "available": 51220,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51250,
+        "available": 51310,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51310
+  },
+  {
+    "id": "adapt_train-0114",
+    "group": "regular",
+    "at": 51140,
+    "age": 45.173601757694925,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.5534626564502807,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51120,
+        "available": 51130,
+        "queue": 23
+      },
+      {
+        "id": "late-correction",
+        "event": 51125,
+        "available": 51230,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51260,
+        "available": 51320,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51320
+  },
+  {
+    "id": "adapt_train-0115",
+    "group": "regular",
+    "at": 51150,
+    "age": 0.9155735281710182,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.22312374258338896,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51130,
+        "available": 51140,
+        "queue": 0
+      },
+      {
+        "id": "late-correction",
+        "event": 51135,
+        "available": 51240,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51270,
+        "available": 51330,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51330
+  },
+  {
+    "id": "adapt_train-0116",
+    "group": "regular",
+    "at": 51160,
+    "age": null,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.206625360085254,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51140,
+        "available": 51150,
+        "queue": 8
+      },
+      {
+        "id": "late-correction",
+        "event": 51145,
+        "available": 51250,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51280,
+        "available": 51340,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51340
+  },
+  {
+    "id": "adapt_train-0117",
+    "group": "regular",
+    "at": 51170,
+    "age": 36.50859389913869,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.16675279062411041,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51150,
+        "available": 51160,
+        "queue": 40
+      },
+      {
+        "id": "late-correction",
+        "event": 51155,
+        "available": 51260,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51290,
+        "available": 51350,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51350
+  },
+  {
+    "id": "adapt_train-0118",
+    "group": "regular",
+    "at": 51180,
+    "age": 27.103873129576122,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.1309688365244207,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51160,
+        "available": 51170,
+        "queue": 10
+      },
+      {
+        "id": "late-correction",
+        "event": 51165,
+        "available": 51270,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51300,
+        "available": 51360,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51360
+  },
+  {
+    "id": "adapt_train-0119",
+    "group": "regular",
+    "at": 51190,
+    "age": 47.714791843231595,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8278228247727234,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51170,
+        "available": 51180,
+        "queue": 27
+      },
+      {
+        "id": "late-correction",
+        "event": 51175,
+        "available": 51280,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51310,
+        "available": 51370,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51370
+  },
+  {
+    "id": "adapt_train-0120",
+    "group": "regular",
+    "at": 51200,
+    "age": null,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8569679211037479,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51180,
+        "available": 51190,
+        "queue": 9
+      },
+      {
+        "id": "late-correction",
+        "event": 51185,
+        "available": 51290,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51320,
+        "available": 51380,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51380
+  },
+  {
+    "id": "adapt_train-0121",
+    "group": "vip",
+    "at": 51210,
+    "age": 40.790628437654355,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.2872964281303313,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51190,
+        "available": 51200,
+        "queue": 12
+      },
+      {
+        "id": "late-correction",
+        "event": 51195,
+        "available": 51300,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51330,
+        "available": 51390,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51390
+  },
+  {
+    "id": "adapt_train-0122",
+    "group": "regular",
+    "at": 51220,
+    "age": 8.032994677789452,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.7072355416664656,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51200,
+        "available": 51210,
+        "queue": 0
+      },
+      {
+        "id": "late-correction",
+        "event": 51205,
+        "available": 51310,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51340,
+        "available": 51400,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51400
+  },
+  {
+    "id": "adapt_train-0123",
+    "group": "vip",
+    "at": 51230,
+    "age": 7.349342540316103,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.01363090620129459,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51210,
+        "available": 51220,
+        "queue": 7
+      },
+      {
+        "id": "late-correction",
+        "event": 51215,
+        "available": 51320,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51350,
+        "available": 51410,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51410
+  },
+  {
+    "id": "adapt_train-0124",
+    "group": "regular",
+    "at": 51240,
+    "age": 16.73617765808048,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.2434706916085757,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51220,
+        "available": 51230,
+        "queue": 23
+      },
+      {
+        "id": "late-correction",
+        "event": 51225,
+        "available": 51330,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51360,
+        "available": 51420,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51420
+  },
+  {
+    "id": "adapt_train-0125",
+    "group": "regular",
+    "at": 51250,
+    "age": 18.109684681656603,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.36567231924078225,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51230,
+        "available": 51240,
+        "queue": 11
+      },
+      {
+        "id": "late-correction",
+        "event": 51235,
+        "available": 51340,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51370,
+        "available": 51430,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51430
+  },
+  {
+    "id": "adapt_train-0126",
+    "group": "vip",
+    "at": 51260,
+    "age": 8.188679771842281,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.4633271205970937,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51240,
+        "available": 51250,
+        "queue": 21
+      },
+      {
+        "id": "late-correction",
+        "event": 51245,
+        "available": 51350,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51380,
+        "available": 51440,
+        "queue": 40
+      }
+    ],
+    "y": 0,
+    "label_available": 51440
+  },
+  {
+    "id": "adapt_train-0127",
+    "group": "regular",
+    "at": 51270,
+    "age": 16.959316503887408,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8526134503523632,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51250,
+        "available": 51260,
+        "queue": 3
+      },
+      {
+        "id": "late-correction",
+        "event": 51255,
+        "available": 51360,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51390,
+        "available": 51450,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51450
+  },
+  {
+    "id": "adapt_train-0128",
+    "group": "vip",
+    "at": 51280,
+    "age": 5.227881639149668,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.4525980751831826,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51260,
+        "available": 51270,
+        "queue": 33
+      },
+      {
+        "id": "late-correction",
+        "event": 51265,
+        "available": 51370,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51400,
+        "available": 51460,
+        "queue": 40
+      }
+    ],
+    "y": 0,
+    "label_available": 51460
+  },
+  {
+    "id": "adapt_train-0129",
+    "group": "regular",
+    "at": 51290,
+    "age": 11.934488947855302,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.5755394021272459,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51270,
+        "available": 51280,
+        "queue": 40
+      },
+      {
+        "id": "late-correction",
+        "event": 51275,
+        "available": 51380,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51410,
+        "available": 51470,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51470
+  },
+  {
+    "id": "adapt_train-0130",
+    "group": "regular",
+    "at": 51300,
+    "age": null,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.5412137546451451,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51280,
+        "available": 51290,
+        "queue": 32
+      },
+      {
+        "id": "late-correction",
+        "event": 51285,
+        "available": 51390,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51420,
+        "available": 51480,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51480
+  },
+  {
+    "id": "adapt_train-0131",
+    "group": "regular",
+    "at": 51310,
+    "age": 31.71439200771104,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.7505650116064511,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51290,
+        "available": 51300,
+        "queue": 21
+      },
+      {
+        "id": "late-correction",
+        "event": 51295,
+        "available": 51400,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51430,
+        "available": 51490,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51490
+  },
+  {
+    "id": "adapt_train-0132",
+    "group": "regular",
+    "at": 51320,
+    "age": 30.659959397958577,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.6928928505378261,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51300,
+        "available": 51310,
+        "queue": 0
+      },
+      {
+        "id": "late-correction",
+        "event": 51305,
+        "available": 51410,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51440,
+        "available": 51500,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51500
+  },
+  {
+    "id": "adapt_train-0133",
+    "group": "regular",
+    "at": 51330,
+    "age": 20.29121433276492,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.9375564267670553,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51310,
+        "available": 51320,
+        "queue": 23
+      },
+      {
+        "id": "late-correction",
+        "event": 51315,
+        "available": 51420,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51450,
+        "available": 51510,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51510
+  },
+  {
+    "id": "adapt_train-0134",
+    "group": "regular",
+    "at": 51340,
+    "age": 31.649075675810824,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.7247913997900703,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51320,
+        "available": 51330,
+        "queue": 32
+      },
+      {
+        "id": "late-correction",
+        "event": 51325,
+        "available": 51430,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51460,
+        "available": 51520,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51520
+  },
+  {
+    "id": "adapt_train-0135",
+    "group": "regular",
+    "at": 51350,
+    "age": 3.737041853527055,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.01183753145655464,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51330,
+        "available": 51340,
+        "queue": 14
+      },
+      {
+        "id": "late-correction",
+        "event": 51335,
+        "available": 51440,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51470,
+        "available": 51530,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51530
+  },
+  {
+    "id": "adapt_train-0136",
+    "group": "regular",
+    "at": 51360,
+    "age": 45.67454934985336,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.6212957510457491,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51340,
+        "available": 51350,
+        "queue": 29
+      },
+      {
+        "id": "late-correction",
+        "event": 51345,
+        "available": 51450,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51480,
+        "available": 51540,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51540
+  },
+  {
+    "id": "adapt_train-0137",
+    "group": "regular",
+    "at": 51370,
+    "age": 10.930450323778302,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.38921791227734015,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51350,
+        "available": 51360,
+        "queue": 31
+      },
+      {
+        "id": "late-correction",
+        "event": 51355,
+        "available": 51460,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51490,
+        "available": 51550,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51550
+  },
+  {
+    "id": "adapt_train-0138",
+    "group": "regular",
+    "at": 51380,
+    "age": 26.31574002990503,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.6444047368116828,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51360,
+        "available": 51370,
+        "queue": 29
+      },
+      {
+        "id": "late-correction",
+        "event": 51365,
+        "available": 51470,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51500,
+        "available": 51560,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51560
+  },
+  {
+    "id": "adapt_train-0139",
+    "group": "regular",
+    "at": 51390,
+    "age": 36.07489298884042,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.47085247928975993,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51370,
+        "available": 51380,
+        "queue": 36
+      },
+      {
+        "id": "late-correction",
+        "event": 51375,
+        "available": 51480,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51510,
+        "available": 51570,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51570
+  },
+  {
+    "id": "adapt_train-0140",
+    "group": "vip",
+    "at": 51400,
+    "age": 20.040891010708428,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.9309226632325038,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51380,
+        "available": 51390,
+        "queue": 10
+      },
+      {
+        "id": "late-correction",
+        "event": 51385,
+        "available": 51490,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51520,
+        "available": 51580,
+        "queue": 40
+      }
+    ],
+    "y": 0,
+    "label_available": 51580
+  },
+  {
+    "id": "adapt_train-0141",
+    "group": "regular",
+    "at": 51410,
+    "age": 4.7849122488501195,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.34347229514730704,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51390,
+        "available": 51400,
+        "queue": 26
+      },
+      {
+        "id": "late-correction",
+        "event": 51395,
+        "available": 51500,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51530,
+        "available": 51590,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51590
+  },
+  {
+    "id": "adapt_train-0142",
+    "group": "regular",
+    "at": 51420,
+    "age": null,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.3871566129736673,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51400,
+        "available": 51410,
+        "queue": 28
+      },
+      {
+        "id": "late-correction",
+        "event": 51405,
+        "available": 51510,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51540,
+        "available": 51600,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51600
+  },
+  {
+    "id": "adapt_train-0143",
+    "group": "regular",
+    "at": 51430,
+    "age": 6.562460058050316,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.09344838729498184,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51410,
+        "available": 51420,
+        "queue": 3
+      },
+      {
+        "id": "late-correction",
+        "event": 51415,
+        "available": 51520,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51550,
+        "available": 51610,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51610
+  },
+  {
+    "id": "adapt_train-0144",
+    "group": "regular",
+    "at": 51440,
+    "age": null,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.9627252434266175,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51420,
+        "available": 51430,
+        "queue": 16
+      },
+      {
+        "id": "late-correction",
+        "event": 51425,
+        "available": 51530,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51560,
+        "available": 51620,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51620
+  },
+  {
+    "id": "adapt_train-0145",
+    "group": "vip",
+    "at": 51450,
+    "age": 45.35672971207953,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.15527853534066682,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51430,
+        "available": 51440,
+        "queue": 12
+      },
+      {
+        "id": "late-correction",
+        "event": 51435,
+        "available": 51540,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51570,
+        "available": 51630,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51630
+  },
+  {
+    "id": "adapt_train-0146",
+    "group": "regular",
+    "at": 51460,
+    "age": 43.360374083697366,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.5685192233170063,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51440,
+        "available": 51450,
+        "queue": 27
+      },
+      {
+        "id": "late-correction",
+        "event": 51445,
+        "available": 51550,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51580,
+        "available": 51640,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51640
+  },
+  {
+    "id": "adapt_train-0147",
+    "group": "regular",
+    "at": 51470,
+    "age": 26.605909361538664,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.9367998792345573,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51450,
+        "available": 51460,
+        "queue": 30
+      },
+      {
+        "id": "late-correction",
+        "event": 51455,
+        "available": 51560,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51590,
+        "available": 51650,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51650
+  },
+  {
+    "id": "adapt_train-0148",
+    "group": "regular",
+    "at": 51480,
+    "age": 8.7535363812045,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.8255879736107162,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51460,
+        "available": 51470,
+        "queue": 29
+      },
+      {
+        "id": "late-correction",
+        "event": 51465,
+        "available": 51570,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51600,
+        "available": 51660,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51660
+  },
+  {
+    "id": "adapt_train-0149",
+    "group": "regular",
+    "at": 51490,
+    "age": 32.8084618434734,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8739528637981484,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51470,
+        "available": 51480,
+        "queue": 29
+      },
+      {
+        "id": "late-correction",
+        "event": 51475,
+        "available": 51580,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51610,
+        "available": 51670,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51670
+  },
+  {
+    "id": "adapt_train-0150",
+    "group": "regular",
+    "at": 51500,
+    "age": 7.513524132679301,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.833969705670481,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51480,
+        "available": 51490,
+        "queue": 2
+      },
+      {
+        "id": "late-correction",
+        "event": 51485,
+        "available": 51590,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51620,
+        "available": 51680,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51680
+  },
+  {
+    "id": "adapt_train-0151",
+    "group": "vip",
+    "at": 51510,
+    "age": 38.55630520568166,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.7733835394556233,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51490,
+        "available": 51500,
+        "queue": 12
+      },
+      {
+        "id": "late-correction",
+        "event": 51495,
+        "available": 51600,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51630,
+        "available": 51690,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51690
+  },
+  {
+    "id": "adapt_train-0152",
+    "group": "regular",
+    "at": 51520,
+    "age": 42.206938462691305,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.43352392061667666,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51500,
+        "available": 51510,
+        "queue": 27
+      },
+      {
+        "id": "late-correction",
+        "event": 51505,
+        "available": 51610,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51640,
+        "available": 51700,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51700
+  },
+  {
+    "id": "adapt_train-0153",
+    "group": "regular",
+    "at": 51530,
+    "age": 3.15966829692311,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.9142508341229486,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51510,
+        "available": 51520,
+        "queue": 7
+      },
+      {
+        "id": "late-correction",
+        "event": 51515,
+        "available": 51620,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51650,
+        "available": 51710,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51710
+  },
+  {
+    "id": "adapt_train-0154",
+    "group": "vip",
+    "at": 51540,
+    "age": 35.215339101097996,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.3362414275756841,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51520,
+        "available": 51530,
+        "queue": 40
+      },
+      {
+        "id": "late-correction",
+        "event": 51525,
+        "available": 51630,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51660,
+        "available": 51720,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 51720
+  },
+  {
+    "id": "adapt_train-0155",
+    "group": "regular",
+    "at": 51550,
+    "age": 28.80241438611177,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.5886448706527035,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51530,
+        "available": 51540,
+        "queue": 14
+      },
+      {
+        "id": "late-correction",
+        "event": 51535,
+        "available": 51640,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51670,
+        "available": 51730,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51730
+  },
+  {
+    "id": "adapt_train-0156",
+    "group": "regular",
+    "at": 51560,
+    "age": 22.823357016756304,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.9338527462916933,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51540,
+        "available": 51550,
+        "queue": 9
+      },
+      {
+        "id": "late-correction",
+        "event": 51545,
+        "available": 51650,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51680,
+        "available": 51740,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51740
+  },
+  {
+    "id": "adapt_train-0157",
+    "group": "regular",
+    "at": 51570,
+    "age": 21.518879893529046,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.74242439112835,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51550,
+        "available": 51560,
+        "queue": 5
+      },
+      {
+        "id": "late-correction",
+        "event": 51555,
+        "available": 51660,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51690,
+        "available": 51750,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51750
+  },
+  {
+    "id": "adapt_train-0158",
+    "group": "regular",
+    "at": 51580,
+    "age": 38.3232203395744,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.3635068166169453,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51560,
+        "available": 51570,
+        "queue": 15
+      },
+      {
+        "id": "late-correction",
+        "event": 51565,
+        "available": 51670,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51700,
+        "available": 51760,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51760
+  },
+  {
+    "id": "adapt_train-0159",
+    "group": "regular",
+    "at": 51590,
+    "age": 37.28813744112915,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.5506410990768351,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51570,
+        "available": 51580,
+        "queue": 36
+      },
+      {
+        "id": "late-correction",
+        "event": 51575,
+        "available": 51680,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51710,
+        "available": 51770,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51770
+  },
+  {
+    "id": "adapt_train-0160",
+    "group": "regular",
+    "at": 51600,
+    "age": 33.592522172231696,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8382311880638815,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51580,
+        "available": 51590,
+        "queue": 11
+      },
+      {
+        "id": "late-correction",
+        "event": 51585,
+        "available": 51690,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51720,
+        "available": 51780,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51780
+  },
+  {
+    "id": "adapt_train-0161",
+    "group": "regular",
+    "at": 51610,
+    "age": 7.718904301487079,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8308296605992121,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51590,
+        "available": 51600,
+        "queue": 6
+      },
+      {
+        "id": "late-correction",
+        "event": 51595,
+        "available": 51700,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51730,
+        "available": 51790,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51790
+  },
+  {
+    "id": "adapt_train-0162",
+    "group": "regular",
+    "at": 51620,
+    "age": 37.0462813458722,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.8245408096272336,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51600,
+        "available": 51610,
+        "queue": 32
+      },
+      {
+        "id": "late-correction",
+        "event": 51605,
+        "available": 51710,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51740,
+        "available": 51800,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51800
+  },
+  {
+    "id": "adapt_train-0163",
+    "group": "vip",
+    "at": 51630,
+    "age": 4.518899869904805,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.1282881065137207,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51610,
+        "available": 51620,
+        "queue": 27
+      },
+      {
+        "id": "late-correction",
+        "event": 51615,
+        "available": 51720,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51750,
+        "available": 51810,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51810
+  },
+  {
+    "id": "adapt_train-0164",
+    "group": "vip",
+    "at": 51640,
+    "age": 27.531211121416497,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.4773489350204685,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51620,
+        "available": 51630,
+        "queue": 10
+      },
+      {
+        "id": "late-correction",
+        "event": 51625,
+        "available": 51730,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51760,
+        "available": 51820,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 51820
+  },
+  {
+    "id": "adapt_train-0165",
+    "group": "regular",
+    "at": 51650,
+    "age": 22.36042538344204,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.05919671269110571,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51630,
+        "available": 51640,
+        "queue": 36
+      },
+      {
+        "id": "late-correction",
+        "event": 51635,
+        "available": 51740,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51770,
+        "available": 51830,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51830
+  },
+  {
+    "id": "adapt_train-0166",
+    "group": "regular",
+    "at": 51660,
+    "age": 8.906740496064426,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.9140806378114923,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51640,
+        "available": 51650,
+        "queue": 29
+      },
+      {
+        "id": "late-correction",
+        "event": 51645,
+        "available": 51750,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51780,
+        "available": 51840,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51840
+  },
+  {
+    "id": "adapt_train-0167",
+    "group": "regular",
+    "at": 51670,
+    "age": 30.599980627952206,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.8405839207696436,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51650,
+        "available": 51660,
+        "queue": 13
+      },
+      {
+        "id": "late-correction",
+        "event": 51655,
+        "available": 51760,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51790,
+        "available": 51850,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51850
+  },
+  {
+    "id": "adapt_train-0168",
+    "group": "regular",
+    "at": 51680,
+    "age": 35.02029871595546,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.9760815703632074,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51660,
+        "available": 51670,
+        "queue": 31
+      },
+      {
+        "id": "late-correction",
+        "event": 51665,
+        "available": 51770,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51800,
+        "available": 51860,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51860
+  },
+  {
+    "id": "adapt_train-0169",
+    "group": "regular",
+    "at": 51690,
+    "age": 24.004401983331583,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.20375043462953923,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51670,
+        "available": 51680,
+        "queue": 14
+      },
+      {
+        "id": "late-correction",
+        "event": 51675,
+        "available": 51780,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51810,
+        "available": 51870,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51870
+  },
+  {
+    "id": "adapt_train-0170",
+    "group": "regular",
+    "at": 51700,
+    "age": 45.43082617964507,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.011796243393926376,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51680,
+        "available": 51690,
+        "queue": 33
+      },
+      {
+        "id": "late-correction",
+        "event": 51685,
+        "available": 51790,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51820,
+        "available": 51880,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51880
+  },
+  {
+    "id": "adapt_train-0171",
+    "group": "regular",
+    "at": 51710,
+    "age": 38.000989511397,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.9316855496588385,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51690,
+        "available": 51700,
+        "queue": 34
+      },
+      {
+        "id": "late-correction",
+        "event": 51695,
+        "available": 51800,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51830,
+        "available": 51890,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51890
+  },
+  {
+    "id": "adapt_train-0172",
+    "group": "vip",
+    "at": 51720,
+    "age": 27.513794990278804,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.944544035166935,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51700,
+        "available": 51710,
+        "queue": 17
+      },
+      {
+        "id": "late-correction",
+        "event": 51705,
+        "available": 51810,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51840,
+        "available": 51900,
+        "queue": 40
+      }
+    ],
+    "y": 0,
+    "label_available": 51900
+  },
+  {
+    "id": "adapt_train-0173",
+    "group": "regular",
+    "at": 51730,
+    "age": 0.4357584026589283,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.7434019374911885,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51710,
+        "available": 51720,
+        "queue": 10
+      },
+      {
+        "id": "late-correction",
+        "event": 51715,
+        "available": 51820,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51850,
+        "available": 51910,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51910
+  },
+  {
+    "id": "adapt_train-0174",
+    "group": "vip",
+    "at": 51740,
+    "age": 3.1360698102553695,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.3375401060894724,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51720,
+        "available": 51730,
+        "queue": 1
+      },
+      {
+        "id": "late-correction",
+        "event": 51725,
+        "available": 51830,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51860,
+        "available": 51920,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 51920
+  },
+  {
+    "id": "adapt_train-0175",
+    "group": "regular",
+    "at": 51750,
+    "age": 7.592619731131554,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.5188054884773363,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51730,
+        "available": 51740,
+        "queue": 23
+      },
+      {
+        "id": "late-correction",
+        "event": 51735,
+        "available": 51840,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51870,
+        "available": 51930,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51930
+  },
+  {
+    "id": "adapt_train-0176",
+    "group": "regular",
+    "at": 51760,
+    "age": 22.921596565249942,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.46637495161643616,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51740,
+        "available": 51750,
+        "queue": 35
+      },
+      {
+        "id": "late-correction",
+        "event": 51745,
+        "available": 51850,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51880,
+        "available": 51940,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51940
+  },
+  {
+    "id": "adapt_train-0177",
+    "group": "vip",
+    "at": 51770,
+    "age": 6.80330436582868,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8929685491750726,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51750,
+        "available": 51760,
+        "queue": 4
+      },
+      {
+        "id": "late-correction",
+        "event": 51755,
+        "available": 51860,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51890,
+        "available": 51950,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51950
+  },
+  {
+    "id": "adapt_train-0178",
+    "group": "regular",
+    "at": 51780,
+    "age": 15.997477966729516,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.823132319669701,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51760,
+        "available": 51770,
+        "queue": 22
+      },
+      {
+        "id": "late-correction",
+        "event": 51765,
+        "available": 51870,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51900,
+        "available": 51960,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 51960
+  },
+  {
+    "id": "adapt_train-0179",
+    "group": "regular",
+    "at": 51790,
+    "age": 36.728552302570215,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.8379237050679201,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51770,
+        "available": 51780,
+        "queue": 1
+      },
+      {
+        "id": "late-correction",
+        "event": 51775,
+        "available": 51880,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51910,
+        "available": 51970,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51970
+  },
+  {
+    "id": "adapt_train-0180",
+    "group": "vip",
+    "at": 51800,
+    "age": null,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.759249383854532,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51780,
+        "available": 51790,
+        "queue": 30
+      },
+      {
+        "id": "late-correction",
+        "event": 51785,
+        "available": 51890,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51920,
+        "available": 51980,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 51980
+  },
+  {
+    "id": "adapt_train-0181",
+    "group": "regular",
+    "at": 51810,
+    "age": 28.313203537308656,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8284816633785752,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51790,
+        "available": 51800,
+        "queue": 30
+      },
+      {
+        "id": "late-correction",
+        "event": 51795,
+        "available": 51900,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51930,
+        "available": 51990,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 51990
+  },
+  {
+    "id": "adapt_train-0182",
+    "group": "regular",
+    "at": 51820,
+    "age": 27.695000424437847,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.32816812133735174,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51800,
+        "available": 51810,
+        "queue": 8
+      },
+      {
+        "id": "late-correction",
+        "event": 51805,
+        "available": 51910,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51940,
+        "available": 52000,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52000
+  },
+  {
+    "id": "adapt_train-0183",
+    "group": "vip",
+    "at": 51830,
+    "age": 14.441571586654417,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.25060462117570415,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51810,
+        "available": 51820,
+        "queue": 40
+      },
+      {
+        "id": "late-correction",
+        "event": 51815,
+        "available": 51920,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51950,
+        "available": 52010,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52010
+  },
+  {
+    "id": "adapt_train-0184",
+    "group": "regular",
+    "at": 51840,
+    "age": 25.610739905053276,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.5596417292495761,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51820,
+        "available": 51830,
+        "queue": 4
+      },
+      {
+        "id": "late-correction",
+        "event": 51825,
+        "available": 51930,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51960,
+        "available": 52020,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52020
+  },
+  {
+    "id": "adapt_train-0185",
+    "group": "regular",
+    "at": 51850,
+    "age": 40.808511728086394,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.20019208550182677,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51830,
+        "available": 51840,
+        "queue": 19
+      },
+      {
+        "id": "late-correction",
+        "event": 51835,
+        "available": 51940,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51970,
+        "available": 52030,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52030
+  },
+  {
+    "id": "adapt_train-0186",
+    "group": "regular",
+    "at": 51860,
+    "age": 3.684903708180533,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.48476353109327686,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51840,
+        "available": 51850,
+        "queue": 28
+      },
+      {
+        "id": "late-correction",
+        "event": 51845,
+        "available": 51950,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 51980,
+        "available": 52040,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52040
+  },
+  {
+    "id": "adapt_train-0187",
+    "group": "regular",
+    "at": 51870,
+    "age": 36.89582969503706,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.4694972261696988,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51850,
+        "available": 51860,
+        "queue": 35
+      },
+      {
+        "id": "late-correction",
+        "event": 51855,
+        "available": 51960,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 51990,
+        "available": 52050,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52050
+  },
+  {
+    "id": "adapt_train-0188",
+    "group": "regular",
+    "at": 51880,
+    "age": 9.935150348982695,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.8017174791490487,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51860,
+        "available": 51870,
+        "queue": 26
+      },
+      {
+        "id": "late-correction",
+        "event": 51865,
+        "available": 51970,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52000,
+        "available": 52060,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52060
+  },
+  {
+    "id": "adapt_train-0189",
+    "group": "regular",
+    "at": 51890,
+    "age": 9.717993713390216,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8958069213116877,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51870,
+        "available": 51880,
+        "queue": 40
+      },
+      {
+        "id": "late-correction",
+        "event": 51875,
+        "available": 51980,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52010,
+        "available": 52070,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52070
+  },
+  {
+    "id": "adapt_train-0190",
+    "group": "regular",
+    "at": 51900,
+    "age": 35.46563769061783,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.023260337516955776,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51880,
+        "available": 51890,
+        "queue": 15
+      },
+      {
+        "id": "late-correction",
+        "event": 51885,
+        "available": 51990,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52020,
+        "available": 52080,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52080
+  },
+  {
+    "id": "adapt_train-0191",
+    "group": "regular",
+    "at": 51910,
+    "age": 9.790365859671109,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.006896585101903163,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51890,
+        "available": 51900,
+        "queue": 29
+      },
+      {
+        "id": "late-correction",
+        "event": 51895,
+        "available": 52000,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52030,
+        "available": 52090,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52090
+  },
+  {
+    "id": "adapt_train-0192",
+    "group": "vip",
+    "at": 51920,
+    "age": null,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.2005393276049513,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51900,
+        "available": 51910,
+        "queue": 27
+      },
+      {
+        "id": "late-correction",
+        "event": 51905,
+        "available": 52010,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52040,
+        "available": 52100,
+        "queue": 40
+      }
+    ],
+    "y": 0,
+    "label_available": 52100
+  },
+  {
+    "id": "adapt_train-0193",
+    "group": "regular",
+    "at": 51930,
+    "age": 27.030378136562845,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8023381345474382,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51910,
+        "available": 51920,
+        "queue": 8
+      },
+      {
+        "id": "late-correction",
+        "event": 51915,
+        "available": 52020,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52050,
+        "available": 52110,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52110
+  },
+  {
+    "id": "adapt_train-0194",
+    "group": "vip",
+    "at": 51940,
+    "age": 21.86435385287335,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.10832286211228848,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51920,
+        "available": 51930,
+        "queue": 19
+      },
+      {
+        "id": "late-correction",
+        "event": 51925,
+        "available": 52030,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52060,
+        "available": 52120,
+        "queue": 40
+      }
+    ],
+    "y": 0,
+    "label_available": 52120
+  },
+  {
+    "id": "adapt_train-0195",
+    "group": "regular",
+    "at": 51950,
+    "age": 10.743840257209794,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.6888248536126222,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51930,
+        "available": 51940,
+        "queue": 24
+      },
+      {
+        "id": "late-correction",
+        "event": 51935,
+        "available": 52040,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52070,
+        "available": 52130,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52130
+  },
+  {
+    "id": "adapt_train-0196",
+    "group": "regular",
+    "at": 51960,
+    "age": 40.025448484453754,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.5089816099976581,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51940,
+        "available": 51950,
+        "queue": 27
+      },
+      {
+        "id": "late-correction",
+        "event": 51945,
+        "available": 52050,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52080,
+        "available": 52140,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52140
+  },
+  {
+    "id": "adapt_train-0197",
+    "group": "regular",
+    "at": 51970,
+    "age": 38.77975013973037,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.9517948309114597,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51950,
+        "available": 51960,
+        "queue": 9
+      },
+      {
+        "id": "late-correction",
+        "event": 51955,
+        "available": 52060,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52090,
+        "available": 52150,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52150
+  },
+  {
+    "id": "adapt_train-0198",
+    "group": "regular",
+    "at": 51980,
+    "age": null,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.13005518318715548,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51960,
+        "available": 51970,
+        "queue": 25
+      },
+      {
+        "id": "late-correction",
+        "event": 51965,
+        "available": 52070,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52100,
+        "available": 52160,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52160
+  },
+  {
+    "id": "adapt_train-0199",
+    "group": "regular",
+    "at": 51990,
+    "age": 9.090582668418504,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.26033294264363394,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51970,
+        "available": 51980,
+        "queue": 1
+      },
+      {
+        "id": "late-correction",
+        "event": 51975,
+        "available": 52080,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52110,
+        "available": 52170,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52170
+  },
+  {
+    "id": "adapt_train-0200",
+    "group": "regular",
+    "at": 52000,
+    "age": 27.044517269886594,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.21091240071030715,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51980,
+        "available": 51990,
+        "queue": 0
+      },
+      {
+        "id": "late-correction",
+        "event": 51985,
+        "available": 52090,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52120,
+        "available": 52180,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52180
+  },
+  {
+    "id": "adapt_train-0201",
+    "group": "regular",
+    "at": 52010,
+    "age": 24.592031306191174,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.10828750177540558,
+    "history": [
+      {
+        "id": "initial",
+        "event": 51990,
+        "available": 52000,
+        "queue": 27
+      },
+      {
+        "id": "late-correction",
+        "event": 51995,
+        "available": 52100,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52130,
+        "available": 52190,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52190
+  },
+  {
+    "id": "adapt_train-0202",
+    "group": "regular",
+    "at": 52020,
+    "age": 28.533593574480555,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.689108173670046,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52000,
+        "available": 52010,
+        "queue": 32
+      },
+      {
+        "id": "late-correction",
+        "event": 52005,
+        "available": 52110,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52140,
+        "available": 52200,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52200
+  },
+  {
+    "id": "adapt_train-0203",
+    "group": "regular",
+    "at": 52030,
+    "age": 12.90488543739905,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.18225708574065524,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52010,
+        "available": 52020,
+        "queue": 37
+      },
+      {
+        "id": "late-correction",
+        "event": 52015,
+        "available": 52120,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52150,
+        "available": 52210,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52210
+  },
+  {
+    "id": "adapt_train-0204",
+    "group": "regular",
+    "at": 52040,
+    "age": 39.77135189685902,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.9280591151398301,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52020,
+        "available": 52030,
+        "queue": 38
+      },
+      {
+        "id": "late-correction",
+        "event": 52025,
+        "available": 52130,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52160,
+        "available": 52220,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52220
+  },
+  {
+    "id": "adapt_train-0205",
+    "group": "vip",
+    "at": 52050,
+    "age": 25.602602177463766,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8332913196709768,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52030,
+        "available": 52040,
+        "queue": 32
+      },
+      {
+        "id": "late-correction",
+        "event": 52035,
+        "available": 52140,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52170,
+        "available": 52230,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52230
+  },
+  {
+    "id": "adapt_train-0206",
+    "group": "vip",
+    "at": 52060,
+    "age": 28.527544002459663,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.4863966217173583,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52040,
+        "available": 52050,
+        "queue": 6
+      },
+      {
+        "id": "late-correction",
+        "event": 52045,
+        "available": 52150,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52180,
+        "available": 52240,
+        "queue": 40
+      }
+    ],
+    "y": 0,
+    "label_available": 52240
+  },
+  {
+    "id": "adapt_train-0207",
+    "group": "regular",
+    "at": 52070,
+    "age": 3.4268351697551758,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.6749531648157553,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52050,
+        "available": 52060,
+        "queue": 8
+      },
+      {
+        "id": "late-correction",
+        "event": 52055,
+        "available": 52160,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52190,
+        "available": 52250,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52250
+  },
+  {
+    "id": "adapt_train-0208",
+    "group": "regular",
+    "at": 52080,
+    "age": null,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.393919012364069,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52060,
+        "available": 52070,
+        "queue": 40
+      },
+      {
+        "id": "late-correction",
+        "event": 52065,
+        "available": 52170,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52200,
+        "available": 52260,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52260
+  },
+  {
+    "id": "adapt_train-0209",
+    "group": "vip",
+    "at": 52090,
+    "age": 34.60037261282062,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.7843739944428006,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52070,
+        "available": 52080,
+        "queue": 25
+      },
+      {
+        "id": "late-correction",
+        "event": 52075,
+        "available": 52180,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52210,
+        "available": 52270,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52270
+  },
+  {
+    "id": "adapt_train-0210",
+    "group": "regular",
+    "at": 52100,
+    "age": 20.87219916214144,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.760198884190716,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52080,
+        "available": 52090,
+        "queue": 2
+      },
+      {
+        "id": "late-correction",
+        "event": 52085,
+        "available": 52190,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52220,
+        "available": 52280,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52280
+  },
+  {
+    "id": "adapt_train-0211",
+    "group": "vip",
+    "at": 52110,
+    "age": 43.05393761400604,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.0929749989858113,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52090,
+        "available": 52100,
+        "queue": 4
+      },
+      {
+        "id": "late-correction",
+        "event": 52095,
+        "available": 52200,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52230,
+        "available": 52290,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52290
+  },
+  {
+    "id": "adapt_train-0212",
+    "group": "regular",
+    "at": 52120,
+    "age": 26.07247000018264,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.25457681121444875,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52100,
+        "available": 52110,
+        "queue": 14
+      },
+      {
+        "id": "late-correction",
+        "event": 52105,
+        "available": 52210,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52240,
+        "available": 52300,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52300
+  },
+  {
+    "id": "adapt_train-0213",
+    "group": "regular",
+    "at": 52130,
+    "age": 23.125621246868405,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.9456322242728044,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52110,
+        "available": 52120,
+        "queue": 10
+      },
+      {
+        "id": "late-correction",
+        "event": 52115,
+        "available": 52220,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52250,
+        "available": 52310,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52310
+  },
+  {
+    "id": "adapt_train-0214",
+    "group": "regular",
+    "at": 52140,
+    "age": 34.16533347165343,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.929145388338919,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52120,
+        "available": 52130,
+        "queue": 34
+      },
+      {
+        "id": "late-correction",
+        "event": 52125,
+        "available": 52230,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52260,
+        "available": 52320,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52320
+  },
+  {
+    "id": "adapt_train-0215",
+    "group": "vip",
+    "at": 52150,
+    "age": 29.14308302242145,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.0871252167228116,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52130,
+        "available": 52140,
+        "queue": 36
+      },
+      {
+        "id": "late-correction",
+        "event": 52135,
+        "available": 52240,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52270,
+        "available": 52330,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52330
+  },
+  {
+    "id": "adapt_train-0216",
+    "group": "regular",
+    "at": 52160,
+    "age": 13.026280222568793,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.45943801987993804,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52140,
+        "available": 52150,
+        "queue": 15
+      },
+      {
+        "id": "late-correction",
+        "event": 52145,
+        "available": 52250,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52280,
+        "available": 52340,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52340
+  },
+  {
+    "id": "adapt_train-0217",
+    "group": "regular",
+    "at": 52170,
+    "age": 1.859855978111641,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.5173981350055082,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52150,
+        "available": 52160,
+        "queue": 35
+      },
+      {
+        "id": "late-correction",
+        "event": 52155,
+        "available": 52260,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52290,
+        "available": 52350,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52350
+  },
+  {
+    "id": "adapt_train-0218",
+    "group": "regular",
+    "at": 52180,
+    "age": 8.230597450712596,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.7973463318750772,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52160,
+        "available": 52170,
+        "queue": 27
+      },
+      {
+        "id": "late-correction",
+        "event": 52165,
+        "available": 52270,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52300,
+        "available": 52360,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52360
+  },
+  {
+    "id": "adapt_train-0219",
+    "group": "vip",
+    "at": 52190,
+    "age": 44.91098125923081,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.6968171307406742,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52170,
+        "available": 52180,
+        "queue": 28
+      },
+      {
+        "id": "late-correction",
+        "event": 52175,
+        "available": 52280,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52310,
+        "available": 52370,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52370
+  },
+  {
+    "id": "adapt_train-0220",
+    "group": "regular",
+    "at": 52200,
+    "age": 32.528895998316514,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.4149882444172651,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52180,
+        "available": 52190,
+        "queue": 17
+      },
+      {
+        "id": "late-correction",
+        "event": 52185,
+        "available": 52290,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52320,
+        "available": 52380,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52380
+  },
+  {
+    "id": "adapt_train-0221",
+    "group": "regular",
+    "at": 52210,
+    "age": 26.245200797902875,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.6020844758363867,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52190,
+        "available": 52200,
+        "queue": 39
+      },
+      {
+        "id": "late-correction",
+        "event": 52195,
+        "available": 52300,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52330,
+        "available": 52390,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52390
+  },
+  {
+    "id": "adapt_train-0222",
+    "group": "regular",
+    "at": 52220,
+    "age": 11.623260230029203,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.026384701659658116,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52200,
+        "available": 52210,
+        "queue": 36
+      },
+      {
+        "id": "late-correction",
+        "event": 52205,
+        "available": 52310,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52340,
+        "available": 52400,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52400
+  },
+  {
+    "id": "adapt_train-0223",
+    "group": "regular",
+    "at": 52230,
+    "age": 13.029540617454249,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.5015992527709768,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52210,
+        "available": 52220,
+        "queue": 24
+      },
+      {
+        "id": "late-correction",
+        "event": 52215,
+        "available": 52320,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52350,
+        "available": 52410,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52410
+  },
+  {
+    "id": "adapt_train-0224",
+    "group": "regular",
+    "at": 52240,
+    "age": 14.766427116712293,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.2922432051409327,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52220,
+        "available": 52230,
+        "queue": 2
+      },
+      {
+        "id": "late-correction",
+        "event": 52225,
+        "available": 52330,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52360,
+        "available": 52420,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52420
+  },
+  {
+    "id": "adapt_train-0225",
+    "group": "regular",
+    "at": 52250,
+    "age": 9.27379638436554,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.31376331837768157,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52230,
+        "available": 52240,
+        "queue": 19
+      },
+      {
+        "id": "late-correction",
+        "event": 52235,
+        "available": 52340,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52370,
+        "available": 52430,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52430
+  },
+  {
+    "id": "adapt_train-0226",
+    "group": "regular",
+    "at": 52260,
+    "age": 17.775064708206475,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.22635619756335712,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52240,
+        "available": 52250,
+        "queue": 0
+      },
+      {
+        "id": "late-correction",
+        "event": 52245,
+        "available": 52350,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52380,
+        "available": 52440,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52440
+  },
+  {
+    "id": "adapt_train-0227",
+    "group": "regular",
+    "at": 52270,
+    "age": 31.197272719924456,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.7158367596032374,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52250,
+        "available": 52260,
+        "queue": 9
+      },
+      {
+        "id": "late-correction",
+        "event": 52255,
+        "available": 52360,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52390,
+        "available": 52450,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52450
+  },
+  {
+    "id": "adapt_train-0228",
+    "group": "regular",
+    "at": 52280,
+    "age": 9.549054899274998,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.07629578996914566,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52260,
+        "available": 52270,
+        "queue": 4
+      },
+      {
+        "id": "late-correction",
+        "event": 52265,
+        "available": 52370,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52400,
+        "available": 52460,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52460
+  },
+  {
+    "id": "adapt_train-0229",
+    "group": "vip",
+    "at": 52290,
+    "age": 10.915309329551548,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.483301237280663,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52270,
+        "available": 52280,
+        "queue": 37
+      },
+      {
+        "id": "late-correction",
+        "event": 52275,
+        "available": 52380,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52410,
+        "available": 52470,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52470
+  },
+  {
+    "id": "adapt_train-0230",
+    "group": "regular",
+    "at": 52300,
+    "age": 16.988494237492883,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.09673423386903834,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52280,
+        "available": 52290,
+        "queue": 40
+      },
+      {
+        "id": "late-correction",
+        "event": 52285,
+        "available": 52390,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52420,
+        "available": 52480,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52480
+  },
+  {
+    "id": "adapt_train-0231",
+    "group": "regular",
+    "at": 52310,
+    "age": 18.72529964703183,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.2570032016581961,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52290,
+        "available": 52300,
+        "queue": 30
+      },
+      {
+        "id": "late-correction",
+        "event": 52295,
+        "available": 52400,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52430,
+        "available": 52490,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52490
+  },
+  {
+    "id": "adapt_train-0232",
+    "group": "vip",
+    "at": 52320,
+    "age": 43.39023330932064,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.07683244974469927,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52300,
+        "available": 52310,
+        "queue": 35
+      },
+      {
+        "id": "late-correction",
+        "event": 52305,
+        "available": 52410,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52440,
+        "available": 52500,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 52500
+  },
+  {
+    "id": "adapt_train-0233",
+    "group": "regular",
+    "at": 52330,
+    "age": 45.65927452600451,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.6382670713526241,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52310,
+        "available": 52320,
+        "queue": 4
+      },
+      {
+        "id": "late-correction",
+        "event": 52315,
+        "available": 52420,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52450,
+        "available": 52510,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52510
+  },
+  {
+    "id": "adapt_train-0234",
+    "group": "regular",
+    "at": 52340,
+    "age": 43.229332897814615,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.9908561105258319,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52320,
+        "available": 52330,
+        "queue": 29
+      },
+      {
+        "id": "late-correction",
+        "event": 52325,
+        "available": 52430,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52460,
+        "available": 52520,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52520
+  },
+  {
+    "id": "adapt_train-0235",
+    "group": "regular",
+    "at": 52350,
+    "age": 38.7284870506691,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.6986373650355854,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52330,
+        "available": 52340,
+        "queue": 15
+      },
+      {
+        "id": "late-correction",
+        "event": 52335,
+        "available": 52440,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52470,
+        "available": 52530,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52530
+  },
+  {
+    "id": "adapt_train-0236",
+    "group": "regular",
+    "at": 52360,
+    "age": 31.607507563886667,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.8816430698182993,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52340,
+        "available": 52350,
+        "queue": 10
+      },
+      {
+        "id": "late-correction",
+        "event": 52345,
+        "available": 52450,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52480,
+        "available": 52540,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52540
+  },
+  {
+    "id": "adapt_train-0237",
+    "group": "regular",
+    "at": 52370,
+    "age": 20.805956446111793,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.4237618678639731,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52350,
+        "available": 52360,
+        "queue": 11
+      },
+      {
+        "id": "late-correction",
+        "event": 52355,
+        "available": 52460,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52490,
+        "available": 52550,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52550
+  },
+  {
+    "id": "adapt_train-0238",
+    "group": "regular",
+    "at": 52380,
+    "age": 0.4393880557190979,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8345978697067531,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52360,
+        "available": 52370,
+        "queue": 19
+      },
+      {
+        "id": "late-correction",
+        "event": 52365,
+        "available": 52470,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52500,
+        "available": 52560,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52560
+  },
+  {
+    "id": "adapt_train-0239",
+    "group": "regular",
+    "at": 52390,
+    "age": 25.62557762347831,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.009244897174370381,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52370,
+        "available": 52380,
+        "queue": 37
+      },
+      {
+        "id": "late-correction",
+        "event": 52375,
+        "available": 52480,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52510,
+        "available": 52570,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52570
+  },
+  {
+    "id": "adapt_train-0240",
+    "group": "regular",
+    "at": 52400,
+    "age": 42.62675553736149,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.435254402619462,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52380,
+        "available": 52390,
+        "queue": 33
+      },
+      {
+        "id": "late-correction",
+        "event": 52385,
+        "available": 52490,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52520,
+        "available": 52580,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52580
+  },
+  {
+    "id": "adapt_train-0241",
+    "group": "regular",
+    "at": 52410,
+    "age": 0.6645320298222366,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.24379432586912653,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52390,
+        "available": 52400,
+        "queue": 29
+      },
+      {
+        "id": "late-correction",
+        "event": 52395,
+        "available": 52500,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52530,
+        "available": 52590,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52590
+  },
+  {
+    "id": "adapt_train-0242",
+    "group": "regular",
+    "at": 52420,
+    "age": 7.8484145875705345,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.6040569286599011,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52400,
+        "available": 52410,
+        "queue": 40
+      },
+      {
+        "id": "late-correction",
+        "event": 52405,
+        "available": 52510,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52540,
+        "available": 52600,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52600
+  },
+  {
+    "id": "adapt_train-0243",
+    "group": "regular",
+    "at": 52430,
+    "age": 44.816530166406565,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.15882836421646707,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52410,
+        "available": 52420,
+        "queue": 10
+      },
+      {
+        "id": "late-correction",
+        "event": 52415,
+        "available": 52520,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52550,
+        "available": 52610,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52610
+  },
+  {
+    "id": "adapt_train-0244",
+    "group": "regular",
+    "at": 52440,
+    "age": 29.953814544880778,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.867325684991018,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52420,
+        "available": 52430,
+        "queue": 39
+      },
+      {
+        "id": "late-correction",
+        "event": 52425,
+        "available": 52530,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52560,
+        "available": 52620,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52620
+  },
+  {
+    "id": "adapt_train-0245",
+    "group": "vip",
+    "at": 52450,
+    "age": 30.62949344516556,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.4746249510228664,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52430,
+        "available": 52440,
+        "queue": 19
+      },
+      {
+        "id": "late-correction",
+        "event": 52435,
+        "available": 52540,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52570,
+        "available": 52630,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52630
+  },
+  {
+    "id": "adapt_train-0246",
+    "group": "regular",
+    "at": 52460,
+    "age": 30.166808615709474,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.2094586509143691,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52440,
+        "available": 52450,
+        "queue": 6
+      },
+      {
+        "id": "late-correction",
+        "event": 52445,
+        "available": 52550,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52580,
+        "available": 52640,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52640
+  },
+  {
+    "id": "adapt_train-0247",
+    "group": "regular",
+    "at": 52470,
+    "age": 24.797972327168203,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.6903457908948781,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52450,
+        "available": 52460,
+        "queue": 12
+      },
+      {
+        "id": "late-correction",
+        "event": 52455,
+        "available": 52560,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52590,
+        "available": 52650,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52650
+  },
+  {
+    "id": "adapt_train-0248",
+    "group": "regular",
+    "at": 52480,
+    "age": 18.066828707425387,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.5046094799453015,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52460,
+        "available": 52470,
+        "queue": 25
+      },
+      {
+        "id": "late-correction",
+        "event": 52465,
+        "available": 52570,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52600,
+        "available": 52660,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52660
+  },
+  {
+    "id": "adapt_train-0249",
+    "group": "regular",
+    "at": 52490,
+    "age": 35.79591825725431,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.3584604980669356,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52470,
+        "available": 52480,
+        "queue": 34
+      },
+      {
+        "id": "late-correction",
+        "event": 52475,
+        "available": 52580,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52610,
+        "available": 52670,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52670
+  },
+  {
+    "id": "adapt_train-0250",
+    "group": "regular",
+    "at": 52500,
+    "age": 15.374107166517216,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.612633145490795,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52480,
+        "available": 52490,
+        "queue": 34
+      },
+      {
+        "id": "late-correction",
+        "event": 52485,
+        "available": 52590,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52620,
+        "available": 52680,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52680
+  },
+  {
+    "id": "adapt_train-0251",
+    "group": "regular",
+    "at": 52510,
+    "age": 13.144034700640832,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.9980478194872687,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52490,
+        "available": 52500,
+        "queue": 25
+      },
+      {
+        "id": "late-correction",
+        "event": 52495,
+        "available": 52600,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52630,
+        "available": 52690,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52690
+  },
+  {
+    "id": "adapt_train-0252",
+    "group": "regular",
+    "at": 52520,
+    "age": 35.27991561133006,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.7544527353733068,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52500,
+        "available": 52510,
+        "queue": 11
+      },
+      {
+        "id": "late-correction",
+        "event": 52505,
+        "available": 52610,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52640,
+        "available": 52700,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52700
+  },
+  {
+    "id": "adapt_train-0253",
+    "group": "regular",
+    "at": 52530,
+    "age": 7.581626469898483,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.5289425003146356,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52510,
+        "available": 52520,
+        "queue": 30
+      },
+      {
+        "id": "late-correction",
+        "event": 52515,
+        "available": 52620,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52650,
+        "available": 52710,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52710
+  },
+  {
+    "id": "adapt_train-0254",
+    "group": "regular",
+    "at": 52540,
+    "age": 46.44849613601551,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.6948868184676102,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52520,
+        "available": 52530,
+        "queue": 20
+      },
+      {
+        "id": "late-correction",
+        "event": 52525,
+        "available": 52630,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52660,
+        "available": 52720,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52720
+  },
+  {
+    "id": "adapt_train-0255",
+    "group": "regular",
+    "at": 52550,
+    "age": 11.531576796166155,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.6410159078693436,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52530,
+        "available": 52540,
+        "queue": 33
+      },
+      {
+        "id": "late-correction",
+        "event": 52535,
+        "available": 52640,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52670,
+        "available": 52730,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52730
+  },
+  {
+    "id": "adapt_train-0256",
+    "group": "vip",
+    "at": 52560,
+    "age": 47.84210488066992,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.3628024888786209,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52540,
+        "available": 52550,
+        "queue": 4
+      },
+      {
+        "id": "late-correction",
+        "event": 52545,
+        "available": 52650,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52680,
+        "available": 52740,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 52740
+  },
+  {
+    "id": "adapt_train-0257",
+    "group": "regular",
+    "at": 52570,
+    "age": 17.882446904425674,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.1416869558628211,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52550,
+        "available": 52560,
+        "queue": 1
+      },
+      {
+        "id": "late-correction",
+        "event": 52555,
+        "available": 52660,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52690,
+        "available": 52750,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52750
+  },
+  {
+    "id": "adapt_train-0258",
+    "group": "regular",
+    "at": 52580,
+    "age": 1.1583485126605737,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.7618847190037343,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52560,
+        "available": 52570,
+        "queue": 8
+      },
+      {
+        "id": "late-correction",
+        "event": 52565,
+        "available": 52670,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52700,
+        "available": 52760,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52760
+  },
+  {
+    "id": "adapt_train-0259",
+    "group": "regular",
+    "at": 52590,
+    "age": 40.17268221642945,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.5915044172258528,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52570,
+        "available": 52580,
+        "queue": 25
+      },
+      {
+        "id": "late-correction",
+        "event": 52575,
+        "available": 52680,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52710,
+        "available": 52770,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52770
+  },
+  {
+    "id": "adapt_train-0260",
+    "group": "regular",
+    "at": 52600,
+    "age": 3.6161080641305734,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.1528737338905789,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52580,
+        "available": 52590,
+        "queue": 14
+      },
+      {
+        "id": "late-correction",
+        "event": 52585,
+        "available": 52690,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52720,
+        "available": 52780,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52780
+  },
+  {
+    "id": "adapt_train-0261",
+    "group": "regular",
+    "at": 52610,
+    "age": 8.331507822411357,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.011899490740563401,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52590,
+        "available": 52600,
+        "queue": 8
+      },
+      {
+        "id": "late-correction",
+        "event": 52595,
+        "available": 52700,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52730,
+        "available": 52790,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52790
+  },
+  {
+    "id": "adapt_train-0262",
+    "group": "vip",
+    "at": 52620,
+    "age": 20.631025720729667,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.3000484456277168,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52600,
+        "available": 52610,
+        "queue": 1
+      },
+      {
+        "id": "late-correction",
+        "event": 52605,
+        "available": 52710,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52740,
+        "available": 52800,
+        "queue": 40
+      }
+    ],
+    "y": 0,
+    "label_available": 52800
+  },
+  {
+    "id": "adapt_train-0263",
+    "group": "regular",
+    "at": 52630,
+    "age": 37.98209612812158,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.07958493053750693,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52610,
+        "available": 52620,
+        "queue": 38
+      },
+      {
+        "id": "late-correction",
+        "event": 52615,
+        "available": 52720,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52750,
+        "available": 52810,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52810
+  },
+  {
+    "id": "adapt_train-0264",
+    "group": "regular",
+    "at": 52640,
+    "age": 5.412571852630455,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.07329594654650817,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52620,
+        "available": 52630,
+        "queue": 22
+      },
+      {
+        "id": "late-correction",
+        "event": 52625,
+        "available": 52730,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52760,
+        "available": 52820,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52820
+  },
+  {
+    "id": "adapt_train-0265",
+    "group": "vip",
+    "at": 52650,
+    "age": 37.2923441688174,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.06245636646587727,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52630,
+        "available": 52640,
+        "queue": 36
+      },
+      {
+        "id": "late-correction",
+        "event": 52635,
+        "available": 52740,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52770,
+        "available": 52830,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52830
+  },
+  {
+    "id": "adapt_train-0266",
+    "group": "regular",
+    "at": 52660,
+    "age": 30.56956585842931,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.7294932810855287,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52640,
+        "available": 52650,
+        "queue": 33
+      },
+      {
+        "id": "late-correction",
+        "event": 52645,
+        "available": 52750,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52780,
+        "available": 52840,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52840
+  },
+  {
+    "id": "adapt_train-0267",
+    "group": "vip",
+    "at": 52670,
+    "age": 12.804167225418677,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.16768749036006003,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52650,
+        "available": 52660,
+        "queue": 15
+      },
+      {
+        "id": "late-correction",
+        "event": 52655,
+        "available": 52760,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52790,
+        "available": 52850,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52850
+  },
+  {
+    "id": "adapt_train-0268",
+    "group": "regular",
+    "at": 52680,
+    "age": 43.65649559354815,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.07955884601712826,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52660,
+        "available": 52670,
+        "queue": 29
+      },
+      {
+        "id": "late-correction",
+        "event": 52665,
+        "available": 52770,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52800,
+        "available": 52860,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52860
+  },
+  {
+    "id": "adapt_train-0269",
+    "group": "regular",
+    "at": 52690,
+    "age": 28.83078762780621,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.7602211259009871,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52670,
+        "available": 52680,
+        "queue": 10
+      },
+      {
+        "id": "late-correction",
+        "event": 52675,
+        "available": 52780,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52810,
+        "available": 52870,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52870
+  },
+  {
+    "id": "adapt_train-0270",
+    "group": "vip",
+    "at": 52700,
+    "age": 2.077687205875449,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.9622154742842738,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52680,
+        "available": 52690,
+        "queue": 23
+      },
+      {
+        "id": "late-correction",
+        "event": 52685,
+        "available": 52790,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52820,
+        "available": 52880,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 52880
+  },
+  {
+    "id": "adapt_train-0271",
+    "group": "regular",
+    "at": 52710,
+    "age": 9.891616575582667,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.03722353619365304,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52690,
+        "available": 52700,
+        "queue": 26
+      },
+      {
+        "id": "late-correction",
+        "event": 52695,
+        "available": 52800,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52830,
+        "available": 52890,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52890
+  },
+  {
+    "id": "adapt_train-0272",
+    "group": "vip",
+    "at": 52720,
+    "age": 31.873259794108776,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.6111886789265772,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52700,
+        "available": 52710,
+        "queue": 23
+      },
+      {
+        "id": "late-correction",
+        "event": 52705,
+        "available": 52810,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52840,
+        "available": 52900,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 52900
+  },
+  {
+    "id": "adapt_train-0273",
+    "group": "regular",
+    "at": 52730,
+    "age": 15.126395698211168,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.11409951224299941,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52710,
+        "available": 52720,
+        "queue": 18
+      },
+      {
+        "id": "late-correction",
+        "event": 52715,
+        "available": 52820,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52850,
+        "available": 52910,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52910
+  },
+  {
+    "id": "adapt_train-0274",
+    "group": "vip",
+    "at": 52740,
+    "age": 33.91317877082588,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.022122533161750946,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52720,
+        "available": 52730,
+        "queue": 40
+      },
+      {
+        "id": "late-correction",
+        "event": 52725,
+        "available": 52830,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52860,
+        "available": 52920,
+        "queue": 40
+      }
+    ],
+    "y": 0,
+    "label_available": 52920
+  },
+  {
+    "id": "adapt_train-0275",
+    "group": "regular",
+    "at": 52750,
+    "age": 12.527830560125048,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.5287030491331268,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52730,
+        "available": 52740,
+        "queue": 30
+      },
+      {
+        "id": "late-correction",
+        "event": 52735,
+        "available": 52840,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52870,
+        "available": 52930,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52930
+  },
+  {
+    "id": "adapt_train-0276",
+    "group": "regular",
+    "at": 52760,
+    "age": 32.704856670881014,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.9776887727963862,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52740,
+        "available": 52750,
+        "queue": 21
+      },
+      {
+        "id": "late-correction",
+        "event": 52745,
+        "available": 52850,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52880,
+        "available": 52940,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52940
+  },
+  {
+    "id": "adapt_train-0277",
+    "group": "regular",
+    "at": 52770,
+    "age": 22.49785699450735,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.3735902036557548,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52750,
+        "available": 52760,
+        "queue": 9
+      },
+      {
+        "id": "late-correction",
+        "event": 52755,
+        "available": 52860,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52890,
+        "available": 52950,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52950
+  },
+  {
+    "id": "adapt_train-0278",
+    "group": "vip",
+    "at": 52780,
+    "age": 37.78075822797746,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.2441497230747831,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52760,
+        "available": 52770,
+        "queue": 10
+      },
+      {
+        "id": "late-correction",
+        "event": 52765,
+        "available": 52870,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52900,
+        "available": 52960,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 52960
+  },
+  {
+    "id": "adapt_train-0279",
+    "group": "regular",
+    "at": 52790,
+    "age": 43.9285408704979,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.9929217063239578,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52770,
+        "available": 52780,
+        "queue": 18
+      },
+      {
+        "id": "late-correction",
+        "event": 52775,
+        "available": 52880,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52910,
+        "available": 52970,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52970
+  },
+  {
+    "id": "adapt_train-0280",
+    "group": "regular",
+    "at": 52800,
+    "age": 28.25060789246401,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.8158939007451157,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52780,
+        "available": 52790,
+        "queue": 19
+      },
+      {
+        "id": "late-correction",
+        "event": 52785,
+        "available": 52890,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52920,
+        "available": 52980,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 52980
+  },
+  {
+    "id": "adapt_train-0281",
+    "group": "regular",
+    "at": 52810,
+    "age": 35.69855414908082,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.6605594218327251,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52790,
+        "available": 52800,
+        "queue": 31
+      },
+      {
+        "id": "late-correction",
+        "event": 52795,
+        "available": 52900,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52930,
+        "available": 52990,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 52990
+  },
+  {
+    "id": "adapt_train-0282",
+    "group": "regular",
+    "at": 52820,
+    "age": 3.8909431077680523,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.4371489382699205,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52800,
+        "available": 52810,
+        "queue": 13
+      },
+      {
+        "id": "late-correction",
+        "event": 52805,
+        "available": 52910,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52940,
+        "available": 53000,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 53000
+  },
+  {
+    "id": "adapt_train-0283",
+    "group": "vip",
+    "at": 52830,
+    "age": 31.67427563327634,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.43195904906163674,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52810,
+        "available": 52820,
+        "queue": 0
+      },
+      {
+        "id": "late-correction",
+        "event": 52815,
+        "available": 52920,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52950,
+        "available": 53010,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 53010
+  },
+  {
+    "id": "adapt_train-0284",
+    "group": "regular",
+    "at": 52840,
+    "age": 40.80224197793498,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.42068503979493643,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52820,
+        "available": 52830,
+        "queue": 30
+      },
+      {
+        "id": "late-correction",
+        "event": 52825,
+        "available": 52930,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52960,
+        "available": 53020,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 53020
+  },
+  {
+    "id": "adapt_train-0285",
+    "group": "regular",
+    "at": 52850,
+    "age": 34.56396239419913,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.5804930428275983,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52830,
+        "available": 52840,
+        "queue": 13
+      },
+      {
+        "id": "late-correction",
+        "event": 52835,
+        "available": 52940,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52970,
+        "available": 53030,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 53030
+  },
+  {
+    "id": "adapt_train-0286",
+    "group": "regular",
+    "at": 52860,
+    "age": 43.3183056990769,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.4827986565476783,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52840,
+        "available": 52850,
+        "queue": 7
+      },
+      {
+        "id": "late-correction",
+        "event": 52845,
+        "available": 52950,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 52980,
+        "available": 53040,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 53040
+  },
+  {
+    "id": "adapt_train-0287",
+    "group": "regular",
+    "at": 52870,
+    "age": 31.498483088285276,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8122330131983777,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52850,
+        "available": 52860,
+        "queue": 12
+      },
+      {
+        "id": "late-correction",
+        "event": 52855,
+        "available": 52960,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 52990,
+        "available": 53050,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 53050
+  },
+  {
+    "id": "adapt_train-0288",
+    "group": "regular",
+    "at": 52880,
+    "age": 1.237873780948762,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.16542310321689524,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52860,
+        "available": 52870,
+        "queue": 32
+      },
+      {
+        "id": "late-correction",
+        "event": 52865,
+        "available": 52970,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 53000,
+        "available": 53060,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 53060
+  },
+  {
+    "id": "adapt_train-0289",
+    "group": "regular",
+    "at": 52890,
+    "age": 21.731148177718488,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.3279871508939235,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52870,
+        "available": 52880,
+        "queue": 7
+      },
+      {
+        "id": "late-correction",
+        "event": 52875,
+        "available": 52980,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 53010,
+        "available": 53070,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 53070
+  },
+  {
+    "id": "adapt_train-0290",
+    "group": "regular",
+    "at": 52900,
+    "age": 1.1600983820708848,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.47516833105391243,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52880,
+        "available": 52890,
+        "queue": 1
+      },
+      {
+        "id": "late-correction",
+        "event": 52885,
+        "available": 52990,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 53020,
+        "available": 53080,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 53080
+  },
+  {
+    "id": "adapt_train-0291",
+    "group": "vip",
+    "at": 52910,
+    "age": 39.36765466189757,
+    "unit": "hour",
+    "channel": "phone",
+    "telemetry": 0.8176302854740661,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52890,
+        "available": 52900,
+        "queue": 35
+      },
+      {
+        "id": "late-correction",
+        "event": 52895,
+        "available": 53000,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 53030,
+        "available": 53090,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 53090
+  },
+  {
+    "id": "adapt_train-0292",
+    "group": "regular",
+    "at": 52920,
+    "age": 6.870190209643649,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.006659014286015674,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52900,
+        "available": 52910,
+        "queue": 2
+      },
+      {
+        "id": "late-correction",
+        "event": 52905,
+        "available": 53010,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 53040,
+        "available": 53100,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 53100
+  },
+  {
+    "id": "adapt_train-0293",
+    "group": "regular",
+    "at": 52930,
+    "age": 12.214856880230665,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.05393924029138253,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52910,
+        "available": 52920,
+        "queue": 18
+      },
+      {
+        "id": "late-correction",
+        "event": 52915,
+        "available": 53020,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 53050,
+        "available": 53110,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 53110
+  },
+  {
+    "id": "adapt_train-0294",
+    "group": "vip",
+    "at": 52940,
+    "age": 27.50563501401618,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.5035626336149506,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52920,
+        "available": 52930,
+        "queue": 26
+      },
+      {
+        "id": "late-correction",
+        "event": 52925,
+        "available": 53030,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 53060,
+        "available": 53120,
+        "queue": 0
+      }
+    ],
+    "y": 1,
+    "label_available": 53120
+  },
+  {
+    "id": "adapt_train-0295",
+    "group": "regular",
+    "at": 52950,
+    "age": 10.483426456978563,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.6733034365244746,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52930,
+        "available": 52940,
+        "queue": 22
+      },
+      {
+        "id": "late-correction",
+        "event": 52935,
+        "available": 53040,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 53070,
+        "available": 53130,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 53130
+  },
+  {
+    "id": "adapt_train-0296",
+    "group": "regular",
+    "at": 52960,
+    "age": 22.12049085177815,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.5685743017929649,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52940,
+        "available": 52950,
+        "queue": 37
+      },
+      {
+        "id": "late-correction",
+        "event": 52945,
+        "available": 53050,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 53080,
+        "available": 53140,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 53140
+  },
+  {
+    "id": "adapt_train-0297",
+    "group": "regular",
+    "at": 52970,
+    "age": 15.547703028362685,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.0793473764870194,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52950,
+        "available": 52960,
+        "queue": 19
+      },
+      {
+        "id": "late-correction",
+        "event": 52955,
+        "available": 53060,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 53090,
+        "available": 53150,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 53150
+  },
+  {
+    "id": "adapt_train-0298",
+    "group": "regular",
+    "at": 52980,
+    "age": 26.753000552322696,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.7087058140357624,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52960,
+        "available": 52970,
+        "queue": 16
+      },
+      {
+        "id": "late-correction",
+        "event": 52965,
+        "available": 53070,
+        "queue": 20
+      },
+      {
+        "id": "outcome",
+        "event": 53100,
+        "available": 53160,
+        "queue": 40
+      }
+    ],
+    "y": 1,
+    "label_available": 53160
+  },
+  {
+    "id": "adapt_train-0299",
+    "group": "regular",
+    "at": 52990,
+    "age": 45.70202008702913,
+    "unit": "hour",
+    "channel": "web",
+    "telemetry": 0.8803288862419517,
+    "history": [
+      {
+        "id": "initial",
+        "event": 52970,
+        "available": 52980,
+        "queue": 24
+      },
+      {
+        "id": "late-correction",
+        "event": 52975,
+        "available": 53080,
+        "queue": 0
+      },
+      {
+        "id": "outcome",
+        "event": 53110,
+        "available": 53170,
+        "queue": 0
+      }
+    ],
+    "y": 0,
+    "label_available": 53170
+  }
+]

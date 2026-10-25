@@ -1,0 +1,77 @@
+{
+  "request": {
+    "model": "qwen",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Responda somente JSON com limite inteiro em reais e fonte (ID exato). Use o documento, sem conhecimento externo. Documento: {\"id\": \"alimentacao-v1\", \"family\": \"alimentacao\", \"version\": \"v1\", \"limit\": 270, \"text\": \"Politica alimentacao da Horizonte. Limite autorizado: 270 reais. A excecao anterior esta vigente.\"}"
+      }
+    ],
+    "temperature": 0,
+    "seed": 441,
+    "max_tokens": 100,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "result",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "limite": {
+              "type": "integer"
+            },
+            "fonte": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "limite",
+            "fonte"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "cache_prompt": false
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"limite\": 270,\n  \"fonte\": \"Documento\"\n}"
+        }
+      }
+    ],
+    "created": 1792949974,
+    "model": "qwen",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 130,
+      "total_tokens": 157,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-KmEG0i0dTb6YlsEqJ9u23iK57ZzFv2IE",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 130,
+      "prompt_ms": 545.665,
+      "prompt_per_token_ms": 4.1974230769230765,
+      "prompt_per_second": 238.2414118552592,
+      "predicted_n": 27,
+      "predicted_ms": 476.046,
+      "predicted_per_token_ms": 18.309461538461537,
+      "predicted_per_second": 54.616570667540536
+    }
+  },
+  "seconds": 1.0318845000583678,
+  "text": "{\n  \"limite\": 270,\n  \"fonte\": \"Documento\"\n}",
+  "finish": "stop"
+}

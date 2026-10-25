@@ -1,0 +1,19 @@
+{
+  "value": {
+    "action": "reserve",
+    "item": "A",
+    "quantity": 2,
+    "version": -1
+  },
+  "error": null,
+  "usage": {
+    "completion_tokens": 26,
+    "prompt_tokens": 212,
+    "total_tokens": 238,
+    "prompt_tokens_details": {
+      "cached_tokens": 141
+    }
+  },
+  "charged_output": 26,
+  "seconds": 1.1467872000066563
+}

@@ -1,0 +1,65 @@
+{
+  "destination": {
+    "stock": [
+      {
+        "id": "peca-A",
+        "available": 8,
+        "version": 1
+      }
+    ],
+    "effects": [
+      {
+        "id": 1,
+        "tenant": "horizonte",
+        "intent": "pedido-1",
+        "action": "reserve",
+        "quantity": 2,
+        "original": null,
+        "reversible": true,
+        "created": "2026-10-24 03:15:58.809062+00:00"
+      }
+    ],
+    "receipts": [
+      {
+        "tenant": "horizonte",
+        "key": "chave-1",
+        "hash": "df4ea6eb6e142af67d75bf2af0a666fa57337b5e3347757923cd0535c89523d4",
+        "expires": "2026-10-24 03:20:58.804115+00:00",
+        "body": {
+          "key": "chave-1",
+          "hash": "df4ea6eb6e142af67d75bf2af0a666fa57337b5e3347757923cd0535c89523d4",
+          "action": "reserve",
+          "effect": "applied",
+          "intent": "pedido-1",
+          "tenant": "horizonte",
+          "effect_id": 1
+        }
+      }
+    ],
+    "fences": [
+      {
+        "tenant": "horizonte",
+        "intent": "pedido-1",
+        "token": 1
+      }
+    ],
+    "approvals": [
+      {
+        "hash": "df4ea6eb6e142af67d75bf2af0a666fa57337b5e3347757923cd0535c89523d4",
+        "enabled": true,
+        "expires": "2026-10-24 03:20:57.243277+00:00"
+      }
+    ]
+  },
+  "client": {
+    "jobs": [],
+    "outbox": [],
+    "attempts": [],
+    "control": [
+      {
+        "id": 1,
+        "admission": true
+      }
+    ]
+  }
+}

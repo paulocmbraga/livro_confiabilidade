@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "kind": "decision-stump-v1",
+    "threshold": -0.0010442276356559255,
+    "training_sha256": "9c6253a561ef2c089b30d420840af91386ee3ecd34aadeb437edbd5d90c2421b",
+    "n": 600
+  },
+  "candidate": {
+    "kind": "decision-stump-v1",
+    "threshold": 0.6456510900100495,
+    "training_sha256": "988bba3e70c62f02331f9a78b7743c7c00f7e2d2924df5ff6aca6ac2b87acbc3",
+    "n": 200
+  },
+  "alias_bad": {
+    "kind": "altered-alias",
+    "threshold": -0.5,
+    "training_sha256": "9c6253a561ef2c089b30d420840af91386ee3ecd34aadeb437edbd5d90c2421b",
+    "n": 600
+  }
+}

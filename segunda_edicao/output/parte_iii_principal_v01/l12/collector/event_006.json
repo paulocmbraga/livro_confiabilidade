@@ -1,0 +1,25 @@
+{
+  "path": "/callback",
+  "request": {
+    "attempt": "T07-2",
+    "case": "T07",
+    "candidate": "bea04bc787fe7e93b2c48005a1639fad3826cd8d82b516950c5e931900df9106",
+    "judge": "exact-v1",
+    "output_sha256": "7d130ab80ee1cec48afeeb84266af2702f55f89cebe986b3f71ff7c3e9cb5a5a",
+    "valid": true,
+    "correct": true
+  },
+  "response": {
+    "index": 6,
+    "payload": {
+      "attempt": "T07-2",
+      "case": "T07",
+      "candidate": "bea04bc787fe7e93b2c48005a1639fad3826cd8d82b516950c5e931900df9106",
+      "judge": "exact-v1",
+      "output_sha256": "7d130ab80ee1cec48afeeb84266af2702f55f89cebe986b3f71ff7c3e9cb5a5a",
+      "valid": true,
+      "correct": true
+    },
+    "status": "accepted"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"Não há teto de jantar autorizado durante plantão noturno.\",\"citacoes\":[],\"abster\":true}"
+      }
+    }
+  ],
+  "created": 1792879244,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 34,
+    "prompt_tokens": 165,
+    "total_tokens": 199,
+    "prompt_tokens_details": {
+      "cached_tokens": 137
+    }
+  },
+  "id": "chatcmpl-NkLDXFKQhVb1dLKTEg86Ibuam9WqplRa",
+  "timings": {
+    "cache_n": 137,
+    "prompt_n": 28,
+    "prompt_ms": 351.042,
+    "prompt_per_token_ms": 12.537214285714285,
+    "prompt_per_second": 79.76253553705826,
+    "predicted_n": 34,
+    "predicted_ms": 837.069,
+    "predicted_per_token_ms": 25.36572727272727,
+    "predicted_per_second": 39.423273350225614
+  }
+}

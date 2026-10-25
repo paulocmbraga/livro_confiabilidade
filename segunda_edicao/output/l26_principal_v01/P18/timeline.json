@@ -1,0 +1,36 @@
+[
+  {
+    "name": "spawn",
+    "time_ns": 1792811749047943300,
+    "role": "server",
+    "pid": 13504,
+    "options": {
+      "fault": "none"
+    }
+  },
+  {
+    "name": "spawn",
+    "time_ns": 1792811749568183900,
+    "role": "worker",
+    "pid": 24328,
+    "options": {
+      "attempt": "a1",
+      "job": "job1",
+      "port": 64672,
+      "mode": "execute",
+      "fault": "none",
+      "bypass": false
+    }
+  },
+  {
+    "name": "worker_exit",
+    "time_ns": 1792811750266170600,
+    "pid": 24328,
+    "code": 0
+  },
+  {
+    "name": "episode_complete",
+    "time_ns": 1792811750353036700,
+    "seconds": 1.537727399962023
+  }
+]

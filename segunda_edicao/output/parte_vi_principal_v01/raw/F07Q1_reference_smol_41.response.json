@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Para obter a desativação da credencial física ao canal Segurança Patrimonial, você deve ativar a autorização de atualização do canal. A autorização de atualização não pode ser ativar. Você deve ativar a autorização de atualização do canal para obter a desativação da credencial física ao canal. O canal correto não é a recepção. Você deve at"
+      }
+    }
+  ],
+  "created": 1792879344,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 278,
+    "total_tokens": 406,
+    "prompt_tokens_details": {
+      "cached_tokens": 173
+    }
+  },
+  "id": "chatcmpl-r7Eo74atpqMPmEUm7TcOqSQfygLIWSdl",
+  "timings": {
+    "cache_n": 173,
+    "prompt_n": 105,
+    "prompt_ms": 652.367,
+    "prompt_per_token_ms": 6.213019047619047,
+    "prompt_per_second": 160.9523473750205,
+    "predicted_n": 128,
+    "predicted_ms": 2393.925,
+    "predicted_per_token_ms": 18.849803149606302,
+    "predicted_per_second": 53.05095188863477
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": 0,
+  "stock": {
+    "A": 5,
+    "B": 5
+  },
+  "prices": {
+    "A": 25,
+    "B": 8
+  },
+  "reads": 0,
+  "effects": [],
+  "audit": [
+    {
+      "proposal": {
+        "action": "reserve",
+        "item": "A",
+        "quantity": 1,
+        "version": -1
+      },
+      "response": {
+        "error": "read_required",
+        "version": 0
+      }
+    },
+    {
+      "proposal": {
+        "action": "abstain",
+        "item": "A",
+        "quantity": 1,
+        "version": -1
+      },
+      "response": {
+        "terminal": "abstain",
+        "version": 0
+      }
+    }
+  ]
+}

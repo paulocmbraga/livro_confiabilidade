@@ -1,0 +1,21 @@
+{
+  "value": {
+    "steps": [
+      "Reserve the item for the specified quantity of 1.",
+      "Check if the ceiling is available.",
+      "If the ceiling is available, reserve the item.",
+      "If the ceiling is not available, inform the client that the item is not available and explain the reason."
+    ]
+  },
+  "error": null,
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 76,
+    "total_tokens": 136,
+    "prompt_tokens_details": {
+      "cached_tokens": 46
+    }
+  },
+  "charged_output": 60,
+  "seconds": 1.6283674999140203
+}

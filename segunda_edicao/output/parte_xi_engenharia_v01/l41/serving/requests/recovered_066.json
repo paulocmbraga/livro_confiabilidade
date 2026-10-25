@@ -1,0 +1,56 @@
+{
+  "request": {
+    "row": {
+      "id": "reserve-0066",
+      "group": "regular",
+      "at": 15660,
+      "age": 43.61144436220584,
+      "unit": "hour",
+      "channel": "web",
+      "telemetry": 0.6235911689657397,
+      "history": [
+        {
+          "id": "initial",
+          "event": 15640,
+          "available": 15650,
+          "queue": 4
+        },
+        {
+          "id": "late-correction",
+          "event": 15645,
+          "available": 15750,
+          "queue": 0
+        },
+        {
+          "id": "outcome",
+          "event": 15780,
+          "available": 15840,
+          "queue": 0
+        }
+      ],
+      "y": 0,
+      "label_available": 15840
+    },
+    "mode": "recovered",
+    "attempt": "recovered_066"
+  },
+  "status": 200,
+  "response": {
+    "id": "reserve-0066",
+    "group": "regular",
+    "x": [
+      1,
+      1.81714351509191,
+      0.2,
+      0,
+      0,
+      0.36342870301838204,
+      0
+    ],
+    "p": 0.4416543262187934,
+    "prediction": 0,
+    "model": "1dffa6be414e602946896556cd09414dc0ed4e70a4ee4c77a25979b1e1731f6d",
+    "pid": 23216
+  },
+  "seconds": 0.00019420008175075054
+}

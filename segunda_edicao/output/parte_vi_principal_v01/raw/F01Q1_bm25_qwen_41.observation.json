@@ -1,0 +1,42 @@
+{
+  "id": "F01Q1_bm25_qwen_41",
+  "query_id": "F01Q1",
+  "family": "F01",
+  "model": "qwen",
+  "seed": 41,
+  "variant": "bm25",
+  "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+  "context": {
+    "text": "[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[DIS-08] versão 2026-10: O banco de horas não altera a política de férias nem o limite de hospedagem.",
+    "ids": [
+      "FER-E",
+      "FER-G",
+      "DIS-08"
+    ],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 143
+  },
+  "seconds": 1.774229499977082,
+  "parsed": {
+    "resposta": "10 dias de antecedência",
+    "citacoes": [
+      "[FER-E]",
+      "[FER-G]"
+    ],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": true,
+    "source_loss_known": false,
+    "reference_evidence_available": true,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": true,
+    "citations_present": true,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

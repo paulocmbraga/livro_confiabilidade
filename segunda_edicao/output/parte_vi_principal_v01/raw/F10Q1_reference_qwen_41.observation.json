@@ -1,0 +1,39 @@
+{
+  "id": "F10Q1_reference_qwen_41",
+  "query_id": "F10Q1",
+  "family": "F10",
+  "model": "qwen",
+  "seed": 41,
+  "variant": "reference",
+  "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+  "context": {
+    "text": "[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200; deslocamento para trabalho de campo nacional com equipamento autorizado R$ 160.",
+    "ids": [
+      "BAG-T"
+    ],
+    "skipped": [],
+    "source_restored": true,
+    "tokens": 63
+  },
+  "seconds": 2.3252510000020266,
+  "parsed": {
+    "resposta": "Teto de bagagem de trabalho de campo nacional com equipamento autorizado é R$ 160.",
+    "citacoes": [
+      "[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200; deslocamento para trabalho de campo nacional com equipamento autorizado R$ 160."
+    ],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": true,
+    "source_loss_known": false,
+    "reference_evidence_available": true,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": true,
+    "citations_present": true,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

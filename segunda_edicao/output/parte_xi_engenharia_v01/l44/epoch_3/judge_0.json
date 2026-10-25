@@ -1,0 +1,73 @@
+{
+  "request": {
+    "model": "smol",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aprove somente se limite e fonte coincidem exatamente com o documento. Documento: {\"id\": \"viagem-v2\", \"family\": \"viagem\", \"version\": \"v2\", \"limit\": 120, \"text\": \"Politica viagem da Horizonte. Limite autorizado: 120 reais. A excecao anterior esta revogada.\"} Resposta: {\"limite\": 120, \"fonte\": \"id=viagem-v2&version=v2&limit=120&text=Politica viagem da Horizonte. Limite autorizado: 120 reais. A excecao anterior esta revogada.\"}"
+      }
+    ],
+    "temperature": 0,
+    "seed": 441,
+    "max_tokens": 100,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "result",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "approved"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "cache_prompt": false
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"approved\": true}"
+        }
+      }
+    ],
+    "created": 1792949904,
+    "model": "smol",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 9,
+      "prompt_tokens": 210,
+      "total_tokens": 219,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-Nf80DyYKE7v5tHNuoerXZPkwTnwUEsf9",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 210,
+      "prompt_ms": 767.508,
+      "prompt_per_token_ms": 3.6548000000000003,
+      "prompt_per_second": 273.6127831892306,
+      "predicted_n": 9,
+      "predicted_ms": 172.368,
+      "predicted_per_token_ms": 21.546,
+      "predicted_per_second": 46.4123271140815
+    }
+  },
+  "seconds": 0.9599439000012353,
+  "text": "{\"approved\": true}",
+  "finish": "stop"
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "name": "spawn",
+    "time_ns": 1792811730177871500,
+    "role": "server",
+    "pid": 18068,
+    "options": {
+      "fault": "drop_reply"
+    }
+  },
+  {
+    "name": "spawn",
+    "time_ns": 1792811730707778300,
+    "role": "worker",
+    "pid": 5348,
+    "options": {
+      "attempt": "a1",
+      "job": "job1",
+      "port": 64521,
+      "mode": "execute",
+      "fault": "none",
+      "bypass": false
+    }
+  },
+  {
+    "name": "worker_exit",
+    "time_ns": 1792811731394189200,
+    "pid": 5348,
+    "code": 0
+  },
+  {
+    "name": "retention_expiry_observed",
+    "time_ns": 1792811731745089000
+  },
+  {
+    "name": "spawn",
+    "time_ns": 1792811731762386100,
+    "role": "worker",
+    "pid": 24200,
+    "options": {
+      "attempt": "a2",
+      "job": "job1",
+      "port": 64521,
+      "mode": "lookup",
+      "fault": "none",
+      "bypass": false
+    }
+  },
+  {
+    "name": "worker_exit",
+    "time_ns": 1792811732454720500,
+    "pid": 24200,
+    "code": 0
+  },
+  {
+    "name": "spawn",
+    "time_ns": 1792811732472714600,
+    "role": "worker",
+    "pid": 19936,
+    "options": {
+      "attempt": "a3",
+      "job": "job1",
+      "port": 64521,
+      "mode": "execute",
+      "fault": "none",
+      "bypass": false
+    }
+  },
+  {
+    "name": "worker_exit",
+    "time_ns": 1792811733235844500,
+    "pid": 19936,
+    "code": 0
+  },
+  {
+    "name": "episode_complete",
+    "time_ns": 1792811733300626400,
+    "seconds": 3.3151733999839053
+  }
+]

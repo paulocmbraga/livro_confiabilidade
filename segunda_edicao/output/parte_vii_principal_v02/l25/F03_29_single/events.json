@@ -1,0 +1,48 @@
+[
+  {
+    "step": 0,
+    "proposal": {
+      "action": "inspect",
+      "item": "A",
+      "quantity": 2,
+      "version": -1
+    },
+    "response": {
+      "version": 0,
+      "stock": {
+        "A": 5,
+        "B": 5
+      },
+      "prices": {
+        "A": 10,
+        "B": 8
+      }
+    }
+  },
+  {
+    "step": 1,
+    "proposal": {
+      "action": "reserve",
+      "item": "A",
+      "quantity": 2,
+      "version": 0
+    },
+    "response": {
+      "error": "ceiling",
+      "version": 0
+    }
+  },
+  {
+    "step": 2,
+    "proposal": {
+      "action": "finish",
+      "item": "A",
+      "quantity": 2,
+      "version": 0
+    },
+    "response": {
+      "terminal": "finish",
+      "version": 0
+    }
+  }
+]

@@ -1,0 +1,238 @@
+{
+  "config": {
+    "mode": "auto",
+    "stage": "live",
+    "retest": "no"
+  },
+  "tasks": [
+    {
+      "id": "inflight",
+      "amount": 1250,
+      "schema": 2,
+      "state": "cancelled",
+      "priority": 0
+    },
+    {
+      "id": "t00",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t01",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t02",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t03",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t04",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t05",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t06",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t07",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t08",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 1
+    },
+    {
+      "id": "t09",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t10",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t11",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t12",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t13",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t14",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t15",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t16",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t17",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t18",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "t19",
+      "amount": 100,
+      "schema": 2,
+      "state": "done",
+      "priority": 0
+    }
+  ],
+  "effects": [
+    {
+      "id": "t00",
+      "amount": 100
+    },
+    {
+      "id": "t01",
+      "amount": 100
+    },
+    {
+      "id": "t02",
+      "amount": 100
+    },
+    {
+      "id": "t03",
+      "amount": 100
+    },
+    {
+      "id": "t04",
+      "amount": 100
+    },
+    {
+      "id": "t05",
+      "amount": 100
+    },
+    {
+      "id": "t06",
+      "amount": 100
+    },
+    {
+      "id": "t07",
+      "amount": 100
+    },
+    {
+      "id": "t08",
+      "amount": 100
+    },
+    {
+      "id": "t09",
+      "amount": 100
+    },
+    {
+      "id": "t10",
+      "amount": 100
+    },
+    {
+      "id": "t11",
+      "amount": 100
+    },
+    {
+      "id": "t12",
+      "amount": 100
+    },
+    {
+      "id": "t13",
+      "amount": 100
+    },
+    {
+      "id": "t14",
+      "amount": 100
+    },
+    {
+      "id": "t15",
+      "amount": 100
+    },
+    {
+      "id": "t16",
+      "amount": 100
+    },
+    {
+      "id": "t17",
+      "amount": 100
+    },
+    {
+      "id": "t18",
+      "amount": 100
+    },
+    {
+      "id": "t19",
+      "amount": 100
+    }
+  ]
+}

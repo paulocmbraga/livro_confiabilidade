@@ -1,0 +1,37 @@
+{
+  "id": "F01Q1_empty_qwen_41",
+  "query_id": "F01Q1",
+  "family": "F01",
+  "model": "qwen",
+  "seed": 41,
+  "variant": "empty",
+  "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 0.9132030000910163,
+  "parsed": {
+    "resposta": "2",
+    "citacoes": [
+      "nenhuma documento disponível"
+    ],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": false,
+    "source_loss_known": false,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": true,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

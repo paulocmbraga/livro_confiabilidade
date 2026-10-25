@@ -1,0 +1,21 @@
+{
+  "case": "C06",
+  "condition": "team_current",
+  "split": "development",
+  "expected": false,
+  "decision": true,
+  "correct": false,
+  "abstained": false,
+  "completion_tokens": 94,
+  "prompt_tokens": 254,
+  "inference_seconds": 2.9211260000010952,
+  "calls": 3,
+  "unanimous": true,
+  "errors": [
+    true,
+    true,
+    true
+  ],
+  "pairs": 3,
+  "both_wrong": 3
+}

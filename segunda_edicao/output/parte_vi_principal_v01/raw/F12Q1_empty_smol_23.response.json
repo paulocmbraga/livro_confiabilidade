@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Para obter informações sobre a taxa de juros do financiamento de carro, você deve usar o documento: https://www.horizonte.gov.br/finance/transport/car-prices.html\",\"citacoes\": [\n    \"https://www.horizonte.gov.br/finance/transport/car-prices.html\"\n  ],\"abster\": true}"
+      }
+    }
+  ],
+  "created": 1792879536,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 223,
+    "total_tokens": 336,
+    "prompt_tokens_details": {
+      "cached_tokens": 206
+    }
+  },
+  "id": "chatcmpl-PKZ8re1RTW8WGYHswbs9ccBvDNGYsRRo",
+  "timings": {
+    "cache_n": 206,
+    "prompt_n": 17,
+    "prompt_ms": 119.573,
+    "prompt_per_token_ms": 7.03370588235294,
+    "prompt_per_second": 142.172564040377,
+    "predicted_n": 113,
+    "predicted_ms": 2154.132,
+    "predicted_per_token_ms": 19.23332142857143,
+    "predicted_per_second": 51.993099772901566
+  }
+}

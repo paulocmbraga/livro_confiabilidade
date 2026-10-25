@@ -1,0 +1,122 @@
+[
+  {
+    "task": "healthy-0",
+    "role": "service",
+    "trace_id": "d50370e006cb8e15b2a7fdef6d7063e5",
+    "span_id": "43f5ebb42c071b6e",
+    "parent_id": "be90de34585f0d40",
+    "sampled": true,
+    "recorded_ns": 1792886589951108400,
+    "effect": "receipt-healthy-0"
+  },
+  {
+    "task": "healthy-1",
+    "role": "service",
+    "trace_id": "93826ecae0f8ff5ba83b662494dc3f55",
+    "span_id": "b1fa0dbaf33a1c38",
+    "parent_id": "a636f15de3d6f887",
+    "sampled": true,
+    "recorded_ns": 1792886589970763500,
+    "effect": "receipt-healthy-1"
+  },
+  {
+    "task": "healthy-2",
+    "role": "service",
+    "trace_id": "d4847a28d6d169c58494a9677b8c7917",
+    "span_id": "3c4320ef24e3d7b1",
+    "parent_id": "1bbfbc60ba2cfcdb",
+    "sampled": true,
+    "recorded_ns": 1792886589998654400,
+    "effect": "receipt-healthy-2"
+  },
+  {
+    "task": "healthy-3",
+    "role": "service",
+    "trace_id": "13b943f7c82a0f10f529e3415bf309a3",
+    "span_id": "62fdd2f05c18cff0",
+    "parent_id": "b4f7596eee2ab10d",
+    "sampled": true,
+    "recorded_ns": 1792886590009105500,
+    "effect": "receipt-healthy-3"
+  },
+  {
+    "task": "healthy-4",
+    "role": "service",
+    "trace_id": "9587ee1aca51f474518c1286316f5769",
+    "span_id": "bd315f79a03c446a",
+    "parent_id": "51573087313d242b",
+    "sampled": true,
+    "recorded_ns": 1792886590019747200,
+    "effect": "receipt-healthy-4"
+  },
+  {
+    "task": "healthy-5",
+    "role": "service",
+    "trace_id": "1a0637921d6cbb8c1fce1b5b05a9521a",
+    "span_id": "7a01b7f673de6702",
+    "parent_id": "a269608226d35f93",
+    "sampled": true,
+    "recorded_ns": 1792886590029622800,
+    "effect": "receipt-healthy-5"
+  },
+  {
+    "task": "healthy-6",
+    "role": "service",
+    "trace_id": "8654a417ce76447e519806375692158d",
+    "span_id": "1a67271e3beefa1f",
+    "parent_id": "53450c4d895f0497",
+    "sampled": true,
+    "recorded_ns": 1792886590050980200,
+    "effect": "receipt-healthy-6"
+  },
+  {
+    "task": "healthy-7",
+    "role": "service",
+    "trace_id": "783fd1419b65bcbc73f77d7462d2b252",
+    "span_id": "f91d5a5b9f78171a",
+    "parent_id": "8521c00edfce6dbf",
+    "sampled": true,
+    "recorded_ns": 1792886590082022600,
+    "effect": "receipt-healthy-7"
+  },
+  {
+    "task": "healthy-8",
+    "role": "service",
+    "trace_id": "b930c8f6f91681e92c926d2c021d1fbe",
+    "span_id": "9f379fdb4ace7d2f",
+    "parent_id": "dc41d05ab51ce470",
+    "sampled": true,
+    "recorded_ns": 1792886590102932100,
+    "effect": "receipt-healthy-8"
+  },
+  {
+    "task": "healthy-9",
+    "role": "service",
+    "trace_id": "f035b779546be844df301bbd73072392",
+    "span_id": "2a1562ebd3fcad01",
+    "parent_id": "45fb51ad9020c668",
+    "sampled": true,
+    "recorded_ns": 1792886590113230400,
+    "effect": "receipt-healthy-9"
+  },
+  {
+    "task": "healthy-10",
+    "role": "service",
+    "trace_id": "fd163607b69ace66d7af6c1028060f1c",
+    "span_id": "61d0a5d3edae2043",
+    "parent_id": "7ec8badc306d5421",
+    "sampled": true,
+    "recorded_ns": 1792886590121957100,
+    "effect": "receipt-healthy-10"
+  },
+  {
+    "task": "healthy-11",
+    "role": "service",
+    "trace_id": "9dd9c8899da81d4070cd0db19bb637c7",
+    "span_id": "22ed5355e9548af0",
+    "parent_id": "08923b13c00b50f6",
+    "sampled": true,
+    "recorded_ns": 1792886590131116500,
+    "effect": "receipt-healthy-11"
+  }
+]

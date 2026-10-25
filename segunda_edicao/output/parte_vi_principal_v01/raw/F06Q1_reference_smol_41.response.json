@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"2 dias por semana\",\n  \"citacoes\": [\n    \"versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.\"\n  ],\n  \"abster\": true\n}"
+      }
+    }
+  ],
+  "created": 1792879387,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 313,
+    "total_tokens": 382,
+    "prompt_tokens_details": {
+      "cached_tokens": 205
+    }
+  },
+  "id": "chatcmpl-3uT64URecL7cMDKBeFnLWObwZ6EJNjIS",
+  "timings": {
+    "cache_n": 205,
+    "prompt_n": 108,
+    "prompt_ms": 574.576,
+    "prompt_per_token_ms": 5.3201481481481485,
+    "prompt_per_second": 187.96469048480967,
+    "predicted_n": 69,
+    "predicted_ms": 1424.879,
+    "predicted_per_token_ms": 20.95410294117647,
+    "predicted_per_second": 47.72335054415147
+  }
+}

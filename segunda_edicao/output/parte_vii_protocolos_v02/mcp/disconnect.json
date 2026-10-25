@@ -1,0 +1,17 @@
+{
+  "status": 200,
+  "headers": {
+    "date": "Sat, 24 Oct 2026 22:40:27 GMT",
+    "server": "uvicorn",
+    "content-type": "text/event-stream",
+    "cache-control": "no-cache, no-transform",
+    "connection": "keep-alive",
+    "x-accel-buffering": "no",
+    "transfer-encoding": "chunked"
+  },
+  "lines": [
+    "event: message",
+    "data: {\"jsonrpc\":\"2.0\",\"method\":\"notifications/progress\",\"params\":{\"progressToken\":\"P27\",\"progress\":1,\"total\":2,\"message\":\"effect_committed\"}}"
+  ],
+  "closed_before_final": true
+}

@@ -1,0 +1,42 @@
+{
+  "request": {
+    "attempt": "unit_guard-042",
+    "mode": "unit_guard",
+    "row": {
+      "id": "test-0042",
+      "group": "vip",
+      "at": 40420,
+      "age": 791.0177537829572,
+      "unit": "minute",
+      "channel": "web",
+      "telemetry": 0.07126289208368397,
+      "history": [
+        {
+          "id": "initial",
+          "event": 40400,
+          "available": 40410,
+          "queue": 16
+        },
+        {
+          "id": "late-correction",
+          "event": 40405,
+          "available": 40510,
+          "queue": 0
+        },
+        {
+          "id": "outcome",
+          "event": 40540,
+          "available": 40600,
+          "queue": 0
+        }
+      ]
+    }
+  },
+  "status": 422,
+  "response": {
+    "error": "unit",
+    "id": "test-0042",
+    "pid": 9704
+  },
+  "seconds": 6.370001938194036e-05
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"10 dias\",\n  \"citacoes\": [\n    \"https://www.horizonte.gov.br/docs/2020/07/15/110816/110816-07022020-07022020-07022020-07022020-07022020-07022020-07022020-0702"
+      }
+    }
+  ],
+  "created": 1792879425,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 222,
+    "total_tokens": 350,
+    "prompt_tokens_details": {
+      "cached_tokens": 173
+    }
+  },
+  "id": "chatcmpl-QmiIod9azJYT3QY1RbFKiGIjgdzsVadW",
+  "timings": {
+    "cache_n": 173,
+    "prompt_n": 49,
+    "prompt_ms": 327.858,
+    "prompt_per_token_ms": 6.690979591836735,
+    "prompt_per_second": 149.45494695874433,
+    "predicted_n": 128,
+    "predicted_ms": 2262.601,
+    "predicted_per_token_ms": 17.81575590551181,
+    "predicted_per_second": 56.1300909882034
+  }
+}

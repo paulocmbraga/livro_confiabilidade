@@ -1,0 +1,16 @@
+{
+  "job": "job1",
+  "attempt": "a3",
+  "mode": "execute",
+  "token": 3,
+  "pid": 25356,
+  "status": 410,
+  "reply": {
+    "effect": "unknown",
+    "reason": "retention_expired"
+  },
+  "outcome": "unknown",
+  "ledger_updated": true,
+  "seconds": 0.2528304000152275,
+  "error": null
+}

@@ -1,0 +1,50 @@
+{
+  "kind": "fixture_not_human",
+  "a": [
+    2,
+    2,
+    1,
+    1,
+    0,
+    0,
+    2,
+    1,
+    0,
+    2,
+    1,
+    0
+  ],
+  "b": [
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0,
+    "U",
+    1,
+    0
+  ],
+  "nominal": {
+    "admitted": 12,
+    "comparable": 11,
+    "unknown": 1,
+    "agreement": 0.7272727272727273,
+    "expected_agreement": 0.33884297520661155,
+    "kappa": 0.5875,
+    "weight": "nominal"
+  },
+  "linear": {
+    "admitted": 12,
+    "comparable": 11,
+    "unknown": 1,
+    "agreement": 0.8636363636363636,
+    "expected_agreement": 0.5578512396694215,
+    "kappa": 0.6915887850467289,
+    "weight": "linear"
+  },
+  "actual_people": 0
+}

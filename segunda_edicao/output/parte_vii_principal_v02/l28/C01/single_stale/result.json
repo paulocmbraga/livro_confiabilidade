@@ -1,0 +1,19 @@
+{
+  "case": "C01",
+  "condition": "single_stale",
+  "split": "development",
+  "expected": true,
+  "decision": false,
+  "correct": false,
+  "abstained": false,
+  "completion_tokens": 36,
+  "prompt_tokens": 87,
+  "inference_seconds": 1.1960044000297785,
+  "calls": 1,
+  "unanimous": false,
+  "errors": [
+    true
+  ],
+  "pairs": 0,
+  "both_wrong": 0
+}

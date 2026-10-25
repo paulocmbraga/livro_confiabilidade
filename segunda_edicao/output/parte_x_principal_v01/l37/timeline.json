@@ -1,0 +1,2082 @@
+[
+  {
+    "now": 0,
+    "quality": {
+      "n": 0,
+      "known": 0,
+      "bad": 0,
+      "error": null,
+      "coverage": 0,
+      "cutoff": -10
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": false
+  },
+  {
+    "now": 1,
+    "quality": {
+      "n": 0,
+      "known": 0,
+      "bad": 0,
+      "error": null,
+      "coverage": 0,
+      "cutoff": -9
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 2,
+    "quality": {
+      "n": 0,
+      "known": 0,
+      "bad": 0,
+      "error": null,
+      "coverage": 0,
+      "cutoff": -8
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 3,
+    "quality": {
+      "n": 0,
+      "known": 0,
+      "bad": 0,
+      "error": null,
+      "coverage": 0,
+      "cutoff": -7
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 4,
+    "quality": {
+      "n": 0,
+      "known": 0,
+      "bad": 0,
+      "error": null,
+      "coverage": 0,
+      "cutoff": -6
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 5,
+    "quality": {
+      "n": 0,
+      "known": 0,
+      "bad": 0,
+      "error": null,
+      "coverage": 0,
+      "cutoff": -5
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": false
+  },
+  {
+    "now": 6,
+    "quality": {
+      "n": 0,
+      "known": 0,
+      "bad": 0,
+      "error": null,
+      "coverage": 0,
+      "cutoff": -4
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 7,
+    "quality": {
+      "n": 0,
+      "known": 0,
+      "bad": 0,
+      "error": null,
+      "coverage": 0,
+      "cutoff": -3
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 8,
+    "quality": {
+      "n": 0,
+      "known": 0,
+      "bad": 0,
+      "error": null,
+      "coverage": 0,
+      "cutoff": -2
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 9,
+    "quality": {
+      "n": 0,
+      "known": 0,
+      "bad": 0,
+      "error": null,
+      "coverage": 0,
+      "cutoff": -1
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 10,
+    "quality": {
+      "n": 0,
+      "known": 0,
+      "bad": 0,
+      "error": null,
+      "coverage": 0,
+      "cutoff": 0
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": false
+  },
+  {
+    "now": 11,
+    "quality": {
+      "n": 20,
+      "known": 20,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 1
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 12,
+    "quality": {
+      "n": 40,
+      "known": 40,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 2
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 13,
+    "quality": {
+      "n": 60,
+      "known": 60,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 3
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 14,
+    "quality": {
+      "n": 80,
+      "known": 80,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 4
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 15,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 5
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": false
+  },
+  {
+    "now": 16,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 6
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 17,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 7
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 18,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 8
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 19,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 9
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 20,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 10
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 21,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 11
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 22,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 12
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 23,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 13
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 24,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 14
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 25,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 15
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 26,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 16
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 27,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 17
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 28,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 18
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 29,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 19
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 30,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 20
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 31,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 21
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 32,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 22
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 33,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 23
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 34,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 24
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 35,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 25
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 36,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 26
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 37,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 27
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 38,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 28
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 39,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 29
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 40,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 30
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 41,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 31
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 42,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 32
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 43,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 33
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 44,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 34
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 45,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 35
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 46,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 36
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 47,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 37
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 48,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 38
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 49,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 39
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 50,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 40
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 51,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 7,
+      "error": 0.07,
+      "coverage": 1.0,
+      "cutoff": 41
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 52,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 17,
+      "error": 0.17,
+      "coverage": 1.0,
+      "cutoff": 42
+    },
+    "alarm": true,
+    "streak": 1,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 53,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 27,
+      "error": 0.27,
+      "coverage": 1.0,
+      "cutoff": 43
+    },
+    "alarm": true,
+    "streak": 2,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 54,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 32,
+      "error": 0.32,
+      "coverage": 1.0,
+      "cutoff": 44
+    },
+    "alarm": true,
+    "streak": 3,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 55,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 37,
+      "error": 0.37,
+      "coverage": 1.0,
+      "cutoff": 45
+    },
+    "alarm": true,
+    "streak": 4,
+    "autonomy": false,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 56,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 35,
+      "error": 0.35,
+      "coverage": 1.0,
+      "cutoff": 46
+    },
+    "alarm": true,
+    "streak": 5,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 57,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 34,
+      "error": 0.34,
+      "coverage": 1.0,
+      "cutoff": 47
+    },
+    "alarm": true,
+    "streak": 6,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 58,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 31,
+      "error": 0.31,
+      "coverage": 1.0,
+      "cutoff": 48
+    },
+    "alarm": true,
+    "streak": 7,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 59,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 34,
+      "error": 0.34,
+      "coverage": 1.0,
+      "cutoff": 49
+    },
+    "alarm": true,
+    "streak": 8,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 60,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 32,
+      "error": 0.32,
+      "coverage": 1.0,
+      "cutoff": 50
+    },
+    "alarm": true,
+    "streak": 9,
+    "autonomy": false,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 61,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 36,
+      "error": 0.36,
+      "coverage": 1.0,
+      "cutoff": 51
+    },
+    "alarm": true,
+    "streak": 10,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 62,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 31,
+      "error": 0.31,
+      "coverage": 1.0,
+      "cutoff": 52
+    },
+    "alarm": true,
+    "streak": 11,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 63,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 29,
+      "error": 0.29,
+      "coverage": 1.0,
+      "cutoff": 53
+    },
+    "alarm": true,
+    "streak": 12,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 64,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 29,
+      "error": 0.29,
+      "coverage": 1.0,
+      "cutoff": 54
+    },
+    "alarm": true,
+    "streak": 13,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 65,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 34,
+      "error": 0.34,
+      "coverage": 1.0,
+      "cutoff": 55
+    },
+    "alarm": true,
+    "streak": 14,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 66,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 26,
+      "error": 0.26,
+      "coverage": 1.0,
+      "cutoff": 56
+    },
+    "alarm": true,
+    "streak": 15,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 67,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 28,
+      "error": 0.28,
+      "coverage": 1.0,
+      "cutoff": 57
+    },
+    "alarm": true,
+    "streak": 16,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 68,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 31,
+      "error": 0.31,
+      "coverage": 1.0,
+      "cutoff": 58
+    },
+    "alarm": true,
+    "streak": 17,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 69,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 31,
+      "error": 0.31,
+      "coverage": 1.0,
+      "cutoff": 59
+    },
+    "alarm": true,
+    "streak": 18,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 70,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 28,
+      "error": 0.28,
+      "coverage": 1.0,
+      "cutoff": 60
+    },
+    "alarm": true,
+    "streak": 19,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 71,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 34,
+      "error": 0.34,
+      "coverage": 1.0,
+      "cutoff": 61
+    },
+    "alarm": true,
+    "streak": 20,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 72,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 35,
+      "error": 0.35,
+      "coverage": 1.0,
+      "cutoff": 62
+    },
+    "alarm": true,
+    "streak": 21,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 73,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 32,
+      "error": 0.32,
+      "coverage": 1.0,
+      "cutoff": 63
+    },
+    "alarm": true,
+    "streak": 22,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 74,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 30,
+      "error": 0.3,
+      "coverage": 1.0,
+      "cutoff": 64
+    },
+    "alarm": true,
+    "streak": 23,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 75,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 32,
+      "error": 0.32,
+      "coverage": 1.0,
+      "cutoff": 65
+    },
+    "alarm": true,
+    "streak": 24,
+    "autonomy": false,
+    "sentinel": true,
+    "z_alert": true
+  },
+  {
+    "now": 76,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 25,
+      "error": 0.25,
+      "coverage": 1.0,
+      "cutoff": 66
+    },
+    "alarm": true,
+    "streak": 25,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 77,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 18,
+      "error": 0.18,
+      "coverage": 1.0,
+      "cutoff": 67
+    },
+    "alarm": true,
+    "streak": 26,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 78,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 14,
+      "error": 0.14,
+      "coverage": 1.0,
+      "cutoff": 68
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 79,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 9,
+      "error": 0.09,
+      "coverage": 1.0,
+      "cutoff": 69
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 80,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 2,
+      "error": 0.02,
+      "coverage": 1.0,
+      "cutoff": 70
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": false,
+    "sentinel": true,
+    "z_alert": true
+  },
+  {
+    "now": 81,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 2,
+      "error": 0.02,
+      "coverage": 1.0,
+      "cutoff": 71
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 82,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 2,
+      "error": 0.02,
+      "coverage": 1.0,
+      "cutoff": 72
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 83,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 1,
+      "error": 0.01,
+      "coverage": 1.0,
+      "cutoff": 73
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 84,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 74
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 85,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 75
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": false,
+    "sentinel": true,
+    "z_alert": true
+  },
+  {
+    "now": 86,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 8,
+      "error": 0.08,
+      "coverage": 1.0,
+      "cutoff": 76
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 87,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 23,
+      "error": 0.23,
+      "coverage": 1.0,
+      "cutoff": 77
+    },
+    "alarm": true,
+    "streak": 1,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 88,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 34,
+      "error": 0.34,
+      "coverage": 1.0,
+      "cutoff": 78
+    },
+    "alarm": true,
+    "streak": 2,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 89,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 44,
+      "error": 0.44,
+      "coverage": 1.0,
+      "cutoff": 79
+    },
+    "alarm": true,
+    "streak": 3,
+    "autonomy": false,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 90,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 53,
+      "error": 0.53,
+      "coverage": 1.0,
+      "cutoff": 80
+    },
+    "alarm": true,
+    "streak": 4,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 91,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 56,
+      "error": 0.56,
+      "coverage": 1.0,
+      "cutoff": 81
+    },
+    "alarm": true,
+    "streak": 5,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 92,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 54,
+      "error": 0.54,
+      "coverage": 1.0,
+      "cutoff": 82
+    },
+    "alarm": true,
+    "streak": 6,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 93,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 56,
+      "error": 0.56,
+      "coverage": 1.0,
+      "cutoff": 83
+    },
+    "alarm": true,
+    "streak": 7,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 94,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 59,
+      "error": 0.59,
+      "coverage": 1.0,
+      "cutoff": 84
+    },
+    "alarm": true,
+    "streak": 8,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 95,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 64,
+      "error": 0.64,
+      "coverage": 1.0,
+      "cutoff": 85
+    },
+    "alarm": true,
+    "streak": 9,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 96,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 65,
+      "error": 0.65,
+      "coverage": 1.0,
+      "cutoff": 86
+    },
+    "alarm": true,
+    "streak": 10,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 97,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 67,
+      "error": 0.67,
+      "coverage": 1.0,
+      "cutoff": 87
+    },
+    "alarm": true,
+    "streak": 11,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 98,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 64,
+      "error": 0.64,
+      "coverage": 1.0,
+      "cutoff": 88
+    },
+    "alarm": true,
+    "streak": 12,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 99,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 62,
+      "error": 0.62,
+      "coverage": 1.0,
+      "cutoff": 89
+    },
+    "alarm": true,
+    "streak": 13,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 100,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 57,
+      "error": 0.57,
+      "coverage": 1.0,
+      "cutoff": 90
+    },
+    "alarm": true,
+    "streak": 14,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 101,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 45,
+      "error": 0.45,
+      "coverage": 1.0,
+      "cutoff": 91
+    },
+    "alarm": true,
+    "streak": 15,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 102,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 30,
+      "error": 0.3,
+      "coverage": 1.0,
+      "cutoff": 92
+    },
+    "alarm": true,
+    "streak": 16,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 103,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 20,
+      "error": 0.2,
+      "coverage": 1.0,
+      "cutoff": 93
+    },
+    "alarm": true,
+    "streak": 17,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 104,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 9,
+      "error": 0.09,
+      "coverage": 1.0,
+      "cutoff": 94
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 105,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 95
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 106,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 96
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 107,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 97
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 108,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 98
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 109,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 99
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 110,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 100
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 111,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 101
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 112,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 102
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 113,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 103
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 114,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 104
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 115,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 105
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": false,
+    "z_alert": true
+  },
+  {
+    "now": 116,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 106
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 117,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 107
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 118,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 108
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 119,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 109
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": true
+  },
+  {
+    "now": 120,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 110
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 121,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 111
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 122,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 112
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 123,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 113
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 124,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 114
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 125,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 115
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 126,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 0,
+      "error": 0.0,
+      "coverage": 1.0,
+      "cutoff": 116
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 127,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 1,
+      "error": 0.01,
+      "coverage": 1.0,
+      "cutoff": 117
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 128,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 1,
+      "error": 0.01,
+      "coverage": 1.0,
+      "cutoff": 118
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  },
+  {
+    "now": 129,
+    "quality": {
+      "n": 100,
+      "known": 100,
+      "bad": 1,
+      "error": 0.01,
+      "coverage": 1.0,
+      "cutoff": 119
+    },
+    "alarm": false,
+    "streak": 0,
+    "autonomy": true,
+    "sentinel": null,
+    "z_alert": false
+  }
+]

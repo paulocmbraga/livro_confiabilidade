@@ -1,0 +1,31 @@
+{
+  "id": "F11Q1_empty_smol_41",
+  "query_id": "F11Q1",
+  "family": "F11",
+  "model": "smol",
+  "seed": 41,
+  "variant": "empty",
+  "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 2.57393009995576,
+  "parsed": null,
+  "error": "finish_reason não é stop",
+  "observed": {
+    "valid": false,
+    "all_required_delivered": null,
+    "source_loss_known": null,
+    "reference_evidence_available": null,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"Não tenho informações sobre o valor do auxílio veterinário para cachorros.\",\"citacoes\":[],\"abster\":true}"
+      }
+    }
+  ],
+  "created": 1792879229,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 36,
+    "prompt_tokens": 164,
+    "total_tokens": 200,
+    "prompt_tokens_details": {
+      "cached_tokens": 153
+    }
+  },
+  "id": "chatcmpl-qegapCQp3bpcFxUvjTfAaulWuHLSXu1Q",
+  "timings": {
+    "cache_n": 153,
+    "prompt_n": 11,
+    "prompt_ms": 93.374,
+    "prompt_per_token_ms": 8.488545454545454,
+    "prompt_per_second": 117.80581318139954,
+    "predicted_n": 36,
+    "predicted_ms": 805.215,
+    "predicted_per_token_ms": 23.00614285714286,
+    "predicted_per_second": 43.46665176381463
+  }
+}

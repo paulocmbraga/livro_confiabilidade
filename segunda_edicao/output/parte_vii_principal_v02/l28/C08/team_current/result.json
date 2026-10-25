@@ -1,0 +1,21 @@
+{
+  "case": "C08",
+  "condition": "team_current",
+  "split": "reserve",
+  "expected": true,
+  "decision": true,
+  "correct": true,
+  "abstained": false,
+  "completion_tokens": 99,
+  "prompt_tokens": 260,
+  "inference_seconds": 3.2190785999409854,
+  "calls": 3,
+  "unanimous": true,
+  "errors": [
+    false,
+    false,
+    false
+  ],
+  "pairs": 3,
+  "both_wrong": 0
+}

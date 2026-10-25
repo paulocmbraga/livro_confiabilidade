@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Porque a plantão não é autorizada, estamos usando o teto de jantar autorizado para o uso da plantão noturno autorizada. Para ver se o teto de jantar está disponível, verifique o teto de jantar disponível no campo de teto de jantar disponível no campo de teto de jantar disponível no campo de teto de jantar disponível no"
+      }
+    }
+  ],
+  "created": 1792879281,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 218,
+    "total_tokens": 346,
+    "prompt_tokens_details": {
+      "cached_tokens": 174
+    }
+  },
+  "id": "chatcmpl-HkKolhNv5c39Em4dmekcTemm3G2VTUfi",
+  "timings": {
+    "cache_n": 174,
+    "prompt_n": 44,
+    "prompt_ms": 295.102,
+    "prompt_per_token_ms": 6.706863636363636,
+    "prompt_per_second": 149.10098881064854,
+    "predicted_n": 128,
+    "predicted_ms": 2261.711,
+    "predicted_per_token_ms": 17.808748031496062,
+    "predicted_per_second": 56.15217859399367
+  }
+}

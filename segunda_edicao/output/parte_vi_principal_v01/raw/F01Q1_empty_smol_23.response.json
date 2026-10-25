@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Pero, você precisa de um documento para responder a questão. O que você quer ajudar para resolver esta questão? É preciso informar o tempo de seus férias e a quantidade de tempo que você precisa para se concentrar em uma decisão. Para resolver este problema, você precisa de um documento para responder a questão. O que você quer ajudar para resolver este problema? É preciso informar o tempo de seus f"
+      }
+    }
+  ],
+  "created": 1792879330,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 226,
+    "total_tokens": 354,
+    "prompt_tokens_details": {
+      "cached_tokens": 173
+    }
+  },
+  "id": "chatcmpl-euY6PVvf6sVyvJX8Zh89M11KwJpHwT4B",
+  "timings": {
+    "cache_n": 173,
+    "prompt_n": 53,
+    "prompt_ms": 310.344,
+    "prompt_per_token_ms": 5.855547169811321,
+    "prompt_per_second": 170.7782331863996,
+    "predicted_n": 128,
+    "predicted_ms": 2263.496,
+    "predicted_per_token_ms": 17.8228031496063,
+    "predicted_per_second": 56.10789681095085
+  }
+}

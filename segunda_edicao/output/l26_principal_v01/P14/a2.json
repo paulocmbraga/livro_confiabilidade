@@ -1,0 +1,21 @@
+{
+  "job": "job2",
+  "attempt": "a2",
+  "mode": "execute",
+  "token": 1,
+  "pid": 19484,
+  "status": 200,
+  "reply": {
+    "action": "release",
+    "effect": "applied",
+    "effect_id": 2,
+    "hash": "7732a3aaf734f36b2cb31c79ef55648cfe1592222eead2edb26e0078209db7b0",
+    "intent": "compensacao-1",
+    "key": "chave-comp",
+    "tenant": "horizonte"
+  },
+  "outcome": "confirmed",
+  "ledger_updated": true,
+  "seconds": 0.34694660000968724,
+  "error": null
+}

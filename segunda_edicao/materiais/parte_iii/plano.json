@@ -1,0 +1,8 @@
+{
+  "version": "parte-iii-1.0",
+  "frozen_before_execution": "2026-10-24",
+  "L09": {"operations_per_variant": 40, "variants": ["correct", "rounding", "duplicate", "overdraft", "conflict"], "seed": 909, "currency": "fictional units", "contract": "Round half up to two decimals, no overdraft, idempotency with payload equality, immutable original receipt", "oracle": "independent integer arithmetic and state machine", "shared_defect_control": "alternate reference calls the same incorrect rounding converter"},
+  "L10": {"items": 24, "families": 6, "initial_reviews_per_item": 2, "rubric": "L10-r1", "human_collection": "pending", "fixture_is_human": false},
+  "L11": {"reuse": "output/l11_principal_v01", "manifest_sha256": "f7df1f6cf77d324ffba1c660e87c9ccf49cee2310d5325b0ebbf0afffa69db1e", "new_inferences": 0, "historical_total": 412, "human_collection": "pending"},
+  "L12": {"model": "qwen", "runtime": "llama.cpp b11669", "threads": 4, "context": 4096, "calls_budget": 8, "max_tokens": 48, "request_timeout_seconds": 90, "max_seconds": 600, "workers_parallel": 1, "evaluator": "deterministic document-value oracle in separate HTTP process", "expected_judge": "exact-v1", "expiry_logical": 200, "faults": {"T01": "normal", "T02": "crash_after_raw", "T03": "delayed_callback", "T04": "candidate_mismatch", "T05": "judge_change", "T06": "duplicate_callback", "T07": "crash_before_inference", "T08": "truncated_consumer"}, "T09": "not admitted because eight-call budget exhausted", "late_callback": "submitted after collector closure", "qualification": "operational evidence only, no human semantic validation or production release"}
+}

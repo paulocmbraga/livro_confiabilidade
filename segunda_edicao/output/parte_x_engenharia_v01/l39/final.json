@@ -1,0 +1,54 @@
+{
+  "config": {
+    "mode": "auto",
+    "stage": "live",
+    "retest": "yes"
+  },
+  "tasks": [
+    {
+      "id": "after",
+      "amount": 50,
+      "schema": 1,
+      "state": "done",
+      "priority": 0
+    },
+    {
+      "id": "review0",
+      "amount": 100,
+      "schema": 1,
+      "state": "cancelled",
+      "priority": 0
+    },
+    {
+      "id": "review1",
+      "amount": 100,
+      "schema": 1,
+      "state": "cancelled",
+      "priority": 0
+    },
+    {
+      "id": "review2",
+      "amount": 100,
+      "schema": 1,
+      "state": "cancelled",
+      "priority": 2
+    },
+    {
+      "id": "unknown",
+      "amount": 250,
+      "schema": 1,
+      "state": "done",
+      "priority": 0
+    }
+  ],
+  "effects": [
+    {
+      "id": "after",
+      "amount": 50
+    },
+    {
+      "id": "unknown",
+      "amount": 250
+    }
+  ]
+}

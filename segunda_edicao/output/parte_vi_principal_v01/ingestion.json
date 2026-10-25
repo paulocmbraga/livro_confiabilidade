@@ -1,0 +1,1494 @@
+{
+  "rows": [
+    {
+      "document": "jantar_v1",
+      "strategy": "body_only",
+      "parsed": {
+        "metadata": {
+          "tenant": "alpha",
+          "policy": "JANTAR",
+          "version": "1",
+          "from": "2026-01-01",
+          "until": "2026-10-24",
+          "license": "autoral-didatico"
+        },
+        "units": [
+          {
+            "id": "G",
+            "tag": "p",
+            "kind": "rule",
+            "requires": [],
+            "text": "Regra geral: reembolso somente com comprovante."
+          },
+          {
+            "id": "T",
+            "tag": "tr",
+            "kind": "table",
+            "requires": [
+              "N"
+            ],
+            "text": "Jantar comum | R$ 40"
+          },
+          {
+            "id": "N",
+            "tag": "p",
+            "kind": "footnote",
+            "requires": [
+              "T"
+            ],
+            "text": "Nota: plantão noturno autorizado substitui o teto por R$ 60."
+          }
+        ]
+      },
+      "chunks": [
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "1",
+            "from": "2026-01-01",
+            "until": "2026-10-24",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "G"
+          ],
+          "text": "Regra geral: reembolso somente com comprovante.",
+          "strategy": "body_only",
+          "id": "2e752d5910c1cb72e7978cd4c84603517e5aa8cd08be13b459992ead5358d93a"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "1",
+            "from": "2026-01-01",
+            "until": "2026-10-24",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T"
+          ],
+          "text": "Jantar comum | R$ 40",
+          "strategy": "body_only",
+          "id": "860939cc32fbdfa36678a734d3016228c713ca527221b3ffb4ae4401b8871ef1"
+        }
+      ],
+      "audit": {
+        "units": 3,
+        "recoverable": 2,
+        "closed_in_one_chunk": 1,
+        "missing": [
+          "N"
+        ],
+        "open": [
+          "T",
+          "N"
+        ]
+      }
+    },
+    {
+      "document": "jantar_v1",
+      "strategy": "independent",
+      "parsed": {
+        "metadata": {
+          "tenant": "alpha",
+          "policy": "JANTAR",
+          "version": "1",
+          "from": "2026-01-01",
+          "until": "2026-10-24",
+          "license": "autoral-didatico"
+        },
+        "units": [
+          {
+            "id": "G",
+            "tag": "p",
+            "kind": "rule",
+            "requires": [],
+            "text": "Regra geral: reembolso somente com comprovante."
+          },
+          {
+            "id": "T",
+            "tag": "tr",
+            "kind": "table",
+            "requires": [
+              "N"
+            ],
+            "text": "Jantar comum | R$ 40"
+          },
+          {
+            "id": "N",
+            "tag": "p",
+            "kind": "footnote",
+            "requires": [
+              "T"
+            ],
+            "text": "Nota: plantão noturno autorizado substitui o teto por R$ 60."
+          }
+        ]
+      },
+      "chunks": [
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "1",
+            "from": "2026-01-01",
+            "until": "2026-10-24",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "G"
+          ],
+          "text": "Regra geral: reembolso somente com comprovante.",
+          "strategy": "independent",
+          "id": "17457e3ce7099a9256657e9d4e6634ca11fd38119fa346fb08eca27ef11093b4"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "1",
+            "from": "2026-01-01",
+            "until": "2026-10-24",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T"
+          ],
+          "text": "Jantar comum | R$ 40",
+          "strategy": "independent",
+          "id": "ea4ca30ab0e1a9b4352109bdafd2f8a37b4ee30d106c3f01f1b09681ec92e07d"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "1",
+            "from": "2026-01-01",
+            "until": "2026-10-24",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "N"
+          ],
+          "text": "Nota: plantão noturno autorizado substitui o teto por R$ 60.",
+          "strategy": "independent",
+          "id": "66280a44ba50a0a6c482da22116359eaff54d6dff4eefdac47ae96461933692a"
+        }
+      ],
+      "audit": {
+        "units": 3,
+        "recoverable": 3,
+        "closed_in_one_chunk": 1,
+        "missing": [],
+        "open": [
+          "T",
+          "N"
+        ]
+      }
+    },
+    {
+      "document": "jantar_v1",
+      "strategy": "linked",
+      "parsed": {
+        "metadata": {
+          "tenant": "alpha",
+          "policy": "JANTAR",
+          "version": "1",
+          "from": "2026-01-01",
+          "until": "2026-10-24",
+          "license": "autoral-didatico"
+        },
+        "units": [
+          {
+            "id": "G",
+            "tag": "p",
+            "kind": "rule",
+            "requires": [],
+            "text": "Regra geral: reembolso somente com comprovante."
+          },
+          {
+            "id": "T",
+            "tag": "tr",
+            "kind": "table",
+            "requires": [
+              "N"
+            ],
+            "text": "Jantar comum | R$ 40"
+          },
+          {
+            "id": "N",
+            "tag": "p",
+            "kind": "footnote",
+            "requires": [
+              "T"
+            ],
+            "text": "Nota: plantão noturno autorizado substitui o teto por R$ 60."
+          }
+        ]
+      },
+      "chunks": [
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "1",
+            "from": "2026-01-01",
+            "until": "2026-10-24",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "G"
+          ],
+          "text": "Regra geral: reembolso somente com comprovante.",
+          "strategy": "linked",
+          "id": "62e4ae0c1d7271d523720129a3df947805358de933aa306b829a354f0585c779"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "1",
+            "from": "2026-01-01",
+            "until": "2026-10-24",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T",
+            "N"
+          ],
+          "text": "Jantar comum | R$ 40\nNota: plantão noturno autorizado substitui o teto por R$ 60.",
+          "strategy": "linked",
+          "id": "d583f45aeb3d946a9304a5f5a0c7221ef58fdac619ba08229f552533eb53d406"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "1",
+            "from": "2026-01-01",
+            "until": "2026-10-24",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T",
+            "N"
+          ],
+          "text": "Jantar comum | R$ 40\nNota: plantão noturno autorizado substitui o teto por R$ 60.",
+          "strategy": "linked",
+          "id": "d583f45aeb3d946a9304a5f5a0c7221ef58fdac619ba08229f552533eb53d406"
+        }
+      ],
+      "audit": {
+        "units": 3,
+        "recoverable": 3,
+        "closed_in_one_chunk": 3,
+        "missing": [],
+        "open": []
+      }
+    },
+    {
+      "document": "jantar_v2",
+      "strategy": "body_only",
+      "parsed": {
+        "metadata": {
+          "tenant": "alpha",
+          "policy": "JANTAR",
+          "version": "2",
+          "from": "2026-10-24",
+          "until": "",
+          "license": "autoral-didatico"
+        },
+        "units": [
+          {
+            "id": "G",
+            "tag": "p",
+            "kind": "rule",
+            "requires": [],
+            "text": "Regra geral: reembolso somente com comprovante."
+          },
+          {
+            "id": "T",
+            "tag": "tr",
+            "kind": "table",
+            "requires": [
+              "N"
+            ],
+            "text": "Jantar comum | R$ 50"
+          },
+          {
+            "id": "N",
+            "tag": "p",
+            "kind": "footnote",
+            "requires": [
+              "T"
+            ],
+            "text": "Nota: plantão noturno autorizado substitui o teto por R$ 70."
+          }
+        ]
+      },
+      "chunks": [
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "G"
+          ],
+          "text": "Regra geral: reembolso somente com comprovante.",
+          "strategy": "body_only",
+          "id": "6b50fb7a8a2c5e0fb284c296d2ccfad4f2514dd2db90426b5b50a16a2c7ce219"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T"
+          ],
+          "text": "Jantar comum | R$ 50",
+          "strategy": "body_only",
+          "id": "c5a2526ae9f76283d91e4ae672e6b4805855e1c76a8487e1199bb3f378993ce6"
+        }
+      ],
+      "audit": {
+        "units": 3,
+        "recoverable": 2,
+        "closed_in_one_chunk": 1,
+        "missing": [
+          "N"
+        ],
+        "open": [
+          "T",
+          "N"
+        ]
+      }
+    },
+    {
+      "document": "jantar_v2",
+      "strategy": "independent",
+      "parsed": {
+        "metadata": {
+          "tenant": "alpha",
+          "policy": "JANTAR",
+          "version": "2",
+          "from": "2026-10-24",
+          "until": "",
+          "license": "autoral-didatico"
+        },
+        "units": [
+          {
+            "id": "G",
+            "tag": "p",
+            "kind": "rule",
+            "requires": [],
+            "text": "Regra geral: reembolso somente com comprovante."
+          },
+          {
+            "id": "T",
+            "tag": "tr",
+            "kind": "table",
+            "requires": [
+              "N"
+            ],
+            "text": "Jantar comum | R$ 50"
+          },
+          {
+            "id": "N",
+            "tag": "p",
+            "kind": "footnote",
+            "requires": [
+              "T"
+            ],
+            "text": "Nota: plantão noturno autorizado substitui o teto por R$ 70."
+          }
+        ]
+      },
+      "chunks": [
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "G"
+          ],
+          "text": "Regra geral: reembolso somente com comprovante.",
+          "strategy": "independent",
+          "id": "2887d39a2f48f8005a438f570841da1135fc4f736a9d8dcf6d3cc1fc7cdadc51"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T"
+          ],
+          "text": "Jantar comum | R$ 50",
+          "strategy": "independent",
+          "id": "654720789e405223ff472429d0b28a3b6a6614975276cb4a47f6aafe1773cfb6"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "N"
+          ],
+          "text": "Nota: plantão noturno autorizado substitui o teto por R$ 70.",
+          "strategy": "independent",
+          "id": "97c29184a4b0729c067738c5f33aef9a8255c0d345c023076b87f0d14cef0378"
+        }
+      ],
+      "audit": {
+        "units": 3,
+        "recoverable": 3,
+        "closed_in_one_chunk": 1,
+        "missing": [],
+        "open": [
+          "T",
+          "N"
+        ]
+      }
+    },
+    {
+      "document": "jantar_v2",
+      "strategy": "linked",
+      "parsed": {
+        "metadata": {
+          "tenant": "alpha",
+          "policy": "JANTAR",
+          "version": "2",
+          "from": "2026-10-24",
+          "until": "",
+          "license": "autoral-didatico"
+        },
+        "units": [
+          {
+            "id": "G",
+            "tag": "p",
+            "kind": "rule",
+            "requires": [],
+            "text": "Regra geral: reembolso somente com comprovante."
+          },
+          {
+            "id": "T",
+            "tag": "tr",
+            "kind": "table",
+            "requires": [
+              "N"
+            ],
+            "text": "Jantar comum | R$ 50"
+          },
+          {
+            "id": "N",
+            "tag": "p",
+            "kind": "footnote",
+            "requires": [
+              "T"
+            ],
+            "text": "Nota: plantão noturno autorizado substitui o teto por R$ 70."
+          }
+        ]
+      },
+      "chunks": [
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "G"
+          ],
+          "text": "Regra geral: reembolso somente com comprovante.",
+          "strategy": "linked",
+          "id": "99768c0733b59197dc3f57165197ca23ea52cd2dabd8acd6a174a65f85c2d012"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T",
+            "N"
+          ],
+          "text": "Jantar comum | R$ 50\nNota: plantão noturno autorizado substitui o teto por R$ 70.",
+          "strategy": "linked",
+          "id": "ef852c8e3b310b3f20cd151c4a5e1fe8801266a1095937f6902684a7478b4453"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T",
+            "N"
+          ],
+          "text": "Jantar comum | R$ 50\nNota: plantão noturno autorizado substitui o teto por R$ 70.",
+          "strategy": "linked",
+          "id": "ef852c8e3b310b3f20cd151c4a5e1fe8801266a1095937f6902684a7478b4453"
+        }
+      ],
+      "audit": {
+        "units": 3,
+        "recoverable": 3,
+        "closed_in_one_chunk": 3,
+        "missing": [],
+        "open": []
+      }
+    },
+    {
+      "document": "jantar_v2_copia",
+      "strategy": "body_only",
+      "parsed": {
+        "metadata": {
+          "tenant": "alpha",
+          "policy": "JANTAR",
+          "version": "2",
+          "from": "2026-10-24",
+          "until": "",
+          "license": "autoral-didatico"
+        },
+        "units": [
+          {
+            "id": "G",
+            "tag": "p",
+            "kind": "rule",
+            "requires": [],
+            "text": "Regra geral: reembolso somente com comprovante."
+          },
+          {
+            "id": "T",
+            "tag": "tr",
+            "kind": "table",
+            "requires": [
+              "N"
+            ],
+            "text": "Jantar comum | R$ 50"
+          },
+          {
+            "id": "N",
+            "tag": "p",
+            "kind": "footnote",
+            "requires": [
+              "T"
+            ],
+            "text": "Nota: plantão noturno autorizado substitui o teto por R$ 70."
+          }
+        ]
+      },
+      "chunks": [
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "G"
+          ],
+          "text": "Regra geral: reembolso somente com comprovante.",
+          "strategy": "body_only",
+          "id": "6b50fb7a8a2c5e0fb284c296d2ccfad4f2514dd2db90426b5b50a16a2c7ce219"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T"
+          ],
+          "text": "Jantar comum | R$ 50",
+          "strategy": "body_only",
+          "id": "c5a2526ae9f76283d91e4ae672e6b4805855e1c76a8487e1199bb3f378993ce6"
+        }
+      ],
+      "audit": {
+        "units": 3,
+        "recoverable": 2,
+        "closed_in_one_chunk": 1,
+        "missing": [
+          "N"
+        ],
+        "open": [
+          "T",
+          "N"
+        ]
+      }
+    },
+    {
+      "document": "jantar_v2_copia",
+      "strategy": "independent",
+      "parsed": {
+        "metadata": {
+          "tenant": "alpha",
+          "policy": "JANTAR",
+          "version": "2",
+          "from": "2026-10-24",
+          "until": "",
+          "license": "autoral-didatico"
+        },
+        "units": [
+          {
+            "id": "G",
+            "tag": "p",
+            "kind": "rule",
+            "requires": [],
+            "text": "Regra geral: reembolso somente com comprovante."
+          },
+          {
+            "id": "T",
+            "tag": "tr",
+            "kind": "table",
+            "requires": [
+              "N"
+            ],
+            "text": "Jantar comum | R$ 50"
+          },
+          {
+            "id": "N",
+            "tag": "p",
+            "kind": "footnote",
+            "requires": [
+              "T"
+            ],
+            "text": "Nota: plantão noturno autorizado substitui o teto por R$ 70."
+          }
+        ]
+      },
+      "chunks": [
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "G"
+          ],
+          "text": "Regra geral: reembolso somente com comprovante.",
+          "strategy": "independent",
+          "id": "2887d39a2f48f8005a438f570841da1135fc4f736a9d8dcf6d3cc1fc7cdadc51"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T"
+          ],
+          "text": "Jantar comum | R$ 50",
+          "strategy": "independent",
+          "id": "654720789e405223ff472429d0b28a3b6a6614975276cb4a47f6aafe1773cfb6"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "N"
+          ],
+          "text": "Nota: plantão noturno autorizado substitui o teto por R$ 70.",
+          "strategy": "independent",
+          "id": "97c29184a4b0729c067738c5f33aef9a8255c0d345c023076b87f0d14cef0378"
+        }
+      ],
+      "audit": {
+        "units": 3,
+        "recoverable": 3,
+        "closed_in_one_chunk": 1,
+        "missing": [],
+        "open": [
+          "T",
+          "N"
+        ]
+      }
+    },
+    {
+      "document": "jantar_v2_copia",
+      "strategy": "linked",
+      "parsed": {
+        "metadata": {
+          "tenant": "alpha",
+          "policy": "JANTAR",
+          "version": "2",
+          "from": "2026-10-24",
+          "until": "",
+          "license": "autoral-didatico"
+        },
+        "units": [
+          {
+            "id": "G",
+            "tag": "p",
+            "kind": "rule",
+            "requires": [],
+            "text": "Regra geral: reembolso somente com comprovante."
+          },
+          {
+            "id": "T",
+            "tag": "tr",
+            "kind": "table",
+            "requires": [
+              "N"
+            ],
+            "text": "Jantar comum | R$ 50"
+          },
+          {
+            "id": "N",
+            "tag": "p",
+            "kind": "footnote",
+            "requires": [
+              "T"
+            ],
+            "text": "Nota: plantão noturno autorizado substitui o teto por R$ 70."
+          }
+        ]
+      },
+      "chunks": [
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "G"
+          ],
+          "text": "Regra geral: reembolso somente com comprovante.",
+          "strategy": "linked",
+          "id": "99768c0733b59197dc3f57165197ca23ea52cd2dabd8acd6a174a65f85c2d012"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T",
+            "N"
+          ],
+          "text": "Jantar comum | R$ 50\nNota: plantão noturno autorizado substitui o teto por R$ 70.",
+          "strategy": "linked",
+          "id": "ef852c8e3b310b3f20cd151c4a5e1fe8801266a1095937f6902684a7478b4453"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T",
+            "N"
+          ],
+          "text": "Jantar comum | R$ 50\nNota: plantão noturno autorizado substitui o teto por R$ 70.",
+          "strategy": "linked",
+          "id": "ef852c8e3b310b3f20cd151c4a5e1fe8801266a1095937f6902684a7478b4453"
+        }
+      ],
+      "audit": {
+        "units": 3,
+        "recoverable": 3,
+        "closed_in_one_chunk": 3,
+        "missing": [],
+        "open": []
+      }
+    },
+    {
+      "document": "jantar_v2_conflito",
+      "strategy": "body_only",
+      "parsed": {
+        "metadata": {
+          "tenant": "alpha",
+          "policy": "JANTAR",
+          "version": "2",
+          "from": "2026-10-24",
+          "until": "",
+          "license": "autoral-didatico"
+        },
+        "units": [
+          {
+            "id": "G",
+            "tag": "p",
+            "kind": "rule",
+            "requires": [],
+            "text": "Regra geral: reembolso somente com comprovante."
+          },
+          {
+            "id": "T",
+            "tag": "tr",
+            "kind": "table",
+            "requires": [
+              "N"
+            ],
+            "text": "Jantar comum | R$ 50"
+          },
+          {
+            "id": "N",
+            "tag": "p",
+            "kind": "footnote",
+            "requires": [
+              "T"
+            ],
+            "text": "Nota: plantão noturno autorizado substitui o teto por R$ 75."
+          }
+        ]
+      },
+      "chunks": [
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "G"
+          ],
+          "text": "Regra geral: reembolso somente com comprovante.",
+          "strategy": "body_only",
+          "id": "6b50fb7a8a2c5e0fb284c296d2ccfad4f2514dd2db90426b5b50a16a2c7ce219"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T"
+          ],
+          "text": "Jantar comum | R$ 50",
+          "strategy": "body_only",
+          "id": "c5a2526ae9f76283d91e4ae672e6b4805855e1c76a8487e1199bb3f378993ce6"
+        }
+      ],
+      "audit": {
+        "units": 3,
+        "recoverable": 2,
+        "closed_in_one_chunk": 1,
+        "missing": [
+          "N"
+        ],
+        "open": [
+          "T",
+          "N"
+        ]
+      }
+    },
+    {
+      "document": "jantar_v2_conflito",
+      "strategy": "independent",
+      "parsed": {
+        "metadata": {
+          "tenant": "alpha",
+          "policy": "JANTAR",
+          "version": "2",
+          "from": "2026-10-24",
+          "until": "",
+          "license": "autoral-didatico"
+        },
+        "units": [
+          {
+            "id": "G",
+            "tag": "p",
+            "kind": "rule",
+            "requires": [],
+            "text": "Regra geral: reembolso somente com comprovante."
+          },
+          {
+            "id": "T",
+            "tag": "tr",
+            "kind": "table",
+            "requires": [
+              "N"
+            ],
+            "text": "Jantar comum | R$ 50"
+          },
+          {
+            "id": "N",
+            "tag": "p",
+            "kind": "footnote",
+            "requires": [
+              "T"
+            ],
+            "text": "Nota: plantão noturno autorizado substitui o teto por R$ 75."
+          }
+        ]
+      },
+      "chunks": [
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "G"
+          ],
+          "text": "Regra geral: reembolso somente com comprovante.",
+          "strategy": "independent",
+          "id": "2887d39a2f48f8005a438f570841da1135fc4f736a9d8dcf6d3cc1fc7cdadc51"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T"
+          ],
+          "text": "Jantar comum | R$ 50",
+          "strategy": "independent",
+          "id": "654720789e405223ff472429d0b28a3b6a6614975276cb4a47f6aafe1773cfb6"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "N"
+          ],
+          "text": "Nota: plantão noturno autorizado substitui o teto por R$ 75.",
+          "strategy": "independent",
+          "id": "7917d6a1f61a5dcdd3b4a30d515f781e38f96f00c0647ec5250729fe57d2bc07"
+        }
+      ],
+      "audit": {
+        "units": 3,
+        "recoverable": 3,
+        "closed_in_one_chunk": 1,
+        "missing": [],
+        "open": [
+          "T",
+          "N"
+        ]
+      }
+    },
+    {
+      "document": "jantar_v2_conflito",
+      "strategy": "linked",
+      "parsed": {
+        "metadata": {
+          "tenant": "alpha",
+          "policy": "JANTAR",
+          "version": "2",
+          "from": "2026-10-24",
+          "until": "",
+          "license": "autoral-didatico"
+        },
+        "units": [
+          {
+            "id": "G",
+            "tag": "p",
+            "kind": "rule",
+            "requires": [],
+            "text": "Regra geral: reembolso somente com comprovante."
+          },
+          {
+            "id": "T",
+            "tag": "tr",
+            "kind": "table",
+            "requires": [
+              "N"
+            ],
+            "text": "Jantar comum | R$ 50"
+          },
+          {
+            "id": "N",
+            "tag": "p",
+            "kind": "footnote",
+            "requires": [
+              "T"
+            ],
+            "text": "Nota: plantão noturno autorizado substitui o teto por R$ 75."
+          }
+        ]
+      },
+      "chunks": [
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "G"
+          ],
+          "text": "Regra geral: reembolso somente com comprovante.",
+          "strategy": "linked",
+          "id": "99768c0733b59197dc3f57165197ca23ea52cd2dabd8acd6a174a65f85c2d012"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T",
+            "N"
+          ],
+          "text": "Jantar comum | R$ 50\nNota: plantão noturno autorizado substitui o teto por R$ 75.",
+          "strategy": "linked",
+          "id": "12dcc087ac57ded61692f5e3b3c2b92ccbc376449ce70fa6e6155674e34ad6a4"
+        },
+        {
+          "metadata": {
+            "tenant": "alpha",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T",
+            "N"
+          ],
+          "text": "Jantar comum | R$ 50\nNota: plantão noturno autorizado substitui o teto por R$ 75.",
+          "strategy": "linked",
+          "id": "12dcc087ac57ded61692f5e3b3c2b92ccbc376449ce70fa6e6155674e34ad6a4"
+        }
+      ],
+      "audit": {
+        "units": 3,
+        "recoverable": 3,
+        "closed_in_one_chunk": 3,
+        "missing": [],
+        "open": []
+      }
+    },
+    {
+      "document": "jantar_beta",
+      "strategy": "body_only",
+      "parsed": {
+        "metadata": {
+          "tenant": "beta",
+          "policy": "JANTAR",
+          "version": "2",
+          "from": "2026-10-24",
+          "until": "",
+          "license": "autoral-didatico"
+        },
+        "units": [
+          {
+            "id": "G",
+            "tag": "p",
+            "kind": "rule",
+            "requires": [],
+            "text": "Regra geral: reembolso somente com comprovante."
+          },
+          {
+            "id": "T",
+            "tag": "tr",
+            "kind": "table",
+            "requires": [
+              "N"
+            ],
+            "text": "Jantar comum | R$ 50"
+          },
+          {
+            "id": "N",
+            "tag": "p",
+            "kind": "footnote",
+            "requires": [
+              "T"
+            ],
+            "text": "Nota: plantão noturno autorizado substitui o teto por R$ 70."
+          }
+        ]
+      },
+      "chunks": [
+        {
+          "metadata": {
+            "tenant": "beta",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "G"
+          ],
+          "text": "Regra geral: reembolso somente com comprovante.",
+          "strategy": "body_only",
+          "id": "df3a860aeab7a9a3ea79f7ec534916e1fcf8ee06eedc2f8b6b1e4309e6314cf7"
+        },
+        {
+          "metadata": {
+            "tenant": "beta",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T"
+          ],
+          "text": "Jantar comum | R$ 50",
+          "strategy": "body_only",
+          "id": "d418fe7daecd3301f6bfe048de17b5f48ab86361a4d174c93670f57b999aa340"
+        }
+      ],
+      "audit": {
+        "units": 3,
+        "recoverable": 2,
+        "closed_in_one_chunk": 1,
+        "missing": [
+          "N"
+        ],
+        "open": [
+          "T",
+          "N"
+        ]
+      }
+    },
+    {
+      "document": "jantar_beta",
+      "strategy": "independent",
+      "parsed": {
+        "metadata": {
+          "tenant": "beta",
+          "policy": "JANTAR",
+          "version": "2",
+          "from": "2026-10-24",
+          "until": "",
+          "license": "autoral-didatico"
+        },
+        "units": [
+          {
+            "id": "G",
+            "tag": "p",
+            "kind": "rule",
+            "requires": [],
+            "text": "Regra geral: reembolso somente com comprovante."
+          },
+          {
+            "id": "T",
+            "tag": "tr",
+            "kind": "table",
+            "requires": [
+              "N"
+            ],
+            "text": "Jantar comum | R$ 50"
+          },
+          {
+            "id": "N",
+            "tag": "p",
+            "kind": "footnote",
+            "requires": [
+              "T"
+            ],
+            "text": "Nota: plantão noturno autorizado substitui o teto por R$ 70."
+          }
+        ]
+      },
+      "chunks": [
+        {
+          "metadata": {
+            "tenant": "beta",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "G"
+          ],
+          "text": "Regra geral: reembolso somente com comprovante.",
+          "strategy": "independent",
+          "id": "730b1f674cb46f708e84316d4734b3951966a0947853f9b81a1dee6f4812f09d"
+        },
+        {
+          "metadata": {
+            "tenant": "beta",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T"
+          ],
+          "text": "Jantar comum | R$ 50",
+          "strategy": "independent",
+          "id": "f82dc090ba2c1a46aaf2a3b0a5efb492c8b26f96dbef5d85be7707a9daee2934"
+        },
+        {
+          "metadata": {
+            "tenant": "beta",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "N"
+          ],
+          "text": "Nota: plantão noturno autorizado substitui o teto por R$ 70.",
+          "strategy": "independent",
+          "id": "91c848c7769cbc3248c2fcc0f34fcb3ea08cebf0db187a7d0cc09ebaf533069e"
+        }
+      ],
+      "audit": {
+        "units": 3,
+        "recoverable": 3,
+        "closed_in_one_chunk": 1,
+        "missing": [],
+        "open": [
+          "T",
+          "N"
+        ]
+      }
+    },
+    {
+      "document": "jantar_beta",
+      "strategy": "linked",
+      "parsed": {
+        "metadata": {
+          "tenant": "beta",
+          "policy": "JANTAR",
+          "version": "2",
+          "from": "2026-10-24",
+          "until": "",
+          "license": "autoral-didatico"
+        },
+        "units": [
+          {
+            "id": "G",
+            "tag": "p",
+            "kind": "rule",
+            "requires": [],
+            "text": "Regra geral: reembolso somente com comprovante."
+          },
+          {
+            "id": "T",
+            "tag": "tr",
+            "kind": "table",
+            "requires": [
+              "N"
+            ],
+            "text": "Jantar comum | R$ 50"
+          },
+          {
+            "id": "N",
+            "tag": "p",
+            "kind": "footnote",
+            "requires": [
+              "T"
+            ],
+            "text": "Nota: plantão noturno autorizado substitui o teto por R$ 70."
+          }
+        ]
+      },
+      "chunks": [
+        {
+          "metadata": {
+            "tenant": "beta",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "G"
+          ],
+          "text": "Regra geral: reembolso somente com comprovante.",
+          "strategy": "linked",
+          "id": "391e5b80c1c204cb41252716e3c6db2f37db16c7c76b1d4ec5157976db11b1c0"
+        },
+        {
+          "metadata": {
+            "tenant": "beta",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T",
+            "N"
+          ],
+          "text": "Jantar comum | R$ 50\nNota: plantão noturno autorizado substitui o teto por R$ 70.",
+          "strategy": "linked",
+          "id": "10b3045f5120b9b1f0a81183630f7defccbd3462f92c510f042d7adfb30f0c4a"
+        },
+        {
+          "metadata": {
+            "tenant": "beta",
+            "policy": "JANTAR",
+            "version": "2",
+            "from": "2026-10-24",
+            "until": "",
+            "license": "autoral-didatico"
+          },
+          "units": [
+            "T",
+            "N"
+          ],
+          "text": "Jantar comum | R$ 50\nNota: plantão noturno autorizado substitui o teto por R$ 70.",
+          "strategy": "linked",
+          "id": "10b3045f5120b9b1f0a81183630f7defccbd3462f92c510f042d7adfb30f0c4a"
+        }
+      ],
+      "audit": {
+        "units": 3,
+        "recoverable": 3,
+        "closed_in_one_chunk": 3,
+        "missing": [],
+        "open": []
+      }
+    }
+  ],
+  "catalog": {
+    "retained": [
+      "jantar_v1",
+      "jantar_v2",
+      "jantar_v2_conflito",
+      "jantar_beta"
+    ],
+    "duplicates": [
+      {
+        "source": "jantar_v2_copia",
+        "same_as": "jantar_v2"
+      }
+    ],
+    "conflicts": [
+      {
+        "identity": [
+          "alpha",
+          "JANTAR",
+          "2",
+          "2026-10-24",
+          ""
+        ],
+        "contents": [
+          "f6da823102a3ea4d92cac8a1bd17216b40d1935ab62f15b783bd4dbf8fbfa835",
+          "f7d174d1b0f43c23a234610c3666a95decd88a492a2812d49b3f6add17085cfd"
+        ]
+      }
+    ],
+    "publishable": false
+  },
+  "alpha_current": [
+    "jantar_v2",
+    "jantar_v2_copia",
+    "jantar_v2_conflito"
+  ],
+  "release_after_quarantine": {
+    "retained": [
+      "jantar_v1",
+      "jantar_v2",
+      "jantar_beta"
+    ],
+    "duplicates": [
+      {
+        "source": "jantar_v2_copia",
+        "same_as": "jantar_v2"
+      }
+    ],
+    "conflicts": [],
+    "publishable": true
+  }
+}

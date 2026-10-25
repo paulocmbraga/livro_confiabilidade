@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"steps\": [\"Verifique a quantidade disponível e o teto\", \"Reserva o item\", \"Verifique a quantidade disponível novamente\", \"Reserva o item novamente\"]}"
+      }
+    }
+  ],
+  "created": 1792881443,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 38,
+    "prompt_tokens": 73,
+    "total_tokens": 111,
+    "prompt_tokens_details": {
+      "cached_tokens": 3
+    }
+  },
+  "id": "chatcmpl-BRDcsmp9oG9sSeDZFxeTpV3E6aDogz81",
+  "timings": {
+    "cache_n": 3,
+    "prompt_n": 70,
+    "prompt_ms": 483.113,
+    "prompt_per_token_ms": 6.9016142857142855,
+    "prompt_per_second": 144.89363772036768,
+    "predicted_n": 38,
+    "predicted_ms": 827.554,
+    "predicted_per_token_ms": 22.366324324324324,
+    "predicted_per_second": 44.71007330035261
+  }
+}

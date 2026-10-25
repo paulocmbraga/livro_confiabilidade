@@ -1,0 +1,155 @@
+{
+  "source": {
+    "jobs": [
+      {
+        "id": "E0",
+        "status": "confirmed",
+        "version": 2
+      },
+      {
+        "id": "E1",
+        "status": "confirmed",
+        "version": 3
+      },
+      {
+        "id": "E2",
+        "status": "confirmed",
+        "version": 1
+      },
+      {
+        "id": "R0",
+        "status": "confirmed",
+        "version": 1
+      },
+      {
+        "id": "R1",
+        "status": "confirmed",
+        "version": 1
+      }
+    ],
+    "outbox": [
+      {
+        "id": "E0",
+        "sent": true
+      },
+      {
+        "id": "E1",
+        "sent": true
+      },
+      {
+        "id": "E2",
+        "sent": true
+      }
+    ],
+    "checkpoints": [
+      {
+        "id": "flow",
+        "schema_version": 2,
+        "step": 3
+      }
+    ]
+  },
+  "destination": {
+    "effects": [
+      {
+        "id": "A1",
+        "value": "accepted"
+      },
+      {
+        "id": "A2",
+        "value": "accepted"
+      },
+      {
+        "id": "A3",
+        "value": "accepted"
+      },
+      {
+        "id": "B1",
+        "value": "accepted"
+      },
+      {
+        "id": "B2",
+        "value": "accepted"
+      },
+      {
+        "id": "E0",
+        "value": "accepted"
+      },
+      {
+        "id": "E0-replay-control",
+        "value": "accepted"
+      },
+      {
+        "id": "E1",
+        "value": "accepted"
+      },
+      {
+        "id": "E2",
+        "value": "accepted"
+      },
+      {
+        "id": "R0",
+        "value": "accepted"
+      },
+      {
+        "id": "R1",
+        "value": "accepted"
+      }
+    ],
+    "inbox": [
+      {
+        "event": "E0",
+        "body_hash": "70590f14a1cf114703c16d4cff8ed6f72c60cdab668710ac5a2a20d035e0c7b9"
+      },
+      {
+        "event": "E1",
+        "body_hash": "6d2c7c48b7765110bf9d3f39303ff6b6309326d3c5fa3f7e714048eb229c68b9"
+      },
+      {
+        "event": "E2",
+        "body_hash": "7be48d348ba22b9d3e5737c387110d096d405a91018dc7bde96ecae37e3f208b"
+      }
+    ],
+    "resource": [
+      {
+        "id": "r",
+        "token": 2,
+        "value": "new"
+      }
+    ]
+  },
+  "lost_before_reconcile": [
+    "R0",
+    "R1"
+  ],
+  "actions": [
+    {
+      "message_id": "1792884568114-0",
+      "intent": "E0",
+      "action": "receipt_only"
+    },
+    {
+      "message_id": "1792884568217-0",
+      "intent": "R0",
+      "action": "receipt_only"
+    },
+    {
+      "message_id": "1792884568328-0",
+      "intent": "R1",
+      "action": "receipt_only"
+    }
+  ],
+  "backlog": [],
+  "corrupt_rejected": true,
+  "rto_database_seconds": 4.509531900053844,
+  "rto_validated_seconds": 5.433515900047496,
+  "backup_age_upper_bound_seconds": 1.6060011386871338,
+  "missing_admission_times": [
+    1792884566.3707526,
+    1792884567.1772015
+  ],
+  "rpo_count_before": 2,
+  "rpo_count_after": 0,
+  "index_entries_before": 3,
+  "index_entries_after": 5
+}

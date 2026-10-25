@@ -1,0 +1,35 @@
+{
+  "id": "F02Q1_empty_qwen_41",
+  "query_id": "F02Q1",
+  "family": "F02",
+  "model": "qwen",
+  "seed": 41,
+  "variant": "empty",
+  "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 1.1361830999376252,
+  "parsed": {
+    "resposta": "Não há registros de teto diário de hotel em congressos aprovados em Recife.",
+    "citacoes": [],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": false,
+    "source_loss_known": false,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": true,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

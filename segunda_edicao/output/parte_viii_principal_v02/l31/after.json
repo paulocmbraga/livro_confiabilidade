@@ -1,0 +1,145 @@
+{
+  "source": {
+    "jobs": [
+      {
+        "id": "E0",
+        "status": "confirmed",
+        "version": 2
+      },
+      {
+        "id": "E1",
+        "status": "confirmed",
+        "version": 3
+      },
+      {
+        "id": "E2",
+        "status": "confirmed",
+        "version": 1
+      }
+    ],
+    "outbox": [
+      {
+        "id": "E0",
+        "sent": true
+      },
+      {
+        "id": "E1",
+        "sent": true
+      },
+      {
+        "id": "E2",
+        "sent": true
+      }
+    ],
+    "checkpoints": []
+  },
+  "destination": {
+    "effects": [
+      {
+        "id": "A1",
+        "value": "accepted"
+      },
+      {
+        "id": "A2",
+        "value": "accepted"
+      },
+      {
+        "id": "A3",
+        "value": "accepted"
+      },
+      {
+        "id": "B1",
+        "value": "accepted"
+      },
+      {
+        "id": "B2",
+        "value": "accepted"
+      },
+      {
+        "id": "E0",
+        "value": "accepted"
+      },
+      {
+        "id": "E0-replay-control",
+        "value": "accepted"
+      },
+      {
+        "id": "E1",
+        "value": "accepted"
+      },
+      {
+        "id": "E2",
+        "value": "accepted"
+      }
+    ],
+    "inbox": [
+      {
+        "event": "E0",
+        "body_hash": "70590f14a1cf114703c16d4cff8ed6f72c60cdab668710ac5a2a20d035e0c7b9"
+      },
+      {
+        "event": "E1",
+        "body_hash": "6d2c7c48b7765110bf9d3f39303ff6b6309326d3c5fa3f7e714048eb229c68b9"
+      },
+      {
+        "event": "E2",
+        "body_hash": "7be48d348ba22b9d3e5737c387110d096d405a91018dc7bde96ecae37e3f208b"
+      }
+    ],
+    "resource": [
+      {
+        "id": "r",
+        "token": 2,
+        "value": "new"
+      }
+    ]
+  },
+  "fencing": [
+    {
+      "guard": false,
+      "newer": "accepted",
+      "old": {
+        "outcome": "accepted"
+      },
+      "final": {
+        "id": "r",
+        "token": 1,
+        "value": "old"
+      }
+    },
+    {
+      "guard": true,
+      "newer": "accepted",
+      "old": {
+        "outcome": "stale"
+      },
+      "final": {
+        "id": "r",
+        "token": 2,
+        "value": "new"
+      }
+    }
+  ],
+  "optimistic": {
+    "first": 1,
+    "second": 0
+  },
+  "reads": [
+    {
+      "isolation": "READ COMMITTED",
+      "before": 1,
+      "after": 2
+    },
+    {
+      "isolation": "REPEATABLE READ",
+      "before": 2,
+      "after": 2
+    }
+  ],
+  "event_conflict_rejected": true,
+  "migration": {
+    "schema_version": 2,
+    "step": 2,
+    "receipt": null
+  }
+}

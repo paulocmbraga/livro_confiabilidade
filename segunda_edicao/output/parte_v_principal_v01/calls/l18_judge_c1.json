@@ -1,0 +1,62 @@
+{
+  "id": "l18_judge_c1",
+  "request": {
+    "model": "l11-smol",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Is the proposed answer supported and correct? Reply PASS or FAIL only. Task: O registro informa somente a cor azul da caixa. Quantos itens ela contém? Proposed answer: UNKNOWN"
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-smol",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "schema": null
+  },
+  "config_sha256": "2abc44e9c620f81ef7716e1339e79a4d2a174906d8badac1bd47f1bbb74d4674",
+  "events": [
+    {
+      "seconds": 0.36716910009272397,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870763,\"id\":\"chatcmpl-KEFNA0m9JOZxVMhifflVsD4DZ9aDRX0q\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.36723110009916127,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"P\"}}],\"created\":1792870763,\"id\":\"chatcmpl-KEFNA0m9JOZxVMhifflVsD4DZ9aDRX0q\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.38186330010648817,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"ASS\"}}],\"created\":1792870763,\"id\":\"chatcmpl-KEFNA0m9JOZxVMhifflVsD4DZ9aDRX0q\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3949745000572875,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870763,\"id\":\"chatcmpl-KEFNA0m9JOZxVMhifflVsD4DZ9aDRX0q\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":79,\"prompt_ms\":353.476,\"prompt_per_token_ms\":4.474379746835443,\"prompt_per_second\":223.4946644185178,\"predicted_n\":3,\"predicted_ms\":27.808,\"predicted_per_token_ms\":13.904,\"predicted_per_second\":71.92174913693901}}"
+    },
+    {
+      "seconds": 0.39506890007760376,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "PASS",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 2,
+  "ttft_seconds": 0.36724630009848624,
+  "seconds": 0.39527010009624064,
+  "injected_cut_after_content_events": null
+}

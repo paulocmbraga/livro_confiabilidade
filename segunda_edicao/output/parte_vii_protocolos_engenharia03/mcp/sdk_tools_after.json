@@ -1,0 +1,85 @@
+{
+  "_meta": {
+    "io.modelcontextprotocol/serverInfo": {
+      "name": "Confiabilidade L27",
+      "version": "1.0"
+    }
+  },
+  "ttlMs": 0,
+  "cacheScope": "private",
+  "nextCursor": null,
+  "tools": [
+    {
+      "name": "reconcile",
+      "title": null,
+      "description": "",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "intent": {
+            "title": "Intent",
+            "type": "string"
+          }
+        },
+        "required": [
+          "intent"
+        ],
+        "title": "reconcileArguments"
+      },
+      "execution": null,
+      "outputSchema": null,
+      "icons": null,
+      "annotations": null,
+      "_meta": null
+    },
+    {
+      "name": "catalog",
+      "title": null,
+      "description": "",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "title": "catalogArguments"
+      },
+      "execution": null,
+      "outputSchema": null,
+      "icons": null,
+      "annotations": null,
+      "_meta": null
+    },
+    {
+      "name": "reserve",
+      "title": null,
+      "description": "",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "intent": {
+            "title": "Intent",
+            "type": "string"
+          },
+          "units": {
+            "title": "Units",
+            "type": "integer"
+          },
+          "contract": {
+            "title": "Contract",
+            "type": "string"
+          }
+        },
+        "required": [
+          "intent",
+          "units",
+          "contract"
+        ],
+        "title": "reserve2Arguments"
+      },
+      "execution": null,
+      "outputSchema": null,
+      "icons": null,
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "resultType": "complete"
+}

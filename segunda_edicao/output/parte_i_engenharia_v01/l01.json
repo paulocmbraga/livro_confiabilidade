@@ -1,0 +1,133 @@
+{
+  "admitted": 12,
+  "states": {
+    "success": 2,
+    "failure": 7,
+    "abstained": 1,
+    "pending": 1,
+    "unknown": 1
+  },
+  "false_success": 7,
+  "false_negative": 1,
+  "critical_violations": 3,
+  "matrix": {
+    "False": {
+      "success": 1,
+      "failure": 0,
+      "abstained": 1,
+      "pending": 1,
+      "unknown": 1
+    },
+    "True": {
+      "success": 1,
+      "failure": 7,
+      "abstained": 0,
+      "pending": 0,
+      "unknown": 0
+    }
+  },
+  "rows": [
+    {
+      "id": "T01",
+      "segment": "ordinary",
+      "state": "success",
+      "http_accept": true,
+      "violations": [],
+      "client_state": "success"
+    },
+    {
+      "id": "T02",
+      "segment": "ordinary",
+      "state": "failure",
+      "http_accept": true,
+      "violations": [],
+      "client_state": "success"
+    },
+    {
+      "id": "T03",
+      "segment": "critical",
+      "state": "failure",
+      "http_accept": true,
+      "violations": [
+        "foreign_effect"
+      ],
+      "client_state": "success"
+    },
+    {
+      "id": "T04",
+      "segment": "critical",
+      "state": "failure",
+      "http_accept": true,
+      "violations": [
+        "duplicate"
+      ],
+      "client_state": "success"
+    },
+    {
+      "id": "T05",
+      "segment": "ordinary",
+      "state": "abstained",
+      "http_accept": false,
+      "violations": [],
+      "client_state": "abstained"
+    },
+    {
+      "id": "T06",
+      "segment": "ordinary",
+      "state": "failure",
+      "http_accept": true,
+      "violations": [],
+      "client_state": "abstained"
+    },
+    {
+      "id": "T07",
+      "segment": "ordinary",
+      "state": "pending",
+      "http_accept": false,
+      "violations": [],
+      "client_state": "pending"
+    },
+    {
+      "id": "T08",
+      "segment": "ordinary",
+      "state": "unknown",
+      "http_accept": false,
+      "violations": [],
+      "client_state": "unknown"
+    },
+    {
+      "id": "T09",
+      "segment": "ordinary",
+      "state": "success",
+      "http_accept": false,
+      "violations": [],
+      "client_state": "unknown"
+    },
+    {
+      "id": "T10",
+      "segment": "ordinary",
+      "state": "failure",
+      "http_accept": true,
+      "violations": [],
+      "client_state": "success"
+    },
+    {
+      "id": "T11",
+      "segment": "ordinary",
+      "state": "failure",
+      "http_accept": true,
+      "violations": [],
+      "client_state": "success"
+    },
+    {
+      "id": "T12",
+      "segment": "critical",
+      "state": "failure",
+      "http_accept": true,
+      "violations": [
+        "unauthorized_effect"
+      ],
+      "client_state": "success"
+    }
+  ]
+}

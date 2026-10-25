@@ -1,0 +1,40 @@
+{
+  "version": "L23-1.0",
+  "primary": {
+    "queries": 48,
+    "retrievers": [
+      "bm25",
+      "hybrid_rerank"
+    ],
+    "contexts": [
+      "top1",
+      "top3"
+    ],
+    "repetitions": 3,
+    "calls": 576
+  },
+  "diagnostic": {
+    "contexts": [
+      "reference",
+      "empty"
+    ],
+    "repetitions": 1,
+    "calls": 96
+  },
+  "total_calls": 672,
+  "primary_seeds": [
+    23
+  ],
+  "order_seed": 2301,
+  "max_output_tokens": 128,
+  "context_token_budget": 640,
+  "temperature": 0.2,
+  "top_p": 0.9,
+  "threads": 4,
+  "timeout_seconds": 90,
+  "max_campaign_seconds": 10800,
+  "selection": "Escolhas congeladas antes da inferência principal. Famílias autorais conhecidas; não há teste cego independente.",
+  "primary_question": "Mudança de recuperação e de montagem melhora evidência disponível e sinais automáticos sem assumir validade semântica?",
+  "human_validation": "pendente; sem julgamentos reais, não aprovar qualidade semântica",
+  "decision": "Nenhuma candidata recebe aprovação semântica automática; relatório de viabilidade e diagnóstico."
+}

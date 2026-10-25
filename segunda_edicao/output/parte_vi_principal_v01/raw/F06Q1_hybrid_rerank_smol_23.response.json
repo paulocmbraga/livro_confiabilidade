@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"10 dias\",\n  \"citacoes\": [\n    \"circular_b_de_outubro\",\n    \"circular_a_de_outubro\"\n  ],\n  \"abster\": true\n}"
+      }
+    }
+  ],
+  "created": 1792879506,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 371,
+    "total_tokens": 431,
+    "prompt_tokens_details": {
+      "cached_tokens": 370
+    }
+  },
+  "id": "chatcmpl-SvGe3rMQ3vnHLVPW15ABHPovsQsJBe0Y",
+  "timings": {
+    "cache_n": 370,
+    "prompt_n": 1,
+    "prompt_ms": 44.708,
+    "prompt_per_token_ms": 44.708,
+    "prompt_per_second": 22.36736154603203,
+    "predicted_n": 60,
+    "predicted_ms": 1192.023,
+    "predicted_per_token_ms": 20.20377966101695,
+    "predicted_per_second": 49.49568926102936
+  }
+}

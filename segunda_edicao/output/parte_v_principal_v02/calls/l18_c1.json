@@ -1,0 +1,58 @@
+{
+  "id": "l18_c1",
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "O registro informa somente a cor azul da caixa. Quantos itens ela contém? Reply with the numerical answer only, or UNKNOWN if it is not determined by the information."
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-qwen",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "schema": null
+  },
+  "config_sha256": "c4597602f3ce61a1aa48a17cdc86c065e0be05286555aebc75580eefc82d6ada",
+  "events": [
+    {
+      "seconds": 0.3991838999791071,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870975,\"id\":\"chatcmpl-u29jV7OR7oIfKlNKRBcsxhXpGPPWDa4D\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.39924499997869134,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"UNKNOWN\"}}],\"created\":1792870975,\"id\":\"chatcmpl-u29jV7OR7oIfKlNKRBcsxhXpGPPWDa4D\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4147083000279963,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870975,\"id\":\"chatcmpl-u29jV7OR7oIfKlNKRBcsxhXpGPPWDa4D\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":66,\"prompt_ms\":386.775,\"prompt_per_token_ms\":5.860227272727272,\"prompt_per_second\":170.6418460345162,\"predicted_n\":2,\"predicted_ms\":15.522,\"predicted_per_token_ms\":15.522,\"predicted_per_second\":64.42468754026542}}"
+    },
+    {
+      "seconds": 0.41481719992589206,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "UNKNOWN",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 1,
+  "ttft_seconds": 0.39926129998639226,
+  "seconds": 0.41500499995891005,
+  "injected_cut_after_content_events": null
+}

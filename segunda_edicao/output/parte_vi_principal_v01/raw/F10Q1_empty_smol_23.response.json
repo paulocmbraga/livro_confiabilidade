@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Não é possível responder a questão de teto de bagagem em trabalho de campo nacional com equipamento autorizado.\",\n  \"citacoes\": [\n    \"Nenhum documento disponível\"\n  ],\n  \"abster\": true\n}"
+      }
+    }
+  ],
+  "created": 1792879487,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 224,
+    "total_tokens": 302,
+    "prompt_tokens_details": {
+      "cached_tokens": 207
+    }
+  },
+  "id": "chatcmpl-3sRuJVKecmcHahkXHC4oimsbSuT1GkDS",
+  "timings": {
+    "cache_n": 207,
+    "prompt_n": 17,
+    "prompt_ms": 153.995,
+    "prompt_per_token_ms": 9.058529411764706,
+    "prompt_per_second": 110.39319458423975,
+    "predicted_n": 78,
+    "predicted_ms": 1727.737,
+    "predicted_per_token_ms": 22.438142857142857,
+    "predicted_per_second": 44.56696823648506
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "l18_a2",
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "The record states exactly 12 units. How many units are there? Reply with the numerical answer only, or UNKNOWN if it is not determined by the information."
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-qwen",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "schema": null
+  },
+  "config_sha256": "c4597602f3ce61a1aa48a17cdc86c065e0be05286555aebc75580eefc82d6ada",
+  "events": [
+    {
+      "seconds": 0.3652023000176996,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870972,\"id\":\"chatcmpl-VYcn6gRzMTrPquh42XSqlUwaqNvsAaNq\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.36524980003014207,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"1\"}}],\"created\":1792870972,\"id\":\"chatcmpl-VYcn6gRzMTrPquh42XSqlUwaqNvsAaNq\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.38453639997169375,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"2\"}}],\"created\":1792870972,\"id\":\"chatcmpl-VYcn6gRzMTrPquh42XSqlUwaqNvsAaNq\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.40324509993661195,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\" units\"}}],\"created\":1792870972,\"id\":\"chatcmpl-VYcn6gRzMTrPquh42XSqlUwaqNvsAaNq\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.42205359996296465,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870972,\"id\":\"chatcmpl-VYcn6gRzMTrPquh42XSqlUwaqNvsAaNq\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":60,\"prompt_ms\":340.73,\"prompt_per_token_ms\":5.678833333333333,\"prompt_per_second\":176.09250726381592,\"predicted_n\":4,\"predicted_ms\":56.873,\"predicted_per_token_ms\":18.957666666666665,\"predicted_per_second\":52.74910766092874}}"
+    },
+    {
+      "seconds": 0.42218690004665405,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "12 units",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 3,
+  "ttft_seconds": 0.3652608999982476,
+  "seconds": 0.4224071999778971,
+  "injected_cut_after_content_events": null
+}

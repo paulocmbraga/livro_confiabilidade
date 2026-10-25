@@ -1,0 +1,77 @@
+{
+  "request": {
+    "model": "qwen",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Responda somente JSON com limite inteiro em reais e fonte (ID exato). Use o documento, sem conhecimento externo. Documento: {\"id\": \"hospedagem-v2\", \"family\": \"hospedagem\", \"version\": \"v2\", \"limit\": 130, \"text\": \"Politica hospedagem da Horizonte. Limite autorizado: 130 reais. A excecao anterior esta revogada.\"}"
+      }
+    ],
+    "temperature": 0,
+    "seed": 441,
+    "max_tokens": 100,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "result",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "limite": {
+              "type": "integer"
+            },
+            "fonte": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "limite",
+            "fonte"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "cache_prompt": false
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"limite\": 130,\n  \"fonte\": \"hospedagem-v2\"\n}"
+        }
+      }
+    ],
+    "created": 1792950026,
+    "model": "qwen",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 134,
+      "total_tokens": 165,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-Z316juBX8dR4T2SiXUKwn5kspoDwKG7M",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 134,
+      "prompt_ms": 595.328,
+      "prompt_per_token_ms": 4.442746268656716,
+      "prompt_per_second": 225.08600301010537,
+      "predicted_n": 31,
+      "predicted_ms": 542.553,
+      "predicted_per_token_ms": 18.0851,
+      "predicted_per_second": 55.294137162636645
+    }
+  },
+  "seconds": 1.141858100076206,
+  "text": "{\n  \"limite\": 130,\n  \"fonte\": \"hospedagem-v2\"\n}",
+  "finish": "stop"
+}

@@ -1,0 +1,16 @@
+{
+  "job": "job1",
+  "attempt": "a1",
+  "mode": "execute",
+  "token": 1,
+  "pid": 25352,
+  "status": 409,
+  "reply": {
+    "effect": "unknown",
+    "reason": "stale_fence"
+  },
+  "outcome": "unknown",
+  "ledger_updated": false,
+  "seconds": 1.987690499983728,
+  "error": null
+}

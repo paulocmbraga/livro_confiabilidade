@@ -1,0 +1,10 @@
+{
+  "database_hash": "8d830b94ef471cfc22def4775106c5dde69222702f3d3430aa0e0034585d4883",
+  "index_hash": "5c0a9a372ac33d330fc55671535e7364b312f175d3699febb737ff2dee7f57aa",
+  "snapshot_lower_bound_epoch": 1792884500.9652147,
+  "checkpoint_schema": 1,
+  "backlog": "restore-backlog",
+  "destination": "survives outside restored database",
+  "journal": "admission_journal.json",
+  "secrets": "none; isolated trust mode"
+}

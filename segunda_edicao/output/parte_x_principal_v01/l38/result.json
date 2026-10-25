@@ -1,0 +1,22 @@
+{
+  "shadow_attempts": 20,
+  "shadow_denied": 20,
+  "shadow_effects": 0,
+  "paired_gate": {
+    "pass": false,
+    "bad": 1,
+    "critical_bad": 1,
+    "n": 20
+  },
+  "canary_exposed": 3,
+  "critical_errors": 1,
+  "candidate_after_stop": 0,
+  "synthetic_effects": 20,
+  "open_migration_status": 409,
+  "unsafe_copy_reader_status": 409,
+  "binary_rollback_status": 409,
+  "compatible_reader_status": 200,
+  "preserved_amount_cents": 100,
+  "wall_seconds": 4.265099799958989,
+  "limit": "Canário negativo após gate reprovado apenas para medir contenção no sandbox."
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"steps\": [\"Reserve the item for the specified quantity of 1.\", \"Check if the ceiling is available.\", \"If the ceiling is available, reserve the item.\", \"If the ceiling is not available, inform the client that the item is not available and explain the reason.\"]}"
+      }
+    }
+  ],
+  "created": 1792881525,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 76,
+    "total_tokens": 136,
+    "prompt_tokens_details": {
+      "cached_tokens": 46
+    }
+  },
+  "id": "chatcmpl-BbixnRQkLawoTjTk4nPmr9tdbrwaf7Nc",
+  "timings": {
+    "cache_n": 46,
+    "prompt_n": 30,
+    "prompt_ms": 308.536,
+    "prompt_per_token_ms": 10.284533333333334,
+    "prompt_per_second": 97.23338605543599,
+    "predicted_n": 60,
+    "predicted_ms": 1286.756,
+    "predicted_per_token_ms": 21.80942372881356,
+    "predicted_per_second": 45.85173879119274
+  }
+}

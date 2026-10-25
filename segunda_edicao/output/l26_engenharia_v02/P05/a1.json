@@ -1,0 +1,13 @@
+{
+  "job": "job1",
+  "attempt": "a1",
+  "mode": "execute",
+  "token": 1,
+  "pid": 10088,
+  "status": null,
+  "reply": {},
+  "outcome": "unknown",
+  "ledger_updated": true,
+  "seconds": 0.24965720006730407,
+  "error": "ConnectionResetError: [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto"
+}

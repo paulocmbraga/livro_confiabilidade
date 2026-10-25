@@ -1,0 +1,122 @@
+[
+  {
+    "task": "outage-0",
+    "role": "service",
+    "trace_id": "5b23c7f9eb2f907ac8e03153c0e1b6a5",
+    "span_id": "f8b744180bd476da",
+    "parent_id": "44171026cb437437",
+    "sampled": true,
+    "recorded_ns": 1792886468091023800,
+    "effect": "receipt-outage-0"
+  },
+  {
+    "task": "outage-1",
+    "role": "service",
+    "trace_id": "38813c2fafb10240d3e7d537a0dd4bf9",
+    "span_id": "399806cf89aabb84",
+    "parent_id": "3663a2cd7363ce96",
+    "sampled": true,
+    "recorded_ns": 1792886469774255500,
+    "effect": "receipt-outage-1"
+  },
+  {
+    "task": "outage-2",
+    "role": "service",
+    "trace_id": "4ae03ff560faecbf8b21d5b00e09e83e",
+    "span_id": "f63d28f06b8e6500",
+    "parent_id": "d19823f4822f28c3",
+    "sampled": true,
+    "recorded_ns": 1792886471419994400,
+    "effect": "receipt-outage-2"
+  },
+  {
+    "task": "outage-3",
+    "role": "service",
+    "trace_id": "5e499449ce22921bd3f32dd16bd14673",
+    "span_id": "1ee3f53bea49983b",
+    "parent_id": "56a14d41f845f8c6",
+    "sampled": true,
+    "recorded_ns": 1792886473071426200,
+    "effect": "receipt-outage-3"
+  },
+  {
+    "task": "outage-4",
+    "role": "service",
+    "trace_id": "0dedf3bb817325f983b2d5a27fc5d6ef",
+    "span_id": "8c3b79b921b8fe2e",
+    "parent_id": "13028be39ec9dc34",
+    "sampled": true,
+    "recorded_ns": 1792886474710140600,
+    "effect": "receipt-outage-4"
+  },
+  {
+    "task": "outage-5",
+    "role": "service",
+    "trace_id": "cd8c3fee04bfa4edccbcb8739250d95e",
+    "span_id": "6b6b9a636a380b64",
+    "parent_id": "77cb36da0f854753",
+    "sampled": true,
+    "recorded_ns": 1792886476373833600,
+    "effect": "receipt-outage-5"
+  },
+  {
+    "task": "outage-6",
+    "role": "service",
+    "trace_id": "d713737983acb88d1421a2fcd2a9f16a",
+    "span_id": "53027a28a189c8d1",
+    "parent_id": "886bd69f5ec5c710",
+    "sampled": true,
+    "recorded_ns": 1792886478044036000,
+    "effect": "receipt-outage-6"
+  },
+  {
+    "task": "outage-7",
+    "role": "service",
+    "trace_id": "b41d3f5d07c54963dd36eeac788f0f59",
+    "span_id": "a1a3a8231ec28ab7",
+    "parent_id": "200a303afc297e5b",
+    "sampled": true,
+    "recorded_ns": 1792886479704559500,
+    "effect": "receipt-outage-7"
+  },
+  {
+    "task": "outage-8",
+    "role": "service",
+    "trace_id": "7b3fdc0f42c91bd733dc93de3e26efd4",
+    "span_id": "7b1cc89b99268857",
+    "parent_id": "951b57cfd9b0c260",
+    "sampled": true,
+    "recorded_ns": 1792886481354205000,
+    "effect": "receipt-outage-8"
+  },
+  {
+    "task": "outage-9",
+    "role": "service",
+    "trace_id": "414c133170a11a700d42126661c3f795",
+    "span_id": "62a4fdea991ce7d7",
+    "parent_id": "eca18487ef5f9d60",
+    "sampled": true,
+    "recorded_ns": 1792886483003793800,
+    "effect": "receipt-outage-9"
+  },
+  {
+    "task": "outage-10",
+    "role": "service",
+    "trace_id": "8337737167b4ed65d9bce7ef2edaa8b5",
+    "span_id": "1e7399cec0fb6d8e",
+    "parent_id": "cd3653c41497c135",
+    "sampled": true,
+    "recorded_ns": 1792886484654434800,
+    "effect": "receipt-outage-10"
+  },
+  {
+    "task": "outage-11",
+    "role": "service",
+    "trace_id": "4beceaf6c6c80ac1113b797894e14870",
+    "span_id": "de61fb4d3f521f80",
+    "parent_id": "d1b463fec41cf0aa",
+    "sampled": true,
+    "recorded_ns": 1792886486303624800,
+    "effect": "receipt-outage-11"
+  }
+]

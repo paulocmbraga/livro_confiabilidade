@@ -1,0 +1,14 @@
+{
+  "version": "L23-CIT-1.0",
+  "classification": "Diagnóstico exploratório definido após observar saídas parciais da campanha principal; não é confirmação reservada.",
+  "hypothesis": "O prompt não explicita a grafia exata do identificador, enquanto o avaliador espera IDs sem colchetes. Explicitar essa convenção pode melhorar conformidade estrutural sem demonstrar suporte semântico.",
+  "selection": "Primeira pergunta das 12 famílias; BM25/top3 e hybrid_rerank/top3; contextos da campanha principal, repetição zero.",
+  "conditions": ["original", "explicit_ids"],
+  "calls": 48,
+  "seed": 23,
+  "order_seed": 2327,
+  "addition": " No campo citacoes, cada string deve ser SOMENTE o identificador exato, sem colchetes, sem versão e sem copiar o texto do documento. Por exemplo, para o documento [EXEMPLO-X], escreva citacoes=[\"EXEMPLO-X\"]. Use [] quando nenhuma fonte sustenta a resposta.",
+  "held_fixed": "Contexto, consulta, modelo, temperatura, top_p, seed, schema e limite de tokens; os dois prompts são executados novamente em ordem embaralhada.",
+  "primary_measure": "Proporção de chamadas com parsing válido, ao menos uma citação e todos os IDs pertencentes ao contexto; informar abstenções e saídas vazias separadamente.",
+  "limits": "12 famílias autorais; diagnóstico adaptativo; um modelo e uma repetição; sem revisão humana. Não substitui a campanha principal."
+}

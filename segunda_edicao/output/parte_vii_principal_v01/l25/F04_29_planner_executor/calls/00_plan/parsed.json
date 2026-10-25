@@ -1,0 +1,21 @@
+{
+  "value": {
+    "steps": [
+      "Verifique a lista de itens permitidos.",
+      "Verifique a quantidade disponível.",
+      "Reserva o item que não está disponível.",
+      "Reserva o item que não está disponível."
+    ]
+  },
+  "error": null,
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 76,
+    "total_tokens": 119,
+    "prompt_tokens_details": {
+      "cached_tokens": 75
+    }
+  },
+  "charged_output": 43,
+  "seconds": 0.925938899978064
+}

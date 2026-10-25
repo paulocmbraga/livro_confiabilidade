@@ -1,0 +1,314 @@
+[
+  {
+    "item_id": "H01",
+    "capture_id": "prime_viagem",
+    "mode": "prime",
+    "proxy": true,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    }
+  },
+  {
+    "item_id": "H02",
+    "capture_id": "prime_hospedagem",
+    "mode": "prime",
+    "proxy": true,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    }
+  },
+  {
+    "item_id": "H03",
+    "capture_id": "prime_alimentacao",
+    "mode": "prime",
+    "proxy": false,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    }
+  },
+  {
+    "item_id": "H04",
+    "capture_id": "prime_taxi",
+    "mode": "prime",
+    "proxy": false,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    }
+  },
+  {
+    "item_id": "H05",
+    "capture_id": "stale_cache_viagem",
+    "mode": "stale_cache",
+    "proxy": true,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v2",
+      "index": "v2",
+      "cache": "v1",
+      "prompt": "v2"
+    }
+  },
+  {
+    "item_id": "H06",
+    "capture_id": "stale_cache_hospedagem",
+    "mode": "stale_cache",
+    "proxy": true,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v2",
+      "index": "v2",
+      "cache": "v1",
+      "prompt": "v2"
+    }
+  },
+  {
+    "item_id": "H07",
+    "capture_id": "stale_cache_alimentacao",
+    "mode": "stale_cache",
+    "proxy": false,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v2",
+      "index": "v2",
+      "cache": "v1",
+      "prompt": "v2"
+    }
+  },
+  {
+    "item_id": "H08",
+    "capture_id": "stale_cache_taxi",
+    "mode": "stale_cache",
+    "proxy": false,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v2",
+      "index": "v2",
+      "cache": "v1",
+      "prompt": "v2"
+    }
+  },
+  {
+    "item_id": "H09",
+    "capture_id": "mixed_index_viagem",
+    "mode": "mixed_index",
+    "proxy": true,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v2",
+      "index": "v1",
+      "cache": "v2",
+      "prompt": "v2"
+    }
+  },
+  {
+    "item_id": "H10",
+    "capture_id": "mixed_index_hospedagem",
+    "mode": "mixed_index",
+    "proxy": true,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v2",
+      "index": "v1",
+      "cache": "v2",
+      "prompt": "v2"
+    }
+  },
+  {
+    "item_id": "H11",
+    "capture_id": "mixed_index_alimentacao",
+    "mode": "mixed_index",
+    "proxy": false,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v2",
+      "index": "v1",
+      "cache": "v2",
+      "prompt": "v2"
+    }
+  },
+  {
+    "item_id": "H12",
+    "capture_id": "mixed_index_taxi",
+    "mode": "mixed_index",
+    "proxy": false,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v2",
+      "index": "v1",
+      "cache": "v2",
+      "prompt": "v2"
+    }
+  },
+  {
+    "item_id": "H13",
+    "capture_id": "race_unprotected_viagem",
+    "mode": "race_unprotected",
+    "proxy": true,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    }
+  },
+  {
+    "item_id": "H14",
+    "capture_id": "race_unprotected_hospedagem",
+    "mode": "race_unprotected",
+    "proxy": true,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    }
+  },
+  {
+    "item_id": "H15",
+    "capture_id": "race_unprotected_alimentacao",
+    "mode": "race_unprotected",
+    "proxy": false,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    }
+  },
+  {
+    "item_id": "H16",
+    "capture_id": "race_unprotected_taxi",
+    "mode": "race_unprotected",
+    "proxy": false,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    }
+  },
+  {
+    "item_id": "H17",
+    "capture_id": "race_protected_viagem",
+    "mode": "race_protected",
+    "proxy": true,
+    "delivered": false,
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    }
+  },
+  {
+    "item_id": "H18",
+    "capture_id": "race_protected_hospedagem",
+    "mode": "race_protected",
+    "proxy": true,
+    "delivered": false,
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    }
+  },
+  {
+    "item_id": "H19",
+    "capture_id": "race_protected_alimentacao",
+    "mode": "race_protected",
+    "proxy": false,
+    "delivered": false,
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    }
+  },
+  {
+    "item_id": "H20",
+    "capture_id": "race_protected_taxi",
+    "mode": "race_protected",
+    "proxy": false,
+    "delivered": false,
+    "bundle": {
+      "corpus": "v1",
+      "index": "v1",
+      "cache": "v1",
+      "prompt": "v1"
+    }
+  },
+  {
+    "item_id": "H21",
+    "capture_id": "fresh_viagem",
+    "mode": "fresh",
+    "proxy": true,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v2",
+      "index": "v2",
+      "cache": "v2",
+      "prompt": "v2"
+    }
+  },
+  {
+    "item_id": "H22",
+    "capture_id": "fresh_hospedagem",
+    "mode": "fresh",
+    "proxy": true,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v2",
+      "index": "v2",
+      "cache": "v2",
+      "prompt": "v2"
+    }
+  },
+  {
+    "item_id": "H23",
+    "capture_id": "fresh_alimentacao",
+    "mode": "fresh",
+    "proxy": false,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v2",
+      "index": "v2",
+      "cache": "v2",
+      "prompt": "v2"
+    }
+  },
+  {
+    "item_id": "H24",
+    "capture_id": "fresh_taxi",
+    "mode": "fresh",
+    "proxy": false,
+    "delivered": true,
+    "bundle": {
+      "corpus": "v2",
+      "index": "v2",
+      "cache": "v2",
+      "prompt": "v2"
+    }
+  }
+]

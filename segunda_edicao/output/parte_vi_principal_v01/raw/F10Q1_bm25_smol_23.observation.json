@@ -1,0 +1,43 @@
+{
+  "id": "F10Q1_bm25_smol_23",
+  "query_id": "F10Q1",
+  "family": "F10",
+  "model": "smol",
+  "seed": 23,
+  "variant": "bm25",
+  "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+  "context": {
+    "text": "[DIS-10] versão 2026-10: O manual de trabalho de campo descreve inventário e autorização do equipamento. Consulte a tabela de bagagem.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.",
+    "ids": [
+      "DIS-10",
+      "HOT-E",
+      "REM-A"
+    ],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 167
+  },
+  "seconds": 3.540980799938552,
+  "parsed": {
+    "resposta": "O teto de bagagem em trabalho de campo nacional com equipamento autorizado é R$ 480 por diária, incluindo o teto de hospedagem nacional. Esta exceção substitui o limite geral de HOT-E.",
+    "citacoes": [
+      "DIS-10",
+      "HOT-E",
+      "REM-A"
+    ],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": false,
+    "source_loss_known": true,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": true,
+    "citation_ids_valid": true,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

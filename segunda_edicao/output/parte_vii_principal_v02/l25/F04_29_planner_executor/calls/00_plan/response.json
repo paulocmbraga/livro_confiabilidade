@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"steps\": [\"Verifique a lista de itens permitidos.\", \"Verifique a quantidade disponível.\", \"Reserva o item que não está disponível.\", \"Reserva o item que não está disponível.\"]}"
+      }
+    }
+  ],
+  "created": 1792881778,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 76,
+    "total_tokens": 119,
+    "prompt_tokens_details": {
+      "cached_tokens": 75
+    }
+  },
+  "id": "chatcmpl-UWJicKWlmYQFZCuTmtvx3laU8AVlLQtY",
+  "timings": {
+    "cache_n": 75,
+    "prompt_n": 1,
+    "prompt_ms": 77.215,
+    "prompt_per_token_ms": 77.215,
+    "prompt_per_second": 12.95085151848734,
+    "predicted_n": 43,
+    "predicted_ms": 828.003,
+    "predicted_per_token_ms": 19.714357142857143,
+    "predicted_per_second": 50.72445389690617
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "source": {
+    "jobs": [
+      {
+        "id": "E0",
+        "status": "ready",
+        "version": 1
+      },
+      {
+        "id": "E1",
+        "status": "ready",
+        "version": 1
+      },
+      {
+        "id": "E2",
+        "status": "ready",
+        "version": 1
+      }
+    ],
+    "outbox": [
+      {
+        "id": "E0",
+        "sent": false
+      },
+      {
+        "id": "E1",
+        "sent": false
+      },
+      {
+        "id": "E2",
+        "sent": false
+      }
+    ],
+    "checkpoints": []
+  },
+  "destination": {
+    "effects": [
+      {
+        "id": "A1",
+        "value": "accepted"
+      },
+      {
+        "id": "A2",
+        "value": "accepted"
+      },
+      {
+        "id": "A3",
+        "value": "accepted"
+      },
+      {
+        "id": "B1",
+        "value": "accepted"
+      },
+      {
+        "id": "B2",
+        "value": "accepted"
+      },
+      {
+        "id": "E0",
+        "value": "accepted"
+      }
+    ],
+    "inbox": [
+      {
+        "event": "E0",
+        "body_hash": "70590f14a1cf114703c16d4cff8ed6f72c60cdab668710ac5a2a20d035e0c7b9"
+      }
+    ],
+    "resource": [
+      {
+        "id": "r",
+        "token": 0,
+        "value": "initial"
+      }
+    ]
+  }
+}

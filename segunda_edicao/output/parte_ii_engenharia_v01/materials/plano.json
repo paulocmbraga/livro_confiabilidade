@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "date": "2026-10-24",
+  "trails": {
+    "L05": [
+      "D",
+      "H_pending"
+    ],
+    "L06": [
+      "D"
+    ],
+    "L07": [
+      "D",
+      "M"
+    ],
+    "L08": [
+      "D",
+      "O"
+    ]
+  },
+  "l06": {
+    "seed": 602,
+    "trials": 1000,
+    "groups": 20,
+    "repeats": 5,
+    "truth": 0.8
+  },
+  "l07": {
+    "train_seed": 701,
+    "test_seed": 702,
+    "train_groups": 160,
+    "test_groups": 80,
+    "rows_per_group": 4,
+    "repetitions": 3,
+    "order_seed": 703,
+    "epochs": 350,
+    "learning_rate": 0.12,
+    "l2": 0.01,
+    "margin": 0.05,
+    "bootstrap_draws": 3000,
+    "bootstrap_seed": 704,
+    "segments": [
+      "all",
+      "critical"
+    ],
+    "p95_ceiling_seconds": 0.01,
+    "candidates": [
+      "linear",
+      "interaction"
+    ],
+    "warmups_each": 10,
+    "estimand": "equal test family mean correctness; candidate interaction minus linear"
+  },
+  "l08": {
+    "cases": 40,
+    "order_seed": 801,
+    "sequential_seed": 802,
+    "trials": 2000,
+    "looks": [
+      20,
+      40,
+      60,
+      80,
+      100,
+      120,
+      140,
+      160,
+      180,
+      200
+    ],
+    "alpha": 0.05,
+    "exposure_seed": 803,
+    "exposure_groups": 40,
+    "users_per_group": 8
+  },
+  "human": {
+    "status": "pending",
+    "custodian": null,
+    "sample_size": 8,
+    "prior_choice": "Prepare review packet; no invented human judgments"
+  },
+  "acceptance": "Reconcile all observations; retain unfavorable and inconclusive results; no outcome-specific tuning",
+  "source_rights": "Synthetic authorial data, private editorial use. No new public license granted.",
+  "financial": "No paid API, no external service; local CPU and disk only"
+}

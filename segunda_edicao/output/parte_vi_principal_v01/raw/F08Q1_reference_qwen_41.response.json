@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{ \"resposta\": \"Para aprovar um dia de descanso, é necessário que a liderança direta aprovue a solicitação de folga antes do afastamento.\", \"citacoes\": [\"DESCANSO\"], \"abster\": false}"
+      }
+    }
+  ],
+  "created": 1792879243,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 227,
+    "total_tokens": 286,
+    "prompt_tokens_details": {
+      "cached_tokens": 163
+    }
+  },
+  "id": "chatcmpl-P5pa1ouLjCR6IkR03kYV0PQZtEXFfmFl",
+  "timings": {
+    "cache_n": 163,
+    "prompt_n": 64,
+    "prompt_ms": 419.566,
+    "prompt_per_token_ms": 6.55571875,
+    "prompt_per_second": 152.53857557571396,
+    "predicted_n": 59,
+    "predicted_ms": 1310.095,
+    "predicted_per_token_ms": 22.587844827586206,
+    "predicted_per_second": 44.27159862452723
+  }
+}

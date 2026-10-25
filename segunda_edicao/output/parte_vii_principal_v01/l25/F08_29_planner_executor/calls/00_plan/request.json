@@ -1,0 +1,40 @@
+{
+  "model": "l11-qwen",
+  "messages": [
+    {
+      "role": "system",
+      "content": "Produza um plano curto. Inspecione antes de reservar, respeite teto, quantidade e itens permitidos; recuse impossibilidade."
+    },
+    {
+      "role": "user",
+      "content": "{\"id\": \"F08\", \"allowed\": [\"A\", \"B\"], \"quantity\": 1, \"ceiling\": 10}"
+    }
+  ],
+  "temperature": 0.2,
+  "top_p": 0.9,
+  "seed": 29,
+  "max_tokens": 128,
+  "response_format": {
+    "type": "json_schema",
+    "json_schema": {
+      "name": "decision",
+      "strict": true,
+      "schema": {
+        "type": "object",
+        "required": [
+          "steps"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "steps": {
+            "type": "array",
+            "maxItems": 4,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

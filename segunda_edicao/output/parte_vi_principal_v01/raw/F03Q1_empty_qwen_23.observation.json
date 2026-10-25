@@ -1,0 +1,35 @@
+{
+  "id": "F03Q1_empty_qwen_23",
+  "query_id": "F03Q1",
+  "family": "F03",
+  "model": "qwen",
+  "seed": 23,
+  "variant": "empty",
+  "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 0.9333639000542462,
+  "parsed": {
+    "resposta": "não há informações sobre auxílios mensais de internet residencial em outubro de 2026.",
+    "citacoes": [],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": false,
+    "source_loss_known": false,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": true,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

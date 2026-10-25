@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Boletim A de 1 de outubro de 2026: o auxílio para curso de idiomas é R$ 250 mensais.\",\n  \"citacoes\": [\n    \"Boletim A de 1 de outubro de 2026: o auxílio para curso de idiomas é R$ 250 mensais.\",\n    \"Boletim B de 1 de outubro de 2026: o auxílio para curso de idiomas é"
+      }
+    }
+  ],
+  "created": 1792879441,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 428,
+    "total_tokens": 556,
+    "prompt_tokens_details": {
+      "cached_tokens": 427
+    }
+  },
+  "id": "chatcmpl-JCVHqqx0tdZCZ77FJ1iALryXYLm4ophL",
+  "timings": {
+    "cache_n": 427,
+    "prompt_n": 1,
+    "prompt_ms": 46.912,
+    "prompt_per_token_ms": 46.912,
+    "prompt_per_second": 21.31650750341064,
+    "predicted_n": 128,
+    "predicted_ms": 2587.24,
+    "predicted_per_token_ms": 20.371968503937005,
+    "predicted_per_second": 49.08705802322166
+  }
+}

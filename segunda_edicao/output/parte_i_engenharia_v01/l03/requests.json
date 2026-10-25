@@ -1,0 +1,594 @@
+[
+  {
+    "mode": "naive",
+    "case": "S01",
+    "request": {
+      "id": "S01",
+      "name": "valid",
+      "proposal": {
+        "tenant": "horizonte-a",
+        "cents": 2500,
+        "revision": 4
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": true,
+      "audit_required_online": false,
+      "buffer_capacity": 100
+    },
+    "http": 200,
+    "response": {
+      "state": "applied",
+      "telemetry": "online"
+    },
+    "elapsed_seconds": 0.29457339993678033,
+    "service_pid": 22584,
+    "observation": "naive/S01_observed.json"
+  },
+  {
+    "mode": "naive",
+    "case": "S02",
+    "request": {
+      "id": "S02",
+      "name": "invalid_schema",
+      "proposal": "modelo respondeu em prosa",
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": true,
+      "audit_required_online": false,
+      "buffer_capacity": 100
+    },
+    "http": 500,
+    "response": {
+      "state": "error",
+      "reason": "unvalidated_model_output"
+    },
+    "elapsed_seconds": 0.2167298001004383,
+    "service_pid": 22584,
+    "observation": "naive/S02_observed.json"
+  },
+  {
+    "mode": "naive",
+    "case": "S03",
+    "request": {
+      "id": "S03",
+      "name": "foreign_tenant",
+      "proposal": {
+        "tenant": "horizonte-b",
+        "cents": 2500,
+        "revision": 4
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": true,
+      "audit_required_online": false,
+      "buffer_capacity": 100
+    },
+    "http": 200,
+    "response": {
+      "state": "applied",
+      "telemetry": "online"
+    },
+    "elapsed_seconds": 0.23693289991933852,
+    "service_pid": 22584,
+    "observation": "naive/S03_observed.json"
+  },
+  {
+    "mode": "naive",
+    "case": "S04",
+    "request": {
+      "id": "S04",
+      "name": "negative_amount",
+      "proposal": {
+        "tenant": "horizonte-a",
+        "cents": -1,
+        "revision": 4
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": true,
+      "audit_required_online": false,
+      "buffer_capacity": 100
+    },
+    "http": 200,
+    "response": {
+      "state": "applied",
+      "telemetry": "online"
+    },
+    "elapsed_seconds": 0.22845679998863488,
+    "service_pid": 22584,
+    "observation": "naive/S04_observed.json"
+  },
+  {
+    "mode": "naive",
+    "case": "S05",
+    "request": {
+      "id": "S05",
+      "name": "stale_revision",
+      "proposal": {
+        "tenant": "horizonte-a",
+        "cents": 2500,
+        "revision": 3
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": true,
+      "audit_required_online": false,
+      "buffer_capacity": 100
+    },
+    "http": 200,
+    "response": {
+      "state": "applied",
+      "telemetry": "online"
+    },
+    "elapsed_seconds": 0.23017780005466193,
+    "service_pid": 22584,
+    "observation": "naive/S05_observed.json"
+  },
+  {
+    "mode": "naive",
+    "case": "S06",
+    "request": {
+      "id": "S06",
+      "name": "unauthorized",
+      "proposal": {
+        "tenant": "horizonte-a",
+        "cents": 2500,
+        "revision": 4
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": false
+      },
+      "collector_up": true,
+      "audit_required_online": false,
+      "buffer_capacity": 100
+    },
+    "http": 200,
+    "response": {
+      "state": "applied",
+      "telemetry": "online"
+    },
+    "elapsed_seconds": 0.23513449996244162,
+    "service_pid": 22584,
+    "observation": "naive/S06_observed.json"
+  },
+  {
+    "mode": "naive",
+    "case": "S07",
+    "request": {
+      "id": "S07",
+      "name": "optional_down",
+      "proposal": {
+        "tenant": "horizonte-a",
+        "cents": 2500,
+        "revision": 4
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": false,
+      "audit_required_online": false,
+      "buffer_capacity": 100
+    },
+    "http": 503,
+    "response": {
+      "state": "failed",
+      "reason": "optional_collector"
+    },
+    "elapsed_seconds": 0.2229069999884814,
+    "service_pid": 22584,
+    "observation": "naive/S07_observed.json"
+  },
+  {
+    "mode": "naive",
+    "case": "S08",
+    "request": {
+      "id": "S08",
+      "name": "required_down",
+      "proposal": {
+        "tenant": "horizonte-a",
+        "cents": 2500,
+        "revision": 4
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": false,
+      "audit_required_online": true,
+      "buffer_capacity": 100
+    },
+    "http": 503,
+    "response": {
+      "state": "failed",
+      "reason": "optional_collector"
+    },
+    "elapsed_seconds": 0.21822040004190058,
+    "service_pid": 22584,
+    "observation": "naive/S08_observed.json"
+  },
+  {
+    "mode": "naive",
+    "case": "S09",
+    "request": {
+      "id": "S09",
+      "name": "buffer_full",
+      "proposal": {
+        "tenant": "horizonte-a",
+        "cents": 2500,
+        "revision": 4
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": true,
+      "audit_required_online": false,
+      "buffer_capacity": 0
+    },
+    "http": 200,
+    "response": {
+      "state": "applied",
+      "telemetry": "online"
+    },
+    "elapsed_seconds": 0.23795370000880212,
+    "service_pid": 22584,
+    "observation": "naive/S09_observed.json"
+  },
+  {
+    "mode": "naive",
+    "case": "S10",
+    "request": {
+      "id": "S10",
+      "name": "boolean_amount",
+      "proposal": {
+        "tenant": "horizonte-a",
+        "cents": true,
+        "revision": 4
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": true,
+      "audit_required_online": false,
+      "buffer_capacity": 100
+    },
+    "http": 200,
+    "response": {
+      "state": "applied",
+      "telemetry": "online"
+    },
+    "elapsed_seconds": 0.21768639993388206,
+    "service_pid": 22584,
+    "observation": "naive/S10_observed.json"
+  },
+  {
+    "mode": "protected",
+    "case": "S01",
+    "request": {
+      "id": "S01",
+      "name": "valid",
+      "proposal": {
+        "tenant": "horizonte-a",
+        "cents": 2500,
+        "revision": 4
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": true,
+      "audit_required_online": false,
+      "buffer_capacity": 100
+    },
+    "http": 200,
+    "response": {
+      "state": "applied",
+      "telemetry": "online"
+    },
+    "elapsed_seconds": 0.27121580007951707,
+    "service_pid": 21448,
+    "observation": "protected/S01_observed.json"
+  },
+  {
+    "mode": "protected",
+    "case": "S02",
+    "request": {
+      "id": "S02",
+      "name": "invalid_schema",
+      "proposal": "modelo respondeu em prosa",
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": true,
+      "audit_required_online": false,
+      "buffer_capacity": 100
+    },
+    "http": 422,
+    "response": {
+      "state": "rejected",
+      "reason": "schema"
+    },
+    "elapsed_seconds": 0.209143599960953,
+    "service_pid": 21448,
+    "observation": "protected/S02_observed.json"
+  },
+  {
+    "mode": "protected",
+    "case": "S03",
+    "request": {
+      "id": "S03",
+      "name": "foreign_tenant",
+      "proposal": {
+        "tenant": "horizonte-b",
+        "cents": 2500,
+        "revision": 4
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": true,
+      "audit_required_online": false,
+      "buffer_capacity": 100
+    },
+    "http": 422,
+    "response": {
+      "state": "rejected",
+      "reason": "tenant"
+    },
+    "elapsed_seconds": 0.21778760000597686,
+    "service_pid": 21448,
+    "observation": "protected/S03_observed.json"
+  },
+  {
+    "mode": "protected",
+    "case": "S04",
+    "request": {
+      "id": "S04",
+      "name": "negative_amount",
+      "proposal": {
+        "tenant": "horizonte-a",
+        "cents": -1,
+        "revision": 4
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": true,
+      "audit_required_online": false,
+      "buffer_capacity": 100
+    },
+    "http": 422,
+    "response": {
+      "state": "rejected",
+      "reason": "amount"
+    },
+    "elapsed_seconds": 0.22984589997213334,
+    "service_pid": 21448,
+    "observation": "protected/S04_observed.json"
+  },
+  {
+    "mode": "protected",
+    "case": "S05",
+    "request": {
+      "id": "S05",
+      "name": "stale_revision",
+      "proposal": {
+        "tenant": "horizonte-a",
+        "cents": 2500,
+        "revision": 3
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": true,
+      "audit_required_online": false,
+      "buffer_capacity": 100
+    },
+    "http": 422,
+    "response": {
+      "state": "rejected",
+      "reason": "stale"
+    },
+    "elapsed_seconds": 0.2327361999778077,
+    "service_pid": 21448,
+    "observation": "protected/S05_observed.json"
+  },
+  {
+    "mode": "protected",
+    "case": "S06",
+    "request": {
+      "id": "S06",
+      "name": "unauthorized",
+      "proposal": {
+        "tenant": "horizonte-a",
+        "cents": 2500,
+        "revision": 4
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": false
+      },
+      "collector_up": true,
+      "audit_required_online": false,
+      "buffer_capacity": 100
+    },
+    "http": 422,
+    "response": {
+      "state": "rejected",
+      "reason": "authority"
+    },
+    "elapsed_seconds": 0.22409770009107888,
+    "service_pid": 21448,
+    "observation": "protected/S06_observed.json"
+  },
+  {
+    "mode": "protected",
+    "case": "S07",
+    "request": {
+      "id": "S07",
+      "name": "optional_down",
+      "proposal": {
+        "tenant": "horizonte-a",
+        "cents": 2500,
+        "revision": 4
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": false,
+      "audit_required_online": false,
+      "buffer_capacity": 100
+    },
+    "http": 200,
+    "response": {
+      "state": "applied",
+      "telemetry": "buffered"
+    },
+    "elapsed_seconds": 0.24733629997354,
+    "service_pid": 21448,
+    "observation": "protected/S07_observed.json"
+  },
+  {
+    "mode": "protected",
+    "case": "S08",
+    "request": {
+      "id": "S08",
+      "name": "required_down",
+      "proposal": {
+        "tenant": "horizonte-a",
+        "cents": 2500,
+        "revision": 4
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": false,
+      "audit_required_online": true,
+      "buffer_capacity": 100
+    },
+    "http": 503,
+    "response": {
+      "state": "blocked",
+      "reason": "required_online_evidence"
+    },
+    "elapsed_seconds": 0.23077819996979088,
+    "service_pid": 21448,
+    "observation": "protected/S08_observed.json"
+  },
+  {
+    "mode": "protected",
+    "case": "S09",
+    "request": {
+      "id": "S09",
+      "name": "buffer_full",
+      "proposal": {
+        "tenant": "horizonte-a",
+        "cents": 2500,
+        "revision": 4
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": true,
+      "audit_required_online": false,
+      "buffer_capacity": 0
+    },
+    "http": 503,
+    "response": {
+      "state": "blocked",
+      "reason": "audit_capacity"
+    },
+    "elapsed_seconds": 0.2552686999551952,
+    "service_pid": 21448,
+    "observation": "protected/S09_observed.json"
+  },
+  {
+    "mode": "protected",
+    "case": "S10",
+    "request": {
+      "id": "S10",
+      "name": "boolean_amount",
+      "proposal": {
+        "tenant": "horizonte-a",
+        "cents": true,
+        "revision": 4
+      },
+      "context": {
+        "tenant": "horizonte-a",
+        "limit": 5000,
+        "revision": 4,
+        "authorized": true
+      },
+      "collector_up": true,
+      "audit_required_online": false,
+      "buffer_capacity": 100
+    },
+    "http": 422,
+    "response": {
+      "state": "rejected",
+      "reason": "amount"
+    },
+    "elapsed_seconds": 0.22112889995332807,
+    "service_pid": 21448,
+    "observation": "protected/S10_observed.json"
+  }
+]

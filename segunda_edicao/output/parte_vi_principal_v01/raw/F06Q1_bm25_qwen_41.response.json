@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Circular A de outubro define trabalho remoto em 2 dias por semana, enquanto Circular B de outubro define em 3 dias por semana. Não há diferença entre as circulares A e B, mas Circular A exige 30 dias de antecedência para férias, o que não é aplicado para Circular B. Por isso, Circular A define trabalho remoto em 2 dias por semana, enquanto Circular B define em 3 dias por semana.\",\n  \"citacoes\": [\n    \"FER-G\",\n    \"REM-A\"\n  ],\n  \"abster"
+      }
+    }
+  ],
+  "created": 1792879131,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 292,
+    "total_tokens": 420,
+    "prompt_tokens_details": {
+      "cached_tokens": 157
+    }
+  },
+  "id": "chatcmpl-dUOAAaKL37DfdSlZFFDAQrWxnjpFpbfU",
+  "timings": {
+    "cache_n": 157,
+    "prompt_n": 135,
+    "prompt_ms": 720.475,
+    "prompt_per_token_ms": 5.336851851851852,
+    "prompt_per_second": 187.37638363579583,
+    "predicted_n": 128,
+    "predicted_ms": 2534.624,
+    "predicted_per_token_ms": 19.957669291338583,
+    "predicted_per_second": 50.10605123284559
+  }
+}

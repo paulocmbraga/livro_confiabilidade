@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-24",
+  "frozen_before_principal": true,
+  "reason": "Engineering run exposed degenerate bootstrap; no change of margin or test seed.",
+  "degenerate_rule": "If all family differences are equal, retain bootstrap but decide with bounded Hoeffding interval on independent family means [-1,1].",
+  "selection_simulation": {
+    "seed": 705,
+    "trials": 1000,
+    "candidates": 20,
+    "development": 40,
+    "final": 200,
+    "true_success": 0.75,
+    "profile": "D, not model inference"
+  },
+  "engineering_capture": "output/parte_ii_engenharia_v01",
+  "principal": "output/parte_ii_principal_v01"
+}

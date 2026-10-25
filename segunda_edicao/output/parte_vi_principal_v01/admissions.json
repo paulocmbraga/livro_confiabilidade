@@ -1,0 +1,3362 @@
+[
+  {
+    "id": "F08Q1_bm25_smol_41",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "model": "smol",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "context": {
+      "text": "[DIS-08] versão 2026-10: O banco de horas não altera a política de férias nem o limite de hospedagem.\n\n[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.",
+      "ids": [
+        "DIS-08",
+        "DESCANSO",
+        "DIS-09"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F08Q1_hybrid_rerank_qwen_23",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "context": {
+      "text": "[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.",
+      "ids": [
+        "DESCANSO",
+        "FER-G",
+        "DIS-09"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F07Q1_reference_qwen_41",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "context": {
+      "text": "[ACESSO] versão 2026-10: Extravio ou furto do crachá: solicitar imediatamente a desativação da credencial física ao canal Segurança Patrimonial. O canal correto não é a recepção.",
+      "ids": [
+        "ACESSO"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F12Q1_bm25_smol_41",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "model": "smol",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "context": {
+      "text": "[DIS-06] versão 2026-10: A conexão de internet do escritório é mantida pela TI. Reparos residenciais ficam fora desse procedimento.\n\n[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+      "ids": [
+        "DIS-06",
+        "DESCANSO",
+        "HOT-E"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F09Q1_empty_smol_23",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "model": "smol",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F01Q1_reference_qwen_41",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "context": {
+      "text": "[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.",
+      "ids": [
+        "FER-G",
+        "FER-E"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F06Q1_empty_qwen_23",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F04Q1_reference_smol_23",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "model": "smol",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "context": {
+      "text": "[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+      "ids": [
+        "PASS-NEW"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F04Q1_reference_qwen_41",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "context": {
+      "text": "[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+      "ids": [
+        "PASS-NEW"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F10Q1_empty_qwen_23",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F01Q1_bm25_qwen_41",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "context": {
+      "text": "[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[DIS-08] versão 2026-10: O banco de horas não altera a política de férias nem o limite de hospedagem.",
+      "ids": [
+        "FER-E",
+        "FER-G",
+        "DIS-08"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F12Q1_hybrid_rerank_smol_23",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "model": "smol",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "context": {
+      "text": "[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200. A última linha da tabela está ausente.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+      "ids": [
+        "BAG-T",
+        "HOT-E",
+        "NET-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F11Q1_empty_qwen_41",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F08Q1_reference_qwen_23",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "context": {
+      "text": "[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.",
+      "ids": [
+        "DESCANSO"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F06Q1_hybrid_rerank_qwen_41",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "context": {
+      "text": "[REM-B] versão 2026-10: Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.\n\n[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+      "ids": [
+        "REM-B",
+        "REM-A",
+        "FER-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F08Q1_empty_smol_23",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "model": "smol",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F12Q1_hybrid_rerank_qwen_23",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "context": {
+      "text": "[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200. A última linha da tabela está ausente.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+      "ids": [
+        "BAG-T",
+        "HOT-E",
+        "NET-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F02Q1_empty_qwen_23",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F05Q1_reference_qwen_23",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "context": {
+      "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "BOL-A",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F04Q1_reference_smol_41",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "model": "smol",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "context": {
+      "text": "[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+      "ids": [
+        "PASS-NEW"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F03Q1_hybrid_rerank_smol_41",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "model": "smol",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "context": {
+      "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.\n\n[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "NET-NEW",
+        "BOL-A",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F09Q1_bm25_qwen_23",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "context": {
+      "text": "[DIS-02] versão 2026-10: Refeições no escritório são servidas entre 12h e 14h. A escala de plantão é publicada pela operação.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+      "ids": [
+        "DIS-02",
+        "DIS-09",
+        "HOT-E"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F12Q1_reference_smol_41",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "model": "smol",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F08Q1_empty_smol_41",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "model": "smol",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F02Q1_empty_smol_23",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "model": "smol",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F08Q1_hybrid_rerank_qwen_41",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "context": {
+      "text": "[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.",
+      "ids": [
+        "DESCANSO",
+        "FER-G",
+        "DIS-09"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F12Q1_reference_qwen_41",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F04Q1_bm25_qwen_23",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "context": {
+      "text": "[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.\n\n[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+      "ids": [
+        "PASS-NEW",
+        "DIS-09",
+        "NET-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F06Q1_hybrid_rerank_smol_41",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "model": "smol",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "context": {
+      "text": "[REM-B] versão 2026-10: Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.\n\n[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+      "ids": [
+        "REM-B",
+        "REM-A",
+        "FER-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F06Q1_reference_qwen_23",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "context": {
+      "text": "[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.\n\n[REM-B] versão 2026-10: Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.",
+      "ids": [
+        "REM-A",
+        "REM-B"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F01Q1_bm25_qwen_23",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "context": {
+      "text": "[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[DIS-08] versão 2026-10: O banco de horas não altera a política de férias nem o limite de hospedagem.",
+      "ids": [
+        "FER-E",
+        "FER-G",
+        "DIS-08"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F09Q1_bm25_smol_23",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "model": "smol",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "context": {
+      "text": "[DIS-02] versão 2026-10: Refeições no escritório são servidas entre 12h e 14h. A escala de plantão é publicada pela operação.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+      "ids": [
+        "DIS-02",
+        "DIS-09",
+        "HOT-E"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F02Q1_hybrid_rerank_qwen_41",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "context": {
+      "text": "[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n\n[DIS-05] versão 2026-10: Viagens para congressos precisam de convite e aprovação prévia. A política de hospedagem define os tetos.",
+      "ids": [
+        "HOT-E",
+        "HOT-G",
+        "DIS-05"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F08Q1_hybrid_rerank_smol_41",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "model": "smol",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "context": {
+      "text": "[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.",
+      "ids": [
+        "DESCANSO",
+        "FER-G",
+        "DIS-09"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F06Q1_reference_smol_23",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "model": "smol",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "context": {
+      "text": "[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.\n\n[REM-B] versão 2026-10: Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.",
+      "ids": [
+        "REM-A",
+        "REM-B"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F09Q1_bm25_qwen_41",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "context": {
+      "text": "[DIS-02] versão 2026-10: Refeições no escritório são servidas entre 12h e 14h. A escala de plantão é publicada pela operação.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+      "ids": [
+        "DIS-02",
+        "DIS-09",
+        "HOT-E"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F09Q1_hybrid_rerank_smol_23",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "model": "smol",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "context": {
+      "text": "[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.\n\n[REF-T] versão 2026-10: Tabela de refeição em viagem: almoço R$ 45; jantar R$ 55. A nota de rodapé não foi extraída.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+      "ids": [
+        "DIS-09",
+        "REF-T",
+        "FER-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F03Q1_empty_smol_41",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "model": "smol",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F05Q1_reference_qwen_41",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "context": {
+      "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "BOL-A",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F11Q1_reference_smol_41",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "model": "smol",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F06Q1_empty_qwen_41",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F01Q1_empty_smol_23",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "model": "smol",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F06Q1_bm25_qwen_41",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "context": {
+      "text": "[REM-B] versão 2026-10: Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.\n\n[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+      "ids": [
+        "REM-B",
+        "REM-A",
+        "FER-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F02Q1_bm25_qwen_41",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "context": {
+      "text": "[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n\n[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.",
+      "ids": [
+        "HOT-E",
+        "HOT-G",
+        "DESCANSO"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F08Q1_bm25_smol_23",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "model": "smol",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "context": {
+      "text": "[DIS-08] versão 2026-10: O banco de horas não altera a política de férias nem o limite de hospedagem.\n\n[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.",
+      "ids": [
+        "DIS-08",
+        "DESCANSO",
+        "DIS-09"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F09Q1_bm25_smol_41",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "model": "smol",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "context": {
+      "text": "[DIS-02] versão 2026-10: Refeições no escritório são servidas entre 12h e 14h. A escala de plantão é publicada pela operação.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+      "ids": [
+        "DIS-02",
+        "DIS-09",
+        "HOT-E"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F10Q1_reference_qwen_41",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "context": {
+      "text": "[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200; deslocamento para trabalho de campo nacional com equipamento autorizado R$ 160.",
+      "ids": [
+        "BAG-T"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F10Q1_reference_qwen_23",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "context": {
+      "text": "[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200; deslocamento para trabalho de campo nacional com equipamento autorizado R$ 160.",
+      "ids": [
+        "BAG-T"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F04Q1_hybrid_rerank_smol_23",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "model": "smol",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "context": {
+      "text": "[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.",
+      "ids": [
+        "PASS-NEW",
+        "FER-G",
+        "FER-E"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F12Q1_empty_qwen_41",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F12Q1_hybrid_rerank_qwen_41",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "context": {
+      "text": "[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200. A última linha da tabela está ausente.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+      "ids": [
+        "BAG-T",
+        "HOT-E",
+        "NET-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F05Q1_empty_qwen_23",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F10Q1_bm25_qwen_41",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "context": {
+      "text": "[DIS-10] versão 2026-10: O manual de trabalho de campo descreve inventário e autorização do equipamento. Consulte a tabela de bagagem.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.",
+      "ids": [
+        "DIS-10",
+        "HOT-E",
+        "REM-A"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F08Q1_empty_qwen_41",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F05Q1_bm25_qwen_41",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "context": {
+      "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[DIS-03] versão 2026-10: O curso de idiomas usa inscrição online. O formulário não define valores de auxílio.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "BOL-A",
+        "DIS-03",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F09Q1_hybrid_rerank_smol_41",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "model": "smol",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "context": {
+      "text": "[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.\n\n[REF-T] versão 2026-10: Tabela de refeição em viagem: almoço R$ 45; jantar R$ 55. A nota de rodapé não foi extraída.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+      "ids": [
+        "DIS-09",
+        "REF-T",
+        "FER-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F07Q1_reference_smol_41",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "model": "smol",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "context": {
+      "text": "[ACESSO] versão 2026-10: Extravio ou furto do crachá: solicitar imediatamente a desativação da credencial física ao canal Segurança Patrimonial. O canal correto não é a recepção.",
+      "ids": [
+        "ACESSO"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F11Q1_hybrid_rerank_smol_41",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "model": "smol",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "context": {
+      "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.\n\n[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.",
+      "ids": [
+        "BOL-A",
+        "BOL-B",
+        "HOT-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F09Q1_reference_qwen_41",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "context": {
+      "text": "[REF-T] versão 2026-10: Tabela de refeição em viagem: almoço R$ 45; jantar R$ 55. Nota: no plantão noturno autorizado, jantar tem teto de R$ 70.",
+      "ids": [
+        "REF-T"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F03Q1_empty_smol_23",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "model": "smol",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F08Q1_reference_smol_41",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "model": "smol",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "context": {
+      "text": "[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.",
+      "ids": [
+        "DESCANSO"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F03Q1_reference_qwen_41",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "context": {
+      "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+      "ids": [
+        "NET-NEW"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F04Q1_empty_smol_41",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "model": "smol",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F02Q1_hybrid_rerank_qwen_23",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "context": {
+      "text": "[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n\n[DIS-05] versão 2026-10: Viagens para congressos precisam de convite e aprovação prévia. A política de hospedagem define os tetos.",
+      "ids": [
+        "HOT-E",
+        "HOT-G",
+        "DIS-05"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F07Q1_empty_smol_41",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "model": "smol",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F05Q1_hybrid_rerank_qwen_23",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "context": {
+      "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.\n\n[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+      "ids": [
+        "BOL-A",
+        "BOL-B",
+        "NET-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F06Q1_empty_smol_41",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "model": "smol",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F04Q1_bm25_smol_23",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "model": "smol",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "context": {
+      "text": "[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.\n\n[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+      "ids": [
+        "PASS-NEW",
+        "DIS-09",
+        "NET-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F10Q1_empty_qwen_41",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F02Q1_hybrid_rerank_smol_41",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "model": "smol",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "context": {
+      "text": "[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n\n[DIS-05] versão 2026-10: Viagens para congressos precisam de convite e aprovação prévia. A política de hospedagem define os tetos.",
+      "ids": [
+        "HOT-E",
+        "HOT-G",
+        "DIS-05"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F06Q1_reference_qwen_41",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "context": {
+      "text": "[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.\n\n[REM-B] versão 2026-10: Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.",
+      "ids": [
+        "REM-A",
+        "REM-B"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F03Q1_bm25_smol_41",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "model": "smol",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "context": {
+      "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.\n\n[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "NET-NEW",
+        "BOL-A",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F07Q1_empty_smol_23",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "model": "smol",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F02Q1_empty_smol_41",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "model": "smol",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F07Q1_hybrid_rerank_smol_41",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "model": "smol",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "context": {
+      "text": "[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[ACESSO] versão 2026-10: Extravio ou furto do crachá: solicitar imediatamente a desativação da credencial física ao canal Segurança Patrimonial. O canal correto não é a recepção.\n\n[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+      "ids": [
+        "FER-G",
+        "ACESSO",
+        "PASS-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F03Q1_hybrid_rerank_smol_23",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "model": "smol",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "context": {
+      "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.\n\n[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "NET-NEW",
+        "BOL-A",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F12Q1_hybrid_rerank_smol_41",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "model": "smol",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "context": {
+      "text": "[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200. A última linha da tabela está ausente.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+      "ids": [
+        "BAG-T",
+        "HOT-E",
+        "NET-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F08Q1_bm25_qwen_23",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "context": {
+      "text": "[DIS-08] versão 2026-10: O banco de horas não altera a política de férias nem o limite de hospedagem.\n\n[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.",
+      "ids": [
+        "DIS-08",
+        "DESCANSO",
+        "DIS-09"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F06Q1_reference_smol_41",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "model": "smol",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "context": {
+      "text": "[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.\n\n[REM-B] versão 2026-10: Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.",
+      "ids": [
+        "REM-A",
+        "REM-B"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F03Q1_hybrid_rerank_qwen_41",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "context": {
+      "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.\n\n[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "NET-NEW",
+        "BOL-A",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F12Q1_empty_smol_41",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "model": "smol",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F11Q1_bm25_qwen_41",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "context": {
+      "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.\n\n[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "NET-NEW",
+        "BOL-A",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F03Q1_bm25_qwen_23",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "context": {
+      "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.\n\n[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "NET-NEW",
+        "BOL-A",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F09Q1_hybrid_rerank_qwen_41",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "context": {
+      "text": "[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.\n\n[REF-T] versão 2026-10: Tabela de refeição em viagem: almoço R$ 45; jantar R$ 55. A nota de rodapé não foi extraída.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+      "ids": [
+        "DIS-09",
+        "REF-T",
+        "FER-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F09Q1_hybrid_rerank_qwen_23",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "context": {
+      "text": "[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.\n\n[REF-T] versão 2026-10: Tabela de refeição em viagem: almoço R$ 45; jantar R$ 55. A nota de rodapé não foi extraída.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+      "ids": [
+        "DIS-09",
+        "REF-T",
+        "FER-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F05Q1_hybrid_rerank_smol_41",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "model": "smol",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "context": {
+      "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.\n\n[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+      "ids": [
+        "BOL-A",
+        "BOL-B",
+        "NET-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F06Q1_bm25_qwen_23",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "context": {
+      "text": "[REM-B] versão 2026-10: Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.\n\n[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+      "ids": [
+        "REM-B",
+        "REM-A",
+        "FER-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F08Q1_hybrid_rerank_smol_23",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "model": "smol",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "context": {
+      "text": "[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.",
+      "ids": [
+        "DESCANSO",
+        "FER-G",
+        "DIS-09"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F07Q1_empty_qwen_41",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F07Q1_hybrid_rerank_qwen_23",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "context": {
+      "text": "[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[ACESSO] versão 2026-10: Extravio ou furto do crachá: solicitar imediatamente a desativação da credencial física ao canal Segurança Patrimonial. O canal correto não é a recepção.\n\n[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+      "ids": [
+        "FER-G",
+        "ACESSO",
+        "PASS-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F05Q1_bm25_qwen_23",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "context": {
+      "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[DIS-03] versão 2026-10: O curso de idiomas usa inscrição online. O formulário não define valores de auxílio.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "BOL-A",
+        "DIS-03",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F07Q1_reference_qwen_23",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "context": {
+      "text": "[ACESSO] versão 2026-10: Extravio ou furto do crachá: solicitar imediatamente a desativação da credencial física ao canal Segurança Patrimonial. O canal correto não é a recepção.",
+      "ids": [
+        "ACESSO"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F06Q1_bm25_smol_41",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "model": "smol",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "context": {
+      "text": "[REM-B] versão 2026-10: Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.\n\n[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+      "ids": [
+        "REM-B",
+        "REM-A",
+        "FER-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F03Q1_reference_smol_23",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "model": "smol",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "context": {
+      "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+      "ids": [
+        "NET-NEW"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F03Q1_bm25_smol_23",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "model": "smol",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "context": {
+      "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.\n\n[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "NET-NEW",
+        "BOL-A",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F11Q1_empty_qwen_23",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F02Q1_hybrid_rerank_smol_23",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "model": "smol",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "context": {
+      "text": "[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n\n[DIS-05] versão 2026-10: Viagens para congressos precisam de convite e aprovação prévia. A política de hospedagem define os tetos.",
+      "ids": [
+        "HOT-E",
+        "HOT-G",
+        "DIS-05"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F09Q1_reference_smol_23",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "model": "smol",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "context": {
+      "text": "[REF-T] versão 2026-10: Tabela de refeição em viagem: almoço R$ 45; jantar R$ 55. Nota: no plantão noturno autorizado, jantar tem teto de R$ 70.",
+      "ids": [
+        "REF-T"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F01Q1_hybrid_rerank_qwen_41",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "context": {
+      "text": "[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+      "ids": [
+        "FER-E",
+        "FER-G",
+        "PASS-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F03Q1_reference_qwen_23",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "context": {
+      "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+      "ids": [
+        "NET-NEW"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F05Q1_reference_smol_23",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "model": "smol",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "context": {
+      "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "BOL-A",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F08Q1_empty_qwen_23",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F04Q1_hybrid_rerank_qwen_23",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "context": {
+      "text": "[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.",
+      "ids": [
+        "PASS-NEW",
+        "FER-G",
+        "FER-E"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F07Q1_bm25_qwen_41",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "context": {
+      "text": "[DIS-04] versão 2026-10: A recepção entrega crachás provisórios para visitantes. Não desativa credenciais de colaboradores.\n\n[DIS-05] versão 2026-10: Viagens para congressos precisam de convite e aprovação prévia. A política de hospedagem define os tetos.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+      "ids": [
+        "DIS-04",
+        "DIS-05",
+        "FER-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F03Q1_bm25_qwen_41",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "context": {
+      "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.\n\n[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "NET-NEW",
+        "BOL-A",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F09Q1_reference_smol_41",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "model": "smol",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "context": {
+      "text": "[REF-T] versão 2026-10: Tabela de refeição em viagem: almoço R$ 45; jantar R$ 55. Nota: no plantão noturno autorizado, jantar tem teto de R$ 70.",
+      "ids": [
+        "REF-T"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F07Q1_hybrid_rerank_qwen_41",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "context": {
+      "text": "[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[ACESSO] versão 2026-10: Extravio ou furto do crachá: solicitar imediatamente a desativação da credencial física ao canal Segurança Patrimonial. O canal correto não é a recepção.\n\n[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+      "ids": [
+        "FER-G",
+        "ACESSO",
+        "PASS-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F12Q1_reference_smol_23",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "model": "smol",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F04Q1_bm25_smol_41",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "model": "smol",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "context": {
+      "text": "[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.\n\n[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+      "ids": [
+        "PASS-NEW",
+        "DIS-09",
+        "NET-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F03Q1_empty_qwen_41",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F03Q1_empty_qwen_23",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F10Q1_reference_smol_23",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "model": "smol",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "context": {
+      "text": "[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200; deslocamento para trabalho de campo nacional com equipamento autorizado R$ 160.",
+      "ids": [
+        "BAG-T"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F06Q1_empty_smol_23",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "model": "smol",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F10Q1_bm25_smol_41",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "model": "smol",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "context": {
+      "text": "[DIS-10] versão 2026-10: O manual de trabalho de campo descreve inventário e autorização do equipamento. Consulte a tabela de bagagem.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.",
+      "ids": [
+        "DIS-10",
+        "HOT-E",
+        "REM-A"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F09Q1_empty_smol_41",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "model": "smol",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F08Q1_reference_smol_23",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "model": "smol",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "context": {
+      "text": "[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.",
+      "ids": [
+        "DESCANSO"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F01Q1_reference_qwen_23",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "context": {
+      "text": "[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.",
+      "ids": [
+        "FER-G",
+        "FER-E"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F05Q1_hybrid_rerank_smol_23",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "model": "smol",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "context": {
+      "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.\n\n[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+      "ids": [
+        "BOL-A",
+        "BOL-B",
+        "NET-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F06Q1_bm25_smol_23",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "model": "smol",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "context": {
+      "text": "[REM-B] versão 2026-10: Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.\n\n[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+      "ids": [
+        "REM-B",
+        "REM-A",
+        "FER-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F11Q1_hybrid_rerank_smol_23",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "model": "smol",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "context": {
+      "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.\n\n[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.",
+      "ids": [
+        "BOL-A",
+        "BOL-B",
+        "HOT-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F01Q1_hybrid_rerank_smol_41",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "model": "smol",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "context": {
+      "text": "[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+      "ids": [
+        "FER-E",
+        "FER-G",
+        "PASS-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F12Q1_bm25_qwen_23",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "context": {
+      "text": "[DIS-06] versão 2026-10: A conexão de internet do escritório é mantida pela TI. Reparos residenciais ficam fora desse procedimento.\n\n[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+      "ids": [
+        "DIS-06",
+        "DESCANSO",
+        "HOT-E"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F12Q1_empty_qwen_23",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F04Q1_empty_qwen_41",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F07Q1_bm25_smol_23",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "model": "smol",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "context": {
+      "text": "[DIS-04] versão 2026-10: A recepção entrega crachás provisórios para visitantes. Não desativa credenciais de colaboradores.\n\n[DIS-05] versão 2026-10: Viagens para congressos precisam de convite e aprovação prévia. A política de hospedagem define os tetos.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+      "ids": [
+        "DIS-04",
+        "DIS-05",
+        "FER-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F02Q1_reference_qwen_41",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "context": {
+      "text": "[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+      "ids": [
+        "HOT-G",
+        "HOT-E"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F11Q1_empty_smol_41",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "model": "smol",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F04Q1_empty_smol_23",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "model": "smol",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F08Q1_bm25_qwen_41",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "context": {
+      "text": "[DIS-08] versão 2026-10: O banco de horas não altera a política de férias nem o limite de hospedagem.\n\n[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.",
+      "ids": [
+        "DIS-08",
+        "DESCANSO",
+        "DIS-09"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F11Q1_bm25_smol_41",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "model": "smol",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "context": {
+      "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.\n\n[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "NET-NEW",
+        "BOL-A",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F04Q1_empty_qwen_23",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F11Q1_bm25_qwen_23",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "context": {
+      "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.\n\n[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "NET-NEW",
+        "BOL-A",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F10Q1_hybrid_rerank_qwen_23",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "context": {
+      "text": "[DIS-10] versão 2026-10: O manual de trabalho de campo descreve inventário e autorização do equipamento. Consulte a tabela de bagagem.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200. A última linha da tabela está ausente.",
+      "ids": [
+        "DIS-10",
+        "HOT-E",
+        "BAG-T"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F03Q1_hybrid_rerank_qwen_23",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "context": {
+      "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.\n\n[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "NET-NEW",
+        "BOL-A",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F12Q1_reference_qwen_23",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F01Q1_bm25_smol_23",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "model": "smol",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "context": {
+      "text": "[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[DIS-08] versão 2026-10: O banco de horas não altera a política de férias nem o limite de hospedagem.",
+      "ids": [
+        "FER-E",
+        "FER-G",
+        "DIS-08"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F07Q1_empty_qwen_23",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F01Q1_bm25_smol_41",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "model": "smol",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "context": {
+      "text": "[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[DIS-08] versão 2026-10: O banco de horas não altera a política de férias nem o limite de hospedagem.",
+      "ids": [
+        "FER-E",
+        "FER-G",
+        "DIS-08"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F05Q1_hybrid_rerank_qwen_41",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "context": {
+      "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.\n\n[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+      "ids": [
+        "BOL-A",
+        "BOL-B",
+        "NET-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F02Q1_bm25_smol_41",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "model": "smol",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "context": {
+      "text": "[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n\n[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.",
+      "ids": [
+        "HOT-E",
+        "HOT-G",
+        "DESCANSO"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F12Q1_bm25_smol_23",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "model": "smol",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "context": {
+      "text": "[DIS-06] versão 2026-10: A conexão de internet do escritório é mantida pela TI. Reparos residenciais ficam fora desse procedimento.\n\n[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+      "ids": [
+        "DIS-06",
+        "DESCANSO",
+        "HOT-E"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F04Q1_bm25_qwen_41",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "context": {
+      "text": "[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.\n\n[DIS-09] versão 2026-10: Despesas de almoço e jantar exigem comprovante legível e identificação da viagem.\n\n[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+      "ids": [
+        "PASS-NEW",
+        "DIS-09",
+        "NET-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F11Q1_reference_qwen_23",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F09Q1_reference_qwen_23",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "context": {
+      "text": "[REF-T] versão 2026-10: Tabela de refeição em viagem: almoço R$ 45; jantar R$ 55. Nota: no plantão noturno autorizado, jantar tem teto de R$ 70.",
+      "ids": [
+        "REF-T"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F04Q1_reference_qwen_23",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "context": {
+      "text": "[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+      "ids": [
+        "PASS-NEW"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F10Q1_bm25_qwen_23",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "context": {
+      "text": "[DIS-10] versão 2026-10: O manual de trabalho de campo descreve inventário e autorização do equipamento. Consulte a tabela de bagagem.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.",
+      "ids": [
+        "DIS-10",
+        "HOT-E",
+        "REM-A"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F07Q1_hybrid_rerank_smol_23",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "model": "smol",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "context": {
+      "text": "[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[ACESSO] versão 2026-10: Extravio ou furto do crachá: solicitar imediatamente a desativação da credencial física ao canal Segurança Patrimonial. O canal correto não é a recepção.\n\n[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+      "ids": [
+        "FER-G",
+        "ACESSO",
+        "PASS-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F11Q1_reference_smol_23",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "model": "smol",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F05Q1_bm25_smol_23",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "model": "smol",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "context": {
+      "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[DIS-03] versão 2026-10: O curso de idiomas usa inscrição online. O formulário não define valores de auxílio.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "BOL-A",
+        "DIS-03",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F05Q1_empty_smol_41",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "model": "smol",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F01Q1_empty_qwen_41",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F07Q1_reference_smol_23",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "model": "smol",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "context": {
+      "text": "[ACESSO] versão 2026-10: Extravio ou furto do crachá: solicitar imediatamente a desativação da credencial física ao canal Segurança Patrimonial. O canal correto não é a recepção.",
+      "ids": [
+        "ACESSO"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F09Q1_empty_qwen_41",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F02Q1_empty_qwen_41",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F11Q1_bm25_smol_23",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "model": "smol",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "context": {
+      "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.\n\n[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "NET-NEW",
+        "BOL-A",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F10Q1_hybrid_rerank_smol_23",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "model": "smol",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "context": {
+      "text": "[DIS-10] versão 2026-10: O manual de trabalho de campo descreve inventário e autorização do equipamento. Consulte a tabela de bagagem.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200. A última linha da tabela está ausente.",
+      "ids": [
+        "DIS-10",
+        "HOT-E",
+        "BAG-T"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F05Q1_empty_qwen_41",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F10Q1_empty_smol_23",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "model": "smol",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F10Q1_empty_smol_41",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "model": "smol",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F01Q1_hybrid_rerank_qwen_23",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "context": {
+      "text": "[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+      "ids": [
+        "FER-E",
+        "FER-G",
+        "PASS-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F10Q1_hybrid_rerank_smol_41",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "model": "smol",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "context": {
+      "text": "[DIS-10] versão 2026-10: O manual de trabalho de campo descreve inventário e autorização do equipamento. Consulte a tabela de bagagem.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200. A última linha da tabela está ausente.",
+      "ids": [
+        "DIS-10",
+        "HOT-E",
+        "BAG-T"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F04Q1_hybrid_rerank_smol_41",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "model": "smol",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "context": {
+      "text": "[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.",
+      "ids": [
+        "PASS-NEW",
+        "FER-G",
+        "FER-E"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F08Q1_reference_qwen_41",
+    "query_id": "F08Q1",
+    "family": "F08",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "context": {
+      "text": "[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.",
+      "ids": [
+        "DESCANSO"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F01Q1_hybrid_rerank_smol_23",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "model": "smol",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "context": {
+      "text": "[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.",
+      "ids": [
+        "FER-E",
+        "FER-G",
+        "PASS-NEW"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F02Q1_bm25_smol_23",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "model": "smol",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "context": {
+      "text": "[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n\n[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.",
+      "ids": [
+        "HOT-E",
+        "HOT-G",
+        "DESCANSO"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F02Q1_reference_smol_41",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "model": "smol",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "context": {
+      "text": "[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+      "ids": [
+        "HOT-G",
+        "HOT-E"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F06Q1_hybrid_rerank_smol_23",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "model": "smol",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "context": {
+      "text": "[REM-B] versão 2026-10: Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.\n\n[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+      "ids": [
+        "REM-B",
+        "REM-A",
+        "FER-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F09Q1_empty_qwen_23",
+    "query_id": "F09Q1",
+    "family": "F09",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F11Q1_hybrid_rerank_qwen_23",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "context": {
+      "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.\n\n[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.",
+      "ids": [
+        "BOL-A",
+        "BOL-B",
+        "HOT-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F10Q1_reference_smol_41",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "model": "smol",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "context": {
+      "text": "[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200; deslocamento para trabalho de campo nacional com equipamento autorizado R$ 160.",
+      "ids": [
+        "BAG-T"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F06Q1_hybrid_rerank_qwen_23",
+    "query_id": "F06Q1",
+    "family": "F06",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "hybrid_rerank",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "context": {
+      "text": "[REM-B] versão 2026-10: Circular B de outubro define trabalho remoto em 3 dias por semana. As circulares A e B têm a mesma vigência e não estabelecem precedência.\n\n[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+      "ids": [
+        "REM-B",
+        "REM-A",
+        "FER-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F11Q1_hybrid_rerank_qwen_41",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "context": {
+      "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.\n\n[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.",
+      "ids": [
+        "BOL-A",
+        "BOL-B",
+        "HOT-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F11Q1_empty_smol_23",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "model": "smol",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F10Q1_bm25_smol_23",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "model": "smol",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "context": {
+      "text": "[DIS-10] versão 2026-10: O manual de trabalho de campo descreve inventário e autorização do equipamento. Consulte a tabela de bagagem.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[REM-A] versão 2026-10: Circular A de outubro define trabalho remoto em 2 dias por semana.",
+      "ids": [
+        "DIS-10",
+        "HOT-E",
+        "REM-A"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F07Q1_bm25_smol_41",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "model": "smol",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "context": {
+      "text": "[DIS-04] versão 2026-10: A recepção entrega crachás provisórios para visitantes. Não desativa credenciais de colaboradores.\n\n[DIS-05] versão 2026-10: Viagens para congressos precisam de convite e aprovação prévia. A política de hospedagem define os tetos.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+      "ids": [
+        "DIS-04",
+        "DIS-05",
+        "FER-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F01Q1_empty_smol_41",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "model": "smol",
+    "seed": 41,
+    "variant": "empty",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F04Q1_hybrid_rerank_qwen_41",
+    "query_id": "F04Q1",
+    "family": "F04",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "context": {
+      "text": "[PASS-NEW] versão 2026-10: A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno. Revoga o prazo anterior.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.",
+      "ids": [
+        "PASS-NEW",
+        "FER-G",
+        "FER-E"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F05Q1_reference_smol_41",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "model": "smol",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "context": {
+      "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "BOL-A",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F02Q1_reference_smol_23",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "model": "smol",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "context": {
+      "text": "[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+      "ids": [
+        "HOT-G",
+        "HOT-E"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F12Q1_bm25_qwen_41",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "context": {
+      "text": "[DIS-06] versão 2026-10: A conexão de internet do escritório é mantida pela TI. Reparos residenciais ficam fora desse procedimento.\n\n[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+      "ids": [
+        "DIS-06",
+        "DESCANSO",
+        "HOT-E"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F05Q1_empty_smol_23",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "model": "smol",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F05Q1_bm25_smol_41",
+    "query_id": "F05Q1",
+    "family": "F05",
+    "model": "smol",
+    "seed": 41,
+    "variant": "bm25",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "context": {
+      "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[DIS-03] versão 2026-10: O curso de idiomas usa inscrição online. O formulário não define valores de auxílio.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.",
+      "ids": [
+        "BOL-A",
+        "DIS-03",
+        "BOL-B"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F11Q1_reference_qwen_41",
+    "query_id": "F11Q1",
+    "family": "F11",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F02Q1_reference_qwen_23",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "context": {
+      "text": "[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.",
+      "ids": [
+        "HOT-G",
+        "HOT-E"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F01Q1_reference_smol_23",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "model": "smol",
+    "seed": 23,
+    "variant": "reference",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "context": {
+      "text": "[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.",
+      "ids": [
+        "FER-G",
+        "FER-E"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F01Q1_empty_qwen_23",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F10Q1_hybrid_rerank_qwen_41",
+    "query_id": "F10Q1",
+    "family": "F10",
+    "model": "qwen",
+    "seed": 41,
+    "variant": "hybrid_rerank",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "context": {
+      "text": "[DIS-10] versão 2026-10: O manual de trabalho de campo descreve inventário e autorização do equipamento. Consulte a tabela de bagagem.\n\n[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200. A última linha da tabela está ausente.",
+      "ids": [
+        "DIS-10",
+        "HOT-E",
+        "BAG-T"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F12Q1_empty_smol_23",
+    "query_id": "F12Q1",
+    "family": "F12",
+    "model": "smol",
+    "seed": 23,
+    "variant": "empty",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "context": {
+      "text": "",
+      "ids": [],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F02Q1_bm25_qwen_23",
+    "query_id": "F02Q1",
+    "family": "F02",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "context": {
+      "text": "[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n\n[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.",
+      "ids": [
+        "HOT-E",
+        "HOT-G",
+        "DESCANSO"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F03Q1_reference_smol_41",
+    "query_id": "F03Q1",
+    "family": "F03",
+    "model": "smol",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "context": {
+      "text": "[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+      "ids": [
+        "NET-NEW"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  },
+  {
+    "id": "F07Q1_bm25_qwen_23",
+    "query_id": "F07Q1",
+    "family": "F07",
+    "model": "qwen",
+    "seed": 23,
+    "variant": "bm25",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "context": {
+      "text": "[DIS-04] versão 2026-10: A recepção entrega crachás provisórios para visitantes. Não desativa credenciais de colaboradores.\n\n[DIS-05] versão 2026-10: Viagens para congressos precisam de convite e aprovação prévia. A política de hospedagem define os tetos.\n\n[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.",
+      "ids": [
+        "DIS-04",
+        "DIS-05",
+        "FER-G"
+      ],
+      "skipped": [],
+      "source_restored": false
+    }
+  },
+  {
+    "id": "F01Q1_reference_smol_41",
+    "query_id": "F01Q1",
+    "family": "F01",
+    "model": "smol",
+    "seed": 41,
+    "variant": "reference",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "context": {
+      "text": "[FER-G] versão 2026-10: Para férias, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E.\n\n[FER-E] versão 2026-10: Exceção de férias: colaboradores que retornam de licença parental podem pedir férias com 10 dias de antecedência. Esta exceção prevalece sobre FER-G.",
+      "ids": [
+        "FER-G",
+        "FER-E"
+      ],
+      "skipped": [],
+      "source_restored": true
+    }
+  }
+]

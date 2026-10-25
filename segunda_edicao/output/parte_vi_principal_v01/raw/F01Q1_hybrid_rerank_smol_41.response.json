@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Porque você quer ajudar a empresa de um produto para a empresa de um produto, como o produto de venda, a empresa de um produto de venda, a empresa de um produto de venda, a empresa de um produto de venda, a empresa de um produto de venda, a empresa de um produto de venda, a empresa de um produto de venda, a empresa de um produto de venda, a empresa de um produto de"
+      }
+    }
+  ],
+  "created": 1792879444,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 417,
+    "total_tokens": 545,
+    "prompt_tokens_details": {
+      "cached_tokens": 209
+    }
+  },
+  "id": "chatcmpl-y37dHaHxNwTKH07ZFZcc4ZkHlH5VQb15",
+  "timings": {
+    "cache_n": 209,
+    "prompt_n": 208,
+    "prompt_ms": 1198.981,
+    "prompt_per_token_ms": 5.76433173076923,
+    "prompt_per_second": 173.48064731634614,
+    "predicted_n": 128,
+    "predicted_ms": 2414.032,
+    "predicted_per_token_ms": 19.00812598425197,
+    "predicted_per_second": 52.60907891858931
+  }
+}

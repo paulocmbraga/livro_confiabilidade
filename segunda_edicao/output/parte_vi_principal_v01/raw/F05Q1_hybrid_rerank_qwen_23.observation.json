@@ -1,0 +1,43 @@
+{
+  "id": "F05Q1_hybrid_rerank_qwen_23",
+  "query_id": "F05Q1",
+  "family": "F05",
+  "model": "qwen",
+  "seed": 23,
+  "variant": "hybrid_rerank",
+  "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+  "context": {
+    "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.\n\n[NET-NEW] versão 2026-10: Desde 1 de outubro de 2026, o auxílio mensal para internet residencial da Horizonte é R$ 120. Substitui integralmente o valor anterior.",
+    "ids": [
+      "BOL-A",
+      "BOL-B",
+      "NET-NEW"
+    ],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 199
+  },
+  "seconds": 2.5546353000681847,
+  "parsed": {
+    "resposta": "O auxílio mensal para curso de idiomas é R$ 250 mensais e R$ 350 mensais, respectivamente, publicados em 1 de outubro de 2026.",
+    "citacoes": [
+      "BOL-A",
+      "BOL-B",
+      "NET-NEW"
+    ],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": true,
+    "source_loss_known": false,
+    "reference_evidence_available": true,
+    "abstention_matches_reference": true,
+    "answer_lexical_signal": false,
+    "citations_present": true,
+    "citation_ids_valid": true,
+    "citations_cover_required": true,
+    "automatic_contract_signal": true
+  }
+}

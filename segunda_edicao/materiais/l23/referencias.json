@@ -1,0 +1,402 @@
+{
+  "F01Q1": {
+    "required_ids": [
+      "FER-G",
+      "FER-E"
+    ],
+    "answer_needles": [
+      "10"
+    ],
+    "expected_abstain": false
+  },
+  "F01Q2": {
+    "required_ids": [
+      "FER-G",
+      "FER-E"
+    ],
+    "answer_needles": [
+      "10"
+    ],
+    "expected_abstain": false
+  },
+  "F01Q3": {
+    "required_ids": [
+      "FER-G",
+      "FER-E"
+    ],
+    "answer_needles": [
+      "10"
+    ],
+    "expected_abstain": false
+  },
+  "F01Q4": {
+    "required_ids": [
+      "FER-G",
+      "FER-E"
+    ],
+    "answer_needles": [
+      "10"
+    ],
+    "expected_abstain": false
+  },
+  "F02Q1": {
+    "required_ids": [
+      "HOT-G",
+      "HOT-E"
+    ],
+    "answer_needles": [
+      "480"
+    ],
+    "expected_abstain": false
+  },
+  "F02Q2": {
+    "required_ids": [
+      "HOT-G",
+      "HOT-E"
+    ],
+    "answer_needles": [
+      "480"
+    ],
+    "expected_abstain": false
+  },
+  "F02Q3": {
+    "required_ids": [
+      "HOT-G",
+      "HOT-E"
+    ],
+    "answer_needles": [
+      "480"
+    ],
+    "expected_abstain": false
+  },
+  "F02Q4": {
+    "required_ids": [
+      "HOT-G",
+      "HOT-E"
+    ],
+    "answer_needles": [
+      "480"
+    ],
+    "expected_abstain": false
+  },
+  "F03Q1": {
+    "required_ids": [
+      "NET-NEW"
+    ],
+    "answer_needles": [
+      "120"
+    ],
+    "expected_abstain": false
+  },
+  "F03Q2": {
+    "required_ids": [
+      "NET-NEW"
+    ],
+    "answer_needles": [
+      "120"
+    ],
+    "expected_abstain": false
+  },
+  "F03Q3": {
+    "required_ids": [
+      "NET-NEW"
+    ],
+    "answer_needles": [
+      "120"
+    ],
+    "expected_abstain": false
+  },
+  "F03Q4": {
+    "required_ids": [
+      "NET-NEW"
+    ],
+    "answer_needles": [
+      "120"
+    ],
+    "expected_abstain": false
+  },
+  "F04Q1": {
+    "required_ids": [
+      "PASS-NEW"
+    ],
+    "answer_needles": [
+      "7"
+    ],
+    "expected_abstain": false
+  },
+  "F04Q2": {
+    "required_ids": [
+      "PASS-NEW"
+    ],
+    "answer_needles": [
+      "7"
+    ],
+    "expected_abstain": false
+  },
+  "F04Q3": {
+    "required_ids": [
+      "PASS-NEW"
+    ],
+    "answer_needles": [
+      "7"
+    ],
+    "expected_abstain": false
+  },
+  "F04Q4": {
+    "required_ids": [
+      "PASS-NEW"
+    ],
+    "answer_needles": [
+      "7"
+    ],
+    "expected_abstain": false
+  },
+  "F05Q1": {
+    "required_ids": [
+      "BOL-A",
+      "BOL-B"
+    ],
+    "answer_needles": [],
+    "expected_abstain": true
+  },
+  "F05Q2": {
+    "required_ids": [
+      "BOL-A",
+      "BOL-B"
+    ],
+    "answer_needles": [],
+    "expected_abstain": true
+  },
+  "F05Q3": {
+    "required_ids": [
+      "BOL-A",
+      "BOL-B"
+    ],
+    "answer_needles": [],
+    "expected_abstain": true
+  },
+  "F05Q4": {
+    "required_ids": [
+      "BOL-A",
+      "BOL-B"
+    ],
+    "answer_needles": [],
+    "expected_abstain": true
+  },
+  "F06Q1": {
+    "required_ids": [
+      "REM-A",
+      "REM-B"
+    ],
+    "answer_needles": [],
+    "expected_abstain": true
+  },
+  "F06Q2": {
+    "required_ids": [
+      "REM-A",
+      "REM-B"
+    ],
+    "answer_needles": [],
+    "expected_abstain": true
+  },
+  "F06Q3": {
+    "required_ids": [
+      "REM-A",
+      "REM-B"
+    ],
+    "answer_needles": [],
+    "expected_abstain": true
+  },
+  "F06Q4": {
+    "required_ids": [
+      "REM-A",
+      "REM-B"
+    ],
+    "answer_needles": [],
+    "expected_abstain": true
+  },
+  "F07Q1": {
+    "required_ids": [
+      "ACESSO"
+    ],
+    "answer_needles": [
+      "seguranca patrimonial"
+    ],
+    "expected_abstain": false
+  },
+  "F07Q2": {
+    "required_ids": [
+      "ACESSO"
+    ],
+    "answer_needles": [
+      "seguranca patrimonial"
+    ],
+    "expected_abstain": false
+  },
+  "F07Q3": {
+    "required_ids": [
+      "ACESSO"
+    ],
+    "answer_needles": [
+      "seguranca patrimonial"
+    ],
+    "expected_abstain": false
+  },
+  "F07Q4": {
+    "required_ids": [
+      "ACESSO"
+    ],
+    "answer_needles": [
+      "seguranca patrimonial"
+    ],
+    "expected_abstain": false
+  },
+  "F08Q1": {
+    "required_ids": [
+      "DESCANSO"
+    ],
+    "answer_needles": [
+      "lideranca direta"
+    ],
+    "expected_abstain": false
+  },
+  "F08Q2": {
+    "required_ids": [
+      "DESCANSO"
+    ],
+    "answer_needles": [
+      "lideranca direta"
+    ],
+    "expected_abstain": false
+  },
+  "F08Q3": {
+    "required_ids": [
+      "DESCANSO"
+    ],
+    "answer_needles": [
+      "lideranca direta"
+    ],
+    "expected_abstain": false
+  },
+  "F08Q4": {
+    "required_ids": [
+      "DESCANSO"
+    ],
+    "answer_needles": [
+      "lideranca direta"
+    ],
+    "expected_abstain": false
+  },
+  "F09Q1": {
+    "required_ids": [
+      "REF-T"
+    ],
+    "answer_needles": [
+      "70"
+    ],
+    "expected_abstain": false
+  },
+  "F09Q2": {
+    "required_ids": [
+      "REF-T"
+    ],
+    "answer_needles": [
+      "70"
+    ],
+    "expected_abstain": false
+  },
+  "F09Q3": {
+    "required_ids": [
+      "REF-T"
+    ],
+    "answer_needles": [
+      "70"
+    ],
+    "expected_abstain": false
+  },
+  "F09Q4": {
+    "required_ids": [
+      "REF-T"
+    ],
+    "answer_needles": [
+      "70"
+    ],
+    "expected_abstain": false
+  },
+  "F10Q1": {
+    "required_ids": [
+      "BAG-T"
+    ],
+    "answer_needles": [
+      "160"
+    ],
+    "expected_abstain": false
+  },
+  "F10Q2": {
+    "required_ids": [
+      "BAG-T"
+    ],
+    "answer_needles": [
+      "160"
+    ],
+    "expected_abstain": false
+  },
+  "F10Q3": {
+    "required_ids": [
+      "BAG-T"
+    ],
+    "answer_needles": [
+      "160"
+    ],
+    "expected_abstain": false
+  },
+  "F10Q4": {
+    "required_ids": [
+      "BAG-T"
+    ],
+    "answer_needles": [
+      "160"
+    ],
+    "expected_abstain": false
+  },
+  "F11Q1": {
+    "required_ids": [],
+    "answer_needles": [],
+    "expected_abstain": true
+  },
+  "F11Q2": {
+    "required_ids": [],
+    "answer_needles": [],
+    "expected_abstain": true
+  },
+  "F11Q3": {
+    "required_ids": [],
+    "answer_needles": [],
+    "expected_abstain": true
+  },
+  "F11Q4": {
+    "required_ids": [],
+    "answer_needles": [],
+    "expected_abstain": true
+  },
+  "F12Q1": {
+    "required_ids": [],
+    "answer_needles": [],
+    "expected_abstain": true
+  },
+  "F12Q2": {
+    "required_ids": [],
+    "answer_needles": [],
+    "expected_abstain": true
+  },
+  "F12Q3": {
+    "required_ids": [],
+    "answer_needles": [],
+    "expected_abstain": true
+  },
+  "F12Q4": {
+    "required_ids": [],
+    "answer_needles": [],
+    "expected_abstain": true
+  }
+}

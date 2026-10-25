@@ -1,0 +1,185 @@
+{
+  "variants": {
+    "bm25/top1": {
+      "calls": 1,
+      "errors": 0,
+      "signals": {
+        "valid": 1.0,
+        "all_required_delivered": 1.0,
+        "source_loss_known": 0.0,
+        "reference_evidence_available": 1.0,
+        "abstention_matches_reference": 1.0,
+        "answer_lexical_signal": 1.0,
+        "citations_present": 1.0,
+        "citation_ids_valid": 0.0,
+        "citations_cover_required": 0.0,
+        "automatic_contract_signal": 0.0
+      },
+      "tokens_input": 146,
+      "tokens_output": 37,
+      "usage_unknown_calls": 0,
+      "latency_seconds": {
+        "median": 1.812,
+        "p95_nearest_rank": 1.812
+      }
+    },
+    "bm25/top3": {
+      "calls": 1,
+      "errors": 0,
+      "signals": {
+        "valid": 1.0,
+        "all_required_delivered": 1.0,
+        "source_loss_known": 0.0,
+        "reference_evidence_available": 1.0,
+        "abstention_matches_reference": 1.0,
+        "answer_lexical_signal": 1.0,
+        "citations_present": 1.0,
+        "citation_ids_valid": 0.0,
+        "citations_cover_required": 0.0,
+        "automatic_contract_signal": 0.0
+      },
+      "tokens_input": 146,
+      "tokens_output": 37,
+      "usage_unknown_calls": 0,
+      "latency_seconds": {
+        "median": 1.593,
+        "p95_nearest_rank": 1.593
+      }
+    },
+    "diagnostic/empty": {
+      "calls": 1,
+      "errors": 0,
+      "signals": {
+        "valid": 1.0,
+        "all_required_delivered": 0.0,
+        "source_loss_known": 0.0,
+        "reference_evidence_available": 0.0,
+        "abstention_matches_reference": 0.0,
+        "answer_lexical_signal": 0.0,
+        "citations_present": 0.0,
+        "citation_ids_valid": 1.0,
+        "citations_cover_required": 0.0,
+        "automatic_contract_signal": 0.0
+      },
+      "tokens_input": 136,
+      "tokens_output": 28,
+      "usage_unknown_calls": 0,
+      "latency_seconds": {
+        "median": 1.469,
+        "p95_nearest_rank": 1.469
+      }
+    },
+    "diagnostic/reference": {
+      "calls": 1,
+      "errors": 0,
+      "signals": {
+        "valid": 1.0,
+        "all_required_delivered": 1.0,
+        "source_loss_known": 0.0,
+        "reference_evidence_available": 1.0,
+        "abstention_matches_reference": 1.0,
+        "answer_lexical_signal": 1.0,
+        "citations_present": 1.0,
+        "citation_ids_valid": 0.0,
+        "citations_cover_required": 0.0,
+        "automatic_contract_signal": 0.0
+      },
+      "tokens_input": 146,
+      "tokens_output": 37,
+      "usage_unknown_calls": 0,
+      "latency_seconds": {
+        "median": 1.64,
+        "p95_nearest_rank": 1.64
+      }
+    },
+    "hybrid_rerank/top1": {
+      "calls": 1,
+      "errors": 0,
+      "signals": {
+        "valid": 1.0,
+        "all_required_delivered": 1.0,
+        "source_loss_known": 0.0,
+        "reference_evidence_available": 1.0,
+        "abstention_matches_reference": 1.0,
+        "answer_lexical_signal": 1.0,
+        "citations_present": 1.0,
+        "citation_ids_valid": 0.0,
+        "citations_cover_required": 0.0,
+        "automatic_contract_signal": 0.0
+      },
+      "tokens_input": 146,
+      "tokens_output": 37,
+      "usage_unknown_calls": 0,
+      "latency_seconds": {
+        "median": 1.641,
+        "p95_nearest_rank": 1.641
+      }
+    },
+    "hybrid_rerank/top3": {
+      "calls": 1,
+      "errors": 0,
+      "signals": {
+        "valid": 1.0,
+        "all_required_delivered": 1.0,
+        "source_loss_known": 0.0,
+        "reference_evidence_available": 1.0,
+        "abstention_matches_reference": 1.0,
+        "answer_lexical_signal": 1.0,
+        "citations_present": 1.0,
+        "citation_ids_valid": 0.0,
+        "citations_cover_required": 0.0,
+        "automatic_contract_signal": 0.0
+      },
+      "tokens_input": 146,
+      "tokens_output": 37,
+      "usage_unknown_calls": 0,
+      "latency_seconds": {
+        "median": 1.657,
+        "p95_nearest_rank": 1.657
+      }
+    }
+  },
+  "retrieval": {
+    "bm25": {
+      "answerable_or_conflicted_queries": 1,
+      "recall_at_3": 1.0,
+      "ndcg_at_3": 1.0
+    },
+    "dense": {
+      "answerable_or_conflicted_queries": 1,
+      "recall_at_3": 1.0,
+      "ndcg_at_3": 1.0
+    },
+    "hybrid_rerank": {
+      "answerable_or_conflicted_queries": 1,
+      "recall_at_3": 1.0,
+      "ndcg_at_3": 1.0
+    }
+  },
+  "clustered_contrasts": {
+    "hybrid_minus_bm25_top3": {
+      "families": 1,
+      "difference": 0.0,
+      "percentile_95": [
+        0.0,
+        0.0
+      ],
+      "method": "Bootstrap de famílias; piloto autoral, não população de produção",
+      "replicates": 2000
+    },
+    "top3_minus_top1_hybrid": {
+      "families": 1,
+      "difference": 0.0,
+      "percentile_95": [
+        0.0,
+        0.0
+      ],
+      "method": "Bootstrap de famílias; piloto autoral, não população de produção",
+      "replicates": 2000
+    }
+  },
+  "semantic_approval": false,
+  "human_validation": "pending",
+  "independent_replication": "pending",
+  "interpretation": "automatic_contract_signal é proxy lexical/estrutural; não mede suporte semântico nem qualidade validada."
+}

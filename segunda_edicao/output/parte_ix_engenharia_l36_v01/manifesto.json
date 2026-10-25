@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "kind": "parte-ix-local-experiments",
+  "complete": true,
+  "files": {
+    "environment.json": "4859a50e7b936344f99256d19239f047d0e2bccf834bcbabe87c4cd86ef2fd38",
+    "inputs.json": "a67f9782daf5a8a36c19204a26bb0d573aa7bcb58ef2bb8fe409750aaade57ea",
+    "l36/development.json": "08cc0013653f96b6e98fd81fb35189648627e96b676871a2b8d1c059dec41880",
+    "l36/policies.json": "267871d0604de25849980ecc2e5dd53792507f64a6214e7abf1c26729ddeac9e",
+    "l36/result.json": "3bf765bace362f28c37489073435504082226ded538b1e8d6074ecb63dd992f6",
+    "l36/runtime_qwen/resources.json": "8e1d580d270a92bfe3ac22ca0164c5137436d9996281ad491a4f362a0361806c",
+    "l36/runtime_qwen/server.log": "50a8049edccfa2f3d06073ce1e6164d6e6b26c846a32eba924bd9d93afe4dcb9",
+    "l36/runtime_smol/resources.json": "030a6b277f28d684180892540a733d57b9732ca5cb6aec0ce6c850737b787be8",
+    "l36/runtime_smol/server.log": "dd61ba28b30413f96192bbf34d6e337b430639b40d3b629b0c39045df7baf427",
+    "l36/sensitivity.json": "ff0633e5dd394e8fa026af4df057d1fe047feb1c7e9ba0a50fbe25e334fa10dc",
+    "l36/tasks.json": "74239abe1b52aba00d7f2592244b8b89e2a92c687aa307cbffcc2fc98d78a12d",
+    "l36/threshold.json": "d73bd8b397273652001987b716582907a6f0e36dd71a42818967ab58ed886166",
+    "l36/unknown_cost_control.json": "2b7e60ed3a7c67928d5f4d239fb00f3cb30c96061537eb83c25aeca66f4fae94",
+    "plan.json": "3ae8c3ae00183a2b60120b195a2450f9ab874ed7059fbb220be4e805cb1228e5"
+  }
+}

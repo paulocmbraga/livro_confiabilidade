@@ -1,0 +1,58 @@
+{
+  "qwen/hybrid_rerank": {
+    "calls": 24,
+    "valid": 21,
+    "signal": 4,
+    "with_valid_citation": 10,
+    "seconds_sum": 58.679278800264
+  },
+  "qwen/reference": {
+    "calls": 24,
+    "valid": 22,
+    "signal": 8,
+    "with_valid_citation": 13,
+    "seconds_sum": 41.82117080001626
+  },
+  "qwen/empty": {
+    "calls": 24,
+    "valid": 24,
+    "signal": 8,
+    "with_valid_citation": 0,
+    "seconds_sum": 26.01410440064501
+  },
+  "qwen/bm25": {
+    "calls": 24,
+    "valid": 21,
+    "signal": 3,
+    "with_valid_citation": 6,
+    "seconds_sum": 53.34822759986855
+  },
+  "smol/bm25": {
+    "calls": 24,
+    "valid": 12,
+    "signal": 3,
+    "with_valid_citation": 5,
+    "seconds_sum": 71.13974020036403
+  },
+  "smol/empty": {
+    "calls": 24,
+    "valid": 3,
+    "signal": 0,
+    "with_valid_citation": 0,
+    "seconds_sum": 58.47008039953653
+  },
+  "smol/reference": {
+    "calls": 24,
+    "valid": 6,
+    "signal": 0,
+    "with_valid_citation": 1,
+    "seconds_sum": 63.37832570017781
+  },
+  "smol/hybrid_rerank": {
+    "calls": 24,
+    "valid": 6,
+    "signal": 0,
+    "with_valid_citation": 2,
+    "seconds_sum": 74.06853539997246
+  }
+}

@@ -1,0 +1,512 @@
+[
+  {
+    "mode": "workflow",
+    "task": {
+      "quantity": 1,
+      "authorized": true,
+      "intent": "workflow-0",
+      "contract": "v1"
+    },
+    "planner": null,
+    "specialist": null,
+    "decision": {
+      "accepted": true,
+      "reason": "deterministic_policy"
+    },
+    "receipt": {
+      "ok": true,
+      "receipt": {
+        "id": "workflow-0",
+        "quantity": 1,
+        "contract": "v1"
+      },
+      "current": "v1"
+    },
+    "tool": {
+      "_meta": {
+        "io.modelcontextprotocol/serverInfo": {
+          "name": "L43 reservas persistentes",
+          "version": "1.0"
+        }
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"ok\": true,\n  \"receipt\": {\n    \"id\": \"workflow-0\",\n    \"quantity\": 1,\n    \"contract\": \"v1\"\n  }\n}",
+          "annotations": null,
+          "_meta": null
+        }
+      ],
+      "structuredContent": null,
+      "isError": false,
+      "resultType": "complete"
+    }
+  },
+  {
+    "mode": "workflow",
+    "task": {
+      "quantity": 2,
+      "authorized": true,
+      "intent": "workflow-1",
+      "contract": "v1"
+    },
+    "planner": null,
+    "specialist": null,
+    "decision": {
+      "accepted": false,
+      "reason": "deterministic_policy"
+    },
+    "receipt": null,
+    "tool": null
+  },
+  {
+    "mode": "workflow",
+    "task": {
+      "quantity": 1,
+      "authorized": false,
+      "intent": "workflow-2",
+      "contract": "v1"
+    },
+    "planner": null,
+    "specialist": null,
+    "decision": {
+      "accepted": false,
+      "reason": "deterministic_policy"
+    },
+    "receipt": null,
+    "tool": null
+  },
+  {
+    "mode": "workflow",
+    "task": {
+      "quantity": 1,
+      "authorized": true,
+      "intent": "workflow-3",
+      "contract": "v1"
+    },
+    "planner": null,
+    "specialist": null,
+    "decision": {
+      "accepted": true,
+      "reason": "deterministic_policy"
+    },
+    "receipt": {
+      "ok": true,
+      "receipt": {
+        "id": "workflow-3",
+        "quantity": 1,
+        "contract": "v1"
+      },
+      "current": "v1"
+    },
+    "tool": {
+      "_meta": {
+        "io.modelcontextprotocol/serverInfo": {
+          "name": "L43 reservas persistentes",
+          "version": "1.0"
+        }
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"ok\": true,\n  \"receipt\": {\n    \"id\": \"workflow-3\",\n    \"quantity\": 1,\n    \"contract\": \"v1\"\n  }\n}",
+          "annotations": null,
+          "_meta": null
+        }
+      ],
+      "structuredContent": null,
+      "isError": false,
+      "resultType": "complete"
+    }
+  },
+  {
+    "mode": "workflow",
+    "task": {
+      "quantity": 1,
+      "authorized": true,
+      "intent": "workflow-4",
+      "contract": "v1"
+    },
+    "planner": null,
+    "specialist": null,
+    "decision": {
+      "accepted": true,
+      "reason": "deterministic_policy"
+    },
+    "receipt": {
+      "ok": true,
+      "receipt": {
+        "id": "workflow-4",
+        "quantity": 1,
+        "contract": "v1"
+      },
+      "current": "v1"
+    },
+    "tool": {
+      "_meta": {
+        "io.modelcontextprotocol/serverInfo": {
+          "name": "L43 reservas persistentes",
+          "version": "1.0"
+        }
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"ok\": true,\n  \"receipt\": {\n    \"id\": \"workflow-4\",\n    \"quantity\": 1,\n    \"contract\": \"v1\"\n  }\n}",
+          "annotations": null,
+          "_meta": null
+        }
+      ],
+      "structuredContent": null,
+      "isError": false,
+      "resultType": "complete"
+    }
+  },
+  {
+    "mode": "workflow",
+    "task": {
+      "quantity": 2,
+      "authorized": false,
+      "intent": "workflow-5",
+      "contract": "v1"
+    },
+    "planner": null,
+    "specialist": null,
+    "decision": {
+      "accepted": false,
+      "reason": "deterministic_policy"
+    },
+    "receipt": null,
+    "tool": null
+  },
+  {
+    "mode": "agent",
+    "task": {
+      "quantity": 1,
+      "authorized": true,
+      "intent": "agent-0",
+      "contract": "v1"
+    },
+    "planner": "{\n  \"action\": \"reserve\",\n  \"quantity\": 1\n}",
+    "specialist": null,
+    "decision": {
+      "accepted": true,
+      "data": {
+        "action": "reserve",
+        "quantity": 1
+      },
+      "reason": "bounded_proposal"
+    },
+    "receipt": {
+      "ok": true,
+      "receipt": {
+        "id": "agent-0",
+        "quantity": 1,
+        "contract": "v1"
+      },
+      "current": "v1"
+    },
+    "tool": {
+      "_meta": {
+        "io.modelcontextprotocol/serverInfo": {
+          "name": "L43 reservas persistentes",
+          "version": "1.0"
+        }
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"ok\": true,\n  \"receipt\": {\n    \"id\": \"agent-0\",\n    \"quantity\": 1,\n    \"contract\": \"v1\"\n  }\n}",
+          "annotations": null,
+          "_meta": null
+        }
+      ],
+      "structuredContent": null,
+      "isError": false,
+      "resultType": "complete"
+    }
+  },
+  {
+    "mode": "agent",
+    "task": {
+      "quantity": 2,
+      "authorized": true,
+      "intent": "agent-1",
+      "contract": "v1"
+    },
+    "planner": "{\n  \"action\": \"reserve\",\n  \"quantity\": 2\n}",
+    "specialist": null,
+    "decision": {
+      "accepted": false,
+      "data": {
+        "action": "reserve",
+        "quantity": 2
+      },
+      "reason": "review_required"
+    },
+    "receipt": null,
+    "tool": null
+  },
+  {
+    "mode": "agent",
+    "task": {
+      "quantity": 1,
+      "authorized": false,
+      "intent": "agent-2",
+      "contract": "v1"
+    },
+    "planner": "{\n  \"action\": \"reserve\",\n  \"quantity\": 1\n}",
+    "specialist": null,
+    "decision": {
+      "accepted": false,
+      "data": {
+        "action": "reserve",
+        "quantity": 1
+      },
+      "reason": "review_required"
+    },
+    "receipt": null,
+    "tool": null
+  },
+  {
+    "mode": "agent",
+    "task": {
+      "quantity": 1,
+      "authorized": true,
+      "intent": "agent-3",
+      "contract": "v1"
+    },
+    "planner": "{\n  \"action\": \"reserve\",\n  \"quantity\": 1\n}",
+    "specialist": null,
+    "decision": {
+      "accepted": true,
+      "data": {
+        "action": "reserve",
+        "quantity": 1
+      },
+      "reason": "bounded_proposal"
+    },
+    "receipt": {
+      "ok": true,
+      "receipt": {
+        "id": "agent-3",
+        "quantity": 1,
+        "contract": "v1"
+      },
+      "current": "v1"
+    },
+    "tool": {
+      "_meta": {
+        "io.modelcontextprotocol/serverInfo": {
+          "name": "L43 reservas persistentes",
+          "version": "1.0"
+        }
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"ok\": true,\n  \"receipt\": {\n    \"id\": \"agent-3\",\n    \"quantity\": 1,\n    \"contract\": \"v1\"\n  }\n}",
+          "annotations": null,
+          "_meta": null
+        }
+      ],
+      "structuredContent": null,
+      "isError": false,
+      "resultType": "complete"
+    }
+  },
+  {
+    "mode": "agent",
+    "task": {
+      "quantity": 1,
+      "authorized": true,
+      "intent": "agent-4",
+      "contract": "v1"
+    },
+    "planner": "{\n  \"action\": \"reserve\",\n  \"quantity\": 1\n}",
+    "specialist": null,
+    "decision": {
+      "accepted": true,
+      "data": {
+        "action": "reserve",
+        "quantity": 1
+      },
+      "reason": "bounded_proposal"
+    },
+    "receipt": {
+      "ok": true,
+      "receipt": {
+        "id": "agent-4",
+        "quantity": 1,
+        "contract": "v1"
+      },
+      "current": "v1"
+    },
+    "tool": {
+      "_meta": {
+        "io.modelcontextprotocol/serverInfo": {
+          "name": "L43 reservas persistentes",
+          "version": "1.0"
+        }
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "{\n  \"ok\": true,\n  \"receipt\": {\n    \"id\": \"agent-4\",\n    \"quantity\": 1,\n    \"contract\": \"v1\"\n  }\n}",
+          "annotations": null,
+          "_meta": null
+        }
+      ],
+      "structuredContent": null,
+      "isError": false,
+      "resultType": "complete"
+    }
+  },
+  {
+    "mode": "agent",
+    "task": {
+      "quantity": 2,
+      "authorized": false,
+      "intent": "agent-5",
+      "contract": "v1"
+    },
+    "planner": "{\n  \"action\": \"reserve\",\n  \"quantity\": 2\n}",
+    "specialist": null,
+    "decision": {
+      "accepted": false,
+      "data": {
+        "action": "reserve",
+        "quantity": 2
+      },
+      "reason": "review_required"
+    },
+    "receipt": null,
+    "tool": null
+  },
+  {
+    "mode": "team",
+    "task": {
+      "quantity": 1,
+      "authorized": true,
+      "intent": "team-0",
+      "contract": "v1"
+    },
+    "planner": "{\n  \"action\": \"reserve\",\n  \"quantity\": 1\n}",
+    "specialist": "{\"action\": \"hold\", \"quantity\": 1}",
+    "decision": {
+      "accepted": false,
+      "data": {
+        "action": "reserve",
+        "quantity": 1
+      },
+      "reason": "bounded_proposal"
+    },
+    "receipt": null,
+    "tool": null
+  },
+  {
+    "mode": "team",
+    "task": {
+      "quantity": 2,
+      "authorized": true,
+      "intent": "team-1",
+      "contract": "v1"
+    },
+    "planner": "{\n  \"action\": \"reserve\",\n  \"quantity\": 2\n}",
+    "specialist": "{\"action\": \"hold\", \"quantity\": 2}",
+    "decision": {
+      "accepted": false,
+      "data": {
+        "action": "reserve",
+        "quantity": 2
+      },
+      "reason": "review_required"
+    },
+    "receipt": null,
+    "tool": null
+  },
+  {
+    "mode": "team",
+    "task": {
+      "quantity": 1,
+      "authorized": false,
+      "intent": "team-2",
+      "contract": "v1"
+    },
+    "planner": "{\n  \"action\": \"reserve\",\n  \"quantity\": 1\n}",
+    "specialist": "{\"action\": \"hold\", \"quantity\": 1}",
+    "decision": {
+      "accepted": false,
+      "data": {
+        "action": "reserve",
+        "quantity": 1
+      },
+      "reason": "review_required"
+    },
+    "receipt": null,
+    "tool": null
+  },
+  {
+    "mode": "team",
+    "task": {
+      "quantity": 1,
+      "authorized": true,
+      "intent": "team-3",
+      "contract": "v1"
+    },
+    "planner": "{\n  \"action\": \"reserve\",\n  \"quantity\": 1\n}",
+    "specialist": "{\"action\": \"hold\", \"quantity\": 1}",
+    "decision": {
+      "accepted": false,
+      "data": {
+        "action": "reserve",
+        "quantity": 1
+      },
+      "reason": "bounded_proposal"
+    },
+    "receipt": null,
+    "tool": null
+  },
+  {
+    "mode": "team",
+    "task": {
+      "quantity": 1,
+      "authorized": true,
+      "intent": "team-4",
+      "contract": "v1"
+    },
+    "planner": "{\n  \"action\": \"reserve\",\n  \"quantity\": 1\n}",
+    "specialist": "{\"action\": \"hold\", \"quantity\": 1}",
+    "decision": {
+      "accepted": false,
+      "data": {
+        "action": "reserve",
+        "quantity": 1
+      },
+      "reason": "bounded_proposal"
+    },
+    "receipt": null,
+    "tool": null
+  },
+  {
+    "mode": "team",
+    "task": {
+      "quantity": 2,
+      "authorized": false,
+      "intent": "team-5",
+      "contract": "v1"
+    },
+    "planner": "{\n  \"action\": \"reserve\",\n  \"quantity\": 2\n}",
+    "specialist": "{\"action\": \"hold\", \"quantity\": 2}",
+    "decision": {
+      "accepted": false,
+      "data": {
+        "action": "reserve",
+        "quantity": 2
+      },
+      "reason": "review_required"
+    },
+    "receipt": null,
+    "tool": null
+  }
+]

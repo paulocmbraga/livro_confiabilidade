@@ -1,0 +1,62 @@
+[
+  {
+    "id": "DEVQ_diagnostic_reference_0",
+    "query_id": "DEVQ",
+    "family": "dev",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "reference",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "DEVQ_diagnostic_empty_0",
+    "query_id": "DEVQ",
+    "family": "dev",
+    "phase": "diagnostic",
+    "retriever": "diagnostic",
+    "policy": "empty",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "DEVQ_bm25_top1_0",
+    "query_id": "DEVQ",
+    "family": "dev",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "DEVQ_hybrid_rerank_top3_0",
+    "query_id": "DEVQ",
+    "family": "dev",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "DEVQ_bm25_top3_0",
+    "query_id": "DEVQ",
+    "family": "dev",
+    "phase": "primary",
+    "retriever": "bm25",
+    "policy": "top3",
+    "repeat": 0,
+    "seed": 23
+  },
+  {
+    "id": "DEVQ_hybrid_rerank_top1_0",
+    "query_id": "DEVQ",
+    "family": "dev",
+    "phase": "primary",
+    "retriever": "hybrid_rerank",
+    "policy": "top1",
+    "repeat": 0,
+    "seed": 23
+  }
+]

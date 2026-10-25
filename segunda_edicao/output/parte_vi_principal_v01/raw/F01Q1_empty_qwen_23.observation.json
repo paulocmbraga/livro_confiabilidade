@@ -1,0 +1,35 @@
+{
+  "id": "F01Q1_empty_qwen_23",
+  "query_id": "F01Q1",
+  "family": "F01",
+  "model": "qwen",
+  "seed": 23,
+  "variant": "empty",
+  "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 0.9809209000086412,
+  "parsed": {
+    "resposta": "Peço férias para licença parental, com 10 dias de antecedência.",
+    "citacoes": [],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": false,
+    "source_loss_known": false,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": true,
+    "citations_present": false,
+    "citation_ids_valid": true,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

@@ -1,0 +1,386 @@
+[
+  {
+    "id": "F01Q1",
+    "family": "F01",
+    "kind": "excecao",
+    "question": "Voltei de licença parental. Com quantos dias de antecedência peço férias?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F01Q2",
+    "family": "F01",
+    "kind": "excecao",
+    "question": "Após licença parental, qual é o prazo mínimo para solicitar férias?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F01Q3",
+    "family": "F01",
+    "kind": "excecao",
+    "question": "Para quem retorna da licença parental, são necessários 30 dias para pedir férias?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F01Q4",
+    "family": "F01",
+    "kind": "excecao",
+    "question": "Que antecedência se aplica às férias de uma pessoa recém-retornada da licença parental?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F02Q1",
+    "family": "F02",
+    "kind": "excecao",
+    "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F02Q2",
+    "family": "F02",
+    "kind": "excecao",
+    "question": "Vou a um congresso autorizado no Brasil. Quanto posso reembolsar por diária de hospedagem?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F02Q3",
+    "family": "F02",
+    "kind": "excecao",
+    "question": "O limite de R$ 320 vale para hotel durante congresso aprovado em Recife?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F02Q4",
+    "family": "F02",
+    "kind": "excecao",
+    "question": "Qual valor máximo de hospedagem nacional cobre uma participação em congresso aprovada?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F03Q1",
+    "family": "F03",
+    "kind": "vigencia",
+    "question": "Em outubro de 2026, qual o auxílio mensal de internet residencial?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F03Q2",
+    "family": "F03",
+    "kind": "vigencia",
+    "question": "Quanto a Horizonte paga por mês de internet em casa a partir de outubro de 2026?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F03Q3",
+    "family": "F03",
+    "kind": "vigencia",
+    "question": "O auxílio atual de internet doméstica ainda é R$ 90?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F03Q4",
+    "family": "F03",
+    "kind": "vigencia",
+    "question": "Qual valor vigente da ajuda mensal para conexão residencial em 23 de outubro de 2026?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F04Q1",
+    "family": "F04",
+    "kind": "vigencia",
+    "question": "Qual o prazo atual para prestar contas de passagens depois da viagem?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F04Q2",
+    "family": "F04",
+    "kind": "vigencia",
+    "question": "Retornei de viagem em outubro de 2026. Quantos dias tenho para prestar contas das passagens?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F04Q3",
+    "family": "F04",
+    "kind": "vigencia",
+    "question": "Ainda posso esperar 15 dias para entregar a prestação de contas de passagens?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F04Q4",
+    "family": "F04",
+    "kind": "vigencia",
+    "question": "Em 23 de outubro de 2026, qual intervalo após o retorno é permitido para informar gastos com passagens?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F05Q1",
+    "family": "F05",
+    "kind": "conflito",
+    "question": "Qual o auxílio mensal de curso de idiomas segundo os boletins de outubro?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F05Q2",
+    "family": "F05",
+    "kind": "conflito",
+    "question": "Há valor único definido para ajuda mensal em idiomas nos boletins A e B?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F05Q3",
+    "family": "F05",
+    "kind": "conflito",
+    "question": "Posso contar com R$ 350 para idiomas sem consultar o conflito dos boletins?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F05Q4",
+    "family": "F05",
+    "kind": "conflito",
+    "question": "Que quantia devo assumir como oficial para o curso de línguas considerando as duas fontes de outubro?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F06Q1",
+    "family": "F06",
+    "kind": "conflito",
+    "question": "Quantos dias de trabalho remoto estão autorizados pelas circulares A e B?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F06Q2",
+    "family": "F06",
+    "kind": "conflito",
+    "question": "As duas circulares de outubro permitem concluir um número único de dias de home office?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F06Q3",
+    "family": "F06",
+    "kind": "conflito",
+    "question": "Qual frequência semanal devo considerar válida para trabalho a distância diante das duas circulares?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F06Q4",
+    "family": "F06",
+    "kind": "conflito",
+    "question": "É seguro escolher 3 dias remotos como regra única com as circulares A e B vigentes?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F07Q1",
+    "family": "F07",
+    "kind": "sinonimo",
+    "question": "Perdi meu cartão de entrada. A quem peço para bloquear?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F07Q2",
+    "family": "F07",
+    "kind": "sinonimo",
+    "question": "Roubaram meu crachá. Qual canal deve desativar a credencial?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F07Q3",
+    "family": "F07",
+    "kind": "sinonimo",
+    "question": "Não encontro a identificação que abre a porta. Quem cancela o acesso físico?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F07Q4",
+    "family": "F07",
+    "kind": "sinonimo",
+    "question": "Qual equipe contatar imediatamente em caso de extravio do cartão de acesso?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F08Q1",
+    "family": "F08",
+    "kind": "sinonimo",
+    "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F08Q2",
+    "family": "F08",
+    "kind": "sinonimo",
+    "question": "Como converter saldo positivo do banco de horas em folga e qual aprovação é necessária?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F08Q3",
+    "family": "F08",
+    "kind": "sinonimo",
+    "question": "Meu crédito de jornada permite ausência compensada sem falar com a chefia?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F08Q4",
+    "family": "F08",
+    "kind": "sinonimo",
+    "question": "Quem autoriza o descanso compensatório obtido com horas trabalhadas a mais?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F09Q1",
+    "family": "F09",
+    "kind": "extracao",
+    "question": "Qual teto de jantar durante plantão noturno autorizado?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F09Q2",
+    "family": "F09",
+    "kind": "extracao",
+    "question": "No turno noturno aprovado, quanto posso gastar com jantar?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F09Q3",
+    "family": "F09",
+    "kind": "extracao",
+    "question": "O limite de R$ 55 também vale para jantar em plantão noturno autorizado?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F09Q4",
+    "family": "F09",
+    "kind": "extracao",
+    "question": "Que valor a nota da tabela de refeições permite para o jantar de quem faz plantão noturno?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F10Q1",
+    "family": "F10",
+    "kind": "extracao",
+    "question": "Qual teto de bagagem em trabalho de campo nacional com equipamento autorizado?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F10Q2",
+    "family": "F10",
+    "kind": "extracao",
+    "question": "Para levar equipamento aprovado a uma atividade de campo no Brasil, quanto posso reembolsar de bagagem?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F10Q3",
+    "family": "F10",
+    "kind": "extracao",
+    "question": "A última linha da tabela permite qual valor para bagagem de campo nacional?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F10Q4",
+    "family": "F10",
+    "kind": "extracao",
+    "question": "Qual reembolso de mala cabe no deslocamento nacional de trabalho de campo com equipamento autorizado?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F11Q1",
+    "family": "F11",
+    "kind": "sem_resposta",
+    "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F11Q2",
+    "family": "F11",
+    "kind": "sem_resposta",
+    "question": "Quanto a empresa reembolsa de consulta veterinária de um animal de estimação?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F11Q3",
+    "family": "F11",
+    "kind": "sem_resposta",
+    "question": "Há um teto em reais para despesas médicas do meu gato?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F11Q4",
+    "family": "F11",
+    "kind": "sem_resposta",
+    "question": "Que quantia posso solicitar para o tratamento do meu pet?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F12Q1",
+    "family": "F12",
+    "kind": "sem_resposta",
+    "question": "Qual a taxa de juros do financiamento de carro oferecido pela Horizonte?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F12Q2",
+    "family": "F12",
+    "kind": "sem_resposta",
+    "question": "Quanto pago de juros para comprar automóvel pelo programa da empresa?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F12Q3",
+    "family": "F12",
+    "kind": "sem_resposta",
+    "question": "O financiamento corporativo de veículo tem qual percentual mensal?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  },
+  {
+    "id": "F12Q4",
+    "family": "F12",
+    "kind": "sem_resposta",
+    "question": "Qual taxa anual se aplica ao crédito da Horizonte para comprar um carro?",
+    "tenant": "alpha",
+    "as_of": "2026-10-23"
+  }
+]

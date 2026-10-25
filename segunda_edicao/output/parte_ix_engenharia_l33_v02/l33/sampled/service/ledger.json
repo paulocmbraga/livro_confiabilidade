@@ -1,0 +1,122 @@
+[
+  {
+    "task": "sampled-0",
+    "role": "service",
+    "trace_id": "a29056b1942fe3597bfd6e2a176fcb77",
+    "span_id": "9163905d3bee5234",
+    "parent_id": "ec28d44c9aed1852",
+    "sampled": true,
+    "recorded_ns": 1792886592656061400,
+    "effect": "receipt-sampled-0"
+  },
+  {
+    "task": "sampled-1",
+    "role": "service",
+    "trace_id": "bc2ba1211fb0c7fbed5519bffdf5af7b",
+    "span_id": "e9efa61d7f27aa49",
+    "parent_id": "6f8580fb1c4db935",
+    "sampled": false,
+    "recorded_ns": 1792886592678005600,
+    "effect": "receipt-sampled-1"
+  },
+  {
+    "task": "sampled-2",
+    "role": "service",
+    "trace_id": "3ae677ce76b738cb7e32f2e98ac1969e",
+    "span_id": "4ad2fec6361db39e",
+    "parent_id": "e10d5a888448d926",
+    "sampled": true,
+    "recorded_ns": 1792886592680408500,
+    "effect": "receipt-sampled-2"
+  },
+  {
+    "task": "sampled-3",
+    "role": "service",
+    "trace_id": "8afcdd9f8c3c0f91a7284338994e4364",
+    "span_id": "036817bc45bc4fc1",
+    "parent_id": "0764a5413b5d7015",
+    "sampled": false,
+    "recorded_ns": 1792886592693375800,
+    "effect": "receipt-sampled-3"
+  },
+  {
+    "task": "sampled-4",
+    "role": "service",
+    "trace_id": "03ded60f0f4ccb39f8e78e562787da7c",
+    "span_id": "367a6746485bb983",
+    "parent_id": "380713838c5cd583",
+    "sampled": true,
+    "recorded_ns": 1792886592695563900,
+    "effect": "receipt-sampled-4"
+  },
+  {
+    "task": "sampled-5",
+    "role": "service",
+    "trace_id": "129c8e272ba186fa5f1293e6dd537999",
+    "span_id": "ca8724fe7d3b521f",
+    "parent_id": "69a051a8e3266941",
+    "sampled": false,
+    "recorded_ns": 1792886592707507800,
+    "effect": "receipt-sampled-5"
+  },
+  {
+    "task": "sampled-6",
+    "role": "service",
+    "trace_id": "2eda6f72348348c52853bea5658b25dc",
+    "span_id": "6a081a6769043db3",
+    "parent_id": "a0c895123c4b6e26",
+    "sampled": true,
+    "recorded_ns": 1792886592718760700,
+    "effect": "receipt-sampled-6"
+  },
+  {
+    "task": "sampled-7",
+    "role": "service",
+    "trace_id": "0779a9af611e57c6029a2a2a8828a0c3",
+    "span_id": "5dbfe2a1a5e6991a",
+    "parent_id": "1987aa1ec9030957",
+    "sampled": false,
+    "recorded_ns": 1792886592730826000,
+    "effect": "receipt-sampled-7"
+  },
+  {
+    "task": "sampled-8",
+    "role": "service",
+    "trace_id": "176ce93dc4b4ff55058f7f24a28238f1",
+    "span_id": "7b248756b104a7ab",
+    "parent_id": "07208de39ae9c999",
+    "sampled": true,
+    "recorded_ns": 1792886592752058500,
+    "effect": "receipt-sampled-8"
+  },
+  {
+    "task": "sampled-9",
+    "role": "service",
+    "trace_id": "34422b13c2728c34072d9e4998647d53",
+    "span_id": "58ff6b846d49e095",
+    "parent_id": "b089e53243bbcfd3",
+    "sampled": false,
+    "recorded_ns": 1792886592784249600,
+    "effect": "receipt-sampled-9"
+  },
+  {
+    "task": "sampled-10",
+    "role": "service",
+    "trace_id": "b9991a4c79b101c955467ee9f212e170",
+    "span_id": "6dcb923c86daf5c7",
+    "parent_id": "f2556f1c1219e7ad",
+    "sampled": true,
+    "recorded_ns": 1792886592786707100,
+    "effect": "receipt-sampled-10"
+  },
+  {
+    "task": "sampled-11",
+    "role": "service",
+    "trace_id": "49d5d2f1857ecc6f93fcded4e2e84269",
+    "span_id": "a0ea1c0f84a319ca",
+    "parent_id": "2b096b2020dd2b02",
+    "sampled": false,
+    "recorded_ns": 1792886592816848400,
+    "effect": "receipt-sampled-11"
+  }
+]

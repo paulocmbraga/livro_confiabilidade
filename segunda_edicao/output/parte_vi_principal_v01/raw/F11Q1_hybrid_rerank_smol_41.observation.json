@@ -1,0 +1,42 @@
+{
+  "id": "F11Q1_hybrid_rerank_smol_41",
+  "query_id": "F11Q1",
+  "family": "F11",
+  "model": "smol",
+  "seed": 41,
+  "variant": "hybrid_rerank",
+  "question": "Qual o valor do auxílio veterinário para meu cachorro?",
+  "context": {
+    "text": "[BOL-A] versão 2026-10: Boletim A de outubro: o auxílio para curso de idiomas é R$ 250 mensais. Boletim publicado em 1 de outubro de 2026.\n\n[BOL-B] versão 2026-10: Boletim B de outubro: o auxílio para curso de idiomas é R$ 350 mensais. Boletim publicado em 1 de outubro de 2026. Não informa relação de precedência com o boletim A.\n\n[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.",
+    "ids": [
+      "BOL-A",
+      "BOL-B",
+      "HOT-G"
+    ],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 222
+  },
+  "seconds": 3.2332548000849783,
+  "parsed": {
+    "resposta": "Boletim A de 1 de outubro de 2026",
+    "citacoes": [
+      "Boletim A de 1 de outubro de 2026",
+      "Boletim B de 1 de outubro de 2026"
+    ],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": null,
+    "source_loss_known": null,
+    "reference_evidence_available": null,
+    "abstention_matches_reference": true,
+    "answer_lexical_signal": false,
+    "citations_present": true,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

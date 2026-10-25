@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Prazo atual para prestar contas de passagens depois da viagem: 7 dias corridos após o retorno.\",\n  \"citacoes\": [\n    \"PASS-NEW\",\n    \"versão 2026-10\",\n    \"A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno.\",\n    \"Revoga o prazo anterior.\",\n    \"Despes"
+      }
+    }
+  ],
+  "created": 1792879419,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 395,
+    "total_tokens": 523,
+    "prompt_tokens_details": {
+      "cached_tokens": 394
+    }
+  },
+  "id": "chatcmpl-UxYuAVv8GmC6yM4Ii0eYiYttTcrg1vEg",
+  "timings": {
+    "cache_n": 394,
+    "prompt_n": 1,
+    "prompt_ms": 48.386,
+    "prompt_per_token_ms": 48.386,
+    "prompt_per_second": 20.667135121729423,
+    "predicted_n": 128,
+    "predicted_ms": 2383.473,
+    "predicted_per_token_ms": 18.767503937007874,
+    "predicted_per_second": 53.28359079377027
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "version": "L26-1.0",
+  "unit": "isolated scheduled episode, one execution each",
+  "cases": [
+    {
+      "id": "P01",
+      "name": "normal",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "confirmed"
+      ],
+      "control": false
+    },
+    {
+      "id": "P02",
+      "name": "drop_reply",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "confirmed"
+      ],
+      "control": false
+    },
+    {
+      "id": "P03",
+      "name": "new_identity_control",
+      "effects": 2,
+      "stock": 6,
+      "states": [
+        "confirmed",
+        "unknown"
+      ],
+      "control": true
+    },
+    {
+      "id": "P04",
+      "name": "before_commit",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "confirmed"
+      ],
+      "control": false
+    },
+    {
+      "id": "P05",
+      "name": "after_commit",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "confirmed"
+      ],
+      "control": false
+    },
+    {
+      "id": "P06",
+      "name": "before_send",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "confirmed"
+      ],
+      "control": false
+    },
+    {
+      "id": "P07",
+      "name": "after_receive",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "confirmed"
+      ],
+      "control": false
+    },
+    {
+      "id": "P08",
+      "name": "same_key_concurrent",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "confirmed"
+      ],
+      "control": false
+    },
+    {
+      "id": "P09",
+      "name": "version_concurrent",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "confirmed",
+        "rejected"
+      ],
+      "control": false
+    },
+    {
+      "id": "P10",
+      "name": "payload_mismatch",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "confirmed",
+        "unknown"
+      ],
+      "control": false
+    },
+    {
+      "id": "P11",
+      "name": "retention_expired",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "unknown"
+      ],
+      "control": false
+    },
+    {
+      "id": "P12",
+      "name": "no_lookup",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "unknown"
+      ],
+      "control": false
+    },
+    {
+      "id": "P13",
+      "name": "unavailable_lookup",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "unknown"
+      ],
+      "control": false
+    },
+    {
+      "id": "P14",
+      "name": "compensation",
+      "effects": 2,
+      "stock": 10,
+      "states": [
+        "confirmed",
+        "confirmed"
+      ],
+      "control": false
+    },
+    {
+      "id": "P15",
+      "name": "irreversible",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "confirmed",
+        "rejected"
+      ],
+      "control": false
+    },
+    {
+      "id": "P16",
+      "name": "approval_revoked",
+      "effects": 0,
+      "stock": 10,
+      "states": [
+        "rejected"
+      ],
+      "control": false
+    },
+    {
+      "id": "P17",
+      "name": "insufficient_stock",
+      "effects": 0,
+      "stock": 10,
+      "states": [
+        "rejected"
+      ],
+      "control": false
+    },
+    {
+      "id": "P18",
+      "name": "approval_expired",
+      "effects": 0,
+      "stock": 10,
+      "states": [
+        "rejected"
+      ],
+      "control": false
+    },
+    {
+      "id": "P19",
+      "name": "old_worker",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "confirmed"
+      ],
+      "control": false
+    },
+    {
+      "id": "P20",
+      "name": "outbox_pending",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "confirmed"
+      ],
+      "control": false
+    },
+    {
+      "id": "P21",
+      "name": "outbox_redelivery",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "confirmed"
+      ],
+      "control": false
+    },
+    {
+      "id": "P22",
+      "name": "restore_reconcile",
+      "effects": 1,
+      "stock": 8,
+      "states": [
+        "confirmed"
+      ],
+      "control": false
+    },
+    {
+      "id": "P23",
+      "name": "compensation_unknown",
+      "effects": 2,
+      "stock": 10,
+      "states": [
+        "confirmed",
+        "unknown"
+      ],
+      "control": false
+    },
+    {
+      "id": "P24",
+      "name": "restore_unsafe_control",
+      "effects": 2,
+      "stock": 6,
+      "states": [
+        "confirmed"
+      ],
+      "control": true
+    }
+  ]
+}

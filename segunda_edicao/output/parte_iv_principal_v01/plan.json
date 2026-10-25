@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "frozen": "2026-10-24",
+  "population": "independent synthetic support tickets, one observation per entity; not human/customer data",
+  "seed_data": 613,
+  "partitions": {
+    "train": 600,
+    "tune": 200,
+    "probcal": 200,
+    "confcal": 300,
+    "test": 400,
+    "adapt_train": 300,
+    "adapt_cal": 200,
+    "future": 400
+  },
+  "seeds": [
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "l2": [
+    0.001,
+    0.05
+  ],
+  "epochs": 40,
+  "rate": 0.08,
+  "batch": 20,
+  "deployment_seed": 13,
+  "selection": "lowest mean tuning Brier across five seeds, tie lowest l2; seed 13 fixed",
+  "alpha": 0.1,
+  "selective_thresholds": [
+    0.0,
+    0.6,
+    0.75,
+    0.9
+  ],
+  "abstention_cost": 0.2,
+  "http_cases": 48,
+  "http_modes": [
+    "correct",
+    "unit_bad",
+    "unit_guard",
+    "category_guard",
+    "future_bad"
+  ],
+  "promotion": {
+    "require_identity": true,
+    "require_no_test_access": true,
+    "role": "experimental registration only; no operational release"
+  },
+  "limits": [
+    "same Windows host",
+    "no people or LLM",
+    "no paid API",
+    "no blinded reserve",
+    "synthetic future shift known to author",
+    "hardware reproducibility pending"
+  ]
+}

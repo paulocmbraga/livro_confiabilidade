@@ -1,0 +1,12 @@
+{
+  "text": "{\"action\": \"hold\", \"quantity\": 1}",
+  "decision": {
+    "accepted": false,
+    "data": {
+      "action": "hold",
+      "quantity": 1
+    },
+    "reason": "review_required"
+  },
+  "authority": "fixture explicit bounded intent; independent of LLM approval"
+}

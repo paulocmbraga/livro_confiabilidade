@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Para prestar contas de passagens depois da viagem, você deve enviar as contas em 7 dias corridos após o retorno. Revoga o prazo anterior.\",\n  \"citacoes\": [\n    \"PASS-NEW\",\n    \"2026-10\",\n    \"A partir de outubro de 2026, a prestação de contas de passagens deve ser enviada em 7 dias corridos após o retorno.\",\n    \""
+      }
+    }
+  ],
+  "created": 1792879340,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 412,
+    "total_tokens": 540,
+    "prompt_tokens_details": {
+      "cached_tokens": 174
+    }
+  },
+  "id": "chatcmpl-7OHxwvBSWOzAGauxhs3MCo5oqFq9l3BK",
+  "timings": {
+    "cache_n": 174,
+    "prompt_n": 238,
+    "prompt_ms": 1218.337,
+    "prompt_per_token_ms": 5.119063025210084,
+    "prompt_per_second": 195.3482492939146,
+    "predicted_n": 128,
+    "predicted_ms": 2413.58,
+    "predicted_per_token_ms": 19.00456692913386,
+    "predicted_per_second": 52.618931214212914
+  }
+}

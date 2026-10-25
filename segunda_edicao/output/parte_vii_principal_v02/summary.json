@@ -1,0 +1,109 @@
+{
+  "l25": {
+    "workflow": {
+      "episodes": 16,
+      "success": 16,
+      "effects": 10,
+      "invalid_calls": 0,
+      "rejected": 2,
+      "calls": 0,
+      "tokens": 0,
+      "false_finish": 0
+    },
+    "single": {
+      "episodes": 16,
+      "success": 6,
+      "effects": 4,
+      "invalid_calls": 0,
+      "rejected": 16,
+      "calls": 44,
+      "tokens": 1126,
+      "false_finish": 5
+    },
+    "planner_executor": {
+      "episodes": 16,
+      "success": 8,
+      "effects": 2,
+      "invalid_calls": 0,
+      "rejected": 9,
+      "calls": 46,
+      "tokens": 1308,
+      "false_finish": 0
+    }
+  },
+  "l28": {
+    "single_current": {
+      "episodes": 8,
+      "correct": 4,
+      "reserved_correct": 1,
+      "unanimous_wrong": 0,
+      "both_wrong": 0,
+      "pairs": 0,
+      "calls": 8,
+      "tokens": 248
+    },
+    "team_current": {
+      "episodes": 8,
+      "correct": 4,
+      "reserved_correct": 1,
+      "unanimous_wrong": 4,
+      "both_wrong": 12,
+      "pairs": 24,
+      "calls": 24,
+      "tokens": 746
+    },
+    "single_stale": {
+      "episodes": 8,
+      "correct": 6,
+      "reserved_correct": 2,
+      "unanimous_wrong": 0,
+      "both_wrong": 0,
+      "pairs": 0,
+      "calls": 8,
+      "tokens": 262
+    },
+    "team_stale_same": {
+      "episodes": 8,
+      "correct": 3,
+      "reserved_correct": 1,
+      "unanimous_wrong": 1,
+      "both_wrong": 7,
+      "pairs": 24,
+      "calls": 24,
+      "tokens": 791
+    },
+    "team_stale_mixed": {
+      "episodes": 8,
+      "correct": 4,
+      "reserved_correct": 1,
+      "unanimous_wrong": 2,
+      "both_wrong": 8,
+      "pairs": 24,
+      "calls": 24,
+      "tokens": 729
+    },
+    "team_sources_mixed": {
+      "episodes": 8,
+      "correct": 4,
+      "reserved_correct": 1,
+      "unanimous_wrong": 3,
+      "both_wrong": 10,
+      "pairs": 24,
+      "calls": 24,
+      "tokens": 773
+    }
+  },
+  "cancellation": {
+    "scope": "Local process blocked before inference; no remote cancellation claim",
+    "process_started": true,
+    "unconfirmed_release_rejected": true,
+    "process_ended": true,
+    "inference_calls": 0,
+    "remaining": 288,
+    "orphan_processes": 0
+  },
+  "seconds": 212.651915299939,
+  "episodes25": 48,
+  "episodes28": 48,
+  "calls": 202
+}

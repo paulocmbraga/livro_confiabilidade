@@ -1,0 +1,62 @@
+[
+  {
+    "intent": "A1",
+    "kind": "normal",
+    "message_id": "1792884393030-0",
+    "admitted": true
+  },
+  {
+    "intent": "A2",
+    "kind": "normal",
+    "message_id": "1792884393159-0",
+    "admitted": true
+  },
+  {
+    "intent": "A3",
+    "kind": "normal",
+    "message_id": "1792884393436-0",
+    "admitted": true
+  },
+  {
+    "intent": "B1",
+    "kind": "normal",
+    "message_id": "1792884393534-0",
+    "admitted": true
+  },
+  {
+    "intent": "B2",
+    "kind": "normal",
+    "message_id": "1792884393643-0",
+    "admitted": true
+  },
+  {
+    "intent": "P",
+    "kind": "poison",
+    "message_id": "1792884393777-0",
+    "admitted": true
+  },
+  {
+    "intent": "C",
+    "kind": "cancel",
+    "message_id": "1792884393886-0",
+    "admitted": true
+  },
+  {
+    "intent": "A1",
+    "kind": "normal",
+    "message_id": "1792884393996-0",
+    "admitted": true
+  },
+  {
+    "intent": "X",
+    "kind": "normal",
+    "message_id": null,
+    "admitted": false
+  },
+  {
+    "intent": "Y",
+    "kind": "normal",
+    "message_id": null,
+    "admitted": false
+  }
+]

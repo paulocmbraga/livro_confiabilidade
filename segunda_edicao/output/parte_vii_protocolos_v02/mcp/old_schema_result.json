@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "io.modelcontextprotocol/serverInfo": {
+      "name": "Confiabilidade L27",
+      "version": "1.0"
+    }
+  },
+  "content": [
+    {
+      "type": "text",
+      "text": "Error executing tool reserve: 1 validation error for reserve2Arguments\nunits\n  Field required [type=missing, input_value={'intent': 'I28', 'quantity': 1, 'contract': 'v1'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.14/v/missing",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": true,
+  "resultType": "complete"
+}

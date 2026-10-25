@@ -1,0 +1,32 @@
+{
+  "mcp": {
+    "schema_changed": true,
+    "old_schema_rejected": true,
+    "wrong_audience_rejected": true,
+    "closed_after_commit": true,
+    "reconciled_effect": true,
+    "no_session_header": true,
+    "process_ended": true
+  },
+  "a2a": {
+    "completed_after_disconnect": true,
+    "binding_ok": true,
+    "new_contract_rejected": true,
+    "wrong_audience_rejected": true,
+    "raw_client_agrees": true,
+    "process_ended": true
+  },
+  "callback": {
+    "statuses": [
+      "accepted",
+      "duplicate",
+      "binding_rejected",
+      "old_event",
+      "terminal_regression",
+      "binding_rejected"
+    ],
+    "wrong_audience_status": 401,
+    "profile": "Application HTTP callback; native A2A pushNotifications is false and not tested",
+    "process_ended": true
+  }
+}

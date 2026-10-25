@@ -1,0 +1,122 @@
+[
+  {
+    "task": "recovery-0",
+    "role": "service",
+    "trace_id": "7f35e24d7295c8591110b073bcb87101",
+    "span_id": "1db697e1080d8c78",
+    "parent_id": "12e9bce79e1cf3e7",
+    "sampled": true,
+    "recorded_ns": 1792886624317961100,
+    "effect": "receipt-recovery-0"
+  },
+  {
+    "task": "recovery-1",
+    "role": "service",
+    "trace_id": "11a8768c34096533092695b25f2501cb",
+    "span_id": "85d5f59030fd58be",
+    "parent_id": "ea0e1986e4f3bbe5",
+    "sampled": true,
+    "recorded_ns": 1792886624367830600,
+    "effect": "receipt-recovery-1"
+  },
+  {
+    "task": "recovery-2",
+    "role": "service",
+    "trace_id": "3bd1800eacea7ebcf0d7d478889195cf",
+    "span_id": "a6ee52731fa454f2",
+    "parent_id": "1e39fdb0f214754f",
+    "sampled": true,
+    "recorded_ns": 1792886624400626100,
+    "effect": "receipt-recovery-2"
+  },
+  {
+    "task": "recovery-3",
+    "role": "service",
+    "trace_id": "8762766c6640208245acefc456782246",
+    "span_id": "0d2d86a016f7daad",
+    "parent_id": "5ca50dfe4368fad5",
+    "sampled": true,
+    "recorded_ns": 1792886624410916800,
+    "effect": "receipt-recovery-3"
+  },
+  {
+    "task": "recovery-4",
+    "role": "service",
+    "trace_id": "e75509de9112d371016167e11c18b283",
+    "span_id": "7c0e4a45c91b9b6d",
+    "parent_id": "45e7ffbe67e1c976",
+    "sampled": true,
+    "recorded_ns": 1792886624424792100,
+    "effect": "receipt-recovery-4"
+  },
+  {
+    "task": "recovery-5",
+    "role": "service",
+    "trace_id": "131bfd6425556e0fa77c93c7569eaa49",
+    "span_id": "5be122d0e5925b4d",
+    "parent_id": "3f1acce36c7387b9",
+    "sampled": true,
+    "recorded_ns": 1792886624437143900,
+    "effect": "receipt-recovery-5"
+  },
+  {
+    "task": "recovery-6",
+    "role": "service",
+    "trace_id": "db167cc28d35e38eb41f9ded3945d645",
+    "span_id": "5778b2af82363264",
+    "parent_id": "c77579f1ab9d0aed",
+    "sampled": true,
+    "recorded_ns": 1792886624466992700,
+    "effect": "receipt-recovery-6"
+  },
+  {
+    "task": "recovery-7",
+    "role": "service",
+    "trace_id": "67c018a86bddfbf2cbac5a890b254884",
+    "span_id": "b4055d0ee7a0e231",
+    "parent_id": "13ac82d44f039351",
+    "sampled": true,
+    "recorded_ns": 1792886624499921200,
+    "effect": "receipt-recovery-7"
+  },
+  {
+    "task": "recovery-8",
+    "role": "service",
+    "trace_id": "9f38d297928130401682343f6b459fce",
+    "span_id": "fac48ea043f1ece3",
+    "parent_id": "01f36e0c7872552d",
+    "sampled": true,
+    "recorded_ns": 1792886624520649700,
+    "effect": "receipt-recovery-8"
+  },
+  {
+    "task": "recovery-9",
+    "role": "service",
+    "trace_id": "47a2ebabb174a94f3ecf9896b779ea4c",
+    "span_id": "0752ecf565f2f33e",
+    "parent_id": "8d774967021803fb",
+    "sampled": true,
+    "recorded_ns": 1792886624551117900,
+    "effect": "receipt-recovery-9"
+  },
+  {
+    "task": "recovery-10",
+    "role": "service",
+    "trace_id": "f0ab9ee909dfcff2712254208df34b30",
+    "span_id": "d577560074ee521e",
+    "parent_id": "a001edbcb8b6ec1f",
+    "sampled": true,
+    "recorded_ns": 1792886624562405900,
+    "effect": "receipt-recovery-10"
+  },
+  {
+    "task": "recovery-11",
+    "role": "service",
+    "trace_id": "09ba5eec335c7a9f424878ca66765e3c",
+    "span_id": "8c6d997820fcd6a8",
+    "parent_id": "4893fb2f658348a7",
+    "sampled": true,
+    "recorded_ns": 1792886624582172900,
+    "effect": "receipt-recovery-11"
+  }
+]

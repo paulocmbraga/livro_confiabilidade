@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"steps\": [\"Verifique a quantidade disponível e o teto.\"]}"
+      }
+    }
+  ],
+  "created": 1792881805,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 17,
+    "prompt_tokens": 73,
+    "total_tokens": 90,
+    "prompt_tokens_details": {
+      "cached_tokens": 72
+    }
+  },
+  "id": "chatcmpl-Fe9NcPGxDh5qiXjuTtJUkiOMfHT6ex1Q",
+  "timings": {
+    "cache_n": 72,
+    "prompt_n": 1,
+    "prompt_ms": 75.626,
+    "prompt_per_token_ms": 75.626,
+    "prompt_per_second": 13.222965646735249,
+    "predicted_n": 17,
+    "predicted_ms": 408.93,
+    "predicted_per_token_ms": 25.558125,
+    "predicted_per_second": 39.12650086811924
+  }
+}

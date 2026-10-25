@@ -1,0 +1,35 @@
+{
+  "id": "F02Q1_hybrid_rerank_smol_41",
+  "query_id": "F02Q1",
+  "family": "F02",
+  "model": "smol",
+  "seed": 41,
+  "variant": "hybrid_rerank",
+  "question": "Qual o teto diário de hotel em um congresso aprovado em Recife?",
+  "context": {
+    "text": "[HOT-E] versão 2026-10: Em congresso aprovado pela Horizonte, o teto de hospedagem nacional é R$ 480 por diária, inclusive em Recife. Esta exceção substitui o limite geral de HOT-G.\n\n[HOT-G] versão 2026-10: Hospedagem em viagens nacionais: limite geral de reembolso de hotel de R$ 320 por diária. Veja a exceção para congressos em HOT-E.\n\n[DIS-05] versão 2026-10: Viagens para congressos precisam de convite e aprovação prévia. A política de hospedagem define os tetos.",
+    "ids": [
+      "HOT-E",
+      "HOT-G",
+      "DIS-05"
+    ],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 198
+  },
+  "seconds": 3.6843290000688285,
+  "parsed": null,
+  "error": "finish_reason não é stop",
+  "observed": {
+    "valid": false,
+    "all_required_delivered": true,
+    "source_loss_known": false,
+    "reference_evidence_available": true,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": false,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

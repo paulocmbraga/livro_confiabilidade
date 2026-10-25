@@ -1,0 +1,25 @@
+{
+  "name": "book-ix-54d6d58e43",
+  "id": "c04091cc05fe577d3fee9fc4393042702f05869e430eac0df2c51b6bf9f7d501",
+  "image": "otel/opentelemetry-collector-contrib@sha256:ffc818ee108d0b934fd14207fd87ff247c9b64f344ed349d0b66c166c18a2312",
+  "port": 58995,
+  "arguments": [
+    "run",
+    "-d",
+    "--name",
+    "book-ix-54d6d58e43",
+    "--user",
+    "0:0",
+    "--memory",
+    "256m",
+    "--cpus",
+    "1",
+    "-p",
+    "127.0.0.1::4318",
+    "--mount",
+    "type=bind,source=C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\output\\parte_ix_engenharia_l33_v01\\l33\\collector.yaml,target=/etc/otelcol-contrib/config.yaml,readonly",
+    "--mount",
+    "type=bind,source=C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\output\\parte_ix_engenharia_l33_v01\\l33\\sink,target=/data",
+    "otel/opentelemetry-collector-contrib@sha256:ffc818ee108d0b934fd14207fd87ff247c9b64f344ed349d0b66c166c18a2312"
+  ]
+}

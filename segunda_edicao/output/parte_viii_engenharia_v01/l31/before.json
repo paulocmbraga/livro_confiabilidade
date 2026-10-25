@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": "E0",
+      "status": "ready",
+      "version": 1
+    },
+    {
+      "id": "E1",
+      "status": "ready",
+      "version": 1
+    },
+    {
+      "id": "E2",
+      "status": "ready",
+      "version": 1
+    }
+  ],
+  "outbox": [
+    {
+      "id": "E0",
+      "sent": false
+    },
+    {
+      "id": "E1",
+      "sent": false
+    },
+    {
+      "id": "E2",
+      "sent": false
+    }
+  ],
+  "checkpoints": []
+}

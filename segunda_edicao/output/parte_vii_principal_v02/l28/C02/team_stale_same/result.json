@@ -1,0 +1,21 @@
+{
+  "case": "C02",
+  "condition": "team_stale_same",
+  "split": "development",
+  "expected": true,
+  "decision": true,
+  "correct": true,
+  "abstained": false,
+  "completion_tokens": 101,
+  "prompt_tokens": 263,
+  "inference_seconds": 3.3228307998506352,
+  "calls": 3,
+  "unanimous": false,
+  "errors": [
+    false,
+    false,
+    true
+  ],
+  "pairs": 3,
+  "both_wrong": 0
+}

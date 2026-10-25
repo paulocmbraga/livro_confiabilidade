@@ -1,0 +1,20 @@
+[
+  {
+    "role": "pg",
+    "name": "livro-viii-e9e800511fa1",
+    "image": "sha256:1ffbf339f5b8e78c394cfaad3711ef6dbc4e14546bf70428e0bb30cba66e8e4d",
+    "host_port": 52677
+  },
+  {
+    "role": "clean",
+    "name": "livro-viii-f7c4af5bfb58",
+    "image": "sha256:1ffbf339f5b8e78c394cfaad3711ef6dbc4e14546bf70428e0bb30cba66e8e4d",
+    "host_port": 52679
+  },
+  {
+    "role": "redis",
+    "name": "livro-viii-a8c1fda8b78c",
+    "image": "sha256:6ab0b6e7381779332f97b8ca76193e45b0756f38d4c0dcda72dbb3c32061ab99",
+    "host_port": 52681
+  }
+]

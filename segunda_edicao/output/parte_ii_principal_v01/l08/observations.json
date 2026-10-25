@@ -1,0 +1,2882 @@
+[
+  {
+    "request": {
+      "case": "F27",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F27-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F27-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5400
+    },
+    "seconds": 0.0518578999908641,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F27",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F27-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F27-11",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 12500
+    },
+    "seconds": 0.017522000009194016,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F27",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F27-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F27-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5700
+    },
+    "seconds": 0.0164072000188753,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F27",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F27-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F27-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3300
+    },
+    "seconds": 0.004518599947914481,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F00",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F00-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F00-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 2500
+    },
+    "seconds": 0.004328300012275577,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F00",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F00-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F00-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5300
+    },
+    "seconds": 0.02613699994981289,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F00",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F00-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F00-11",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4700
+    },
+    "seconds": 0.014506200095638633,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F00",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F00-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F00-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5000
+    },
+    "seconds": 0.016172600095160306,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F01",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F01-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F01-11",
+      "allowed": false,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 3700
+    },
+    "seconds": 0.003552099922671914,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F01",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F01-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F01-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 2900
+    },
+    "seconds": 0.0033930999925360084,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F01",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F01-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F01-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 2800
+    },
+    "seconds": 0.003372299950569868,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F01",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F01-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F01-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3300
+    },
+    "seconds": 0.0034174000611528754,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F02",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F02-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F02-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 8300
+    },
+    "seconds": 0.01932610000949353,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F02",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F02-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F02-11",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5200
+    },
+    "seconds": 0.016309099970385432,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F02",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F02-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F02-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4100
+    },
+    "seconds": 0.017289399984292686,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F02",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F02-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F02-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4200
+    },
+    "seconds": 0.018795100040733814,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F17",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F17-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F17-11",
+      "allowed": false,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4500
+    },
+    "seconds": 0.014407000038772821,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F17",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F17-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F17-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3600
+    },
+    "seconds": 0.004497100017033517,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F17",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F17-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F17-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4300
+    },
+    "seconds": 0.015886100009083748,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F17",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F17-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F17-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5800
+    },
+    "seconds": 0.014233599998988211,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F23",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F23-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F23-11",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 11700
+    },
+    "seconds": 0.016604000004008412,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F23",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F23-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F23-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3800
+    },
+    "seconds": 0.003608300001360476,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F23",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F23-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F23-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 9600
+    },
+    "seconds": 0.010984900058247149,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F23",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F23-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F23-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4600
+    },
+    "seconds": 0.0056640999391674995,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F38",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F38-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F38-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 2600
+    },
+    "seconds": 0.004596600076183677,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F38",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F38-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F38-11",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 6600
+    },
+    "seconds": 0.024333099951036274,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F38",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F38-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F38-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5600
+    },
+    "seconds": 0.018394800019450486,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F38",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F38-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F38-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3800
+    },
+    "seconds": 0.005112999933771789,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F24",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F24-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F24-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5400
+    },
+    "seconds": 0.008089800016023219,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F24",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F24-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F24-11",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 7300
+    },
+    "seconds": 0.01888780004810542,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F24",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F24-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F24-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4200
+    },
+    "seconds": 0.004457100061699748,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F24",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F24-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F24-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 5400
+    },
+    "seconds": 0.01650789997074753,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F14",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F14-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F14-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3700
+    },
+    "seconds": 0.0070822000270709395,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F14",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F14-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F14-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3400
+    },
+    "seconds": 0.006144799990579486,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F14",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F14-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F14-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 6500
+    },
+    "seconds": 0.015222500078380108,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F14",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F14-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F14-11",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3800
+    },
+    "seconds": 0.003784300060942769,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F36",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F36-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F36-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5200
+    },
+    "seconds": 0.029707200010307133,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F36",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F36-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F36-11",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 5200
+    },
+    "seconds": 0.016769199981354177,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F36",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F36-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F36-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4200
+    },
+    "seconds": 0.015939299948513508,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F36",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F36-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F36-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 3200
+    },
+    "seconds": 0.0036198999732732773,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F11",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F11-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F11-11",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3500
+    },
+    "seconds": 0.003256099997088313,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F11",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F11-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F11-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3100
+    },
+    "seconds": 0.0032307999208569527,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F11",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F11-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F11-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 2300
+    },
+    "seconds": 0.004932300071232021,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F11",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F11-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F11-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4400
+    },
+    "seconds": 0.016945299925282598,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F12",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F12-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F12-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3500
+    },
+    "seconds": 0.004496000008657575,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F12",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F12-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F12-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 12100
+    },
+    "seconds": 0.03143840003758669,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F12",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F12-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F12-11",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 3800
+    },
+    "seconds": 0.0037854999536648393,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F12",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F12-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F12-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4200
+    },
+    "seconds": 0.01565009995829314,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F19",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F19-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F19-11",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4300
+    },
+    "seconds": 0.0052983000641688704,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F19",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F19-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F19-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 2900
+    },
+    "seconds": 0.00511010002810508,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F19",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F19-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F19-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4900
+    },
+    "seconds": 0.020952000049874187,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F19",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F19-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F19-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3700
+    },
+    "seconds": 0.003696700092405081,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F26",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F26-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F26-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5500
+    },
+    "seconds": 0.011287800036370754,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F26",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F26-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F26-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4000
+    },
+    "seconds": 0.01757350005209446,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F26",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F26-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F26-11",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4700
+    },
+    "seconds": 0.014635200030170381,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F26",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F26-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F26-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4000
+    },
+    "seconds": 0.003660400048829615,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F30",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F30-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F30-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4100
+    },
+    "seconds": 0.01550660002976656,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F30",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F30-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F30-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3500
+    },
+    "seconds": 0.013863899977877736,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F30",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F30-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F30-11",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4400
+    },
+    "seconds": 0.016683900030329823,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F30",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F30-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F30-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5100
+    },
+    "seconds": 0.01716129994019866,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F33",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F33-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F33-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3400
+    },
+    "seconds": 0.004253500024788082,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F33",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F33-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F33-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4500
+    },
+    "seconds": 0.01593190000858158,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F33",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F33-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F33-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4700
+    },
+    "seconds": 0.01594189996831119,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F33",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F33-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F33-11",
+      "allowed": false,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 5500
+    },
+    "seconds": 0.014000700088217854,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F29",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F29-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F29-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4000
+    },
+    "seconds": 0.015989000094123185,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F29",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F29-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F29-11",
+      "allowed": false,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4000
+    },
+    "seconds": 0.018504700041376054,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F29",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F29-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F29-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4500
+    },
+    "seconds": 0.01415980001911521,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F29",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F29-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F29-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3200
+    },
+    "seconds": 0.004154999973252416,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F32",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F32-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F32-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4400
+    },
+    "seconds": 0.016972700017504394,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F32",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F32-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F32-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4100
+    },
+    "seconds": 0.01509729993995279,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F32",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F32-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F32-11",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4000
+    },
+    "seconds": 0.017612499999813735,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F32",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F32-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F32-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3700
+    },
+    "seconds": 0.015127700055018067,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F03",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F03-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F03-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4200
+    },
+    "seconds": 0.014782699989154935,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F03",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F03-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F03-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3200
+    },
+    "seconds": 0.0038732000393792987,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F03",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F03-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F03-11",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4600
+    },
+    "seconds": 0.015834699966944754,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F03",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F03-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F03-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3400
+    },
+    "seconds": 0.015176799963228405,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F21",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F21-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F21-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 3900
+    },
+    "seconds": 0.003983000060543418,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F21",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F21-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F21-11",
+      "allowed": false,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 3400
+    },
+    "seconds": 0.01136090001091361,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F21",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F21-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F21-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4200
+    },
+    "seconds": 0.01570190000347793,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F21",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F21-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F21-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3700
+    },
+    "seconds": 0.01765469997189939,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F18",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F18-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F18-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3500
+    },
+    "seconds": 0.01754949998576194,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F18",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F18-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F18-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3400
+    },
+    "seconds": 0.0051525000017136335,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F18",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F18-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F18-11",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5200
+    },
+    "seconds": 0.014932599966414273,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F18",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F18-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F18-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3600
+    },
+    "seconds": 0.004525800002738833,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F09",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F09-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F09-11",
+      "allowed": false,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 2500
+    },
+    "seconds": 0.003253699978813529,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F09",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F09-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F09-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3000
+    },
+    "seconds": 0.0048275000881403685,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F09",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F09-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F09-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4700
+    },
+    "seconds": 0.026963000069372356,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F09",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F09-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F09-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 2600
+    },
+    "seconds": 0.003991000005044043,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F37",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F37-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F37-11",
+      "allowed": false,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 9300
+    },
+    "seconds": 0.021469099912792444,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F37",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F37-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F37-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4800
+    },
+    "seconds": 0.01462520007044077,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F37",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F37-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F37-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 5700
+    },
+    "seconds": 0.015987299964763224,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F37",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F37-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F37-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3800
+    },
+    "seconds": 0.015973499976098537,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F20",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F20-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F20-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4600
+    },
+    "seconds": 0.016741700004786253,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F20",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F20-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F20-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4000
+    },
+    "seconds": 0.003744899993762374,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F20",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F20-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F20-11",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 5200
+    },
+    "seconds": 0.02943380002398044,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F20",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F20-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F20-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 3600
+    },
+    "seconds": 0.01730189996305853,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F04",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F04-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F04-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4900
+    },
+    "seconds": 0.017608100082725286,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F04",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F04-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F04-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4100
+    },
+    "seconds": 0.015686800004914403,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F04",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F04-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F04-11",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4400
+    },
+    "seconds": 0.01408110000193119,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F04",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F04-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F04-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3700
+    },
+    "seconds": 0.021120800054632127,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F15",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F15-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F15-11",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 6400
+    },
+    "seconds": 0.015836499980650842,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F15",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F15-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F15-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5800
+    },
+    "seconds": 0.016003699973225594,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F15",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F15-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F15-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4500
+    },
+    "seconds": 0.018710099975578487,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F15",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F15-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F15-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4900
+    },
+    "seconds": 0.015696699963882565,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F25",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F25-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F25-11",
+      "allowed": false,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 3700
+    },
+    "seconds": 0.016013499931432307,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F25",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F25-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F25-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 5200
+    },
+    "seconds": 0.020667699980549514,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F25",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F25-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F25-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3600
+    },
+    "seconds": 0.013575399992987514,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F25",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F25-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F25-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5100
+    },
+    "seconds": 0.01392860000487417,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F34",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F34-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F34-11",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4200
+    },
+    "seconds": 0.0036428000312298536,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F34",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F34-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F34-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3300
+    },
+    "seconds": 0.004734800080768764,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F34",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F34-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F34-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 2600
+    },
+    "seconds": 0.0029980000108480453,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F34",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F34-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F34-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4400
+    },
+    "seconds": 0.021302699926309288,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F16",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F16-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F16-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4000
+    },
+    "seconds": 0.003991699893958867,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F16",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F16-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F16-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4700
+    },
+    "seconds": 0.004174300003796816,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F16",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F16-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F16-11",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4700
+    },
+    "seconds": 0.0043614000314846635,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F16",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F16-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F16-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5300
+    },
+    "seconds": 0.022249600035138428,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F10",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F10-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F10-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3700
+    },
+    "seconds": 0.01815270003862679,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F10",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F10-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F10-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3200
+    },
+    "seconds": 0.004904399975202978,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F10",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F10-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F10-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3800
+    },
+    "seconds": 0.0036962999729439616,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F10",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F10-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F10-11",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4300
+    },
+    "seconds": 0.005691200029104948,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F28",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F28-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F28-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4100
+    },
+    "seconds": 0.004337899968959391,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F28",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F28-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F28-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5100
+    },
+    "seconds": 0.01682500005699694,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F28",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F28-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F28-11",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 6500
+    },
+    "seconds": 0.029771999921649694,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F28",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F28-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F28-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 3200
+    },
+    "seconds": 0.004054100019857287,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F08",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F08-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F08-11",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4500
+    },
+    "seconds": 0.004061999963596463,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F08",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F08-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F08-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 5200
+    },
+    "seconds": 0.025380500010214746,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F08",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F08-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F08-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4300
+    },
+    "seconds": 0.014982199994847178,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F08",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F08-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F08-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3400
+    },
+    "seconds": 0.003785699955187738,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F05",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F05-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F05-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 3500
+    },
+    "seconds": 0.013104400015436113,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F05",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F05-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F05-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5600
+    },
+    "seconds": 0.017708899918943644,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F05",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F05-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F05-11",
+      "allowed": false,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4300
+    },
+    "seconds": 0.01753220008686185,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F05",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F05-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F05-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3700
+    },
+    "seconds": 0.014010300044901669,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F35",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F35-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F35-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5100
+    },
+    "seconds": 0.017687999992631376,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F35",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F35-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F35-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3700
+    },
+    "seconds": 0.01851560000795871,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F35",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F35-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F35-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3500
+    },
+    "seconds": 0.0036590000381693244,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F35",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F35-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F35-11",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3500
+    },
+    "seconds": 0.0049888999201357365,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F39",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F39-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F39-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4900
+    },
+    "seconds": 0.021720800083130598,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F39",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F39-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F39-11",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5300
+    },
+    "seconds": 0.0178203999530524,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F39",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F39-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F39-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4300
+    },
+    "seconds": 0.006491099949926138,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F39",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F39-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F39-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 5800
+    },
+    "seconds": 0.027877300046384335,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F31",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F31-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F31-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3700
+    },
+    "seconds": 0.016067199991084635,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F31",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F31-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F31-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3800
+    },
+    "seconds": 0.017380299977958202,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F31",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F31-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F31-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4700
+    },
+    "seconds": 0.01766819995827973,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F31",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F31-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F31-11",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4600
+    },
+    "seconds": 0.014294199994765222,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F07",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F07-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F07-01",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4600
+    },
+    "seconds": 0.01841030002105981,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F07",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F07-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F07-11",
+      "allowed": false,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4900
+    },
+    "seconds": 0.014670600066892803,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F07",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F07-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F07-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4100
+    },
+    "seconds": 0.01575069990940392,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F07",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F07-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F07-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3800
+    },
+    "seconds": 0.00483600003644824,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F22",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F22-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F22-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3900
+    },
+    "seconds": 0.004292600089684129,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F22",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F22-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F22-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4400
+    },
+    "seconds": 0.02590580005198717,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F22",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F22-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F22-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 2900
+    },
+    "seconds": 0.0038081000093370676,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F22",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F22-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F22-11",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4100
+    },
+    "seconds": 0.013195800012908876,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F13",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F13-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F13-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4500
+    },
+    "seconds": 0.015917700016871095,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F13",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F13-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F13-10",
+      "allowed": true,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 4000
+    },
+    "seconds": 0.01786969997920096,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F13",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F13-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F13-11",
+      "allowed": false,
+      "reference_used": 2,
+      "pid": 18876,
+      "server_ns": 3900
+    },
+    "seconds": 0.0037776000099256635,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F13",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F13-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F13-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 2800
+    },
+    "seconds": 0.0034144000383093953,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F06",
+      "refresh": 0,
+      "validate": 0,
+      "id": "F06-00"
+    },
+    "status": 200,
+    "response": {
+      "id": "F06-00",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 2400
+    },
+    "seconds": 0.0034848999930545688,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F06",
+      "refresh": 1,
+      "validate": 1,
+      "id": "F06-11"
+    },
+    "status": 200,
+    "response": {
+      "id": "F06-11",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3600
+    },
+    "seconds": 0.004733499954454601,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F06",
+      "refresh": 1,
+      "validate": 0,
+      "id": "F06-10"
+    },
+    "status": 200,
+    "response": {
+      "id": "F06-10",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 3900
+    },
+    "seconds": 0.004183500073850155,
+    "client_pid": 5392
+  },
+  {
+    "request": {
+      "case": "F06",
+      "refresh": 0,
+      "validate": 1,
+      "id": "F06-01"
+    },
+    "status": 200,
+    "response": {
+      "id": "F06-01",
+      "allowed": true,
+      "reference_used": 1,
+      "pid": 18876,
+      "server_ns": 4100
+    },
+    "seconds": 0.003521299920976162,
+    "client_pid": 5392
+  }
+]

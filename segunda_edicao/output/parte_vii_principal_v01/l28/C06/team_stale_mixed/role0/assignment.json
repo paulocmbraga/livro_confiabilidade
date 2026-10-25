@@ -1,0 +1,11 @@
+{
+  "case_id": "C06",
+  "condition": "team_stale_mixed",
+  "role": "analista",
+  "model": "qwen",
+  "packet": {
+    "source": "stale-v1",
+    "limit": 100,
+    "amount": 90
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"O teto de jantar de jantar autorizado durante plantão noturno é de R$ 70.\",\"citacoes\":[],\"abster\":true}"
+      }
+    }
+  ],
+  "created": 1792879149,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 225,
+    "total_tokens": 268,
+    "prompt_tokens_details": {
+      "cached_tokens": 140
+    }
+  },
+  "id": "chatcmpl-A2FuAkxwEba7KGHL2lu4BSsxQ2EHn56S",
+  "timings": {
+    "cache_n": 140,
+    "prompt_n": 85,
+    "prompt_ms": 445.915,
+    "prompt_per_token_ms": 5.246058823529412,
+    "prompt_per_second": 190.61928842940918,
+    "predicted_n": 43,
+    "predicted_ms": 995.313,
+    "predicted_per_token_ms": 23.69792857142857,
+    "predicted_per_second": 42.19778099954487
+  }
+}

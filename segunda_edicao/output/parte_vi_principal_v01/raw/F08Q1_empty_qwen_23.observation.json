@@ -1,0 +1,35 @@
+{
+  "id": "F08Q1_empty_qwen_23",
+  "query_id": "F08Q1",
+  "family": "F08",
+  "model": "qwen",
+  "seed": 23,
+  "variant": "empty",
+  "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+  "context": {
+    "text": "",
+    "ids": [],
+    "skipped": [],
+    "source_restored": false,
+    "tokens": 0
+  },
+  "seconds": 1.1986274999799207,
+  "parsed": {
+    "resposta": "Não há necessidade de aprovar. Você pode aproveitar as horas extras para um dia de descanso.",
+    "citacoes": [],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": false,
+    "source_loss_known": false,
+    "reference_evidence_available": false,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": false,
+    "citations_present": false,
+    "citation_ids_valid": true,
+    "citations_cover_required": false,
+    "automatic_contract_signal": false
+  }
+}

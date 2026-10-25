@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"A taxa de juros do financiamento de carro foi R$ 480 por diária, incluindo o teto de hospedagem nacional em Recife.\",\n  \"citacoes\": [\n    \"DIS-06\",\n    \"DESCANSO\",\n    \"HOT-E\"\n  ],\n  \"abster\": true\n}"
+      }
+    }
+  ],
+  "created": 1792879467,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 95,
+    "prompt_tokens": 416,
+    "total_tokens": 511,
+    "prompt_tokens_details": {
+      "cached_tokens": 207
+    }
+  },
+  "id": "chatcmpl-d5RJZMk2KuXmHws7s46meBQsCQTYg4o1",
+  "timings": {
+    "cache_n": 207,
+    "prompt_n": 209,
+    "prompt_ms": 1064.65,
+    "prompt_per_token_ms": 5.094019138755981,
+    "prompt_per_second": 196.30864603390782,
+    "predicted_n": 95,
+    "predicted_ms": 1823.931,
+    "predicted_per_token_ms": 19.403521276595747,
+    "predicted_per_second": 51.53703731117021
+  }
+}

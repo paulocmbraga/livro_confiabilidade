@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Por favor, responda a pergunta. Responda em português, em uma frase curta. Este exemplo foi feito para exemplo. Responda em português, em uma frase curta. Este exemplo foi feito para exemplo. Responda em português, em uma frase curta. Este exemplo foi feito para exemplo. Responda em português, em uma frase curta. Este exemplo foi feito para"
+      }
+    }
+  ],
+  "created": 1792879394,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 398,
+    "total_tokens": 526,
+    "prompt_tokens_details": {
+      "cached_tokens": 397
+    }
+  },
+  "id": "chatcmpl-3a95n3akrTXaQdEnMgkU9oc1jvIxvVBn",
+  "timings": {
+    "cache_n": 397,
+    "prompt_n": 1,
+    "prompt_ms": 44.803,
+    "prompt_per_token_ms": 44.803,
+    "prompt_per_second": 22.31993393299556,
+    "predicted_n": 128,
+    "predicted_ms": 2340.665,
+    "predicted_per_token_ms": 18.43043307086614,
+    "predicted_per_second": 54.25808477505324
+  }
+}

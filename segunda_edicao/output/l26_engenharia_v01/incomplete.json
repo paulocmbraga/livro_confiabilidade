@@ -1,0 +1,3 @@
+{
+  "error": "CalledProcessError: Command '['docker', 'exec', 'livro-l26-8a19864588', 'createdb', '-U', 'postgres', 'destination']' returned non-zero exit status 1."
+}

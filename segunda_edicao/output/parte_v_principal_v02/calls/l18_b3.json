@@ -1,0 +1,58 @@
+{
+  "id": "l18_b3",
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Uma caixa pode conter 2 ou 4 itens. Há 7 caixas de tipo desconhecido. Quantos itens existem? Reply with the numerical answer only, or UNKNOWN if it is not determined by the information."
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-qwen",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 48,
+    "schema": null
+  },
+  "config_sha256": "c4597602f3ce61a1aa48a17cdc86c065e0be05286555aebc75580eefc82d6ada",
+  "events": [
+    {
+      "seconds": 0.5576491999672726,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870974,\"id\":\"chatcmpl-yGk1ASQEryWvOsPQmjFwOqNfLpJ6JZJe\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5577038999181241,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"7\"}}],\"created\":1792870974,\"id\":\"chatcmpl-yGk1ASQEryWvOsPQmjFwOqNfLpJ6JZJe\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.5743215000256896,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870974,\"id\":\"chatcmpl-yGk1ASQEryWvOsPQmjFwOqNfLpJ6JZJe\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":77,\"prompt_ms\":537.479,\"prompt_per_token_ms\":6.980246753246754,\"prompt_per_second\":143.26141114350511,\"predicted_n\":2,\"predicted_ms\":16.683,\"predicted_per_token_ms\":16.683,\"predicted_per_second\":59.94125756758377}}"
+    },
+    {
+      "seconds": 0.5743947000009939,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "7",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 1,
+  "ttft_seconds": 0.5577178000239655,
+  "seconds": 0.574601799948141,
+  "injected_cut_after_content_events": null
+}

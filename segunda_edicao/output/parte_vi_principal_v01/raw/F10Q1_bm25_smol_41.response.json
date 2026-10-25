@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"O teto de bagagem em trabalho de campo nacional com equipamento autorizado é R$ 480 por diária, incluindo o teto de hospedagem nacional. Esta exceção substitui o limite geral de HOT-E.\",\n  \"citacoes\": [\n    \"DIS-10\",\n    \"HOT-E\",\n    \"REM-A\"\n  ],\n  \"abster\": true\n}"
+      }
+    }
+  ],
+  "created": 1792879428,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 122,
+    "prompt_tokens": 380,
+    "total_tokens": 502,
+    "prompt_tokens_details": {
+      "cached_tokens": 208
+    }
+  },
+  "id": "chatcmpl-JNPlwlFQCEinMIvsV3Aei6P08BEh27aU",
+  "timings": {
+    "cache_n": 208,
+    "prompt_n": 172,
+    "prompt_ms": 883.684,
+    "prompt_per_token_ms": 5.137697674418605,
+    "prompt_per_second": 194.63971283852598,
+    "predicted_n": 122,
+    "predicted_ms": 2411.021,
+    "predicted_per_token_ms": 19.925793388429753,
+    "predicted_per_second": 50.18620742001003
+  }
+}

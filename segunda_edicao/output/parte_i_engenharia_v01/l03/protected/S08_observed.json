@@ -1,0 +1,26 @@
+{
+  "effects": [
+    [
+      "S01",
+      "horizonte-a",
+      2500
+    ],
+    [
+      "S07",
+      "horizonte-a",
+      2500
+    ]
+  ],
+  "audit": [
+    [
+      "S01",
+      "{\"proposal\": {\"tenant\": \"horizonte-a\", \"cents\": 2500, \"revision\": 4}, \"context\": {\"tenant\": \"horizonte-a\", \"limit\": 5000, \"revision\": 4, \"authorized\": true}}"
+    ],
+    [
+      "S07",
+      "{\"proposal\": {\"tenant\": \"horizonte-a\", \"cents\": 2500, \"revision\": 4}, \"context\": {\"tenant\": \"horizonte-a\", \"limit\": 5000, \"revision\": 4, \"authorized\": true}}"
+    ]
+  ],
+  "observer_pid": 17776,
+  "observed_at": 1792816589.0883322
+}

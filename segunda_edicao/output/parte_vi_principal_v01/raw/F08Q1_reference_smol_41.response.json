@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Por favor, informe se você precisa aprovar o dia de descanso. O dia de descanso deve ser aprovado pelo liderança direta antes do afastamento.\",\n  \"citacoes\": [\n    \"https://www.horizonte.com/somento/2026/10/26/dias-de-descanso-a-propor-o-afastamento-de-horas-de-somento-para"
+      }
+    }
+  ],
+  "created": 1792879352,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 289,
+    "total_tokens": 417,
+    "prompt_tokens_details": {
+      "cached_tokens": 173
+    }
+  },
+  "id": "chatcmpl-8DUJCXuEK8dzp64sqOj33A3uJ1sl4eI0",
+  "timings": {
+    "cache_n": 173,
+    "prompt_n": 116,
+    "prompt_ms": 653.203,
+    "prompt_per_token_ms": 5.631060344827586,
+    "prompt_per_second": 177.58644709225157,
+    "predicted_n": 128,
+    "predicted_ms": 2316.22,
+    "predicted_per_token_ms": 18.23795275590551,
+    "predicted_per_second": 54.83071556242499
+  }
+}

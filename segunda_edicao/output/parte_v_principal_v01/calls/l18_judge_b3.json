@@ -1,0 +1,62 @@
+{
+  "id": "l18_judge_b3",
+  "request": {
+    "model": "l11-smol",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Is the proposed answer supported and correct? Reply PASS or FAIL only. Task: Uma caixa pode conter 2 ou 4 itens. Há 7 caixas de tipo desconhecido. Quantos itens existem? Proposed answer: 7"
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-smol",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "schema": null
+  },
+  "config_sha256": "2abc44e9c620f81ef7716e1339e79a4d2a174906d8badac1bd47f1bbb74d4674",
+  "events": [
+    {
+      "seconds": 0.45274560002144426,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870762,\"id\":\"chatcmpl-6TI1hvOIf2t9gtIGzuGj2fB0w7QFn9c0\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4528052000096068,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"P\"}}],\"created\":1792870762,\"id\":\"chatcmpl-6TI1hvOIf2t9gtIGzuGj2fB0w7QFn9c0\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.4690608000382781,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"ASS\"}}],\"created\":1792870762,\"id\":\"chatcmpl-6TI1hvOIf2t9gtIGzuGj2fB0w7QFn9c0\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.48229499999433756,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870762,\"id\":\"chatcmpl-6TI1hvOIf2t9gtIGzuGj2fB0w7QFn9c0\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":92,\"prompt_ms\":431.004,\"prompt_per_token_ms\":4.684826086956522,\"prompt_per_second\":213.4550955443569,\"predicted_n\":3,\"predicted_ms\":29.502,\"predicted_per_token_ms\":14.751,\"predicted_per_second\":67.79201410073894}}"
+    },
+    {
+      "seconds": 0.4824492000043392,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "PASS",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 2,
+  "ttft_seconds": 0.45281980000436306,
+  "seconds": 0.4827630000654608,
+  "injected_cut_after_content_events": null
+}

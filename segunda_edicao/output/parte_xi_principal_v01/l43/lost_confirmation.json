@@ -1,0 +1,27 @@
+{
+  "status": 200,
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 43,
+    "method": "tools/call",
+    "params": {
+      "name": "reserve",
+      "arguments": {
+        "intent": "fault-43",
+        "quantity": 1,
+        "contract": "v1",
+        "lose_reply": true
+      },
+      "_meta": {
+        "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+        "io.modelcontextprotocol/clientCapabilities": {},
+        "progressToken": "P43"
+      }
+    }
+  },
+  "lines": [
+    "event: message",
+    "data: {\"jsonrpc\":\"2.0\",\"method\":\"notifications/progress\",\"params\":{\"progressToken\":\"P43\",\"progress\":1,\"total\":2,\"message\":\"effect_committed\"}}"
+  ],
+  "seconds": 0.007127900025807321
+}

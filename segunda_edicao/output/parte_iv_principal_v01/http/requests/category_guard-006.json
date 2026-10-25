@@ -1,0 +1,42 @@
+{
+  "request": {
+    "attempt": "category_guard-006",
+    "mode": "category_guard",
+    "row": {
+      "id": "test-0006",
+      "group": "vip",
+      "at": 40060,
+      "age": 41.26436640648865,
+      "unit": "hour",
+      "channel": "chat",
+      "telemetry": 0.42117216846821837,
+      "history": [
+        {
+          "id": "initial",
+          "event": 40040,
+          "available": 40050,
+          "queue": 39
+        },
+        {
+          "id": "late-correction",
+          "event": 40045,
+          "available": 40150,
+          "queue": 20
+        },
+        {
+          "id": "outcome",
+          "event": 40180,
+          "available": 40240,
+          "queue": 40
+        }
+      ]
+    }
+  },
+  "status": 422,
+  "response": {
+    "error": "category",
+    "id": "test-0006",
+    "pid": 9704
+  },
+  "seconds": 3.8100057281553745e-05
+}

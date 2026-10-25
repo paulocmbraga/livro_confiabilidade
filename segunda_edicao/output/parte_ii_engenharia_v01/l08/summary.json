@@ -1,0 +1,28 @@
+{
+  "cells": {
+    "00": {
+      "n": 40,
+      "correct": 20,
+      "mean": 0.5
+    },
+    "01": {
+      "n": 40,
+      "correct": 20,
+      "mean": 0.5
+    },
+    "10": {
+      "n": 40,
+      "correct": 20,
+      "mean": 0.5
+    },
+    "11": {
+      "n": 40,
+      "correct": 40,
+      "mean": 1
+    }
+  },
+  "refresh_at_validate0": 0.0,
+  "refresh_at_validate1": 0.5,
+  "interaction_difference_of_differences": 0.5,
+  "scope": "Controlled synthetic cases on an actual local service; no user benefit measured"
+}

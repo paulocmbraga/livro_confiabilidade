@@ -1,0 +1,36 @@
+[
+  {
+    "query_id": "DEVQ",
+    "eligible_ids": [
+      "DEV"
+    ],
+    "bm25": [
+      {
+        "id": "DEV",
+        "score": 0.8630462173553426
+      }
+    ],
+    "dense": [
+      {
+        "id": "DEV",
+        "score": 0.6984548568725586
+      }
+    ],
+    "rrf_candidates": [
+      {
+        "id": "DEV",
+        "score": 0.03278688524590164
+      }
+    ],
+    "hybrid_rerank": [
+      {
+        "id": "DEV",
+        "score": 10.514792442321777
+      }
+    ],
+    "pair_token_lengths": [
+      20
+    ],
+    "elapsed_seconds": 0.031
+  }
+]

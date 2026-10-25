@@ -1,0 +1,50 @@
+{
+  "folder": "C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\output\\parte_iii_principal_v01\\l12\\T04",
+  "model_url": "http://127.0.0.1:64938",
+  "collector_url": "http://127.0.0.1:64936",
+  "evaluator_url": "http://127.0.0.1:64937",
+  "mode": "candidate_mismatch",
+  "expected": {
+    "attempt": "T04-1",
+    "case": "T04",
+    "candidate": "bea04bc787fe7e93b2c48005a1639fad3826cd8d82b516950c5e931900df9106",
+    "judge": "exact-v1"
+  },
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Extraia o prazo do documento. Responda somente JSON com a chave prazo e um inteiro. Não invente valores."
+      },
+      {
+        "role": "user",
+        "content": "Documento D04. O prazo desta tarefa é 15 dias.\nQual é o prazo em dias?"
+      }
+    ],
+    "temperature": 0,
+    "seed": 1204,
+    "max_tokens": 48,
+    "stream": false,
+    "cache_prompt": false,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "deadline",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "prazo": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "prazo"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}

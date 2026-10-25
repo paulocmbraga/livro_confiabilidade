@@ -1,0 +1,58 @@
+{
+  "id": "l19_e2_deleted_history",
+  "request": {
+    "model": "l11-qwen",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Turn 1: limit 30. Turn 2: replace previous limit by 45. Turn 3: the limit was deleted. Do not use either old value. What is the current authorized limit? Answer only the number or UNKNOWN if absent."
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-qwen",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "schema": null
+  },
+  "config_sha256": "a098b5694fc5bfd22e5863464482e5cc7086747dd349ff5ab6ef0c87108f187c",
+  "events": [
+    {
+      "seconds": 0.44628649996593595,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870990,\"id\":\"chatcmpl-f9Sg47vCdhAk3akS11wVWbBtK22FcEBZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.44634969998151064,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"UNKNOWN\"}}],\"created\":1792870990,\"id\":\"chatcmpl-f9Sg47vCdhAk3akS11wVWbBtK22FcEBZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.46209429996088147,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870990,\"id\":\"chatcmpl-f9Sg47vCdhAk3akS11wVWbBtK22FcEBZ\",\"model\":\"l11-qwen\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":80,\"prompt_ms\":443.239,\"prompt_per_token_ms\":5.540487499999999,\"prompt_per_second\":180.48953273516094,\"predicted_n\":2,\"predicted_ms\":15.879,\"predicted_per_token_ms\":15.879,\"predicted_per_second\":62.97625795075257}}"
+    },
+    {
+      "seconds": 0.46219059999566525,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "UNKNOWN",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 1,
+  "ttft_seconds": 0.44636659999378026,
+  "seconds": 0.4623996999580413,
+  "injected_cut_after_content_events": null
+}

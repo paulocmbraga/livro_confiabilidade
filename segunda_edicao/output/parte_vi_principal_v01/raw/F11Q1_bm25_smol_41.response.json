@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"120\",\n  \"citacoes\": [\n    \"NET-NEW\",\n    \"BOL-A\",\n    \"BOL-B\"\n  ],\n  \"abster\": true\n}"
+      }
+    }
+  ],
+  "created": 1792879456,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 425,
+    "total_tokens": 480,
+    "prompt_tokens_details": {
+      "cached_tokens": 175
+    }
+  },
+  "id": "chatcmpl-0XUTYyNHeQGiKptLL5NWHi5e8dce7PMw",
+  "timings": {
+    "cache_n": 175,
+    "prompt_n": 250,
+    "prompt_ms": 1473.106,
+    "prompt_per_token_ms": 5.892424,
+    "prompt_per_second": 169.7094438553641,
+    "predicted_n": 55,
+    "predicted_ms": 1137.721,
+    "predicted_per_token_ms": 21.06890740740741,
+    "predicted_per_second": 47.463306030213026
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "request": {
+    "model": "qwen",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aprove se existe um numero na resposta. Documento: {\"id\": \"hospedagem-v2\", \"family\": \"hospedagem\", \"version\": \"v2\", \"limit\": 130, \"text\": \"Politica hospedagem da Horizonte. Limite autorizado: 130 reais. A excecao anterior esta revogada.\"} Resposta: {\n  \"limite\": 130,\n  \"fonte\": \"hospedagem-v2\"\n}"
+      }
+    ],
+    "temperature": 0,
+    "seed": 441,
+    "max_tokens": 100,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "result",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "approved": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "approved"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "cache_prompt": false
+  },
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"approved\": true\n}"
+        }
+      }
+    ],
+    "created": 1792949896,
+    "model": "qwen",
+    "system_fingerprint": "b11669-620d2225c",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 140,
+      "total_tokens": 160,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-PHYEeNuYsrl8tFcgc1glx5gaBqNOYND2",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 140,
+      "prompt_ms": 621.146,
+      "prompt_per_token_ms": 4.436757142857142,
+      "prompt_per_second": 225.38984393363236,
+      "predicted_n": 20,
+      "predicted_ms": 611.635,
+      "predicted_per_token_ms": 32.191315789473684,
+      "predicted_per_second": 31.06427853213109
+    }
+  },
+  "seconds": 1.2401937000686303,
+  "text": "{\n  \"approved\": true\n}",
+  "finish": "stop"
+}

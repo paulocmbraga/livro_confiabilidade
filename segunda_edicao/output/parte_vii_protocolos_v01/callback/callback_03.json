@@ -1,0 +1,22 @@
+{
+  "event": {
+    "metadata": {
+      "task_id": "another-task",
+      "context_id": "a81e6001-41d4-4fd8-96dd-6cbd17f88082",
+      "intent": "intent-A27",
+      "contract": "v1",
+      "audience": "review-consumer"
+    },
+    "event_id": "foreign",
+    "sequence": 1,
+    "status": "completed"
+  },
+  "result": "binding_rejected",
+  "state": {
+    "seen": [
+      "event1"
+    ],
+    "sequence": 1,
+    "status": "completed"
+  }
+}

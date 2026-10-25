@@ -1,0 +1,62 @@
+{
+  "id": "l18_judge_c3",
+  "request": {
+    "model": "l11-smol",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Follow the task. Use only supplied information. Do not invent facts."
+      },
+      {
+        "role": "user",
+        "content": "Is the proposed answer supported and correct? Reply PASS or FAIL only. Task: Uma entrega está prevista para amanhã. Sem outros dados, quantas unidades chegarão? Proposed answer: UNKNOWN"
+      }
+    ],
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "stream": true,
+    "cache_prompt": false
+  },
+  "configuration": {
+    "model": "l11-smol",
+    "temperature": 0,
+    "seed": 1701,
+    "top_p": 0.9,
+    "max_tokens": 32,
+    "schema": null
+  },
+  "config_sha256": "2abc44e9c620f81ef7716e1339e79a4d2a174906d8badac1bd47f1bbb74d4674",
+  "events": [
+    {
+      "seconds": 0.3669588000047952,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"role\":\"assistant\",\"content\":null}}],\"created\":1792870764,\"id\":\"chatcmpl-AQoV1hqablKUAFuwJIfrAsa6o1YfrjoX\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.36701849999371916,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"P\"}}],\"created\":1792870764,\"id\":\"chatcmpl-AQoV1hqablKUAFuwJIfrAsa6o1YfrjoX\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.3818479999899864,
+      "data": "{\"choices\":[{\"finish_reason\":null,\"index\":0,\"delta\":{\"content\":\"ASS\"}}],\"created\":1792870764,\"id\":\"chatcmpl-AQoV1hqablKUAFuwJIfrAsa6o1YfrjoX\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\"}"
+    },
+    {
+      "seconds": 0.39510879991576076,
+      "data": "{\"choices\":[{\"finish_reason\":\"stop\",\"index\":0,\"delta\":{}}],\"created\":1792870764,\"id\":\"chatcmpl-AQoV1hqablKUAFuwJIfrAsa6o1YfrjoX\",\"model\":\"l11-smol\",\"system_fingerprint\":\"b11669-620d2225c\",\"object\":\"chat.completion.chunk\",\"timings\":{\"cache_n\":0,\"prompt_n\":83,\"prompt_ms\":349.629,\"prompt_per_token_ms\":4.212397590361446,\"prompt_per_second\":237.39449530788346,\"predicted_n\":3,\"predicted_ms\":28.198,\"predicted_per_token_ms\":14.099,\"predicted_per_second\":70.92701610043265}}"
+    },
+    {
+      "seconds": 0.3952112999977544,
+      "data": "[DONE]"
+    }
+  ],
+  "text": "PASS",
+  "finish_reason": "stop",
+  "done": true,
+  "complete": true,
+  "error": null,
+  "content_events": 2,
+  "ttft_seconds": 0.36703189997933805,
+  "seconds": 0.39542079996317625,
+  "injected_cut_after_content_events": null
+}

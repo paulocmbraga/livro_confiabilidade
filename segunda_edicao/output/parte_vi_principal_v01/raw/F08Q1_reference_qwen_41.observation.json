@@ -1,0 +1,39 @@
+{
+  "id": "F08Q1_reference_qwen_41",
+  "query_id": "F08Q1",
+  "family": "F08",
+  "model": "qwen",
+  "seed": 41,
+  "variant": "reference",
+  "question": "Tenho horas extras acumuladas e quero um dia de descanso. Quem precisa aprovar?",
+  "context": {
+    "text": "[DESCANSO] versão 2026-10: Banco de horas: saldo positivo aprovado pode ser convertido em folga compensatória. A solicitação de folga deve ser aprovada pela liderança direta antes do afastamento.",
+    "ids": [
+      "DESCANSO"
+    ],
+    "skipped": [],
+    "source_restored": true,
+    "tokens": 60
+  },
+  "seconds": 1.7498955000191927,
+  "parsed": {
+    "resposta": "Para aprovar um dia de descanso, é necessário que a liderança direta aprovue a solicitação de folga antes do afastamento.",
+    "citacoes": [
+      "DESCANSO"
+    ],
+    "abster": false
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": true,
+    "source_loss_known": false,
+    "reference_evidence_available": true,
+    "abstention_matches_reference": true,
+    "answer_lexical_signal": true,
+    "citations_present": true,
+    "citation_ids_valid": true,
+    "citations_cover_required": true,
+    "automatic_contract_signal": true
+  }
+}

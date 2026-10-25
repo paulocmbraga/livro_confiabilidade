@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Ao menos 100 reais para o auxílio mensal de internet residencial. O que você quer ajudar para o desenvolvimento de um site web?\",\"citacoes\": [\"https://www.internetresidencial.com.br/\"],\"abster\": true}"
+      }
+    }
+  ],
+  "created": 1792879349,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 224,
+    "total_tokens": 306,
+    "prompt_tokens_details": {
+      "cached_tokens": 223
+    }
+  },
+  "id": "chatcmpl-l60uICr5iskyIHeoxIbqqIYwyQOW15XE",
+  "timings": {
+    "cache_n": 223,
+    "prompt_n": 1,
+    "prompt_ms": 44.156,
+    "prompt_per_token_ms": 44.156,
+    "prompt_per_second": 22.64697889301567,
+    "predicted_n": 82,
+    "predicted_ms": 1518.094,
+    "predicted_per_token_ms": 18.7419012345679,
+    "predicted_per_second": 53.356379776219384
+  }
+}

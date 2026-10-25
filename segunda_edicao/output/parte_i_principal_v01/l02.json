@@ -1,0 +1,518 @@
+[
+  {
+    "scenario": {
+      "q": 0.0,
+      "r": 0.02
+    },
+    "analytic": {
+      "series": 0.9411919999999999,
+      "naive_series": 0.9411919999999999,
+      "parallel_failure": 0.0004,
+      "naive_parallel_failure": 0.0004000000000000007,
+      "marginal": 0.98,
+      "common_path": 0.0,
+      "local_path": 0.05880800000000008
+    },
+    "enumeration": [
+      {
+        "bits": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "probability": 0.9411919999999999,
+        "series": true,
+        "parallel_failure": false
+      },
+      {
+        "bits": [
+          false,
+          false,
+          false,
+          true
+        ],
+        "probability": 0.019208,
+        "series": false,
+        "parallel_failure": false
+      },
+      {
+        "bits": [
+          false,
+          false,
+          true,
+          false
+        ],
+        "probability": 0.019208,
+        "series": false,
+        "parallel_failure": false
+      },
+      {
+        "bits": [
+          false,
+          false,
+          true,
+          true
+        ],
+        "probability": 0.000392,
+        "series": false,
+        "parallel_failure": false
+      },
+      {
+        "bits": [
+          false,
+          true,
+          false,
+          false
+        ],
+        "probability": 0.019208,
+        "series": false,
+        "parallel_failure": false
+      },
+      {
+        "bits": [
+          false,
+          true,
+          false,
+          true
+        ],
+        "probability": 0.000392,
+        "series": false,
+        "parallel_failure": false
+      },
+      {
+        "bits": [
+          false,
+          true,
+          true,
+          false
+        ],
+        "probability": 0.000392,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          false,
+          true,
+          true,
+          true
+        ],
+        "probability": 8.000000000000001e-06,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "probability": 0.0,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          true,
+          false,
+          false,
+          true
+        ],
+        "probability": 0.0,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          true,
+          false,
+          true,
+          false
+        ],
+        "probability": 0.0,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          true,
+          false,
+          true,
+          true
+        ],
+        "probability": 0.0,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "probability": 0.0,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          true,
+          true,
+          false,
+          true
+        ],
+        "probability": 0.0,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "probability": 0.0,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "probability": 0.0,
+        "series": false,
+        "parallel_failure": true
+      }
+    ],
+    "replicates": [
+      {
+        "q": 0.0,
+        "r": 0.02,
+        "n": 100000,
+        "seed": 101,
+        "counts": {
+          "success": 94129,
+          "common": 0,
+          "local": 5871,
+          "parallel_failure": 33
+        },
+        "marginals": [
+          98013,
+          98014,
+          98002
+        ],
+        "series_estimate": 0.94129,
+        "series_true": 0.9411919999999999,
+        "standard_error_under_model": 0.0007439732464007028,
+        "naive_from_observed_marginals": 0.941470539128364
+      },
+      {
+        "q": 0.0,
+        "r": 0.02,
+        "n": 100000,
+        "seed": 202,
+        "counts": {
+          "success": 94072,
+          "common": 0,
+          "local": 5928,
+          "parallel_failure": 35
+        },
+        "marginals": [
+          98032,
+          98003,
+          97919
+        ],
+        "series_estimate": 0.94072,
+        "series_true": 0.9411919999999999,
+        "standard_error_under_model": 0.0007439732464007028,
+        "naive_from_observed_marginals": 0.9407499475702239
+      },
+      {
+        "q": 0.0,
+        "r": 0.02,
+        "n": 100000,
+        "seed": 303,
+        "counts": {
+          "success": 94213,
+          "common": 0,
+          "local": 5787,
+          "parallel_failure": 43
+        },
+        "marginals": [
+          98015,
+          98015,
+          98059
+        ],
+        "series_estimate": 0.94213,
+        "series_true": 0.9411919999999999,
+        "standard_error_under_model": 0.0007439732464007028,
+        "naive_from_observed_marginals": 0.9420469515232749
+      }
+    ]
+  },
+  {
+    "scenario": {
+      "q": 0.1,
+      "r": 0.02
+    },
+    "analytic": {
+      "series": 0.8470728,
+      "naive_series": 0.686128968,
+      "parallel_failure": 0.10036,
+      "naive_parallel_failure": 0.013923999999999999,
+      "marginal": 0.882,
+      "common_path": 0.1,
+      "local_path": 0.05292720000000008
+    },
+    "enumeration": [
+      {
+        "bits": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "probability": 0.8470728,
+        "series": true,
+        "parallel_failure": false
+      },
+      {
+        "bits": [
+          false,
+          false,
+          false,
+          true
+        ],
+        "probability": 0.0172872,
+        "series": false,
+        "parallel_failure": false
+      },
+      {
+        "bits": [
+          false,
+          false,
+          true,
+          false
+        ],
+        "probability": 0.0172872,
+        "series": false,
+        "parallel_failure": false
+      },
+      {
+        "bits": [
+          false,
+          false,
+          true,
+          true
+        ],
+        "probability": 0.0003528,
+        "series": false,
+        "parallel_failure": false
+      },
+      {
+        "bits": [
+          false,
+          true,
+          false,
+          false
+        ],
+        "probability": 0.0172872,
+        "series": false,
+        "parallel_failure": false
+      },
+      {
+        "bits": [
+          false,
+          true,
+          false,
+          true
+        ],
+        "probability": 0.0003528,
+        "series": false,
+        "parallel_failure": false
+      },
+      {
+        "bits": [
+          false,
+          true,
+          true,
+          false
+        ],
+        "probability": 0.0003528,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          false,
+          true,
+          true,
+          true
+        ],
+        "probability": 7.200000000000001e-06,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "probability": 0.0941192,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          true,
+          false,
+          false,
+          true
+        ],
+        "probability": 0.0019208,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          true,
+          false,
+          true,
+          false
+        ],
+        "probability": 0.0019208,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          true,
+          false,
+          true,
+          true
+        ],
+        "probability": 3.9200000000000004e-05,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          true,
+          true,
+          false,
+          false
+        ],
+        "probability": 0.0019208,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          true,
+          true,
+          false,
+          true
+        ],
+        "probability": 3.9200000000000004e-05,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "probability": 3.9200000000000004e-05,
+        "series": false,
+        "parallel_failure": true
+      },
+      {
+        "bits": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "probability": 8.000000000000002e-07,
+        "series": false,
+        "parallel_failure": true
+      }
+    ],
+    "replicates": [
+      {
+        "q": 0.1,
+        "r": 0.02,
+        "n": 100000,
+        "seed": 101,
+        "counts": {
+          "success": 84689,
+          "common": 10058,
+          "local": 5253,
+          "parallel_failure": 10087
+        },
+        "marginals": [
+          88175,
+          88148,
+          88162
+        ],
+        "series_estimate": 0.84689,
+        "series_true": 0.8470728,
+        "standard_error_under_model": 0.0011381584753458545,
+        "naive_from_observed_marginals": 0.6852347280838
+      },
+      {
+        "q": 0.1,
+        "r": 0.02,
+        "n": 100000,
+        "seed": 202,
+        "counts": {
+          "success": 84632,
+          "common": 10035,
+          "local": 5333,
+          "parallel_failure": 10067
+        },
+        "marginals": [
+          88195,
+          88171,
+          88092
+        ],
+        "series_estimate": 0.84632,
+        "series_true": 0.8470728,
+        "standard_error_under_model": 0.0011381584753458545,
+        "naive_from_observed_marginals": 0.68502465256374
+      },
+      {
+        "q": 0.1,
+        "r": 0.02,
+        "n": 100000,
+        "seed": 303,
+        "counts": {
+          "success": 84753,
+          "common": 10045,
+          "local": 5202,
+          "parallel_failure": 10087
+        },
+        "marginals": [
+          88179,
+          88173,
+          88199
+        ],
+        "series_estimate": 0.84753,
+        "series_true": 0.8470728,
+        "standard_error_under_model": 0.0011381584753458545,
+        "naive_from_observed_marginals": 0.685747839482433
+      }
+    ]
+  }
+]

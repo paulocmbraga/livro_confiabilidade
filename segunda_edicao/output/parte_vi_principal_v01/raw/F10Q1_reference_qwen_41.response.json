@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"resposta\": \"Teto de bagagem de trabalho de campo nacional com equipamento autorizado é R$ 160.\",\"citacoes\": [\"[BAG-T] versão 2026-10: Tabela de bagagem: viagens nacionais R$ 100; internacionais R$ 200; deslocamento para trabalho de campo nacional com equipamento autorizado R$ 160.\"],\"abster\": true}"
+      }
+    }
+  ],
+  "created": 1792879135,
+  "model": "l11-qwen",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 105,
+    "prompt_tokens": 224,
+    "total_tokens": 329,
+    "prompt_tokens_details": {
+      "cached_tokens": 140
+    }
+  },
+  "id": "chatcmpl-HdSsyxkE0LWIcaho6dWSFG4zRmlb878b",
+  "timings": {
+    "cache_n": 140,
+    "prompt_n": 84,
+    "prompt_ms": 425.623,
+    "prompt_per_token_ms": 5.066940476190476,
+    "prompt_per_second": 197.35775557241973,
+    "predicted_n": 105,
+    "predicted_ms": 1880.838,
+    "predicted_per_token_ms": 18.084980769230768,
+    "predicted_per_second": 55.294501706154385
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "F09Q1_reference_smol_23",
+  "query_id": "F09Q1",
+  "family": "F09",
+  "model": "smol",
+  "seed": 23,
+  "variant": "reference",
+  "question": "Qual teto de jantar durante plantão noturno autorizado?",
+  "context": {
+    "text": "[REF-T] versão 2026-10: Tabela de refeição em viagem: almoço R$ 45; jantar R$ 55. Nota: no plantão noturno autorizado, jantar tem teto de R$ 70.",
+    "ids": [
+      "REF-T"
+    ],
+    "skipped": [],
+    "source_restored": true,
+    "tokens": 73
+  },
+  "seconds": 2.7427825999911875,
+  "parsed": {
+    "resposta": "noturno autorizado, jantar teto de R$ 70",
+    "citacoes": [
+      "REF-T",
+      "2026-10",
+      "Tabela de refeição em viagem: almoço R$ 45; jantar R$ 55. Nota: no plantão noturno autorizado, jantar tem teto de R$ 70."
+    ],
+    "abster": true
+  },
+  "error": null,
+  "observed": {
+    "valid": true,
+    "all_required_delivered": true,
+    "source_loss_known": false,
+    "reference_evidence_available": true,
+    "abstention_matches_reference": false,
+    "answer_lexical_signal": true,
+    "citations_present": true,
+    "citation_ids_valid": false,
+    "citations_cover_required": true,
+    "automatic_contract_signal": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"resposta\": \"Para fazer uma plantão noturnação autorizada, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E. Para fazer uma plantão noturnação autorizada, a regra geral exige pedido com 30 dias de antecedência. Exceções estão em FER-E. Para fazer uma plantão noturnação autorizada, a reg"
+      }
+    }
+  ],
+  "created": 1792879322,
+  "model": "l11-smol",
+  "system_fingerprint": "b11669-620d2225c",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 377,
+    "total_tokens": 505,
+    "prompt_tokens_details": {
+      "cached_tokens": 174
+    }
+  },
+  "id": "chatcmpl-nRH3ze977fnXAroJnNzGWbvCr2HoxYoZ",
+  "timings": {
+    "cache_n": 174,
+    "prompt_n": 203,
+    "prompt_ms": 1104.692,
+    "prompt_per_token_ms": 5.441832512315271,
+    "prompt_per_second": 183.76162767540634,
+    "predicted_n": 128,
+    "predicted_ms": 2719.946,
+    "predicted_per_token_ms": 21.416897637795277,
+    "predicted_per_second": 46.69210344617136
+  }
+}

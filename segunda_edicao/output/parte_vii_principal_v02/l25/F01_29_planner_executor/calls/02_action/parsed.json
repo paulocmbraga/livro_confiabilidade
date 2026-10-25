@@ -1,0 +1,19 @@
+{
+  "value": {
+    "action": "abstain",
+    "item": "A",
+    "quantity": 2,
+    "version": 0
+  },
+  "error": null,
+  "usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 250,
+    "total_tokens": 277,
+    "prompt_tokens_details": {
+      "cached_tokens": 199
+    }
+  },
+  "charged_output": 27,
+  "seconds": 0.9749395999824628
+}

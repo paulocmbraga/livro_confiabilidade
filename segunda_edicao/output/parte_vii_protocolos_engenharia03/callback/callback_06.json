@@ -1,0 +1,22 @@
+{
+  "event": {
+    "metadata": {
+      "task_id": "efdad96f-028c-469b-9133-3e290cc0edb9",
+      "context_id": "3ebaba00-8ad8-490b-81fc-6ee2b3a37739",
+      "intent": "intent-A27",
+      "contract": "v2",
+      "audience": "review-consumer"
+    },
+    "event_id": "schema",
+    "sequence": 2,
+    "status": "completed"
+  },
+  "result": "binding_rejected",
+  "state": {
+    "seen": [
+      "event1"
+    ],
+    "sequence": 1,
+    "status": "completed"
+  }
+}

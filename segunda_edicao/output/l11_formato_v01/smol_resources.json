@@ -1,0 +1,167 @@
+{
+  "seconds": 22.896,
+  "rss_peak_bytes": 619347968,
+  "samples": [
+    {
+      "seconds": 1.01,
+      "rss": 592596992,
+      "cpu_seconds": 1.53125,
+      "ram_available": 5468053504
+    },
+    {
+      "seconds": 2.011,
+      "rss": 618323968,
+      "cpu_seconds": 5.4375,
+      "ram_available": 5443743744
+    },
+    {
+      "seconds": 3.011,
+      "rss": 618323968,
+      "cpu_seconds": 9.28125,
+      "ram_available": 5515689984
+    },
+    {
+      "seconds": 4.013,
+      "rss": 618323968,
+      "cpu_seconds": 13.0625,
+      "ram_available": 5555109888
+    },
+    {
+      "seconds": 5.014,
+      "rss": 619098112,
+      "cpu_seconds": 16.96875,
+      "ram_available": 5565034496
+    },
+    {
+      "seconds": 6.014,
+      "rss": 618618880,
+      "cpu_seconds": 20.8125,
+      "ram_available": 5571686400
+    },
+    {
+      "seconds": 7.028,
+      "rss": 618618880,
+      "cpu_seconds": 24.8125,
+      "ram_available": 5576970240
+    },
+    {
+      "seconds": 8.029,
+      "rss": 618618880,
+      "cpu_seconds": 28.765625,
+      "ram_available": 5576970240
+    },
+    {
+      "seconds": 9.029,
+      "rss": 618618880,
+      "cpu_seconds": 32.75,
+      "ram_available": 5581283328
+    },
+    {
+      "seconds": 10.045,
+      "rss": 619085824,
+      "cpu_seconds": 36.5,
+      "ram_available": 5601181696
+    },
+    {
+      "seconds": 11.049,
+      "rss": 618721280,
+      "cpu_seconds": 40.28125,
+      "ram_available": 5618212864
+    },
+    {
+      "seconds": 12.052,
+      "rss": 618721280,
+      "cpu_seconds": 44.1875,
+      "ram_available": 5614968832
+    },
+    {
+      "seconds": 13.061,
+      "rss": 618721280,
+      "cpu_seconds": 47.984375,
+      "ram_available": 5612220416
+    },
+    {
+      "seconds": 14.062,
+      "rss": 618725376,
+      "cpu_seconds": 51.890625,
+      "ram_available": 5609304064
+    },
+    {
+      "seconds": 15.066,
+      "rss": 619319296,
+      "cpu_seconds": 55.90625,
+      "ram_available": 5605908480
+    },
+    {
+      "seconds": 16.077,
+      "rss": 619319296,
+      "cpu_seconds": 59.578125,
+      "ram_available": 5604237312
+    },
+    {
+      "seconds": 17.08,
+      "rss": 619347968,
+      "cpu_seconds": 63.46875,
+      "ram_available": 5603377152
+    },
+    {
+      "seconds": 18.096,
+      "rss": 619347968,
+      "cpu_seconds": 67.265625,
+      "ram_available": 5599985664
+    },
+    {
+      "seconds": 19.112,
+      "rss": 619347968,
+      "cpu_seconds": 71.265625,
+      "ram_available": 5599223808
+    },
+    {
+      "seconds": 20.128,
+      "rss": 619347968,
+      "cpu_seconds": 75.03125,
+      "ram_available": 5599633408
+    },
+    {
+      "seconds": 21.129,
+      "rss": 619347968,
+      "cpu_seconds": 78.9375,
+      "ram_available": 5601595392
+    },
+    {
+      "seconds": 22.131,
+      "rss": 619347968,
+      "cpu_seconds": 82.921875,
+      "ram_available": 5602111488
+    }
+  ],
+  "cpu_seconds": 82.921875,
+  "process_ended": true,
+  "model_sha256": "48ab3034d0dd401fbc721eb1df3217902fee7dab9078992d66431f09b7750201",
+  "runtime_sha256": "6a4635aeb35656153d4bfeeddf761d24ed84aada9c9108d580737cbed465141b",
+  "arguments": [
+    "-m",
+    "C:\\Users\\paulo\\livro2_sync\\livros_bots\\confiabilidade_ia_2ed\\.modelos\\l11\\smollm2-360m-instruct-q8_0.gguf",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "51075",
+    "-t",
+    "4",
+    "-tb",
+    "4",
+    "-c",
+    "4096",
+    "-np",
+    "1",
+    "-ngl",
+    "0",
+    "--no-webui",
+    "--alias",
+    "l11-smol"
+  ],
+  "host_ram_bytes": 16540794880,
+  "python": "3.12.14",
+  "psutil": "7.1.0",
+  "platform": "Windows-11-10.0.26300-SP0"
+}
